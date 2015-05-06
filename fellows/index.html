@@ -42,7 +42,7 @@ layout: default
 	</div>
 	<div class="row" id="fellow">
 		{% for pif in site.data.pifs %}
-			<div class="fellow 2014 {{ pif.region }} {% for skill in pif.skills %}{{ skill }} {% endfor %} col-sm-3 col-xs-6" data-toggle="modal" data-target="#fellow-modal">
+			<div class="fellow 2014 {{ pif.region }} {% for skill in pif.skills %}{{ skill }} {% endfor %} col-sm-3 col-xs-6" data-toggle="modal" data-target="#{{ pif.id }}-modal">
 				<div class="fellow-headshot {{ pif.id }}">
 					<div class="fellow-info text-center hidden-sm hidden-xs">
 						<h3>{{ pif.name }}</h3>
@@ -52,44 +52,109 @@ layout: default
 				</div>
 			</div>
 
+			<!-- modal -->
+			<div class="modal fade fellow-modal" id="{{ pif.id }}-modal" tabindex="-1" role="dialog" aria-labelledby="{{ pif.id }}-label" aria-hidden="true">
+			  <div class="modal-dialog">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			        <h4 class="modal-title" id="{{ pif.id }}-label"><strong>Biographical Details</strong></h4>
+			      </div>
+			      <div class="modal-body">
+			      	<div class="container-fluid">
+			      		<div class="row">
+			      			<div class="col-md-5">
+			      				<img src="/images/{{ pif.class }}/{{ pif.img }}" class="img-responsive">
+			      			</div>
+			      			<div class="col-md-7">
+			      				<h4><strong>{{ pif.name }}</strong><br/><small><em>{{ pif.hometown }}</em></small></h4>
+			      				<h5>Class of {{ pif.class }}</h5>
+			      				<p>{{ pif.bio }}</p>
+			      			</div>
+			      		</div>
+			      		<br/>
+			      		<div class="row">
+			      			<div class="col-md-2">
+			      				<p class="text-right"><strong>SKILLS:</strong></p>
+			      			</div>
+			      			<div class="col-md-10">
+			      				<p id="fellow-skills">
+			      					{% for skill in pif.skills %}
+			      						{% case skill %}
+
+	      								{% when 'front' or 'data' or 'back' %}
+		      								<span class="label label-primary">
+		      									{% if skill == 'front' %}
+		      										Front End Dev
+		      									{% elsif skill == 'back' %}
+		      										Back End Dev
+		      									{% else %}
+		      										Data Visualization
+		      									{% endif %}
+		      								</span>
+		      							{% when 'digital' or 'policy' %}
+		      								<span class="label label-warning">
+		      									{% if skill == 'digital' %}
+		      										Digital Strategy
+		      									{% else %}
+		      										Policy &amp; Legislation
+		      									{% endif %}
+		      								</span>
+		      							{% when 'comms' or 'bd' %}
+		      								<span class="label label-success">
+		      									{% if skill == 'comms' %}
+		      										Marketing &amp; Communications
+		      									{% else %}
+		      										Business Development
+		      									{% endif %}
+		      								</span>
+		      							{% when 'ux' or 'product' %}
+		      								<span class="label label-info">
+		      									{% if skill == 'ux' %}
+		      										User Experience
+		      									{% else %}
+		      										Product Management
+		      									{% endif %}
+		      								</span>
+		      							{% when 'cyber' %}
+		      								<span class="label label-danger">
+		      									Cyber Security
+		      								</span>
+			      						{% endcase %}
+			      					{% endfor %}
+			      				</p>
+			      			</div>
+			      		</div>
+			      		<div class="row">
+			      			<div class="col-md-2">
+			      				<p class="text-right"><strong>PROJECT(S):</strong></p>
+			      			</div>
+			      			<div class="col-md-10">
+			      				<ul id="fellow-projects">
+			      					{% for project in pif.projects %}
+			      						<li>{{ project.agency }} <i class="fa fa-caret-right"></i> {{ project.title }}</li>
+			      					{% endfor %}
+			      				</ul>
+			      			</div>
+			      		</div>
+			      		<div class="row">
+			      			<div class="col-md-2">
+			      				<p class="text-right"><strong>AGENCIES:</strong></p>
+			      			</div>
+			      			<div class="col-md-10">
+			      				{% for agency in pif.agencies %}
+			      					<img src="/images/agencies/{{ agency }}.png">
+			      				{% endfor %}
+			      			</div>
+			      		</div>
+			      	</div>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+
 			
 		{% endfor %}
 	</div>
 </div>
 
-<!-- modal -->
-<div class="modal fade" id="fellow-modal" tabindex="-1" role="dialog" aria-labelledby="fellow-label" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="fellow-label"><strong>Fellow Biography Details</strong></h4>
-      </div>
-      <div class="modal-body">
-      	<div class="container-fluid">
-      		<div class="row">
-      			<div class="col-md-5">
-      				<img src="/images/2014/steremberg-alan-headshot.png" class="img-responsive">
-      			</div>
-      			<div class="col-md-7">
-      				<h4>Alan Steremberg</h4>
-      				<h5>Class of 2014<br/>Fairfield, CT</h5>
-      				<p>Some 140 character statement about him and Weather Underground, using big data for good. I'm just adding characters now to get to 140 charac</p>
-      			</div>
-      		</div>
-      		<br/>
-      		<div class="row">
-      			<div class="col-md-12">
-      				<p id="fellow-skills"><strong>Skills:</strong> <span class="label label-primary">Front End Dev</span> <span class="label label-primary">Data Analytics</span> <span class="label label-info">Product Management</span> <span class="label label-info">User Experience</span> <span class="label label-success">Business Development</span> <span class="label label-primary">Back End Dev</span></p>
-      			</div>
-      		</div>
-      		<div class="row">
-      			<div class="col-md-12">
-      				<p id="fellow-projects"><strong>Project(s):</strong> Big Data Partnership (NOAA)</p>
-      			</div>
-      		</div>
-      	</div>
-      </div>
-    </div>
-  </div>
-</div>

@@ -410,16 +410,44 @@ body{
   }
 }
 
-#fellow-modal{
+.fellow-modal{
+  .modal-body{
+    margin-bottom:25px;
+  }
+  .col-md-2{
+    padding-right:0px;
+  }
+  .col-md-10{
+    padding-left:10px;
+  }
   img{
     padding-top:10px;
   }
+  .modal-title{
+    margin-top:0px;
+  }
+  h4{
+    margin-top:20px;
+    line-height:1em;
+  }
+  h5{
+    line-height:1.3em;
+  }
   #fellow-skills{
-    line-height:1.7em;
+    line-height:1.9em;
     .label{
+      padding: 5px;
       font-size:90%;
-      margin-bottom:5px;
+      margin-right:5px;
     }
+  }
+  ul{
+    list-style-type:none;
+    padding-left:0px;
+  }
+  i{
+    margin-left:5px;
+    margin-right:5px;
   }
 }
 
@@ -644,8 +672,8 @@ body{
 .villas-raphael{
   background-image:url('/images/2013/villas-raphael-headshot.png');
 }
-.william-ben{
-  background-image:url('/images/leadership/william-ben-headshot.png');
+.willman-ben{
+  background-image:url('/images/leadership/willman-ben-headshot.png');
 }
 .worthington-charles{
   background-image:url('/images/2013/worthington-charles-headshot.png');
