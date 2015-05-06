@@ -1,0 +1,12 @@
+# Site settings
+title: Presidential Innovation Fellows
+email: pif@gsa.gov
+description: > # this means to ignore newlines until "baseurl:"
+  The Presidential Innovation Fellows program brings the principles, values, and practices of the innovation economy into government through the most effective agents of change we know: our people.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://localhost:4000" # the base hostname & protocol for your site
+# twitter_username: jekyllrb
+# github_username:  jekyll
+
+# Build settings
+markdown: kramdown

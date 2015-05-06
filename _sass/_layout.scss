@@ -1,0 +1,1118 @@
+$gray-darker:            lighten(#000, 13.5%) !default; // #222
+$gray-dark:              lighten(#000, 20%) !default;   // #333
+$gray:                   lighten(#000, 33.5%) !default; // #555
+$gray-light:             lighten(#000, 60%) !default;   // #999
+$gray-lighter:           lighten(#000, 93.5%) !default; // #eee
+
+@font-face{
+  font-family: 'Avenir Light';
+  src: url('/fonts/AvenirLTStd-Light.eot');
+  src: url('/fonts/AvenirLTStd-Light.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/AvenirLTStd-Light.svg#webfont') format('svg'),
+  url('/fonts/AvenirLTStd-Light.woff') format('woff'),
+  url('/fonts/AvenirLTStd-Light.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+
+@font-face{
+  font-family: 'Avenir Medium';
+  src: url('/fonts/AvenirLTStd-Medium.eot');
+  src: url('/fonts/AvenirLTStd-Medium.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/AvenirLTStd-Medium.svg#webfont') format('svg'),
+  url('/fonts/AvenirLTStd-Medium.woff') format('woff'),
+  url('/fonts/AvenirLTStd-Medium.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+
+@font-face{
+  font-family: 'Avenir Heavy';
+  src: url('/fonts/AvenirLTStd-Heavy.eot');
+  src: url('/fonts/AvenirLTStd-Heavy.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/AvenirLTStd-Heavy.svg#webfont') format('svg'),
+  url('/fonts/AvenirLTStd-Heavy.woff') format('woff'),
+  url('/fonts/AvenirLTStd-Heavy.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+
+html{
+  position:relative;
+  min-height:100%;
+}
+
+body{
+  font-family:'Avenir Light';
+  strong{
+    font-family:'Avenir Medium';
+  }
+  h1{
+    font-size:3.7em;
+  }
+  h2{
+    font-size:3.1em;
+  }
+  h3{
+    font-family:'Avenir Heavy';
+    font-size:2.1em;
+    padding-bottom:20px;
+    color:$gray;
+  }
+  h4{
+    font-size:1.6em;
+    line-height:30px;
+  }
+  h5{
+    font-size:1.3em;
+    line-height:28px;
+    color:$gray-dark;
+  }
+}
+
+
+/**
+ * Site header
+ */
+ .site-header {
+  border-top: 5px solid $grey-color-dark;
+  border-bottom: 1px solid $grey-color-light;
+  min-height: 56px;
+
+  // Positioning context for the mobile navigation icon
+  position: relative;
+}
+
+.site-title {
+  font-size: 26px;
+  line-height: 56px;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+  float: left;
+
+  &,
+  &:visited {
+    color: $grey-color-dark;
+  }
+}
+
+.site-nav {
+  float: right;
+  line-height: 56px;
+
+  .menu-icon {
+    display: none;
+  }
+
+  .page-link {
+    color: $text-color;
+    line-height: $base-line-height;
+
+    // Gaps between nav items, but not on the first one
+    &:not(:first-child) {
+      margin-left: 20px;
+    }
+  }
+
+  @include media-query($on-palm) {
+    position: absolute;
+    top: 9px;
+    right: 30px;
+    background-color: $background-color;
+    border: 1px solid $grey-color-light;
+    border-radius: 5px;
+    text-align: right;
+
+    .menu-icon {
+      display: block;
+      float: right;
+      width: 36px;
+      height: 26px;
+      line-height: 0;
+      padding-top: 10px;
+      text-align: center;
+
+      > svg {
+        width: 18px;
+        height: 15px;
+
+        path {
+          fill: $grey-color-dark;
+        }
+      }
+    }
+
+    .trigger {
+      clear: both;
+      display: none;
+    }
+
+    &:hover .trigger {
+      display: block;
+      padding-bottom: 5px;
+    }
+
+    .page-link {
+      display: block;
+      padding: 5px 10px;
+    }
+  }
+}
+
+
+// HEADER
+.navbar{
+  background-color:transparent;
+  border-color:transparent;
+  .navbar-brand{
+    font-size:1em;
+    padding-top:15px;
+  }
+  .btn{
+    font-size:1.5em;
+    letter-spacing:1px;
+  }
+  .navbar-btn{
+    margin-top:19px;
+    margin-left:20px;
+  }
+  h4{
+    color:$gray-lighter;
+  }
+  .nav{
+    h4{
+      letter-spacing:2px;
+    }
+  }
+}
+.nav-bg{
+  background-color:#3C547C;
+  border-color:#2D3D59;
+  transition:0.25s;
+}
+
+// FOOTER
+#footer{
+  bottom:0px;
+  position:absolute;
+  width:100%;
+  padding-bottom:75px;
+  background-color:#3C547C;
+  #footer-text{
+    margin-top:50px;
+  }
+  ul{
+    list-style-type: none;
+    padding-left:0px;
+    li{
+      h4{
+        color:$gray-lighter;
+      }
+      a{
+        color:$gray-lighter;
+        &:hover, &:focus{
+          text-decoration:none;
+        }
+      }
+    }
+  }
+  img{
+    display:block;
+  }
+}
+
+// GENERAL
+#cta{
+  background-color:#D8D8D8;
+  padding-top:10px;
+  padding-bottom:5px;
+  .btn-lg{
+    font-size:.7em;
+    margin-left:10px;
+  }
+}
+
+// HOME
+#home-hero{
+  background-image:url('/images/pif-hero.png');
+  background-attachment:scroll;
+  background-repeat:no-repeat;
+  background-position:center 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  h1{
+    color:$gray-lighter;
+    padding-bottom:125px;
+  }
+}
+#home-cta{
+  margin-top:-28px;
+  .btn{
+    font-size:2.1em;
+    letter-spacing:1px;
+    padding:10px 15px;
+  }
+
+}
+#home{
+  #mission{
+    padding-top:25px;
+    padding-bottom:50px;
+    h4{
+      padding-top:10px;
+    }
+    #president-seal{
+      height:150px;
+    }
+  }
+  #process{
+    padding-top:50px;
+    padding-bottom:75px;
+    background-color:#C8E2F5;
+  }
+  #map{
+    padding-top:50px;
+    padding-bottom:75px;
+    #map-stats{
+      h3{
+        padding-bottom:0px;
+        margin-bottom:0px;
+      }
+      h4{
+        margin-top:0px;
+      }
+    }
+  }
+  #pif-preview{
+    .carousel{
+      height:225px;
+    }
+    .carousel-control{
+      color:$gray-darker;
+      top:15%;
+    }
+    .carousel-indicators{
+      bottom:0px;
+    }
+    .carousel-indicators li {
+      border:1px solid $gray-dark;
+    }
+    .carousel-indicators .active{
+      background-color:$gray-dark;
+    }
+    .carousel-control.right, .carousel-control.left{
+      background-image:none;
+    }
+    #carousel-bio{
+      border-left-style:solid;
+      border-left-width: 1px;
+      border-left-color:$gray-darker;
+    }
+  }
+  hr{
+    width:80%;
+  }
+  #project-preview{
+    padding-bottom:125px;
+    .panel{
+      min-height:350px;
+    }
+  }
+}
+
+// OTHER PAGES
+#hero{
+  margin-top:81px;
+  padding-top:50px;
+  padding-bottom:50px;
+  background-color:#D8D8D8;
+}
+
+// ABOUT
+#about{
+  padding-top:50px;
+  padding-bottom:75px;
+}
+
+// FELLOWS
+#fellows{
+  padding-top:50px;
+  padding-bottom:75px;
+  #filters{
+    padding-bottom:75px;
+    button{
+      margin-bottom:5px;
+    }
+    h4{
+      margin-bottom:0px;
+    }
+    hr{
+      margin-top:0px;
+      margin-bottom:10px;
+    }
+  }
+  .row.fellow{
+    margin-left:0;
+    margin-right:0;
+  }
+  .fellow{
+    padding-bottom:15px;
+    .fellow-headshot{
+      position:relative;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+
+      -webkit-transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      -o-transition: all 0.4s ease-in-out;
+      -ms-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out;
+    }
+    .fellow-info{
+      position:absolute;
+      background: rgba(92,92,92,0.75);
+      width:inherit;
+      height:inherit;
+      border-radius:50%;
+      opacity:0;
+      
+      -webkit-transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      -o-transition: all 0.4s ease-in-out;
+      -ms-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out;
+      
+      -webkit-transform: scale(0);
+      -moz-transform: scale(0);
+      -o-transform: scale(0);
+      -ms-transform: scale(0);
+      transform: scale(0);
+      
+      -webkit-backface-visibility: hidden;
+    }
+    &:hover{
+      .fellow-info{
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -o-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+        p{
+          opacity:1;
+        }
+      }
+    }
+  }
+}
+
+#fellow-modal{
+  img{
+    padding-top:10px;
+  }
+  #fellow-skills{
+    line-height:1.7em;
+    .label{
+      font-size:90%;
+      margin-bottom:5px;
+    }
+  }
+}
+
+.brooks-sarah{
+  background-image:url('/images/2014/brooks-sarah-headshot.png');
+}
+.chen-jeff{
+  background-image:url('/images/2014/chen-jeff-headshot.png');
+}
+.daggett-chris{
+  background-image:url('/images/2014/daggett-chris-headshot.png');
+}
+.getson-ben{
+  background-image:url('/images/2014/getson-ben-headshot.png');
+}
+.goranson-christopher{
+  position:absolute;
+  background: rgba(92,92,92,0.25);
+  width:inherit;
+  height:inherit;
+  border-radius:50%;
+}
+.gordon-rachel{
+  background-image:url('/images/2014/gordon-rachel-headshot.png');
+}
+.grandison-tyrone{
+  background-image:url('/images/2014/grandison-tyrone-headshot.png');
+}
+.hansen-maia{
+  background-image:url('/images/2014/hansen-maia-headshot.png');
+}
+.hammer-dan{
+  background-image:url('/images/2014/hammer-dan-headshot.png');
+}
+.ippolito-andrea{
+  background-image:url('/images/2014/ippolito-andrea-headshot.png');
+}
+.jablow-ashley{
+  background-image:url('/images/2014/jablow-ashley-headshot.png');
+}
+.jones-timothy{
+  background-image:url('/images/2014/jones-timothy-headshot.png');
+}
+.kim-julia{
+  position:absolute;
+  background: rgba(92,92,92,0.25);
+  width:inherit;
+  height:inherit;
+  border-radius:50%;
+}
+.kalafarski-ej{
+  background-image:url('/images/2014/kalafarski-ej-headshot.png');
+}
+.maron-mikel{
+  background-image:url('/images/2014/maron-mikel-headshot.png');
+}
+.meisel-jeff{
+  background-image:url('/images/2014/meisel-jeff-headshot.png');
+}
+.naffis-david{
+  background-image:url('/images/2014/naffis-david-headshot.png');
+}
+.raub-susannah{
+  background-image:url('/images/2014/raub-susannah-headshot.png');
+}
+.ross-denice{
+  background-image:url('/images/2014/ross-denice-headshot.png');
+}
+.shanley-lea{
+  background-image:url('/images/2014/shanley-lea-headshot.png');
+}
+.so-bosco{
+  background-image:url('/images/2014/so-bosco-headshot.png');
+}
+.sosinski-robert{
+  background-image:url('/images/2014/sosinski-robert-headshot.png');
+}
+.steremberg-alan{
+  background-image:url('/images/2014/steremberg-alan-headshot.png');
+}
+.sunthara-gaj{
+  background-image:url('/images/2014/sunthara-gaj-headshot.png');
+}
+.wardell-clarence{
+  background-image:url('/images/2014/wardell-clarence-headshot.png');
+}
+.winn-julia{
+  background-image:url('/images/2014/winn-julia-headshot.png');
+}
+.wong-christopher{
+  background-image:url('/images/2014/wong-christopher-headshot.png');
+}
+.allen-sarah{
+  background-image:url('/images/2013/allen-sarah-headshot.png');
+}
+.baker-rob{
+  background-image:url('/images/2013/baker-rob-headshot.png');
+}
+.black-tom{
+  background-image:url('/images/2013/black-tom-headshot.png');
+}
+.caraway-david{
+  background-image:url('/images/2013/caraway-david-headshot.png');
+}
+.cairns-chris{
+  background-image:url('/images/2013/cairns-chris-headshot.png');
+}
+.dole-adam{
+  background-image:url('/images/2013/dole-adam-headshot.png');
+}
+.felleman-john{
+  background-image:url('/images/2013/felleman-john-headshot.png');
+}
+.frempong-derek{
+  position:absolute;
+  background: rgba(92,92,92,0.25);
+  width:inherit;
+  height:inherit;
+  border-radius:50%;
+}
+.godbout-greg{
+  background-image:url('/images/2013/godbout-greg-headshot.png');
+}
+.givens-garren{
+  background-image:url('/images/leadership/givens-garren-headshot.png');
+}
+.grevich-justin{
+  background-image:url('/images/2013/grevich-justin-headshot.png');
+}
+.hartley-hillary{
+  background-image:url('/images/2013/hartley-hillary-headshot.png');
+}
+.hartley-scott{
+  background-image:url('/images/2013/hartley-scott-headshot.png');
+}
+.herron-sean{
+  background-image:url('/images/2013/herron-sean-headshot.png');
+}
+.hertzfeld-michelle{
+  background-image:url('/images/2013/hertzfeld-michelle-headshot.png');
+}
+.holroyd-claire{
+  background-image:url('/images/2013/holroyd-claire-headshot.png');
+}
+.jain-nayan{
+  background-image:url('/images/2013/jain-nayan-headshot.png');
+}
+.kazil-jacqueline{
+  background-image:url('/images/2013/kazil-jacqueline-headshot.png');
+}
+.kemp-john{
+  position:absolute;
+  background: rgba(92,92,92,0.25);
+  width:inherit;
+  height:inherit;
+  border-radius:50%;
+}
+.lane-kin{
+  background-image:url('/images/2013/lane-kin-headshot.png');
+}
+.maneri-akred-erin{
+  background-image:url('/images/2013/maneri-akred-erin-headshot.png');
+}
+.mayer-cantu-diego{
+  background-image:url('/images/2013/mayer-cantu-diego-headshot.png');
+}
+.miller-dain{
+  background-image:url('/images/2013/miller-dain-headshot.png');
+}
+.mulligan-geoff{
+  background-image:url('/images/2013/mulligan-geoff-headshot.png');
+}
+.park-woolf-beverly{
+  background-image:url('/images/2013/park-woolf-beverly-headshot.png');
+}
+.polastre-joe{
+  background-image:url('/images/2013/polastre-joe-headshot.png');
+}
+.read-robert{
+  position:absolute;
+  background: rgba(92,92,92,0.25);
+  width:inherit;
+  height:inherit;
+  border-radius:50%;
+}
+.rhee-sokwoo{
+  background-image:url('/images/2013/rhee-sokwoo-headshot.png');
+}
+.riggs-adam{
+  background-image:url('/images/2013/riggs-adam-headshot.png');
+}
+.ringlein-martin{
+  background-image:url('/images/2013/ringlein-martin-headshot.png');
+}
+.rowland-alison{
+  background-image:url('/images/2013/rowland-alison-headshot.png');
+}
+.ruskin-mollie{
+  background-image:url('/images/2013/ruskin-mollie-headshot.png');
+}
+.sanders-james{
+  background-image:url('/images/2013/sanders-james-headshot.png');
+}
+.shen-jason{
+  background-image:url('/images/2013/shen-jason-headshot.png');
+}
+.snow-aaron{
+  background-image:url('/images/2013/snow-aaron-headshot.png');
+}
+.spandana-vidya{
+  background-image:url('/images/2013/spandana-vidya-headshot.png');
+}
+.stone-amos{
+  background-image:url('/images/2013/stone-amos-headshot.png');
+}
+.teeter-john{
+  background-image:url('/images/2013/teeter-john-headshot.png');
+}
+.theall-matthew{
+  background-image:url('/images/2013/theall-matthew-headshot.png');
+}
+.villas-raphael{
+  background-image:url('/images/2013/villas-raphael-headshot.png');
+}
+.william-ben{
+  background-image:url('/images/leadership/william-ben-headshot.png');
+}
+.worthington-charles{
+  background-image:url('/images/2013/worthington-charles-headshot.png');
+}
+.wu-scott{
+  background-image:url('/images/2013/wu-scott-headshot.png');
+}
+.ashlock-phil{
+  background-image:url('/images/2012/ashlock-phil-headshot.png');
+}
+.balter-ben{
+  background-image:url('/images/2012/balter-ben-headshot.png');
+}
+.becker-adam{
+  background-image:url('/images/2012/becker-adam-headshot.png');
+}
+.bramble-nicholas{
+  background-image:url('/images/2012/bramble-nicholas-headshot.png');
+}
+.chapman-danny{
+  background-image:url('/images/2012/chapman-danny-headshot.png');
+}
+.defrias-kara{
+  background-image:url('/images/2012/defrias-kara-headshot.png');
+}
+.gershman-greg{
+  background-image:url('/images/2012/gershman-greg-headshot.png');
+}
+.johnson-clay{
+  background-image:url('/images/2012/johnson-clay-headshot.png');
+}
+.kachaev-dmitry{
+  background-image:url('/images/2012/kachaev-dmitry-headshot.png');
+}
+.kalin-ian{
+  background-image:url('/images/2012/kalin-ian-headshot.png');
+}
+.majma-raphael{
+  background-image:url('/images/2012/majma-raphael-headshot.png');
+}
+.manning-nathaniel{
+  background-image:url('/images/2012/manning-nathaniel-headshot.png');
+}
+.martin-marina{
+  background-image:url('/images/2012/martin-marina-headshot.png');
+}
+.mccall-matthew{
+  background-image:url('/images/2012/mccall-matthew-headshot.png');
+}
+.mehta-karl{
+  background-image:url('/images/2012/mehta-karl-headshot.png');
+}
+.panchadsaram-ryan{
+  background-image:url('/images/2012/panchadsaram-ryan-headshot.png');
+}
+.wei-henry{
+  background-image:url('/images/2012/wei-henry-headshot.png');
+}
+.wood-jed{
+  background-image:url('/images/2012/wood-jed-headshot.png');
+}
+/* Isotope Transitions
+------------------------------- */
+.isotope,
+.isotope .fellow {
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  -ms-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+}
+
+.isotope {
+  -webkit-transition-property: height, width;
+  -moz-transition-property: height, width;
+  -ms-transition-property: height, width;
+  -o-transition-property: height, width;
+  transition-property: height, width;
+}
+
+.isotope .fellow {
+  -webkit-transition-property: -webkit-transform, opacity;
+  -moz-transition-property:    -moz-transform, opacity;
+  -ms-transition-property:     -ms-transform, opacity;
+  -o-transition-property:         top, left, opacity;
+  transition-property:         transform, opacity;
+}
+
+// PROJECTS
+#projects{
+  padding-top:50px;
+  padding-bottom:75px;
+  h3{
+    margin-bottom:0px;
+    padding-bottom:0px;
+  }
+  h5{
+    margin-bottom:0px;
+  }
+  hr{
+    margin-top:10px;
+  }
+  #case-studies{
+    h5{
+      line-height:22px;
+    }
+    .panel{
+      &:hover{
+        box-shadow:0px 0px 7px #888;
+        cursor:pointer;
+      }
+      .panel-body{
+        padding:0px;
+        img{
+          border-top-left-radius:3px;
+          border-top-right-radius:3px;
+        }
+        .panel-text{
+          padding-left:10px;
+          padding-right:10px;
+          padding-bottom:5px;
+          p{
+            padding-top:7px;
+          }
+        }
+      }
+    }
+  }
+  #current-projects{
+    h4{
+      margin-bottom:0px;
+    }
+    h5{
+      margin-top:0px;
+    }
+  }
+}
+
+#project-modal{
+  h5{
+    line-height:22px;
+    margin-bottom:15px;
+  }
+  hr{
+    margin-top:10px;
+    margin-bottom:15px;
+  }
+}
+
+
+// LEADERSHIP
+#leadership{
+  padding-top:50px;
+  padding-bottom:75px;
+  h3{
+    margin-top:5px;
+    padding-bottom:0px;
+    margin-bottom:0px;
+  }
+  h4{
+    margin-top:0px;
+    margin-bottom:0px;
+  }
+  hr{
+    margin-top:5px;
+  }
+  #leadership-bio{
+    margin-bottom:75px;
+  }
+}
+
+// FAQ
+#faq{
+  padding-top:50px;
+  padding-bottom:75px;
+}
+
+// Large and medium devices (desktops)
+@media (min-width: 992px) {
+  // GENERAL
+  body{
+    margin-bottom:442px;
+  }
+  #cta{
+    h4{
+      font-size:2.8em;
+    }
+  }
+  .navbar{
+    .container-fluid{
+      padding-left:50px;
+      padding-right:50px;
+    }
+  }
+
+  // HOME
+  #home{
+    #pif-preview{
+      padding-top:100px;
+      padding-bottom:75px;
+    }
+    #project-preview{
+      padding-top:50px;
+    }
+  }
+}
+
+// large devices (desktops)
+@media (min-width: 1200px) {
+
+  // HOME
+  #home-hero{
+    h1{
+      padding-top:250px;
+    }
+  }
+  #home{
+    #pif-preview{
+      #pif-preview-quote{
+        padding-top:23px;
+      }
+      #carousel-bio{
+        h4{
+          padding-top:20px;
+        }
+      }
+    }
+  }
+
+  // PROJECTS
+  #projects{
+    #case-studies{
+      .panel{
+        min-height:330px;
+      }
+    }
+  }
+
+  // FELLOWS
+  #fellows{
+    .fellow{
+      .fellow-headshot{
+        height:255px;
+        width:255px;
+      }
+      .fellow-info{
+        h3{
+          padding-top:60px;
+          color:#eee;
+          padding-bottom:0px;
+          margin-bottom:0px;
+          padding-left:12px;
+          padding-right:12px;
+        }
+        hr{
+          width:70%;
+          margin-top:10px;
+          margin-bottom:10px;
+        }
+        p{
+          color:#eee;
+        }
+      }
+    }
+  }
+
+}
+
+// medium devices (desktops)
+@media (min-width: 992px) and (max-width: 1199px) {
+  // HOME
+  #home-hero{
+    h1{
+      padding-top:225px;
+      font-size:3em;
+    }
+  }
+  #home{
+    #pif-preview{
+      #pif-preview-quote{
+        padding-top:0px;
+      }
+      #carousel-bio{
+        h4{
+          padding-top:0px;
+        }
+        h5{
+          margin-bottom:0px;
+        }
+      }
+    }
+  }
+
+  // PROJECTS
+  #projects{
+    #case-studies{
+      .panel{
+        min-height:303px;
+      }
+    }
+  }
+
+  // FELLOWS
+  #fellows{
+    .fellow{
+      .fellow-headshot{
+        height:205px;
+        width:205px;
+      }
+      .fellow-info{
+        h3{
+          padding-top:40px;
+          color:#eee;
+          padding-bottom:0px;
+          margin-bottom:0px;
+          font-size:1.7em;
+          padding-left:10px;
+          padding-right:10px;
+        }
+        hr{
+          width:70%;
+          margin-top:10px;
+          margin-bottom:10px;
+        }
+        p{
+          color:#eee;
+        }
+      }
+    }
+  }
+
+}
+
+// Small devices and Phones (991px and less)
+@media (max-width: 991px) {
+
+}
+
+// small devices (tablets)
+@media (min-width: 768px) and (max-width: 991px) {
+  // GENERAL
+  body{
+    margin-bottom:442px;
+  }
+  #cta{
+    h4{
+      font-size:2em;
+    }
+  }
+  .navbar{
+    .container-fluid{
+      padding-left:25px;
+      padding-right:25px;
+    }
+  }
+
+  // HOME
+  #home-hero{
+    h1{
+      padding-top:200px;
+      font-size:2.7em;
+    }
+  }
+  #home{
+    #pif-preview{
+      padding-top:50px;
+      padding-bottom:25px;
+    }
+    #project-preview{
+      padding-top:45px;
+    }
+  }
+
+  // PROJECTS
+  #projects{
+    #case-studies{
+      .panel{
+        min-height:337px;
+      }
+    }
+  }
+
+  // FELLOWS
+  #fellows{
+    .fellow{
+      .fellow-headshot{
+        height:150px;
+        width:150px;
+      }
+    }
+  }
+}
+
+// extra small devices (phones)
+@media (max-width: 767px){
+  // GENERAL
+  body{
+    margin-bottom:401px;
+  }
+  .navbar{
+    min-height:81px;
+    .navbar-toggle{
+      margin-top:21px;
+    }
+    .navbar-collapse{
+      margin-top:21px;
+    }
+  }
+  #cta{
+    h4{
+      font-size:1.8em;
+    }
+    #cta-span{
+      height:0px;
+    }
+  }
+
+  // FOOTER
+  #footer{
+    height:401px;
+    #footer-text{
+      text-align:center;
+    }
+  }
+
+  // HOME
+  #home-hero{
+    background-position: 20% top;
+    h1{
+      padding-top:150px;
+      font-size:1.9em;
+    }
+  }
+  #home{
+    #pif-preview{
+      padding-top:50px;
+      padding-bottom:25px;
+    }
+    #project-preview{
+      padding-top:35px;
+      .panel{
+        margin-left:50px;
+        margin-right:50px;
+      }
+    }
+  }
+
+  // LEADERSHIP
+  #leadership{
+    text-align:center;
+    img{
+      max-height:200px;
+      display:block;
+      margin:auto;
+    }
+  }
+
+  // FELLOWS
+  #fellows{
+    .fellow{
+      .fellow-headshot{
+        height:115px;
+        width:115px;
+        display:block;
+        margin:auto;
+      }
+    }
+  }
+
+}

@@ -1,0 +1,117 @@
+---
+layout: default
+---
+
+<div class="container-fluid" id="hero">
+	<div class="row">
+		<div class="col-md-12 text-center">
+			<h1>Projects</h1>
+		</div>
+	</div>
+</div>
+<div class="container" id="projects">
+	<div class="row" id="case-studies">
+		<div class="col-md-12">
+			<h3><em>Case Studies</em></h3>
+			<hr/>
+			<div class="row">
+				{% for study in site.data.case_studies %}
+					<div class="col-md-3 col-sm-6">
+						<div class="panel panel-default" data-toggle="modal" data-target="#{{ study.id }}-modal">
+						  <div class="panel-body">
+								<img src="/images/case-studies/{{ study.img }}" class="img-responsive hidden-xs">
+								<div class="panel-text">
+									<h5><strong>{{ study.title }}</strong></h5>
+									<p>{{ study.description }}</p>
+								</div>
+						  </div>
+						</div>
+					</div>
+
+					<div class="modal fade" id="{{ study.id }}-modal project-modal" tabindex="-1" role="dialog" aria-labelledby="{{ study.id }}-label" aria-hidden="true">
+					  <div class="modal-dialog">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					        <h4 class="modal-title" id="{{ study.id }}-label"><strong>{{ study.title }}</strong></h4>
+					      </div>
+					      <div class="modal-body">
+					        <h5><strong>CHALLENGE:</strong> {{ study.challenge }}</h5>
+					        <br/>
+					    		<p><strong>SOLUTION:</strong> {{ study.solution }}</p>
+					        <div class="row">
+					        	<div class="col-sm-6">
+											<p><strong>IMPACT:</strong> {{ study.impact }}</p>
+					        	</div>
+					        	<div class="col-sm-6">
+											<p><strong>PROJECT DATE:</strong> {{ study.date }}</p>
+										</div>
+									</div>
+									<hr/>
+									<p><em><i class="fa fa-quote-left"></i> {{ study.quote }} <i class="fa fa-quote-right"></i><br/><span class="pull-right">- {{ study.quote_source }}</em></span></p>
+									<br/>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+	<br/>
+	<div class="row" id="current-projects">
+		<div class="col-md-12">
+			<h3><em>Current Projects</em></h3>
+			<hr/>
+			{% for current in site.data.current_projects %}
+				{% capture modulo %}{{ forloop.index | modulo: 2 }}{% endcapture %}
+				{% if modulo contains "1" %}
+					<div class="row">
+						<div class="col-md-6">
+							<h4>{{ current.name }}</h4>
+							<h5><em>{{ current.agency }}</em></h5>
+							<p>{{ current.description }}</p>
+						</div>
+					{% if forloop.last %}
+						</div>
+					{% endif %}
+				{% else %}
+						<div class="col-md-6">
+							<h4>{{ current.name }}</h4>
+							<h5><em>{{ current.agency }}</em></h5>
+							<p>{{ current.description }}</p>
+						</div>
+					</div>
+				{% endif %}
+			{% endfor %}
+		</div>
+	</div>
+	<br/>
+	<div class="row" id="previous-projects">
+		<div class="col-md-12">
+			<h3><em>Previous Projects</em></h3>
+			<hr/>
+
+			<ul>
+				{% for previous in site.data.previous_projects %}
+					{% capture modulo %}{{ forloop.index | modulo: 2 }}{% endcapture %}
+					{% if modulo contains "1" %}
+						<div class="row">
+							<div class="col-md-6">
+								<li><p>{{ previous.description }}</p></li>	
+							</div>
+						
+						{% if forloop.last %}
+							</div>
+						{% endif %}
+					{% else %}
+							<div class="col-md-6">
+								<li><p>{{ previous.description }}</p></li>	
+							</div>
+						</div>
+					{% endif %}
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+</div>

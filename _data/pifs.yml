@@ -1,0 +1,867 @@
+-
+  id: brooks-sarah
+  name: Sarah Brooks
+  class: 2014
+  hometown: "San Francisco, CA"
+  region: west
+  skills:
+    - data
+    - product
+    - ux
+    - bd
+    - design
+-
+  id: chen-jeff
+  name: Jeff Chen
+  class: 2014
+  hometown: "Bronxville, NY"
+  region: northeast
+  skills:
+    - policy
+    - data
+    - product
+    - bd
+    - design
+-
+  id: daggett-chris
+  name: Chris Daggett
+  class: 2014
+  hometown: Hawaii
+  region: west
+  skills:
+    - policy
+    - product
+    - ux
+    - bd
+-
+  id: getson-ben
+  name: Ben Getson
+  class: 2014
+  hometown: "Washington, DC"
+  region: south
+  skills:
+    - front
+    - product
+    - ux
+    - back
+-
+  id: goranson-christopher
+  name: Christopher Goranson
+  class: 2014
+  hometown: Colorado
+  region: west
+  skills:
+    - policy
+    - front
+    - data
+    - product
+    - ux
+    - bd
+    - design
+-
+  id: hammer-dan
+  name: Dan Hammer
+  class: 2014
+  hometown: "Washington, DC"
+  region: south
+  skills:
+    - policy
+    - data
+    - product
+    - back
+-
+  id: ippolito-andrea
+  name: Andrea Ippolito
+  class: 2014
+  hometown: "Burlington, VT"
+  region: northeast
+  skills:
+    - product
+    - bd
+-
+  id: jones-timothy
+  name: Timothy Jones
+  class: 2014
+  hometown: "Oakland, CA"
+  region: west
+  skills:
+    - product
+    - bd
+-
+  id: kim-julia
+  name: Julia Kim
+  class: 2014
+  hometown: Maryland
+  region: south
+  skills:
+    - product
+    - bd
+-
+  id: naffis-david
+  name: David Naffis
+  class: 2014
+  hometown: "Washington, DC"
+  region: south
+  skills:
+    - front
+    - product
+    - bd
+    - back
+-
+  id: so-bosco
+  name: Bosco So
+  class: 2014
+  hometown: California
+  region: west
+  skills:
+    - front
+    - back
+-
+  id: wardell-clarence
+  name: "Dr. Clarence Wardell III"
+  class: 2014
+  hometown: "Lathrup Village, MI"
+  region: midwest
+  skills:
+    - product
+    - bd
+-
+  id: wong-christopher
+  name: Christopher Wong
+  class: 2014
+  hometown: "Denver, CO"
+  region: west
+  skills:
+    - policy
+    - product
+    - design
+-
+  id: gordon-rachel
+  name: Rachel Gordon
+  class: 2014
+  hometown: "New York, NY"
+  region: northeast
+  skills:
+    - data
+    - ux
+    - bd
+    - design
+-
+  id: grandison-tyrone
+  name: Tyrone Grandison
+  class: 2014
+  hometown: "Kingston, Jamaica"
+  region: outside
+  skills:
+    - policy
+    - product
+    - cyber
+-
+  id: hansen-maia
+  name: Maia Hansen
+  class: 2014
+  hometown: "Boston, MA"
+  region: northeast
+  skills:
+    - front
+    - back
+-
+  id: jablow-ashley
+  name: Ashley Jablow
+  class: 2014
+  hometown: "Palo Alto, CA"
+  region: west
+  skills:
+    - product
+    - ux
+    - bd
+-
+  id: kalafarski-ej
+  name: EJ Kalafarski
+  class: 2014
+  hometown: "North Attelboro, MA"
+  region: northeast
+  skills:
+    - policy
+    - front
+    - data
+    - product
+    - ux
+    - bd
+-
+  id: maron-mikel
+  name: Mikel Maron
+  class: 2014
+  hometown: "Santa Cruz, CA"
+  region: west
+  skills:
+    - front
+    - data
+    - back
+-
+  id: meisel-jeff
+  name: Jeff Meisel
+  class: 2014
+  hometown: "Lakin, KS"
+  region: midwest
+  skills:
+    - product
+    - bd
+-
+  id: raub-susannah
+  name: Susannah Raub
+  class: 2014
+  hometown: "San Francisco, CA"
+  region: west
+  skills:
+    - front
+    - back
+-
+  id: ross-denice
+  name: Denice Ross
+  class: 2014
+  hometown: "Tucson, AZ"
+  region: west
+  skills:
+    - product
+    - ux
+    - bd
+-
+  id: shanley-lea
+  name: Lea Shanley
+  class: 2014
+  hometown: "Madison, WI"
+  region: midwest
+  skills:
+    - policy
+    - ux
+    - bd
+    - cyber
+-
+  id: sosinski-robert
+  name: Robert Sosinski
+  class: 2014
+  hometown: New Jersey
+  region: midwest
+  skills:
+    - front
+    - product
+    - back
+    - cyber
+-
+  id: steremberg-alan
+  name: Alan Steremberg
+  class: 2014
+  hometown: "Fairfield, CT"
+  region: northeast
+  skills:
+    - front
+    - data
+    - product
+    - ux
+    - bd
+    - back
+-
+  id: sunthara-gaj
+  name: Gaj Sunthara
+  class: 2014
+  hometown: "Boston, MA"
+  region: northeast
+  skills:
+    - policy
+    - front
+    - back
+    - cyber
+-
+  id: winn-julia
+  name: Julia Winn
+  class: 2014
+  hometown: "Seattle, WA"
+  region: northeast
+  skills:
+    - front
+    - data
+    - product
+    - ux
+    - back
+-
+  id: allen-sarah
+  name: Sarah Allen
+  class: 2013
+  hometown: Massachusetts
+  region: northeast
+  skills:
+-
+  id: baker-rob
+  name: Rob Baker
+  class: 2013
+  hometown: "Washington, DC"
+  region: south
+  skills:
+    - front
+    - data
+    - product
+    - comm
+    - bd
+    - design
+    - ux
+-
+  id: black-tom
+  name: Tom Black
+  class: 2013
+  hometown: "Stillwater, MN"
+  region: west
+  skills:
+-
+  id: cairns-chris
+  name: Chris Cairns
+  class: 2013
+  hometown: "Waterford, PA"
+  region: northeast
+  skills:
+    - front
+    - product
+    - comm
+    - bd
+    - back
+-
+  id: caraway-david
+  name: David Caraway
+  class: 2013
+  hometown: Ohio
+  region: midwest
+  skills:
+-
+  id: dole-adam
+  name: Adam Dole
+  class: 2013
+  hometown: "Palo Alto, CA"
+  region: west
+  skills:
+    - policy
+    - product
+    - comm
+    - bd
+-
+  id: felleman-john
+  name: John Felleman
+  class: 2013
+  hometown: "Boston, MA"
+  region: northeast
+  skills:
+    - front
+    - product
+    - comm
+    - bd
+    - back
+    - design
+    - ux
+-
+  id: frempong-derek
+  name: Derek Frempong
+  class: 2013
+  hometown: "Baltimore, MD"
+  region: south
+  skills:
+-
+  id: godbout-greg
+  name: Greg Godbout
+  class: 2013
+  hometown: "Washington, DC"
+  region: south
+  skills:
+-
+  id: givens-garren
+  name: Garren Givens
+  class: 2013
+  hometown: Colorado
+  region: west
+  skills:
+    - front
+    - product
+    - comm
+    - bd
+    - back
+    - digital
+-
+  id: grevich-justin
+  name: Justin Grevich
+  class: 2013
+  hometown: "Washington, DC"
+  region: south
+  skills:
+    - front
+    - back
+    - cyber
+    - digital
+-
+  id: hartley-hillary
+  name: Hillary Hartley
+  class: 2013
+  hometown: "Baxter Spring, KS"
+  region: midwest
+  skills:
+    - comm
+    - bd
+    - design
+    - ux
+-
+  id: hartley-scott
+  name: Scott Hartley
+  class: 2013
+  hometown: California
+  region: west
+  skills:
+    - bd
+-
+  id: herron-sean
+  name: Sean Herron
+  class: 2013
+  hometown: "Los Angeles, CA"
+  region: west
+  skills:
+    - policy
+    - front
+    - product
+    - bd
+    - back
+    - cyber
+    - digital
+-
+  id: hertzfeld-michelle
+  name: Michelle Hertzfeld
+  class: 2013
+  hometown: "Pheonix, AZ"
+  region: west
+  skills:
+    - front
+    - design
+    - ux
+-
+  id: holroyd-claire
+  name: Claire Holroyd
+  class: 2013
+  hometown: "Los Angeles, CA"
+  region: west
+  skills:
+    - product
+    - comm
+    - bd
+    - ux
+    - digital
+-
+  id: jain-nayan
+  name: Nayan Jain
+  class: 2013
+  hometown: California
+  region: west
+  skills:
+    - front
+    - data
+    - product
+    - back
+    - design
+    - ux
+    - digital
+-
+  id: kazil-jacqueline
+  name: Jacqueline Kazil
+  class: 2013
+  hometown: "Washington, DC"
+  region: south
+  skills:
+    - data
+    - product
+    - comm
+    - bd
+    - back
+-
+  id: kemp-john
+  name: John Kemp
+  class: 2013
+  hometown: "Mill River, MA"
+  region: northeast
+  skills:
+-
+  id: lane-kin
+  name: Kin Lane
+  class: 2013
+  hometown: California
+  region: west
+  skills:
+-
+  id: maneri-akred-erin
+  name: Erin Maneri Akred
+  class: 2013
+  hometown: "Redwood City, CA"
+  region: west
+  skills:
+    - data
+    - product
+-
+  id: mayer-cantu-diego
+  name: Diego Mayer-Cantu
+  class: 2013
+  hometown: "Palo Alto, CA"
+  region: west
+  skills:
+    - policy
+    - data
+    - product
+    - comm
+    - bd
+    - back
+    - digital
+-
+  id: miller-dain
+  name: Dain Miller
+  class: 2013
+  hometown: "Outer Banks, NC"
+  region: south
+  skills:
+-
+  id: mulligan-geoff
+  name: Geoff Mulligan
+  class: 2013
+  hometown: Colorado
+  region: west
+  skills:
+-
+  id: park-woolf-beverly
+  name: "Dr. Beverly Park Woolf"
+  class: 2013
+  hometown: "Amherst, MA"
+  region: northeast
+  skills:
+    - policy
+    - product
+    - comm
+    - bd
+-
+  id: polastre-joe
+  name: Joe Polastre
+  class: 2013
+  hometown: Pennsylvania
+  region: northeast
+  skills:
+-
+  id: read-robert
+  name: Robert Read
+  class: 2013
+  hometown: "Tulsa, OK"
+  region: south
+  skills:
+-
+  id: rhee-sokwoo
+  name: "Dr. Sokwoo Rhee"
+  class: 2013
+  hometown: "Boston, MA"
+  region: northeast
+  skills:
+    - product
+    - comm
+    - bd
+    - cyber
+-
+  id: riggs-adam
+  name: Adam Riggs
+  class: 2013
+  hometown: "Washington, DC"
+  region: south
+  skills:
+    - policy
+    - product
+    - comm
+    - bd
+-
+  id: ringlein-martin
+  name: Martin Ringlein
+  class: 2013
+  hometown: "Washington, DC"
+  region: south
+  skills:
+-
+  id: rowland-alison
+  name: Alison Rowland
+  class: 2013
+  hometown: "Long Island, NY"
+  region: northeast
+  skills:
+-
+  id: ruskin-mollie
+  name: Mollie Ruskin
+  class: 2013
+  hometown: "Portland, OR"
+  region: west
+  skills:
+    - comm
+    - design
+    - ux
+-
+  id: sanders-james
+  name: James Sanders
+  class: 2013
+  hometown: "Fremont, CA"
+  region: west
+  skills:
+-
+  id: shen-jason
+  name: Jason Shen
+  class: 2013
+  hometown: "Newton, MA"
+  region: northeast
+  skills:
+-
+  id: snow-aaron
+  name: Aaron Snow
+  class: 2013
+  hometown: "Cleveland, OH"
+  region: midwest
+  skills:
+    - policy
+    - front
+    - product
+    - bd
+    - back
+-
+  id: spandana-vidya
+  name: Vidya Spandana
+  class: 2013
+  hometown: "San Francisco, CA"
+  region: west
+  skills:
+-
+  id: stone-amos
+  name: Amos Stone
+  class: 2013
+  hometown: "San Diego, CA"
+  region: west
+  skills:
+-
+  id: tester-john
+  name: John Tester
+  class: 2013
+  hometown: "Emmett, ID"
+  region: west
+  skills:
+    - front
+    - data
+    - product
+    - bd
+    - back
+    - cyber
+    - ux
+    - digital
+-
+  id: theall-matthew
+  name: Matthew Theall
+  class: 2013
+  hometown: Massachusetts
+  region: northeast
+  skills:
+-
+  id: villas-raphael
+  name: Raphael Villas
+  class: 2013
+  hometown: "Chicago, IL"
+  region: midwest
+  skills:
+-
+  id: william-ben
+  name: Ben William
+  class: 2013
+  hometown: "Washington, DC"
+  region: south
+  skills:
+    - front
+    - product
+    - bd
+    - back
+    - ux
+-
+  id: worthington-charles
+  name: Charles Worthington
+  class: 2013
+  hometown: "Washington, DC"
+  region: south
+  skills:
+-
+  id: wu-scott
+  name: Scott Wu
+  class: 2013
+  hometown: "San Francisco, CA"
+  region: west
+  skills:
+    - bd
+-
+  id: ashlock-phil
+  name: Phil Ashlock
+  class: 2012
+  hometown: "Anacortes, WA"
+  region: west
+  skills:
+    - policy
+    - front
+    - design
+    - digital
+-
+  id: balter-ben
+  name: Ben Balter
+  class: 2012
+  hometown: "Chicago, IL"
+  region: midwest
+  skills:
+    - policy
+    - comm
+    - bd
+    - back
+-
+  id: becker-adam
+  name: Adam Becker
+  class: 2012
+  hometown: "Oakland, CA"
+  region: west
+  skills:
+    - front
+    - product
+    - back
+-
+  id: bramble-nicholas
+  name: Nicholas Bramble
+  class: 2012
+  hometown: Connecticut
+  region: northeast
+  skills:
+-
+  id: chapman-danny
+  name: Danny Chapman
+  class: 2012
+  hometown: "Riverside, RI"
+  region: northeast
+  skills:
+    - front
+    - comm
+    - design
+    - ux
+-
+  id: defrias-kara
+  name: Kara DeFrias
+  class: 2012
+  hometown: "Burlington, NJ"
+  region: northeast
+  skills:
+    - comm
+    - ux
+    - digital
+-
+  id: gershman-greg
+  name: Greg Gershman
+  class: 2012
+  hometown: "Gaithersberg, MD"
+  region: south
+  skills:
+    - front
+    - product
+    - bd
+    - back
+    - digital
+-
+  id: johnson-clay
+  name: Clay Johnson
+  class: 2012
+  hometown: "Washington, DC"
+  region: south
+  skills:
+-
+  id: kachaev-dmitry
+  name: Dmitry Kachaev
+  class: 2012
+  hometown: Russia
+  region: outisde
+  skills:
+    - front
+    - data
+    - product
+    - back
+    - cyber
+-
+  id: kalin-ian
+  name: Ian Kalin
+  class: 2012
+  hometown: California
+  region: west
+  skills:
+-
+  id: majma-raphael
+  name: Raphael Majma
+  class: 2012
+  hometown: "Mesquite, TX"
+  region: south
+  skills:
+    - policy
+    - product
+    - bd
+-
+  id: manning-nathaniel
+  name: Nathaniel Manning
+  class: 2012
+  hometown: California
+  region: west
+  skills:
+-
+  id: martin-marina
+  name: Marina Martin
+  class: 2012
+  hometown: Connecticut
+  region: northeast
+  skills:
+    - policy
+    - product
+    - bd
+    - back
+-
+  id: mccall-matthew
+  name: Matthew McCall
+  class: 2012
+  hometown: "Middletown, MD"
+  region: south
+  skills:
+    - front
+    - product
+    - bd
+    - back
+-
+  id: mehta-karl
+  name: Karl Mehta
+  class: 2012
+  hometown: "Freemont, CA"
+  region: west
+  skills:
+-
+  id: panchadsaram-ryan
+  name: Ryan Panchadsaram
+  class: 2012
+  hometown: "San Diego, CA"
+  region: west
+  skills:
+-
+  id: wei-henry
+  name: "Henry Wei, MD"
+  class: 2012
+  hometown: New York
+  region: northeast
+  skills:
+    - front
+    - product
+    - bd
+    - back
+-
+  id: wood-jed
+  name: Jed Wood
+  class: 2012
+  hometown: "Provo, UT"
+  region: west
+  skills:
+    - front
+    - back
+    - ux

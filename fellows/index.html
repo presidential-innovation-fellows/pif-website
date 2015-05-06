@@ -1,0 +1,95 @@
+---
+layout: default
+---
+
+<div class="container-fluid" id="hero">
+	<div class="row">
+		<div class="col-md-12 text-center">
+			<h1>Meet the Fellows</h1>
+		</div>
+	</div>
+</div>
+<div class="container" id="fellows">
+	<div class="row text-center" id="filters">
+		<div class="col-md-3 button-group" data-filter-group="year" id="year">
+			<button class="btn btn-primary active" type="button" data-filter="">All Fellows</button><br/>
+			<button class="btn btn-default" type="button" data-filter=".2014">2014</button>
+	    <button class="btn btn-default" type="button" data-filter=".2013">2013</button>
+			<button class="btn btn-default" type="button" data-filter=".2012">2012</button>
+		</div>
+		<div class="col-md-3 button-group hidden-sm hidden-xs" data-filter-group="region" id="region">
+			<button class="btn btn-primary active" type="button" data-filter="">All Regions</button><br/>
+			<button class="btn btn-default" type="button" data-filter=".northeast">Northeast</button>
+			<button class="btn btn-default" type="button" data-filter=".midwest">Midwest</button>
+			<button class="btn btn-default" type="button" data-filter=".south">South</button>
+			<button class="btn btn-default" type="button" data-filter=".west">West</button>
+			<button class="btn btn-default" type="button" data-filter=".outside">Outside US</button>
+		</div>
+		<div class="col-md-6 button-group hidden-sm hidden-xs" data-filter-group="skill" id="skill">
+			<button class="btn btn-primary active" type="button" data-filter="">All Skills</button><br/>
+			<button class="btn btn-default" type="button" data-filter=".policy">Policy</button>
+			<button class="btn btn-default" type="button" data-filter=".front">Front End Dev</button>
+			<button class="btn btn-default" type="button" data-filter=".data">Data Viz</button>
+			<button class="btn btn-default" type="button" data-filter=".product">Product</button>
+			<button class="btn btn-default" type="button" data-filter=".ux">UX</button>
+			<button class="btn btn-default" type="button" data-filter=".comm">Marketing &amp; Comms</button>
+			<button class="btn btn-default" type="button" data-filter=".bd">Biz Dev</button>
+			<button class="btn btn-default" type="button" data-filter=".back">Back End Dev</button>
+			<button class="btn btn-default" type="button" data-filter=".design">Designer</button>
+			<button class="btn btn-default" type="button" data-filter=".cyber">Cybersecurity</button>
+			<button class="btn btn-default" type="button" data-filter=".digital">Digital Strategy</buttton>
+		</div>
+	</div>
+	<div class="row" id="fellow">
+		{% for pif in site.data.pifs %}
+			<div class="fellow 2014 {{ pif.region }} {% for skill in pif.skills %}{{ skill }} {% endfor %} col-sm-3 col-xs-6" data-toggle="modal" data-target="#fellow-modal">
+				<div class="fellow-headshot {{ pif.id }}">
+					<div class="fellow-info text-center hidden-sm hidden-xs">
+						<h3>{{ pif.name }}</h3>
+						<hr/>
+						<p>Class of {{ pif.class }}<br/>{{ pif.hometown }}</p>
+					</div>
+				</div>
+			</div>
+
+			
+		{% endfor %}
+	</div>
+</div>
+
+<!-- modal -->
+<div class="modal fade" id="fellow-modal" tabindex="-1" role="dialog" aria-labelledby="fellow-label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="fellow-label"><strong>Fellow Biography Details</strong></h4>
+      </div>
+      <div class="modal-body">
+      	<div class="container-fluid">
+      		<div class="row">
+      			<div class="col-md-5">
+      				<img src="/images/2014/steremberg-alan-headshot.png" class="img-responsive">
+      			</div>
+      			<div class="col-md-7">
+      				<h4>Alan Steremberg</h4>
+      				<h5>Class of 2014<br/>Fairfield, CT</h5>
+      				<p>Some 140 character statement about him and Weather Underground, using big data for good. I'm just adding characters now to get to 140 charac</p>
+      			</div>
+      		</div>
+      		<br/>
+      		<div class="row">
+      			<div class="col-md-12">
+      				<p id="fellow-skills"><strong>Skills:</strong> <span class="label label-primary">Front End Dev</span> <span class="label label-primary">Data Analytics</span> <span class="label label-info">Product Management</span> <span class="label label-info">User Experience</span> <span class="label label-success">Business Development</span> <span class="label label-primary">Back End Dev</span></p>
+      			</div>
+      		</div>
+      		<div class="row">
+      			<div class="col-md-12">
+      				<p id="fellow-projects"><strong>Project(s):</strong> Big Data Partnership (NOAA)</p>
+      			</div>
+      		</div>
+      	</div>
+      </div>
+    </div>
+  </div>
+</div>
