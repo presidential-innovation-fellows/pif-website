@@ -64,7 +64,8 @@ layout: default
 		<div class="col-md-12">
 			<h3><em>Current Projects</em></h3>
 			<hr/>
-			{% for current in site.data.current_projects %}
+			{% for current_hash in site.data.current_projects %}
+			{% assign current = current_hash[1] %}
 				{% capture modulo %}{{ forloop.index | modulo: 2 }}{% endcapture %}
 				{% if modulo contains "1" %}
 					<div class="row">
@@ -94,7 +95,8 @@ layout: default
 			<hr/>
 
 			<ul>
-				{% for previous in site.data.previous_projects %}
+				{% for previous_hash in site.data.previous_projects %}
+				{% assign previous = previous_hash[1] %}
 					{% capture modulo %}{{ forloop.index | modulo: 2 }}{% endcapture %}
 					{% if modulo contains "1" %}
 						<div class="row">
