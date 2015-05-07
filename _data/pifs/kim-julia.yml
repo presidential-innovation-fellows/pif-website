@@ -1,0 +1,16 @@
+id: kim-julia
+name: Julia Kim
+img: kim-julia-headshot.png
+class: 2014
+hometown: Maryland
+region: south
+bio: "Creating/using media & tech to help people. Former Project Leader, USC Institute for Creative Technologies. History of Science/Harvard Univ."
+skills:
+  - product
+  - bd
+projects:
+  -
+    title: Veterans Experience
+    agency: VA
+agencies:
+  - va

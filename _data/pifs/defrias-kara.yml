@@ -1,0 +1,17 @@
+id: defrias-kara
+name: Kara DeFrias
+img: defrias-kara-headshot.png
+class: 2012
+hometown: "Burlington, NJ"
+region: northeast
+bio: "Founder + executive producer TEDxIntuit. Current: 18F. Past: TurboTax, Oscars, Super Bowl. 2nd grade report card: Kara likes to talk. A lot."
+skills:
+  - comm
+  - ux
+  - digital
+projects:
+  -
+    title: MyGov
+    agency: GSA
+agencies:
+  - gsa

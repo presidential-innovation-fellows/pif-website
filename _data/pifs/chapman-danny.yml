@@ -1,0 +1,21 @@
+id: chapman-danny
+name: Danny Chapman
+img: chapman-danny-headshot.png
+class: 2012
+hometown: "Riverside, RI"
+region: northeast
+bio: "Husband, Father, Designer. Creative Director, Ad Hoc. Round 1 Presidential Innovation Fellow. Formerly Director of Design, NIC."
+skills:
+  - front
+  - comm
+  - design
+  - ux
+projects:
+  -
+    title: MyGov
+    agencies: GSA
+  -
+    title: MyUSA
+    agencies: GSA
+agencies:
+  - gsa

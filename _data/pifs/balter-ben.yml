@@ -1,0 +1,18 @@
+id: balter-ben
+name: Ben Balter
+img: balter-ben-headshot.png
+class: 2012
+hometown: "Chicago, IL"
+region: midwest
+bio: "Making government better, one line of code at a time. Government Evangelist @ GitHub, attorney, open source developer"
+skills:
+  - policy
+  - comm
+  - bd
+  - back
+projects:
+  -
+    title: MyGov
+    agency: USCIO
+agencies:
+  - cio

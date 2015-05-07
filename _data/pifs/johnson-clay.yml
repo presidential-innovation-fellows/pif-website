@@ -1,0 +1,13 @@
+id: johnson-clay
+name: Clay Johnson
+img: johnson-clay-headshot.png
+class: 2012
+hometown: "Washington, DC"
+region: south
+skills:
+projects:
+  -
+    title: RFP-EZ
+    agency: SBA
+agencies:
+  - sba

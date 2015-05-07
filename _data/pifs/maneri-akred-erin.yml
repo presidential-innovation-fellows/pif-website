@@ -1,0 +1,16 @@
+id: maneri-akred-erin
+name: Erin Maneri Akred
+img: maneri-akred-erin-headshot.png
+class: 2013
+hometown: "Redwood City, CA"
+region: west
+bio: "Data scientist whose work has resulted in multiple patents and awards, illustrating the art of the possible in a world of abundant data."
+skills:
+  - data
+  - product
+projects:
+  -
+    title: "Advocacy, Policy and Strategy for Open Data Release"
+    agency: Agriculture
+agencies:
+  - ag

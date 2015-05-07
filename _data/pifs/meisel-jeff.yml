@@ -1,0 +1,16 @@
+id: meisel-jeff
+name: Jeff Meisel
+img: meisel-jeff-headshot.png
+class: 2014
+hometown: "Lakin, KS"
+region: midwest
+bio: "APIs, Smart Cities, STEM, DC Startup Weekend Winner, NI Dev Relations and Product, 30+ articles, Chungaboo Founder, K-State EECE, UT McCombs"
+skills:
+  - product
+  - bd
+projects:
+  -
+    title: City SDK
+    agency: Census
+agencies:
+  - census

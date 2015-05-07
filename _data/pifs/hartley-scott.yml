@@ -1,0 +1,15 @@
+id: hartley-scott
+name: Scott Hartley
+img: hartley-scott-headshot.png
+class: 2013
+hometown: California
+region: west
+bio: "Former Partner at Mohr Davidow Ventures, Columnist at Forbes. Work at Google, Facebook, and Harvard. Education at Stanford and Columbia."
+skills:
+  - bd
+projects:
+  -
+    title: Development Innovation Ventures
+    agency: USAID
+agencies:
+  - usaid

@@ -1,0 +1,21 @@
+id: ross-denice
+name: Denice Ross
+img: ross-denice-headshot.png
+class: 2014
+hometown: "Tucson, AZ"
+region: west
+bio: "Data supply chain savant, data.nola.gov founder, apps/data for Katrina recovery. Biology, University of Arizona. Mom of four."
+skills:
+  - product
+  - ux
+  - bd
+projects:
+  -
+    title: Lantern Live Mobile app
+    agency: Energy
+  -
+    title: Open Policing Data
+    agency: OSTP
+agencies:
+  - energy
+  - ostp

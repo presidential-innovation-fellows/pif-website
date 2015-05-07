@@ -1,0 +1,15 @@
+id: wu-scott
+name: Scott Wu
+img: wu-scott-headshot.png
+class: 2013
+hometown: "San Francisco, CA"
+region: west
+bio: "USAID Advisor and EIR"
+skills:
+  - bd
+projects:
+  -
+    title: Development Innovation Ventures
+    agency: USAID
+agencies:
+  - usaid

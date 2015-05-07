@@ -1,0 +1,13 @@
+id: bramble-nicholas
+name: Nicholas Bramble
+img: bramble-nicholas-headshot.png
+class: 2012
+hometown: Connecticut
+region: northeast
+skills:
+projects:
+  -
+    title: Open Data
+    agency: Treasury
+agencies:
+  - treasury

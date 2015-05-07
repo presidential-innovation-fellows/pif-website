@@ -1,0 +1,22 @@
+id: teeter-john
+name: John Teeter
+img: teeter-john-headshot.png
+class: 2013
+hometown: "Emmett, ID"
+region: west
+bio: "OpenSource-Sustainability-Scalable Systems-Solving real problems - Maalka; Global Electric Transportation; Civic Ecology DNA Bank; EnergyOS"
+skills:
+  - front
+  - data
+  - product
+  - bd
+  - back
+  - cyber
+  - ux
+  - digital
+projects:
+  -
+    title: Green Button
+    agency: NIST
+agencies:
+  - nist

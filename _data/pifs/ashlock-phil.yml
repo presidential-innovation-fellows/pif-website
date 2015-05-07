@@ -1,0 +1,18 @@
+id: ashlock-phil
+name: Phil Ashlock
+img: ashlock-phil-headshot.png
+class: 2012
+hometown: "Anacortes, WA"
+region: west
+bio: "Creator of civic infrastructure for open government & digital services. Co-author of the Open311 standard and Chief Architect at Data.gov"
+skills:
+  - policy
+  - front
+  - design
+  - digital
+projects:
+  -
+    title: MyGov
+    agency: GSA
+agencies:
+  - gsa

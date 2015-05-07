@@ -1,0 +1,19 @@
+id: willman-ben
+name: Ben Willman
+img: william-ben-headshot.png
+class: 2013
+hometown: "Washington, DC"
+region: south
+bio: "Co-founder of UstreamIt, ClientHat, RhythmData. Product Manager, Design Strategist, Technologist. Lean Startup mentor and coach"
+skills:
+  - front
+  - product
+  - bd
+  - back
+  - ux
+projects:
+  -
+    title: VA Modernization
+    agency: VA
+agencies:
+  - va

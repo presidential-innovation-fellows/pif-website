@@ -1,21 +1,28 @@
 -
   name: openFDA
+  agency: FDA
   description: "<strong><a href='https://open.fda.gov/' target='_blank'>openFDA</a></strong> is an initiative that provides easy access to FDA datasets that support the agency’s regulatory mission, help educate the public, and save lives. The project has made several valuable FDA public datasets—including millions of adverse event and medication error reports on FDA-regulated drugs—available to the public for the first time, via application programming interfaces (APIs) and raw structured files."
 -
   name: RFP-EZ
+  agency: SBA
   description: "<strong><a href='https://rfpez.sba.gov/' target='_blank'>RFP-EZ</a></strong> is an online platform developed by the U.S. Small Business Administration and Fellows in only six months, that makes it easier for innovative small tech businesses to bid on government contracts, while also making it easier for Federal agencies to identify the bids that offer the best value for taxpayers."
 -
   name: FBOpen
+  agency: GSA
   description: "<strong><a href='https://fbopen.gsa.gov/' target='_blank'>FBOpen</a></strong> is a new platform designed by Fellows to open the catalog of Federal opportunities to a larger audience—by providing more relevant search results of Federal opportunities. FBOpen was created as an open-API server with data import tools and sample applications that can help small businesses more easily search for and connect to opportunities to work with the U.S. Government."
 -
   name: Prices Paid Portal
+  agency: GSA
   description: "The <strong><a href='https://github.com/GSA/PricesPaidAPI' target='_blank'>Prices Paid Portal</a></strong> is a database developed by Fellows and General Services Administration procurement officials of actual prices paid by the Federal Government for various services, enabling agencies to be more informed shoppers when seeking to procure services. The database will continue to expand with the addition of more datasets of purchase information."
 -
   name: GI Bill Comparison Tool
+  agency: VA
   description: "<strong><a href='http://department-of-veterans-affairs.github.io/gi-bill-comparison-tool/' target='_blank'>GI Bill Comparison Tool</a></strong> makes it easier for Veterans, Service members, and dependents to calculate their Post-9/11 GI Bill benefits and learn about VA’s approved colleges, universities, and available education and training programs across the country."
 -
   name: Development Innovation Ventures
+  agency: USAID
   description: "<strong>Development Innovation Ventures (DIV)</strong> is an open competition supporting breakthrough solutions to the world's most intractable development challenges—interventions that could change millions of lives at a fraction of the usual cost."
 -
   name: ConnectED initiative
+  agency: Education
   description: "The <strong>ConnectED initiative</strong> is designed to enrich K-12 education for every student in America, by empowering teachers with the best technology and the training to make the most of it, and empowers students through individualized learning and rich, digital content. Within five years, the initiative aims to connect 99 percent of America’s students to next-generation broadband and high-speed wireless in their schools and libraries."

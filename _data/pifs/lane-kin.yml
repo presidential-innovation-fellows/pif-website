@@ -1,0 +1,19 @@
+id: lane-kin
+name: Kin Lane
+img: lane-kin-headshot.png
+class: 2013
+hometown: California
+region: west
+bio: "Kin Lane is the API Evangelist dedicated to researching the business & politics of APIs while telling the stories on apievangelist.com"
+skills:
+  - front
+  - data
+  - product
+  - bd
+  - cyber
+projects:
+  -
+    title: VA Modernization
+    agency: VA
+agencies:
+  - va

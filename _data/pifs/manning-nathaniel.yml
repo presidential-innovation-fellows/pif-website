@@ -1,0 +1,13 @@
+id: manning-nathaniel
+name: Nathaniel Manning
+img: manning-nathaniel-headshot.png
+class: 2012
+hometown: California
+region: west
+skills:
+projects:
+  -
+    title: Open Data
+    agency: OSTP
+agencies:
+  - OSTP

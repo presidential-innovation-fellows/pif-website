@@ -1,0 +1,16 @@
+id: hansen-maia
+name: Maia Hansen
+img: hansen-maia-headshot.png
+class: 2014
+hometown: "Boston, MA"
+region: northeast
+bio: "Boston-sourced software architect with a penchant for bringing order to chaotic data. CV: Endeca, Crimson Hexagon, Broad Institute, et al."
+skills:
+  - front
+  - back
+projects:
+  -
+    title: Big Data Partnership
+    agency: NOAA
+agencies:
+  - noaa

@@ -1,0 +1,18 @@
+id: mccall-matthew
+name: Matthew McCall
+img: mccall-matthew-headshot.png
+class: 2012
+hometown: "Middletown, MD"
+region: south
+bio: "Co-Founder at Amida, Director at OSEHRA, Business Development at KRM, Management Information Systems, Salisbury University."
+skills:
+  - front
+  - product
+  - bd
+  - back
+projects:
+  -
+    title: Blue Button
+    agency: VA
+agencies:
+  - va

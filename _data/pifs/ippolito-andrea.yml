@@ -1,0 +1,16 @@
+id: ippolito-andrea
+name: Andrea Ippolito
+img: ippolito-andrea-headshot.png
+class: 2014
+hometown: "Burlington, VT"
+region: northeast
+bio: "Systems Design and Management @ MIT, Co-Leader of MIT Hacking Medicine, Co-Founder of Smart Scheduling, Biomedical Engineering @ Cornell"
+skills:
+  - product
+  - bd
+projects:
+  -
+    title: Establishing an Innovator's Network across the VA
+    agency: VA
+agencies:
+  - va

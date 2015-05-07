@@ -1,0 +1,13 @@
+id: mehta-karl
+name: Karl Mehta
+img: mehta-karl-headshot.png
+class: 2012
+hometown: "Freemont, CA"
+region: west
+skills:
+projects:
+  -
+    title: Better Than Cash
+    agency: USAID
+agencies:
+  - usaid

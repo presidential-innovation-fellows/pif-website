@@ -1,0 +1,19 @@
+id: kachaev-dmitry
+name: Dmitry Kachaev
+img: kachaev-dmitry-headshot.png
+class: 2012
+hometown: Russia
+region: outisde
+bio: "@amida_tech co-founder | ex-Presidential Innovation Fellow | Hacking: open data/healthIT/arduino; Fun: climbing/longboarding"
+skills:
+  - front
+  - data
+  - product
+  - back
+  - cyber
+projects:
+  -
+    title: Open Data
+    agency: MCC
+agencies:
+  - mcc

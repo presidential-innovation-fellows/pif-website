@@ -1,0 +1,13 @@
+id: villas-raphael
+name: Raphael Villas
+img: villas-raphael-headshot.png
+class: 2013
+hometown: "Chicago, IL"
+region: midwest
+skills:
+projects:
+  -
+    title: MyUSA
+    agency: GSA
+agencies:
+  - gsa

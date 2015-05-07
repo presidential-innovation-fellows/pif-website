@@ -1,0 +1,18 @@
+id: caraway-david
+name: David Caraway
+img: caraway-david-headshot.png
+class: 2013
+hometown: Ohio
+region: midwest
+bio: "Co-founder of Ohio-based digital services startup, Fogmine"
+skills:
+  - front
+  - product
+  - bd
+  - back
+projects:
+  -
+    title: Data.gov
+    agency: GSA
+agencies:
+  - gsa

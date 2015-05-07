@@ -1,0 +1,13 @@
+id: allen-sarah
+name: Sarah Allen
+img: allen-sarah-headshot.png
+class: 2013
+hometown: Massachusetts
+region: northeast
+skills:
+projects:
+  -
+    title: Open Data Initiatives
+    agency: Smithsonian
+agencies:
+  - smithsonian

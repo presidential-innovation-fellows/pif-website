@@ -1,0 +1,17 @@
+id: sanders-james
+name: James Sanders
+img: sanders-james-headshot.png
+class: 2013
+hometown: "Fremont, CA"
+region: west
+bio: "Founder of BreakoutEDU,  Founder of ClassBadges (acquired), co-developed the #FutureReady initiative and the White House Film Festival."
+skills:
+  - product
+  - comm
+  - bd
+projects:
+  -
+    title: Open Data
+    agency: Education
+agencies:
+  - ed

@@ -1,0 +1,13 @@
+id: stone-amos
+name: Amos Stone
+img: stone-amos-headshot.png
+class: 2013
+hometown: "San Diego, CA"
+region: west
+skills:
+projects:
+  -
+    title: MyUSA
+    agency: GSA
+agencies:
+  - gsa

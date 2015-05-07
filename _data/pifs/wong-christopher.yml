@@ -1,0 +1,22 @@
+id: wong-christopher
+name: Christopher Wong
+img: wong-christopher-headshot.png
+class: 2014
+hometown: "Denver, CO"
+region: west
+bio: "NYU Law Engelberg Center on Innovation Law & Policy, Yale Law School Information Society Project, Princeton University Center for IT Policy"
+skills:
+  - policy
+  - product
+  - design
+projects:
+  -
+    title: Modernization of the USPTO submission process
+    agency: USPTO
+  -
+    title: Every Kid in a Park
+    agency: Interior
+agencies:
+  - commerce
+  - patent
+  - interior

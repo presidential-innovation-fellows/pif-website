@@ -1,0 +1,24 @@
+id: rowland-alison
+name: Alison Rowland
+img: rowland-alison-headshot.png
+class: 2013
+hometown: "Long Island, NY"
+region: northeast
+bio: "civic hacking & big data. postgresql. musician, linguist, foodie, parent."
+skills:
+  - back
+projects:
+  -
+    title: BusinessUSA
+    agency: GSA
+  -
+    title: SBIR
+    agency: GSA
+  -
+    title: MyUSA
+    agency: GSA
+  -
+    title: FBOpen
+    agency: GSA
+agencies:
+  - gsa

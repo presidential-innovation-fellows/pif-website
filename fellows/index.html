@@ -41,8 +41,9 @@ layout: default
 		</div>
 	</div>
 	<div class="row" id="fellow">
-		{% for pif in site.data.pifs %}
-			<div class="fellow 2014 {{ pif.region }} {% for skill in pif.skills %}{{ skill }} {% endfor %} col-sm-3 col-xs-6" data-toggle="modal" data-target="#{{ pif.id }}-modal">
+		{% for pif_hash in site.data.pifs %}
+		{% assign pif = pif_hash[1] %}
+			<div class="fellow {{ pif.class }} {{ pif.region }} {% for skill in pif.skills %}{{ skill }} {% endfor %} col-sm-3 col-xs-6" data-toggle="modal" data-target="#{{ pif.id }}-modal">
 				<div class="fellow-headshot {{ pif.id }}">
 					<div class="fellow-info text-center hidden-sm hidden-xs">
 						<h3>{{ pif.name }}</h3>

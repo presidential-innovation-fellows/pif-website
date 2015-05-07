@@ -1,0 +1,21 @@
+id: shanley-lea
+name: Lea Shanley
+img: shanley-lea-headshot.png
+class: 2014
+hometown: "Madison, WI"
+region: midwest
+bio: "Founder, Commons Lab. Co-Founder, Fed Community of Practice on Crowdsourcing & Citizen Science. GIS & remote sensing, University of Wisconsin"
+skills:
+  - policy
+  - ux
+  - bd
+  - cyber
+projects:
+  -
+    title: Citizen Science and Crowdsourcing Toolkit
+    agency: NASA
+  -
+    title: Asteroid Grand Challenge
+    agency: NASA
+agencies:
+  - nasa

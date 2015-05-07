@@ -1,0 +1,30 @@
+id: ruskin-mollie
+name: Mollie Ruskin
+img: ruskin-mollie-headshot.png
+class: 2013
+hometown: "Portland, OR"
+region: west
+bio: "Designer of many stripes: visual, user experience, service design, HCD. Previously of non-profit/campaigns. Currently at US Digital Service."
+skills:
+  - comm
+  - design
+  - ux
+projects:
+  -
+    title: Human Centered Design
+    agency: VA
+  -
+    title: Blue Button
+    agency: VA
+  -
+    title: Veteran Employment Center
+    agency: VA
+  -
+    title: va.gov/data
+    agency: VA
+  -
+    title: NotAlone.gov
+    agency: OSTP
+agencies:
+  - va
+  - ostp

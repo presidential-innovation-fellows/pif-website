@@ -1,0 +1,20 @@
+id: wardell-clarence
+name: "Dr. Clarence Wardell III"
+img: wardell-clarence-headshot.png
+class: 2014
+hometown: "Lathrup Village, MI"
+region: midwest
+bio: "Co-founder of tinyGive. Research at CNA Corp. Berkman Ctr. Affiliate. Computer Engineering, Univ. of Michigan. PhD in ISYE at Georgia Tech."
+skills:
+  - product
+  - bd
+projects:
+  -
+    title: Tech Transfer and Commercialization
+    agency: Energy
+  -
+    title: Open Policing Data
+    agency: OSTP
+agencies:
+  - energy
+  - ostp

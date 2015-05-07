@@ -1,0 +1,13 @@
+id: godbout-greg
+name: Greg Godbout
+img: godbout-greg-headshot.png
+class: 2013
+hometown: "Washington, DC"
+region: south
+skills:
+projects:
+  -
+    title: RFP-EZ
+    agency: SBA
+agencies:
+  - sba

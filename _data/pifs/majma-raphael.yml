@@ -1,0 +1,17 @@
+id: majma-raphael
+name: Raphael Majma
+img: majma-raphael-headshot.png
+class: 2012
+hometown: "Mesquite, TX"
+region: south
+bio: "Product manager, 18F. Formerly Senior Advisor to the White House CTO, Round 1 PIF. Fan of all things NYC, Improve comedy student."
+skills:
+  - policy
+  - product
+  - bd
+projects:
+  -
+    title: Open Data
+    agency: OSTP
+agencies:
+  - OSTP

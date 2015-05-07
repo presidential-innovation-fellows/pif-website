@@ -1,0 +1,18 @@
+id: daggett-chris
+name: Chris Daggett
+img: daggett-chris-headshot.png
+class: 2014
+hometown: Hawaii
+region: west
+bio: "Product strategist with a focus on applied behavioral economics. Board member for the Action Design Network and former VP at ideas42."
+skills:
+  - policy
+  - product
+  - ux
+  - bd
+projects:
+  -
+    title: Data Innovation Initiatives
+    agency: IRS
+agencies:
+  - irs

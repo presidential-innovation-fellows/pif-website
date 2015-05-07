@@ -1,0 +1,17 @@
+id: kemp-john
+name: John Kemp
+img: kemp-john-headshot.png
+class: 2013
+hometown: "Mill River, MA"
+region: northeast
+bio: "Software developer, musician and long-distance runner, who loves a challenge. Expert in security, identity and the web."
+skills:
+  - product
+  - back
+  - cyber
+projects:
+  -
+    title: MyUSA
+    agency: GSA
+agencies:
+  - gsa

@@ -1,0 +1,18 @@
+id: spandana-vidya
+name: Vidya Spandana
+img: spandana-vidya-headshot.png
+class: 2013
+hometown: "San Francisco, CA"
+region: west
+bio: "Entrepreneur. Presidential Innovation Fellow Alum. Engineer. Startup Mentor. Open Data. Gov Tech. Global Development. Inclusion. Growth."
+skills:
+  - product
+  - comm
+  - bd
+  - digital
+projects:
+  -
+    title: Open Data
+    agency: MCC
+agencies:
+  - mcc

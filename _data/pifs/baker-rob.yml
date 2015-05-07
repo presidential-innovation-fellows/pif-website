@@ -1,0 +1,21 @@
+id: baker-rob
+name: Rob Baker
+img: baker-rob-headshot.png
+class: 2013
+hometown: "Washington, DC"
+region: south
+bio: "Round 2 alum implementing open data policy at USAID. Former Ushahidi COO, now on data projects in World Bank's Innovation Labs. Go Red Sox."
+skills:
+  - front
+  - data
+  - product
+  - comm
+  - bd
+  - design
+  - ux
+projects:
+  -
+    title: Open Data Initiatives
+    agency: USAID
+agencies:
+  - usaid

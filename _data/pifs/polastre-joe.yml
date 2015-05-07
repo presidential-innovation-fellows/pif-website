@@ -1,0 +1,13 @@
+id: polastre-joe
+name: Joe Polastre
+img: polastre-joe-headshot.png
+class: 2013
+hometown: Pennsylvania
+region: northeast
+skills:
+projects:
+  -
+    title: Innovation Toolkit
+    agency: State
+agencies:
+  - state

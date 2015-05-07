@@ -1,0 +1,18 @@
+id: gordon-rachel
+name: Rachel Gordon
+img: gordon-rachel-headshot.png
+class: 2014
+hometown: "New York, NY"
+region: northeast
+bio: "Manager of Mobile Analytics at The New York Times, Mechanical Engineering and Entrepreneurship at The University of Pennsylvania."
+skills:
+  - data
+  - ux
+  - bd
+  - design
+projects:
+  -
+    title: VA Modernization
+    agency: VA
+agencies:
+  - va

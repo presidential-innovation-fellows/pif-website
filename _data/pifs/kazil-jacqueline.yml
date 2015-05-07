@@ -1,0 +1,19 @@
+id: kazil-jacqueline
+name: Jacqueline Kazil
+img: kazil-jacqueline-headshot.png
+class: 2013
+hometown: "Washington, DC"
+region: south
+bio: "Computational social & data scientist; loves gov; served in journo & civic roles. Founder PyLadiesDC, GeoDC, & leader of PyLadies Int'l."
+skills:
+  - data
+  - product
+  - comm
+  - bd
+  - back
+projects:
+  -
+    title: GeoQ
+    agency: FEMA
+agencies:
+  - fema

@@ -1,0 +1,16 @@
+id: jones-timothy
+name: Timothy Jones
+img: jones-timothy-headshot.png
+class: 2014
+hometown: "Oakland, CA"
+region: west
+bio: "Founder of TBJ Investments, LLC. Entrepreneur and Investor in Data/Analytics. BS/MBA from MIT, M.S. from Georgia State."
+skills:
+  - product
+  - bd
+projects:
+  -
+    title: Data Innovation Initiatives
+    agency: Energy
+agencies:
+  - energy

@@ -1,0 +1,20 @@
+id: read-robert
+name: Robert Read
+img: read-robert-headshot.png
+class: 2013
+hometown: "Tulsa, OK"
+region: south
+bio: "Robert L. Read helped start 18F. He is currently creating a charity Public Invention for All Humanity (PIFAH)."
+skills:
+  - front
+  - data
+  - product
+  - back
+  - cyber
+  - ux
+projects:
+  -
+    title: RFP-EZ
+    agency: GSA
+agencies:
+  - gsa

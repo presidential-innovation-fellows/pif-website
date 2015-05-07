@@ -1,0 +1,13 @@
+id: shen-jason
+name: Jason Shen
+img: shen-jason-headshot.png
+class: 2013
+hometown: "Newton, MA"
+region: northeast
+skills:
+projects:
+  -
+    title: Digitization / Transcription Center
+    agency: Smithsonian
+agencies:
+  - smithsonian

@@ -15,7 +15,8 @@ layout: default
 			<h3><em>Case Studies</em></h3>
 			<hr/>
 			<div class="row">
-				{% for study in site.data.case_studies %}
+				{% for study_hash in site.data.case_studies %}
+				{% assign study = study_hash[1] %}
 					<div class="col-md-3 col-sm-6">
 						<div class="panel panel-default" data-toggle="modal" data-target="#{{ study.id }}-modal">
 						  <div class="panel-body">

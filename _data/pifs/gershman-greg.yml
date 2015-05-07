@@ -1,0 +1,19 @@
+id: gershman-greg
+name: Greg Gershman
+img: gershman-greg-headshot.png
+class: 2012
+hometown: "Gaithersberg, MD"
+region: south
+bio: "Father, husband, software developer, co-founder Ad Hoc LLC, HealthCare.gov rescue, MyUSA (Round 1). Live band karaoke singer."
+skills:
+  - front
+  - product
+  - bd
+  - back
+  - digital
+projects:
+  -
+    title: MyGov
+    agency: GSA
+agencies:
+  - gsa

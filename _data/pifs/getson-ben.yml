@@ -1,0 +1,18 @@
+id: getson-ben
+name: Ben Getson
+img: getson-ben-headshot.png
+class: 2014
+hometown: "Washington, DC"
+region: south
+bio: "Product Management at LivingSocial. Former Software Developer (but constant hobbyist). Startup Mentor at 1776. CS/Information Science, Duke."
+skills:
+  - front
+  - product
+  - ux
+  - back
+projects:
+  -
+    title: Refund Status API
+    agency: IRS
+agencies:
+  - irs

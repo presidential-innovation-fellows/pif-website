@@ -1,0 +1,21 @@
+id: felleman-john
+name: John Felleman
+img: felleman-john-headshot.png
+class: 2013
+hometown: "Boston, MA"
+region: northeast
+bio: "Using design think to Agilely create GSA's Acquisition Gateway. Private sector software and internet survivor.  MIT, Boston College."
+skills:
+  - front
+  - product
+  - comm
+  - bd
+  - back
+  - design
+  - ux
+projects:
+  -
+    title: BusinessUSA
+    agency: GSA
+agencies:
+  - gsa

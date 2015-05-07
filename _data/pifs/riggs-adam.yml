@@ -1,0 +1,18 @@
+id: riggs-adam
+name: Adam Riggs
+img: riggs-adam-headshot.png
+class: 2013
+hometown: "Washington, DC"
+region: south
+bio: "E-commerce, New Media, and Finance Entrepreneur / Executive / Investor"
+skills:
+  - policy
+  - product
+  - comm
+  - bd
+projects:
+  -
+    title: Open Data Initiatives
+    agency: Treasury
+agencies:
+  - treasury

@@ -1,0 +1,18 @@
+id: hammer-dan
+name: Dan Hammer
+img: hammer-dan-headshot.png
+class: 2014
+hometown: "Washington, DC"
+region: south
+bio: "PhD candidate at UC Berkeley; former Chief Data Scientist at World Resources Institute; environmental economics, mostly in clojure & python"
+skills:
+  - policy
+  - data
+  - product
+  - back
+projects:
+  -
+    title: api.nasa.gov
+    agency: NASA
+agencies:
+  - nasa

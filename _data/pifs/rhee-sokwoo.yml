@@ -1,0 +1,18 @@
+id: rhee-sokwoo
+name: "Dr. Sokwoo Rhee"
+img: rhee-sokwoo-headshot.png
+class: 2013
+hometown: "Boston, MA"
+region: northeast
+bio: "Associate Director of CPS Program at NIST. Previously CTO of Millennial Net. PhD from MIT in Mech Eng. Technology Review's TR35 Awardee."
+skills:
+  - product
+  - comm
+  - bd
+  - cyber
+projects:
+  -
+    title: "Internet of Things / Cyber-Physical Systems"
+    agency: NIST
+agencies:
+  - nist

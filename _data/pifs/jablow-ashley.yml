@@ -1,0 +1,17 @@
+id: jablow-ashley
+name: Ashley Jablow
+img: jablow-ashley-headshot.png
+class: 2014
+hometown: "Palo Alto, CA"
+region: west
+bio: "Formerly OpenIDEO / IDEO. Open innovation, design thinking, social impact, leadership. MBA, Boston University + BA, University of Michigan."
+skills:
+  - product
+  - ux
+  - bd
+projects:
+  -
+    title: "Project Pivot"
+    agency: NARA
+agencies:
+  - nara

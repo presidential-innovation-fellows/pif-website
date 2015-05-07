@@ -1,0 +1,13 @@
+id: worthington-charles
+name: Charles Worthington
+img: worthington-charles-headshot.png
+class: 2013
+hometown: "Washington, DC"
+region: south
+skills:
+projects:
+  -
+    title: Open Data
+    agency: Education
+agencies:
+  - ed

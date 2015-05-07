@@ -1,0 +1,21 @@
+id: goranson-christopher
+name: Christopher Goranson
+img: goranson-christopher-headshot.png
+class: 2014
+hometown: Colorado
+region: west
+bio: "@ Interior. Prev. Director of PIIIM, The New School, Lecturer at Mt. Sinai School of Medicine, Director of GIS Center at NYC Dept Health."
+skills:
+  - policy
+  - front
+  - data
+  - product
+  - ux
+  - bd
+  - design
+projects:
+  -
+    title: Every Kid in a Park
+    agency: Interior
+agencies:
+  - interior

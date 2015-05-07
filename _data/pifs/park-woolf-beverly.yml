@@ -1,0 +1,18 @@
+id: park-woolf-beverly
+name: "Dr. Beverly Park Woolf"
+img: park-woolf-beverly-headshot.png
+class: 2013
+hometown: "Amherst, MA"
+region: northeast
+bio: "Research Professor, UMass; Develops software that models users affect and cognition; Publishes data-rich, adaptive and engaging software."
+skills:
+  - policy
+  - product
+  - comm
+  - bd
+projects:
+  -
+    title: "Education / Computer Science"
+    agency: NSF
+agencies:
+  - nsf

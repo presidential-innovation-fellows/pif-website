@@ -1,0 +1,19 @@
+id: black-tom
+name: Tom Black
+img: black-tom-headshot.png
+class: 2013
+hometown: "Stillwater, MN"
+region: west
+bio: "Consultant with 18F, U.S. Navy vet, health data and open-source hacker, tech entrepreneur, lean startups and Agile design and development."
+skills:
+  - front
+  - product
+  - back
+  - ux
+  - digital
+projects:
+  -
+    title: Blue Button
+    agency: VA
+agencies:
+  - va

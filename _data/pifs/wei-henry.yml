@@ -1,0 +1,18 @@
+id: wei-henry
+name: "Henry Wei, MD"
+img: wei-henry-headshot.png
+class: 2012
+hometown: New York
+region: northeast
+bio: "Physician & co-founder @Aetna Innovation. Teaches @Cornell. Worked @health IT co. & @McKinsey. Cornell MD; Harvard AB+AM. Husband & dad."
+skills:
+  - front
+  - product
+  - bd
+  - back
+projects:
+  -
+    title: Blue Button
+    agency: VA
+agencies:
+  - va

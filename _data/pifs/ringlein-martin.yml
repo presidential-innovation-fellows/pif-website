@@ -1,0 +1,22 @@
+id: ringlein-martin
+name: Martin Ringlein
+img: ringlein-martin-headshot.png
+class: 2013
+hometown: "Washington, DC"
+region: south
+bio: "CEO @nvite, Mayor of @whitehouse, first Design Manager @twitter, mascot @macawco, founder @canvascowork and @nclud."
+skills:
+  - front
+  - data
+  - product
+  - comm
+  - bd
+  - design
+  - ux
+  - digital
+projects:
+  -
+    title: White House Small Business Procurement Group
+    agency: SBA
+agencies:
+  - sba

@@ -1,0 +1,19 @@
+id: cairns-chris
+name: Chris Cairns
+img: cairns-chris-headshot.png
+class: 2013
+hometown: "Waterford, PA"
+region: northeast
+bio: "Director of Consulting at 18F, former Presidential Innovation Fellow, entrepreneur, and full-stack developer. Penn State University."
+skills:
+  - front
+  - product
+  - comm
+  - bd
+  - back
+projects:
+  -
+    title: 21st Century Financial Systems
+    agency: Treasury
+agencies:
+  - treasury

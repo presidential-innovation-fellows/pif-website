@@ -1,0 +1,17 @@
+id: wood-jed
+name: Jed Wood
+img: wood-jed-headshot.png
+class: 2012
+hometown: "Provo, UT"
+region: west
+bio: "UX Prototyper and lover of APIs"
+skills:
+  - front
+  - back
+  - ux
+projects:
+  -
+    title: RFP-EZ
+    agency: SBA
+agencies:
+  - sba

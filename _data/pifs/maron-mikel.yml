@@ -1,0 +1,17 @@
+id: maron-mikel
+name: Mikel Maron
+img: maron-mikel-headshot.png
+class: 2014
+hometown: "Santa Cruz, CA"
+region: west
+bio: "Coder/Geographer. Humanitarian OpenStreetMap Team, GroundTruth, Map Kibera, Moabi. UCSC, U Sussex. Tactfully ignores silos. Maps."
+skills:
+  - front
+  - data
+  - back
+projects:
+  -
+    title: OpenStreetMap for Diplomacy
+    agency: State
+agencies:
+  - state

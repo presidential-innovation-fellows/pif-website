@@ -1,0 +1,18 @@
+id: martin-marina
+name: Marina Martin
+img: martin-marina-headshot.png
+class: 2012
+hometown: Connecticut
+region: northeast
+bio: "Chief Technology Officer of U.S. Department of Veterans Affairs. Author, Business Efficiency for Dummies. Dry erase aficionado."
+skills:
+  - policy
+  - product
+  - bd
+  - back
+projects:
+  -
+    title: Open Data
+    agency: Education
+agencies:
+  - ed

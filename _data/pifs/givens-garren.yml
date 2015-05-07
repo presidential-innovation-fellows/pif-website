@@ -1,0 +1,20 @@
+id: givens-garren
+name: Garren Givens
+img: givens-garren-headshot.png
+class: 2013
+hometown: Colorado
+region: west
+bio: "Government innovation sherpa for @PIF and @18F. Entrepreneur and consultant turned social impact junkie. Husband. Father. Founder. Yalie. "
+skills:
+  - front
+  - product
+  - comm
+  - bd
+  - back
+  - digital
+projects:
+  -
+    title: ConnectEd
+    agency: DoEd
+agencies:
+  - ed

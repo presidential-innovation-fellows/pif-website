@@ -1,0 +1,19 @@
+id: winn-julia
+name: Julia Winn
+img: winn-julia-headshot.png
+class: 2014
+hometown: "Seattle, WA"
+region: northeast
+bio: "Founder & CEO of BetterFit Technologies (TechStars Boston), Product Manager at Ginger.io. Computer Science at Harvard College."
+skills:
+  - front
+  - data
+  - product
+  - ux
+  - back
+projects:
+  -
+    title: "The Veteran Employment Center &amp; the claims backlog"
+    agency: VA
+agencies:
+  - va

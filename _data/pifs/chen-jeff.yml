@@ -1,0 +1,22 @@
+id: chen-jeff
+name: Jeff Chen
+img: chen-jeff-headshot.png
+class: 2014
+hometown: "Bronxville, NY"
+region: northeast
+bio: "Data science at New York City Fire Department, NYC Mayor's Office, Halcrow. Applied Stats, Columbia University. Economics, Tufts University."
+skills:
+  - policy
+  - data
+  - product
+  - bd
+  - design
+projects:
+  -
+    title: Climate Data Initiative
+    agency: NASA
+  -
+    title: Modernization of the USPTO submission process
+    agency: USPTO
+agencies:
+  - nasa

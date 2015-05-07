@@ -1,0 +1,18 @@
+id: sosinski-robert
+name: Robert Sosinski
+img: sosinski-robert-headshot.png
+class: 2014
+hometown: New Jersey
+region: midwest
+bio: "Reactive.IO Founder. Led engineering at Ticket Evolution, Sling Media and Time Inc. Cryptographer at US Air Force. MS at NYU and BS at UMD."
+skills:
+  - front
+  - product
+  - back
+  - cyber
+projects:
+  -
+    title: VA Modernization
+    agency: VA
+agencies:
+  - va

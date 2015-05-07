@@ -1,0 +1,18 @@
+id: hartley-hillary
+name: Hillary Hartley
+img: hartley-hillary-headshot.png
+class: 2013
+hometown: "Baxter Spring, KS"
+region: midwest
+bio: "2013 PIF and founding team member of 18F. I'm in the Bay Area raising two boys with my lovely wife. Proud Smith alum with Jayhawk blood."
+skills:
+  - comm
+  - bd
+  - design
+  - ux
+projects:
+  -
+    title: MyUSA
+    agency: GSA
+agencies:
+  - gsa

@@ -1,0 +1,21 @@
+id: mayer-cantu-diego
+name: Diego Mayer-Cantu
+img: mayer-cantu-diego-headshot.png
+class: 2013
+hometown: "Palo Alto, CA"
+region: west
+bio: "Open data and digitization @ Smithsonian. Founder of Inventively. Executive Strategy, Policy, Product Management, Implementation, Advocacy."
+skills:
+  - policy
+  - data
+  - product
+  - comm
+  - bd
+  - back
+  - digital
+projects:
+  -
+    title: Open Data Initiatives
+    agency: Smithsonian
+agencies:
+  - smithsonian

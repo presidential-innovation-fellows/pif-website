@@ -1,0 +1,16 @@
+id: so-bosco
+name: Bosco So
+img: so-bosco-headshot.png
+class: 2014
+hometown: California
+region: west
+bio: "SF Ruby organizer. Ex Senior Eng at Indiegogo, Orange Labs, CleverMachine, Groundspring, Switchouse, AZ Republic, Ziff, DRI. Comp Sci, MIT."
+skills:
+  - front
+  - back
+projects:
+  -
+    title: SunShot Catalyst
+    agency: Energy
+agencies:
+  - energy

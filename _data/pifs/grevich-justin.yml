@@ -1,0 +1,18 @@
+id: grevich-justin
+name: Justin Grevich
+img: grevich-justin-headshot.png
+class: 2013
+hometown: "Washington, DC"
+region: south
+bio: "Justin dabbles in infosec, software, and systems engineering. He thrives to improve the efficiency and reliability in digital systems."
+skills:
+  - front
+  - back
+  - cyber
+  - digital
+projects:
+  -
+    title: MyUSA
+    agency: GSA
+agencies:
+  - gsa

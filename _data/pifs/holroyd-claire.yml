@@ -1,0 +1,19 @@
+id: holroyd-claire
+name: Claire Holroyd
+img: holroyd-claire-headshot.png
+class: 2013
+hometown: "Los Angeles, CA"
+region: west
+bio: "Head of Product YogaGlo, Product Management PlayStation Network, Qualcomm. Public Policy, Duke University, MFA, The School Of Visual Arts. "
+skills:
+  - product
+  - comm
+  - bd
+  - ux
+  - digital
+projects:
+  -
+    title: MyUSA
+    agency: GSA
+agencies:
+  - gsa

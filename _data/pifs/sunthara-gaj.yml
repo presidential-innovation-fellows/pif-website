@@ -1,0 +1,26 @@
+id: sunthara-gaj
+name: Gajen Sunthara
+img: sunthara-gaj-headshot.png
+class: 2014
+hometown: "Boston, MA"
+region: northeast
+bio: "Computer Scientist with Lab Med & Healthcare Background. Presidential Innovation Fellow at U.S.HHS, CTO, Cofounder and Advisor Harvard Med."
+skills:
+  - policy
+  - front
+  - back
+  - cyber
+projects:
+  -
+    title: Eobla Initiatives
+    agency: HHS
+  -
+    title: Blue Button
+    agency: VA
+  -
+    title: Precision Medicine
+    agency: NIH
+agencies:
+  - hhs
+  - va
+  - nih

@@ -1,0 +1,29 @@
+id: kalafarski-ej
+name: EJ Kalafarski
+img: kalafarski-ej-headshot.png
+class: 2014
+hometown: "North Attelboro, MA"
+region: northeast
+bio: "Former VP of Product at Onswipe. Creator of time-travel app Déjà Vu for iPhone. Brown University and Tufts University. Minimalist."
+skills:
+  - policy
+  - front
+  - data
+  - product
+  - ux
+  - bd
+projects:
+  -
+    title: OSHA Heat Safety Tool
+    agency: DOL
+  -
+    title: Child Labor app
+    agency: Bureau of International Labor Affairs
+  -
+    title: Fair Pay Executive Order
+    agency: DOL
+  -
+    title: Trafficking in Persons
+    agency: DOL
+agencies:
+  - labor

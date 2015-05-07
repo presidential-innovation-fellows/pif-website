@@ -1,0 +1,21 @@
+id: jain-nayan
+name: Nayan Jain
+img: jain-nayan-headshot.png
+class: 2013
+hometown: California
+region: west
+bio: "Co-founder @ Leo. Healthcare hacker. Audax and a number of other start ups. Computational Media at the Georgia Institute of Technology."
+skills:
+  - front
+  - data
+  - product
+  - back
+  - design
+  - ux
+  - digital
+projects:
+  -
+    title: Blue Button
+    agency: VA
+agencies:
+  - va

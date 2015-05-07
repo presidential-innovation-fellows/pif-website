@@ -1,0 +1,19 @@
+id: frempong-derek
+name: Derek Frempong
+img: frempong-derek-headshot.png
+class: 2013
+hometown: "Baltimore, MD"
+region: south
+bio: "Sr Dir of Eng & UX Design at Connections Education, a Pearson Company. BS Chem. from U of Delaware. Patent Pending in Academic Integrity."
+skills:
+  - front
+  - product
+  - back
+  - design
+  - ux
+projects:
+  -
+    title: Lantern Live Mobile app
+    agency: Energy
+agencies:
+  - energy

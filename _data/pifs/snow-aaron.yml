@@ -1,0 +1,19 @@
+id: snow-aaron
+name: Aaron Snow
+img: snow-aaron-headshot.png
+class: 2013
+hometown: "Cleveland, OH"
+region: midwest
+bio: "Dad, husband, co-founder @18F, recovering lawyer, hopelessly loyal Cleveland sports fan."
+skills:
+  - policy
+  - front
+  - product
+  - bd
+  - back
+projects:
+  -
+    title: Innovative Contracting Tools
+    agency: SBA
+agencies:
+  - sba

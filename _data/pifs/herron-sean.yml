@@ -1,0 +1,21 @@
+id: herron-sean
+name: Sean Herron
+img: herron-sean-headshot.png
+class: 2013
+hometown: "Los Angeles, CA"
+region: west
+bio: "Product Lead and Developer at 18F, Formerly a Presidential Innovation Fellow at the Food and Drug Administration and NASA's Open Data lead."
+skills:
+  - policy
+  - front
+  - product
+  - bd
+  - back
+  - cyber
+  - digital
+projects:
+  -
+    title: openFDA
+    agency: FDA
+agencies:
+  - fda

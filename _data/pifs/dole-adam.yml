@@ -1,0 +1,18 @@
+id: dole-adam
+name: Adam Dole
+img: dole-adam-headshot.png
+class: 2013
+hometown: "Palo Alto, CA"
+region: west
+bio: "Co-founder/VP Strategy @betterPHA. Former PIF who worked on Blue Button. Lives in Palo Alto, CA and Los Angeles, CA. "
+skills:
+  - policy
+  - product
+  - comm
+  - bd
+projects:
+  -
+    title: Blue Button
+    agency: VA
+agencies:
+  - va

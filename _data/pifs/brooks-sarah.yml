@@ -1,0 +1,22 @@
+id: brooks-sarah
+name: Sarah Brooks
+img: brooks-sarah-headshot.png
+class: 2014
+hometown: "San Francisco, CA"
+region: west
+bio: "Designer, researcher, writer, educator and advocate for social change – in particular large-scale systems change."
+skills:
+  - data
+  - product
+  - ux
+  - bd
+  - design
+projects:
+  - 
+    title: "Standing up a Veterans Engagement office"
+    agency: Veteran Affairs
+  -
+    title: "Building out the Insight &amp; Design capability"
+    agency: Veteran Affairs
+agencies:
+  - va

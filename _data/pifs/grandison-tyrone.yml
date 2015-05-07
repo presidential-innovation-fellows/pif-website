@@ -1,0 +1,17 @@
+id: grandison-tyrone
+name: "Dr. Tyrone Grandison"
+img: grandison-tyrone-headshot.png
+class: 2014
+hometown: "Kingston, Jamaica"
+region: outside
+bio: "Partner, METIS Inc. CEO, Proficiency Labs. BCS & HIMSS Fellow, ACM Distinguished Engineer, Master Inventor. PhD Comp Sci, Imperial College"
+skills:
+  - policy
+  - product
+  - cyber
+projects:
+  -
+    title: "Workforce, Skills and Training"
+    agency: DOL
+agencies:
+  - labor

@@ -1,0 +1,20 @@
+id: steremberg-alan
+name: Alan Steremberg
+img: steremberg-alan-headshot.png
+class: 2014
+hometown: "Fairfield, CT"
+region: northeast
+bio: "Alan co-founded Weather Underground. He brings his expertise in CS, weather and consumer product development to the NOAA as a PIF."
+skills:
+  - front
+  - data
+  - product
+  - ux
+  - bd
+  - back
+projects:
+  -
+    title: Big Data Partnership
+    agency: NOAA
+agencies:
+  - noaa

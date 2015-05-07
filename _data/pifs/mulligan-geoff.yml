@@ -1,0 +1,19 @@
+id: mulligan-geoff
+name: Geoff Mulligan
+img: mulligan-geoff-headshot.png
+class: 2013
+hometown: Colorado
+region: west
+bio: "Helped design the ARPAnet, IPv6 and created 6lowpan and the embedded Internet. Chairman of the IPSO Alliance. US Rep on Smart Cities."
+skills:
+  - product
+  - comm
+  - bd
+  - back
+  - cyber
+projects:
+  -
+    title: SmartAmerica Challenge
+    agency: NIST
+agencies:
+  - nist
