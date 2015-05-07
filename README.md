@@ -1,6 +1,6 @@
 # Presidential Innovation Fellows website
 
-This is the PIF website, jekyll edition. The website is currently maintained by the PIF leadership, with contributions from the fellows.
+This is the PIF website, jekyll edition (inspired by the [18F hub](https://github.com/18F/hub)). The website is currently maintained by the PIF leadership, with contributions from the fellows.
 
 In the _data section there are YAML files available for PIF bios, current/previous projects, and case studies. Additionally, there are specific fields for each YAML file and corresponding approved values.
 
