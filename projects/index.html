@@ -29,7 +29,7 @@ layout: default
 						</div>
 					</div>
 
-					<div class="modal fade" id="{{ study.id }}-modal project-modal" tabindex="-1" role="dialog" aria-labelledby="{{ study.id }}-label" aria-hidden="true">
+					<div class="modal fade project-modal" id="{{ study.id }}-modal" tabindex="-1" role="dialog" aria-labelledby="{{ study.id }}-label" aria-hidden="true">
 					  <div class="modal-dialog">
 					    <div class="modal-content">
 					      <div class="modal-header">
@@ -93,7 +93,6 @@ layout: default
 		<div class="col-md-12">
 			<h3><em>Previous Projects</em></h3>
 			<hr/>
-
 			<ul>
 				{% for previous_hash in site.data.previous_projects %}
 				{% assign previous = previous_hash[1] %}
