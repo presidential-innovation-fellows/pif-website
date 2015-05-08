@@ -12,7 +12,7 @@ layout: default
 <div class="container" id="agencies">
 	{% for agency in site.data.agency_list %}
 		<div class="row" id="agency-list">
-			<div class="col-sm-2">
+			<div class="col-sm-2 hidden-xs">
 				<img src="/images/agencies/{{ agency.short }}.png" class="img-responsive">
 			</div>
 			<div class="col-sm-10">
@@ -24,10 +24,10 @@ layout: default
 						{% if agency.short == current_project.agency %}
 							<div class="col-md-6">
 								<div class="row" id="agency-project">
-									<div class="col-md-5 col-sm-3" id="agency-project-name">
+									<div class="col-lg-4 col-md-5 col-sm-3" id="agency-project-name">
 										<p><strong>{{ current_project.name }}</strong></p>
 									</div>
-									<div class="col-md-7 col-sm-9" id="agency-fellow-list">
+									<div class="col-lg-8 col-md-7 col-sm-9" id="agency-fellow-list">
 										<ul>
 											{% for pif in current_project.pifs %}
 												{% for pif_hash in site.data.pifs %}
@@ -49,10 +49,10 @@ layout: default
 						{% if agency.short == previous_project.agency %}
 							<div class="col-md-6">
 								<div class="row" id="agency-project">
-									<div class="col-md-5 col-sm-3" id="agency-project-name">
+									<div class="col-lg-4 col-md-5 col-sm-3" id="agency-project-name">
 										<p><strong>{{ previous_project.name }}</strong></p>
 									</div>
-									<div class="col-md-7 col-sm-9" id="agency-fellow-list">
+									<div class="col-lg-8 col-md-7 col-sm-9" id="agency-fellow-list">
 										<ul>
 											{% for pif in previous_project.pifs %}
 												{% for pif_hash in site.data.pifs %}
@@ -69,6 +69,8 @@ layout: default
 							</div>
 						{% endif %}
 					{% endfor %}
+
+
 				</div>
 			</div>
 		</div>
