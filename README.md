@@ -2,24 +2,26 @@
 
 This is the PIF website, jekyll edition (inspired by the [18F hub](https://github.com/18F/hub)). The website is currently maintained by the PIF leadership, with contributions from the fellows.
 
-In the _data section there are YAML files available for PIF bios, current/previous projects, and case studies. Additionally, there are specific fields for each YAML file and corresponding approved values.
+In the /_data section there are YAML files available for PIF bios, current/previous projects, and case studies. Additionally, there are specific fields for each YAML file and corresponding approved values.
 
 **NOTE:** When adding info to YAML files, if the text added contains a ',' or '.' please use "" around the text.
 
 #### PIF bios
 
+LOCATION: /_data/pifs/
 FILENAME: lastname-firstname.yml
-- id: lastname-firstname
-- name:
-- img: lastname-firstname-headshot.png*
-- class: [identified by year you joined]
-- hometown:
-- region: [using general US Census regions]
-- skills: [list of approved terms are in the appendix]
-- projects: [should contain a **title** and **agency** for each project]
- - title:
- - agency:
-- agencies: [list of approved terms are in the appendix]
+
+field | format/info
+--- | ---
+id: | lastname-firstname
+name: | full name
+year: | year joined
+img: | lastname-firstname-headshot.png
+hometown: | City, STATE
+region: | [US Census regions [map link](http://www2.census.gov/geo/pdfs/maps-data/maps/reference/us_regdiv.pdf)]
+bio: | 140 character bio
+bio_full: | full PIF bio
+skills: | [list of approved terms are in Appendix]
 
 **NOTE:** It's **IMPORTANT** to use the approved values so the filtering on the Fellows page works.
 
@@ -27,28 +29,48 @@ FILENAME: lastname-firstname.yml
 
 Case studies are specific PIF projects that are highlighted and used for branding and marketing.
 
+LOCATION: /_data/case_studies/
 FILENAME: case-study-name.yml
-- id: [case-study-id]
-- img: case-study.png
-- title:
-- description:
-- challenge:
-- solution:
-- impact:
-- date:
-- quote:
-- quote_source:
+
+field | format/info
+--- | ---
+id: | [case-study-id]
+img: | case-study.png
+title: | name of case study
+description: | 
+challenge: |
+solution: |
+impact: |
+date: | typically a range (e.g. 2013 - present)
+quote: |
+quote_source: |
 
 #### Current and Previous Projects
 
-Current and previous projects are within their respective subdirectories (current_projects and previous_projects). As current projects wrap up, they should be moved to the previous_projects subdirectory.
+Current and previous projects are within their respective subdirectories. As current projects wrap up, they should be moved to the previous_projects subdirectory.
 
+LOCATION: /_data/current_projects OR /_data/previous_projects
 FILENAME: project-name.yml
-- name:
-- agency: [full name]
-- description:
 
-### Appendix
+name: | name of project
+agency: | [reference name, see Appendix]
+description: |
+pifs: | list of pifs who worked on project
+
+#### Agency List
+
+This YAML file contains the reference keys for agencies
+
+FILENAME: agency_list.yml
+
+field | info
+--- | ---
+short: | acronym or abbreviated name
+long: | full name
+
+If you need to add an agency, make sure to add their logo (400x400) to the /images/agencies/ folder using the **short** field name.
+
+### APPENDIX
 
 #### regions
 
@@ -76,7 +98,7 @@ design | Visual Design
 cyber | Cyber Security
 digital | Digital Strategy
 
-#### Agencies [1]
+#### Agencies
 
 term | name
 --- | ---
@@ -108,5 +130,3 @@ State | State Department
 Treasury | Department of the Treasury
 USAID | US Agency for International Development
 VA | Veteran Affairs
-
-[1] Working for an agency or organization that's not listed, message @stroupaloop to have it added (or be bold and do it yourself)!
