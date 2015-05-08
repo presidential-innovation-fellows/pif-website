@@ -9,6 +9,7 @@ In the /_data section there are YAML files available for PIF bios, current/previ
 #### PIF bios
 
 LOCATION: /_data/pifs/
+
 FILENAME: lastname-firstname.yml
 
 field | format/info
@@ -30,6 +31,7 @@ skills: | [list of approved terms are in Appendix]
 Case studies are specific PIF projects that are highlighted and used for branding and marketing.
 
 LOCATION: /_data/case_studies/
+
 FILENAME: case-study-name.yml
 
 field | format/info
@@ -49,7 +51,8 @@ quote_source: |
 
 Current and previous projects are within their respective subdirectories. As current projects wrap up, they should be moved to the previous_projects subdirectory.
 
-LOCATION: /_data/current_projects OR /_data/previous_projects
+LOCATION: /_data/current_projects/ OR /_data/previous_projects/
+
 FILENAME: project-name.yml
 
 name: | name of project
@@ -61,6 +64,8 @@ pifs: | list of pifs who worked on project
 
 This YAML file contains the reference keys for agencies
 
+LOCATION: /_data/
+
 FILENAME: agency_list.yml
 
 field | info
@@ -68,7 +73,7 @@ field | info
 short: | acronym or abbreviated name
 long: | full name
 
-If you need to add an agency, make sure to add their logo (400x400) to the /images/agencies/ folder using the **short** field name.
+**NOTE:** If you need to add an agency, make sure to add their logo (400x400) to the /images/agencies/ folder using the **short** field name AND update the README file to include the agency in the Appendix list.
 
 ### APPENDIX
 
