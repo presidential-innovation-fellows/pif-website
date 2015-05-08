@@ -5,53 +5,73 @@ layout: default
 <div class="container-fluid" id="hero">
 	<div class="row">
 		<div class="col-md-12 text-center">
-			<h1>Agencies</h1>
+			<h1>Supported Agencies</h1>
 		</div>
 	</div>
 </div>
 <div class="container" id="agencies">
-	<div class="row">
-		<div class="col-sm-12">
-			{% for agency in site.data.agency_list %}
-				<h4>{{ agency.long }}:</h4>
-				<ul>
+	{% for agency in site.data.agency_list %}
+		<div class="row" id="agency-list">
+			<div class="col-sm-2">
+				<img src="/images/agencies/{{ agency.short }}.png" class="img-responsive">
+			</div>
+			<div class="col-sm-10">
+				<h4><em>{{ agency.long }}:</em></h4>
+				<hr/>
+				<div class="row" id="agency-project-list">
 					{% for current_projects_hash in site.data.current_projects %}
 					{% assign current_project = current_projects_hash[1] %}
 						{% if agency.short == current_project.agency %}
-							<li><h5>{{ current_project.name }}</h5></li>
-							<ul id="agencies-pif-list">
-								{% for pif in current_project.pifs %}
-									{% for pif_hash in site.data.pifs %}
-									{% assign pif_id = pif_hash[0] %}
-									{% assign pif_info = pif_hash[1] %}
-										{% if pif_id == pif %}
-											<li><img src="/images/{{ pif_info.class }}/{{ pif_info.img }}"></li>
-										{% endif %}
-									{% endfor %}
-								{% endfor %}
-							</ul>
+							<div class="col-md-6">
+								<div class="row" id="agency-project">
+									<div class="col-md-5 col-sm-3" id="agency-project-name">
+										<p><strong>{{ current_project.name }}</strong></p>
+									</div>
+									<div class="col-md-7 col-sm-9" id="agency-fellow-list">
+										<ul>
+											{% for pif in current_project.pifs %}
+												{% for pif_hash in site.data.pifs %}
+												{% assign pif_id = pif_hash[0] %}
+												{% assign pif_info = pif_hash[1] %}
+													{% if pif_id == pif %}
+														<li><img src="/images/{{ pif_info.year }}/{{ pif_info.img }}"></li>
+													{% endif %}
+												{% endfor %}
+											{% endfor %}
+										</ul>
+									</div>
+								</div>
+							</div>
 						{% endif %}
 					{% endfor %}
 					{% for previous_projects_hash in site.data.previous_projects %}
 					{% assign previous_project = previous_projects_hash[1] %}
 						{% if agency.short == previous_project.agency %}
-							<li><h5>{{ previous_project.name }}</h5></li>
-							<ul id="agencies-pif-list">
-								{% for pif in previous_project.pifs %}
-									{% for pif_hash in site.data.pifs %}
-									{% assign pif_id = pif_hash[0] %}
-									{% assign pif_info = pif_hash[1] %}
-										{% if pif_id == pif %}
-											<li><img src="/images/{{ pif_info.class }}/{{ pif_info.img }}"></li>
-										{% endif %}
-									{% endfor %}
-								{% endfor %}
-							</ul>
+							<div class="col-md-6">
+								<div class="row" id="agency-project">
+									<div class="col-md-5 col-sm-3" id="agency-project-name">
+										<p><strong>{{ previous_project.name }}</strong></p>
+									</div>
+									<div class="col-md-7 col-sm-9" id="agency-fellow-list">
+										<ul>
+											{% for pif in previous_project.pifs %}
+												{% for pif_hash in site.data.pifs %}
+												{% assign pif_id = pif_hash[0] %}
+												{% assign pif_info = pif_hash[1] %}
+													{% if pif_id == pif %}
+														<li><img src="/images/{{ pif_info.year }}/{{ pif_info.img }}"></li>
+													{% endif %}
+												{% endfor %}
+											{% endfor %}
+										</ul>
+									</div>
+								</div>
+							</div>
 						{% endif %}
 					{% endfor %}
-				</ul>
-			{% endfor %}
+				</div>
+			</div>
 		</div>
-	</div>
+	{% endfor %}
 </div>
 

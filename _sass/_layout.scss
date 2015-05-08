@@ -517,16 +517,38 @@ body{
 
 // AGENCIES
 #agencies{
+  padding-top:50px;
+  padding-bottom:75px;
+  h4{
+    margin-bottom:0px;
+  }
+  hr{
+    margin-top:5px;
+  }
   ul{
     list-style-type:none;
   }
   img{
-    max-height:100px;
+    margin-right:5px;
+    margin-bottom:5px;
   }
-  #agencies-pif-list{
-    li{
-      display: inline-block;
+  #agency-project-list{
+    margin-left:30px;
+  }
+  #agency-project{
+    margin-bottom:20px;
+  }
+  #agency-fellow-list{
+    padding-left:0px;
+    ul{
+      padding-left:15px;
+      li{
+        display: inline-block;
+      }
     }
+  }
+  #agency-list{
+    margin-bottom:20px;
   }
 }
 
@@ -591,6 +613,25 @@ body{
     }
   }
 
+  // AGENCIES
+  #agencies{
+    img{
+      max-height:100px;
+    }
+    #agency-project-name{
+      p{
+        text-align:right;
+      }
+    }
+    #agency-fellow-list{
+      ul{ 
+        border-left: solid;
+        border-left-width:2px;
+        border-left-color:$gray-dark;
+      }
+    }
+  }
+
 }
 
 // medium devices (desktops)
@@ -627,6 +668,24 @@ body{
     }
   }
 
+  // AGENCIES
+  #agencies{
+    img{
+      max-height:75px;
+    }
+    #agency-project-name{
+      p{
+        text-align:right;
+      }
+    }
+    #agency-fellow-list{
+      ul{ 
+        border-left: solid;
+        border-left-width:2px;
+        border-left-color:$gray-dark;
+      }
+    }
+  }
 }
 
 // Small devices and Phones (991px and less)
@@ -678,6 +737,24 @@ body{
     }
   }
 
+  // AGENCIES
+  #agencies{
+    img{
+      max-height:90px;
+    }
+    #agency-project-name{
+      p{
+        text-align:right;
+      }
+    }
+    #agency-fellow-list{
+      ul{ 
+        border-left: solid;
+        border-left-width:2px;
+        border-left-color:$gray-dark;
+      }
+    }
+  }
 }
 
 // extra small devices (phones)
@@ -744,4 +821,13 @@ body{
     }
   }
 
+  // AGENCIES
+  #agencies{
+    img{
+      max-height:100px;
+    }
+    #agency-project-list{
+      margin-left:5px;
+    }
+  }
 }
