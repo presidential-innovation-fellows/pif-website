@@ -69,11 +69,11 @@ layout: default
 				{% capture modulo %}{{ forloop.index | modulo: 2 }}{% endcapture %}
 				{% if modulo contains "1" %}
 					<div class="row">
-						<div class="col-md-6">
+						<div class="col-md-6" id="{{ current_hash[0] }}">
 							<h4>{{ current.name }}</h4>
 							{% for agency in site.data.agency_list %}
 								{% if current.agency == agency.short %}
-									<h5><em>{{ agency.long }}</em></h5>
+									<h5><em>{{ agency.long }}</em> <small>(<a href="{{ agency.website }}" target="_blank">website</a>)</small></h5>
 								{% endif %}
 							{% endfor %}
 							<p>{{ current.description }}</p>
@@ -82,11 +82,11 @@ layout: default
 						</div>
 					{% endif %}
 				{% else %}
-						<div class="col-md-6">
+						<div class="col-md-6" id="{{ current_hash[0] }}">
 							<h4>{{ current.name }}</h4>
 							{% for agency in site.data.agency_list %}
 								{% if current.agency == agency.short %}
-									<h5><em>{{ agency.long }}</em></h5>
+									<h5><em>{{ agency.long }}</em> <small>(<a href="{{ agency.website }}" target="_blank">website</a>)</small></h5>
 								{% endif %}
 							{% endfor %}
 							<p>{{ current.description }}</p>
@@ -107,7 +107,7 @@ layout: default
 					{% capture modulo %}{{ forloop.index | modulo: 2 }}{% endcapture %}
 					{% if modulo contains "1" %}
 						<div class="row">
-							<div class="col-md-6">
+							<div class="col-md-6" id="{{ previous_hash[0] }}">
 								<li><p><strong>{{ previous.name}}:</strong> {{ previous.description }}</p></li>	
 							</div>
 						
@@ -115,7 +115,7 @@ layout: default
 							</div>
 						{% endif %}
 					{% else %}
-							<div class="col-md-6">
+							<div class="col-md-6" id="{{ previous_hash[0] }}">
 								<li><p><strong>{{ previous.name }}:</strong> {{ previous.description }}</p></li>	
 							</div>
 						</div>

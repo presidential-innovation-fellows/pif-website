@@ -521,6 +521,7 @@ body{
   padding-bottom:75px;
   h4{
     margin-bottom:0px;
+    margin-top:0px;
   }
   hr{
     margin-top:5px;
@@ -546,9 +547,6 @@ body{
         display: inline-block;
       }
     }
-  }
-  #agency-list{
-    margin-bottom:20px;
   }
 }
 
@@ -615,9 +613,6 @@ body{
 
   // AGENCIES
   #agencies{
-    img{
-      max-height:88px;
-    }
     #agency-project-name{
       p{
         text-align:right;
@@ -629,6 +624,12 @@ body{
         border-left-width:2px;
         border-left-color:$gray-dark;
       }
+      img{
+        max-height:88px;
+      }
+    }
+    #agency-list{
+      margin-bottom:65px;
     }
   }
 
@@ -670,9 +671,6 @@ body{
 
   // AGENCIES
   #agencies{
-    img{
-      max-height:59px;
-    }
     #agency-project-name{
       p{
         text-align:right;
@@ -684,6 +682,12 @@ body{
         border-left-width:2px;
         border-left-color:$gray-dark;
       }
+      img{
+        max-height:59px;
+      }
+    }
+    #agency-list{
+      margin-bottom:50px;
     }
   }
 }
@@ -739,9 +743,6 @@ body{
 
   // AGENCIES
   #agencies{
-    img{
-      max-height:77px;
-    }
     #agency-project-name{
       p{
         text-align:right;
@@ -753,6 +754,12 @@ body{
         border-left-width:2px;
         border-left-color:$gray-dark;
       }
+      img{
+        max-height:77px;
+      }
+    }
+    #agency-list{
+      margin-bottom:35px;
     }
   }
 }
@@ -823,8 +830,13 @@ body{
 
   // AGENCIES
   #agencies{
-    img{
-      max-height:80px;
+    #agency-fellow-list{
+      img{
+        max-height:80px;
+      }
+    }
+    #agency-list{
+      margin-bottom:25px;
     }
   }
 }

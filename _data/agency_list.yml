@@ -1,84 +1,112 @@
--
-  short: DOC
-  long: Department of Commerce
+# -
+#   short: DOC
+#   long: Department of Commerce
+#   website: "http://www.commerce.gov"
 -
   short: ED
   long: Department of Education
+  website: "http://www.ed.gov"
 -
   short: DOE
   long: Department of Energy
+  website: "http://energy.gov"
 -
   short: FDA
   long: Food and Drug Administration
+  website: "http://www.fda.gov"
 -
   short: FEMA
   long: Federal Emergency Management Agency
+  website: "http://www.fema.gov"
 -
   short: GSA
   long: General Services Administration
+  website: "http://www.gsa.gov"
 -
   short: HHS
   long: Health and Human Services
+  website: "http://www.hhs.gov"
 -
   short: DOI
   long: Department of Interior
+  website: "http://www.doi.gov"
 -
   short: IRS
   long: Internal Revenue Service
+  website: "http://www.irs.gov"
 -
   short: DOL
   long: Department of Labor
+  website: "http://www.dol.gov"
 -
   short: MCC
   long: Millennium Challenge Corporation
+  website: "http://www.mcc.gov"
 -
   short: NARA
   long: National Archives and Records Administration
+  website: "http://www.archives.gov"
 -
   short: NASA
   long: National Aeronautics and Space Administration
+  website: "http://www.nasa.gov"
 -
   short: NIH
   long: National Institute of Health
+  website: "http://www.nih.gov"
 -
   short: NIST
   long: National Institute of Standards and Technology
+  website: "http://www.nist.gov"
 -
   short: NOAA
   long: National Oceanic and Atmospheric Administration
+  website: "http://www.noaa.gov"
 -
   short: NSF
   long: National Science Foundation
+  website: "http://www.nsf.gov"
 -
   short: OSTP
   long: "White House Office of Science and Technology, Policy"
+  website: "http://www.whitehouse.gov/administration/eop/ostp"
 -
   short: SBA
   long: Small Business Administration
+  website: "http://www.sba.gov"
 -
   short: Smithsonian
   long: Smithsonian Insitution
+  website: "http://www.si.edu"
 -
   short: State
   long: Department of State
+  website: "http://www.state.gov"
 -
   short: Treasury
   long: Department of Treasury
+  website: "http://www.treasury.gov"
 -
   short: USAID
   long: US Agency for International Development
+  website: "http://www.usaid.gov"
 # -
-#   short: USCIO
-#   long: US Chief Information Officer
+#   short: OMB
+#   long: Office of Management and Budget
+#   website: "http://www.whitehouse.gov/omb/organization"
 -
   short: USCB
   long: US Census Bureau
+  website: "http://www.census.gov"
 -
   short: USDA
   long: US Department of Agriculture
+  website: "http://www.usda.gov"
 -
   short: USPTO
   long: US Patent and Trademark Office
+  website: "http://www.uspto.gov"
 -
   short: VA
   long: Department of Veterans Affairs
+  website: "http://www.va.gov"

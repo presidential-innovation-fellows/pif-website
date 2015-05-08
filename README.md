@@ -76,6 +76,7 @@ field | info
 --- | ---
 short: | acronym or abbreviated name
 long: | full name
+website: | full URL of agency website
 
 **NOTE:** If you need to add an agency, make sure to add their logo (400x400) to the /images/agencies/ folder using the **SHORT** field name AND update the README.md file to include the agency in the Appendix list.
 
