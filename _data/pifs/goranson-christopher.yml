@@ -1,10 +1,11 @@
 id: goranson-christopher
 name: Christopher Goranson
 img: goranson-christopher-headshot.png
-class: 2014
+year: 2014
 hometown: Colorado
 region: west
 bio: "@ Interior. Prev. Director of PIIIM, The New School, Lecturer at Mt. Sinai School of Medicine, Director of GIS Center at NYC Dept Health."
+bio_full: "Chris has worked in the fields of design, public health, academia, government services and planning, most recently as the Director of the Parsons Institute for Information Mapping at The New School. While there his team provided innovative design support for electronic health records at DoD and VA, and supported DARPA’s XDATA program. Other recent efforts include climate visualization initiatives with Parsons The New School for Design, Aalborg University and USC / NASA JPL. Previously Chris was the Director of the GIS Center at the NYC Department of Health, and in 2008 completed an NSF-funded fellowship to compare different disease cluster detection methods at Japan’s National Institute of Public Health. Originally from Colorado, Chris is looking forward to bringing together a love of the outdoors and technology through this project."
 skills:
   - policy
   - front
@@ -13,9 +14,3 @@ skills:
   - ux
   - bd
   - design
-projects:
-  -
-    title: Every Kid in a Park
-    agency: Interior
-agencies:
-  - interior

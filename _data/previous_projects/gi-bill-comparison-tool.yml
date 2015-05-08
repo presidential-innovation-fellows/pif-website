@@ -1,3 +1,5 @@
 name: GI Bill Comparison Tool
 agency: VA
-description: "<strong><a href='http://department-of-veterans-affairs.github.io/gi-bill-comparison-tool/' target='_blank'>GI Bill Comparison Tool</a></strong> makes it easier for Veterans, Service members, and dependents to calculate their Post-9/11 GI Bill benefits and learn about VA’s approved colleges, universities, and available education and training programs across the country."
+description: "Makes it easier for Veterans, Service members, and dependents to calculate their Post-9/11 GI Bill benefits and learn about VA’s approved colleges, universities, and available education and training programs across the country. (<a href='http://department-of-veterans-affairs.github.io/gi-bill-comparison-tool/' target='_blank'>link to project</a>)"
+pifs:
+  -

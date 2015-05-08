@@ -1,10 +1,11 @@
 id: givens-garren
 name: Garren Givens
 img: givens-garren-headshot.png
-class: 2013
+year: 2013
 hometown: Colorado
 region: west
 bio: "Government innovation sherpa for @PIF and @18F. Entrepreneur and consultant turned social impact junkie. Husband. Father. Founder. Yalie. "
+bio_full: "Garren is an experienced entrepreneur and product strategist, and is passionate about consumer Internet.  He has contributed articles to VentureBeat and Huffington Post, and his startups have been covered by Entrepreneur, Forbes, TechCrunch, VentureBeat, and other publications.  Garren holds a BA and MBA from Yale University, and received the prestigious Silver Anniversary Scholarship from Yale School of Management.  He is a self-taught coder, and possibly the only programmer who still prefers books to online tutorials.  Garren is an avid golfer and classical pianist.  He lives in Washington, DC, with his wife, Alexandra."
 skills:
   - front
   - product
@@ -12,9 +13,3 @@ skills:
   - bd
   - back
   - digital
-projects:
-  -
-    title: ConnectEd
-    agency: Education
-agencies:
-  - ed

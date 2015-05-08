@@ -1,30 +1,12 @@
 id: ruskin-mollie
 name: Mollie Ruskin
 img: ruskin-mollie-headshot.png
-class: 2013
+year: 2013
 hometown: "Portland, OR"
 region: west
 bio: "Designer of many stripes: visual, user experience, service design, HCD. Previously of non-profit/campaigns. Currently at US Digital Service."
+bio_full: "Mollie is a cross-sector designer and organizer, dedicated to creating human-centered solutions to wicked social challenges.  Most recently, Mollie was leading creative projects at Reboot, a social impact service design and innovation firm focused on governance and development.  Her career began in the non-profit sector, where after serving as a National PolitiCorps Fellow with the Bus Project, Mollie orchestrated voter registration and GOTV efforts, organized young people around Federal climate policy, and created integrated communications plans for public health-advocacy efforts.   She served as the aide to State Representative Jefferson Smith, managing broad coalitions of diverse policy advocates and legislators.  Mollie was a participant in the SVA Impact! Design for Social Change residency and has designed print and web materials for countless campaigns, non-profits, and small businesses.  Mollie lives in Brooklyn, NY, and holds a BA in Media Studies from Pomona College."
 skills:
   - comm
   - design
   - ux
-projects:
-  -
-    title: Human Centered Design
-    agency: VA
-  -
-    title: Blue Button
-    agency: VA
-  -
-    title: Veteran Employment Center
-    agency: VA
-  -
-    title: va.gov/data
-    agency: VA
-  -
-    title: NotAlone.gov
-    agency: OSTP
-agencies:
-  - va
-  - ostp

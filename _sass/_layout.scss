@@ -359,67 +359,15 @@ body{
   }
   .fellow{
     padding-bottom:15px;
-    .fellow-headshot{
-      position:relative;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-
-      -webkit-transition: all 0.4s ease-in-out;
-      -moz-transition: all 0.4s ease-in-out;
-      -o-transition: all 0.4s ease-in-out;
-      -ms-transition: all 0.4s ease-in-out;
-      transition: all 0.4s ease-in-out;
-    }
-    .fellow-info{
-      position:absolute;
-      background: rgba(92,92,92,0.75);
-      width:inherit;
-      height:inherit;
-      border-radius:50%;
-      opacity:0;
-      
-      -webkit-transition: all 0.4s ease-in-out;
-      -moz-transition: all 0.4s ease-in-out;
-      -o-transition: all 0.4s ease-in-out;
-      -ms-transition: all 0.4s ease-in-out;
-      transition: all 0.4s ease-in-out;
-      
-      -webkit-transform: scale(0);
-      -moz-transform: scale(0);
-      -o-transform: scale(0);
-      -ms-transform: scale(0);
-      transform: scale(0);
-      
-      -webkit-backface-visibility: hidden;
-    }
-    &:hover{
-      .fellow-info{
-        -webkit-transform: scale(1);
-        -moz-transform: scale(1);
-        -o-transform: scale(1);
-        -ms-transform: scale(1);
-        transform: scale(1);
-        opacity: 1;
-        p{
-          opacity:1;
-        }
+    #fellow-info{
+      h4{
+        line-height:1em;
       }
     }
   }
 }
 
 .fellow-modal{
-  .modal-body{
-    margin-bottom:25px;
-  }
-  .col-md-2{
-    padding-right:0px;
-  }
-  .col-md-10{
-    padding-left:10px;
-  }
   img{
     padding-top:10px;
   }
@@ -433,14 +381,6 @@ body{
   h5{
     line-height:1.3em;
   }
-  #fellow-skills{
-    line-height:1.9em;
-    .label{
-      padding: 5px;
-      font-size:90%;
-      margin-right:5px;
-    }
-  }
   ul{
     list-style-type:none;
     padding-left:0px;
@@ -449,280 +389,16 @@ body{
     margin-left:5px;
     margin-right:5px;
   }
+  #fellow-skills{
+    line-height:1.9em;
+    .label{
+      padding: 5px;
+      font-size:90%;
+      margin-right:5px;
+    }
+  }
 }
 
-.brooks-sarah{
-  background-image:url('/images/2014/brooks-sarah-headshot.png');
-}
-.chen-jeff{
-  background-image:url('/images/2014/chen-jeff-headshot.png');
-}
-.daggett-chris{
-  background-image:url('/images/2014/daggett-chris-headshot.png');
-}
-.getson-ben{
-  background-image:url('/images/2014/getson-ben-headshot.png');
-}
-.goranson-christopher{
-  position:absolute;
-  background: rgba(92,92,92,0.25);
-  width:inherit;
-  height:inherit;
-  border-radius:50%;
-}
-.gordon-rachel{
-  background-image:url('/images/2014/gordon-rachel-headshot.png');
-}
-.grandison-tyrone{
-  background-image:url('/images/2014/grandison-tyrone-headshot.png');
-}
-.hansen-maia{
-  background-image:url('/images/2014/hansen-maia-headshot.png');
-}
-.hammer-dan{
-  background-image:url('/images/2014/hammer-dan-headshot.png');
-}
-.ippolito-andrea{
-  background-image:url('/images/2014/ippolito-andrea-headshot.png');
-}
-.jablow-ashley{
-  background-image:url('/images/2014/jablow-ashley-headshot.png');
-}
-.jones-timothy{
-  background-image:url('/images/2014/jones-timothy-headshot.png');
-}
-.kim-julia{
-  background-image:url('/images/2014/kim-julia-headshot.png');
-}
-.kalafarski-ej{
-  background-image:url('/images/2014/kalafarski-ej-headshot.png');
-}
-.maron-mikel{
-  background-image:url('/images/2014/maron-mikel-headshot.png');
-}
-.meisel-jeff{
-  background-image:url('/images/2014/meisel-jeff-headshot.png');
-}
-.naffis-david{
-  background-image:url('/images/2014/naffis-david-headshot.png');
-}
-.raub-susannah{
-  background-image:url('/images/2014/raub-susannah-headshot.png');
-}
-.ross-denice{
-  background-image:url('/images/2014/ross-denice-headshot.png');
-}
-.shanley-lea{
-  background-image:url('/images/2014/shanley-lea-headshot.png');
-}
-.so-bosco{
-  background-image:url('/images/2014/so-bosco-headshot.png');
-}
-.sosinski-robert{
-  background-image:url('/images/2014/sosinski-robert-headshot.png');
-}
-.steremberg-alan{
-  background-image:url('/images/2014/steremberg-alan-headshot.png');
-}
-.sunthara-gaj{
-  background-image:url('/images/2014/sunthara-gaj-headshot.png');
-}
-.wardell-clarence{
-  background-image:url('/images/2014/wardell-clarence-headshot.png');
-}
-.winn-julia{
-  background-image:url('/images/2014/winn-julia-headshot.png');
-}
-.wong-christopher{
-  background-image:url('/images/2014/wong-christopher-headshot.png');
-}
-.allen-sarah{
-  background-image:url('/images/2013/allen-sarah-headshot.png');
-}
-.baker-rob{
-  background-image:url('/images/2013/baker-rob-headshot.png');
-}
-.black-tom{
-  background-image:url('/images/2013/black-tom-headshot.png');
-}
-.caraway-david{
-  background-image:url('/images/2013/caraway-david-headshot.png');
-}
-.cairns-chris{
-  background-image:url('/images/2013/cairns-chris-headshot.png');
-}
-.dole-adam{
-  background-image:url('/images/2013/dole-adam-headshot.png');
-}
-.felleman-john{
-  background-image:url('/images/2013/felleman-john-headshot.png');
-}
-.frempong-derek{
-  background-image:url('/images/2013/frempong-derek-headshot.png');
-}
-.godbout-greg{
-  background-image:url('/images/2013/godbout-greg-headshot.png');
-}
-.givens-garren{
-  background-image:url('/images/2013/givens-garren-headshot.png');
-}
-.grevich-justin{
-  background-image:url('/images/2013/grevich-justin-headshot.png');
-}
-.hartley-hillary{
-  background-image:url('/images/2013/hartley-hillary-headshot.png');
-}
-.hartley-scott{
-  background-image:url('/images/2013/hartley-scott-headshot.png');
-}
-.herron-sean{
-  background-image:url('/images/2013/herron-sean-headshot.png');
-}
-.hertzfeld-michelle{
-  background-image:url('/images/2013/hertzfeld-michelle-headshot.png');
-}
-.holroyd-claire{
-  background-image:url('/images/2013/holroyd-claire-headshot.png');
-}
-.jain-nayan{
-  background-image:url('/images/2013/jain-nayan-headshot.png');
-}
-.kazil-jacqueline{
-  background-image:url('/images/2013/kazil-jacqueline-headshot.png');
-}
-.kemp-john{
-  position:absolute;
-  background: rgba(92,92,92,0.25);
-  width:inherit;
-  height:inherit;
-  border-radius:50%;
-}
-.lane-kin{
-  background-image:url('/images/2013/lane-kin-headshot.png');
-}
-.maneri-akred-erin{
-  background-image:url('/images/2013/maneri-akred-erin-headshot.png');
-}
-.mayer-cantu-diego{
-  background-image:url('/images/2013/mayer-cantu-diego-headshot.png');
-}
-.miller-dain{
-  background-image:url('/images/2013/miller-dain-headshot.png');
-}
-.mulligan-geoff{
-  background-image:url('/images/2013/mulligan-geoff-headshot.png');
-}
-.park-woolf-beverly{
-  background-image:url('/images/2013/park-woolf-beverly-headshot.png');
-}
-.polastre-joe{
-  background-image:url('/images/2013/polastre-joe-headshot.png');
-}
-.read-robert{
-  background-image:url('/images/2013/read-robert-headshot.png');
-}
-.rhee-sokwoo{
-  background-image:url('/images/2013/rhee-sokwoo-headshot.png');
-}
-.riggs-adam{
-  background-image:url('/images/2013/riggs-adam-headshot.png');
-}
-.ringlein-martin{
-  background-image:url('/images/2013/ringlein-martin-headshot.png');
-}
-.rowland-alison{
-  background-image:url('/images/2013/rowland-alison-headshot.png');
-}
-.ruskin-mollie{
-  background-image:url('/images/2013/ruskin-mollie-headshot.png');
-}
-.sanders-james{
-  background-image:url('/images/2013/sanders-james-headshot.png');
-}
-.shen-jason{
-  background-image:url('/images/2013/shen-jason-headshot.png');
-}
-.snow-aaron{
-  background-image:url('/images/2013/snow-aaron-headshot.png');
-}
-.spandana-vidya{
-  background-image:url('/images/2013/spandana-vidya-headshot.png');
-}
-.stone-amos{
-  background-image:url('/images/2013/stone-amos-headshot.png');
-}
-.teeter-john{
-  background-image:url('/images/2013/teeter-john-headshot.png');
-}
-.theall-matthew{
-  background-image:url('/images/2013/theall-matthew-headshot.png');
-}
-.villas-raphael{
-  background-image:url('/images/2013/villas-raphael-headshot.png');
-}
-.willman-ben{
-  background-image:url('/images/2013/willman-ben-headshot.png');
-}
-.worthington-charles{
-  background-image:url('/images/2013/worthington-charles-headshot.png');
-}
-.wu-scott{
-  background-image:url('/images/2013/wu-scott-headshot.png');
-}
-.ashlock-phil{
-  background-image:url('/images/2012/ashlock-phil-headshot.png');
-}
-.balter-ben{
-  background-image:url('/images/2012/balter-ben-headshot.png');
-}
-.becker-adam{
-  background-image:url('/images/2012/becker-adam-headshot.png');
-}
-.bramble-nicholas{
-  background-image:url('/images/2012/bramble-nicholas-headshot.png');
-}
-.chapman-danny{
-  background-image:url('/images/2012/chapman-danny-headshot.png');
-}
-.defrias-kara{
-  background-image:url('/images/2012/defrias-kara-headshot.png');
-}
-.gershman-greg{
-  background-image:url('/images/2012/gershman-greg-headshot.png');
-}
-.johnson-clay{
-  background-image:url('/images/2012/johnson-clay-headshot.png');
-}
-.kachaev-dmitry{
-  background-image:url('/images/2012/kachaev-dmitry-headshot.png');
-}
-.kalin-ian{
-  background-image:url('/images/2012/kalin-ian-headshot.png');
-}
-.majma-raphael{
-  background-image:url('/images/2012/majma-raphael-headshot.png');
-}
-.manning-nathaniel{
-  background-image:url('/images/2012/manning-nathaniel-headshot.png');
-}
-.martin-marina{
-  background-image:url('/images/2012/martin-marina-headshot.png');
-}
-.mccall-matthew{
-  background-image:url('/images/2012/mccall-matthew-headshot.png');
-}
-.mehta-karl{
-  background-image:url('/images/2012/mehta-karl-headshot.png');
-}
-.panchadsaram-ryan{
-  background-image:url('/images/2012/panchadsaram-ryan-headshot.png');
-}
-.wei-henry{
-  background-image:url('/images/2012/wei-henry-headshot.png');
-}
-.wood-jed{
-  background-image:url('/images/2012/wood-jed-headshot.png');
-}
 /* Isotope Transitions
 ------------------------------- */
 .isotope,
@@ -839,6 +515,21 @@ body{
   padding-bottom:75px;
 }
 
+// AGENCIES
+#agencies{
+  ul{
+    list-style-type:none;
+  }
+  img{
+    max-height:100px;
+  }
+  #agencies-pif-list{
+    li{
+      display: inline-block;
+    }
+  }
+}
+
 // Large and medium devices (desktops)
 @media (min-width: 992px) {
   // GENERAL
@@ -900,34 +591,6 @@ body{
     }
   }
 
-  // FELLOWS
-  #fellows{
-    .fellow{
-      .fellow-headshot{
-        height:255px;
-        width:255px;
-      }
-      .fellow-info{
-        h3{
-          padding-top:60px;
-          color:#eee;
-          padding-bottom:0px;
-          margin-bottom:0px;
-          padding-left:12px;
-          padding-right:12px;
-        }
-        hr{
-          width:70%;
-          margin-top:10px;
-          margin-bottom:10px;
-        }
-        p{
-          color:#eee;
-        }
-      }
-    }
-  }
-
 }
 
 // medium devices (desktops)
@@ -960,35 +623,6 @@ body{
     #case-studies{
       .panel{
         min-height:303px;
-      }
-    }
-  }
-
-  // FELLOWS
-  #fellows{
-    .fellow{
-      .fellow-headshot{
-        height:205px;
-        width:205px;
-      }
-      .fellow-info{
-        h3{
-          padding-top:40px;
-          color:#eee;
-          padding-bottom:0px;
-          margin-bottom:0px;
-          font-size:1.7em;
-          padding-left:10px;
-          padding-right:10px;
-        }
-        hr{
-          width:70%;
-          margin-top:10px;
-          margin-bottom:10px;
-        }
-        p{
-          color:#eee;
-        }
       }
     }
   }
@@ -1044,15 +678,6 @@ body{
     }
   }
 
-  // FELLOWS
-  #fellows{
-    .fellow{
-      .fellow-headshot{
-        height:150px;
-        width:150px;
-      }
-    }
-  }
 }
 
 // extra small devices (phones)
@@ -1116,18 +741,6 @@ body{
       max-height:200px;
       display:block;
       margin:auto;
-    }
-  }
-
-  // FELLOWS
-  #fellows{
-    .fellow{
-      .fellow-headshot{
-        height:115px;
-        width:115px;
-        display:block;
-        margin:auto;
-      }
     }
   }
 

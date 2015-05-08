@@ -1,18 +1,13 @@
 id: daggett-chris
 name: Chris Daggett
 img: daggett-chris-headshot.png
-class: 2014
+year: 2014
 hometown: Hawaii
 region: west
 bio: "Product strategist with a focus on applied behavioral economics. Board member for the Action Design Network and former VP at ideas42."
+bio_full: "He is a product strategist with a focus on applied behavioral economics. Previously, Christopher served as a Vice President at ideas42, a behavioral economics design and research lab spun out of Harvard University. Prior to ideas42, Christopher worked at Booz Allen Hamilton, PricewaterhouseCoopers, and Sapient. He serves on the Board of the Action Design Network and has worked with entrepreneurs on projects for NYC BigApps, New York City's premier open data competition. Christopher grew up near Sandy Beach on the South Shore of Oahu in Hawaii, and can now be found surfing couches in the Washington, DC area."
 skills:
   - policy
   - product
   - ux
   - bd
-projects:
-  -
-    title: Data Innovation Initiatives
-    agency: IRS
-agencies:
-  - irs

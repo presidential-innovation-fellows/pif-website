@@ -1,3 +1,6 @@
 name: Lantern Live
-agency: Department of Energy
+agency: DOE
 description: "Lantern Live is an application helps consumers quickly find and share critical information about nearby gas stations and power outages during energy emergencies."
+pifs:
+  - frempong-derek
+  - ross-denice

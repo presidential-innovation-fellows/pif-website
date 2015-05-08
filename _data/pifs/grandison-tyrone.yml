@@ -1,17 +1,12 @@
 id: grandison-tyrone
 name: "Dr. Tyrone Grandison"
 img: grandison-tyrone-headshot.png
-class: 2014
+year: 2014
 hometown: "Kingston, Jamaica"
 region: outside
 bio: "Partner, METIS Inc. CEO, Proficiency Labs. BCS & HIMSS Fellow, ACM Distinguished Engineer, Master Inventor. PhD Comp Sci, Imperial College"
+bio_full: "Tyrone is a computer science researcher and entrepreneur. He is CEO of Proficiency Labs and managing partner at METIS Inc. Tyrone has co-founded a number of ventures, including woyhd.org, Hipaantrepeneurs, the Di-PaSS series, WonderWomenHacks, and HacksforHumanity. He holds positions at the University of Technology - Kingston, Jamaica and the University of the West Indies – St. Augustine, Trinidad. Tyrone received his Bachelors in Computer Studies from the University of the West Indies in 1997, his Masters in Software Engineering in 1998 and a Ph.D. in Computer Science from the Imperial College of Science, Technology & Medicine in London (2003). Dr. Grandison is an ACM Distinguished Engineer, an IEEE Senior Member and a HIMSS and BCS Fellow. He also received the IEEE Technical Achievement Award in 2010 for 'pioneering contributions to Secure and Private Data Management'. He has authored over a 100 technical papers, co-invented over 47 patents and written several books."
 skills:
   - policy
   - product
   - cyber
-projects:
-  -
-    title: "Workforce, Skills and Training"
-    agency: DOL
-agencies:
-  - labor

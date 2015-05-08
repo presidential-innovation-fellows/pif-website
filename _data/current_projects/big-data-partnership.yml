@@ -1,3 +1,6 @@
 name: Big Data Partnership
-agency: National Oceanic and Atmospheric Administration
+agency: NOAA
 description: "The Big Data Partnership at NOAA is leveraging public-private partnerships to improve data access and dissemination."
+pifs:
+  - steremberg-alan
+  - hansen-maia

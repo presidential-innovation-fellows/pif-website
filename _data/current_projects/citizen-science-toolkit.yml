@@ -1,3 +1,5 @@
 name: Citizen Science Toolkit
-agency: White House OSTP
+agency: OSTP
 description: "The Federal Community of Practice on Citizen Science and Crowdsourcing, with assistance from a PIF, has been expanded to more than 150 people from 35 federal agencies. A PIF is working with the White House's Office of Science and Technology Policy to build an online Citizen Science Toolkit, which will help federal agencies better engage the public in collective problem solving."
+pifs:
+  - shanley-lea

@@ -1,17 +1,9 @@
 id: kalin-ian
 name: Ian Kalin
 img: kalin-ian-headshot.png
-class: 2012
+year: 2012
 hometown: California
 region: west
 bio: "Chief Data Officer for @CommerceGov. Veteran of @USNavy, CleanTech, @Energy, @Google and @Socrata. Proud husband and father. "
+bio_full: "Ian Kalin is passionate about energy and empowering people through data. Ian started his professional career as a Counter-Terrorism Officer for the US Navy, later serving as a Nuclear Engineer onboard the USS Ronald Reagan. After leaving the Navy, Ian joined a rising company called PowerAdvocate, which delivers market intelligence solutions to the electric and gas sectors. His entrepreneurial work led to significant cost savings for utility companies and their customers. Ian has a BS in International Politics from Georgetown and a MA in Engineering Management from Old Dominion. He lives in San Francisco with his wife, Amanda, and is a musician in his spare time."
 skills:
-projects:
-  -
-    title: US Energy Data Initiative
-    agency: Energy
-  -
-    title: Green Button
-    agency: Energy
-agencies:
-  - energy

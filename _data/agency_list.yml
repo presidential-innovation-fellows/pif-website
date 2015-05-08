@@ -1,0 +1,84 @@
+-
+  short: DOC
+  long: Department of Commerce
+-
+  short: ED
+  long: Department of Education
+-
+  short: DOE
+  long: Department of Energy
+-
+  short: FDA
+  long: Food and Drug Administration
+-
+  short: FEMA
+  long: Federal Emergency Management Agency
+-
+  short: GSA
+  long: General Services Administration
+-
+  short: HHS
+  long: Health and Human Services
+-
+  short: DOI
+  long: Department of Interior
+-
+  short: IRS
+  long: Internal Revenue Service
+-
+  short: DOL
+  long: Department of Labor
+-
+  short: MCC
+  long: Millennium Challenge Corporation
+-
+  short: NARA
+  long: National Archives and Records Administration
+-
+  short: NASA
+  long: National Aeronautics and Space Administration
+-
+  short: NIH
+  long: National Institute of Health
+-
+  short: NIST
+  long: National Institute of Standards and Technology
+-
+  short: NOAA
+  long: National Oceanic and Atmospheric Administration
+-
+  short: NSF
+  long: National Science Foundation
+-
+  short: OSTP
+  long: "White House Office of Science and Technology, Policy"
+-
+  short: SBA
+  long: Small Business Administration
+-
+  short: Smithsonian
+  long: Smithsonian Insitution
+-
+  short: State
+  long: Department of State
+-
+  short: Treasury
+  long: Department of Treasury
+-
+  short: USAID
+  long: US Agency for International Development
+# -
+#   short: USCIO
+#   long: US Chief Information Officer
+-
+  short: USCB
+  long: US Census Bureau
+-
+  short: USDA
+  long: US Department of Agriculture
+-
+  short: USPTO
+  long: US Patent and Trademark Office
+-
+  short: VA
+  long: Department of Veterans Affairs

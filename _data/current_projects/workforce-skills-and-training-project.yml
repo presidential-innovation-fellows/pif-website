@@ -1,3 +1,5 @@
 name: "Workforce, Skills and Training project"
-agency: Department of Labor
+agency: DOL
 description: "Job seekers, job posting companies, training organizations and workforce startups are heavily dependent on the information provided by the Employment and Training Administration (ETA) and the Bureau of Labor Statistics (BLS). The pace of innovation in industry, the rapid emergence of new fields and the need for high quality data and validation processes necessitates that techniques be created that leverage the work currently being done by the Department of Labor to meet the dynamic needs of current stakeholders. We're working with the Department and external partners to set up public-private partnerships that will develop pilot solutions to move the economy towards being responsive, high-quality and skills-focused."
+pifs:
+  - grandison-tyrone

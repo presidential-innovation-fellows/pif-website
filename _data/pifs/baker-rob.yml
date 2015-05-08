@@ -1,10 +1,11 @@
 id: baker-rob
 name: Rob Baker
 img: baker-rob-headshot.png
-class: 2013
+year: 2013
 hometown: "Washington, DC"
 region: south
 bio: "Round 2 alum implementing open data policy at USAID. Former Ushahidi COO, now on data projects in World Bank's Innovation Labs. Go Red Sox."
+bio_full: "Previously, Rob served as Operations Manager at Ushahidi, a renowned Kenyan-based open source software organization.  Rob’s decade-long career in the non-profit sector as a director and web developer has taken him around the world, working with information/communication technology for development, crisis response, and political activism with a focus on Haiti, East and Central Africa, and the Middle East.  He is a sought-after speaker on the topic of information and communication technology tools, and has participated in events at the United Nations, the US State Department, and MIT.  Rob was previously a member of the US-Russia Presidential Bilateral Commission on Media and is a member of the Humanitarian OpenStreetMap Team.  Prior to Ushahidi, he was the Senior Developer of Web & New Media for Oxfam America in Boston and Technical Advisor for the Satellite Sentinel Project.  Rob holds a BA in Poetics and Traditional Eastern Arts from Naropa University.  He grew up in Arlington, MA, and currently resides in Washington, DC."
 skills:
   - front
   - data
@@ -13,9 +14,3 @@ skills:
   - bd
   - design
   - ux
-projects:
-  -
-    title: Open Data Initiatives
-    agency: USAID
-agencies:
-  - usaid

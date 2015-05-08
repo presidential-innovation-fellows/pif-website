@@ -1,3 +1,5 @@
 name: ILAB Child Labor App
-agency: Bureau of International Labor Affairs
+agency: DOL
 description: "The Bureau of International Labor Affairs publishes a massive annual report on child labor conditions around the world and sought to make this fount of data more mobile and accessible, even in remote and unconnected places around the world. We're working with them on a mobile solution that will put thousands of pages of data onto mobile devices in an intuitive, accessible way; rapid design and development over a matter of a few weeks will serve as a model for agile development within the Department of Labor."
+pifs:
+  - kalafarski-ej

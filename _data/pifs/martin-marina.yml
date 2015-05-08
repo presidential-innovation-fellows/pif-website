@@ -1,18 +1,13 @@
 id: martin-marina
 name: Marina Martin
 img: martin-marina-headshot.png
-class: 2012
+year: 2012
 hometown: Connecticut
 region: northeast
 bio: "Chief Technology Officer of U.S. Department of Veterans Affairs. Author, Business Efficiency for Dummies. Dry erase aficionado."
+bio_full: "Marina Martin has been a business efficiency consultant and web developer for the last ten years, helping businesses save time and money through a combination of hands-on process optimization and custom Ruby on Rails and Apex application development. Marina is the founder of the efficiency consulting firm The Type-A Way and author of Business Efficiency for Dummies. She serves on the City of Seattle Citizens' Telecommunications and Technology Advisory Board and has worked on open data projects across Washington State. Marina grew up in Connecticut and lives in Seattle, WA with her cats and extensive collection of dry-erase boards."
 skills:
   - policy
   - product
   - bd
   - back
-projects:
-  -
-    title: Open Data
-    agency: Education
-agencies:
-  - ed

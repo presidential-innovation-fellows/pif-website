@@ -1,3 +1,9 @@
 name: RFP-EZ
 agency: SBA
-description: "<strong><a href='https://rfpez.sba.gov/' target='_blank'>RFP-EZ</a></strong> is an online platform developed by the U.S. Small Business Administration and Fellows in only six months, that makes it easier for innovative small tech businesses to bid on government contracts, while also making it easier for Federal agencies to identify the bids that offer the best value for taxpayers."
+description: "An online platform developed by the U.S. Small Business Administration and Fellows in only six months, that makes it easier for innovative small tech businesses to bid on government contracts, while also making it easier for Federal agencies to identify the bids that offer the best value for taxpayers. (<a href='https://rfpez.sba.gov/' target='_blank'>link to project</a>)"
+pifs:
+  - read-robert
+  - godbout-greg
+  - becker-adam
+  - johnson-clay
+  - wood-jed

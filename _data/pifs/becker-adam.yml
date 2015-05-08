@@ -1,7 +1,7 @@
 id: becker-adam
 name: Adam Becker
 img: becker-adam-headshot.png
-class: 2012
+year: 2012
 hometown: "Oakland, CA"
 region: west
 bio: "(the current one on wh.gov is fine)"
@@ -9,9 +9,3 @@ skills:
   - front
   - product
   - back
-projects:
-  -
-    title: RFP-EZ
-    agency: SBA
-agencies:
-  - sba
