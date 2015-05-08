@@ -80,33 +80,33 @@ digital | Digital Strategy
 
 term | name
 --- | ---
-ag | Department of Agriculture
-census | Census Bureau
-cio | US Chief Information Office
-commerce | Department of Commerce
-ed | Department of Education
-energy | Department of Energy
-fda | Food and Drug Administration
-fema | Federal Emergency Management Agency
-gsa | General Services Administration
-hhs | Health and Human Services
-interior | Department of Interior
-irs | Internal Revenue Service
-labor | Department of Labor
-mcc | Millennium Challenge Corporation
-nara | National Archives and Records Administration
-nasa | National Aeronautics and Space Administration
-nih | National Institute of Health
-nist | National Institute of Standards and Technology
-noaa | National Oceanic and Atmospheric Administration
-nsf | National Science Foundatoin
-ostp | White House Office of Science & Technology, Policy
-patent | United States Patent and Trademark Office
-sba | Small Business Administration
-smithsonian | Smithsonian Institution
-state | State Department
-treasury | Department of the Treasury
-usaid | US 
+USDA | Department of Agriculture
+USCB | Census Bureau
+USCIO | US Chief Information Officer
+DOC | Department of Commerce
+ED | Department of Education
+DOE | Department of Energy
+FDA | Food and Drug Administration
+FEMA | Federal Emergency Management Agency
+GSA | General Services Administration
+HHS | Health and Human Services
+DOI | Department of Interior
+IRS | Internal Revenue Service
+DOL | Department of Labor
+MCC | Millennium Challenge Corporation
+NARA | National Archives and Records Administration
+NASA | National Aeronautics and Space Administration
+NIH | National Institute of Health
+NIST | National Institute of Standards and Technology
+NOAA | National Oceanic and Atmospheric Administration
+NSF | National Science Foundatoin
+OSTP | White House Office of Science & Technology, Policy
+USPTO | United States Patent and Trademark Office
+SBA | Small Business Administration
+Smithsonian | Smithsonian Institution
+State | State Department
+Treasury | Department of the Treasury
+USAID | US Agency for International Development
 VA | Veteran Affairs
 
 [1] Working for an agency or organization that's not listed, message @stroupaloop to have it added (or be bold and do it yourself)!
