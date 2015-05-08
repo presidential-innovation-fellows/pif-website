@@ -24,7 +24,7 @@ bio: | 140 character bio
 bio_full: | full PIF bio
 skills: | list of approved terms are in Appendix
 
-**NOTE:** It's **IMPORTANT** to use the approved values for the **SKILLS** so the filtering on the Fellows page works.
+**NOTE:** It's **IMPORTANT** to use the approved values for **SKILLS** so the filtering on the Fellows page works.
 
 #### Case Studies
 
@@ -55,12 +55,14 @@ LOCATION: /_data/current_projects/ OR /_data/previous_projects/
 
 FILENAME: project-name.yml
 
+field | format/info
+--- | ---
 name: | name of project
 agency: | reference name, see Appendix
 description: |
 pifs: | list of pifs who worked on project
 
-**NOTE:** It's **IMPORTANT** to use the approved values for the **AGENCY** and **PIFS** so their info in other YAML files are accurately populated.
+**NOTE:** It's **IMPORTANT** to use the approved values for **AGENCY** and **PIFS** so their info in other YAML files are accurately populated.
 
 #### Agency List
 
