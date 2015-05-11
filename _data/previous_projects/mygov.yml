@@ -1,7 +1,7 @@
 name: MyGov
 agency: GSA
 description: "insert text here"
-pifs:
+fellows:
   - gershman-greg
   - defrias-kara
   - ashlock-phil

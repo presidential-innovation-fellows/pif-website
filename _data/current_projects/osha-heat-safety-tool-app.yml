@@ -1,5 +1,5 @@
 name: OSHA Heat Safety Tool App
 agency: DOL
 description: "Rebuilding the OSHA Heat Safety Tool app, a successful app with strong adoption which had nonetheless been abandoned for 4 years. In addition to modernizing the design, the point of the project is to model within the Department of Labor how quickly and cheaply the agile model can deliver and maintain a digital service, and to build an example of a partnership with an agile vendor."
-pifs:
+fellows:
   - kalafarski-ej

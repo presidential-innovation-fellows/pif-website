@@ -1,5 +1,5 @@
 name: Archival Process and Technology Re-Design
 agency: NARA
 description: "Unlocking NARA Data: A team of Presidential Innovation Fellows are building a prototype application to ingest, process, index, and describe the millions of records in NARA's holdings using OCR, Natural Language Processing, and Machine Learning to support NARA in its effort to best serve the American public and provide online access to its holdings."
-pifs:
+fellows:
   - naffis-david

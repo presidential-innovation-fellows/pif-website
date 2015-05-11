@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Meet the Fellow
 ---
 
 <div class="container-fluid" id="hero">
@@ -41,39 +42,39 @@ layout: default
 		</div>
 	</div>
 	<div class="row" id="fellow">
-		{% for pif_hash in site.data.pifs %}
-		{% assign pif = pif_hash[1] %}
-			<div class="fellow {{ pif.year }} {{ pif.region }} {% for skill in pif.skills %}{{ skill }} {% endfor %} col-md-6 col-sm-4 col-xs-6">
-				<div class="row" id="{{ pif.id }}">
+		{% for fellows_hash in site.data.fellows %}
+		{% assign fellow = fellows_hash[1] %}
+			<div class="fellow {{ fellow.year }} {{ fellow.region }} {% for skill in fellow.skills %}{{ skill }} {% endfor %} col-md-6 col-sm-4 col-xs-6">
+				<div class="row" id="{{ fellow.id }}">
 					<div class="col-md-6">
-						<img src="/images/{{ pif.year }}/{{ pif.img }}" class="img-responsive">
+						<img src="/images/{{ fellow.year }}/{{ fellow.img }}" class="img-responsive">
 					</div>
 					<div class="col-md-6 hidden-xs" id="fellow-info">
-						<h4><strong>{{ pif.name }}</strong><br/><small><em>{{ pif.hometown }}</em></small></h4>
-    				<p>{{ pif.bio }} (<a data-toggle="modal" data-target="#{{ pif.id }}-modal">Read more</a>)</p>
+						<h4><strong>{{ fellow.name }}</strong><br/><small><em>{{ fellow.hometown }}</em></small></h4>
+    				<p>{{ fellow.bio }} (<a data-toggle="modal" data-target="#{{ fellow.id }}-modal">Read more</a>)</p>
 					</div>
 				</div>
 			</div>
 
 			<!-- modal -->
-			<div class="modal fade fellow-modal" id="{{ pif.id }}-modal" tabindex="-1" role="dialog" aria-labelledby="{{ pif.id }}-label" aria-hidden="true">
+			<div class="modal fade fellow-modal" id="{{ fellow.id }}-modal" tabindex="-1" role="dialog" aria-labelledby="{{ fellow.id }}-label" aria-hidden="true">
 			  <div class="modal-dialog">
 			    <div class="modal-content">
 			      <div class="modal-header">
 			        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-			        <h4 class="modal-title" id="{{ pif.id }}-label"><strong>Biographical Details</strong></h4>
+			        <h4 class="modal-title" id="{{ fellow.id }}-label"><strong>Biographical Details</strong></h4>
 			      </div>
 			      <div class="modal-body">
 			      	<div class="container-fluid">
 			      		<div class="row">
 			      			<div class="col-sm-4">
-			      				<img src="/images/{{ pif.year }}/{{ pif.img }}" class="img-responsive">
+			      				<img src="/images/{{ fellow.year }}/{{ fellow.img }}" class="img-responsive">
 			      			</div>
 			      			<div class="col-sm-8" id="fellow-bio-details">
-			      				<h4><strong>{{ pif.name }}</strong><br/><small><em>{{ pif.hometown }}</em></small></h4>
-			      				<h5>Class of {{ pif.year }}</h5>
+			      				<h4><strong>{{ fellow.name }}</strong><br/><small><em>{{ fellow.hometown }}</em></small></h4>
+			      				<h5>Class of {{ fellow.year }}</h5>
 			      				<p id="fellow-skills">
-			      					{% for skill in pif.skills %}
+			      					{% for skill in fellow.skills %}
 			      						{% case skill %}
 
 	      								{% when 'front' or 'data' or 'back' %}
@@ -130,16 +131,16 @@ layout: default
 			      				<ul id="fellow-projects">
 			      					{% for current_projects_hash in site.data.current_projects %}
 			      					{% assign current_project = current_projects_hash[1] %}
-			      						{% for current_project_pif in current_project.pifs %}
-			      							{% if current_project_pif == pif.id %}
+			      						{% for current_project_fellow in current_project.fellows %}
+			      							{% if current_project_fellow == fellow.id %}
 			      								<li>{{ current_project.agency }} <i class="fa fa-caret-right"></i> {{ current_project.name }}</li>
 			      							{% endif %}
 			      						{% endfor %}
 			      					{% endfor %}
 			      					{% for previous_projects_hash in site.data.previous_projects %}
 			      					{% assign previous_project = previous_projects_hash[1] %}
-			      						{% for previous_project_pif in previous_project.pifs %}
-			      							{% if previous_project_pif == pif.id %}
+			      						{% for previous_project_fellow in previous_project.fellows %}
+			      							{% if previous_project_fellow == fellow.id %}
 			      								<li>{{ previous_project.agency }} <i class="fa fa-caret-right"></i> {{ previous_project.name }}</li>
 			      							{% endif %}
 			      						{% endfor %}
@@ -149,7 +150,7 @@ layout: default
 			      		</div>
 			      		<div class="row">
 			      			<div class="col-md-12">
-			      				<p>{{ pif.bio_full }}</p>
+			      				<p>{{ fellow.bio_full }}</p>
 			      			</div>
 			      		</div>
 			      	</div>

@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Supported Agencies
 ---
 
 <div class="container-fluid" id="hero">
@@ -29,12 +30,12 @@ layout: default
 									</div>
 									<div class="col-lg-8 col-md-7 col-sm-9" id="agency-fellow-list">
 										<ul>
-											{% for pif in current_project.pifs %}
-												{% for pif_hash in site.data.pifs %}
-												{% assign pif_id = pif_hash[0] %}
-												{% assign pif_info = pif_hash[1] %}
-													{% if pif_id == pif %}
-														<li><a href="{{ baseurl }}/fellows#{{ pif_info.id }}"><img src="/images/{{ pif_info.year }}/{{ pif_info.img }}"></a></li>
+											{% for fellow in current_project.fellows %}
+												{% for fellow_hash in site.data.fellows %}
+												{% assign fellow_id = fellow_hash[0] %}
+												{% assign fellow_info = fellow_hash[1] %}
+													{% if fellow_id == fellow %}
+														<li><a href="{{ baseurl }}/fellows#{{ fellow_info.id }}"><img src="/images/{{ fellow_info.year }}/{{ fellow_info.img }}"></a></li>
 													{% endif %}
 												{% endfor %}
 											{% endfor %}
@@ -54,12 +55,12 @@ layout: default
 									</div>
 									<div class="col-lg-8 col-md-7 col-sm-9" id="agency-fellow-list">
 										<ul>
-											{% for pif in previous_project.pifs %}
-												{% for pif_hash in site.data.pifs %}
-												{% assign pif_id = pif_hash[0] %}
-												{% assign pif_info = pif_hash[1] %}
-													{% if pif_id == pif %}
-														<li><a href="{{ baseurl }}/fellows#{{ pif_info.id }}"><img src="/images/{{ pif_info.year }}/{{ pif_info.img }}"></a></li>
+											{% for fellow in previous_project.fellows %}
+												{% for fellow_hash in site.data.fellows %}
+												{% assign fellow_id = fellow_hash[0] %}
+												{% assign fellow_info = fellow_hash[1] %}
+													{% if fellow_id == fellow %}
+														<li><a href="{{ baseurl }}/fellows#{{ fellow_info.id }}"><img src="/images/{{ fellow_info.year }}/{{ fellow_info.img }}"></a></li>
 													{% endif %}
 												{% endfor %}
 											{% endfor %}

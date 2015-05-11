@@ -1,5 +1,5 @@
 name: FBOpen
 agency: GSA
 description: "A new platform designed by Fellows to open the catalog of Federal opportunities to a larger audience—by providing more relevant search results of Federal opportunities. FBOpen was created as an open-API server with data import tools and sample applications that can help small businesses more easily search for and connect to opportunities to work with the U.S. Government. (<a href='https://fbopen.gsa.gov/' target='_blank'>link to project</a></strong>)"
-pifs:
+fellows:
   - rowland-alison

@@ -2,13 +2,13 @@
 
 This is the PIF website, jekyll edition (inspired by the [18F hub](https://github.com/18F/hub)). The website is currently maintained by the PIF leadership, with contributions from the fellows.
 
-In the /_data section there are YAML files available for PIF bios, current/previous projects, and case studies. Additionally, there are specific fields for each YAML file and corresponding approved values.
+In the /_data section there are YAML files available for fellow bios, current/previous projects, and case studies. Additionally, there are specific fields for each YAML file and corresponding approved values.
 
 **NOTE:** When adding info to YAML files, if the text added contains a , or . please use "" around the text. ALSO, if you need to quote something (using ""), use '' instead.
 
-#### PIF bios
+#### Fellow bios
 
-LOCATION: /_data/pifs/
+LOCATION: /_data/fellows/
 
 FILENAME: lastname-firstname.yml
 
@@ -21,14 +21,14 @@ img: | lastname-firstname-headshot.png
 hometown: | City, STATE
 region: | US Census regions [map link](http://www2.census.gov/geo/pdfs/maps-data/maps/reference/us_regdiv.pdf)
 bio: | 140 character bio
-bio_full: | full PIF bio
+bio_full: | full fellow bio
 skills: | list of approved terms are in Appendix
 
 **NOTE:** It's **IMPORTANT** to use the approved values for **SKILLS** so the filtering on the Fellows page works.
 
 #### Case Studies
 
-Case studies are specific PIF projects that are highlighted and used for branding and marketing.
+Case studies are specific fellow projects that are highlighted and used for branding and marketing.
 
 LOCATION: /_data/case_studies/
 
@@ -60,7 +60,7 @@ field | format/info
 name: | name of project
 agency: | reference name, see Appendix
 description: |
-pifs: | list of pifs who worked on project
+fellows: | list of fellows who worked on project
 
 **NOTE:** It's **IMPORTANT** to use the approved values for **AGENCY** and **PIFS** so their info in other YAML files are accurately populated.
 
