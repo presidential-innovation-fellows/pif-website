@@ -45,7 +45,8 @@ title: Meet the Fellow
 		{% for fellows_hash in site.data.fellows %}
 		{% assign fellow = fellows_hash[1] %}
 			<div class="fellow {{ fellow.year }} {{ fellow.region }} {% for skill in fellow.skills %}{{ skill }} {% endfor %} col-md-6 col-sm-4 col-xs-6">
-				<div class="row" id="{{ fellow.id }}">
+				<span id="{{ fellow.id }}"></span>
+				<div class="row">
 					<div class="col-md-6">
 						<img src="/images/{{ fellow.year }}/{{ fellow.img }}" class="img-responsive">
 					</div>

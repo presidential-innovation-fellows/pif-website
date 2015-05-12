@@ -364,6 +364,12 @@ body{
         line-height:1em;
       }
     }
+    span{
+      display:block;
+      position:relative;
+      top:-90px;
+      visibility:hidden;
+    }
   }
 }
 
@@ -472,6 +478,20 @@ body{
     }
     h5{
       margin-top:0px;
+    }
+    span{
+      display:block;
+      position:relative;
+      top:-90px;
+      visibility:hidden;
+    }
+  }
+  #previous-projects{
+    span{
+      display:block;
+      position:relative;
+      top:-90px;
+      visibility:hidden;
     }
   }
 }
@@ -790,7 +810,7 @@ body{
 
   // FOOTER
   #footer{
-    height:401px;
+    height:465px;
     #footer-text{
       text-align:center;
     }
