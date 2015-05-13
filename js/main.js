@@ -2,19 +2,21 @@ $(window).resize(function() {
   // dynamically set height of top section
   if ($(window).width() <= 767) {
   	if ($(window).height() > 500) {
-	    $('#home-hero').css('height','auto');
 	    $('#home-hero').css('height',$(window).height()-50);
+      $('#home-hero-text').css('bottom', -$(window).height()+300);
 	  }
 	  else {
 	    $('#home-hero').css('height', 450);
+      $('#home-hero-text').css('bottom', '-200px');
 	  }
   } else {
   	if ($(window).height() > 800) {
-	    $('#home-hero').css('height','auto');
 	    $('#home-hero').css('height',$(window).height()-50);
+      $('#home-hero-text').css('bottom', -$(window).height()+400);
 	  }
 	  else {
 	    $('#home-hero').css('height', 750);
+      $('#home-hero-text').css('bottom', '-400px');
 	  }
   }
 
@@ -30,13 +32,6 @@ $(window).resize(function() {
 });
 
 $(window).load(function(){
-  if ($(window).height() > 500) {
-    $('#home-hero').css('height','auto');
-    $('#home-hero').css('height',$(window).height()-50);
-  }
-  else {
-    $('#home-hero').css('height', 450);
-  }
 
   /* isotope stuff */
   var $container = $('#fellow');
@@ -47,11 +42,31 @@ $(window).load(function(){
       layoutMode: 'masonry'
     });
   });
+
+  
 });
 
 $(document).ready(function() {
-	// set hero image to height of screen on load
-  $('#home-hero').css('height',$(window).height()-50);
+	// dynamically set height of top section
+  if ($(window).width() <= 767) {
+    if ($(window).height() > 500) {
+      $('#home-hero').css('height',$(window).height()-50);
+      $('#home-hero-text').css('bottom', -$(window).height()+300);
+    }
+    else {
+      $('#home-hero').css('height', 450);
+      $('#home-hero-text').css('bottom', '-200px');
+    }
+  } else {
+    if ($(window).height() > 800) {
+      $('#home-hero').css('height',$(window).height()-50);
+      $('#home-hero-text').css('bottom', -$(window).height()+400);
+    }
+    else {
+      $('#home-hero').css('height', 750);
+      $('#home-hero-text').css('bottom', '-400px');
+    }
+  }
 
   // navbar button action to pif application
   $('.navbar-btn').click(function() {

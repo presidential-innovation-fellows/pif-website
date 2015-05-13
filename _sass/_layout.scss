@@ -166,7 +166,9 @@ body{
   border-color:transparent;
   .navbar-brand{
     font-size:1em;
-    padding-top:15px;
+    img{
+      height:50px;
+    }
   }
   .btn{
     font-size:1.5em;
@@ -244,7 +246,11 @@ body{
   background-size: cover;
   h1{
     color:$gray-lighter;
-    padding-bottom:125px;
+    display:block;
+    position:relative;
+    small{
+      color:$gray-lighter;
+    }
   }
 }
 #home-cta{
@@ -586,6 +592,14 @@ body{
       padding-left:50px;
       padding-right:50px;
     }
+    .navbar-brand{
+      #navbar-logo-alt{
+        display:none;
+      }
+      #navbar-logo{
+        display:block;
+      }
+    }
   }
 
   // HOME
@@ -604,11 +618,6 @@ body{
 @media (min-width: 1200px) {
 
   // HOME
-  #home-hero{
-    h1{
-      padding-top:250px;
-    }
-  }
   #home{
     #fellow-preview{
       #fellow-preview-quote{
@@ -660,7 +669,6 @@ body{
   // HOME
   #home-hero{
     h1{
-      padding-top:225px;
       font-size:3em;
     }
   }
@@ -714,7 +722,16 @@ body{
 
 // Small devices and Phones (991px and less)
 @media (max-width: 991px) {
-
+  .navbar{
+    .navbar-brand{
+      #navbar-logo{
+        display:none;
+      }
+      #navbar-logo-alt{
+        display:block;
+      }
+    }
+  }
 }
 
 // small devices (tablets)
@@ -738,7 +755,6 @@ body{
   // HOME
   #home-hero{
     h1{
-      padding-top:200px;
       font-size:2.7em;
     }
   }
@@ -820,7 +836,6 @@ body{
   #home-hero{
     background-position: 20% top;
     h1{
-      padding-top:150px;
       font-size:1.9em;
     }
   }
