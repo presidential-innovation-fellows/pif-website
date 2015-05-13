@@ -22,28 +22,13 @@ $(window).resize(function() {
 
   var fullPath = location.pathname + location.search + location.hash;
 
-  if(fullPath == '/' && $(window).width() > 767) {
+  if(fullPath == '/' && $(window).width() > 767 && $(window).scrollTop() == 0) {
 		$('.navbar-btn').addClass('hide');
   	$('.navbar').removeClass('nav-bg');
   } else {
   	$('.navbar-btn').removeClass('hide');
   	$('.navbar').addClass('nav-bg');
   }
-});
-
-$(window).load(function(){
-
-  /* isotope stuff */
-  var $container = $('#fellow');
-
-  $container.imagesLoaded(function(){
-    $container.isotope({
-      itemSelector: '.fellow',
-      layoutMode: 'masonry'
-    });
-  });
-
-  
 });
 
 $(document).ready(function() {
@@ -76,7 +61,7 @@ $(document).ready(function() {
   // home page navbar button animation
 	var fullPath = location.pathname + location.search + location.hash;
 
-  if(fullPath == '/' && $(window).width() > 767) {
+  if(fullPath == '/' && $(window).width() > 767 && $(window).scrollTop() == 0) {
 		$('.navbar-btn').addClass('hide');
   	$('.navbar').removeClass('nav-bg');
   }
