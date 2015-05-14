@@ -45,6 +45,7 @@ module Pif
         'SBA' => {'fellows' => ['godbout-greg', 'read-robert']},
       }
       assert_equal expected,  @site.data['agencies']
+      assert_equal ['NASA', 'SBA', 'VA'], @site.data['agencies'].keys
     end
   end
 end

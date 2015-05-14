@@ -13,7 +13,7 @@ module Pif
         (agency['fellows'] ||= []).concat (p['fellows'] || [])
       end
       agencies.each_value {|a| a['fellows'] = a['fellows'].compact.sort.uniq}
-      site.data['agencies'] = agencies
+      site.data['agencies'] = Hash[agencies.sort_by {|i| i[0].downcase}]
     end
 
     def self.consolidate_pif_projects_by_agency(site)
@@ -26,6 +26,11 @@ module Pif
           projects = fellow['projects']
           (projects[agency] ||= Array.new) << project['name']
         end
+      end
+
+      site.data['fellows'].each_value do |f|
+        f['projects'] = Hash[f['projects'].sort_by {|i| i[0].downcase}]
+        f['projects'].each_value {|v| v.sort_by! {|i| i.downcase}}
       end
     end
 
