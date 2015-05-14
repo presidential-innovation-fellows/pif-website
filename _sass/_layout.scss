@@ -559,16 +559,10 @@ body{
     margin-right:5px;
     margin-bottom:5px;
   }
-  #agency-project-list{
-    margin-left:0px;
-  }
-  #agency-project{
-    margin-bottom:20px;
-  }
   #agency-fellow-list{
     padding-left:0px;
     ul{
-      padding-left:15px;
+      padding-left:0px;
       li{
         display: inline-block;
       }
@@ -642,22 +636,12 @@ body{
 
   // AGENCIES
   #agencies{
-    #agency-project-name{
-      p{
-        text-align:right;
-      }
-    }
     #agency-fellow-list{
-      ul{ 
-        border-left: solid;
-        border-left-width:2px;
-        border-left-color:$gray-dark;
-      }
       img{
         max-height:88px;
       }
     }
-    #agency-list{
+    #agency-item{
       margin-bottom:65px;
     }
   }
@@ -699,22 +683,12 @@ body{
 
   // AGENCIES
   #agencies{
-    #agency-project-name{
-      p{
-        text-align:right;
-      }
-    }
     #agency-fellow-list{
-      ul{ 
-        border-left: solid;
-        border-left-width:2px;
-        border-left-color:$gray-dark;
-      }
       img{
-        max-height:59px;
+        max-height:71px;
       }
     }
-    #agency-list{
+    #agency-item{
       margin-bottom:50px;
     }
   }
@@ -779,22 +753,12 @@ body{
 
   // AGENCIES
   #agencies{
-    #agency-project-name{
-      p{
-        text-align:right;
-      }
-    }
     #agency-fellow-list{
-      ul{ 
-        border-left: solid;
-        border-left-width:2px;
-        border-left-color:$gray-dark;
-      }
       img{
         max-height:77px;
       }
     }
-    #agency-list{
+    #agency-item{
       margin-bottom:35px;
     }
   }
@@ -822,6 +786,10 @@ body{
     #cta-span{
       height:0px;
     }
+  }
+  #hero{
+    padding-top:20px;
+    padding-bottom:20px;
   }
 
   // FOOTER
@@ -870,7 +838,7 @@ body{
         max-height:80px;
       }
     }
-    #agency-list{
+    #agency-item{
       margin-bottom:25px;
     }
   }
