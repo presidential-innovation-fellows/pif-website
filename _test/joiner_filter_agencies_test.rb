@@ -12,7 +12,7 @@ module Pif
     end
 
     def test_empty_projects
-      Joiner.join_data(@site)
+      Joiner.filter_agencies(@site)
       assert_empty @site.data['agencies']
     end
 
@@ -37,7 +37,7 @@ module Pif
           'fellows' => ['read-robert', 'godbout-greg'],
         },
       }
-      Joiner.join_data(@site)
+      Joiner.filter_agencies(@site)
 
       expected = {
         'NASA' => {'fellows' => ['hammer-dan']},
