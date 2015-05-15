@@ -18,12 +18,12 @@ permalink: agencies/
 			<div class="row" id="agency-list">
 				<div class="col-sm-6" id="agency-item">
 					<div class="row">
-						<div class="col-md-5 hidden-sm hidden-xs" id="agency-image">
+						<div class="col-md-3 hidden-sm hidden-xs" id="agency-image">
 							{% for agency in site.data.agency_list %}
 								{% if agency.short == agency_hash[0] %}
 							<img src="/images/agencies/{{ agency.short }}.png" class="img-responsive">
 						</div>
-						<div class="col-md-7">
+						<div class="col-md-9">
 							<h4><em>{{ agency.long }}:</em> <small>(<a href="{{ agency.website }}" target="_blank">website</a>)</small></h4>
 								{% endif %}
 							{% endfor %}
@@ -53,12 +53,12 @@ permalink: agencies/
 		{% else %}
 				<div class="col-sm-6" id="agency-item">
 					<div class="row">
-						<div class="col-md-5 hidden-sm hidden-xs" id="agency-image">
+						<div class="col-md-3 hidden-sm hidden-xs" id="agency-image">
 							{% for agency in site.data.agency_list %}
 								{% if agency.short == agency_hash[0] %}
 							<img src="/images/agencies/{{ agency.short }}.png" class="img-responsive">
 						</div>
-						<div class="col-md-7">
+						<div class="col-md-9">
 							<h4><em>{{ agency.long }}:</em> <small>(<a href="{{ agency.website }}" target="_blank">website</a>)</small></h4>
 								{% endif %}
 							{% endfor %}
