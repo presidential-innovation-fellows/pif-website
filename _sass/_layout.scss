@@ -380,8 +380,10 @@ body{
 }
 
 .fellow-modal{
-  img{
-    padding-top:10px;
+  #fellow-modal-headshot{
+    img{
+      padding-top:10px;
+    }
   }
   .modal-title{
     margin-top:0px;
@@ -394,12 +396,25 @@ body{
     line-height:1.3em;
   }
   ul{
-    list-style-type:none;
-    padding-left:0px;
+    /*list-style-type:none;*/
+    padding-left:15px;
+  }
+  hr{
+    margin-top:2px;
+    margin-bottom:5px;
   }
   i{
     margin-left:5px;
     margin-right:5px;
+  }
+  #fellow-modal-agency{
+    padding-left:0px;
+  }
+  #fellow-modal-agency-name{
+    margin-bottom:0px;
+  }
+  #fellow-modal-bio{
+    padding-top:15px;
   }
   #fellow-skills{
     line-height:1.9em;
@@ -818,6 +833,13 @@ body{
         margin-left:50px;
         margin-right:50px;
       }
+    }
+  }
+
+  // FELLOWS
+  .fellow-modal{
+    #fellow-modal-agency{
+      padding-left:15px;
     }
   }
 
