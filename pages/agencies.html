@@ -37,7 +37,7 @@ permalink: agencies/
 											{% assign fellow_id = fellow_hash[0] %}
 											{% assign fellow_info = fellow_hash[1] %}
 												{% if fellow_id == f %}
-													<li><a href="{{ baseurl }}/fellows#{{ fellow_info.id }}"><img src="/images/{{ fellow_info.year }}/{{ fellow_info.img }}"></a></li>
+													<li><img src="/images/{{ fellow_info.year }}/{{ fellow_info.img }}"></li>
 												{% endif %}
 											{% endfor %}
 										{% endfor %}
@@ -72,7 +72,7 @@ permalink: agencies/
 											{% assign fellow_id = fellow_hash[0] %}
 											{% assign fellow_info = fellow_hash[1] %}
 												{% if fellow_id == f %}
-													<li><a href="{{ baseurl }}/fellows#{{ fellow_info.id }}"><img src="/images/{{ fellow_info.year }}/{{ fellow_info.img }}"></a></li>
+													<li><img src="/images/{{ fellow_info.year }}/{{ fellow_info.img }}"></li>
 												{% endif %}
 											{% endfor %}
 										{% endfor %}

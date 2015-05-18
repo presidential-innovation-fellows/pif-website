@@ -265,7 +265,7 @@ body{
 #home{
   #mission{
     padding-top:25px;
-    padding-bottom:50px;
+    padding-bottom:65px;
     h4{
       padding-top:10px;
     }
@@ -276,11 +276,13 @@ body{
   #process{
     padding-top:50px;
     padding-bottom:75px;
-    background-color:#C8E2F5;
+    background-color:#FFEAD2;
+    h2{
+      font-size:2.4em;
+    }
   }
   #map{
-    padding-top:50px;
-    padding-bottom:75px;
+    padding-top:65px;
     #map-stats{
       h3{
         padding-bottom:0px;
@@ -289,6 +291,10 @@ body{
       h4{
         margin-top:0px;
       }
+    }
+    h2{
+      font-size:2.4em;
+      margin-bottom:25px;
     }
   }
   #fellow-preview{
@@ -316,6 +322,10 @@ body{
       border-left-width: 1px;
       border-left-color:$gray-darker;
     }
+    h2{
+      font-size:2.4em;
+      padding-bottom:35px;
+    }
   }
   hr{
     width:80%;
@@ -324,6 +334,10 @@ body{
     padding-bottom:125px;
     .panel{
       min-height:350px;
+    }
+    h2{
+      font-size:2.4em;
+      padding-bottom:10px;
     }
   }
 }
@@ -614,11 +628,14 @@ body{
   // HOME
   #home{
     #fellow-preview{
-      padding-top:100px;
-      padding-bottom:75px;
+      padding-top:65px;
+      padding-bottom:50px;
     }
     #project-preview{
-      padding-top:50px;
+      padding-top:25px;
+    }
+    #map{
+      padding-bottom:75px;
     }
   }
 }
@@ -635,6 +652,14 @@ body{
       #carousel-bio{
         h4{
           padding-top:20px;
+        }
+      }
+    }
+    #map{
+      #map-stats{
+        padding-top:65px;
+        h3{
+          font-size:4.3em;
         }
       }
     }
@@ -685,6 +710,14 @@ body{
         }
       }
     }
+    #map{
+      #map-stats{
+        padding-top:50px;
+        h3{
+          font-size:3.8em;
+        }
+      }
+    }
   }
 
   // PROJECTS
@@ -719,6 +752,11 @@ body{
       #navbar-logo-alt{
         display:block;
       }
+    }
+  }
+  #home{
+    #map{
+      padding-bottom:45px;
     }
   }
 }
@@ -824,14 +862,33 @@ body{
   }
   #home{
     #fellow-preview{
+      h2{
+        font-size:2em;
+        padding-bottom:20px;
+      }
       padding-top:50px;
-      padding-bottom:25px;
+      padding-bottom:15px;
     }
     #project-preview{
-      padding-top:35px;
+      h2{
+        font-size:2em;
+      }
+      padding-top:5px;
       .panel{
         margin-left:50px;
         margin-right:50px;
+      }
+    }
+    #process{
+      padding-top:30px;
+      h2{
+        font-size:2em;
+      }
+    }
+    #map{
+      padding-top:30px;
+      h2{
+        font-size:2em;
       }
     }
   }
