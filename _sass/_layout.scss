@@ -663,6 +663,27 @@ body{
         }
       }
     }
+    #process{
+      #nerd{
+        height:200px;
+      }
+      #light-bulb{
+        height:180px;
+      }
+      #govt{
+        height:275px;
+      }
+      #plus{
+        height:75px;
+        padding-right:50px;
+        padding-left:15px;
+      }
+      #equal{
+        height:75px;
+        padding-left:50px;
+        padding-right:15px;
+      }
+    }
   }
 
   // PROJECTS
@@ -716,6 +737,27 @@ body{
         h3{
           font-size:3.8em;
         }
+      }
+    }
+    #process{
+      #nerd{
+        height:150px;
+      }
+      #light-bulb{
+        height:135px;
+      }
+      #govt{
+        height:225px;
+      }
+      #plus{
+        height:50px;
+        padding-right:25px;
+        padding-left:5px;
+      }
+      #equal{
+        height:50px;
+        padding-left:25px;
+        padding-right:5px;
       }
     }
   }
@@ -792,6 +834,27 @@ body{
     }
     #project-preview{
       padding-top:45px;
+    }
+    #process{
+      #nerd{
+        height:150px;
+      }
+      #light-bulb{
+        height:135px;
+      }
+      #govt{
+        height:225px;
+      }
+      #plus{
+        height:50px;
+        padding-right:25px;
+        padding-left:5px;
+      }
+      #equal{
+        height:50px;
+        padding-left:25px;
+        padding-right:5px;
+      }
     }
   }
 
@@ -881,8 +944,13 @@ body{
     }
     #process{
       padding-top:30px;
+      padding-bottom:25px;
       h2{
         font-size:2em;
+      }
+      #govt{
+        height:200px;
+        margin-top:-25px;
       }
     }
     #map{
