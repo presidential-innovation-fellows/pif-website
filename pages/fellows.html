@@ -42,128 +42,70 @@ permalink: fellows/
 			<button class="btn btn-default" type="button" data-filter=".digital">Digital Strategy</buttton>
 		</div>
 	</div>
-	<div class="row" id="fellow">
-		{% for fellows_hash in site.data.fellows %}
-		{% assign fellow = fellows_hash[1] %}
-			<div class="fellow {{ fellow.year }} {{ fellow.region }} {% for skill in fellow.skills %}{{ skill }} {% endfor %} col-md-6 col-sm-4 col-xs-6">
-				<span id="{{ fellow.id }}"></span>
-				<div class="row">
-					<div class="col-md-6">
-						<img src="/images/{{ fellow.year }}/{{ fellow.img }}" class="img-responsive">
-					</div>
-					<div class="col-md-6 hidden-xs" id="fellow-info">
-						<h4><strong>{{ fellow.name }}</strong><br/><small><em>{{ fellow.hometown }}</em></small></h4>
-    				<p>{{ fellow.bio }} (<a data-toggle="modal" data-target="#{{ fellow.id }}-modal">Read more</a>)</p>
-					</div>
+	<div class="row" id="fellow">{% for fellows_hash in site.data.fellows %}{% assign fellow = fellows_hash[1] %}
+		<div class="fellow {{ fellow.year }} {{ fellow.region }} {% for skill in fellow.skills %}{{ skill }} {% endfor %} col-md-6 col-sm-4 col-xs-6">
+			<span id="{{ fellow.id }}"></span>
+			<div class="row">
+				<div class="col-md-6">
+					<img src="/images/{{ fellow.year }}/{{ fellow.img }}" class="img-responsive">
+				</div>
+				<div class="col-md-6 hidden-xs" id="fellow-info">
+					<h4><strong>{{ fellow.name }}</strong><br/><small><em>{{ fellow.hometown }}</em></small></h4>
+  				<p>{{ fellow.bio }} (<a data-toggle="modal" data-target="#{{ fellow.id }}-modal">Read more</a>)</p>
 				</div>
 			</div>
+		</div>
 
-			<!-- modal -->
-			<div class="modal fade fellow-modal" id="{{ fellow.id }}-modal" tabindex="-1" role="dialog" aria-labelledby="{{ fellow.id }}-label" aria-hidden="true">
-			  <div class="modal-dialog">
-			    <div class="modal-content">
-			      <div class="modal-header">
-			        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-			        <h4 class="modal-title" id="{{ fellow.id }}-label"><strong>Biographical Details</strong></h4>
-			      </div>
-			      <div class="modal-body">
-			      	<div class="container-fluid">
-			      		<div class="row">
-			      			<div class="col-sm-4" id="fellow-modal-headshot">
-			      				<img src="/images/{{ fellow.year }}/{{ fellow.img }}" class="img-responsive">
-			      			</div>
-			      			<div class="col-sm-8" id="fellow-bio-details">
-			      				<h4><strong>{{ fellow.name }}</strong><br/><small><em>{{ fellow.hometown }}</em></small></h4>
-			      				<h5>Class of {{ fellow.year }}</h5>
-			      				<p id="fellow-skills">
-			      					{% for skill in fellow.skills %}
-			      						{% case skill %}
-
-	      								{% when 'front' or 'data' or 'back' %}
-		      								<span class="label label-primary">
-		      									{% if skill == 'front' %}
-		      										Front End
-		      									{% elsif skill == 'back' %}
-		      										Back End
-		      									{% else %}
-		      										Data Viz
-		      									{% endif %}
-		      								</span>
-		      							{% when 'digital' or 'policy' %}
-		      								<span class="label label-warning">
-		      									{% if skill == 'digital' %}
-		      										Digital Strategy
-		      									{% else %}
-		      										Policy
-		      									{% endif %}
-		      								</span>
-		      							{% when 'comms' or 'bd' %}
-		      								<span class="label label-success">
-		      									{% if skill == 'comms' %}
-		      										Marketing &amp; Comms
-		      									{% else %}
-		      										Biz Dev
-		      									{% endif %}
-		      								</span>
-		      							{% when 'ux' or 'product' %}
-		      								<span class="label label-info">
-		      									{% if skill == 'ux' %}
-		      										UX
-		      									{% else %}
-		      										Product
-		      									{% endif %}
-		      								</span>
-		      							{% when 'cyber' %}
-		      								<span class="label label-danger">
-		      									Cyber
-		      								</span>
-			      						{% endcase %}
-			      					{% endfor %}
-			      				</p>
-			      			</div>
-			      			<div class="col-sm-4">
-			      			</div>
-			      		</div>
-			      		<br/>
-			      		<div class="row">
-			      			<div class="col-sm-2">
-			      				<p><strong>PROJECT(S):</strong></p>
-			      			</div>
-			      			<div class="col-sm-10">
-			      				<div class="row">
-			      					{% for agencies_hash in fellow.projects %}
-			      					<div class="col-sm-3 hidden-xs">
-			      						<img src="/images/agencies/{{ agencies_hash[0] }}.png" class="img-responsive">
-			      					</div>
-			      					<div class="col-sm-9" id="fellow-modal-agency">
-				      					{% for agency in site.data.agency_list %}
-		      								{% if agency.short == agencies_hash[0] %}
-		      									<p id="fellow-modal-agency-name"><em>{{ agency.long }}</em></p>
-		      								{% endif %}
-		      							{% endfor %}
-		      							<hr/>
-		      							<ul>
-			      							{% assign p = agencies_hash[1] %}
-													{% for projects in p %}
-														<li>{{ projects }}</li>
-													{% endfor %}	
-												</ul>
-											</div>
-											{% endfor %}
-										</div>
-		      				</div>
+		<!-- modal -->
+		<div class="modal fade fellow-modal" id="{{ fellow.id }}-modal" tabindex="-1" role="dialog" aria-labelledby="{{ fellow.id }}-label" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="{{ fellow.id }}-label"><strong>Biographical Details</strong></h4>
+		      </div>
+		      <div class="modal-body">
+		      	<div class="container-fluid">
+		      		<div class="row">
+		      			<div class="col-sm-4" id="fellow-modal-headshot">
+		      				<img src="/images/{{ fellow.year }}/{{ fellow.img }}" class="img-responsive">
 		      			</div>
-			      		<div class="row" id="fellow-modal-bio">
-			      			<div class="col-md-12">
-			      				<p><strong>Biography:</strong> {{ fellow.bio_full }}</p>
-			      			</div>
-			      		</div>
-			      	</div>
-			      </div>
-			    </div>
-			  </div>
-			</div>	
-		{% endfor %}
+		      			<div class="col-sm-8" id="fellow-bio-details">
+		      				<h4><strong>{{ fellow.name }}</strong><br/><small><em>{{ fellow.hometown }}</em></small></h4>
+		      				<h5>Class of {{ fellow.year }}</h5>
+		      				<p id="fellow-skills">{% for skill in fellow.skills %}{% case skill %}{% when 'front' or 'data' or 'back' %}<span class="label label-primary">{% if skill == 'front' %}Front End{% elsif skill == 'back' %}Back End{% else %}Data Viz{% endif %}</span>{% when 'digital' or 'policy' %}<span class="label label-warning">{% if skill == 'digital' %}Digital Strategy{% else %}Policy{% endif %}</span>{% when 'comms' or 'bd' %}<span class="label label-success">{% if skill == 'comms' %}Marketing &amp; Comms{% else %}Biz Dev{% endif %}</span>{% when 'ux' or 'product' %}<span class="label label-info">{% if skill == 'ux' %}UX{% else %}Product{% endif %}</span>{% when 'cyber' %}<span class="label label-danger">Cyber</span>{% endcase %}{% endfor %}</p>
+		      			</div>
+		      			<div class="col-sm-4">
+		      			</div>
+		      		</div>
+		      		<br/>
+		      		<div class="row">
+		      			<div class="col-sm-2">
+		      				<p><strong>PROJECT(S):</strong></p>
+		      			</div>
+		      			<div class="col-sm-10">
+		      				<div class="row">{% for agencies_hash in fellow.projects %}
+		      					<div class="col-sm-3 hidden-xs">
+		      						<img src="/images/agencies/{{ agencies_hash[0] }}.png" class="img-responsive">
+		      					</div>
+		      					<div class="col-sm-9" id="fellow-modal-agency">{% for agency in site.data.agency_list %}{% if agency.short == agencies_hash[0] %}<p id="fellow-modal-agency-name"><em>{{ agency.long }}</em></p>{% endif %}{% endfor %}
+	      							<hr/>
+	      							<ul>{% assign p = agencies_hash[1] %}{% for projects in p %}<li>{{ projects }}</li>{% endfor %}	
+											</ul>
+										</div>{% endfor %}
+									</div>
+	      				</div>
+	      			</div>
+		      		<div class="row" id="fellow-modal-bio">
+		      			<div class="col-md-12">
+		      				<p><strong>Biography:</strong> {{ fellow.bio_full }}</p>
+		      			</div>
+		      		</div>
+		      	</div>
+		      </div>
+		    </div>
+		  </div>
+		</div>{% endfor %}
 	</div>
 </div>
 
