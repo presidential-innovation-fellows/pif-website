@@ -83,8 +83,8 @@ permalink: fellows/
 		      			<div class="col-sm-2">
 		      				<p><strong>PROJECT(S):</strong></p>
 		      			</div>
-		      			<div class="col-sm-10">
-		      				<div class="row">{% for agencies_hash in fellow.projects %}
+		      			<div class="col-sm-10">{% for agencies_hash in fellow.projects %}
+		      				<div class="row" id="fellow-agency-list">
 		      					<div class="col-sm-3 hidden-xs">
 		      						<img src="/images/agencies/{{ agencies_hash[0] }}.png" class="img-responsive">
 		      					</div>
@@ -92,8 +92,8 @@ permalink: fellows/
 	      							<hr/>
 	      							<ul>{% assign p = agencies_hash[1] %}{% for projects in p %}<li>{{ projects }}</li>{% endfor %}	
 											</ul>
-										</div>{% endfor %}
-									</div>
+										</div>
+									</div>{% endfor %}
 	      				</div>
 	      			</div>
 		      		<div class="row" id="fellow-modal-bio">
