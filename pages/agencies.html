@@ -11,7 +11,13 @@ permalink: agencies/
 		</div>
 	</div>
 </div>
-<div class="container" id="agencies">{% for agency_hash in site.data.agencies %}{% capture modulo %}{{ forloop.index | modulo: 2 }}{% endcapture %}{% if modulo contains "1" %}
+<div class="container" id="agencies">
+	<div class="row">
+		<div class="col-sm-8 col-sm-offset-2">
+			<h5>When working with agency partners and projects we look for specific characteristics to help ensure the fellows can effectively deliver a meaningful impact using their outside industry expertise and skill sets within a limited timeframe. These characteristics include defining the problem first and foremost, being engaged with user research exercises and lean, agile development methodologies to adequately scope the effort and execution, and clearly articulating of the chain of command within the agency and identifying buy-in from leadership to enable the fellows to execute and deliver.<br/><br/>Interested in working with the Presidential Innovation Fellows to support your agency's initiatives? <a href="#">Start the process here</a>.</h5>
+		</div>
+	</div>
+	<br/><br/><br/>{% for agency_hash in site.data.agencies %}{% capture modulo %}{{ forloop.index | modulo: 2 }}{% endcapture %}{% if modulo contains "1" %}
 	<div class="row" id="agency-list">
 		<div class="col-sm-6" id="agency-item">
 			<div class="row">
