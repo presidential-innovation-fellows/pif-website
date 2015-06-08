@@ -166,7 +166,40 @@ $(document).ready(function() {
     }
   });
 
-  // intake form submission
+  // intake form call
+  $("#proposalButton").keypress(function(event) {
+    if (event.which == 13) {
+      event.preventDefault();
+      $("#proposalButton").submit();
+      intake();
+      console.log('success')
+    }
+  });
+});
+
+// proposal form submission
+function proposal() {
+  // variables
+  var name = $("#inputName").val();
+  var email = $("#inputEmail").val();
+  var position = $("#inputTitle").val();
+  var role = $("#inputRole").val();
+  // var cto = $("inputCTO").val();
+  var cto_contact = $("#inputCTOcontact").val();
+  // var priority = $("inputPres").val();
+  var problem = $("#inputProblem").val();
+  var solution = $("#inputSolution").val();
+  var impact = $("#inputImpact").val();
+  var data = $("#inputData").val();
+  // var skill = $("#inputSkill").val();
+  var domain = $("#inputDomain").val();
+  // var number = $("#inputNum").val();
+  var sponsor = $("#inputSponsor").val();
+  // var length = $("#inputLength").val();
+
+  // disable button
+  $('#proposalButton').prop("disabled", true);
+
   $.ajax({
     url: "https://docs.google.com/forms/d/1mgnKjMOUHA3jUIONrPoOKcQSxcPQu-nlYcqeUlqEpr0/formResponse",
     data: { "entry_539610281": name,
@@ -189,36 +222,46 @@ $(document).ready(function() {
     dataType: "xml",
     statusCode: {
       0: function () {
-        // Mixpanel
-        mixpanel.identify(email);
-        mixpanel.people.set({
-          '$email': email,
-          '$Wait List': true
-        });
-        mixpanel.track("Middle CTA Button");
-
-        $('#waitEmail2').parent().removeClass('has-success').removeClass('has-feedback');
-        $('#wait-glyph-success-2').css('visibility', 'hidden');
         document.getElementById("waitEmail2").value = '';
-        $('#waitModal').modal();
+        document.getElementById("inputName").value= '';
+        document.getElementById("inputEmail").value= '';
+        document.getElementById("inputTitle").value= '';
+        document.getElementById("inputRole").value= '';
+        // document.getElementById("inputCTO").value= '';
+        document.getElementById("inputCTOcontact").value= '';
+        // document.getElementById("inputPres").value= '';
+        document.getElementById("inputProblem").value= '';
+        document.getElementById("inputSolution").value= '';
+        document.getElementById("inputImpact").value= '';
+        document.getElementById("inputData").value= '';
+        // document.getElementById("inputSkill").value= '';
+        document.getElementById("inputDomain").value= '';
+        // document.getElementById("inputNum").value= '';
+        document.getElementById("inputSponsor").value= '';
+        // document.getElementById("inputLength").value= '';
       },
       200: function () {
-        // Mixpanel
-        mixpanel.identify(email);
-        mixpanel.people.set({
-          '$email': email,
-          '$Wait List': true
-        });
-        mixpanel.track("Middle CTA Button");
-
-        $('#waitEmail2').parent().removeClass('has-success').removeClass('has-feedback');
-        $('#wait-glyph-success-2').css('visibility', 'hidden');
         document.getElementById("waitEmail2").value = '';
-        $('#waitModal').modal();
+        document.getElementById("inputName").value= '';
+        document.getElementById("inputEmail").value= '';
+        document.getElementById("inputTitle").value= '';
+        document.getElementById("inputRole").value= '';
+        // document.getElementById("inputCTO").value= '';
+        document.getElementById("inputCTOcontact").value= '';
+        // document.getElementById("inputPres").value= '';
+        document.getElementById("inputProblem").value= '';
+        document.getElementById("inputSolution").value= '';
+        document.getElementById("inputImpact").value= '';
+        document.getElementById("inputData").value= '';
+        // document.getElementById("inputSkill").value= '';
+        document.getElementById("inputDomain").value= '';
+        // document.getElementById("inputNum").value= '';
+        document.getElementById("inputSponsor").value= '';
+        // document.getElementById("inputLength").value= '';
       }
     }
   });
   setTimeout(function () {
-    $('#waitButton2').prop("disabled", false).html('Increase Your Odds');
+    $('#proposalButton').prop("disabled", false);
   }, 1000);
-});
+}
