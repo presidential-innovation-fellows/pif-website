@@ -605,7 +605,14 @@ body{
 // Intake
 #intake{
   padding-top:50px;
-  padding-bottom:75px;
+  padding-bottom:150px;
+  #lengthRadios3, #presRadios6, #ctoRadios3{
+    margin-top:9px;
+  }
+  #other-form{
+    position:relative;
+    display:inline-block;
+  }
 }
 
 // BetaLab
