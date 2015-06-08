@@ -1,0 +1,229 @@
+---
+layout: default
+title: Agency Intake Form
+permalink: intake/
+---
+
+<div class="container-fluid" id="hero">
+	<div class="row">
+		<div class="col-md-12 text-center">
+			<h1>Agency Intake</h1>
+		</div>
+	</div>
+</div>
+<div class="container" id="intake">
+	<div class="row">
+		<div class="col-sm-6 col-sm-offset-3">
+			<form>
+			  <div class="form-group">
+			    <label for="inputName" class="control-label">Full Name *</label>
+			      <input type="text" class="form-control" id="inputName" placeholder="Bob Smith" required>
+			  </div>
+			  <div class="form-group">
+			    <label for="inputEmail" class="control-label">Email Address *</label>
+					<input type="email" class="form-control" id="inputEmail" placeholder="bob.smith@gsa.gov" required>
+			  </div>
+			  <div class="form-group">
+			    <label for="inputTitle" class="control-label">Position/Title</label>
+			    <input type="email" class="form-control" id="inputTitle" placeholder="CTO">
+			  </div>
+			  <div class="form-group">
+			    <label for="inputRole" class="control-label">Roles &amp; Responsibility</label>
+			    <textarea class="form-control" rows="3" id="inputRole" placeholder="Please indicate your primary responsibilities, or the role of your program office within the agency."></textarea>
+			  </div>
+			  <div class="form-group">
+			  	<label for"inputCTO" class="control-label">If you are not the CTO/CIO, does your agency have one?</label>
+				  <div class="radio">
+					  <label>
+					    <input type="radio" name="ctoRadios" id="ctoRadios1" value="option1">
+					    Yes
+					  </label>
+					</div>
+					<div class="radio">
+					  <label>
+					    <input type="radio" name="ctoRadios" id="ctoRadios2" value="option2">
+					    No
+					  </label>
+					</div>
+					<div class="radio disabled">
+					  <label>
+					    <input type="radio" name="ctoRadios" id="ctoRadios3" value="option3">
+					    Other <input type="text" class="form-control" placeholder="Text input">
+					  </label>
+					</div>
+				</div>
+			  <div class="form-group">
+			    <label for="inputCTOcontact" class="control-label">CTO/CIO Contact: If you answered "Yes" to the previous question, please indicate name(s) and email(s)</label>
+			    <textarea class="form-control" rows="3" id="inputCTOcontact" placeholder="Note PIFs often work in close collaboration with these offices in developing technology solutions"></textarea>
+			  </div>
+			  <h5><strong>Problem Statement</strong></h5>
+			  <div class="form-group">
+			  	<label for"inputPres" class="control-label">Please indicate the Presidential Priority you believe this project helps to address: *</label>
+				  <div class="radio">
+					  <label>
+					    <input type="radio" name="presRadios" id="presRadios1" value="option1">
+					    Education -- using innovation to make education more accessible, available, and attainable
+					  </label>
+					</div>
+					<div class="radio">
+					  <label>
+					    <input type="radio" name="presRadios" id="presRadios2" value="option2">
+					    Health &amp; Patient Care -- leveraging innovation to save lives, provide better access to benefits and programs promoting quality-of-life
+					  </label>
+					</div>
+					<div class="radio">
+					  <label>
+					    <input type="radio" name="presRadios" id="presRadios3" value="option2">
+					    Jobs &amp; the Economy  -- fueling the economy and job growth through innovation and improved opportunities for entrepreneurs and businesses of all sizes
+					  </label>
+					</div>
+					<div class="radio">
+					  <label>
+					    <input type="radio" name="presRadios" id="presRadios4" value="option2">
+					    Climate Change -- preparing the U.S. to lead international efforts, and prepare for the impacts of climate change
+					  </label>
+					</div>
+					<div class="radio">
+					  <label>
+					    <input type="radio" name="presRadios" id="presRadios5" value="option2">
+					    Government Effectiveness -- improving processes and technology to eliminate wasteful spending, streamline what works, and modernize government
+					  </label>
+					</div>
+					<div class="radio">
+					  <label>
+					    <input type="radio" name="presRadios" id="presRadios6" value="option3">
+					    Other <input type="text" class="form-control" placeholder="Text input">
+					  </label>
+					</div>
+				</div>
+			  <div class="form-group">
+			    <label for="inputProblem" class="control-label">Please summarize the problem you believe the Presidential Innovation Fellows might help solve *</label>
+			    <textarea class="form-control" rows="3" id="inputProblem" placeholder="" required></textarea>
+			  </div>
+			  <div class="form-group">
+			    <label for="inputSolution" class="control-label">What is a potential solution, and what role do you envision Presidential Innovation Fellows playing in this effort? (1-2 paragraphs) *</label>
+			    <textarea class="form-control" rows="3" id="inputSolution" placeholder="e.g. act as technology leads to help us validate our problem statement with end-users; lead software development of pilot; and own manage the deployment of a solution in beta" required></textarea>
+			  </div>
+			  <div class="form-group">
+			    <label for="inputImpact" class="control-label">If solved, what impact do you envision the "solution" having on the American People? (4-6 sentences)</label>
+			    <textarea class="form-control" rows="3" id="inputImpact" placeholder="e.g. save significant 'y' burden hours per year in time; saves'x' taxpayer dollars; saves 'x' lives; creates 'x' jobs"></textarea>
+			  </div>
+			  <div class="form-group">
+			    <label for="inputData" class="control-label">What (if any) data might aid in the delivery of this project?</label>
+			    <textarea class="form-control" rows="3" id="inputData" placeholder="If known, please list the data format (e.g. API) and where it can be found (e.g. data.gov)"></textarea>
+			  </div>
+			  <h5><strong>Scope</strong></h5>
+			  <div class="form-group">
+			  	<label for="inputSkill" class="control-label"></label>
+			  	<div class="checkbox">
+					  <label>
+					    <input type="checkbox" value="">
+					    User Experience / Design
+					  </label>
+					</div>
+					<div class="checkbox">
+					  <label>
+					    <input type="checkbox" value="">
+					    Front End Web Development
+					  </label>
+					</div>
+					<div class="checkbox">
+					  <label>
+					    <input type="checkbox" value="">
+					    Back End Web Development
+					  </label>
+					</div>
+					<div class="checkbox">
+					  <label>
+					    <input type="checkbox" value="">
+					    Product / Project Management
+					  </label>
+					</div>
+					<div class="checkbox">
+					  <label>
+					    <input type="checkbox" value="">
+					    Marketing / Communications / Business Development
+					  </label>
+					</div>
+				</div>
+			  <div class="form-group">
+			    <label for="inputData" class="control-label">What (if any) domain expertise will be beneficial?</label>
+			    <textarea class="form-control" rows="3" id="inputData" placeholder="e.g. 'online privacy'; 'electronic health records' -- please note, Fellows are recruited primarily for innovation acumen, and sometimes look to internal government stakeholders for domain expertise"></textarea>
+			  </div>
+			  <div class="form-group">
+			  	<label for"inputPres" class="control-label">How many fellows can the agency guarantee funding for? * Note: ideal team size is 3-6 Fellows per program office; or 6-12 per agency; Fellows are deployed under IAAs, which may allow offices to use operating budget)</label>
+				  <div class="radio">
+					  <label>
+					    <input type="radio" name="numRadios" id="numRadios7" value="option1">
+					    1
+					  </label>
+					</div>
+					<div class="radio">
+					  <label>
+					    <input type="radio" name="numRadios" id="numRadios7" value="option2">
+					    2
+					  </label>
+					</div>
+					<div class="radio">
+					  <label>
+					    <input type="radio" name="numRadios" id="numRadios7" value="option2">
+					    3
+					  </label>
+					</div>
+					<div class="radio">
+					  <label>
+					    <input type="radio" name="numRadios" id="numRadios7" value="option2">
+					    4
+					  </label>
+					</div>
+					<div class="radio">
+					  <label>
+					    <input type="radio" name="numRadios" id="numRadios7" value="option2">
+					    5
+					  </label>
+					</div>
+					<div class="radio">
+					  <label>
+					    <input type="radio" name="numRadios" id="numRadios7" value="option3">
+					    6-10
+					  </label>
+					</div>
+					<div class="radio">
+					  <label>
+					    <input type="radio" name="numRadios" id="numRadios7" value="option3">
+					    10+
+					  </label>
+					</div>
+				</div>
+				<div class="form-group">
+			    <label for="inputSponsor" class="control-label">Who is the proposed executive sponsor? *</label>
+			    <textarea class="form-control" rows="3" id="inputSponsor" placeholder="Please list name, email address, and title" required></textarea>
+			  </div>
+			  <div class="form-group">
+			  	<label for"inputCTO" class="control-label">Is this a 6 or 12-month engagement? * Please note the Presidential Innovation Fellowship is a 12-month program</label>
+				  <div class="radio">
+					  <label>
+					    <input type="radio" name="ctoRadios" id="ctoRadios1" value="option1">
+					    6 month
+					  </label>
+					</div>
+					<div class="radio">
+					  <label>
+					    <input type="radio" name="ctoRadios" id="ctoRadios2" value="option2">
+					    12 month
+					  </label>
+					</div>
+					<div class="radio disabled">
+					  <label>
+					    <input type="radio" name="ctoRadios" id="ctoRadios3" value="option3">
+					    Other <input type="text" class="form-control" placeholder="Text input">
+					  </label>
+					</div>
+				</div>
+			  <div class="form-group">
+			    <button type="submit" class="btn btn-primary pull-right">Submit</button>
+			  </div>
+			</form>
+		</div>
+	</div>
+</div>

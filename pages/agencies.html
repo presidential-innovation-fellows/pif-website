@@ -14,7 +14,13 @@ permalink: agencies/
 <div class="container" id="agencies">
 	<div class="row">
 		<div class="col-sm-8 col-sm-offset-2">
-			<h5>When working with agency partners and projects we look for specific characteristics to help ensure the fellows can effectively deliver a meaningful impact using their outside industry expertise and skill sets within a limited timeframe. These characteristics include defining the problem first and foremost, being engaged with user research exercises and lean, agile development methodologies to adequately scope the effort and execution, and clearly articulating of the chain of command within the agency and identifying buy-in from leadership to enable the fellows to execute and deliver.<br/><br/>Interested in working with the Presidential Innovation Fellows to support your agency's initiatives? <a href="#">Start the process here</a>.</h5>
+			<h5>We work with federal partners that share our values for providing citizen-centric solutions, and deploying agile solutions using the best principles and practices of the innovation community.<br/><br/>Acting like a government-to-government incubator, which we call “BetaLab”,  Presidential Innovation Fellows and their agency partners explore problems, uncover insights, and create exciting new opportunities to improve our government.  Our approach includes workshopping, deep dives, design sprints, live user-testing, and rapid prototyping with the goal of maximizing results in the shortest possible timeframe.<br/><br/>If you are a federal employee and would like to work with us, we’d like to hear from you.</h5><br/>
+			<div class="row">
+				<div class="col-sm-4 col-sm-offset-4">
+					<button class="btn btn-default btn-lg btn-primary btn-block" href="intake">Work With Us!</button>
+				</div>
+			</div>
+			<br/><br/>
 		</div>
 	</div>
 	<br/><br/><br/>{% for agency_hash in site.data.agencies %}{% capture modulo %}{{ forloop.index | modulo: 2 }}{% endcapture %}{% if modulo contains "1" %}
