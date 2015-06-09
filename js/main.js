@@ -166,13 +166,13 @@ $(document).ready(function() {
     }
   });
 
-  // intake form call
-  $("#proposalButton").keypress(function(event) {
-    if (event.which == 13) {
-      event.preventDefault();
-      $("#proposalButton").submit();
-      intake();
-      console.log('success')
+  // process form call
+  $('#proposalButton').on('click', function () {
+    if("#inputSponsor" != ''){
+      var $btn = $(this).button('loading')
+      proposal();
+      $btn.button('reset')
+      console.log('success2');
     }
   });
 });
@@ -198,70 +198,74 @@ function proposal() {
   // var length = $("#inputLength").val();
 
   // disable button
-  $('#proposalButton').prop("disabled", true);
+  // $('#proposalButton').prop("disabled", true);
 
   $.ajax({
+    cache: false,
+    crossDomain: true,
     url: "https://docs.google.com/forms/d/1mgnKjMOUHA3jUIONrPoOKcQSxcPQu-nlYcqeUlqEpr0/formResponse",
     data: { "entry_539610281": name,
             "entry_2052643685": email,
             "entry_1717830975": position,
             "entry_441930163": role,
-            "entry_1059845155": cto,
+            //"entry_1059845155": cto,
             "entry_984976714": cto_contact,
-            "entry_2015518157": priority,
+            //"entry_2015518157": priority,
             "entry_1896597527": problem,
             "entry_1910247938": solution,
             "entry_349657906": impact,
             "entry_1140645356": data,
-            "entry_103429177": skill,
+            //"entry_103429177": skill,
             "entry_737405442": domain,
-            "entry_757989308": number,
-            "entry_1329682796": sponsor,
-            "entry_1622924413": length },
+            //"entry_757989308": number,
+            "entry_1329682796": sponsor },
+            //"entry_1622924413": length 
     type: "POST",
     dataType: "xml",
     statusCode: {
       0: function () {
-        document.getElementById("waitEmail2").value = '';
-        document.getElementById("inputName").value= '';
-        document.getElementById("inputEmail").value= '';
-        document.getElementById("inputTitle").value= '';
-        document.getElementById("inputRole").value= '';
-        // document.getElementById("inputCTO").value= '';
-        document.getElementById("inputCTOcontact").value= '';
-        // document.getElementById("inputPres").value= '';
-        document.getElementById("inputProblem").value= '';
-        document.getElementById("inputSolution").value= '';
-        document.getElementById("inputImpact").value= '';
-        document.getElementById("inputData").value= '';
-        // document.getElementById("inputSkill").value= '';
-        document.getElementById("inputDomain").value= '';
-        // document.getElementById("inputNum").value= '';
-        document.getElementById("inputSponsor").value= '';
-        // document.getElementById("inputLength").value= '';
+        console.log('submission1');
+        // document.getElementById("waitEmail2").value = '';
+        // document.getElementById("inputName").value= '';
+        // document.getElementById("inputEmail").value= '';
+        // document.getElementById("inputTitle").value= '';
+        // document.getElementById("inputRole").value= '';
+        // // document.getElementById("inputCTO").value= '';
+        // document.getElementById("inputCTOcontact").value= '';
+        // // document.getElementById("inputPres").value= '';
+        // document.getElementById("inputProblem").value= '';
+        // document.getElementById("inputSolution").value= '';
+        // document.getElementById("inputImpact").value= '';
+        // document.getElementById("inputData").value= '';
+        // // document.getElementById("inputSkill").value= '';
+        // document.getElementById("inputDomain").value= '';
+        // // document.getElementById("inputNum").value= '';
+        // document.getElementById("inputSponsor").value= '';
+        // // document.getElementById("inputLength").value= '';
       },
       200: function () {
-        document.getElementById("waitEmail2").value = '';
-        document.getElementById("inputName").value= '';
-        document.getElementById("inputEmail").value= '';
-        document.getElementById("inputTitle").value= '';
-        document.getElementById("inputRole").value= '';
-        // document.getElementById("inputCTO").value= '';
-        document.getElementById("inputCTOcontact").value= '';
-        // document.getElementById("inputPres").value= '';
-        document.getElementById("inputProblem").value= '';
-        document.getElementById("inputSolution").value= '';
-        document.getElementById("inputImpact").value= '';
-        document.getElementById("inputData").value= '';
-        // document.getElementById("inputSkill").value= '';
-        document.getElementById("inputDomain").value= '';
-        // document.getElementById("inputNum").value= '';
-        document.getElementById("inputSponsor").value= '';
-        // document.getElementById("inputLength").value= '';
+        console.log('submission2');
+        // document.getElementById("waitEmail2").value = '';
+        // document.getElementById("inputName").value= '';
+        // document.getElementById("inputEmail").value= '';
+        // document.getElementById("inputTitle").value= '';
+        // document.getElementById("inputRole").value= '';
+        // // document.getElementById("inputCTO").value= '';
+        // document.getElementById("inputCTOcontact").value= '';
+        // // document.getElementById("inputPres").value= '';
+        // document.getElementById("inputProblem").value= '';
+        // document.getElementById("inputSolution").value= '';
+        // document.getElementById("inputImpact").value= '';
+        // document.getElementById("inputData").value= '';
+        // // document.getElementById("inputSkill").value= '';
+        // document.getElementById("inputDomain").value= '';
+        // // document.getElementById("inputNum").value= '';
+        // document.getElementById("inputSponsor").value= '';
+        // // document.getElementById("inputLength").value= '';
       }
     }
   });
-  setTimeout(function () {
-    $('#proposalButton').prop("disabled", false);
-  }, 1000);
+  // setTimeout(function () {
+  //   $('#proposalButton').prop("disabled", false);
+  // }, 1000);
 }
