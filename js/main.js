@@ -185,17 +185,22 @@ function proposal() {
   var position = $("#inputTitle").val();
   var role = $("#inputRole").val();
   // var cto = $("inputCTO").val();
+  var cto = 'yes';
   var cto_contact = $("#inputCTOcontact").val();
   // var priority = $("inputPres").val();
+  var priority = 'something';
   var problem = $("#inputProblem").val();
   var solution = $("#inputSolution").val();
   var impact = $("#inputImpact").val();
   var data = $("#inputData").val();
   // var skill = $("#inputSkill").val();
+  var skill = 'recruiting';
   var domain = $("#inputDomain").val();
   // var number = $("#inputNum").val();
+  var number = 4;
   var sponsor = $("#inputSponsor").val();
   // var length = $("#inputLength").val();
+  var length = 6;
 
   // disable button
   // $('#proposalButton').prop("disabled", true);
@@ -208,23 +213,39 @@ function proposal() {
             "entry_2052643685": email,
             "entry_1717830975": position,
             "entry_441930163": role,
-            //"entry_1059845155": cto,
+            "entry_1059845155": cto,
             "entry_984976714": cto_contact,
-            //"entry_2015518157": priority,
+            "entry_2015518157": priority,
             "entry_1896597527": problem,
             "entry_1910247938": solution,
             "entry_349657906": impact,
             "entry_1140645356": data,
-            //"entry_103429177": skill,
+            "entry_103429177": skill,
             "entry_737405442": domain,
-            //"entry_757989308": number,
-            "entry_1329682796": sponsor },
-            //"entry_1622924413": length 
+            "entry_757989308": number,
+            "entry_1329682796": sponsor,
+            "entry_1622924413": length },
     type: "POST",
     dataType: "xml",
     statusCode: {
       0: function () {
         console.log('submission1');
+        console.log(name);
+        console.log(email);
+        console.log(position);
+        console.log(role);
+        console.log(cto);
+        console.log(cto_contact);
+        console.log(priority);
+        console.log(problem);
+        console.log(solution);
+        console.log(impact);
+        console.log(data);
+        console.log(skill);
+        console.log(domain);
+        console.log(number).
+        console.log(sponsor);
+        console.log(length);
         // document.getElementById("waitEmail2").value = '';
         // document.getElementById("inputName").value= '';
         // document.getElementById("inputEmail").value= '';

@@ -17,7 +17,7 @@ permalink: agencies/
 			<h5>We work with federal partners that share our values for providing citizen-centric solutions and deploying agile solutions using the best principles and practices of the innovation community.<br/><br/>Acting like a government-to-government incubator, which we call “<a href="{{ baseurl }}betalab">BetaLab</a>”,  Presidential Innovation Fellows and their agency partners explore problems, uncover insights, and create exciting new opportunities to improve our government.  Our approach includes workshopping, deep dives, design sprints, live user-testing, and rapid prototyping with the goal of maximizing results in the shortest possible timeframe.<br/><br/>If you are a federal employee or agency and would like to work with us, we’d like to hear from you.</h5><br/>
 			<div class="row">
 				<div class="col-sm-4 col-sm-offset-4">
-					<a href="{{ url }}/proposal"><button class="btn btn-default btn-lg btn-primary btn-block">Work With Us!</button></a>
+					<a href="https://docs.google.com/forms/d/1mgnKjMOUHA3jUIONrPoOKcQSxcPQu-nlYcqeUlqEpr0/viewform"><button class="btn btn-default btn-lg btn-primary btn-block">Work With Us!</button></a>
 				</div>
 			</div>
 			<br/><br/>
@@ -36,7 +36,7 @@ permalink: agencies/
 					<hr/>
 					<div class="row" id="agency-fellow-list">
 						<div class="col-md-12">
-							<ul>{% assign a = agency_hash[1] %}{% for f in a.fellows %}{% for fellow_hash in site.data.fellows %}{% assign fellow_id = fellow_hash[0] %}{% assign fellow_info = fellow_hash[1] %}{% if fellow_id == f %}<li><a href="{{ baseurl }}/fellows#{{ fellow_info.id }}"><img src="/images/{{ fellow_info.year }}/{{ fellow_info.img }}" class="img-circle"></a></li>{% endif %}{% endfor %}{% endfor %}</ul>
+							<ul>{% assign a = agency_hash[1] %}{% for f in a.fellows %}{% for fellow_hash in site.data.fellows %}{% assign fellow_id = fellow_hash[0] %}{% assign fellow_info = fellow_hash[1] %}{% if fellow_id == f %}<li><!-- <a href="{{ baseurl }}/fellows#{{ fellow_info.id }}"> --><img src="/images/{{ fellow_info.year }}/{{ fellow_info.img }}" class="img-circle"><!-- </a> --></li>{% endif %}{% endfor %}{% endfor %}</ul>
 						</div>
 					</div>
 				</div>
@@ -52,7 +52,7 @@ permalink: agencies/
 					<hr/>
 					<div class="row" id="agency-fellow-list">
 						<div class="col-md-12">
-							<ul>{% assign a = agency_hash[1] %}{% for f in a.fellows %}{% for fellow_hash in site.data.fellows %}{% assign fellow_id = fellow_hash[0] %}{% assign fellow_info = fellow_hash[1] %}{% if fellow_id == f %}<li><a href="{{ baseurl }}/fellows#{{ fellow_info.id }}"><img src="/images/{{ fellow_info.year }}/{{ fellow_info.img }}" class="img-circle"></a></li>{% endif %}{% endfor %}{% endfor %}</ul>
+							<ul>{% assign a = agency_hash[1] %}{% for f in a.fellows %}{% for fellow_hash in site.data.fellows %}{% assign fellow_id = fellow_hash[0] %}{% assign fellow_info = fellow_hash[1] %}{% if fellow_id == f %}<li><!-- <a href="{{ baseurl }}/fellows#{{ fellow_info.id }}"> --><img src="/images/{{ fellow_info.year }}/{{ fellow_info.img }}" class="img-circle"><!-- </a> --></li>{% endif %}{% endfor %}{% endfor %}</ul>
 						</div>
 					</div>
 				</div>

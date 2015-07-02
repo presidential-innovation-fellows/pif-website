@@ -202,6 +202,7 @@ body{
   background-color:#3C547C;
   #footer-text{
     margin-top:50px;
+    margin-bottom:25px;
   }
   ul{
     list-style-type: none;
@@ -220,6 +221,30 @@ body{
   }
   img{
     display:block;
+  }
+  #gov-links{
+    a, p{
+      color:$gray-lighter;
+    }
+    p{
+      padding-top:10px;
+      padding-bottom:10px;
+      border-top-style:solid;
+      border-top-width: 1px;
+      border-top-color:$gray-lighter;
+      border-bottom-style:solid;
+      border-bottom-width: 1px;
+      border-bottom-color:$gray-lighter; 
+    }
+  }
+  #disclaimer{
+    margin-top:25px;
+    a, p{
+      color:$gray-lighter;
+    }
+    p{
+      padding-top:5px;
+    }
   }
 }
 
@@ -615,6 +640,12 @@ body{
   }
 }
 
+// PRIVACY
+#privacy{
+  padding-top:50px;
+  padding-bottom:75px;
+}
+
 // BetaLab
 #betalab{
   padding-top:50px;
@@ -625,7 +656,7 @@ body{
 @media (min-width: 992px) {
   // GENERAL
   body{
-    margin-bottom:442px;
+    margin-bottom:650px;
   }
   #cta{
     h4{
@@ -829,7 +860,7 @@ body{
 @media (min-width: 768px) and (max-width: 991px) {
   // GENERAL
   body{
-    margin-bottom:442px;
+    margin-bottom:650px;
   }
   #cta{
     h4{
@@ -906,7 +937,7 @@ body{
 @media (max-width: 767px){
   // GENERAL
   body{
-    margin-bottom:401px;
+    margin-bottom:775px;
   }
   .navbar{
     min-height:81px;
@@ -932,8 +963,18 @@ body{
 
   // FOOTER
   #footer{
-    height:465px;
+    height:775px;
     #footer-text{
+      text-align:center;
+    }
+    img{
+      margin-left:auto;
+      margin-right:auto;
+    }
+    #gov-links{
+      text-align:center;
+    }
+    #disclaimer{
       text-align:center;
     }
   }
