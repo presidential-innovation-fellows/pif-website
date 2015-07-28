@@ -105,8 +105,8 @@ $(document).ready(function() {
     video.removeAttribute("controls");
     video.removeAttribute("poster");
     source = document.querySelectorAll("#video_player video source");
-    source[0].src = filename + ".mp4";
-    source[1].src = filename + ".webm";
+    source[0].src = filename + ".webm";
+    source[1].src = filename + ".mp4";
     source[2].src = filename + ".ogv";
     video.load();
     video.play();
