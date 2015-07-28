@@ -6,33 +6,33 @@ $gray-lighter:           lighten(#000, 93.5%) !default; // #eee
 
 @font-face{
   font-family: 'Avenir Light';
-  src: url('/fonts/AvenirLTStd-Light.eot');
-  src: url('/fonts/AvenirLTStd-Light.eot?#iefix') format('embedded-opentype'),
-  url('/fonts/AvenirLTStd-Light.svg#webfont') format('svg'),
-  url('/fonts/AvenirLTStd-Light.woff') format('woff'),
-  url('/fonts/AvenirLTStd-Light.ttf') format('truetype');
+  src: url('/assets/fonts/AvenirLTStd-Light.eot');
+  src: url('/assets/fonts/AvenirLTStd-Light.eot?#iefix') format('embedded-opentype'),
+  url('/assets/fonts/AvenirLTStd-Light.svg#webfont') format('svg'),
+  url('/assets/fonts/AvenirLTStd-Light.woff') format('woff'),
+  url('/assets/fonts/AvenirLTStd-Light.ttf') format('truetype');
   font-weight:normal;
   font-style:normal;
 }
 
 @font-face{
   font-family: 'Avenir Medium';
-  src: url('/fonts/AvenirLTStd-Medium.eot');
-  src: url('/fonts/AvenirLTStd-Medium.eot?#iefix') format('embedded-opentype'),
-  url('/fonts/AvenirLTStd-Medium.svg#webfont') format('svg'),
-  url('/fonts/AvenirLTStd-Medium.woff') format('woff'),
-  url('/fonts/AvenirLTStd-Medium.ttf') format('truetype');
+  src: url('/assets/fonts/AvenirLTStd-Medium.eot');
+  src: url('/assets/fonts/AvenirLTStd-Medium.eot?#iefix') format('embedded-opentype'),
+  url('/assets/fonts/AvenirLTStd-Medium.svg#webfont') format('svg'),
+  url('/assets/fonts/AvenirLTStd-Medium.woff') format('woff'),
+  url('/assets/fonts/AvenirLTStd-Medium.ttf') format('truetype');
   font-weight:normal;
   font-style:normal;
 }
 
 @font-face{
   font-family: 'Avenir Heavy';
-  src: url('/fonts/AvenirLTStd-Heavy.eot');
-  src: url('/fonts/AvenirLTStd-Heavy.eot?#iefix') format('embedded-opentype'),
-  url('/fonts/AvenirLTStd-Heavy.svg#webfont') format('svg'),
-  url('/fonts/AvenirLTStd-Heavy.woff') format('woff'),
-  url('/fonts/AvenirLTStd-Heavy.ttf') format('truetype');
+  src: url('/assets/fonts/AvenirLTStd-Heavy.eot');
+  src: url('/assets/fonts/AvenirLTStd-Heavy.eot?#iefix') format('embedded-opentype'),
+  url('/assets/fonts/AvenirLTStd-Heavy.svg#webfont') format('svg'),
+  url('/assets/fonts/AvenirLTStd-Heavy.woff') format('woff'),
+  url('/assets/fonts/AvenirLTStd-Heavy.ttf') format('truetype');
   font-weight:normal;
   font-style:normal;
 }
@@ -261,7 +261,7 @@ body{
 
 // HOME
 #home-hero{
-  background-image:url('/images/pif-hero.png');
+  background-image:url('/assets/images/pif-hero.png');
   background-attachment:scroll;
   background-repeat:no-repeat;
   background-position:center 0;

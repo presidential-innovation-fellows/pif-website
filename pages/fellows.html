@@ -47,7 +47,7 @@ permalink: fellows/
 			<span id="{{ fellow.id }}"></span>
 			<div class="row">
 				<div class="col-md-6">
-					<img src="/images/{{ fellow.year }}/{{ fellow.img }}" class="img-circle img-responsive">
+					<img src="/assets/images/{{ fellow.year }}/{{ fellow.img }}" class="img-circle img-responsive">
 				</div>
 				<div class="col-md-6 hidden-xs" id="fellow-info">
 					<h4><strong>{{ fellow.name }}</strong><br/><small><em>{{ fellow.hometown }}</em></small></h4>
@@ -68,7 +68,7 @@ permalink: fellows/
 		      	<div class="container-fluid">
 		      		<div class="row">
 		      			<div class="col-sm-4" id="fellow-modal-headshot">
-		      				<img src="/images/{{ fellow.year }}/{{ fellow.img }}" class="img-responsive">
+		      				<img src="/assets/images/{{ fellow.year }}/{{ fellow.img }}" class="img-responsive">
 		      			</div>
 		      			<div class="col-sm-8" id="fellow-bio-details">
 		      				<h4><strong>{{ fellow.name }}</strong><br/><small><em>{{ fellow.hometown }}</em></small></h4>
@@ -86,7 +86,7 @@ permalink: fellows/
 		      			<div class="col-sm-10">{% for agencies_hash in fellow.projects %}
 		      				<div class="row" id="fellow-agency-list">
 		      					<div class="col-sm-3 hidden-xs">
-		      						<img src="/images/agencies/{{ agencies_hash[0] }}.png" class="img-responsive">
+		      						<img src="/assets/images/agencies/{{ agencies_hash[0] }}.png" class="img-responsive">
 		      					</div>
 		      					<div class="col-sm-9" id="fellow-modal-agency">{% for agency in site.data.agency_list %}{% if agency.short == agencies_hash[0] %}<p id="fellow-modal-agency-name"><em>{{ agency.long }}</em></p>{% endif %}{% endfor %}
 	      							<hr/>
