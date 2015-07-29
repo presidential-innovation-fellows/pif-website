@@ -55,7 +55,7 @@ $(document).ready(function() {
 
   // navbar button action to pif application
   $('.navbar-btn').click(function() {
-    window.location = "https://pif.gsa.gov/";
+    window.location = "https://apply.pif.gov/";
   });
 
   // home page navbar button animation
