@@ -92,7 +92,13 @@ $(document).ready(function() {
   }
 
   /* video player */
+  (function() {
   var video_player = document.getElementById("video_player");
+
+  if (!video_player) {
+    return;
+  }
+
   var links = video_player.getElementsByTagName('a');
   for (var i=0; i<links.length; i++) {
     links[i].onclick = handler;
@@ -160,7 +166,8 @@ $(document).ready(function() {
   // video.addEventListener('mouseleave', function() {
   //   video.removeAttribute("controls");
   // })
-	
+  })();
+
   /* Isotope stuff */
   var $container = $('#fellow');
 
@@ -189,7 +196,7 @@ $(document).ready(function() {
     // set filter for Isotope
     $container.isotope({ filter: filterValue });
   });
-  
+
   // change active class on buttons
   $('#year').each(function(i,buttonGroup){
     var $buttonGroup = $(buttonGroup);
