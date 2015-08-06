@@ -43,7 +43,19 @@ permalink: fellows/
 			<button class="btn btn-default" type="button" data-filter=".digital">Digital Strategy</buttton>
 		</div>
 	</div>
-	<div class="row" id="fellow">{% for fellows_hash in site.data.fellows %}{% assign fellow = fellows_hash[1] %}
+
+	<div class="row" id="fellow">
+          {% capture sort_strings %}
+            {% for f in site.data.fellows %}
+              {{ 5000 | minus:f[1].year }}_{{ f[1].id }}
+            {% endfor %}
+          {% endcapture %}
+          {% assign sort_strings = sort_strings | split:' ' | sort %}
+          {% for sort_string in sort_strings %}
+            {% assign sort_string_pair = sort_string | split:'_' %}
+            {% assign id = sort_string_pair[1] %}
+            {% assign fellow = site.data.fellows[id] %}
+
 		<div class="fellow {{ fellow.year }} {{ fellow.region }} {% for skill in fellow.skills %}{{ skill }} {% endfor %} col-md-6 col-sm-4 col-xs-6">
 			<span id="{{ fellow.id }}"></span>
 			<div class="row">
