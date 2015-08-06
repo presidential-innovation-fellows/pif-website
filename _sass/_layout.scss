@@ -416,9 +416,19 @@ body{
 }
 
 // FELLOWS
+#fellow a {
+  cursor: pointer;
+
+  img {
+    border: 0;
+    text-decoration: none;
+  }
+}
+
 #fellows{
   padding-top:50px;
   padding-bottom:75px;
+
   #filters{
     padding-bottom:75px;
     button{
