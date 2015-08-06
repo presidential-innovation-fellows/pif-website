@@ -60,7 +60,9 @@ permalink: fellows/
 			<span id="{{ fellow.id }}"></span>
 			<div class="row">
 				<div class="col-md-6">
-					<img src="/assets/images/{{ fellow.year }}/{{ fellow.img }}" class="img-circle img-responsive">
+					<a data-toggle="modal" data-target="#{{ fellow.id }}-modal">
+						<img src="/assets/images/{{ fellow.year }}/{{ fellow.img }}" class="img-circle img-responsive">
+					</a>
 				</div>
 				<div class="col-md-6 hidden-xs" id="fellow-info">
 					<h4><strong>{{ fellow.name }}</strong><br/><small><em>{{ fellow.hometown }}</em></small></h4>
