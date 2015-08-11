@@ -1,0 +1,24 @@
+---
+layout: default
+permalink: /blog/all_posts/
+title: All Blog Posts
+---
+<div class="container-fluid" id="hero">
+	<div class="row">
+		<div class="col-md-12 text-center">
+			<h1>All Blog Posts</h1>
+		</div>
+	</div>
+</div>
+<div class="container" id="blog">
+	<div class="row">
+		<div class="col-md-12">
+			<ul>
+	      {% for post in site.posts %}
+	        <li>{{ post.date | date_to_string }} <i class="fa fa-angle-right"></i> <a href="/blog{{ post.url }}">{{ post.title }}</a></li>
+	      {% endfor %}
+	    </ul>
+	    <p class="center"><a class="btn btn-default" href="/blog">Blog Home</a></p>
+	  </div>
+	</div>
+</div>
