@@ -1,0 +1,9 @@
+# modify these lines with your own credentials but DO NOT COMMIT THE CHANGE:
+s3_id: [Your AWS access key ID]
+s3_secret: [Your AWS secret access key]
+
+s3_bucket: presidentialinnovationfellows.gov
+gzip: true
+# just to be on the safe side:
+ignore_on_server: _DELETE_NOTHING_ON_THE_S3_BUCKET_
+cloudfront_distribution_id: E17JIBNHAD5OVL
