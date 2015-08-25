@@ -39,7 +39,7 @@ field | format/info
 id: | case-study-name
 img: | case-study.png
 title: | name of case study
-description: | 
+description: |
 challenge: |
 solution: |
 impact: |
@@ -140,3 +140,28 @@ USCB | Census Bureau
 USCIO | US Chief Information Officer
 USPTO | United States Patent and Trademark Office
 VA | Veteran Affairs
+
+## Setting up
+
+### JVM
+
+The s3_website gem needs the Javas. Go ahead and get a JVM installed.
+
+### Create s3_website.yml
+
+This file isn't committed because it contains your own secret credentials:
+
+```yml
+s3_id: <YOUR AWS KEY ID>
+s3_secret: <YOUR AWS SECRET KEY>
+s3_bucket: presidentialinnovationfellows.gov
+gzip: true
+ignore_on_server: _DELETE_NOTHING_ON_THE_S3_BUCKET_
+cloudfront_distribution_id: E17JIBNHAD5OVL
+```
+
+## Deployment
+
+Build then deploy: `jekyll build && s3_website push`
+
+Ensure you've done the "Setting up" things first (see above).
