@@ -101,7 +101,7 @@ front | Front End Development
 data | Data Visualization
 product | Product Management
 ux | User Experience
-comm | Marketing & Communications
+comms | Marketing & Communications
 bd | Business Development
 back | Back End Development
 design | Visual Design
