@@ -424,6 +424,20 @@ body{
   padding-bottom:75px;
 }
 
+// EVENTS
+#events{
+  padding-top:50px;
+  padding-bottom:150px;
+  h3{
+    padding-bottom:0px;
+  }
+}
+
+#announcement{
+  padding-top:50px;
+  padding-bottom:150px;
+}
+
 // FELLOWS
 #fellow a {
   cursor: pointer;
@@ -712,8 +726,8 @@ body{
   padding-bottom:125px;
 }
 #blog{
-  padding-top:100px;
-  padding-bottom:125px;
+  padding-top:50px;
+  padding-bottom:150px;
 }
 
 // Large and medium devices (desktops)
