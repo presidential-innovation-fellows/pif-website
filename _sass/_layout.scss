@@ -219,6 +219,40 @@ body{
       }
     }
   }
+  #social{
+    li{
+      display:inline;
+    }
+    li+li{
+      margin-left:18px;
+    }
+    h4{
+      color:$gray-lighter;
+    }
+    a{
+      color:$gray-lighter;
+      &:hover, &:focus{
+        text-decoration:none;
+      }
+    }
+    #mc_embed_signup{
+      background:none;
+      color:$gray-lighter;
+      font:15px;
+      label{
+        font-size:1.5em;
+      }
+      form{
+        padding-left:0px;
+      }
+      input.button{
+        padding-top:2px;
+      }
+      input.email{
+        min-width:100%;
+      }
+    }
+  }
   img{
     display:block;
   }
