@@ -16,6 +16,8 @@ permalink: events/
 			<h2>Upcoming Events</h2><br/>{% for event_hash in site.data.upcoming_events %}{% assign event = event_hash[1] %}
 			<h3>{{ event.name }}</h3>
 			<h4><strong>Address:</strong> {{ event.address }}<br/><strong>Date:</strong> {{ event.date }}<br/><strong>Time:</strong> {{ event.time }}<br/><strong>Cost:</strong> {{ event.cost }}<br/><strong>Link:</strong> <a href="{{event.url }}" target="blank">{{ event.url }}</a></h4>{% endfor %}
+			<br/>
+			<h4>More events coming soon ... sign up for our newsletter to stay in the know!</h4>
 			<!-- <br/><br/>
 			<h2>Past Events</h2><br/>{% for event_hash in site.data.previous_events %}{% assign event = event_hash[1] %}
 			<h3>{{ event.name }}</h3>
