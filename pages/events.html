@@ -6,16 +6,15 @@ permalink: events/
 <div class="container-fluid" id="hero">
 	<div class="row">
 		<div class="col-md-12 text-center">
-			<h1>Events</h1>
+			<h1>Upcoming Events</h1>
 		</div>
 	</div>
 </div>
 <div class="container" id="events">
 	<div class="row">
-		<div class="col-md-10 col-md-offset-1">
-			<h2>Upcoming</h2><br/>{% for event_hash in site.data.upcoming_events %}{% assign event = event_hash[1] %}
+		<div class="col-md-10 col-md-offset-1">{% for event_hash in site.data.upcoming_events %}{% assign event = event_hash[1] %}
 			<h3>{{ event.name }}</h3>
-			<h4><strong>Address:</strong> {{ event.address }}<br/><strong>Date:</strong> {{ event.date }}<br/><strong>Time:</strong> {{ event.time }}<br/><strong>Cost:</strong> {{ event.cost }}<br/><strong>Link:</strong> <a href="{{event.url }}" target="blank">{{ event.url }}</a></h4>{% endfor %}
+			<h4><strong>Address:</strong> {{ event.address }}<br/><strong>Date:</strong> {{ event.date }}<br/><strong>Time:</strong> {{ event.time }}<br/><strong>Cost:</strong> {{ event.cost }}<br/><strong>Link:</strong> <a href="{{event.url }}" target="blank">{{ event.url }}</a></h4><br/>{% endfor %}
 			<br/>
 			<h4>More events coming soon ... sign up for our newsletter to stay in the know!</h4>
 			<!-- <br/><br/>
