@@ -3,7 +3,7 @@ layout: post
 title:  "Ending Child Labor"
 date:   2015-10-21
 author: Tyrone Grandison (2014 PIF)
-permalink: /blog/2015/10/21/ending-child-labor
+permalink: /blog/2015/10/21/ending-child-labor/
 img: assets/images/posts/15-10-23-ending-child-labor.jpg
 ---
 
