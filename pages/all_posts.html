@@ -10,7 +10,7 @@ title: All Blog Posts
 		</div>
 	</div>
 </div>
-<div class="container" id="blog">
+<div class="container" id="all-posts">
 	<div class="row">
 		<div class="col-md-12">
 			<ul>
@@ -18,7 +18,7 @@ title: All Blog Posts
 	        <li>{{ post.date | date_to_string }} <i class="fa fa-angle-right"></i> <a href="/blog{{ post.url }}">{{ post.title }}</a></li>
 	      {% endfor %}
 	    </ul>
-	    <p class="center"><a class="btn btn-default" href="/blog">Blog Home</a></p>
+	    <p class="text-center"><a class="btn btn-default" href="/blog">Blog Home</a></p>
 	  </div>
 	</div>
 </div>

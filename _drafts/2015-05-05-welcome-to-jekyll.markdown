@@ -1,9 +1,10 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
-date:   2015-05-05 13:12:35
-category: blog
-author: Andrew Stroup
+date:   2015-10-21
+author: Tyrone Grandison (2014 PIF)
+permalink: /blog/2015/10/21/post-name
+img: assets/images/posts/15-10-23-post-name.jpg
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
