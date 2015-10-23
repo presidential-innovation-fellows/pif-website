@@ -15,11 +15,11 @@ title: Blog
 		<div class="col-sm-8" id="home-post">
 			<ul>
 				{% for post in site.posts limit:5%}
-					<h4><a href="{{ baseurl }}/blog{{ post.url }}">{{ post.title }}</a></h4>
+					<h4><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h4>
 					<p>{{ post.date | date_to_string }} // {{ post.author }}</p>
 					<hr/>
 					{{ post.excerpt }}
-					<p><a href="{{ baseurl }}/blog{{ post.url }}">Read full post ></a></p>
+					<p><a href="{{ site.url }}{{ post.url }}">Read full post ></a></p>
 					<br/>
 					<br/>
 				{% endfor %}
@@ -29,7 +29,7 @@ title: Blog
       <h4>Recent Posts</h4>
       <ul>
         {% for post in site.posts limit:25 %}
-          <li><a href="/blog{{ post.url }}">{{ post.title }}</a></li>
+          <li><a href="{{ site.url }}/{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
       </ul>
       <hr/>

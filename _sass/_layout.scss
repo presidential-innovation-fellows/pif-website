@@ -758,11 +758,20 @@ body{
 // BLOG
 #post{
   padding-top:150px;
-  padding-bottom:125px;
+  padding-bottom:175px;
 }
 #blog{
   padding-top:50px;
   padding-bottom:150px;
+}
+.post-content{
+  img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:30px;
+    margin-bottom:45px;
+  }
 }
 
 // Large and medium devices (desktops)
