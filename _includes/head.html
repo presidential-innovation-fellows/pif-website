@@ -75,7 +75,7 @@
   <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}" />
   <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
   <meta name="twitter:creator" content="@innovfellows" />
-  <meta name="twitter.image:src" content="{% if page.img %}{{ site.url }}/{{ page.img }}{% else %}{{ site.url }}/assets/images/pif-og.png{% endif %}" />
+  <meta name="twitter:image:src" content="{% if page.img %}{{ site.url }}/{{ page.img }}{% else %}{{ site.url }}/assets/images/pif-og.png{% endif %}" />
 
   <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
 
