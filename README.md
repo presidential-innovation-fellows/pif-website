@@ -1,5 +1,3 @@
-Andrew is the bomb dot com.
-
 # Presidential Innovation Fellows website
 
 This is the PIF website, jekyll edition (inspired by the [18F hub](https://github.com/18F/hub)). The website is currently maintained by the PIF leadership, with contributions from the fellows.
