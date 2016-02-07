@@ -15,6 +15,7 @@ permalink: fellows/
 	<div class="row text-center" id="filters">
 		<div class="col-md-3 button-group" data-filter-group="year" id="year">
 			<button class="btn btn-primary active" type="button" data-filter="">All Fellows</button><br/>
+			<button class="btn btn-default" type="button" data-filter=".2016">2016</button>
 			<button class="btn btn-default" type="button" data-filter=".2015">2015</button>
 			<button class="btn btn-default" type="button" data-filter=".2014">2014</button>
 			<button class="btn btn-default" type="button" data-filter=".2013">2013</button>
@@ -106,7 +107,7 @@ permalink: fellows/
 		      					</div>
 		      					<div class="col-sm-9" id="fellow-modal-agency">{% for agency in site.data.agency_list %}{% if agency.short == agencies_hash[0] %}<p id="fellow-modal-agency-name"><em>{{ agency.long }}</em></p>{% endif %}{% endfor %}
 	      							<hr/>
-	      							<ul>{% assign p = agencies_hash[1] %}{% for projects in p %}<li>{{ projects }}</li>{% endfor %}	
+	      							<ul>{% assign p = agencies_hash[1] %}{% for projects in p %}<li>{{ projects }}</li>{% endfor %}
 											</ul>
 										</div>
 									</div>{% endfor %}
@@ -125,4 +126,3 @@ permalink: fellows/
 		</div>{% endfor %}
 	</div>
 </div>
-
