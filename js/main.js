@@ -32,6 +32,12 @@ $(window).resize(function() {
 });
 
 $(document).ready(function() {
+
+  // supports loading modals via URL ala fellows/#lastname-firstname-modal
+  if(window.location.hash.indexOf('modal')  > -1 ) {
+    $(window.location.hash).modal('show');
+  }
+
 	// dynamically set height of top section
   if ($(window).width() <= 767) {
     if ($(window).height() > 500) {
