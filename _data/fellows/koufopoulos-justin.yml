@@ -1,5 +1,5 @@
 id: koufopoulos-justin
-nameL Justin Koufopoulos
+name: Justin Koufopoulos
 img: koufopoulos-justin-headshot.jpg
 year: 2016
 hometown: "Fairfield, CT"
@@ -7,8 +7,8 @@ region: northeast
 bio: "Co-Founder Fulbright 1:1, Founder AsthmaVillage. Growth hacking @Percolate, product @US Army. Fulbright Scholar. MRes University of Leeds"
 bio_full: "Justin is a product manager, researcher, and social entrepreneur. At Percolate, Justin was one of the first “growth hackers” and wore many hats, from marketing to data visualization and product management. He has also conducted research and built software for the U.S. Army, including virtual simulations for soft skills training. Justin co-founded and leads Fulbright 1:1, an organization which improves access to education for deserving British students by helping them apply to college. Fulbright 1:1 is a partnership with the Sutton Trust, funded by the US Embassy, and has helped more than 70 British students attend university in the US and the UK with more than $14 million in financial aid awards. He is also active in e-Health research and entrepreneurship, and co-founded a medication compliance venture, AsthmaVillage while in graduate school that was funded by the University of Leeds. Justin holds an MSc by Research in Psychology from the University of Leeds, where he was a Fulbright Scholar, and a BA from Connecticut College. He is a proud native of Connecticut." 
 skills:
-  -data
-  -product
-  -ux
-  -comms
-  -digital
+  - data
+  - product
+  - ux
+  - comms
+  - digital
