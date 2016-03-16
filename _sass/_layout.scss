@@ -3,6 +3,12 @@ $gray-dark:              lighten(#000, 20%) !default;   // #333
 $gray:                   lighten(#000, 33.5%) !default; // #555
 $gray-light:             lighten(#000, 60%) !default;   // #999
 $gray-lighter:           lighten(#000, 93.5%) !default; // #eee
+$white: #ffffff;
+$pif-blue: #3c547c;
+
+@import "bourbon/bourbon";
+@import "neat/neat";
+@import "project";
 
 @font-face{
   font-family: 'Avenir Light';
@@ -188,18 +194,21 @@ body{
   }
 }
 .nav-bg{
-  background-color:#3C547C;
+  background-color: $pif-blue;
   border-color:#2D3D59;
   transition:0.25s;
 }
 
 // FOOTER
+footer {
+  @include clearfix;
+}
+
 #footer{
-  bottom:0px;
-  position:absolute;
   width:100%;
   padding-bottom:75px;
-  background-color:#3C547C;
+  background-color: $pif-blue;
+
   #footer-text{
     margin-top:50px;
     margin-bottom:25px;
@@ -269,7 +278,7 @@ body{
       border-top-color:$gray-lighter;
       border-bottom-style:solid;
       border-bottom-width: 1px;
-      border-bottom-color:$gray-lighter; 
+      border-bottom-color:$gray-lighter;
     }
   }
   #disclaimer{
@@ -410,32 +419,32 @@ body{
       font-size:2.4em;
       padding-bottom:10px;
     }
-    #video_player { 
-      display: table; 
-      line-height: 0; 
-      font-size: 0; 
+    #video_player {
+      display: table;
+      line-height: 0;
+      font-size: 0;
       background: #000;
       margin-left:auto;
       margin-right:auto;
     }
-    #video_player video, #video_player figcaption { 
-      display: table-cell; 
-      vertical-align: top; 
+    #video_player video, #video_player figcaption {
+      display: table-cell;
+      vertical-align: top;
     }
-    #video_player figcaption { 
-      width: 16%; 
+    #video_player figcaption {
+      width: 16%;
     }
-    #video_player figcaption a { 
-      display: block; 
+    #video_player figcaption a {
+      display: block;
       opacity: .5;
-      transition: 1s opacity; 
+      transition: 1s opacity;
     }
-    #video_player figcaption a img, figure video { 
-      width: 100%; 
-      height: auto; 
+    #video_player figcaption a img, figure video {
+      width: 100%;
+      height: auto;
     }
-    #video_player figcaption a:hover { 
-      opacity: 1; 
+    #video_player figcaption a:hover {
+      opacity: 1;
     }
   }
 }
@@ -784,9 +793,7 @@ body{
 // Large and medium devices (desktops)
 @media (min-width: 992px) {
   // GENERAL
-  body{
-    margin-bottom:650px;
-  }
+
   #cta{
     h4{
       font-size:2.8em;
@@ -988,14 +995,13 @@ body{
 // small devices (tablets)
 @media (min-width: 768px) and (max-width: 991px) {
   // GENERAL
-  body{
-    margin-bottom:650px;
-  }
   #cta{
+
     h4{
       font-size:2em;
     }
   }
+
   .navbar{
     .container-fluid{
       padding-left:25px;
@@ -1065,9 +1071,7 @@ body{
 // extra small devices (phones)
 @media (max-width: 767px){
   // GENERAL
-  body{
-    margin-bottom:775px;
-  }
+
   .navbar{
     min-height:81px;
     .navbar-toggle{

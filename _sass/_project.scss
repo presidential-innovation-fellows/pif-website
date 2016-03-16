@@ -1,0 +1,121 @@
+.agency-partner-list {
+  margin: 0;
+  padding: 0;
+
+  li {
+    list-style: none;
+    width: 3.5em;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.press-snippets {
+  margin: 0;
+  padding: 0;
+
+  li {
+    list-style: none;
+  }
+}
+
+.project-info {
+  padding: 3em 0;
+
+  a {
+    font-size: 1.1em;
+    font-weight: bold;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  h2 {
+    font-size: 2em;
+    margin-top: 1.5em;
+  }
+
+  .project-description {
+    font-size: 1.3em;
+  }
+
+  .project-image {
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .usa-width-one-half {
+    @include span-columns(6);
+  }
+}
+
+.project-press {
+  margin-bottom: 4em;
+
+  h1 {
+    font-size: 2em;
+  }
+
+  .border-seperator {
+    border-top: 2px solid $gray-light;
+    height: 2px;
+    margin-bottom: 0.5em;
+    width: 50px;
+  }
+
+  .press-attribution {
+    font-size: 1.2em;
+  }
+
+  .press-description {
+    margin-left: 230px;
+
+    .press-quote {
+      color: $gray;
+      font-size: 1.6em;
+      margin-bottom: 0.2em;
+    }
+  }
+
+  .press-logo {
+    float: left;
+    height: 100px;
+    width: 200px;
+
+    img {
+      margin: 0 auto;
+      max-height: 100px;
+      max-width: 200px;
+    }
+  }
+}
+
+.usa-project-banner {
+  background-color: $pif-blue;
+  padding-top: 80px;
+  text-align: center;
+  text-transform: uppercase;
+
+  .container {
+    @include outer-container;
+  }
+
+  .container-fluid {
+    max-width: 40em;
+  }
+
+  .impact-statement {
+    color: $white;
+    font-size: 3.5em;
+    font-weight: bold;
+  }
+
+  .project-banner-content {
+    padding: 8em 0;
+  }
+}
