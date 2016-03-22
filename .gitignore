@@ -1,4 +1,4 @@
 _site
 .sass-cache
 .DS_store
-s3_website.yml
+BingSiteAuth.xml
