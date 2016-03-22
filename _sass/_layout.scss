@@ -3,8 +3,11 @@ $gray-dark:              lighten(#000, 20%) !default;   // #333
 $gray:                   lighten(#000, 33.5%) !default; // #555
 $gray-light:             lighten(#000, 60%) !default;   // #999
 $gray-lighter:           lighten(#000, 93.5%) !default; // #eee
+$black: #000000;
 $white: #ffffff;
 $pif-blue: #3c547c;
+$usa-blue: #0071bc;
+$usa-red: #e31c3d;
 
 @import "bourbon/bourbon";
 @import "neat/neat";

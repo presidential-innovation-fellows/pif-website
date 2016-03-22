@@ -20,7 +20,8 @@ $(window).resize(function() {
 	  }
   }
 
-  var fullPath = location.pathname + location.search + location.hash;
+  var fullPath = location.pathname + location.search + location.hash,
+      projectPath = fullPath.indexOf("project/") > -1;
 
   if(fullPath == '/' && $(window).width() > 767 && $(window).scrollTop() == 0) {
 		$('.navbar-btn').addClass('hide');
@@ -65,9 +66,10 @@ $(document).ready(function() {
   });
 
   // home page navbar button animation
-	var fullPath = location.pathname + location.search + location.hash;
+	var fullPath = location.pathname + location.search + location.hash,
+      projectPath = fullPath.indexOf("project/") > -1;
 
-  if(fullPath == '/' && $(window).width() > 767 && $(window).scrollTop() == 0) {
+  if(fullPath == '/' || projectPath && $(window).width() > 767 && $(window).scrollTop() == 0) {
 		$('.navbar-btn').addClass('hide');
   	$('.navbar').removeClass('nav-bg');
   }
@@ -77,20 +79,20 @@ $(document).ready(function() {
 			var fullPath = location.pathname + location.search + location.hash;
 			var scrollTop = $(this).scrollTop();
 
-			if ($(this).scrollTop() > 10 && fullPath == '/') {
+			if ($(this).scrollTop() > 10 && (fullPath == '/' || projectPath)) {
 				$('.navbar').addClass('nav-bg');
 			}
-			if ($(this).scrollTop() < 10 && fullPath == '/') {
+			if ($(this).scrollTop() < 10 && (fullPath == '/' || projectPath)) {
 				$('.navbar').removeClass('nav-bg');
 			}
 
 			$('#home-cta').each(function(){
 				var topDistance = $(this).offset().top;
 
-				if ( topDistance < scrollTop && fullPath == '/' ) {
+				if ( topDistance < scrollTop && (fullPath == '/' || projectPath) ) {
 					$('.navbar-btn').removeClass("hide");
 				}
-				if ( topDistance > scrollTop && fullPath == '/' ) {
+				if ( topDistance > scrollTop && (fullPath == '/' || projectPath) ) {
 					$('.navbar-btn').addClass('hide');
 				}
 			});
@@ -110,7 +112,7 @@ $(document).ready(function() {
     for (var i=0; i<links.length; i++) {
       links[i].onclick = handler;
     }
-    
+
     function handler(e) {
       e.preventDefault();
       videotarget = this.getAttribute("href");
@@ -126,7 +128,7 @@ $(document).ready(function() {
       video.play();
     }
   })();
-  
+
 
   // var video_player = document.getElementById("video_player");
   // video = video_player.getElementsByTagName("video")[0],
@@ -176,7 +178,7 @@ $(document).ready(function() {
   // video.addEventListener('mouseleave', function() {
   //   video.removeAttribute("controls");
   // })
-	
+
   /* Isotope stuff */
   var $container = $('#fellow');
 
@@ -205,7 +207,7 @@ $(document).ready(function() {
     // set filter for Isotope
     $container.isotope({ filter: filterValue });
   });
-  
+
   // change active class on buttons
   $('#year').each(function(i,buttonGroup){
     var $buttonGroup = $(buttonGroup);

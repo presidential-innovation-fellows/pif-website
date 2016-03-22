@@ -4,7 +4,8 @@
 
   li {
     list-style: none;
-    width: 3.5em;
+    margin-right: 1em;
+    width: 5em;
 
     img {
       width: 100%;
@@ -21,8 +22,37 @@
   }
 }
 
+.project-agencies {
+  margin-bottom: 4em;
+}
+
+.project-agencies,
+.project-team {
+
+  h1 {
+    font-size: 2em;
+  }
+
+  header {
+    margin-bottom: 1em;
+  }
+}
+
+.project-impact {
+  background: darken($usa-blue, 5);
+  padding: 1.3em 0 1.2em;
+
+  h1 {
+    color: $white;
+    font-size: 2em;
+    margin: 0;
+    line-height: 1em;
+    text-align: center;
+  }
+}
+
 .project-info {
-  padding: 3em 0;
+  padding: 4em 0 5em;
 
   a {
     font-size: 1.1em;
@@ -31,6 +61,7 @@
 
   h1 {
     font-size: 2.5em;
+    margin-top: 0;
   }
 
   h2 {
@@ -95,27 +126,48 @@
   }
 }
 
+.project-team {
+  margin-bottom: 4em;
+
+  img {
+    border-radius: 50%;
+    width: 100%;
+  }
+
+  li {
+    @include span-columns(2);
+    list-style: none;
+    margin-right: 1em;
+    width: 5em;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+}
+
 .usa-project-banner {
-  background-color: $pif-blue;
+  background-size: cover;
   padding-top: 80px;
   text-align: center;
-  text-transform: uppercase;
 
   .container {
     @include outer-container;
   }
 
   .container-fluid {
-    max-width: 40em;
+    max-width: 50em;
   }
 
   .impact-statement {
     color: $white;
-    font-size: 3.5em;
-    font-weight: bold;
+    font-size: 3.75em;
+    font-weight: normal;
+    text-shadow: 0 2px 2px rgba($black, 0.1);
   }
 
   .project-banner-content {
-    padding: 8em 0;
+    padding: 8em 0 12em;
   }
 }
