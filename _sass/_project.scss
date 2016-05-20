@@ -19,6 +19,7 @@
 
   li {
     list-style: none;
+    padding-bottom: 2.75em;
   }
 }
 
@@ -39,8 +40,8 @@
 }
 
 .project-impact {
-  background: darken($usa-blue, 5);
-  padding: 1.3em 0 1.2em;
+  background: #337ab7;
+  padding: 2em 0 2em;
 
   h1 {
     color: $white;
@@ -52,7 +53,7 @@
 }
 
 .project-info {
-  padding: 4em 0 5em;
+  padding: 4em 0 3em;
 
   a {
     font-size: 1.1em;
@@ -86,7 +87,7 @@
 }
 
 .project-press {
-  margin-bottom: 4em;
+  padding: 4em 0 3em;
 
   h1 {
     font-size: 2em;
@@ -121,7 +122,7 @@
     img {
       margin: 0 auto;
       max-height: 100px;
-      max-width: 200px;
+      max-width: 180px;
     }
   }
 }
@@ -169,5 +170,24 @@
 
   .project-banner-content {
     padding: 8em 0 12em;
+  }
+}
+
+.caption {
+  margin: 10px auto;
+  padding: 5px;
+  border-top: 1px solid #D8D8D8;
+  border-bottom: 1px solid #D8D8D8;
+}
+
+.case-study-slideshow  {
+  .thumb {
+    border: 4px solid #D8D8D8;
+    margin: 0 20px 20px 0;
+    max-width: 75px;
+    float: left;
+  }
+  .active {
+  border-color: #337ab7;
   }
 }
