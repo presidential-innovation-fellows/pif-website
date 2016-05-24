@@ -50,6 +50,31 @@
     line-height: 1em;
     text-align: center;
   }
+  .impact-container {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .impacts {
+    display: inline-block;
+    padding: 25px 0;
+  }
+  .impact-box {
+  padding: 5px 5px;
+  margin: 5px 40px;
+  text-align: center;
+  float: left;
+  color: #dedede;
+    span {
+    font-weight: bold;
+    color: $white;
+    font-size: 3em;
+    display: block;
+    }
+  }
+  img {
+  display: block;
+  margin: 0 auto -2em auto;
+  }
 }
 
 .project-info {
@@ -191,3 +216,33 @@
   border-color: #337ab7;
   }
 }
+
+.case-study-slideshow  {
+  .thumb {
+    border: 4px solid #D8D8D8;
+    margin: 0 20px 20px 0;
+    max-width: 75px;
+    float: left;
+  }
+  .active {
+  border-color: #337ab7;
+  }
+}
+
+.project-categories {
+  margin: 0 10px 4em 10px;
+  h1 {
+  font-size: 2em;
+  }
+  a {
+    font-size: 1.5em;
+    margin-right: 1.5em;
+  }
+  .border-seperator {
+    border-top: 2px solid $gray-light;
+    height: 2px;
+    margin-bottom: 0.5em;
+    width: 50px;
+  }
+}
+
