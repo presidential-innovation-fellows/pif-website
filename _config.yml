@@ -10,3 +10,8 @@ markdown: kramdown
 gems:
   - jekyll-sitemap
 
+page_gen:
+  - data: 'pif_projects'
+    template: 'case-study'
+    name: 'id'
+    dir: 'projects'
