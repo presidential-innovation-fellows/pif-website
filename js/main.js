@@ -34,6 +34,17 @@ $(window).resize(function() {
 
 $(document).ready(function() {
 
+  // swaps gallery / caption when user clicks on thumbnails
+  $('.case-study-slideshow .thumb').click(function(){
+      $(this).addClass('true').removeClass('false').siblings().addClass('false').removeClass('true');
+      var thumbnailClasses = $(this).attr('class').split(' ');
+      for (var i=0; i < thumbnailClasses.length; i++) {
+        if(thumbnailClasses[i].includes('gall-')) {
+          $('.case-study-item.' + thumbnailClasses[i]).addClass('true').removeClass('false').siblings().addClass('false').removeClass('true');
+        }
+      }
+  });
+
   // supports loading modals via URL ala fellows/#lastname-firstname-modal
   if(window.location.hash.indexOf('modal')  > -1 ) {
     $(window.location.hash).modal('show');

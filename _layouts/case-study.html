@@ -2,20 +2,19 @@
 layout: default
 skip_index: true
 ---
-{% for project in site.data.pif_projects %}
-<section class="usa-project-banner" style="background-image: linear-gradient(to top, rgba(0, 0, 0, 0.78), rgba(0, 0, 0, 0.71)), url('{{project.cover_art}}');">
+<section class="usa-project-banner" style="background-image: linear-gradient(to top, rgba(0, 0, 0, 0.78), rgba(0, 0, 0, 0.71)), url('/assets/images/projects/{{page.id}}/{{page.cover_art}}');">
   <div class="project-banner-content">
     <div class="container-fluid">
       <h1 class="impact-statement">
-        <span>{{project.title}}:</span> {{project.subtitle}}
+        <span>{{page.title}}:</span> {{page.subtitle}}
       </h1>
     </div>
   </div>
 </section>
-{% if project.impact_heading %}
+{% if page.impact_heading %}
 <section class="project-impact">
   <div class="container">
-    <h1>{{project.impact_heading}}</h1>
+    <h1>{{page.impact_heading}}</h1>
   </div>
 </section>
 {% endif %}
@@ -23,10 +22,10 @@ skip_index: true
   <div class="container">
     <div class="usa-width-one-half">
       <header>
-        <h1>{{project.title}}</h1>
-        {% if project.url %}
+        <h1>{{page.title}}</h1>
+        {% if page.url %}
         <p class="project-link">
-          <a href="{{project.url}}" target="_blank">
+          <a href="{{page.url}}" target="_blank">
             View Project
             <i class="fa fa-external-link"></i>
           </a>
@@ -34,40 +33,44 @@ skip_index: true
         {% endif %}
       </header>
       <p class="project-description">
-        {{project.description}}
+        {{page.description}}
       </p>
     </div>
     <div class="usa-width-one-half">
       <div class="project-gallery">
-        <figure class="project-image">
-          <img alt="{{project.gallery[0].alt}}" src="{{project.gallery[0].src}}">
-        </figure>
-        <div class="caption">
-          {{project.gallery[0].caption}}
+        {% for item in page.gallery %}
+        <div class="case-study-item gall-{{ forloop.index }} {{ forloop.first }}">
+          <figure class="project-image">
+            <img alt="{{item.alt}}" src="/assets/images/projects/{{page.id}}/{{item.src}}">
+          </figure>
+          <div class="caption">
+            {{item.caption}}
+          </div>
         </div>
+        {% endfor %}
         <div class="case-study-slideshow">
-            {% for item in project.gallery %}
-            <a href="#"><img class="thumb" alt="Opportunity Summit Group Photo" src="{{ item.src }}"></a>
+            {% for item in page.gallery %}
+            <img class="thumb gall-{{ forloop.index }} {{ forloop.first }}" alt="Opportunity Summit Group Photo" src="/assets/images/projects/{{page.id}}/{{item.src}}" style="cursor: pointer;" data="hi">
             {% endfor %}
         </div>
       </div>
     </div>
   </div>
 </section>
-{% if project.impact_metrics %}
+{% if page.impact_metrics %}
 <section class="project-impact">
   <div class="container">
     <div class="impact-container">
     <div class="impacts">
-      {% for impact in project.impact_metrics %}
+      {% for impact in page.impact_metrics %}
       <div class="impact-box">
         <span>{{impact.metric}}</span> {{impact.desc}}
       </div>
       {% endfor %}
     </div>
     </div>
-    {% if project.impact_metrics_src %}
-    <img class="img-responsive" src="{{project.impact_metrics_src}}">
+    {% if page.impact_metrics_src %}
+    <img class="img-responsive" src="/assets/images/projects/{{page.id}}/{{page.impact_metrics_src}}">
     {% endif %}
     </div>
 </section>
@@ -75,11 +78,11 @@ skip_index: true
 <section class="project-press">
   <div class="container">
     <ul class="press-snippets">
-      {% for press in project.articles %}
+      {% for press in page.articles %}
       <li>
         <div class="press-logo">
           <figure>
-            <img alt="{{ press.outlet }} logo" src="{{ press.logo_src }}">
+            <a href="{{ press.url }}" target="_blank"><img alt="{{ press.outlet }} logo" src="/assets/images/press/{{ press.logo_src }}"></a>
           </figure>
         </div>
         <div class="press-description">
@@ -102,9 +105,8 @@ skip_index: true
     <header>
       <h1>Explore Related Projects</h1>
     </header>
-        {% for item in project.tags %}
+        {% for item in page.tags %}
         <a href="{{ item | url_encode }}">{{ item }}</a>
         {% endfor %}
   </div>
 </section>
-{% endfor %}
