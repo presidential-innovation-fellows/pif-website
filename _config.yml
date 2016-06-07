@@ -10,3 +10,11 @@ markdown: kramdown
 gems:
   - jekyll-sitemap
 
+exclude:
+  - manifest.yml
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+  - Rakefile
+  - Staticfile
