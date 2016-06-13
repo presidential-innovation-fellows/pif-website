@@ -15,3 +15,12 @@ page_gen:
     template: 'case-study'
     name: 'id'
     dir: 'projects'
+
+exclude:
+  - manifest.yml
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+  - Rakefile
+  - Staticfile
