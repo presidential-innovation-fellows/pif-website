@@ -61,7 +61,7 @@ $(document).ready(function() {
 
   // navbar button action to pif application
   $('.navbar-btn').click(function() {
-    window.location = "https://apply.pif.gov/";
+    window.location = "/application-closed";
   });
 
   // home page navbar button animation
