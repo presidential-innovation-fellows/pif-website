@@ -6,7 +6,7 @@ applications:
   env:
     FORCE_HTTPS: true
   instances: 3
-  memory: 64M
+  memory: 128M
   name: pif-website
   no-hostname: true
   path: _site
