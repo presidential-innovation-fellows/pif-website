@@ -7,6 +7,6 @@ applications:
     FORCE_HTTPS: true
   instances: 3
   memory: 128M
-  name: pif-website #comment this out for gsa-sandbox
-  no-hostname: true
+  name: pif-website 
+  no-hostname: true #comment this out for gsa-sandbox
   path: _site
