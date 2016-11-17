@@ -1,24 +1,4 @@
 $(window).resize(function() {
-  // dynamically set height of top section
-  if ($(window).width() <= 767) {
-  	if ($(window).height() > 500) {
-	    $('#home-hero').css('height',$(window).height()-50);
-      $('#home-hero-text').css('bottom', -$(window).height()+300);
-	  }
-	  else {
-	    $('#home-hero').css('height', 450);
-      $('#home-hero-text').css('bottom', '-200px');
-	  }
-  } else {
-  	if ($(window).height() > 800) {
-	    $('#home-hero').css('height',$(window).height()-50);
-      $('#home-hero-text').css('bottom', -$(window).height()+400);
-	  }
-	  else {
-	    $('#home-hero').css('height', 750);
-      $('#home-hero-text').css('bottom', '-400px');
-	  }
-  }
 
   var fullPath = location.pathname + location.search + location.hash;
 
@@ -36,27 +16,6 @@ $(document).ready(function() {
   // supports loading modals via URL ala fellows/#lastname-firstname-modal
   if(window.location.hash.indexOf('modal')  > -1 ) {
     $(window.location.hash).modal('show');
-  }
-
-	// dynamically set height of top section
-  if ($(window).width() <= 767) {
-    if ($(window).height() > 500) {
-      $('#home-hero').css('height',$(window).height()-50);
-      $('#home-hero-text').css('bottom', -$(window).height()+300);
-    }
-    else {
-      $('#home-hero').css('height', 450);
-      $('#home-hero-text').css('bottom', '-200px');
-    }
-  } else {
-    if ($(window).height() > 800) {
-      $('#home-hero').css('height',$(window).height()-50);
-      $('#home-hero-text').css('bottom', -$(window).height()+400);
-    }
-    else {
-      $('#home-hero').css('height', 750);
-      $('#home-hero-text').css('bottom', '-400px');
-    }
   }
 
   // navbar button action to pif application
@@ -83,18 +42,7 @@ $(document).ready(function() {
 			if ($(this).scrollTop() < 10 && fullPath == '/') {
 				$('.navbar').removeClass('nav-bg');
 			}
-
-			$('#home-cta').each(function(){
-				var topDistance = $(this).offset().top;
-
-				if ( topDistance < scrollTop && fullPath == '/' ) {
-					$('.navbar-btn').removeClass("hide");
-				}
-				if ( topDistance > scrollTop && fullPath == '/' ) {
-					$('.navbar-btn').addClass('hide');
-				}
-			});
-		})
+		});
   }
 
   /* video player */
@@ -110,7 +58,7 @@ $(document).ready(function() {
     for (var i=0; i<links.length; i++) {
       links[i].onclick = handler;
     }
-    
+
     function handler(e) {
       e.preventDefault();
       videotarget = this.getAttribute("href");
@@ -126,7 +74,7 @@ $(document).ready(function() {
       video.play();
     }
   })();
-  
+
 
   // var video_player = document.getElementById("video_player");
   // video = video_player.getElementsByTagName("video")[0],
@@ -176,7 +124,7 @@ $(document).ready(function() {
   // video.addEventListener('mouseleave', function() {
   //   video.removeAttribute("controls");
   // })
-	
+
   /* Isotope stuff */
   var $container = $('#fellow');
 
@@ -205,7 +153,7 @@ $(document).ready(function() {
     // set filter for Isotope
     $container.isotope({ filter: filterValue });
   });
-  
+
   // change active class on buttons
   $('#year').each(function(i,buttonGroup){
     var $buttonGroup = $(buttonGroup);

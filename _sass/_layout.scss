@@ -269,7 +269,7 @@ body{
       border-top-color:$gray-lighter;
       border-bottom-style:solid;
       border-bottom-width: 1px;
-      border-bottom-color:$gray-lighter; 
+      border-bottom-color:$gray-lighter;
     }
   }
   #disclaimer{
@@ -296,8 +296,7 @@ body{
 
 // HOME
 #home-hero{
-  background-color:#273244;
-  background-image:url('/assets/images/pif-hero4.png');
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0,0,0, 0.45)), to(rgba(0,0,0, 0.55))), url('/assets/images/pif-hero4.png');
   background-attachment:scroll;
   background-repeat:no-repeat;
   background-position:center 0;
@@ -305,21 +304,26 @@ body{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
   h1{
     color:$gray-lighter;
     display:block;
+    margin: 4em 0 2em;
     position:relative;
+
     small{
       color:$gray-lighter;
     }
   }
 }
+
 #home-cta{
-  margin-top:-28px;
+
   .btn{
-    font-size:2.1em;
-    letter-spacing:1px;
-    padding:10px 15px;
+    font-size: 2.1em;
+    letter-spacing: 1px;
+    margin-top: -32px;
+    padding: 10px 15px;
   }
 
 }
@@ -410,32 +414,32 @@ body{
       font-size:2.4em;
       padding-bottom:10px;
     }
-    #video_player { 
-      display: table; 
-      line-height: 0; 
-      font-size: 0; 
+    #video_player {
+      display: table;
+      line-height: 0;
+      font-size: 0;
       background: #000;
       margin-left:auto;
       margin-right:auto;
     }
-    #video_player video, #video_player figcaption { 
-      display: table-cell; 
-      vertical-align: top; 
+    #video_player video, #video_player figcaption {
+      display: table-cell;
+      vertical-align: top;
     }
-    #video_player figcaption { 
-      width: 16%; 
+    #video_player figcaption {
+      width: 16%;
     }
-    #video_player figcaption a { 
-      display: block; 
+    #video_player figcaption a {
+      display: block;
       opacity: .5;
-      transition: 1s opacity; 
+      transition: 1s opacity;
     }
-    #video_player figcaption a img, figure video { 
-      width: 100%; 
-      height: auto; 
+    #video_player figcaption a img, figure video {
+      width: 100%;
+      height: auto;
     }
-    #video_player figcaption a:hover { 
-      opacity: 1; 
+    #video_player figcaption a:hover {
+      opacity: 1;
     }
   }
 }
@@ -1005,6 +1009,7 @@ body{
 
   // HOME
   #home-hero{
+
     h1{
       font-size:2.7em;
     }
@@ -1111,10 +1116,13 @@ body{
   // HOME
   #home-hero{
     background-position: 20% top;
+
     h1{
       font-size:1.9em;
+      margin: 6em 0 3em;
     }
   }
+
   #home{
     #fellow-preview{
       h2{
