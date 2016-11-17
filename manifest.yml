@@ -1,12 +1,12 @@
 ---
 applications:
 - buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
-  domain: presidentialinnovationfellows.gov
+  domain: presidentialinnovationfellows.gov #comment this out for gsa-sandbox
   disk_quota: 1024M
   env:
     FORCE_HTTPS: true
   instances: 3
   memory: 128M
-  name: pif-website
+  name: pif-website #comment this out for gsa-sandbox
   no-hostname: true
   path: _site
