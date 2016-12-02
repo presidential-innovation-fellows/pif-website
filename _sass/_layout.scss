@@ -308,8 +308,7 @@ footer {
 
 // HOME
 #home-hero{
-  background-color:#273244;
-  background-image:url('/assets/images/pif-hero.jpg');
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0,0,0, 0.45)), to(rgba(0,0,0, 0.55))), url('/assets/images/pif-hero4.png');
   background-attachment:scroll;
   background-repeat:no-repeat;
   background-position:center 0;
@@ -318,6 +317,7 @@ footer {
   -o-background-size: cover;
   background-size: cover;
   h1{
+    margin: 4em 0 2em;
     color:$gray-lighter;
     display:block;
     position:relative;
@@ -327,11 +327,11 @@ footer {
   }
 }
 #home-cta{
-  margin-top:-28px;
   .btn{
-    font-size:2.1em;
-    letter-spacing:1px;
-    padding:10px 15px;
+    font-size: 2.1em;
+    letter-spacing: 1px;
+    margin-top: -32px;
+    padding: 10px 15px;
   }
 
 }
@@ -797,6 +797,10 @@ footer {
 @media (min-width: 992px) {
   // GENERAL
 
+  body{
+    margin-bottom:650px;
+  }
+
   #cta{
     h4{
       font-size:2.8em;
@@ -834,6 +838,10 @@ footer {
 
 // large devices (desktops)
 @media (min-width: 1200px) {
+
+  body{
+    margin-bottom:650px;
+  }
 
   // HOME
   #home{
@@ -978,6 +986,7 @@ footer {
 
 // Small devices and Phones (991px and less)
 @media (max-width: 991px) {
+
   .navbar{
     .navbar-brand{
       #navbar-logo{
@@ -998,6 +1007,12 @@ footer {
 // small devices (tablets)
 @media (min-width: 768px) and (max-width: 991px) {
   // GENERAL
+
+  body{
+    margin-bottom:775px;
+  }
+
+
   #cta{
 
     h4{
@@ -1075,6 +1090,10 @@ footer {
 @media (max-width: 767px){
   // GENERAL
 
+  body{
+    margin-bottom:775px;
+  }
+
   .navbar{
     min-height:81px;
     .navbar-toggle{
@@ -1120,6 +1139,7 @@ footer {
     background-position: 20% top;
     h1{
       font-size:1.9em;
+      margin: 6em 0 3em;
     }
   }
   #home{
