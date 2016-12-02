@@ -13,36 +13,80 @@ $(window).resize(function() {
 
 $(document).ready(function() {
 
+  // swaps gallery / caption when user clicks on thumbnails
+  $('.case-study-slideshow .thumb').click(function(){
+      $(this).addClass('true').removeClass('false').siblings().addClass('false').removeClass('true');
+      var thumbnailClasses = $(this).attr('class').split(' ');
+      for (var i=0; i < thumbnailClasses.length; i++) {
+        if(thumbnailClasses[i].includes('gall-')) {
+          $('.case-study-item.' + thumbnailClasses[i]).addClass('true').removeClass('false').siblings().addClass('false').removeClass('true');
+        }
+      }
+  });
+
   // supports loading modals via URL ala fellows/#lastname-firstname-modal
   if(window.location.hash.indexOf('modal')  > -1 ) {
     $(window.location.hash).modal('show');
   }
 
+  // dynamically set height of top section
+  if ($(window).width() <= 767) {
+    if ($(window).height() > 500) {
+      $('#home-hero').css('height',$(window).height()-50);
+      $('#home-hero-text').css('bottom', -$(window).height()+300);
+    }
+    else {
+      $('#home-hero').css('height', 450);
+      $('#home-hero-text').css('bottom', '-200px');
+    }
+  } else {
+    if ($(window).height() > 800) {
+      $('#home-hero').css('height',$(window).height()-50);
+      $('#home-hero-text').css('bottom', -$(window).height()+400);
+    }
+    else {
+      $('#home-hero').css('height', 750);
+      $('#home-hero-text').css('bottom', '-400px');
+    }
+  }
+
   // navbar button action to pif application
   $('.navbar-btn').click(function() {
-    window.location = "https://apply.pif.gov";
+    window.location = "https://apply.pif.gov/";
   });
 
   // home page navbar button animation
-	var fullPath = location.pathname + location.search + location.hash;
+  var fullPath = location.pathname + location.search + location.hash,
+      projectPath = fullPath.indexOf("project/") > -1;
 
-  if(fullPath == '/' && $(window).width() > 767 && $(window).scrollTop() == 0) {
-		$('.navbar-btn').addClass('hide');
-  	$('.navbar').removeClass('nav-bg');
+  if(fullPath == '/' || projectPath && $(window).width() > 767 && $(window).scrollTop() == 0) {
+    $('.navbar-btn').addClass('hide');
+    $('.navbar').removeClass('nav-bg');
   }
 
   if($(window).width() > 767) {
-  	$(window).scroll(function(){
-			var fullPath = location.pathname + location.search + location.hash;
-			var scrollTop = $(this).scrollTop();
+    $(window).scroll(function(){
+      var fullPath = location.pathname + location.search + location.hash;
+      var scrollTop = $(this).scrollTop();
 
-			if ($(this).scrollTop() > 10 && fullPath == '/') {
-				$('.navbar').addClass('nav-bg');
-			}
-			if ($(this).scrollTop() < 10 && fullPath == '/') {
-				$('.navbar').removeClass('nav-bg');
-			}
-		});
+      if ($(this).scrollTop() > 10 && (fullPath == '/' || projectPath)) {
+        $('.navbar').addClass('nav-bg');
+      }
+      if ($(this).scrollTop() < 10 && (fullPath == '/' || projectPath)) {
+        $('.navbar').removeClass('nav-bg');
+      }
+
+      $('#home-cta').each(function(){
+        var topDistance = $(this).offset().top;
+
+        if ( topDistance < scrollTop && (fullPath == '/' || projectPath) ) {
+          $('.navbar-btn').removeClass("hide");
+        }
+        if ( topDistance > scrollTop && (fullPath == '/' || projectPath) ) {
+          $('.navbar-btn').addClass('hide');
+        }
+      });
+    })
   }
 
   /* video player */

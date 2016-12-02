@@ -3,6 +3,15 @@ $gray-dark:              lighten(#000, 20%) !default;   // #333
 $gray:                   lighten(#000, 33.5%) !default; // #555
 $gray-light:             lighten(#000, 60%) !default;   // #999
 $gray-lighter:           lighten(#000, 93.5%) !default; // #eee
+$black: #000000;
+$white: #ffffff;
+$pif-blue: #3c547c;
+$usa-blue: #0071bc;
+$usa-red: #e31c3d;
+
+@import "bourbon/bourbon";
+@import "neat/neat";
+@import "project";
 
 @font-face{
   font-family: 'Avenir Light';
@@ -188,18 +197,21 @@ body{
   }
 }
 .nav-bg{
-  background-color:#3C547C;
+  background-color: $pif-blue;
   border-color:#2D3D59;
   transition:0.25s;
 }
 
 // FOOTER
+footer {
+  @include clearfix;
+}
+
 #footer{
-  bottom:0px;
-  position:absolute;
   width:100%;
   padding-bottom:75px;
-  background-color:#3C547C;
+  background-color: $pif-blue;
+
   #footer-text{
     margin-top:50px;
     margin-bottom:25px;
@@ -296,7 +308,8 @@ body{
 
 // HOME
 #home-hero{
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0,0,0, 0.45)), to(rgba(0,0,0, 0.55))), url('/assets/images/pif-hero4.png');
+  background-color:#273244;
+  background-image:url('/assets/images/pif-hero.jpg');
   background-attachment:scroll;
   background-repeat:no-repeat;
   background-position:center 0;
@@ -304,26 +317,21 @@ body{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
   h1{
     color:$gray-lighter;
     display:block;
-    margin: 4em 0 2em;
     position:relative;
-
     small{
       color:$gray-lighter;
     }
   }
 }
-
 #home-cta{
-
+  margin-top:-28px;
   .btn{
-    font-size: 2.1em;
-    letter-spacing: 1px;
-    margin-top: -32px;
-    padding: 10px 15px;
+    font-size:2.1em;
+    letter-spacing:1px;
+    padding:10px 15px;
   }
 
 }
@@ -788,9 +796,7 @@ body{
 // Large and medium devices (desktops)
 @media (min-width: 992px) {
   // GENERAL
-  body{
-    margin-bottom:650px;
-  }
+
   #cta{
     h4{
       font-size:2.8em;
@@ -992,14 +998,13 @@ body{
 // small devices (tablets)
 @media (min-width: 768px) and (max-width: 991px) {
   // GENERAL
-  body{
-    margin-bottom:650px;
-  }
   #cta{
+
     h4{
       font-size:2em;
     }
   }
+
   .navbar{
     .container-fluid{
       padding-left:25px;
@@ -1009,7 +1014,6 @@ body{
 
   // HOME
   #home-hero{
-
     h1{
       font-size:2.7em;
     }
@@ -1070,9 +1074,7 @@ body{
 // extra small devices (phones)
 @media (max-width: 767px){
   // GENERAL
-  body{
-    margin-bottom:775px;
-  }
+
   .navbar{
     min-height:81px;
     .navbar-toggle{
@@ -1116,13 +1118,10 @@ body{
   // HOME
   #home-hero{
     background-position: 20% top;
-
     h1{
       font-size:1.9em;
-      margin: 6em 0 3em;
     }
   }
-
   #home{
     #fellow-preview{
       h2{
@@ -1190,4 +1189,3 @@ body{
     }
   }
 }
-
