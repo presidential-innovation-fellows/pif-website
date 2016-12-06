@@ -1,5 +1,6 @@
 ---
 id: not-alone
+unlisted: true
 layout: case-study
 agency: "DOJ"
 title: "NotAlone.Gov"

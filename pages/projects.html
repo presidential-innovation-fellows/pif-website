@@ -21,7 +21,7 @@ permalink: projects/
 	<br/>
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2 col-sm-12 text-center">
-			<ul>
+			<ul class="potential-projects">
 				<li>How might we help reimagine the next generation of the nation’s air traffic control system?</li>
 				<li>How might we create jobs and economic impact by leveraging our federal investments in research and development?</li>
 				<li>How can we help cities move toward smart city technologies?</li>
@@ -39,44 +39,24 @@ permalink: projects/
 		<div class="col-md-12">
 			<h3><em>Case Studies</em></h3>
 			<hr/>
-			<div class="row">{% for study_hash in site.data.case_studies %}{% assign study = study_hash[1] %}
+			<div class="row">
+				{% for project in site.projects %}
+				{% unless project.unlisted %}
 				<div class="col-md-3 col-sm-6">
-					<div class="panel panel-default" data-toggle="modal" data-target="#{{ study.id }}-modal">
+					<a href="{{ project.id }}.html">
+					<div class="panel panel-default">
 					  <div class="panel-body">
-							<img src="/assets/images/case-studies/{{ study.img }}" class="img-responsive hidden-xs">
+							<img src="/assets/images/{{ project.id }}/{{ project.cover_art }}" class="img-responsive hidden-xs">
 							<div class="panel-text">
-								<h5><strong>{{ study.title }}</strong></h5>
-								<p>{{ study.description }}</p>
+								<h5><strong>{{ project.title }}</strong></h5>
+								<p>{{ project.subtitle }}</p>
 							</div>
 					  </div>
 					</div>
+					</a>
 				</div>
-
-				<div class="modal fade project-modal" id="{{ study.id }}-modal" tabindex="-1" role="dialog" aria-labelledby="{{ study.id }}-label" aria-hidden="true">
-				  <div class="modal-dialog">
-				    <div class="modal-content">
-				      <div class="modal-header">
-				        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-				        <h4 class="modal-title" id="{{ study.id }}-label"><strong>{{ study.title }}</strong></h4>
-				      </div>
-				      <div class="modal-body">
-				        <p><strong>CHALLENGE:</strong> {{ study.challenge }}</p>
-				    		<p><strong>SOLUTION:</strong> {{ study.solution }}</p>
-				        <div class="row">
-				        	<div class="col-sm-6">
-										<p><strong>IMPACT:</strong> {{ study.impact }}</p>
-				        	</div>
-				        	<div class="col-sm-6">
-										<p><strong>PROJECT DATE:</strong> {{ study.date }}</p>
-									</div>
-								</div>
-								<hr/>
-								<p><em><i class="fa fa-quote-left"></i> {{ study.quote }} <i class="fa fa-quote-right"></i><br/><span class="pull-right">- {{ study.quote_source }}</em></span></p>
-								<br/>
-				      </div>
-				    </div>
-				  </div>
-				</div>{% endfor %}
+				{% endunless %}
+				{% endfor %}
 			</div>
 		</div>
 	</div>

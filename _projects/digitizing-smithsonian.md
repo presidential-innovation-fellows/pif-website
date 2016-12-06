@@ -3,7 +3,7 @@ id: not-alone
 layout: case-study
 agency: "SI"
 title: "Digitizing the Smithsonian Institute's Herbarium"
-cover_art: "smithsonian-handwriting-hero.jpg"
+cover_art: "smithsonian-trans.jpg"
 impact_heading: "PIF brings fresh perspective and critical expertise to the important work of sharing our treasures with millions of people online. - <i>Janet Abrams, senior adviser to Smithsonian Secretary Wayne Clough</i>"
 
 description: "<h5><b>CHALLENGE</b>: Make the Smithsonian Institute’s digitization of 137 million+ artifacts more findable, useful and informative to researchers and members of the public.</h5>

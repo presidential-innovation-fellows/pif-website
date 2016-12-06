@@ -1,5 +1,6 @@
 ---
 id: vote-usa-gov
+unlisted: true
 layout: case-study
 agency: "GSA"
 title: "Vote.Gov"
