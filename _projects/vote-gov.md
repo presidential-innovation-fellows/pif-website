@@ -4,7 +4,7 @@ layout: case-study
 agency: "GSA"
 title: "Vote.Gov"
 cover_art: "vote-cover-art.jpeg"
-subtitle: "enable any citizen to register to vote."
+subtitle: "Enabling any citizen to register to vote."
 impact_heading: "Helped over 2 million Americans register to vote in first 6 months since launch."
 
 description: "In advance of National Voter Registration Day, our team sought to help the 51 million unregistered voters in the U.S. understand and access their rights as citizens. Working alongside the GSA’s Office of Citizen Services and Innovative Technology (OCSIT), we helped to build Vote.gov: a tool that enables any citizen to easily find out how to vote in their state of residence. Since  launch, Vote.gov has developed an initial pilot partnership with Facebook to help direct citizens to register to vote, and has helped millions of citizens register to vote in the 2016 Presidential election."

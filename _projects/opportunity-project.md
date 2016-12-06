@@ -4,7 +4,7 @@ layout: case-study
 agency: "DOC"
 title: "The Opportunity Project"
 cover_art: "opportunity-3.jpg"
-subtitle: "an open data effort to improve economic mobility for all Americans."
+subtitle: "An open data effort to improve economic mobility for all Americans."
 impact_heading: "14+ applications and third-party services created since launch."
   
 description: "The Opportunity platform provides easy access to the Opportunity Project digital tools, and for software developers and community partners to access the data, build new tools, and connects with others through a community of practice, facilitated by the U.S. Census Bureau and a team of Presidential Innovation Fellows. The Administration launched this website to help ensure that an increasing number of users continue to collaborate with each other and take advantage of the Opportunity Project data. This interactive site invites software developers, data users, community leaders, and local governments to learn, connect and build as part of a larger community of practice. In addition, to support the long-term creation of applications and civic engagement, the Census Bureau created a new Opportunity Module for CitySDK, a software development kit that makes it easier to build products with open data from federal and local government. Both opportunity.census.gov and the CitySDK are open-source and available on Github."

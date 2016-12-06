@@ -4,7 +4,7 @@ layout: case-study
 agency: "ONC"
 title: "Blue Button Initiative"
 cover_art: "health-tech-cover-art.jpg"
-subtitle: "increasing Americans' access to their own health information electronically"
+subtitle: "Increasing Americans' access to their own health information electronically"
 impact_heading: "150 million Americans have access to their personalized health data; 600+ commitments from organizations to advance health information access efforts."
   
 description: "<h5><b>CHALLENGE</b>: Increase the transparency and access to their health information, in order to make more informed decisions about their health, care for their family members, and share information with their providers.</h5>
