@@ -24,32 +24,6 @@ $(document).ready(function() {
       }
   });
 
-  // supports loading modals via URL ala fellows/#lastname-firstname-modal
-  if(window.location.hash.indexOf('modal')  > -1 ) {
-    $(window.location.hash).modal('show');
-  }
-
-  // dynamically set height of top section
-  if ($(window).width() <= 767) {
-    if ($(window).height() > 500) {
-      $('#home-hero').css('height',$(window).height()-50);
-      $('#home-hero-text').css('bottom', -$(window).height()+300);
-    }
-    else {
-      $('#home-hero').css('height', 450);
-      $('#home-hero-text').css('bottom', '-200px');
-    }
-  } else {
-    if ($(window).height() > 800) {
-      $('#home-hero').css('height',$(window).height()-50);
-      $('#home-hero-text').css('bottom', -$(window).height()+400);
-    }
-    else {
-      $('#home-hero').css('height', 750);
-      $('#home-hero-text').css('bottom', '-400px');
-    }
-  }
-
   // navbar button action to pif application
   $('.navbar-btn').click(function() {
     window.location = "https://apply.pif.gov/";
@@ -75,17 +49,6 @@ $(document).ready(function() {
       if ($(this).scrollTop() < 10 && (fullPath == '/' || projectPath)) {
         $('.navbar').removeClass('nav-bg');
       }
-
-      $('#home-cta').each(function(){
-        var topDistance = $(this).offset().top;
-
-        if ( topDistance < scrollTop && (fullPath == '/' || projectPath) ) {
-          $('.navbar-btn').removeClass("hide");
-        }
-        if ( topDistance > scrollTop && (fullPath == '/' || projectPath) ) {
-          $('.navbar-btn').addClass('hide');
-        }
-      });
     })
   }
 

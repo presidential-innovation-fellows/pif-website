@@ -797,10 +797,6 @@ footer {
 @media (min-width: 992px) {
   // GENERAL
 
-  body{
-    margin-bottom:650px;
-  }
-
   #cta{
     h4{
       font-size:2.8em;
@@ -838,10 +834,6 @@ footer {
 
 // large devices (desktops)
 @media (min-width: 1200px) {
-
-  body{
-    margin-bottom:650px;
-  }
 
   // HOME
   #home{
@@ -1008,11 +1000,6 @@ footer {
 @media (min-width: 768px) and (max-width: 991px) {
   // GENERAL
 
-  body{
-    margin-bottom:775px;
-  }
-
-
   #cta{
 
     h4{
@@ -1089,10 +1076,6 @@ footer {
 // extra small devices (phones)
 @media (max-width: 767px){
   // GENERAL
-
-  body{
-    margin-bottom:775px;
-  }
 
   .navbar{
     min-height:81px;
