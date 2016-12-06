@@ -3,11 +3,11 @@ $(window).resize(function() {
   var fullPath = location.pathname + location.search + location.hash;
 
   if(fullPath == '/' && $(window).width() > 767 && $(window).scrollTop() == 0) {
-		$('.navbar-btn').addClass('hide');
-  	$('.navbar').removeClass('nav-bg');
+    $('.navbar-btn').addClass('hide');
+    $('.navbar').removeClass('nav-bg');
   } else {
-  	$('.navbar-btn').removeClass('hide');
-  	$('.navbar').addClass('nav-bg');
+    $('.navbar-btn').removeClass('hide');
+    $('.navbar').addClass('nav-bg');
   }
 });
 
@@ -23,6 +23,11 @@ $(document).ready(function() {
         }
       }
   });
+
+  // supports loading modals via URL ala fellows/#lastname-firstname-modal
+  if(window.location.hash.indexOf('modal')  > -1 ) {
+    $(window.location.hash).modal('show');
+  }
 
   // navbar button action to pif application
   $('.navbar-btn').click(function() {
