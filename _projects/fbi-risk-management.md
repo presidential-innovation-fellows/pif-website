@@ -6,7 +6,8 @@ title: "FBI Risk Management"
 unlisted: true
 cover_art: "hacking-background.jpg"
 subtitle: "Defining an Ecosystem to Help the Private Sector Manage Risk and Mitigate Threats"
-impact_heading: "The work the Fellows are doing on this initiative of risk management and threat prevention is challenging conventional wisdom at the FBI in terms of our role, and in how we should measure success as we help protect the private sector and the US Economy. - Brad Brekke, Director, Office of the Private Sector, Federal Bureau of Investigation"
+impact_heading: "The work the Fellows are doing on this initiative of risk management and threat prevention is challenging conventional wisdom at the FBI in terms of our role, and in how we should measure success as we help protect the private sector and the US Economy."
+impact_sub: "- Brad Brekke, Director, Office of the Private Sector, Federal Bureau of Investigation"
   
 description: "<h5><b>CHALLENGE</b>: With a mission of protecting US citizens, the Federal Bureau of Investigation is continually faced with a wide range of threats, from terrorism to active shooters to the increasing threat of cyber crime. Part of the FBI’s mission is also to protect private sector companies and the US Economy. In collaboration with the FBI, the Presidential Innovation Fellows focused on the challenge of defining an ecosystem to help the private sector manage risk and mitigate threats, as part of the overall strategy to protect the US economy.</h5>
 

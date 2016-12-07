@@ -6,7 +6,8 @@ agency: "DOJ"
 title: "NotAlone.Gov"
 cover_art: "not-alone-biden.jpg"
 subtitle: "Making sexual assault resources readily accessible to students and schools."
-impact_heading: "We need to provide survivors with more support and we need to bring perpetrators to more justice and we need colleges and universities to step up. - <i>Vice President Joe Biden</i>"
+impact_heading: "We need to provide survivors with more support and we need to bring perpetrators to more justice and we need colleges and universities to step up."
+impact_sub: "- <i>Vice President Joe Biden</i>"
 
 description: "<h5><b>CHALLENGE</b>: Improve the transparency and information-sharing of sexual assault prevention and enforcement data for students and schools.</h5>
 

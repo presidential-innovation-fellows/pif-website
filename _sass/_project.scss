@@ -42,12 +42,13 @@
 .project-impact {
   background: #337ab7;
   padding: 2em 0 2em;
-
+  color: #dedede;
+  text-align: center;
   h1 {
     color: $white;
     font-size: 2em;
     margin: 0;
-    line-height: 1em;
+    line-height: 1.15em;
     text-align: center;
   }
   .impact-container {

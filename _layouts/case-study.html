@@ -15,6 +15,9 @@ skip_index: true
 <section class="project-impact">
   <div class="container">
     <h1>{{page.impact_heading}}</h1>
+    {% if page.impact_sub %}
+      {{page.impact_sub}}
+    {% endif %}
   </div>
 </section>
 {% endif %}
