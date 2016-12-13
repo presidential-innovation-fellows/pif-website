@@ -3,7 +3,6 @@ id: fbi-risk-management
 layout: case-study
 agency: "FBI"
 title: "FBI Risk Management"
-unlisted: true
 cover_art: "hacking-background.jpg"
 subtitle: "Defining an Ecosystem to Help the Private Sector Manage Risk and Mitigate Threats"
 impact_heading: "The work the Fellows are doing on this initiative of risk management and threat prevention is challenging conventional wisdom at the FBI in terms of our role, and in how we should measure success as we help protect the private sector and the US Economy."

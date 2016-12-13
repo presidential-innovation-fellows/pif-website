@@ -2,7 +2,6 @@
 id: child-welfare-product-hub
 layout: case-study
 agency: "HHS"
-unlisted: true
 title: "Child Welfare Product Hub"
 cover_art: "think-of-us.jpg"
 subtitle: "Increasing agency access to technology tools that work"

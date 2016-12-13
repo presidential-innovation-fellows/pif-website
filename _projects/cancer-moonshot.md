@@ -2,7 +2,6 @@
 id: cancer-moonshot
 layout: case-study
 agency: "NIH"
-unlisted: true
 title: "Vice President Biden’s Cancer Moonshot"
 cover_art: "biden-cover-art.jpg"
 subtitle: "Reimagining cancer clinical trials increasing awareness and access for patients."
