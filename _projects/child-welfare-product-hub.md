@@ -12,7 +12,7 @@ description: "State and county child welfare agencies are facing a technology mo
 
 gallery:
   - { src: "FosterCareHackathon1.JPG", caption: “White House CTO Megan Smith offers advice as Presidential Innovation Fellow Emily Ianacone builds the wireframe for the child welfare product hub” }
-  - { src: "FosterCareHackathon2.jpg", caption: “Presidential Innovation Fellows facilitate a design session with former foster youth and child welfare agency workers” }
+  - { src: "FosterCareHackathon2.JPG", caption: “Presidential Innovation Fellows facilitate a design session with former foster youth and child welfare agency workers” }
 
 impact_metrics:
     - { desc: "Designed by:" }
