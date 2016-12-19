@@ -12,10 +12,9 @@ description: "<h5><b>CHALLENGE</b>: With a mission of protecting US citizens, th
 
 <h5><b>APPROACH</b>: To understand the challenge, Fellows met with a broad range of stakeholders in private sector companies—those on the front lines who are responsible for preventing attacks—to see firsthand the challenges that they face. These included Chief Information and Security Officers, intelligence analysts, network defenders and general security staff. Additionally, they met with threat management working groups, thought leaders in academia, FBI senior leadership and field agents. Across all of these stakeholders, they surfaced the underlying dynamics in preventing threats, and the needs and opportunities for what effective risk management should look like.</h5>
 
-<h5><b>PATH FORWARD</b>: The Fellows are building a model that is helping both the FBI and the private sector more effectively manage risk. They identified key characteristics and the conditions required for effective risk management. They developed foundational principles that have a tectonic shift in how the FBI engages the private sector. Perhaps most importantly, the Fellows are helping to drive culture change within the FBI, with support from FBI Director Comey to the Field Offices.</h5>"
+<h5><b>PATH FORWARD</b>: The Fellows are building a model that is helping both the FBI and the private sector more effectively manage risk. They identified key characteristics and the conditions required for effective risk management. They developed foundational principles that have a tectonic shift in how the FBI engages the private sector. Perhaps most importantly, the Fellows are helping to drive culture change within the FBI, with support from FBI senior leadership to the Field Office level.</h5>"
 
 gallery:
-  - { src: "CISOConference.jpg", caption: "PIFs engaged in a Chief Information Security Officer (CISO) conference in Los Angeles understanding the needs of the private sector." }
   - { src: "MOI-Card-Pic.jpg", caption: "PIFs conducting design research exercise with cybersecurity users to understand the types of models that are most effective in information sharing and threat prevention." }
   - { src: "PIFs-Evanta.jpg", caption: "PIFs preparing for Chief Information Security Officer (CISO) conference in Los Angeles." }
 
