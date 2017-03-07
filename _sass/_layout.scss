@@ -308,7 +308,7 @@ footer {
 
 // HOME
 #home-hero{
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0,0,0, 0.45)), to(rgba(0,0,0, 0.55))), url('{{site.baseurl}}/assets/images/pif-hero4.png');
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0,0,0, 0.45)), to(rgba(0,0,0, 0.55))), url('{{site.url}}/assets/images/pif-hero4.png');
   background-attachment:scroll;
   background-repeat:no-repeat;
   background-position:center 0;
