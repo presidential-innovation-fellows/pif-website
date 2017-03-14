@@ -18,33 +18,33 @@ $site-baseurl: '/site/presidential-innovation-fellows/pif-website';
 
 @font-face{
   font-family: 'Avenir Light';
-  src: url('/assets/fonts/AvenirLTStd-Light.eot');
-  src: url('/assets/fonts/AvenirLTStd-Light.eot?#iefix') format('embedded-opentype'),
-  url('/assets/fonts/AvenirLTStd-Light.svg#webfont') format('svg'),
+  src: url('#{$site-baseurl/assets/fonts/AvenirLTStd-Light.eot');
+  src: url('#{$site-baseurl/assets/fonts/AvenirLTStd-Light.eot?#iefix') format('embedded-opentype'),
+  url('#{$site-baseurl/assets/fonts/AvenirLTStd-Light.svg#webfont') format('svg'),
   url('#{$site-baseurl}/assets/fonts/AvenirLTStd-Light.woff') format('woff'),
-  url('/assets/fonts/AvenirLTStd-Light.ttf') format('truetype');
+  url('#{$site-baseurl/assets/fonts/AvenirLTStd-Light.ttf') format('truetype');
   font-weight:normal;
   font-style:normal;
 }
 
 @font-face{
   font-family: 'Avenir Medium';
-  src: url('/assets/fonts/AvenirLTStd-Medium.eot');
-  src: url('/assets/fonts/AvenirLTStd-Medium.eot?#iefix') format('embedded-opentype'),
-  url('/assets/fonts/AvenirLTStd-Medium.svg#webfont') format('svg'),
-  url('/assets/fonts/AvenirLTStd-Medium.woff') format('woff'),
-  url('/assets/fonts/AvenirLTStd-Medium.ttf') format('truetype');
+  src: url('#{$site-baseurl/assets/fonts/AvenirLTStd-Medium.eot');
+  src: url('#{$site-baseurl/assets/fonts/AvenirLTStd-Medium.eot?#iefix') format('embedded-opentype'),
+  url('#{$site-baseurl/assets/fonts/AvenirLTStd-Medium.svg#webfont') format('svg'),
+  url('#{$site-baseurl/assets/fonts/AvenirLTStd-Medium.woff') format('woff'),
+  url('#{$site-baseurl/assets/fonts/AvenirLTStd-Medium.ttf') format('truetype');
   font-weight:normal;
   font-style:normal;
 }
 
 @font-face{
   font-family: 'Avenir Heavy';
-  src: url('/assets/fonts/AvenirLTStd-Heavy.eot');
-  src: url('/assets/fonts/AvenirLTStd-Heavy.eot?#iefix') format('embedded-opentype'),
-  url('/assets/fonts/AvenirLTStd-Heavy.svg#webfont') format('svg'),
-  url('/assets/fonts/AvenirLTStd-Heavy.woff') format('woff'),
-  url('/assets/fonts/AvenirLTStd-Heavy.ttf') format('truetype');
+  src: url('#{$site-baseurl/assets/fonts/AvenirLTStd-Heavy.eot');
+  src: url('#{$site-baseurl/assets/fonts/AvenirLTStd-Heavy.eot?#iefix') format('embedded-opentype'),
+  url('#{$site-baseurl/assets/fonts/AvenirLTStd-Heavy.svg#webfont') format('svg'),
+  url('#{$site-baseurl/assets/fonts/AvenirLTStd-Heavy.woff') format('woff'),
+  url('#{$site-baseurl/assets/fonts/AvenirLTStd-Heavy.ttf') format('truetype');
   font-weight:normal;
   font-style:normal;
 }
