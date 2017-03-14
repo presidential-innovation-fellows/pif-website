@@ -10,6 +10,7 @@ $white: #ffffff;
 $pif-blue: #3c547c;
 $usa-blue: #0071bc;
 $usa-red: #e31c3d;
+$site-baseurl: '/site/presidential-innovation-fellows/pif-website';
 
 @import "bourbon/bourbon";
 @import "neat/neat";
@@ -20,7 +21,7 @@ $usa-red: #e31c3d;
   src: url('/assets/fonts/AvenirLTStd-Light.eot');
   src: url('/assets/fonts/AvenirLTStd-Light.eot?#iefix') format('embedded-opentype'),
   url('/assets/fonts/AvenirLTStd-Light.svg#webfont') format('svg'),
-  url('/assets/fonts/AvenirLTStd-Light.woff') format('woff'),
+  url('$site-baseurl/assets/fonts/AvenirLTStd-Light.woff') format('woff'),
   url('/assets/fonts/AvenirLTStd-Light.ttf') format('truetype');
   font-weight:normal;
   font-style:normal;
