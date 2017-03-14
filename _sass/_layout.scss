@@ -1,3 +1,12 @@
+
+
+---
+# Front matter added to ensure Jekyll processes file.
+---
+
+
+
+
 $gray-darker:            lighten(#000, 13.5%) !default; // #222
 $gray-dark:              lighten(#000, 20%) !default;   // #333
 $gray:                   lighten(#000, 33.5%) !default; // #555
@@ -18,7 +27,7 @@ $usa-red: #e31c3d;
   src: url('/assets/fonts/AvenirLTStd-Light.eot');
   src: url('/assets/fonts/AvenirLTStd-Light.eot?#iefix') format('embedded-opentype'),
   url('/assets/fonts/AvenirLTStd-Light.svg#webfont') format('svg'),
-  url('/assets/fonts/AvenirLTStd-Light.woff') format('woff'),
+  url('{{site.baseurl}}/assets/fonts/AvenirLTStd-Light.woff') format('woff'),
   url('/assets/fonts/AvenirLTStd-Light.ttf') format('truetype');
   font-weight:normal;
   font-style:normal;
