@@ -29,14 +29,14 @@ permalink: agencies/
 			<div class="row">
 				<div class="col-md-3 hidden-sm hidden-xs" id="agency-image">
 					{% for agency in site.data.agency_list %}{% if agency.short == agency_hash[0] %}
-					<img src="/assets/images/agencies/{{ agency.short }}.png" class="img-responsive">
+					<img src="{{site.baseurl}}/assets/images/agencies/{{ agency.short }}.png" class="img-responsive">
 				</div>
 				<div class="col-md-9">
 					<h4><em>{{ agency.long }}:</em> <small>(<a href="{{ agency.website }}" target="_blank">website</a>)</small></h4>{% endif %}{% endfor %}
 					<hr/>
 					<div class="row" id="agency-fellow-list">
 						<div class="col-md-12">
-							<ul>{% assign a = agency_hash[1] %}{% for f in a.fellows %}{% for fellow_hash in site.data.fellows %}{% assign fellow_id = fellow_hash[0] %}{% assign fellow_info = fellow_hash[1] %}{% if fellow_id == f %}<li><img src="/assets/images/{{ fellow_info.year }}/{{ fellow_info.img }}" class="img-circle" title="{{ fellow_info.name }}"></li>{% endif %}{% endfor %}{% endfor %}</ul>
+							<ul>{% assign a = agency_hash[1] %}{% for f in a.fellows %}{% for fellow_hash in site.data.fellows %}{% assign fellow_id = fellow_hash[0] %}{% assign fellow_info = fellow_hash[1] %}{% if fellow_id == f %}<li><img src="{{site.baseurl}}/assets/images/{{ fellow_info.year }}/{{ fellow_info.img }}" class="img-circle" title="{{ fellow_info.name }}"></li>{% endif %}{% endfor %}{% endfor %}</ul>
 						</div>
 					</div>
 				</div>
@@ -45,14 +45,14 @@ permalink: agencies/
 		<div class="col-sm-6" id="agency-item">
 			<div class="row">
 				<div class="col-md-3 hidden-sm hidden-xs" id="agency-image">{% for agency in site.data.agency_list %}{% if agency.short == agency_hash[0] %}
-					<img src="/assets/images/agencies/{{ agency.short }}.png" class="img-responsive">
+					<img src="{{site.baseurl}}/assets/images/agencies/{{ agency.short }}.png" class="img-responsive">
 				</div>
 				<div class="col-md-9">
 					<h4><em>{{ agency.long }}:</em> <small>(<a href="{{ agency.website }}" target="_blank">website</a>)</small></h4>{% endif %}{% endfor %}
 					<hr/>
 					<div class="row" id="agency-fellow-list">
 						<div class="col-md-12">
-							<ul>{% assign a = agency_hash[1] %}{% for f in a.fellows %}{% for fellow_hash in site.data.fellows %}{% assign fellow_id = fellow_hash[0] %}{% assign fellow_info = fellow_hash[1] %}{% if fellow_id == f %}<li><img src="/assets/images/{{ fellow_info.year }}/{{ fellow_info.img }}" class="img-circle" title="{{ fellow_info.name }}"></li>{% endif %}{% endfor %}{% endfor %}</ul>
+							<ul>{% assign a = agency_hash[1] %}{% for f in a.fellows %}{% for fellow_hash in site.data.fellows %}{% assign fellow_id = fellow_hash[0] %}{% assign fellow_info = fellow_hash[1] %}{% if fellow_id == f %}<li><img src="{{site.baseurl}}/assets/images/{{ fellow_info.year }}/{{ fellow_info.img }}" class="img-circle" title="{{ fellow_info.name }}"></li>{% endif %}{% endfor %}{% endfor %}</ul>
 						</div>
 					</div>
 				</div>
