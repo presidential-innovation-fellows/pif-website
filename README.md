@@ -143,11 +143,17 @@ VA | Veteran Affairs
 
 ## Setting up
 
-### JVM
+### Development Requirements
 
-The s3_website gem needs the Javas. Go ahead and get a JVM installed.
+  + Ruby
+  + Bundler
 
-### Create s3_website.yml
+### Deployment Requirements
+
+  + The `s3_website` gem
+  + Java/ JVM (dependency for `s3_website` gem)
+
+#### Create s3_website.yml
 
 This file isn't committed because it contains your own secret credentials:
 
@@ -160,8 +166,37 @@ ignore_on_server: _DELETE_NOTHING_ON_THE_S3_BUCKET_
 cloudfront_distribution_id: E17JIBNHAD5OVL
 ```
 
+## Development
+
+Fork this repository under the ownership of your own account, then clone it:
+
+```sh
+git clone git@github.com:`YOUR_USERNAME`/pif-website.git
+cd pif-website/
+```
+
+Install package dependencies:
+
+```sh
+bundle install
+```
+
+Run local web server:
+
+```sh
+bundle exec jekyll serve # then view in browser at localhost:4500
+```
+
+## Contributing
+
+When contributing a new feature or fix: work on a new branch, commit and push your contributions to your remote fork, then open a pull request within the upstream repository to describe what changes you made and why.
+
 ## Deployment
 
-Build then deploy: `jekyll build && s3_website push`
+First, ensure you have setup the "Deployment Requirements" (see above).
 
-Ensure you've done the "Setting up" things first (see above).
+Then build and deploy:
+
+```sh
+bundle exec jekyll build && s3_website push
+```
