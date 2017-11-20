@@ -2,13 +2,13 @@
 
 This is the PIF website, jekyll edition (inspired by the [18F hub](https://github.com/18F/hub)). The website is currently maintained by the PIF leadership, with contributions from the fellows.
 
-In the /_data section there are YAML files available for fellow bios, current/previous projects, and case studies. Additionally, there are specific fields for each YAML file and corresponding approved values.
+In the `/_data` section there are YAML files available for fellow bios, current/previous projects, and case studies. Additionally, there are specific fields for each YAML file and corresponding approved values.
 
 **NOTE:** When adding info to YAML files, if the text added contains a , or . please use "" around the text. ALSO, if you need to quote something (using ""), use '' instead.
 
 #### Fellow bios
 
-LOCATION: /_data/fellows/
+LOCATION: `/_data/fellows/`
 
 FILENAME: lastname-firstname.yml
 
@@ -30,7 +30,7 @@ skills: | list of approved terms are in Appendix
 
 Case studies are specific fellow projects that are highlighted and used for branding and marketing.
 
-LOCATION: /_data/case_studies/
+LOCATION: `/_data/case_studies/`
 
 FILENAME: case-study-name.yml
 
@@ -51,7 +51,7 @@ quote_source: |
 
 Current and previous projects are within their respective subdirectories. As current projects wrap up, they should be moved to the previous projects subdirectory.
 
-LOCATION: /_data/current_projects/ OR /_data/previous_projects/
+LOCATION: `/_data/current_projects/` OR `/_data/previous_projects/`
 
 FILENAME: project-name.yml
 
@@ -68,7 +68,7 @@ fellows: | list of fellows who worked on project
 
 This YAML file contains the reference keys for agencies
 
-LOCATION: /_data/
+LOCATION: `/_data/`
 
 FILENAME: agency_list.yml
 
