@@ -3,6 +3,7 @@ GEM
   specs:
     addressable (2.5.0)
       public_suffix (~> 2.0, >= 2.0.2)
+    coderay (1.1.2)
     colorator (1.1.0)
     ffi (1.9.14)
     ffi (1.9.14-x86-mingw32)
@@ -30,9 +31,13 @@ GEM
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
     mercenary (0.3.6)
+    method_source (0.9.0)
     minitest (5.9.1)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
+    pry (0.11.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.9.0)
     public_suffix (2.0.4)
     rake (11.3.0)
     rb-fsevent (0.9.8)
@@ -50,7 +55,8 @@ DEPENDENCIES
   jekyll
   jekyll-sitemap
   minitest
+  pry
   rake
 
 BUNDLED WITH
-   1.13.6
+   1.16.0

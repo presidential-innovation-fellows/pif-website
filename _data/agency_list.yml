@@ -11,6 +11,10 @@
   long: Department of Energy
   website: "http://energy.gov"
 -
+  short: DOT
+  long: Department of Transportation
+  website: "https://www.transportation.gov/"
+-
   short: FDA
   long: Food and Drug Administration
   website: "http://www.fda.gov"
@@ -51,6 +55,10 @@
   long: National Aeronautics and Space Administration
   website: "http://www.nasa.gov"
 -
+  short: NCI
+  long: National Cancer Institute
+  website: "https://www.cancer.gov/"
+-
   short: NIH
   long: National Institute of Health
   website: "http://www.nih.gov"
@@ -66,6 +74,10 @@
   short: NSF
   long: National Science Foundation
   website: "http://www.nsf.gov"
+-
+  short: ODNI
+  long: Office of the Director of National Intelligence
+  website: "https://www.dni.gov/index.php"
 -
   short: OSTP
   long: "White House Office of Science and Technology, Policy"
