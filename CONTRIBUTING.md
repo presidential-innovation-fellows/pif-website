@@ -55,7 +55,7 @@ You are also encouraged to deploy your changes to a staging site on [Federalist]
 
 In the **/_data** directory there are YAML files which specify information about fellows, agencies, projects, and case studies. Each kind of YAML file has a specific set of data fields and corresponding approved values.
 
-When adding info to YAML files, if the text contains a comma (`,`) or period (`.`) please surround the text with double quotes (`""`). If the text itself contains quotes, use single quotes (`''`).
+When adding info to YAML files, if the text contains a comma (`,`) or period (`.`), please surround it with double quotes (`""`). If the quoted text contains quotes, use single quotes (`''`) inside the double quotes (e.g. `"Then he said, 'Hello World'."`).
 
 #### Fellows
 
