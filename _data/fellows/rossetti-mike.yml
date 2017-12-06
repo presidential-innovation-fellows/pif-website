@@ -1,0 +1,16 @@
+id: rossetti-mike
+name: Mike Rossetti
+img: rossetti-mike-headshot.jpg
+year: 2017
+hometown: "Branford, CT"
+region: northeast
+bio: "Civic technologist, open source software contributor, and adjunct professor of business and computer science."
+bio_full: "Mike Rossetti is a civic technologist from Branford, CT. He brings experience as a government technology consultant, political data analyst, open source software contributor, and adjunct professor of business and computer science. He holds a bachelor's degree in business and a master's degree in information systems from the George Washington University."
+skills:
+  - back
+  - comm
+  - data
+  - front
+  - product
+  - policy
+  - ux
