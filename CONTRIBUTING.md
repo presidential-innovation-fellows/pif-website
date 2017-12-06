@@ -10,7 +10,7 @@
 Fork this repository under the ownership of your own account, then clone it:
 
 ```sh
-git clone git@github.com:`YOUR_USERNAME`/pif-website.git
+git clone git@github.com:YOUR_USERNAME/pif-website.git
 cd pif-website/
 ```
 
@@ -28,9 +28,9 @@ Run a local web server:
 bundle exec jekyll serve # then view in browser at localhost:4500
 ```
 
-When contributing a new feature or fix: work on a new branch, commit and push your contributions to your remote fork, then open a pull request within the upstream repository to describe what changes you made and why.
+When contributing a new feature or fix: work on a new branch, commit and push your contributions to your remote fork, then open a pull request with the upstream repository to describe what changes you made and why.
 
-You are encouraged to deploy your changes to a staging site on Federalist, and include the link in the body of your pull request.
+You are also encouraged to deploy your changes to a staging site on [Federalist](https://federalist.18f.gov), and include the link in the body of your pull request.
 
 
 
