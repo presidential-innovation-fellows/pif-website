@@ -28,9 +28,7 @@ Run a local web server:
 bundle exec jekyll serve # then view in browser at localhost:4500
 ```
 
-When contributing a new feature or fix: work on a new branch, commit and push your contributions to your remote fork, then open a pull request with the upstream repository to describe what changes you made and why.
-
-You are also encouraged to deploy your changes to a staging site on [Federalist](https://federalist.18f.gov), and include the link in the body of your pull request.
+When contributing a new feature or fix: work on a new branch, commit and push your contributions to your remote fork, then open a pull request with the upstream repository to describe what changes you made and why. If possible, please include one or more screenshots depicting the relevant changes. Also, if possible, deploy your changes to a staging site on [Federalist](https://federalist.18f.gov), and include the relevant preview link in the body of your pull request.
 
 
 
