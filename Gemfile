@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'jekyll'
 gem 'jekyll-sitemap'
+gem 'activesupport'
 
 group :test do
   gem 'rake'

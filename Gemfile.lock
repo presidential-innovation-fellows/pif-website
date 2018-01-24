@@ -1,13 +1,21 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    activesupport (5.1.4)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (~> 0.7)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
     addressable (2.5.0)
       public_suffix (~> 2.0, >= 2.0.2)
     coderay (1.1.2)
     colorator (1.1.0)
+    concurrent-ruby (1.0.5)
     ffi (1.9.14)
     ffi (1.9.14-x86-mingw32)
     forwardable-extended (2.6.0)
+    i18n (0.9.3)
+      concurrent-ruby (~> 1.0)
     jekyll (3.3.1)
       addressable (~> 2.4)
       colorator (~> 1.0)
@@ -46,12 +54,16 @@ GEM
     rouge (1.11.1)
     safe_yaml (1.0.4)
     sass (3.4.22)
+    thread_safe (0.3.6)
+    tzinfo (1.2.4)
+      thread_safe (~> 0.1)
 
 PLATFORMS
   ruby
   x86-mingw32
 
 DEPENDENCIES
+  activesupport
   jekyll
   jekyll-sitemap
   minitest
@@ -59,4 +71,4 @@ DEPENDENCIES
   rake
 
 BUNDLED WITH
-   1.16.0
+   1.16.1

@@ -50,6 +50,23 @@ layout: default
             </div>
           </div>
           <div class="row" id="map-data">
+            <!-- Updating this section Step 1)
+              ... temporarily un-comment the `log_fellow_counts` statement in the _plugins/joiner.rb file,
+              ... then run the server to see the counts,
+              ... then finally restore the comment.
+            -->
+            <!-- Updating this section Step 2)
+              ... find the map source file named something like "PIF-regions-map-YYYYMMDD.key"
+              ... in the PIF shared google drive under Design > Visual Design Assets,
+              ... then open the file, and edit each of the numbers,
+              ... and recognize each of the circles is really a pie chart,
+              ... so double-click on the various pie charts to "Edit Chart Data"
+              ... then enter in the updated total number of PIFs, and the updated number of PIFs for that region
+              ... then save a new version of the keynote file to google drive,
+              ... then export a new PNG version to this repo as "assets/images/pif-distro-map-YYYYMMDD.png"
+              ... and finally update the "map-stats" and img href below accordingly.
+              ... Fun, right!
+            -->
             <div class="col-md-9 col-sm-12">
               <img src="assets/images/pif-distro-map2.1.png" class="img-responsive">
             </div>
