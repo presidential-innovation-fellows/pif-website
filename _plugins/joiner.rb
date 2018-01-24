@@ -1,12 +1,14 @@
-require 'active_support/core_ext/hash/keys' # enable Hash#symbolize_keys
-require 'pp' # enable pretty printing
+if ENV.fetch('JEKYLL_ENV', 'OOPS') == 'dev_logging' # only load in this custom environment (should not be loaded on federalist, which uses a default JEKYLL_ENV of "development")
+  require 'active_support/core_ext/hash/keys' # enable Hash#symbolize_keys
+  require 'pp' # enable pretty printing
+end
 
 module Pif
   class Joiner
     def self.join_data(site)
       filter_agencies(site)
       consolidate_pif_projects_by_agency(site)
-      #log_fellow_counts(site) # un-comment this line to print fellow and region counts to the server logs (for example if you need to update the homepage map :-)
+      log_counts(site) if ENV.fetch('JEKYLL_ENV', 'OOPS') == 'dev_logging' # only run in this custom environment (should not be run on federalist, which uses a default JEKYLL_ENV of "development")
     end
 
     def self.filter_agencies(site)
@@ -48,21 +50,29 @@ module Pif
       site.data['projects'] = projects
     end
 
-    # count the number of fellows, and number of fellows per region
+    # count the number of agencies, fellows, and fellows per region
     # ... and print results to server logs
     # ... adapted from source: https://stackoverflow.com/a/13519616/670433
-    def self.log_fellow_counts(site)
-      fellows = site.data['fellows']
+    def self.log_counts(site)
+      if ENV.fetch('JEKYLL_ENV', 'OOPS') == 'dev_logging' # only run in this custom environment (should not be run on federalist, which uses a default JEKYLL_ENV of "development")
+        agencies = site.data['agencies']
+        fellows = site.data['fellows']
 
-      fellow_regions = fellows.map{|_,v| v['region']} #> ["northeast", "northeast", "west", "midwest", etc.]
-      raise 'UNASSIGNED REGION(S) ERROR!' if fellow_regions.include?(nil)
+        fellow_regions = fellows.map{|_,v| v['region']} #> ["northeast", "northeast", "west", "midwest", etc.]
+        raise 'UNASSIGNED REGION(S) ERROR!' if fellow_regions.include?(nil)
 
-      region_counts = fellow_regions.group_by{|region| region.downcase}.map{|k,v| [k, v.count] } #> [["northeast", 40], ["west", 45], etc.]
-      region_counts = Hash[*region_counts.flatten].symbolize_keys #> {northeast: 40, west: 45, etc.}
-      raise 'UNRECOGNIZED REGION(S) ERROR!' if region_counts.keys.sort != [:midwest, :northeast, :outside, :south, :west]
+        region_counts = fellow_regions.group_by{|region| region.downcase}.map{|k,v| [k, v.count] } #> [["northeast", 40], ["west", 45], etc.]
+        region_counts = Hash[*region_counts.flatten].symbolize_keys #> {northeast: 40, west: 45, etc.}
+        raise 'UNRECOGNIZED REGION(S) ERROR!' if region_counts.keys.sort != [:midwest, :northeast, :outside, :south, :west]
 
-      fellow_counts = {total: fellows.count, by_region: region_counts}
-      pp 'FELLOW COUNTS', fellow_counts
+        counts = {
+          agencies: agencies.count,
+          fellows: fellows.count,
+          fellows_by_region: region_counts
+        }
+
+        pp 'COUNTS', counts
+      end
     end
   end
 end
