@@ -48,7 +48,7 @@ module Pif
     end
 
     # count the number of agencies, fellows, and fellows per region
-    # ... and print results to server logs
+    # ... and print the results
     # ... adapted from source: https://stackoverflow.com/a/13519616/670433
     def self.log_counts(site)
       if ENV.fetch('JEKYLL_ENV', 'OOPS') == 'dev_logging' # only run in this custom environment (should not be run on federalist, which uses a default JEKYLL_ENV of "development")
