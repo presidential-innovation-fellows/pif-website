@@ -1,5 +1,3 @@
-require 'pp' if ENV.fetch('JEKYLL_ENV', 'OOPS') == 'dev_logging' # only require in this custom environment (should not be required on federalist, which uses a default JEKYLL_ENV of "development")
-
 module Pif
   class Joiner
     def self.join_data(site)
@@ -68,7 +66,7 @@ module Pif
           fellows_by_region: region_counts
         }
 
-        pp 'COUNTS', counts
+        puts 'COUNTS', counts
       end
     end
   end
