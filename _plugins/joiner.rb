@@ -1,7 +1,4 @@
-if ENV.fetch('JEKYLL_ENV', 'OOPS') == 'dev_logging' # only load in this custom environment (should not be loaded on federalist, which uses a default JEKYLL_ENV of "development")
-  require 'active_support/core_ext/hash/keys' # enable Hash#symbolize_keys
-  require 'pp' # enable pretty printing
-end
+require 'pp'
 
 module Pif
   class Joiner
@@ -58,11 +55,11 @@ module Pif
         agencies = site.data['agencies']
         fellows = site.data['fellows']
 
-        fellow_regions = fellows.map{|_,v| v['region']} #> ["northeast", "northeast", "west", "midwest", etc.]
-        raise 'UNASSIGNED REGION(S) ERROR!' if fellow_regions.include?(nil)
+        fellow_regions = fellows.map{|_,v| v['region'].to_sym} #> ["northeast", "northeast", "west", "midwest", etc.]
+        raise 'UNASSIGNED REGION(S) ERROR!' if fellow_regions.include?(nil) #TODO: move me to a test
 
         region_counts = fellow_regions.group_by{|region| region.downcase}.map{|k,v| [k, v.count] } #> [["northeast", 40], ["west", 45], etc.]
-        region_counts = Hash[*region_counts.flatten].symbolize_keys #> {northeast: 40, west: 45, etc.}
+        region_counts = Hash[*region_counts.flatten] #> {northeast: 40, west: 45, etc.}
         raise 'UNRECOGNIZED REGION(S) ERROR!' if region_counts.keys.sort != [:midwest, :northeast, :outside, :south, :west]
 
         counts = {

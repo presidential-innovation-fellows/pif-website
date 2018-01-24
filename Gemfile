@@ -8,7 +8,6 @@ group :test do
   gem 'minitest'
 end
 
-group :dev_logging do # a custom environment to be used only for generating counts of site data
-  gem 'activesupport'
+group :development, :test do
   gem 'pry'
 end
