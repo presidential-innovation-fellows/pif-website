@@ -1,9 +1,11 @@
+require 'pp'
+
 module Pif
   class Joiner
     def self.join_data(site)
       filter_agencies(site)
       consolidate_pif_projects_by_agency(site)
-      log_counts(site) if ENV.fetch('JEKYLL_ENV', 'OOPS') == 'dev_logging' # only run in this custom environment (should not be run on federalist, which uses a default JEKYLL_ENV of "development")
+      log_counts(site) if ENV.fetch('JEKYLL_ENV', 'development') == 'dev_logging' # only run in this custom environment (should not be run on federalist, which uses a default JEKYLL_ENV of "development")
     end
 
     def self.filter_agencies(site)
@@ -49,25 +51,23 @@ module Pif
     # ... and print the results
     # ... adapted from source: https://stackoverflow.com/a/13519616/670433
     def self.log_counts(site)
-      if ENV.fetch('JEKYLL_ENV', 'OOPS') == 'dev_logging' # only run in this custom environment (should not be run on federalist, which uses a default JEKYLL_ENV of "development")
-        agencies = site.data['agencies']
-        fellows = site.data['fellows']
+      agencies = site.data['agencies']
+      fellows = site.data['fellows']
 
-        fellow_regions = fellows.map{|_,v| v['region'].to_sym} #> ["northeast", "northeast", "west", "midwest", etc.]
-        raise 'UNASSIGNED REGION(S) ERROR!' if fellow_regions.include?(nil) #TODO: move me to a test
+      fellow_regions = fellows.map{|_,v| v['region'].to_sym} #> ["northeast", "northeast", "west", "midwest", etc.]
+      raise 'UNASSIGNED REGION(S) ERROR!' if fellow_regions.include?(nil) #TODO: move me to a test
 
-        region_counts = fellow_regions.group_by{|region| region.downcase}.map{|k,v| [k, v.count] } #> [["northeast", 40], ["west", 45], etc.]
-        region_counts = Hash[*region_counts.flatten] #> {northeast: 40, west: 45, etc.}
-        raise 'UNRECOGNIZED REGION(S) ERROR!' if region_counts.keys.sort != [:midwest, :northeast, :outside, :south, :west]
+      region_counts = fellow_regions.group_by{|region| region.downcase}.map{|k,v| [k, v.count] } #> [["northeast", 40], ["west", 45], etc.]
+      region_counts = Hash[*region_counts.flatten] #> {northeast: 40, west: 45, etc.}
+      raise 'UNRECOGNIZED REGION(S) ERROR!' if region_counts.keys.sort != [:midwest, :northeast, :outside, :south, :west] #TODO: move me to a test
 
-        counts = {
-          agencies: agencies.count,
-          fellows: fellows.count,
-          fellows_by_region: region_counts
-        }
+      counts = {
+        agencies: agencies.count,
+        fellows: fellows.count,
+        fellows_by_region: region_counts
+      }
 
-        puts 'COUNTS', counts
-      end
+      pp 'COUNTS', counts
     end
   end
 end

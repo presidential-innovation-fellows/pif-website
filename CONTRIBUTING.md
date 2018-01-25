@@ -3,7 +3,7 @@
 ## Prerequisites
 
   + Ruby (version 2.3.5)
-  + Bundler (version 1.16.0)
+  + Bundler (version 1.16.1)
 
 ## Installation
 
@@ -22,7 +22,7 @@ bundle install
 
 ## Usage
 
-Run a local web server:
+To run a local web server:
 
 ```sh
 bundle exec jekyll serve # then view in browser at localhost:4500
