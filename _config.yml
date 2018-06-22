@@ -22,5 +22,8 @@ exclude:
 collections:
   projects:
     output: true
+  newprojects:
+    output: true
+
 
 port: 4500

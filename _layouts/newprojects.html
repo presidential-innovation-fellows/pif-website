@@ -1,0 +1,145 @@
+---
+layout: default
+skip_index: true
+---
+<section class="usa-project-banner" style="background-image: linear-gradient(to top, rgba(0, 0, 0, 0.78), rgba(0, 0, 0, 0.71)), url('/assets/images{{page.id}}/{{page.cover_art}}');">
+  <div class="project-banner-content">
+    <div class="container-fluid">
+      
+      <h1 class="challenge-question">
+        <!-- <span>{{page.title}}:</span> --> 
+
+        {{page.subtitle}}
+      </h1>
+    
+    </div>
+  </div>
+</section>
+{% if page.impact_heading %}
+<section class="project-impact">
+  <div class="container">
+    <h1>{{page.impact_heading}}</h1>
+    {% if page.impact_sub %}
+      {{page.impact_sub}}
+    {% endif %}
+  </div>
+</section>
+{% endif %}
+<section class="project-info">
+  <div class="container">
+    <div class="usa-width-one-half">
+      <header>
+        <h1>{{page.title}}</h1>
+        {% if page.project_url %}
+        <p class="project-link">
+          <a href="{{page.project_url}}" target="_blank">
+            View Project
+            <i class="fa fa-external-link"></i>
+          </a>
+        </p>
+        {% endif %}
+      </header>
+      <p class="project-description">
+        {{page.description}}
+      </p>
+    </div>
+    <div class="usa-width-one-half">
+      <div class="project-gallery">
+        {% for item in page.gallery %}
+        <div class="case-study-item gall-{{ forloop.index }} {{ forloop.first }}">
+          <figure class="project-image">
+            <img alt="{{item.alt}}" src="/assets/images{{page.id}}/{{item.src}}">
+          </figure>
+          <div class="caption">
+            {% if item.caption %}
+            {{ item.caption }}
+            {% endif %}
+          </div>
+        </div>
+        {% endfor %}
+        <div class="case-study-slideshow">
+            {% for item in page.gallery %}
+            <img class="thumb gall-{{ forloop.index }} {{ forloop.first }}" {% if item.alt %}alt="{{item.alt}}"{% endif %} src="/assets/images{{page.id}}/{{item.src}}" style="cursor: pointer;">
+            {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- new section for additional description - at full page width -->
+{% if page.description_more %}
+<!-- <section class="more_detail"> -->
+
+  <div class="container">
+    <div class="more_detail">
+      {{page.description_more}}
+    </div>
+  </div>
+
+</section>
+<!-- </section> -->
+{% endif %}
+
+
+{% if page.impact_metrics %}
+<section class="project-impact">
+  <div class="container">
+    <div class="impact-container">
+    <div class="impacts">
+      {% for impact in page.impact_metrics %}
+      <div class="impact-box">
+        <span>{{impact.metric}}</span> {{impact.desc}}
+      </div>
+      {% endfor %}
+    </div>
+    </div>
+    {% if page.impact_metrics_src %}
+    <img class="img-responsive" src="/assets/images/{{page.id}}/{{page.impact_metrics_src}}">
+    {% endif %}
+    </div>
+</section>
+{% endif %}
+<section class="project-press">
+  <div class="container">
+    <ul class="press-snippets">
+      {% for press in page.articles %}
+      <li>
+        <div class="press-logo">
+          <figure>
+            <a href="{{ press.url }}" target="_blank"><img alt="{{ press.outlet }} logo" src="/assets/images/press/{{ press.logo_src }}"></a>
+          </figure>
+        </div>
+        <div class="press-description">
+          <p class="press-quote">
+            "{{ press.quote }}"
+          </p>
+          <div class="border-seperator"></div>
+          {% if press.description %}
+            <br>
+          {% endif %}
+          <p class="press-attribution">
+            <a href="{{ press.url }}" target="_blank">{{ press.title }}</a>
+            {% if press.description %}
+             <br>{{press.description}}
+            {% endif %}
+          </p>
+
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+<!-- Hiding until we expand number of available projects
+<section class="project-categories">
+  <div class="container">
+    <header>
+      <h1>Explore Related Projects</h1>
+    </header>
+        {% for item in page.tags %}
+        <a href="{{ item | url_encode }}">{{ item }}</a>
+        {% endfor %}
+  </div>
+</section>
+-->
