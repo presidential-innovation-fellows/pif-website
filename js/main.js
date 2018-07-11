@@ -31,8 +31,8 @@ $(document).ready(function() {
 
   // navbar button action to pif application
   $('.navbar-btn').click(function() {
-    //window.location = "../application-closed/";
-    window.location = "https://apply.pif.gov/"; // change made during application closed
+    window.location = "../application-closed/";
+    //window.location = "https://apply.pif.gov/"; // change made during application closed
   });
   
 
