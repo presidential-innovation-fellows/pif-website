@@ -183,6 +183,7 @@ DOI | Department of Interior
 DOL | Department of Labor
 DOT | Department of Transportation
 ED | Department of Education
+FBI | Federal Bureau of Investigation
 FDA | Food and Drug Administration
 FEMA | Federal Emergency Management Agency
 GSA | General Services Administration
@@ -194,6 +195,7 @@ NASA | National Aeronautics and Space Administration
 NCI | National Cancer Institute
 NIH | National Institute of Health
 NIST | National Institute of Standards and Technology
+NLM | National Library of Medicine
 NOAA | National Oceanic and Atmospheric Administration
 NSF | National Science Foundation
 ODNI | Office of the Director of National Intelligence
