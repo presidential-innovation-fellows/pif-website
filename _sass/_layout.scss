@@ -779,7 +779,9 @@ footer {
     margin-bottom:75px;
   }
   .row {
-    margin-bottom: 20px;
+    .row{
+      margin-bottom: 20px;
+    }
   }
 }
 
