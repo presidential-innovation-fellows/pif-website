@@ -59,7 +59,7 @@ skip_index: true
         {% endfor %}
         <div class="case-study-slideshow">
             {% for item in page.gallery %}
-            <img class="thumb gall-{{ forloop.index }} {{ forloop.first }}" {% if item.alt %}alt="{{item.alt}}"{% endif %} src="/assets/images{{page.id}}/{{item.src}}" style="cursor: pointer;">
+            <img class="thumb gall-{{ forloop.index }} {{ forloop.first }}" {% if item.alt %}alt="{{item.alt}}"{% endif %} src="{{ site.baseurl }}/assets/images{{page.id}}/{{item.src}}" style="cursor: pointer;">
             {% endfor %}
         </div>
       </div>
@@ -106,7 +106,7 @@ skip_index: true
       <li>
         <div class="press-logo">
           <figure>
-            <a href="{{ press.url }}" target="_blank"><img alt="{{ press.outlet }} logo" src="/assets/images/press/{{ press.logo_src }}"></a>
+            <a href="{{ press.url }}" target="_blank"><img alt="{{ press.outlet }} logo" src="{{ site.baseurl }}/assets/images/press/{{ press.logo_src }}"></a>
           </figure>
         </div>
         <div class="press-description">
