@@ -1,6 +1,7 @@
 ---
 id: cancer-moonshot
 layout: case-study
+position: 8
 agency: "NIH"
 title: "Vice President Biden’s Cancer Moonshot"
 cover_art: "biden-cover-art.jpg"
@@ -24,8 +25,8 @@ gallery:
 
 impact_metrics:
     - { metric: "Clinical trials are essential for developing new and more effective cancer diagnostics and treatments. But right now, less than five percent of cancer patients enroll in a clinical trial, often because patients and doctors don’t know what trials are available. We can do better - and we are.", desc: "- <i>Vice President Joe Biden</i>" }
-  
-articles: 
+
+articles:
   - { outlet: "Time", logo_src: "time-logo.png", title: "Joe Biden: The Next Step in Our Cancer Moonshot", quote: "We asked our country’s Presidential Innovation Fellows—some of the brightest technology minds in the world—to partner with the National Cancer Institute to design a new, patient-friendly search system for clinical trials that would be as easy to use as a travel site. The result is Trials.Cancer.gov, an easy-to-search database that contains detailed information on thousands of cancer trials.", url: "http://time.com/4494104/joe-biden-cancer-moonshot/"}
   - { outlet: "White House", logo_src: "white-house-logo.jpg", title: "We Are All Part of the Cancer Moonshot: Vice President Biden on Why Everyone’s Participation in Clinical Trials Matters", quote: "It is imperative that we work together to make sure that patients, caregivers, physicians, researchers, and the public have access to information about clinical trials, and that information gained from the contributions of those who volunteer results in better care for patients.", url: "https://medium.com/cancer-moonshot/we-are-all-part-of-the-cancer-moonshot-vice-president-biden-on-why-everyones-participation-in-7f4ebc21381b#.8u35gkeyn"}
   - { outlet: "NIH", logo_src: "nih-logo.png", title: "Meeting Patients Where They Are: Liberating Clinical Trials Data Under the Cancer Moonshot", quote: "The creation of this API is not a static event. Just as we have tested and refined it through the initial releases, we will continue to make changes and improvements to it over time... Based on the strong response we’ve received thus far, we’re optimistic that the availability of this new tool will, over time, help connect more patients with cancer with a clinical trial and help bring effective new therapies to patients in need more quickly and efficiently.", url: "https://www.cancer.gov/news-events/cancer-currents-blog/2016/clinical-trials-api" }
