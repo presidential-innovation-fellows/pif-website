@@ -1,6 +1,7 @@
 ---
 id: digitizing-smithsonian
 layout: case-study
+position: 4
 agency: "SI"
 title: "Digitizing the Smithsonian Institute's Herbarium"
 cover_art: "smithsonian-trans.jpg"
@@ -21,12 +22,12 @@ impact_metrics:
     - { metric: "1,400+", desc: "volunteers contributing." }
     - { metric: "18,000+", desc: "transcriptions." }
     - { metric: "$6 million", desc: " in cost-savings." }
-  
-articles: 
+
+articles:
   - { outlet: "Atlas Obscura", logo_src: "atlas-obscura-logo.png", title: "How the Smithsonian Institution Is Crowdsourcing History", quote: "It may sound odd, but plenty of people would rather parse the curly, old-fashioned handwriting of a bugle player in a Civil War military band than stream an old episode of Breaking Bad, as part of the Smithsonian Institution’s online Transcription Center. So far, 5,883 volunteers from around the world have transcribed more than 150,000 pages from over 1,000 projects.", url: "http://www.atlasobscura.com/articles/how-the-smithsonian-is-crowdsourcing-history" }
   - { outlet: "Pando", logo_src: "pando-logo.png", title: "Smithsonian turns to crowdsourcing for massive digitization project", quote: "There are 5 million plant specimens in the US Herbarium at the Natural History Museum’s Botany Department, one of the most extensive collections of plant life in the world. They all have labels. But only 1.3 million of those labels can be read by computers. That’s where you come in.", url: "https://pando.com/2013/11/08/smithsonian-turns-to-crowdsourcing-for-massive-digitization-project/" }
 
-  
+
 
 tags:
   - Open Data

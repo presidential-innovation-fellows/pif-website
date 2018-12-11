@@ -96,7 +96,7 @@
     margin-top: 1.5em;
   }
 
-  .project-description {
+  p, .project-description{
     font-size: 1.3em;
   }
 
@@ -204,7 +204,7 @@
   }
 
   .more_detail {
-  
+
   }
 
   .project-banner-content {
@@ -274,13 +274,21 @@ ul.potential-projects li {
   padding: 5px 0px;
 }
 
-.next-projects {
-  font-size: 1.2em; 
-  /* border: 1px solid #000000; */
-  text-align: left;
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
 }
 
-div.next-projects img {
-  height: 100px;
-  width: 100px;
+.upcoming-projects {
+  font-size: 1.2em;
+  text-align: left;
+  list-style: none;
+  padding: 0;
+  li{
+    padding: 20px 0px;
+    p {
+      margin: 0;
+    }
+  }
 }

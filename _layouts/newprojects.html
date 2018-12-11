@@ -2,16 +2,16 @@
 layout: default
 skip_index: true
 ---
-<section class="usa-project-banner" style="background-image: linear-gradient(to top, rgba(0, 0, 0, 0.78), rgba(0, 0, 0, 0.71)), url('/assets/images{{page.id}}/{{page.cover_art}}');">
+<section class="usa-project-banner" style="background-image: linear-gradient(to top, rgba(0, 0, 0, 0.78), rgba(0, 0, 0, 0.71)), url('{{ site.baseurl }}/assets/images{{page.id}}/{{page.cover_art}}');">
   <div class="project-banner-content">
     <div class="container-fluid">
-      
+
       <h1 class="challenge-question">
-        <!-- <span>{{page.title}}:</span> --> 
+        <!-- <span>{{page.title}}:</span> -->
 
         {{page.subtitle}}
       </h1>
-    
+
     </div>
   </div>
 </section>
@@ -48,7 +48,7 @@ skip_index: true
         {% for item in page.gallery %}
         <div class="case-study-item gall-{{ forloop.index }} {{ forloop.first }}">
           <figure class="project-image">
-            <img alt="{{item.alt}}" src="/assets/images{{page.id}}/{{item.src}}">
+            <img alt="{{item.alt}}" src="{{ site.baseurl }}/assets/images{{page.id}}/{{item.src}}">
           </figure>
           <div class="caption">
             {% if item.caption %}
@@ -59,7 +59,7 @@ skip_index: true
         {% endfor %}
         <div class="case-study-slideshow">
             {% for item in page.gallery %}
-            <img class="thumb gall-{{ forloop.index }} {{ forloop.first }}" {% if item.alt %}alt="{{item.alt}}"{% endif %} src="/assets/images{{page.id}}/{{item.src}}" style="cursor: pointer;">
+            <img class="thumb gall-{{ forloop.index }} {{ forloop.first }}" {% if item.alt %}alt="{{item.alt}}"{% endif %} src="{{ site.baseurl }}/assets/images{{page.id}}/{{item.src}}" style="cursor: pointer;">
             {% endfor %}
         </div>
       </div>
@@ -94,7 +94,7 @@ skip_index: true
     </div>
     </div>
     {% if page.impact_metrics_src %}
-    <img class="img-responsive" src="/assets/images/{{page.id}}/{{page.impact_metrics_src}}">
+    <img class="img-responsive" src="{{ site.baseurl }}/assets/images/{{page.id}}/{{page.impact_metrics_src}}">
     {% endif %}
     </div>
 </section>
@@ -106,7 +106,7 @@ skip_index: true
       <li>
         <div class="press-logo">
           <figure>
-            <a href="{{ press.url }}" target="_blank"><img alt="{{ press.outlet }} logo" src="/assets/images/press/{{ press.logo_src }}"></a>
+            <a href="{{ press.url }}" target="_blank"><img alt="{{ press.outlet }} logo" src="{{ site.baseurl }}/assets/images/press/{{ press.logo_src }}"></a>
           </figure>
         </div>
         <div class="press-description">

@@ -252,7 +252,7 @@ body{
             color: $white;
             padding-top: 10px;
             padding-bottom: 10px;
-            font-family:'Avenir Heavy';
+            /*font-family:'Avenir Heavy';*/
             font-size: 16px;
           }
       }
@@ -411,7 +411,8 @@ footer {
 #home{
   #mission{
     padding-top:25px;
-    padding-bottom:65px;
+    /*padding-bottom:65px;*/
+    padding-bottom:25px;
     h4{
       padding-top:10px;
     }
@@ -898,14 +899,14 @@ footer {
   // HOME
   #home{
     #fellow-preview{
-      padding-top:65px;
+      /*padding-top:65px;*/
       padding-bottom:50px;
     }
     #project-preview{
       padding-top:25px;
     }
     #map{
-      padding-bottom:75px;
+      /*padding-bottom:75px;*/
     }
   }
 }
@@ -1100,7 +1101,7 @@ footer {
   }
   #home{
     #fellow-preview{
-      padding-top:50px;
+      /*padding-top:50px;*/
       padding-bottom:25px;
     }
     #project-preview{
@@ -1209,7 +1210,7 @@ footer {
         font-size:2em;
         padding-bottom:20px;
       }
-      padding-top:50px;
+      // padding-top:50px;
       padding-bottom:15px;
     }
     #project-preview{

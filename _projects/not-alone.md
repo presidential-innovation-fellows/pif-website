@@ -20,12 +20,12 @@ gallery:
 
 impact_metrics:
     - { metric: "500,000+ page views", desc: "in first 6 months." }
-  
-articles: 
+
+articles:
   - { outlet: "White House", logo_src: "white-house-logo.jpg", title: "FACT SHEET: Not Alone – Protecting Students from Sexual Assault", quote: "On the website, students can learn about their rights, search enforcement data, and read about how to file a complaint.  The website will also help schools and advocates:  it will make available federal guidance on legal obligations, best available evidence and research, and relevant legislation.", url: "https://www.whitehouse.gov/the-press-office/2014/04/29/fact-sheet-not-alone-protecting-students-sexual-assault" }
   - { outlet: "Huffington Post", logo_src: "huffington-post-logo.jpg", title: "White House Steps Up Fight Against Campus Rape", quote: "Survivor advocates applauded in particular the calls for greater transparency in enforcement efforts and clearer explanation of how students can file federal complaints.", url: "http://www.huffingtonpost.com/2014/04/29/white-house-college-sexual-assault_n_5235747.html" }
 
-  
+
 
 tags:
   - Safety
