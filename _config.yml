@@ -7,7 +7,7 @@ url: "https://presidentialinnovationfellows.gov" # the base hostname & protocol 
 # Build settings
 markdown: kramdown
 
-gems:
+plugins:
   - jekyll-sitemap
 
 exclude:
