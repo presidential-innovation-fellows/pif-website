@@ -3,7 +3,7 @@ id: gsa-customer-experience
 layout: newprojects
 agency: "GSA"
 title: "General Services Administration Office of Produce and Platforms and White House Office of Management and Budget, Customer Experience Cross-Agency Priority Goal"
-cover_art: ""
+cover_art: "gsa.png"
 subtitle: "How might we improve the customer experience of federal services across the entire government?
 "
 
