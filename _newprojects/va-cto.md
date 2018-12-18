@@ -9,7 +9,7 @@ subtitle: "How might we deliver better services to our nation's veterans?"
 impact_heading: "Helping the U.S. Department of Veterans Affairs better support Veterans transitioning from military to civilian life, adopt medical innovations to improve health outcomes, and reduce the processing time for benefits claims
 "
 
-description: "<h5>The Department of Veteran’s affairs is working to help the VA adopt modern digital service delivery best practices, become more data-driven, improve processes and improve the experience that veterans have when interacting with the VA online.  As part of this effort, the VA is seeking four Presidential Innovation Fellows to work on the following challenges:</h5>
+description: "<p>The Department of Veteran’s affairs is working to help the VA adopt modern digital service delivery best practices, become more data-driven, improve processes and improve the experience that veterans have when interacting with the VA online.  As part of this effort, the VA is seeking four Presidential Innovation Fellows to work on the following challenges:</p>
 
 "
 

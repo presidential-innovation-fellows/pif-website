@@ -8,7 +8,7 @@ subtitle: "How might we help the U.S. Agency for Global Media better counter glo
 
 impact_heading: "Assisting the U.S. Agency for Global Media with employing innovative data-driven techniques in reaching new global audiences"
 
-description: "<h5>USAGM – an independent agency of the U.S. Government composed of Voice of America, Radio Free Europe/Radio Liberty, Office of Cuba Broadcasting, Radio Free Asia, and Middle East Broadcasting Networks - is looking to further advance its strategic focus on US national security issues and innovate on its overall mission (general news focus and empowering accurate local reporting, etc.). USAGM is at the frontlines of the U.S. government in technology, media, and foreign policy.</h5>
+description: "<p>USAGM – an independent agency of the U.S. Government composed of Voice of America, Radio Free Europe/Radio Liberty, Office of Cuba Broadcasting, Radio Free Asia, and Middle East Broadcasting Networks - is looking to further advance its strategic focus on US national security issues and innovate on its overall mission (general news focus and empowering accurate local reporting, etc.). USAGM is at the frontlines of the U.S. government in technology, media, and foreign policy.</p>
 "
 
 description_more: "<p>For many adversaries, the use of the information battlefield is a critical component of their success and their ability to recruit fellow loyalist organizations and new adherents to their cause.</p>
