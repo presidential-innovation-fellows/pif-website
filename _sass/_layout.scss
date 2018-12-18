@@ -1270,4 +1270,22 @@ footer {
       margin-bottom:25px;
     }
   }
+
+  #projects {
+    .upcoming-projects {
+      li.row {
+        text-align: center;
+        a {
+          display: inline-block;
+        }
+        img {
+          max-height: 80px;
+        }
+        .col-sm-6:first-child {
+          margin-bottom: 40px;
+        }
+      }
+    }
+  }
+
 }

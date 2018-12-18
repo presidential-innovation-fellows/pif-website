@@ -39,9 +39,9 @@ skip_index: true
         </p>
         {% endif %}
       </header>
-      <p class="project-description">
+      <div class="project-description">
         {{page.description}}
-      </p>
+      </div>
     </div>
     <div class="usa-width-one-half">
       <div class="project-gallery">
@@ -50,16 +50,18 @@ skip_index: true
           <figure class="project-image">
             <img alt="{{item.alt}}" src="{{ site.baseurl }}/assets/images{{page.id}}/{{item.src}}">
           </figure>
+          {% if item.caption != "" %}
           <div class="caption">
-            {% if item.caption %}
             {{ item.caption }}
-            {% endif %}
           </div>
+          {% endif %}
         </div>
         {% endfor %}
         <div class="case-study-slideshow">
             {% for item in page.gallery %}
+              {% if forloop.length > 1 %}
             <img class="thumb gall-{{ forloop.index }} {{ forloop.first }}" {% if item.alt %}alt="{{item.alt}}"{% endif %} src="{{ site.baseurl }}/assets/images{{page.id}}/{{item.src}}" style="cursor: pointer;">
+              {% endif %}
             {% endfor %}
         </div>
       </div>
@@ -76,10 +78,9 @@ skip_index: true
     </div>
   </div>
 
-</section>
 <!-- </section> -->
 {% endif %}
-
+</section>
 
 {% if page.impact_metrics %}
 <section class="project-impact">
@@ -99,6 +100,8 @@ skip_index: true
     </div>
 </section>
 {% endif %}
+
+{% if page.articles|size > 0 %}
 <section class="project-press">
   <div class="container">
     <ul class="press-snippets">
@@ -130,7 +133,7 @@ skip_index: true
     </ul>
   </div>
 </section>
-
+{% endif %}
 <!-- Hiding until we expand number of available projects
 <section class="project-categories">
   <div class="container">

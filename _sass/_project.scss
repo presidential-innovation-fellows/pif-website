@@ -96,8 +96,8 @@
     margin-top: 1.5em;
   }
 
-  p, .project-description{
-    font-size: 1.3em;
+  p, ul, .project-description{
+    font-size: 16px;
   }
 
   .project-image {
@@ -105,6 +105,7 @@
     img {
       /* width: 100%; */
       max-width: 300px;
+      max-height: 160px;
     }
   }
 
@@ -281,7 +282,7 @@ ul.potential-projects li {
 }
 
 .upcoming-projects {
-  font-size: 1.2em;
+  font-size: 1em;
   text-align: left;
   list-style: none;
   padding: 0;
