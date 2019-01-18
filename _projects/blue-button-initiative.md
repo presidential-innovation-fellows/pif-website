@@ -12,7 +12,7 @@ description: "<h5><b>CHALLENGE</b>: Increase the transparency and access to thei
 
 <h5><b>SOLUTION</b>: A team of PIFs, in partnership with the Office of the National Coordinator for Health Information Technology (ONC), VA, DoD, & CMS to expand the Blue Button Initiatives including connector, Fast Healthcare Interoperability Resources (FHIR) API standards for interoperability and a FHIR test server in SITE and CMS.</h5>"
 
-project_url: http://bluebuttonconnector.healthit.gov/
+project_url: https://www.healthit.gov/topic/health-it-initiatives/blue-button
 
 gallery:
   - { src: "bb-logo.jpg", caption: "The Blue Button symbol helps patients find places to get their health records electronically across the internet.", alt: "Blue Button logo" }
