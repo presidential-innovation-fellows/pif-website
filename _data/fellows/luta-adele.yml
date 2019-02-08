@@ -1,0 +1,13 @@
+id: luta-adele
+name: Adele Luta
+img: luta-adele-headshot.jpg
+year: 2019
+hometown: "Mons, Belgium"
+region: outside
+bio: "Scientist and instructor with operational experience developing technical solutions as part of a multidisciplinary teams."
+bio_full: "Adele Luta is a scientist and her core education is in physics. Some of her most recent roles have included: Astronaut Instructor and Mission Control Center Flight Controller for the Extravehicular Activities Group at NASA’s Johnson Space Flight Center; Senior Staff Scientist at the Department of Defense’s Defense Advanced Research Projects Agency (DARPA) simultaneously supporting the Biological Technologies Office, Adaptive Execution Office, and Tactical Technology Office; and Technical Team Member at the North Atlantic Treaty Organization (NATO) Science and Technology Organization through its Collaborative Support Office.
+<br><br>
+Her first innovation role was supporting the Cleveland Clinic Foundation’s Innovation Office as a Commercialization Officer in the domain of Biological Microelectromechanical Systems. Adele has instructed at La Universidad Latinoamericana de Ciencia y Tecnología (ULACIT) and Case Western Reserve University."
+skills:
+  - data
+  - ux

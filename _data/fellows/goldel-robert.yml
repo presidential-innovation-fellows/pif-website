@@ -1,0 +1,16 @@
+id: goldel-robert
+name: Robert Goldel
+img: goldel-robert-headshot.jpg
+year: 2019
+hometown: "Boston, MA"
+region: east
+bio: "Innovator, Founder, Neuroscientist, Technologist. 20 years working at the intersection of cognition, behavior, and the brain, solving for human health and performance concerns with industry, non-profit, and government partners."
+bio_full: "Robert Goldel is an innovator, founder, neuroscientist, and technologist. His research has applied behavioral and neuroimaging methods to analyze core brain functions, including memory, learning, attention, and decision making. At Neumitra, his team launched the first smart watch to measure and manage the physiology of the nervous system with real-time biofeedback. Working with designers, engineers, and researchers, their technology offers continuous sensor data to personalize devices and software with statistical learning into mobile multimedia backed by cloud-based analytics.
+<br><br>
+His work has been supported by the National Science Foundation, the National Institutes of Health, Breakout Labs at the Thiel Foundation, the Defense Advanced Research Projects Agency, the Robert Wood Johnson Foundation, the founders of Boston Scientific, General Magic, iRobot, SmartCells, and Yahoo. His efforts have focused on applying continuous data streams to new types of software and user experiences for artificial intelligence. As a Rock Health and MassChallenge alumnus, he has been deeply inspired by organizations that have enabled ecosystems and infrastructures to build, grow, and sustain great organizations and the people behind them."
+skills:
+  - bd
+  - product
+  - design
+  - digital
+  - ux
