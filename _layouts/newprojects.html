@@ -101,7 +101,8 @@ skip_index: true
 </section>
 {% endif %}
 
-{% if page.articles|size > 0 %}
+{% assign has_page_articles = page.articles | size %}
+{% if has_page_articles > 0 %}
 <section class="project-press">
   <div class="container">
     <ul class="press-snippets">
