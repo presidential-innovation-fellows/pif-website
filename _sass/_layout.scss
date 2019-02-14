@@ -379,6 +379,7 @@ footer {
   }
 }
 
+
 // HOME
 #home-hero{
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0,0,0, 0.45)), to(rgba(0,0,0, 0.55))), url('../assets/images/pif-hero4.png');
@@ -399,7 +400,7 @@ footer {
     }
   }
 }
-#home-cta{
+#home-cta, #cta-apply {
   .btn{
     font-size: 2.1em;
     letter-spacing: 1px;
@@ -872,7 +873,7 @@ footer {
   }
 }
 
-#application-info {
+#application-info, #application-cta{
   font-size: 1.3em;
   padding-top: 50px;
   padding-bottom: 25px;
@@ -883,7 +884,9 @@ footer {
     padding: 0 0 20px 20px;
   }
 }
-
+#application-cta {
+  margin-bottom: 20px;
+}
 
 // Large and medium devices (desktops)
 @media (min-width: 992px) {

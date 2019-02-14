@@ -1,14 +1,14 @@
-{{ page }}
+
 <footer>
 
   <div class="container-fluid" id="footer">
-    <div class="row" id="cta">
+    {% unless page.permalink == "apply/" %}<div class="row" id="cta">
       <div class="col-sm-12 text-center">
         <h4>Become a Presidential Innovation Fellow <span class="visible-xs" id="cta-span"><br/></span>
           <a class="btn btn-lg btn-primary" href="{{ site.baseurl}}/application-closed">Get Started</a>
         </h4>
       </div>
-    </div>
+    </div>{% endunless %}
     <div class="row" id="footer-text">
       <div class="col-md-7 col-md-offset-1 col-sm-12">
         <div class="row">
