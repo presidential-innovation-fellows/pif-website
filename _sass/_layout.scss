@@ -269,6 +269,24 @@ body{
     }
   }
 }
+// Resetting default style in Bootstrap
+.navbar-default {
+  .navbar-nav {
+    li{
+      a.navbar-btn {
+        color: #fff;
+        background-color: #337ab7;
+        border-color: #2e6da4;
+        padding: 12px;
+        &:hover {
+          color: #fff;
+          background-color: #286090;
+          border-color: #204d74;
+        }
+      }
+    }
+  }
+}
 .nav-bg{
   background-color: $pif-blue;
   border-color:#2D3D59;
@@ -762,7 +780,7 @@ footer {
 
 
 // LEADERSHIP
-#leadership{
+#pif-leadership{
   padding-top:50px;
   padding-bottom:75px;
   h3{
@@ -777,7 +795,7 @@ footer {
   hr{
     margin-top:5px;
   }
-  #leadership-bio{
+  #pif-leadership-bio{
     margin-bottom:75px;
   }
   .row {
