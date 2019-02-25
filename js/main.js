@@ -30,11 +30,11 @@ $(document).ready(function() {
   }
 
   // navbar button action to pif application
-  $('.navbar-btn').click(function() {
-    window.location = "https://presidentialinnovationfellows.gov/application-closed/";
-    // window.location = "https://apply.pif.gov/";
-  });
-  
+  // $('.navbar-btn').click(function() {
+  //   window.location = "https://presidentialinnovationfellows.gov/application-closed/";
+  //   // window.location = "https://apply.pif.gov/";
+  // });
+
 
 
   // home page navbar button animation
