@@ -2,10 +2,10 @@ id: baker-rob
 name: Rob Baker
 img: baker-rob-headshot.png
 year: 2013
-hometown: "Washington, DC"
-region: south
-bio: "Round 2 alum implementing open data policy at USAID. Former Ushahidi COO, now on data projects in World Bank's Innovation Labs. Go Red Sox."
-bio_full: "Previously, Rob served as Operations Manager at Ushahidi, a renowned Kenyan-based open source software organization.  Rob’s decade-long career in the non-profit sector as a director and web developer has taken him around the world, working with information/communication technology for development, crisis response, and political activism with a focus on Haiti, East and Central Africa, and the Middle East.  He is a sought-after speaker on the topic of information and communication technology tools, and has participated in events at the United Nations, the US State Department, and MIT.  Rob was previously a member of the US-Russia Presidential Bilateral Commission on Media and is a member of the Humanitarian OpenStreetMap Team.  Prior to Ushahidi, he was the Senior Developer of Web & New Media for Oxfam America in Boston and Technical Advisor for the Satellite Sentinel Project.  Rob holds a BA in Poetics and Traditional Eastern Arts from Naropa University.  He grew up in Arlington, MA, and currently resides in Washington, DC."
+hometown: "Cambridge, MA"
+region: northeast
+bio: "Technology for humanitarian response"
+bio_full: "Rob Baker was a Round 2 PIF and currently is the Director of the Signal Program on Human Security and Technology at the Harvard Humanitarian Initiative (HHI) of the Harvard Chan School of Public Health. He has over fifteen years of experience as a humanitarian aid worker and technologist, focusing on the effective but responsible deployment of emerging technology. Prior to joining Signal, Rob worked in the World Bank's Innovation Lab, in USAID's Global Development Lab as a political appointee in the Obama administration, and was COO for Kenyan-based tech company Ushahidi. Rob was also a 2011 delegate of the U.S.-Russian Bilateral Presidential Commission, 2013 White House Presidential Innovation Fellow and is a 2018 N Square Fellow contributing to programs on nuclear de-proliferation and disarmament."
 skills:
   - front
   - data
