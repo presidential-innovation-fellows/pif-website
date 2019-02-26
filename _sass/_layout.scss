@@ -269,6 +269,24 @@ body{
     }
   }
 }
+// Resetting default style in Bootstrap
+.navbar-default {
+  .navbar-nav {
+    li{
+      a.navbar-btn {
+        color: #fff;
+        background-color: #337ab7;
+        border-color: #2e6da4;
+        padding: 12px;
+        &:hover {
+          color: #fff;
+          background-color: #286090;
+          border-color: #204d74;
+        }
+      }
+    }
+  }
+}
 .nav-bg{
   background-color: $pif-blue;
   border-color:#2D3D59;
@@ -379,6 +397,7 @@ footer {
   }
 }
 
+
 // HOME
 #home-hero{
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0,0,0, 0.45)), to(rgba(0,0,0, 0.55))), url('../assets/images/pif-hero4.png');
@@ -399,7 +418,7 @@ footer {
     }
   }
 }
-#home-cta{
+#home-cta, #cta-apply {
   .btn{
     font-size: 2.1em;
     letter-spacing: 1px;
@@ -761,7 +780,7 @@ footer {
 
 
 // LEADERSHIP
-#leadership{
+#pif-leadership{
   padding-top:50px;
   padding-bottom:75px;
   h3{
@@ -776,7 +795,7 @@ footer {
   hr{
     margin-top:5px;
   }
-  #leadership-bio{
+  #pif-leadership-bio{
     margin-bottom:75px;
   }
   .row {
@@ -872,7 +891,7 @@ footer {
   }
 }
 
-#application-info {
+#application-info, #application-cta{
   font-size: 1.3em;
   padding-top: 50px;
   padding-bottom: 25px;
@@ -882,8 +901,18 @@ footer {
     float: right;
     padding: 0 0 20px 20px;
   }
+  h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  h4 {
+    font-size: 1em;
+    font-weight: bold;
+  }
 }
-
+#application-cta {
+  margin-bottom: 20px;
+}
 
 // Large and medium devices (desktops)
 @media (min-width: 992px) {
