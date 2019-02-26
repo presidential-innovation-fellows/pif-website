@@ -4,8 +4,14 @@ img: sunthara-gaj-headshot.png
 year: 2014
 hometown: "Boston, MA"
 region: northeast
-bio: "Computer Scientist with Lab Med & Healthcare Background. Presidential Innovation Fellow at U.S.HHS, CTO, Cofounder and Advisor Harvard Med."
-bio_full: "He also volunteers as a Mentor for both InciteHealth at the Center for Primary Care at Harvard Medical School, as well as for Hacking Pediatrics in collaboration with MIT H@cking Medicine. Gajen has a B.Sc. in Computer Science from Wentworth Institute of Technology and a Master’s in Information Technology from Harvard University. Gajen’s master thesis focused on using Google Glass to develop a novel application called “GlassSurgeon” which enhances a surgeon’s workflow and improves patient safety by leveraging natural language processing and hands-free features that access real-time clinical information systems. Combining expertise in laboratory medicine and in-depth understanding of clinical and patient workflows through technical leadership in R&D, devices, software development and architecture, he aims to achieve his professional goal of implementing innovative technologies within the healthcare setting."
+bio: "Former White House PIF and USDSer. Director of Innovation R&D at Boston Children’s Hospital, Founder at 1upHealth, and Senior Advisor at Harvard Medical School."
+bio_full: "Gajen Sunthara is the Director of Innovation R&D at Boston Children's Hospital and is the founder of 1upHealth, which is a platform for patients, providers, and software developers to aggregate and share medical data. Prior to this, he helped tech-architect President Obama’s Precision Medicine Initiative at the White House, worked at the United States Digital Service (USDS), and served as a Presidential Innovation Fellow (PIF) at the U.S. Department of Health and Human Services/Office of the National Coordinator for Health IT. While in both public service roles, he worked with multiple government agencies including the U.S. Department of Defense (DoD), Veteran Affairs (VA), and the Centers for Medicare & Medicaid Services (CMS) on the national healthcare information exchange.
+<br/>
+<br/>
+He also holds a Senior Advisor role at InciteHealth at the Center for Primary Care at Harvard Medical School.
+<br/>
+<br/>
+Gajen has a B.Sc. in Computer Science from Wentworth Institute of Technology and a M.S. in Information Technology from Harvard University."
 skills:
   - policy
   - front
