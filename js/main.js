@@ -35,8 +35,6 @@ $(document).ready(function() {
   //   // window.location = "https://apply.pif.gov/";
   // });
 
-
-
   // home page navbar button animation
   var fullPath = location.pathname + location.search + location.hash,
       projectPath = fullPath.indexOf("project/") > -1;
