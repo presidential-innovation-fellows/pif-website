@@ -126,13 +126,19 @@
   short: NLM
   long: National Library of Medicine
   website: "https://www.nlm.gov"
-
 -
   short: DIUX
   long: Defense Innovation Unit
   website: "https://www.diux.mil"
-
 -
   short: FBI
   long: Federal Bureau of Investigation
   website: "https://www.fbi.gov"
+-
+  short: USMC
+  long: US Marine Corps
+  website: "https://www.marines.mil"
+-
+  short: USAGM
+  long: US Agency for Global Media
+  website: "https://www.usagm.gov"
