@@ -78,26 +78,22 @@
 
   <script type="text/javascript" src="https://www.google.com/jsapi"></script>
 
-  <script type="text/javascript">
-
-   google.load("jquery", "1");
-
-   google.setOnLoadCallback(function() {
+  <script type="text/javascript" src="../../js/jquery-3.3.1.min.js"></script>
+  <script>
+    $(function() {
+      google.setOnLoadCallback(function() {
 
         initialize().then (
 
-            function (control) {
+          function (control) {
 
-                doTheTreeViz(control);
+              doTheTreeViz(control);
+          }
+        )
+      })
+    });
 
-            }
-
-        );
-
-   });
-
-  </script> 
-
+  </script>
   
 
   <style>
@@ -1110,9 +1106,9 @@ function getTheData() {
 
 }
 
-var widthval = innerWidth()
+var widthval = $( window ).innerWidth()
 
-var heightval = innerHeight()
+var heightval = $( window ).innerHeight()
 
 
 
