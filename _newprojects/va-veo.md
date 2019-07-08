@@ -14,7 +14,7 @@ description: "<p>The Veteran Experience (VE) team at the Department of Veteran A
 
 description_more: ""
 
-project_url: https://www.va.gov/ve//
+project_url: https://www.va.gov/ve/
 
 gallery:
   - { src: "US_Department_of_Veterans_Affairs_logo.svg.png", caption: "To enable VA to be the leading customer service organization in government so that Veterans, their families, caregivers and survivors Choose VA.", alt: "VA Logo" }
