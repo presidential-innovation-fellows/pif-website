@@ -170,7 +170,8 @@ permalink: projects/
 			<h3><em>Case Studies</em></h3>
 			<hr/>
 			<div class="row">
-				{% for project in site.projects %}
+				{% assign sorted_projects = site.projects | sort:"position" %}
+				{% for project in sorted_projects %}
 				{% unless project.unlisted %}
 				<div class="col-md-3 col-sm-6">
 					<a href="{{ project.id }}.html">

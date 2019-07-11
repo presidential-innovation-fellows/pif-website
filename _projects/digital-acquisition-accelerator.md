@@ -1,7 +1,7 @@
 ---
 id: digital-acquisition-accelerator
 layout: case-study
-position: 5
+unlisted: true
 agency: "GSA"
 title: "Digital Acquisition Accelerator"
 cover_art: "hero.jpg"

@@ -1,7 +1,7 @@
 ---
 id: blue-button-initiative
 layout: case-study
-position: 1
+position: 3
 agency: "ONC"
 title: "Blue Button Initiative"
 cover_art: "health-tech-cover-art.jpg"

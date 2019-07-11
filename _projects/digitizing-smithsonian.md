@@ -1,7 +1,7 @@
 ---
 id: digitizing-smithsonian
 layout: case-study
-position: 4
+position: 7
 agency: "SI"
 title: "Digitizing the Smithsonian Institute's Herbarium"
 cover_art: "smithsonian-trans.jpg"
