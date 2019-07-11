@@ -1,7 +1,7 @@
 ---
 id: defense-innovation
 layout: case-study
-position: 2
+position: 1
 agency: "DIUX"
 title: "Defense Innovation"
 hero_image: "banner-diux.jpg"

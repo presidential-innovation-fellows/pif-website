@@ -1,7 +1,7 @@
 ---
 id: nasa-asteroid-grand-challenge
 layout: case-study
-position: 1
+position: 2
 agency: "NASA"
 title: "NASA’s Asteroid Grand Challenge and Citizenscience.gov"
 cover_art: "img-nasa-asteroid.jpg"
