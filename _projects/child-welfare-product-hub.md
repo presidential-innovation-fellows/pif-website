@@ -1,7 +1,7 @@
 ---
 id: child-welfare-product-hub
 layout: case-study
-position: 6
+position: 5
 agency: "HHS"
 title: "Child Welfare Product Hub"
 cover_art: "think-of-us.jpg"

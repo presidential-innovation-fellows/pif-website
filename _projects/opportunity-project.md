@@ -1,7 +1,7 @@
 ---
 id: opportunity-project
 layout: case-study
-position: 3
+position: 9
 agency: "DOC"
 title: "The Opportunity Project"
 cover_art: "opportunity-3.jpg"

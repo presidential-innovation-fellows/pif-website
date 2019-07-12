@@ -1,7 +1,7 @@
 ---
 id: cancer-moonshot
 layout: case-study
-position: 8
+position: 4
 agency: "NIH"
 title: "Vice President Biden’s Cancer Moonshot"
 cover_art: "biden-cover-art.jpg"

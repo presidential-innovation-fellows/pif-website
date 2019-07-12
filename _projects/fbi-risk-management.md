@@ -1,7 +1,7 @@
 ---
 id: fbi-risk-management
 layout: case-study
-position: 2
+position: 8
 agency: "FBI"
 title: "FBI Risk Management"
 cover_art: "hacking-background.jpg"

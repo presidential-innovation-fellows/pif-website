@@ -2,11 +2,11 @@
 layout: default
 skip_index: true
 ---
-<section class="usa-project-banner" style="background-image: linear-gradient(to top, rgba(0, 0, 0, 0.78), rgba(0, 0, 0, 0.71)), url('/assets/images{{page.id}}/{{page.cover_art}}');">
+<section class="usa-project-banner" style="background-image: linear-gradient(to top, rgba(0, 0, 0, 0.78), rgba(0, 0, 0, 0.71)), url('/assets/images{{page.id}}/{% if page.hero_image %}{{page.hero_image}}{% else %}{{page.cover_art}}{% endif %}');">
   <div class="project-banner-content">
     <div class="container-fluid">
       <h1 class="impact-statement">
-        <span>{{page.title}}:</span> {{page.subtitle}}
+        <span>{{page.title}}</span>{% if page.subtitle %}: {{page.subtitle}}{% endif %}
       </h1>
     </div>
   </div>
