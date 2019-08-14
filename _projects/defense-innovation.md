@@ -2,7 +2,7 @@
 id: defense-innovation
 layout: case-study
 position: 1
-agency: "DIUX"
+agency: "DIU"
 title: "Defense Innovation"
 hero_image: "banner-diux.jpg"
 cover_art: "michael-brown-headshot.jpg"

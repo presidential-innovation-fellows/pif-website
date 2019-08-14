@@ -1,7 +1,7 @@
 ---
 id: diux-startups
 layout: newprojects
-agency: "DIUx"
+agency: "DIU"
 title: "DIUx Startup Collaboration"
 cover_art: "DIUX_Small_Hero.jpg"
 subtitle: "How might the Department of Defense better collaborate with start-ups?"
@@ -15,7 +15,7 @@ description_more: "<p>DIUx’s technical focus areas include: 1) Autonomy (drone
 
 <p>DIUx is looking for two Presidential Innovation Fellows to help bridge the gap between the DoD and the tech and innovation community. These individuals should have a understanding of technology within DIUx’s focus areas (AI/ML, autonomy, networking and security, etc.), experience running large programs in the commercial world, entrepreneurial backgrounds with success in founding and selling a tech start-up and/or tech policy experience.</p>"
 
-project_url: https://www.diux.mil/
+project_url: https://www.diu.mil/
 
 gallery:
   - { src: "logo.png", caption: "We're a fast-moving government entity that provides non-dilutive capital to companies to solve national defense problems.", alt: "DIUx Logo" }
