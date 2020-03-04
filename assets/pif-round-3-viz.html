@@ -66,7 +66,7 @@
 
   <meta charset="utf-8" />
 
-  
+
 
   <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
 
@@ -76,11 +76,13 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js" charset="utf-8"></script>
 
-  <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+  <!-- <script type="text/javascript" src="https://www.google.com/jsapi"></script>-->
+  <script src="https://federalist.18f.gov/assets/js/3/jquery.min.js"></script>
+
 
   <script type="text/javascript">
 
-   google.load("jquery", "1");
+   //google.load("jquery", "3");
 
    google.setOnLoadCallback(function() {
 
@@ -96,9 +98,9 @@
 
    });
 
-  </script> 
+  </script>
 
-  
+
 
   <style>
 
@@ -154,7 +156,7 @@
 
 		}
 
-	
+
 
 
 
@@ -438,7 +440,7 @@
 
    }
 
-    
+
 
    .node text {
 
@@ -552,9 +554,9 @@
 
    }
 
-  </style>  
+  </style>
 
-  
+
 
   <script>
 
@@ -584,7 +586,7 @@
 
         .data(control.links, function(d) { return d.unique; } );
 
- 
+
 
    // Enter any new links
 
@@ -604,7 +606,7 @@
 
         .text(function(d) { return d.source[control.options.nodeLabel] + ":" + d.target[control.options.nodeLabel] ; });
 
-    
+
 
     // Exit any old links.
 
@@ -636,11 +638,11 @@
 
 			})
 
-			
 
 
 
-			
+
+
 
   // Enter any new nodes.
 
@@ -670,7 +672,7 @@
 
                 setTimeout(function(){
 
-                    if (control.nodeClickInProgress) { 
+                    if (control.nodeClickInProgress) {
 
                         control.nodeClickInProgress = false;
 
@@ -684,7 +686,7 @@
 
                     }
 
-                },control.clickHack); 
+                },control.clickHack);
 
             }
 
@@ -716,7 +718,7 @@
 
 
 
-   if (control.options.nodeLabel) {       
+   if (control.options.nodeLabel) {
 
        // text is done once for shadow as well as for text
 
@@ -792,11 +794,11 @@
 
 	var w = innerWidth;
 
-	
+
 
     function tick() {
 
-	
+
 
         link.attr("x1", function(d) { return d.source.x; })
 
@@ -810,7 +812,7 @@
 
             return "translate(" + d.x + "," + d.y + ")";
 
-			
+
 
 	node.attr("cx", function(d) { return d.x = Math.max(r, Math.min(w - r, d.x)); })
 
@@ -822,11 +824,11 @@
 
 
 
-		
+
 
     }
 
- 
+
 
     function getRadius(d) {
 
@@ -894,7 +896,7 @@ function makeFilteredData(control,selectedNode){
 
     return control;
 
-    
+
 
     function addNodeIfNotThere( node, nodes) {
 
@@ -916,7 +918,7 @@ function organizeData(control) {
 
     for (var i=0; i < control.nodes.length; i ++ ) {
 
-        var node = control.nodes[i]; 
+        var node = control.nodes[i];
 
         node.unique = i;
 
@@ -924,7 +926,7 @@ function organizeData(control) {
 
     }
 
-    
+
 
     for (var i=0; i < control.links.length; i ++ ) {
 
@@ -948,13 +950,13 @@ function organizeData(control) {
 
 function initialize () {
 
-   
+
 
     var initPromise = $.Deferred();
 
 
 
-    getTheData().then( function (data) {  
+    getTheData().then( function (data) {
 
         var control = {};
 
@@ -1010,9 +1012,9 @@ function initialize () {
 
         }, control.data.d3.options);
 
-    
 
-        
+
+
 
         var options = control.options;
 
@@ -1034,7 +1036,7 @@ function initialize () {
 
         organizeData(control);
 
-    
+
 
         control.svg = d3.select(control.divName)
 
@@ -1044,9 +1046,9 @@ function initialize () {
 
             .attr("height", control.height);
 
-        
 
-    
+
+
 
         // get list of unique values in stylecolumn
 
@@ -1064,13 +1066,13 @@ function initialize () {
 
          }
 
-        } 
+        }
 
         else
 
          control.linkStyles[0] = "defaultMarker";
 
-        
+
 
         control.force = d3.layout.force().
 
@@ -1082,9 +1084,9 @@ function initialize () {
 
             .gravity(control.options.gravity);
 
-    
 
-    
+
+
 
        initPromise.resolve(control);
 
@@ -1096,7 +1098,7 @@ function initialize () {
 
 
 
-            
+
 
 function getTheData() {
 
@@ -1124,9 +1126,9 @@ var heightval = innerHeight()
 
 
 
-<script> 
+<script>
 
-window['PIFTREE'] = 
+window['PIFTREE'] =
 
 	{"d3":
 
@@ -1616,7 +1618,7 @@ window['PIFTREE'] =
 
 		<!--end-->
 
-			
+
 
        {'source':0,'target':133,'depth':5,'count':5},
 
@@ -2566,31 +2568,31 @@ window['PIFTREE'] =
 
 
 
-  
+
 
 <!--Text and junk-->
 
 
 
-			
+
 
   <div id="chart">  </div>
 
 
 
-  <h4 id="woot"><font face="Helvetica" color="slategrey" align="left"> 
+  <h4 id="woot"><font face="Helvetica" color="slategrey" align="left">
 
-    <img src="https://gsafas.secure.force.com/apply/resource/1395783749000/pifa/pifa/pif-logo.png" height="80" align="middle" > 
+    <img src="https://gsafas.secure.force.com/apply/resource/1395783749000/pifa/pifa/pif-logo.png" height="80" align="middle" >
 
     <strong>presidential innovation fellows: class iii</strong></font><br>
 
-      
+
 
       </h4>
 
 
 
-  
+
 
 
 
@@ -2603,4 +2605,3 @@ window['PIFTREE'] =
   <div id="nav"> </div>
 
 </html>
-
