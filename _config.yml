@@ -19,7 +19,7 @@
 ##########################################################################################
 
 title: Presidential Innovation Fellows
-email: contact@example.gov
+email: pif-team@gsa.gov
 description: >- # this means to ignore newlines until "baseurl:"
   The Presidential Innovation Fellows program brings the principles, values, and practices of the innovation economy into government through the most effective agents of change we know: our people.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -29,7 +29,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 twitter: pifgov
 
 # Configuration for Google Analytics, add your UA code here:
-google_analytics_ua: UA-????????-??
+google_analytics_ua: UA-67722639-1
 
 # Configuration for DAP, add your agency ID here:
 dap_agency: GSA
