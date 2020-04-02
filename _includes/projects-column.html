@@ -2,16 +2,16 @@
 <div class="grid-row grid-gap">
 {% for project in site.projects %}
     {% if include.project_filter == project.status %}
-      <div class="project-item usa-prose">
-          <div class="clearfix">
+      <div class="project-item">
+          <a class="" href="{{ site.baseurl }}{{ project.url }}">
             {% if project.agency_logo %}
             {% asset "{{ project.agency_logo }}" alt="{{ project.image_alt_text }}" %}
             {% endif %}
-            <h3 class="title">
-                <a class="usa-link text-no-underline" href="{{ site.baseurl }}{{ project.url }}">{{project.title}}</a>
-            </h3>
-            {{ project.agency }}
-        </div>
+            <div class="project-desc">
+              <span class="agency">{{ project.agency }}</span>
+              <h3 class="title">{{project.title}}</h3>
+            </div>
+          </a>
       </div>
     {% endif %}
 {% endfor %}

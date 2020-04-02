@@ -3,7 +3,7 @@ id: nih-all-of-us
 agency: "National Institutes of Health"
 agency_abbrev: "NIH"
 agency_logo: "NIH.png"
-title: "All of Us Research Program"
+title: "Building a diverse database to develop individualized health care"
 summary: Working with the National Institutes of Health engage research participants and researchers for the All of Us research program.
 cover_art: "all-of-us-participants.jpg"
 subtitle: "How might we dramatically improve health outcomes through precision medicine?"
