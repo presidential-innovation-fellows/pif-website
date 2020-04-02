@@ -3,7 +3,7 @@ id: fbi-risk-management
 agency: "Smithsonian Institution"
 agency_abbrev: "FBI"
 agency_logo: "FBI.png"
-title: "FBI Risk Management"
+title: "Risk management at the FBI"
 summary: "Defining an Ecosystem to Help the Private Sector Manage Risk and Mitigate Threats"
 cover_art: "computer-background.jpg"
 subtitle: "In collaboration with the FBI, the Presidential Innovation Fellows focused on the challenge of defining an ecosystem to help the private sector manage risk and mitigate threats, as part of the overall strategy to protect the US economy"

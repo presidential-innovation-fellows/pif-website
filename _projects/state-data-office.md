@@ -3,7 +3,7 @@ id: state-data-office
 agency: "U.S. Department of State"
 agency_abbrev: "State"
 agency_logo: "State.png"
-title: "Leveraging Data as an Asset at the State Department"
+title: "Leveraging data as an asset at the State Department"
 summary: "Aiding the U.S. Department of State in leveraging its data as a strategic asset to better gather insights on mission needs, results, and risks"
 cover_art: ""
 subtitle: "How might we help U.S. Department of State become more data driven?"

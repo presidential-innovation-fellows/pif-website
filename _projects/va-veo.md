@@ -3,7 +3,7 @@ id: va-veo
 agency: "U.S. Department of Veterans Affairs"
 agency_abbrev: "VA"
 agency_logo: "VA.png"
-title: "Transforming the Veteran Experience"
+title: "Transforming the Veteran experience"
 summary: "Helping to develop customer experience mechanisms in data, tools, and technology to enable the U.S. Department of Veterans Affairs to deliver the best experience to Veterans, families, caregivers, and survivors"
 cover_art: ""
 subtitle: "How might we help the Department of Veteran Affairs deliver more veteran-centered services and care?"

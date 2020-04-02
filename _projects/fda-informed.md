@@ -3,7 +3,7 @@ id: fda-precert
 agency: "Food and Drug Administration"
 agency_abbrev: "FDA"
 agency_logo: "FDA.png"
-title: "Supporting Innovations that Enhance FDA’s Mission of Promotion and Protection of Public Health"
+title: "Supporting innovations that enhance FDA’s mission of promotion and protection of public health"
 summary: "Helping FDA address the needs of cancer patients in today’s technology-driven and connected world"
 cover_art: ""
 subtitle: "How might we help the Food and Drug Administration actively pursue the development of programs to support creation of a knowledgeable, sustainable, and agile data science workforce?"

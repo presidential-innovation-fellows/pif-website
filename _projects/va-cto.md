@@ -3,7 +3,7 @@ id: va-cto
 agency: "U.S. Department of Veterans Affairs"
 agency_abbrev: "VA"
 agency_logo: "VA.png"
-title: "Improving Services for Veterans"
+title: "Improving services for Veterans"
 summary: "Helping the U.S. Department of Veterans Affairs better support veterans transitioning from military to civilian life, improving data sharing to enable medical research and improved health outcomes for veterans, and reducing the processing time for medical claims"
 cover_art: "va-cto.jpg"
 subtitle: "How might we deliver better services to our nation's veterans?"
