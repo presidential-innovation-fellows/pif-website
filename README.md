@@ -7,9 +7,9 @@
 -->
 [![CircleCI](https://circleci.com/gh/18F/federalist-uswds-jekyll.svg?style=svg)](https://circleci.com/gh/18F/federalist-uswds-jekyll)
 
-# Federalist + U.S. Web Design System + Jekyll
+# The Presidential Innovation Fellows website
 
-This [Jekyll theme](https://jekyllrb.com/docs/themes/) is developed using the [U.S. Web Design System v 2.0](https://v2.designsystem.digital.gov) and is focused on providing developers a starter kit and reference implementation for Federalist websites.
+The [Presidential Innovation Fellows website](https://presidentialinnovationfellows.gov/) is developed using the [U.S. Web Design System v 2.0](https://v2.designsystem.digital.gov) and is focused on providing developers a starter kit and reference implementation for [Federalist](https://federalist.18f.gov/) websites.
 
 This code uses the [Jekyll](https://jekyllrb.com) site engine and built with Ruby. If you prefer to use Javascript, check out [federalist-uswds-gatsby](https://github.com/18F/federalist-uswds-gatsby), which uses [Gatsby](https://gatsbyjs.org) site engine.
 
@@ -28,7 +28,7 @@ This project strives to be compliant with requirements set by [21st Century IDEA
 
 ## Key Functionality
 This repository contains the following examples and functionality:
- 
+
 ✅  Publish blog posts, press releases, announcements, etc. To modify this code, check out `blog/index.html`, which manages how the posts are listed. You should then check out `_layouts/post.html` to see how individual posts are structured.
 
 ✅ Publish single one-off pages. Instead of creating lots of folders throughout the root directory, you should put single pages in `_pages` folder and change the `permalink` at the top of each page. Use sub-folders only when you really need to.
@@ -57,14 +57,14 @@ permalink: /document-with-sidenav
 ---
 ```
 
-✅ Enable search with [Search.gov](https://search.gov) by adding option to `_config.yml`. 
+✅ Enable search with [Search.gov](https://search.gov) by adding option to `_config.yml`.
 
 
 ```
 ---
 searchgov:
   endpoint: https://search.usa.gov  # You should not change this.
-  affiliate: federalist-uswds-example # replace this with your search.gov account 
+  affiliate: federalist-uswds-example # replace this with your search.gov account
   access_key: your-access-key # This is placeholder. Not private.
   inline: true #this renders the results on the same domain. Otherwise, it will render the results in the search.gov domain
 ---
@@ -131,7 +131,7 @@ Note that when built by Federalist, `npm run federalist` is used instead of the
 
 - [Jekyll](https://jekyllrb.com/docs/) - The primary site engine that builds your code and content.
 - [Front Matter](https://jekyllrb.com/docs/frontmatter) - The top of each page/post includes keywords within `--` tags. This is meta data that helps Jekyll build the site, but you can also use it to pass custom variables.
-- [U.S. Web Design System v 2.0](https://v2.designsystem.digital.gov) 
+- [U.S. Web Design System v 2.0](https://v2.designsystem.digital.gov)
 
 
 ## Contributing

@@ -9,7 +9,7 @@ cover_art: ""
 subtitle: "How might we improve the customer experience of federal services across the entire government?"
 partner_description: "The General Services Administration (GSA) is an independent agency of the United States government established in 1949 to help manage and support the basic functioning of federal agencies. GSA supplies products and communications for U.S. government offices, provides transportation and office space to federal employees, and develops government-wide cost-minimizing policies and other management tasks."
 project_link: https://www.gsa.gov
-status: "past"
+status: "current"
 ---
 
 Whether seeking a loan, Social Security benefits, Veterans benefits, or other services provided by the Federal Government, individuals and businesses expect Government services to be efficient and intuitive, just like they experience in interactions with leading private-sector organizations. Yet the 2016 American Consumer Satisfaction Index and the 2017 Forrester Federal Customer Experience Index show that, on average, Federal Government services are ranked last, and lag nine percentage points behind the national average of all industries.  Many federal services fail to meet not just the expectations of the public, but also the policy objective they were created for, creating unnecessary hassle and cost for citizens and businesses and undermining mission effectiveness.
