@@ -1,0 +1,14 @@
+---
+layout: fellow-landing
+title: Meet the Fellows
+sidenav: true
+banner: true
+permalink: /fellows/
+pagination:
+  enabled: true
+  collection: fellows
+  sort_field: fellow_year
+  sort_reverse: true
+---
+
+{% include fellow-list.html fellows=paginator.posts %}

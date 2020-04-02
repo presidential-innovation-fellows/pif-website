@@ -1,5 +1,0 @@
-name: openFDA
-agency: FDA
-description: "An initiative that provides easy access to FDA datasets that support the agency’s regulatory mission, help educate the public, and save lives. The project has made several valuable FDA public datasets—including millions of adverse event and medication error reports on FDA-regulated drugs—available to the public for the first time, via application programming interfaces (APIs) and raw structured files. (<a href='https://open.fda.gov/' target='_blank'>link to project</a>)"
-fellows:
-  - herron-sean

@@ -1,0 +1,43 @@
+{% comment %}
+To modify the menu system, you are welcome to edit this HTML directly or you can look inside _config.yml
+where we provide an easy way to manage your navigation system
+{% endcomment %}
+
+<header class="usa-header bg-primary-darker site-header usa-header--basic" role="banner">
+  <div class="usa-nav-container">
+  <div class="usa-navbar site-navbar">
+    {% include logo.html %}
+    <button class="usa-menu-btn">Menu</button>
+  </div>
+  <nav role="navigation" aria-label="Primary navigation" class="usa-nav usa-nav site-nav">
+
+      <button class="usa-nav__close">{% asset close.svg alt="close" %}</button>
+      <ul class="usa-nav__primary usa-accordion">
+        {% for nav_item in include.primary_navigation %}
+        {% unless nav_item.children %}
+        {% assign basedir = page.url | remove_first: '/' | split: '/' | first | lstrip %}
+        {% assign linkdir = nav_item.url |  replace: "/", ""  | lstrip %}
+        <li class="usa-nav__primary-item">
+          <a class="usa-nav__link{% if basedir == linkdir %} usa-current{% endif %}{% if linkdir == 'apply' %} usa-button{% endif %}"
+            href="{{ nav_item.url | prepend: site.baseurl}}"><span>{{ nav_item.name | escape }}</span></a>
+        </li>
+        {% else %}
+        {% assign nav_id = 'primary-nav-' | append: forloop.index %}
+        <li class="usa-nav__primary-item">
+          <button class="usa-accordion__button usa-nav__link" aria-expanded="false"
+            aria-controls="{{ nav_id }}"><span>{{ nav_item.name | escape }}</span></button>
+          <ul id="{{ nav_id }}" class="usa-nav__submenu">
+            {% for subnav_item in nav_item.children %}
+            <li class="usa-nav__submenu-item">
+              <a href="{{ subnav_item.url | prepend: site.baseurl }}">{{ subnav_item.name | escape }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+
+        </li>
+        {% endunless %}
+        {% endfor %}
+      </ul>
+  </nav>
+  </div>
+</header>

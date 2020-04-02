@@ -1,54 +1,51 @@
-<!-- Google Tag Manager -->
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-TQXNND"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-TQXNND');</script>
-<!-- End Google Tag Manager -->
+{% comment %}
+This appears at the top of the page letting the user know it's an official government website
+{% endcomment %}
 
-<header>
-
-  <nav class="navbar navbar-default navbar-fixed-top nav-bg" id="navbar">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
+<div class="page-landing-page">
+<a class="usa-skipnav" href="#main-content">Skip to main content</a>
+<section class="usa-banner" aria-label="Official government website">
+  <div class="usa-accordion">
+    <header class="usa-banner__header">
+      <div class="usa-banner__inner">
+        <div class="grid-col-auto">
+          {% asset us_flag_small.png class="usa-banner__header-flag" alt="U.S. flag" %}
+        </div>
+        <div class="grid-col-fill tablet:grid-col-auto">
+          <p class="usa-banner__header-text">An official website of the United States government</p>
+          <p class="usa-banner__header-action" aria-hidden="true">Here’s how you know</p>
+        </div>
+        <button class="usa-accordion__button usa-banner__button"
+          aria-expanded="false" aria-controls="gov-banner">
+          <span class="usa-banner__button-text">Here’s how you know</span>
         </button>
-        <a class="navbar-brand" href="{{ site.baseurl }}{{ site.url }}">
-          <img id="navbar-logo" src="{{ site.baseurl }}/assets/images/pif-header-full.png">
-          <img id="navbar-logo-alt" src="{{ site.baseurl }}/assets/images/pif-header-logo-only.png">
-        </a>
       </div>
-
-      <div class="collapse navbar-collapse" id="navbar-collapse">
-
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="{{ site.baseurl }}/fellows/"><h4>FELLOWS</h4></a></li>
-          <li><a href="{{ site.baseurl }}/projects/"><h4>PROJECTS</h4></a></li>
-          <li><a href="{{ site.baseurl }}/agencies/"><h4>AGENCIES</h4></a></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-              <h4><span>ABOUT US</span></h4>
-            </a>
-            <ul class="dropdown-menu" role="menu">
-              <li>
-                <a href="{{ site.baseurl }}/leadership/">Leadership</a>
-              </li>
-              <li>
-                <a href="{{ site.baseurl }}/faq/">FAQ</a>
-              </li>
-              <!--<li role="separator" class="divider"></li>-->
-            </ul>
-          </li>
-          <li><a href="{{ site.baseurl }}/apply/" class="btn btn-primary navbar-btn hidden-xs">APPLY TODAY</a></li>
-        </ul>
+    </header>
+    <div class="usa-banner__content usa-accordion__content" id="gov-banner">
+      <div class="grid-row grid-gap-lg">
+        <div class="usa-banner__guidance tablet:grid-col-6">
+          {% asset icon-dot-gov.svg class="usa-banner__icon usa-media-block__img" alt="Dot gov" %}
+          <div class="usa-media-block__body">
+            <p>
+              <strong>The .gov means it’s official.</strong>
+              <br>
+              Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.
+            </p>
+          </div>
+        </div>
+        <div class="usa-banner__guidance tablet:grid-col-6">
+          {% asset icon-https.svg class="usa-banner__icon usa-media-block__img" alt="Https" %}
+          <div class="usa-media-block__body">
+            <p>
+              <strong>The site is secure.</strong>
+              <br>
+              The <strong>https://</strong> ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
-  </nav>
+  </div>
+</section>
 
-</header>
+<div class="usa-overlay"></div>

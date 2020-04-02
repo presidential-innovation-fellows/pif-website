@@ -1,0 +1,13 @@
+---
+layout: fellow-landing
+title: 2014 Fellows
+sidenav: true
+banner: true
+pagination:
+  enabled: true
+  collection: fellows
+  sort_field: 'name'
+  tag: '2014'
+---
+
+{% include fellow-list.html fellows=paginator.posts %}

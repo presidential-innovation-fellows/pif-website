@@ -1,0 +1,180 @@
+# We can add any kind of data in this _data folder and this file.
+# In this example, we create a simple array of options and then in the _pages/collections.md file we
+# Reference this data file in 'datafile' in the Front Matter and _layouts/list.html renders it
+# This is simple, hopefully provides you with a good enough example to make changes as needed
+
+
+
+- name: ED
+  fullname: Department of Education
+  url: http://www.ed.gov
+  description:
+
+- name: DIU
+  fullname: Defense Innovation Unit
+  url: https://www.diu.mil
+  description: Defense Innovation Unit is a fast-moving Department of Defense organization that contracts with commercial companies to solve national security problems.
+
+- name: DOE
+  fullname: Department of Energy
+  url: http://energy.gov
+  description:
+
+- name: DOI
+  fullname: Department of Interior
+  url: http://www.doi.gov
+  description:
+
+- name: DOT
+  fullname: Department of Transportation
+  url: https://www.transportation.gov
+  description:
+
+- name: FBI
+  fullname: Federal Bureau of Investigation
+  url: https://fbi.gov
+  description: The Federal Bureau of Investigation (FBI) is the domestic intelligence and security service of the United States and its principal federal law enforcement agency.
+
+- name: FDA
+  fullname: Food and Drug Administration
+  url: http://www.fda.gov
+  description:
+
+- name: FEMA
+  fullname: Federal Emergency Management Agency
+  url: http://www.fema.gov
+  description:
+
+- name: GSA
+  fullname: General Services Administration
+  url: https://gsa.gov
+  description: The General Services Administration (GSA) is an independent agency of the United States government established in 1949 to help manage and support the basic functioning of federal agencies. GSA supplies products and communications for U.S. government offices, provides transportation and office space to federal employees, and develops government-wide cost-minimizing policies and other management tasks.
+
+- name: HHS
+  fullname: Health and Human Services
+  url: http://www.hhs.gov
+
+- name: IRS
+  fullname: Internal Revenue Service
+  url: http://www.irs.gov
+  description:
+
+- name: DOL
+  fullname: Department of Labor
+  url: http://www.dol.gov
+  description:
+
+- name: MCC
+  fullname: Millennium Challenge Corporation
+  url: http://www.mcc.gov
+  description:
+
+- name: NARA
+  fullname: National Archives and Records Administration
+  url: http://www.archives.gov
+  description:
+
+- name: NASA
+  fullname: National Aeronautics and Space Administration
+  url: http://www.nasa.gov
+  description:
+
+- name: Navy
+  fullname: U.S. Department of the Navy
+  url: https://navy.mil
+  description: The United States Department of the Navy was established to provide a government organizational structure to the United States Navy, the United States Marine Corps (from 1834 onward) and, when directed by the President (or Congress during time of war), the United States Coast Guard, as a service within the Department of the Navy, though each remain independent service branches.
+
+- name: NCI
+  fullname: National Cancer Institute
+  url: https://www.cancer.gov
+  description:
+
+- name: NIH
+  fullname: National Institutes of Health
+  url: https://nih.gov
+  description: NIH is one of the world's foremost medical research centers. An agency of the U.S. Department of Health and Human Services, the NIH is the Federal focal point for health and medical research.
+
+- name: NIST
+  fullname: National Institute of Standards and Technology
+  url: http://www.nist.gov
+  description:
+
+- name: NOAA
+  fullname: National Oceanic and Atmospheric Administration
+  url: http://www.noaa.gov
+  description:
+
+- name: NSF
+  fullname: National Science Foundation
+  url: http://www.nsf.gov
+  description:
+
+- name: ODNI
+  fullname: Office of the Director of National Intelligence
+  url: https://www.dni.gov
+  description:
+
+- name: OSTP
+  fullname: White House Office of Science and Technology, Policy
+  url: http://www.whitehouse.gov/administration/eop/ostp
+  description:
+
+- name: SBA
+  fullname: Small Business Administration
+  url: http://www.sba.gov
+  description:
+
+- name: Smithsonian
+  fullname: Smithsonian Institution
+  url: http://www.si.edu
+  description:
+
+- name: State
+  fullname: Department of State
+  url: http://www.state.gov
+  description:
+
+- name: Treasury
+  fullname: Department of Treasury
+  url: http://www.treasury.gov
+  description:
+
+- name: USAID
+  fullname: U.S. Agency for International Development
+  url: http://www.usaid.gov
+  description:
+
+- name: USCB
+  fullname: U.S. Census Bureau
+  url: http://www.census.gov
+  description:
+
+- name: USDA
+  fullname: U.S. Department of Agriculture
+  url: https://usda.gov
+  description: The United States Department of Agriculture (USDA), also known as the Agriculture Department, is the U.S. federal executive department responsible for developing and executing federal laws related to farming, forestry, rural economic development, and food.
+
+- name: USPTO
+  fullname: U.S. Patent and Trademark Office
+  url: http://www.uspto.gov
+  description:
+
+- name: VA
+  fullname: Department of Veterans Affairs
+  url: http://www.va.gov
+  description:
+
+- name: NLM
+  fullname: National Library of Medicine
+  url: https://www.nlm.gov
+  description:
+
+- name: USMC
+  fullname: United States Marine Corps
+  url: https://www.marines.mil
+  description:
+
+- name: USAGM
+  fullname: U.S. Agency for Global Media
+  url: https://www.usagm.gov
+  description:

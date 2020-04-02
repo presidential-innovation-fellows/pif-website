@@ -1,0 +1,48 @@
+---
+layout: wide
+title: Our projects
+description: We’re building citizen-centered solutions that scale, and fundamentally changing federal culture while we’re at it. Learn about some of our projects below.
+permalink: /projects/
+---
+
+{% include banner.html %}
+
+<section class="usa-section grid-container">
+  <h2>Current projects</h2>
+  <div class="grid-row">
+    <div class="desktop:grid-col-12">
+      {% include projects-column.html project_filter="current" %}
+    </div>
+  </div>
+</section>
+
+<section class="usa-section grid-container">
+  <h2>Case Studies</h2>
+  <div class="grid-row margin-x-neg-2">
+  {% assign sorted_projects = site.projects | sort:"order" %}
+  {% for project in sorted_projects %}
+  {% if project.status contains 'case_study' %}
+    <div class="tablet:grid-col-6 desktop:grid-col-4 padding-x-2 margin-bottom-4">
+      <a href="{{ site.baseurl }}{{ project.url }}" class="site-card">
+        {% if project.cover_art %}
+        <div class="card-img">
+          {% asset "{{ project.cover_art }}" class="square-cards" alt="{{ project.image_alt_text }}" %}
+        </div>
+        {% endif %}
+        <div class="card-body">
+          <span class="card-flag text-uppercase text-bold margin-top-3">{{ project.agency }}</span>
+          <h3 class="card-title">{{project.title}}</h3>
+          <p class="card-desc">{{ project.summary }}</p>
+          <p class="card-affordance">Read More</p>
+        </div>
+      </a>
+    </div>
+    {% endif %}
+  {% endfor %}
+  </div>
+</section>
+
+<!--
+  <div class="grid-row padding-top-4 tablet:padding-x-4 margin-bottom-4">
+    <a class="usa-link" href="#blog">Return to top</a>
+  </div> -->
