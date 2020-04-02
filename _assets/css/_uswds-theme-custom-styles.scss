@@ -352,7 +352,7 @@ ul.project-fellows li {
 
 .page-banner, .page-header{
   .header-main {
-    @include u-font('heading', 'xl');
+    @include u-font('body', 'xl');
   }
   .header-sub {
     @include u-font('body', 'lg');
@@ -374,16 +374,14 @@ ul.project-fellows li {
   @include at-media(tablet) {
     @include grid-col(6);
   }
-
   a {
     @include clearfix;
-    @include u-color('ink');
+    @include u-color('base-darker');
     text-decoration: none;
   }
   h3 {
     @include u-margin-top(0);
   }
-
   img {
     @include at-media(tablet) {
       @include u-float('left');
@@ -394,6 +392,11 @@ ul.project-fellows li {
   }
   p {
     @include u-font('body','xs');
+  }
+  .agency {
+    text-transform: uppercase;
+    @include u-font('body','3xs');
+    font-weight: 500;
   }
 }
 .list-fellows {
@@ -426,7 +429,7 @@ ul.project-fellows li {
 .site-card {
   @include u-border('base-light');
   @include u-border('1px');
-  @include u-color('ink');
+  @include u-color('base-darker');
   display: block;
   height: 100%;
   text-decoration: none;
@@ -434,6 +437,17 @@ ul.project-fellows li {
     @include u-padding-x(2);
     @include u-padding-bottom(2);
     @include u-color('base-darker');
+  }
+  .card-title {
+    @include u-font('body','xs');
+  }
+  .card-flag {
+    @include u-font('body','3xs');
+  }
+  .card-img {
+    width: 100%;
+    height: 12rem;
+    overflow: hidden;
   }
   &:hover{
 		h3 a{
