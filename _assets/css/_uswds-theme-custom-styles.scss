@@ -427,8 +427,11 @@ ul.project-fellows {
     @include u-border-right('transparent');
     @include u-border('1px');
     &:hover {
-      @include u-border('base-light');
-      @include u-border('1px');
+      h2 {
+        text-decoration: underline;
+      }
+      // @include u-border('base-light');
+      // @include u-border('1px');
     }
     text-decoration: none;
     @include u-color('base-darker');
