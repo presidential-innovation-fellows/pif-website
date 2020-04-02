@@ -3,8 +3,8 @@ id: adam-drake
 title: Adam Drake
 image: adam-drake-headshot.jpg
 fellow_year: 2019
-project: []
-agency: []
+project: ["usmc-logistics"]
+agency: ["USMC"]
 hometown: The Woodlands, TX
 region: south
 bio_short: Technology leader. People and process advisor. High-performance computing, machine learning, distributed systems enthusiast. Student. Teacher.

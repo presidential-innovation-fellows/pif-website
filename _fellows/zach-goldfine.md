@@ -3,8 +3,8 @@ id: zach-goldfine
 title: Zach Goldfine
 image: zach-goldfine-headshot.jpg
 fellow_year: 2017
-project: []
-agency: []
+project: ["va-cto"]
+agency: ["VA"]
 hometown: San Francisco, CA
 region: west
 bio_short: Generalist, systems thinker, statistical-minded, persistently curious. Formerly Basketball Operations in the NBA, Director / Founder @ Startups, and Political Advocate @ RepresentUS.

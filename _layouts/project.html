@@ -5,7 +5,7 @@ layout: default
 <div class="usa-layout-docs usa-section">
   <div class="grid-container">
     <div class="grid-row grid-gap">
-      <div class="usa-layout-docs__main desktop:grid-col-9 usa-prose">
+      <div class="usa-layout-docs__main desktop:grid-col-10 usa-prose">
         <div class="clearfix">
           <h4 class="text-uppercase text-secondary-dark float-left margin-0 desktop:grid-col-8">{{ page.agency }}</h4>
           {% if page.project_link %}
@@ -16,23 +16,22 @@ layout: default
         </div>
         <h1 class="title">{{ page.title }}</h1>
 
-        <div class="grid-container">
-          <div class="grid-row grid-gap">
-            <div class="grid-col-3">
-              {% if page.agency_logo %}
-              {% asset "{{ page.agency_logo }}" class="img-responsive project-image" alt="{{ page.agency }}" %}
-              {% endif %}
-            </div>
-            <div class="grid-col-9">
-              <p class="usa-intro">
-                {{ page.summary }}
-              </p>
-            </div>
+        <div class="grid-row grid-gap">
+          <div class="grid-col-3">
+            {% if page.agency_logo %}
+            {% asset "{{ page.agency_logo }}" class="img-responsive project-image" alt="{{ page.agency }}" %}
+            {% endif %}
+          </div>
+          <div class="grid-col-9">
+            <p class="usa-intro">
+              {{ page.summary }}
+            </p>
           </div>
         </div>
 
         <h2>About {{page.agency_abbrev}}</h2>
-        {{ page.partner_description }}
+        <p>{{ page.partner_description }}</p>
+
         <h2>The challenge</h2>
         <div class="bg-secondary-lightest project-question">
           <p class="usa-intro">
@@ -50,10 +49,9 @@ layout: default
             {% capture project_id %}{{page.id | remove: "/projects/"}}{% endcapture%}
                 {% if fellow.project contains project_id %}
                 <li>
-                  <a href="{{ site.baseurl }}{{ fellow.url }}">
-                  {% asset "{{ fellow.image }}" class="circle-6 float-left margin-right-2" %}
-                  {{ fellow.title }}
-                </a>
+                  <a href="{{ site.baseurl }}{{ fellow.url }}" title="{{ fellow.title }}">
+                    {% asset "{{ fellow.image }}" alt="{{ fellow.title }}" class="circle-10" %}
+                  </a>
               </li>
               {% endif %}
               {% endfor %}

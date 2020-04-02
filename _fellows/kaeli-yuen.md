@@ -3,8 +3,8 @@ id: kaeli-yuen
 title: Kaeli Yuen
 image: kaeli-yuen-headshot.jpg
 fellow_year: 2020
-project: []
-agency: []
+project: ["va-cto"]
+agency: ["VA"]
 hometown: Los Angeles, CA
 region: west
 bio_short: MD and clinical informaticist experienced in research, product management, and health information technologies. Excited about leading data- and compassion-driven transformation of healthcare and medicine.

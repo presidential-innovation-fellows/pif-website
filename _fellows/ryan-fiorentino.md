@@ -3,8 +3,8 @@ id: ryan-fiorentino
 title: Ryan Fiorentino
 image: ryan-fiorentino-headshot.jpg
 fellow_year: 2019
-project: []
-agency: []
+project: ["usda-farmers"]
+agency: ["USDA"]
 hometown: Los Angeles, CA
 region: west
 bio_short: Designer, founder, and corporate innovation leader. Equipping multidisciplinary teams to design industry defining products and services, navigate ambiguity, and mediate forces of market, organization, and business transformation.

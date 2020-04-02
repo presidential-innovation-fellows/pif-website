@@ -3,8 +3,8 @@ id: nelson-colon-vargas
 title: Nelson A. Colón Vargas
 image: nelson-colon-vargas-headshot.jpg
 fellow_year: 2019
-project: []
-agency: []
+project: ["va-cto"]
+agency: ["VA"]
 hometown: Washington, DC
 region: south
 bio_short: Mathematician, data scientist, and educator with 10 years of experience in analytics ranging from academia, to startups, and Fortune 100 companies.

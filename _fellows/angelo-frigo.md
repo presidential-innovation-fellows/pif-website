@@ -3,8 +3,8 @@ id: angelo-frigo
 title: Angelo Frigo
 image: angelo-frigo-headshot.jpg
 fellow_year: 2020
-project: []
-agency: []
+project: ["gsa-customer-experience"]
+agency: ["GSA"]
 hometown: Chicago, IL
 region: midwest
 bio_short: Organizing for innovation. Strategy for nascent markets. Service design and operational pilots. Coach. I help teams do the work to get their ideas funded.

@@ -3,8 +3,8 @@ id: maura-newell
 title: Maura Newell
 image: maura-newell-headshot.jpg
 fellow_year: 2019
-project: []
-agency: []
+project: ["va-veo"]
+agency: ["VA"]
 hometown: Austin, TX
 region: south
 bio_short: Researcher and designer for social impact. Organizational strategist and facilitator. Passionate about solving complex challenges and creating more equitable outcomes for communities.

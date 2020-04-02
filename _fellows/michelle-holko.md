@@ -3,9 +3,9 @@ id: michelle-holko
 title: Michelle Holko
 image: michelle-holko-headshot.jpg
 fellow_year: 2020
-project: []
-agency: []
-hometown: 
+project: ["nih-all-of-us"]
+agency: ["NIH"]
+hometown:
 region: northeast
 bio_short: Scientist and disruptive innovator with technical expertise in genomics, bioinformatics, and security. Passionate about implementing novel, results-driven solutions with experts across domains to ensure national and domestic health and biosecurity.
 tags: ['northeast', '2020']

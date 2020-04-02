@@ -3,8 +3,8 @@ id: georgeta-dragoiu
 title: Georgeta Dragoiu
 image: georgeta-dragoiu-headshot.jpg
 fellow_year: 2019
-project: []
-agency: []
+project: ["nih-all-of-us"]
+agency: ["NIH"]
 hometown: Washington, DC
 region: south
 bio_short: Entrepreneur, business strategist, and public relations professional, shaping public policy debates through strategic communications and creative stakeholder engagement.

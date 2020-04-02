@@ -3,8 +3,8 @@ id: ryan-panchadsaram
 title: Ryan Panchadsaram
 image: ryan-panchadsaram-headshot.png
 fellow_year: 2012
-project: []
-agency: []
+project: ["onc-blue-button-initiative"]
+agency: ["ONC","VA"]
 hometown: San Diego, CA
 region: west
 bio_short: None

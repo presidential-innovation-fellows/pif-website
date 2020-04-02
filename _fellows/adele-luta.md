@@ -3,8 +3,8 @@ id: adele-luta
 title: Adele Luta
 image: adele-luta-headshot.jpg
 fellow_year: 2019
-project: []
-agency: []
+project: ["nih-all-of-us"]
+agency: ["NIH"]
 hometown: Washington, DC
 region: south
 bio_short: Scientist and instructor with operational experience developing technical solutions as part of a multidisciplinary teams.

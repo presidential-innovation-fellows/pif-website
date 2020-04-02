@@ -3,8 +3,8 @@ id: patrick-lin
 title: Patrick Lin
 image: patrick-lin-headshot.jpg
 fellow_year: 2019
-project: []
-agency: []
+project: ["dot-autonomous-vehicles"]
+agency: ["DOT"]
 hometown: San Francisco, CA
 region: west
 bio_short: Successful entrepreneur (3 companies / 1 IPO), Strategist, Team Builder, Lifelong Learner,  20+ years of experience in the U.S. and across Asia implementing transformational innovation to over 30 million stakeholders

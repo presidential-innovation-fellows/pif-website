@@ -3,8 +3,8 @@ id: joy-whitt
 title: Joy Whitt
 image: joy-whitt-headshot.jpg
 fellow_year: 2019
-project: []
-agency: []
+project: ["va-cto"]
+agency: ["VA"]
 hometown: Washington, DC
 region: south
 bio_short: Developer, data analyst, and tech inclusion leader. Over 13 years of civic engagement and public service experience.

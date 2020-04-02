@@ -3,8 +3,8 @@ id: clarice-chan
 title: Clarice Chan
 image: clarice-chan-headshot.jpg
 fellow_year: 2019
-project: []
-agency: []
+project: ["va-cto"]
+agency: ["VA"]
 hometown: Seattle, WA
 region: west
 bio_short: Social impact technologist applying user-centered design to solve human-centered problems at scale.

@@ -3,8 +3,8 @@ id: cc-gong
 title: C.C. Gong
 image: cc-gong-headshot.jpg
 fellow_year: 2020
-project: []
-agency: []
+project: ["va-cto"]
+agency: ["VA"]
 hometown: San Francisco, CA
 region: west
 bio_short: Product leader and community builder, creating social impact through organizational transformation and human-centered design.

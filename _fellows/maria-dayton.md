@@ -3,8 +3,8 @@ id: maria-dayton
 title: Maria Lynne Dayton
 image: maria-dayton-headshot.jpg
 fellow_year: 2019
-project: []
-agency: []
+project: ["gsa-customer-experience"]
+agency: ["GSA"]
 hometown: San Francisco, CA
 region: west
 bio_short: Seasoned social entrepreneur and systems designer with more than 20 major development and IT projects deployed globally.

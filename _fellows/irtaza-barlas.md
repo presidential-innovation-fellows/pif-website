@@ -3,8 +3,8 @@ id: irtaza-barlas
 title: Irtaza Barlas
 image: irtaza-barlas-headshot.jpg
 fellow_year: 2020
-project: ["nih-all-of-us"]
-agency: []
+project: ["usda-farmers"]
+agency: ["USDA"]
 hometown: Johns Creek, GA
 region: south
 bio_short: Lifelong Learner, Researcher, Technologist, Teambuilder, and Innovator. Architect and developer of complex systems, and a student of literature, religion, and history.

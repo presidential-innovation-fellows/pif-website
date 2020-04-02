@@ -3,8 +3,8 @@ id: wanmei-ou
 title: Wanmei Ou
 image: wanmei-ou-headshot.jpg
 fellow_year: 2020
-project: []
-agency: []
+project: ["va-cto"]
+agency: ["VA"]
 hometown: Boston, MA
 region: northeast
 bio_short: Data-driven technologist with experience spanning the full healthcare continuum.

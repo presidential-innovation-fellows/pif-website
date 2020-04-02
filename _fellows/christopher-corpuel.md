@@ -3,8 +3,8 @@ id: christopher-corpuel
 title: Christopher Corpuel
 image: christopher-corpuel-headshot.jpg
 fellow_year: 2020
-project: []
-agency: []
+project: ["va-veo"]
+agency: ["VA"]
 hometown: Bethesda, MD
 region: south
 bio_short: Innovation and growth leader balancing creative thinking with pragmatism and achievement-oriented focus to deliver meaningful solutions that make a difference in people’s lives.

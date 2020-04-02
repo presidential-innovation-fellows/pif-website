@@ -3,8 +3,8 @@ id: melissa-keene
 title: Melissa Keene
 image: melissa-keene-headshot.jpg
 fellow_year: 2020
-project: []
-agency: []
+project: ["usda-farmers"]
+agency: ["USDA"]
 hometown: Arlington, VA
 region: south
 bio_short: Melissa is an Agile, Design, and Product leader with expertise in Government, Finance, and Media.
