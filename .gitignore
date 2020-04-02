@@ -2,6 +2,7 @@
 _site
 .sass-cache
 .DS_store
+.jekyll-cache
 BingSiteAuth.xml
 .bundle/config
 vendor/
