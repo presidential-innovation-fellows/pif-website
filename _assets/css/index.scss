@@ -1,0 +1,10 @@
+@import "uswds-pif-theme-colors";
+
+// Import the US Web Design System SASS.
+@import "uswds";
+
+// Import theme custom styles
+@import "uswds-theme-custom-styles";
+
+// Anchor component for the footer
+@import "usa_anchor.scss";

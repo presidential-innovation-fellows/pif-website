@@ -1,0 +1,18 @@
+
+<div class="grid-row grid-gap">
+{% for project in site.projects %}
+    {% if include.project_filter == project.status %}
+      <div class="project-item usa-prose">
+          <div class="clearfix">
+            {% if project.agency_logo %}
+            {% asset "{{ project.agency_logo }}" alt="{{ project.image_alt_text }}" %}
+            {% endif %}
+            <h3 class="title">
+                <a class="usa-link text-no-underline" href="{{ site.baseurl }}{{ project.url }}">{{project.title}}</a>
+            </h3>
+            {{ project.agency }}
+        </div>
+      </div>
+    {% endif %}
+{% endfor %}
+</div>

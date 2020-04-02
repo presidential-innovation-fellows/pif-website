@@ -1,119 +1,21 @@
 ---
-layout: default
+permalink: /
+layout: wide
+title: Home
 ---
 
-<div class="container-fluid" id="home-hero">
-  <div class="row">
-    <div class="col-md-10 col-md-offset-1">
-      <h1 class="text-right" id="home-hero-text">"We must harness new ideas and technology to remake our government."<br/><!--<small><em>— President Barack Obama</em></small>--></h1>
-      <!-- test, federalist migration -->
-    </div>
-  </div>
-</div>
-<div class="text-center" id="home-cta">
-  <a class="btn btn-large btn-primary" href="{{ site.baseurl }}/apply/">JOIN THE FELLOWSHIP</a>
-<!-- <a class="btn btn-large btn-primary" href="https://apply.pif.gov" target="_blank">JOIN THE FELLOWSHIP</a> -->
+{% comment %} 
+Welcome to official Federalist Jekyll template for the U.S Web Design System 2.0
 
-</div>
-<div id="home">
-  <div class="container-fluid">
-    <div class="row" id="mission">
-      <div class="col-md-8 col-md-offset-2 col-sm-12 text-center">
-        <h4>The Presidential Innovation Fellows program brings the principles, values, and practices of the innovation economy into government through the most effective agents of change we know: our people.<br/><br/>This highly-competitive program pairs talented, diverse technologists and innovators with top civil-servants and change-makers working at the highest levels of the federal government to tackle some of our nation’s biggest challenges. These teams of entrepreneurs-in-residence and government experts take a user-centric approach to issues at the intersection of people, processes, products, and policy to achieve lasting impact at startup speed.</h4>
-        <br/>
-        <!--
-        <div class="embed-responsive embed-responsive-16by9">
+You'll notice that this page only makes reference to two other html files: hero.html and highlights.html
 
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/3P5UFV8d364"></iframe>
+To the edit the home page, you can edit those files directly, create new ones or add content directly to
+this page. 
 
-        </div>-->
-        <!--<h5><a href="https://gsablogs.gsa.gov/gsablog/2017/11/30/meet-the-newest-presidential-innovation-fellows-2/" target="_blank">Learn more</a></h5>-->
-        <h5><a href="{{ site.baseurl }}/faq">Learn more</a></h5>
-        <br/>
-      </div>
-    </div>
-    <div class="row" id="process">
-      <div class="col-md-12">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12 text-center">
-              <h2>Leveraging outside industry expertise to work within government</h2>
-              <img src="assets/images/wh-blocks.png" id="wh-blocks" class="img-responsive">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row" id="map">
-      <div class="col-md-12">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12 text-center">
-              <h2>Recruiting industry leaders to serve as change agents</h2>
-            </div>
-          </div>
-          <div class="row" id="map-data">
-            <!-- Updating this section Step 1:
-              ... to see the most recent site data counts (including agencies, fellows, fellows by region, etc.),
-              ... run `JEKYLL_ENV=dev_logging bundle exec jekyll build` from the command line
-            -->
-            <!-- Updating this section Step 2:
-              ... in the PIF shared google drive under Design > Visual Design Assets,
-              ... find the map source file named something like "PIF-regions-map-YYYYMMDD.key",
-              ... then open the file, and edit each of the numbers,
-              ... and recognize each of the circles is really a pie chart,
-              ... and double-click on each of the pie charts to "Edit Chart Data",
-              ... then enter in the updated total number of PIFs, and the updated number of PIFs for that region,
-              ... then save a new version of the keynote file to google drive,
-              ... then take a screenshot of the final map and save to this pif-website repo as "assets/images/map/pif-map-YYYYMMDD.png",
-              ... and finally update the "map-stats" and img href code below.
-              ... Fun, right? Want to automate this process?
-            -->
-            <div class="col-md-9 col-sm-12">
-              <img src="assets/images/map/pif-map-20200129.png" class="img-responsive">
-            </div>
-            <div class="col-md-3 hidden-sm hidden-xs text-center" id="map-stats">
-              <h3>159</h3>
-              <h4>Fellows</h4>
-              <br/>
-              <h3>36</h3>
-              <h4>Agencies</h4>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row" id="fellow-preview">
-      <div class="col-md-12">
-        <div class="row">
-          <div class="col-sm-10 col-sm-offset-1">
-            <h2 class="text-center">Fellows serve as agents for change, helping shape our nation</h2>
-          </div>
-        </div>
-        <h5 class="text-center">Learn more about the fellows <a href="fellows">here</a></h5>
-      </div>
-    </div>
-    <!--PIF Video
-    <hr/>
-    <div class="row" id="project-preview">
-      <div class="col-lg-10 col-lg-offset-1 col-md-12">
-        <h2 class="text-center">Learn about the projects</h2>
-        <figure id="video_player">
-          <video controls poster="assets/images/andrea-ippolito-screenshot.png">
-            <source type="video/webm" src="assets/videos/andrea-ippolito-video.webm" />
-            <source type="video/mp4" src="assets/videos/andrea-ippolito-video.mp4" />
-            <source type="video/ogg" src="assets/videos/andrew-ippolito-video.ogv" />
-          </video>
-          <figcaption>
-            <a href="assets/videos/andrea-ippolito-video.mp4"><img src="assets/images/andrea-ippolito-screenshot.png" alt="Andrew Ippolito Video"></a>
-            <a href="assets/videos/jeff-meisel-video.mp4"><img src="assets/images/jeff-meisel-screenshot.png" alt="Jeff Meisel Video"></a>
-            <a href="assets/videos/maia-hansen-video.mp4"><img src="assets/images/maia-hansen-screenshot.png" alt="Maia Hansen Video"></a>
-            <a href="assets/videos/mikel-maron-video.mp4"><img src="assets/images/mikel-maron-screenshot.png" alt="Mikel Maron Video"></a>
-            <a href="assets/videos/rachel-harrison-gordon-video.mp4"><img src="assets/images/rachel-harrison-gordon-screenshot.png" alt="Rachel Harrison-Gordon Video"></a>
-          </figcaption>
-        </figure>
-        <h5 class="text-center">Explore more projects <a href="projects">here</a></h5>
-      </div>
-    </div>-->
-  </div>
-</div>
+We recommend splitting apart your site's components into their own smaller section so that its easier to 
+manage in the long term.
+{% endcomment %}
+
+{% include hero.html %}
+{% include tagline.html %}
+{% include highlights.html %}

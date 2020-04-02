@@ -1,0 +1,34 @@
+{% comment %}
+Use this section to highlight key elements of your site. Some sites will only have two while others may have six to
+eight.
+{% endcomment %}
+
+<section class="usa-graphic-list usa-section usa-section--dark">
+  <div class="grid-container usa-prose">
+
+    <div class="usa-graphic-list__row grid-row grid-gap">
+      <div class="desktop:grid-col-4 tablet:grid-col-8 usa-media-block margin-bottom-3 desktop:margin-bottom-0">
+        {% asset highlight-farmers.jpg class="usa-media-block__img img-circle" alt="USDA Farmers" %}
+        <div class="usa-media-block__body">
+          <h3 class="usa-graphic-list__heading"><a href="{{ site.baseurl }}/projects">Our impact</a></h3>
+          <p>Learn about the time, money, and lives saved through PIF projects and federal partners.</p>
+        </div>
+      </div>
+      <div class="desktop:grid-col-4 tablet:grid-col-8 usa-media-block margin-bottom-3 desktop:margin-bottom-0">
+        {% asset highlight-fellows-nasa.jpg class="usa-media-block__img img-circle" alt="Fellows on at NASA" %}
+        <div class="usa-media-block__body">
+          <h3 class="usa-graphic-list__heading"><a href="{{ site.baseurl }}/fellows">Our fellows</a></h3>
+          <p>Meet our current Fellows and alumni, joining us from big tech, startups, academia, and more.</p>
+        </div>
+      </div>
+      <div class="desktop:grid-col-4 tablet:grid-col-8 usa-media-block margin-bottom-3 desktop:margin-bottom-0">
+        {% asset highlight-fellows-meetup.jpg class="usa-media-block__img img-circle" alt="Alt text" %}
+        <div class="usa-media-block__body">
+          <h3 class="usa-graphic-list__heading"><a href="{{ site.baseurl }}/apply">Join us</a></h3>
+          <p>Leverage your expertise for the good of the American people in a job like no other. Apply today.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>

@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<div class="usa-layout-docs usa-section">
+  <div class="grid-container">
+    <div class="grid-row grid-gap">
+      <div class="usa-layout-docs__main desktop:grid-col-9 usa-prose">
+        <div class="clearfix">
+          <h4 class="text-uppercase text-secondary-dark float-left margin-0">{{ page.agency }}</h4>
+          {% if page.project_link %}
+          <a href="{{ page.url }}" class="usa-button float-right usa-button--secondary">
+            Agency website
+          </a>
+          {% endif %}
+        </div>
+        <h1 class="title">{{ page.fullname }}</h1>
+      
+
+        <div class="grid-container">
+          <div class="grid-row grid-gap">
+            <div class="tablet:grid-col-3">
+              {% if page.agency_logo %}
+              {% asset "{{ page.agency_logo }}" class="img-circle img-responsive project-image margin-auto" alt="{{ page.name }}" %}
+              {% endif %}
+            </div>
+            <div class="grid-col-9">
+              <p class="usa-intro">
+                {{ page.description }}
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

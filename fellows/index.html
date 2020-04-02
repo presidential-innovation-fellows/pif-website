@@ -1,0 +1,16 @@
+---
+layout: fellow-landing
+title: Fellows
+description: Meet the Presidential Innovation Fellows
+sidenav: true
+banner: true
+permalink: /fellows/
+pagination:
+  enabled: true
+  collection: fellows
+  sort_field: fellow_year
+  sort_reverse: true
+  title: "Fellows"
+---
+
+{% include fellow-list.html fellows=paginator.posts %}

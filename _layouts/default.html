@@ -1,16 +1,26 @@
+{% comment %}
+This is used for just about every page. It provides the border around the content.
+The home page uses wide.html layout, since it extends full width of page
+{% endcomment %}
+
 <!DOCTYPE html>
+
 <html lang="en">
 
-  {% include head.html %}
+{% include meta.html %}
 
-  <body>
+{% assign page_id = page.url | remove:'/index.html' | split: '/' %}
+<body class="{% if page_id %}{{ page_id }}{% else %}home{% endif %}">
+  {% include header.html %}
 
-    {% include header.html %}
-
+  {% include menu.html primary_navigation=site.primary_navigation  secondary_navigation=site.secondary_navigation %}
+  <main id="main-content">
     {{ content }}
+  </main>
 
-    {% include footer.html %}
+  {% include footer.html %}
 
-  </body>
+  {% include scripts.html %}
+</body>
 
 </html>

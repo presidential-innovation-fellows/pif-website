@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+{% comment %}
+This template is for a single page that does not have a date associated with it. For example, an about page.
+{% endcomment %}
+
+{% include banner.html %}
+
+<div class="usa-layout-docs usa-section">
+  <div class="grid-container">
+    <div class="grid-row grid-gap">
+      {% include sidenav.html pif_project=page.project pif_agency=page.agency pif_year=page.fellow_year pif_hometown=page.hometown %}
+      <div class="usa-layout-docs__main desktop:grid-col-9 usa-prose">
+       <h2>Biography</h2>
+       {% if page.image %}
+        {% asset "{{ page.image }}" class="circle-card-lg float-right margin-left-3" alt="{{ page.image_alt_text }}" %}
+       {% endif %}
+       <p class="usa-intro">
+         {{ page.bio_short }}
+       </p>
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</div>

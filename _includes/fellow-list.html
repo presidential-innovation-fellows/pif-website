@@ -1,0 +1,17 @@
+{% for fellow in include.fellows %}
+<a href="{{ site.baseurl }}{{ fellow.url }}" class="list-item grid-row grid-gap">
+  <div class="desktop:grid-col-3 tablet:grid-col-4 usa-prose list-item-img">
+    {% if fellow.image %}
+    {% asset "{{ fellow.image }}" class="circle-card" alt="{{ fellow.image_alt_text }}" %}
+    {% endif %}
+  </div>
+  <div class="desktop:grid-col-9 usa-prose">
+    <h2>{{ fellow.title }}</h2>
+    <div class="content">
+      {{ fellow.bio_short }}
+    </div>
+  </div>
+</a>
+{% endfor %}
+
+{% include pagination.html %}

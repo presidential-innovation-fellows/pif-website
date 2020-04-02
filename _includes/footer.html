@@ -1,79 +1,82 @@
-
-<footer>
-
-  <div class="container-fluid" id="footer">
-    {% unless page.permalink == "apply/" %}<div class="row" id="cta">
-      <div class="col-sm-12 text-center">
-        <h4>Become a Presidential Innovation Fellow <span class="visible-xs" id="cta-span"><br/></span>
-          <a class="btn btn-lg btn-primary" href="{{ site.baseurl}}/apply/">Get Started</a>
-        </h4>
-      </div>
-    </div>{% endunless %}
-    <div class="row" id="footer-text">
-      <div class="col-md-7 col-md-offset-1 col-sm-12">
-        <div class="row">
-          <div class="col-sm-6">
-            <ul>
-              <li><h4><a href="{{ site.baseurl }}/fellows/">Meet the Fellows</a></h4></li>
-              <li><h4><a href="{{ site.baseurl }}/projects/">Project Case Studies</a></h4></li>
-              <li><h4><a href="{{ site.baseurl }}/agencies/">Agencies Supported</a></h4></li>
-              <li><h4><a href="{{ site.baseurl }}/leadership/">Leadership Team</a></h4></li>
-              <!-- <li><h4><a href="{{ site.baseurl }}/about/">About Us</a></h4></li> -->
-              <!-- <li><h4><a href="{{ baseurl }}/events/">Events</a></h4></li>-->
-              <li><h4><a href="{{ site.baseurl }}/faq/">FAQs</a></h4></li>
-            </ul>
-          </div>
-          <div class="col-sm-6 hidden-xs">
-            <ul><!--
-              <li><h4><a href="https://www.whitehouse.gov/innovationfellows" target="_blank">White House</a></h4></li>-->
-
-              <li><h4><a href="https://www.gsa.gov" target="_blank">GSA</a></h4></li>
-              <li><h4><a href="https://18f.gsa.gov" target="_blank">18F</a></h4></li>
-              <li><h4><a href="https://www.usds.gov" target="_blank">USDS</a></h4></li>
-            </ul>
-          </div>
+<footer class="usa-footer usa-footer--big">
+  <div class="usa-footer__secondary-section">
+    <div class="grid-container">
+      <div class="grid-row">
+        <div class="grid-col-12">
+          <h3>Our nation’s challenges are our biggest opportunities. Our solutions need leaders like you.</h3>
+          <p><a class="usa-button usa-button--outline usa-button--inverse" href="/apply">Apply today</a></p>
         </div>
       </div>
-      <div class="col-md-3 hidden-xs hidden-sm" id="social">
-        <h4>Connect:</h4>
-        <ul>
-          <li><a href="https://github.com/presidential-innovation-fellows" target="blank"><i class="fa fa-github-square fa-2x"></i></a></li>
-          <li><a href="https://twitter.com/PIFgov" target="blank"><i class="fa fa-twitter-square fa-2x"></i></a></li>
-          <li><a href="https://www.facebook.com/presidentialinnovationfellows" target="blank"><i class="fa fa-facebook-square fa-2x"></i></a></li>
-          <li><a href="https://www.linkedin.com/company/white-house-presidential-innovation-fellows" target="blank"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
-          <li><a href="https://angel.co/presidential-innovation-fellowship" target="blank"><i class="fa fa-angellist fa-2x"></i></a></li>
-          <li><a href="https://medium.com/presidential-innovation-fellows" target="blank"><i class="fa fa-medium fa-2x"></i></a></li>
-        </ul>
-        <h4>Press: <a href="mailto:press@gsa.gov" target="blank">press@gsa.gov</a></h4>
-      </div>
     </div>
-    <div class="row">
-      <div class="col-md-10 col-md-offset-1" id="gov-links">
-        <p><a href="{{ baseurl }}/sitemap.xml" target="_blank">SITEMAP</a> | <a href="http://www.gsa.gov/portal/content/116609" target="_blank">PRIVACY</a> | <a href="https://18f.gsa.gov/linking-policy/" target="_blank">LINKING POLICY</a></p>
-      </div>
-    </div>
-    <div class="row" id="disclaimer">
-      <div class="col-lg-4 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-7">
-        <div class="row">
-          <div class="col-sm-3">
-            <a href="https://gsa.gov" target="_blank"><img src="{{ site.baseurl }}/assets/images/logo-gsa.png" id="gsa-logo"></a>
-          </div>
-          <div class="col-sm-9">
-            <p>A federal government website managed by the U.S. General Services Administration. 1800 F Street Northwest, Washington, DC 20405</p>
+  </div>
+  <div class="usa-footer__primary-section">
+    <div class="grid-container">
+      <div class="grid-row grid-gap">
+        <div class="tablet:grid-col-8">
+          <nav class="usa-footer__nav">
+            <div class="grid-row">
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+                <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+                  <h4 class="usa-footer__primary-link">Presidential Innovation Fellows</h4>
+                  <ul class="usa-list usa-list--unstyled">
+                    <li class="usa-footer__secondary-link"><a href="/fellows">Fellows</a></li>
+                    <li class="usa-footer__secondary-link"><a href="/projects">Projects</a></li>
+                    <li class="usa-footer__secondary-link"><a href="/agencies">Agencies</a></li>
+                    <li class="usa-footer__secondary-link"><a href="/faq">FAQ</a></li>
+                  </ul>
+                </section>
+              </div>
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+                <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+                  <h4 class="usa-footer__primary-link">Get in touch</h4>
+                  <ul class="usa-list usa-list--unstyled">
+                    <!-- <li class="usa-footer__secondary-link"><a href="/contact-us">Contact Us</a></li> -->
+                    <li class="usa-footer__secondary-link"><a href="mailto:pif-team@gsa.gov">pif-team@gsa.gov</a> </li>
+                    <li>
+                      <a class="usa-social-link usa-social-link--twitter" href="https://twitter.com/PIFgov">
+                        <span>Twitter</span>
+                      </a>
+                      <a class="usa-social-link usa-social-link--linkedin" href="https://www.linkedin.com/company/white-house-presidential-innovation-fellows/">
+                        <span>LinkedIn</span>
+                      </a>
+                    </li>
+                    <li>
+
+                    </li>
+
+                  </ul>
+                </section>
+              </div>
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+                <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+                  <h4 class="usa-footer__primary-link">Policies and standards</h4>
+                  <ul class="usa-list usa-list--unstyled">
+                    <li class="usa-footer__secondary-link"><a href="https://www.gsa.gov/website-information/linking-policy">Linking policy</a></li>
+                    <li class="usa-footer__secondary-link"><a href="https://www.gsa.gov/website-information/linking-policy">Privacy and security</a> </li>
+                  </ul>
+                </section>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="tablet:grid-col-4">
+          <div class="usa-sign-up">
+            <h3 class="usa-sign-up__heading">Sign up for PIF updates</h3>
+            <!-- <form class="usa-form">
+              <label class="usa-label" for="email" id="">Your email address</label>
+              <input class="usa-input" id="email" name="email" type="email">
+              <button class="usa-button" type="submit">Sign up</button>
+            </form> -->
+            <form class="usa-form" id="GD-snippet-form" action="https://public.govdelivery.com/accounts/USGSATTS/subscriber/qualify?qsp=USGSATTS_1" accept-charset="UTF-8" method="post" target="_blank"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="BVsScV3cJRnFoVEu3356C3aW2YOaOpp/VH1/TrYPxME4KWzNT/7ABzgRFh1wpp3UA6+C6PZX4tirvSU4VE5KcQ==" />
+              <!-- <label class="usa-label" for="email" id="">Your email address</label> -->
+              <input class="usa-input" type="text" name="email" id="email" placeholder="Enter your email address" />
+              <input class="usa-button" type="submit" name="commit" value="Submit" />
+            </form>
+
           </div>
         </div>
       </div>
     </div>
   </div>
-
+  {% include anchor.html %}
 </footer>
-
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://federalist.18f.gov/assets/js/3/jquery.min.js"></script>
-<script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
-<script src="{{ site.baseurl }}/js/imagesloaded.pkgds.min.js"></script>
-<script src="{{ site.baseurl }}/js/isotope.pkgd.min.js"></script>
-<script src="{{ site.baseurl }}/js/main.js"></script>
-<!-- GovDelivery Subscription Overlay -->
-<script src="https://content.govdelivery.com/overlay/js/6379.js"></script>
-<!-- End GovDelivery Overlay -->
