@@ -59,11 +59,17 @@ USWDS - PIF THEME STYLES
     position: relative;
   }
 }
+.usa-nav__primary .usa-nav__primary-item .usa-button {
+  @include u-margin-top(5);
+  @include at-media('desktop') {
+    @include u-margin-top(0);
+  }
+}
 .usa-nav__primary .usa-current, .usa-nav__primary a:hover {
-  @include u-text('primary-darker');
+  @include u-text('secondary-darker');
 }
 .usa-nav__primary-item .usa-current::after,  .usa-nav__primary-item .usa-nav__link:hover::after {
-  @include u-bg('primary-darker');
+  @include u-bg('secondary-darker');
   @include at-media('desktop') {
     background-color: #fff;
     border-radius: 0;
@@ -296,11 +302,16 @@ USWDS - PIF THEME STYLES
     width: 100%;
   }
 }
-
+.usa-banner__inner {
+  @include u-padding-x(2);
+  margin: 0;
+  @include at-media('desktop') {
+    @include u-padding-x(6);
+  }
+}
 .usa-banner__content {
   display: hidden;
 }
-
 .usa-sidenav span {
   color: #565c65;
   display: block;
