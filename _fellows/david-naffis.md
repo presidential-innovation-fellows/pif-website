@@ -4,7 +4,7 @@ title: David Naffis
 image: david-naffis-headshot.png
 fellow_year: 2014
 project: []
-agency: []
+agency: ["NARA"]
 hometown: Washington, DC
 region: south
 bio_short: Entrepreneur, developer, systems thinker. Founder of INTRIDEA, Socialspring, Scalr, DCRUG. CompSci at Loyola MD, Systems Engineering at UVA.

@@ -4,7 +4,7 @@ title: Susannah Raub
 image: susannah-raub-headshot.png
 fellow_year: 2014
 project: []
-agency: []
+agency: ["State"]
 hometown: San Francisco, CA
 region: west
 bio_short: "Software engineer at Google (10 years in Mountain View, New York, and Sydney), visiting faculty at MEST (Ghana), CS at Brown, Bay Area native."

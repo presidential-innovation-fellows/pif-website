@@ -4,7 +4,7 @@ title: Amy Wilson
 image: amy-wilson-headshot.jpg
 fellow_year: 2016
 project: []
-agency: []
+agency: ["GSA"]
 hometown: Street, MD
 region: south
 bio_short: Product manager tackling complex problems with both sides of the brain. Co-Founder, Just Startup. Storyteller, UX, HCD, Lean Startup.

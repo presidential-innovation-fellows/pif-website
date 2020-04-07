@@ -4,7 +4,7 @@ title: Chris Cairns
 image: chris-cairns-headshot.png
 fellow_year: 2013
 project: []
-agency: []
+agency: ["Treasury"]
 hometown: Waterford, PA
 region: northeast
 bio_short: Director of Consulting at 18F, former Presidential Innovation Fellow, entrepreneur, and full-stack developer. Penn State University.
