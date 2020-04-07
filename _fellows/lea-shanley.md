@@ -4,7 +4,7 @@ title: Lea Shanley
 image: lea-shanley-headshot.png
 fellow_year: 2014
 project: []
-agency: []
+agency: ["NASA"]
 hometown: Madison, WI
 region: midwest
 bio_short: Founder, Commons Lab. Co-Founder, Fed Community of Practice on Crowdsourcing & Citizen Science. GIS & remote sensing, University of Wisconsin

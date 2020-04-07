@@ -4,7 +4,7 @@ title: Dan Hammer
 image: dan-hammer-headshot.png
 fellow_year: 2014
 project: []
-agency: []
+agency: ["NASA"]
 hometown: Washington, DC
 region: south
 bio_short: PhD candidate at UC Berkeley; former Chief Data Scientist at World Resources Institute; environmental economics, mostly in clojure & python

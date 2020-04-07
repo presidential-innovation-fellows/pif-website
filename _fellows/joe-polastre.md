@@ -7,7 +7,7 @@ project: []
 agency: []
 hometown: Pennsylvania
 region: northeast
-bio_short: None
+bio_short: Joe is a researcher, developer, and serial entrepreneur focused on data analytics.
 tags: ['northeast', '2013']
 skills: []
 ---
