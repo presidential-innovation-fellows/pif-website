@@ -92,12 +92,10 @@ collections:
 
 defaults:
   - scope:
-      path: ""
       type: "fellows"
     values:
       layout: "fellow"
   - scope:
-      path: ""
       type: "projects"
     values:
       layout: "project"
