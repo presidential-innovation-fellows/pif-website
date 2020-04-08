@@ -20,10 +20,9 @@
 
 title: Presidential Innovation Fellows
 email: pif-team@gsa.gov
-description: >- # this means to ignore newlines until "baseurl:"
-  The Presidential Innovation Fellows program brings the principles, values, and practices of the innovation economy into government through the most effective agents of change we know: our people.
+description: "The Presidential Innovation Fellows program brings the principles, values, and practices of the innovation economy into government through the most effective agents of change we know: our people."
 baseurl: "" # the subpath of your site, e.g. /blog
-# url: "https://example.gov" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://presidentialinnovationfellows.gov" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Twitter handle. Only the handle, not the URL.
 twitter: pifgov
