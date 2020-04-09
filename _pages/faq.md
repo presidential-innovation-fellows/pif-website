@@ -20,7 +20,7 @@ We accept applications once per year starting in February and new PIF cohorts ty
 
 ## What is the application timeline?
 
-We will begin interviewing current applicants in April and will close applications on the last day of May.  We typically conclude the interview process by the end of June and provide offers to new PIFs for an October 1 start date.
+Applications will close on May 4, 2020, at 11:59 PM ET. We will be conducting interviews on a rolling basis throughout May, with offers will be sent out by the end of June for an October 1 start date.
 
 ---
 
@@ -60,7 +60,7 @@ While Fellows are placed across the government, the Presidential Innovation Fell
 
 ---
 
-## How many Fellows are there? 
+## How many Fellows are there?
 
 The number of Fellows throughout the year varies, depending on the needs of our partner agencies and projects we are supporting. We currently have 40 Fellows in the program (some of whom end their Fellowship this year) and are recruiting 20-25 Fellows for fall 2020.
 
