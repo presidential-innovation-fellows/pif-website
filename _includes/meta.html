@@ -60,21 +60,13 @@ site, this is the place to do it.
   <meta property="og:title" content="{% if page.title %}{% if page.title == "Home" %}{{ site.title }}{% else %}{{ page.title }} | {{ site.title }}{% endif %}{% else %}{{ site.title }}{% endif %}">
   <meta name="description" content="{{site.description}}">
   <meta property="og:description" content="{{site.description}}">
-  {% if page.title == "Fellows" %}
   <meta property="og:image" content="{% asset pif-nasa-square.jpg @path %}">
-  {% else %}
-  <meta property="og:image" content="{% asset pif-eeob-square.jpg @path %}">
-  {% endif %}
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@{{site.twitter}}" />
   <meta name="twitter:title" content="{% if page.title %}{% if page.title == "Home" %}{{ site.title }}{% else %}{{ page.title }} | {{ site.title }}{% endif %}{% else %}{{ site.title }}{% endif %}" />
   <meta name="twitter:description" content="{{site.description}}" />
-  {% if page.title == "Fellows" %}
-  <meta property="og:image" content="{% asset pif-nasa-square.jpg @path %}">
-  {% else %}
-  <meta property="og:image" content="{% asset pif-eeob-square.jpg @path %}">
-  {% endif %}
+  <meta property="twitter:image" content="{% asset pif-nasa-square.jpg @path %}">
 
   <meta property="og:type" content="article">
   <link rel="canonical" href="{{site.baseurl}}/">
