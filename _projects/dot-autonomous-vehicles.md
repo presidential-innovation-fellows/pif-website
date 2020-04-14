@@ -10,6 +10,8 @@ subtitle: "How might we help the Department of Transportation leverage emerging 
 partner_description: "The U.S. Department of Transportation ensures that our nation has the safest, most efficient and modern transportation system in the world; that improves the quality of life for all American people and communities, from rural to urban, and increases the productivity and competitiveness of American workers and businesses."
 project_link: https://www.transportation.gov
 status: "current"
+redirect_from:
+  - /newprojects/dot.html
 ---
 
 The Department of Transportation is looking for a Presidential Innovation Fellow to provide technical and business expertise as well as thought leadership on how the DOT can address potential market failures in its intelligent transportation portfolio. This could include innovative approaches to incentivize development of automated solutions to address transportation needs of underserved populations such as travelers with disabilities.
