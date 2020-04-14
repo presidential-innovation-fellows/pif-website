@@ -10,6 +10,8 @@ subtitle: "How might we help the Food and Drug Administration inform the develop
 partner_description: "The FDA's Digital Health Software Pre-Certification (Pre-Cert) Program will enable the FDA to develop a tailored approach toward regulating digital health and software technologies"
 project_link: https://www.fda.gov/medical-devices/digital-health/digital-health-software-precertification-pre-cert-program
 status: "past"
+redirect_from:
+  - /newprojects/fda-precert.html
 ---
 
 Digital health tools have vast potential improve our ability to accurately diagnose and treat disease. And to enhance the delivery of health care for the individual, making medical care truly patient centric -- empowering the individual.

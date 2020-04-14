@@ -10,6 +10,8 @@ subtitle: "How might we deliver better services to our nation's veterans?"
 partner_description: "The U.S. Department of Veterans Affairs provides near-comprehensive healthcare services to eligible military veterans at VA medical centers and outpatient clinics located throughout the country; several non-healthcare benefits including disability compensation, vocational rehabilitation, education assistance, home loans, and life insurance; and provides burial and memorial benefits to eligible veterans and family members at 135 national cemeteries."
 project_link: https://www.va.gov
 status: "current"
+redirect_from:
+  - /newprojects/va-cto.html
 ---
 
 The CTO office/OIT at the Department of Veterans Affairs works to help the VA adopt modern digital service delivery best practices, become more data-driven, improve processes and improve the experience that veterans have when interacting with the VA online. As part of this effort, the Office of the CTO/OIT is seeking four Presidential Innovation Fellows to work on the following challenges:
