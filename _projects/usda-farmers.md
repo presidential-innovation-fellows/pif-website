@@ -10,6 +10,8 @@ subtitle: "How might the U.S. Department of Agriculture deliver a better experie
 partner_description: "The U.S. Department of Agriculture provides leadership on food, agriculture, natural resources, rural development, nutrition, and related issues based on public policy, the best available science, and effective management."
 project_link: https://newfarmers.usda.gov
 status: "current"
+redirect_from:
+  - /newprojects/usda-farmers.html
 ---
 
 To better serve America’s farmers, ranchers and foresters, the USDA’s Farm Production and Conservation (FPAC) mission area is building Farmers.gov, a dynamic online customer driven website that delivers the information, tools and advice. Farmers.gov will have an external website that will service as the customer gateway and a common customer portal where USDA customers can apply for programs, process technical and financial transactions and manage accounts. The portal will improve the delivery of information and programs to FPAC customers through a single digital experience leveraging an omni-channel approach that will increase efficiencies in support of the service centers and enable a consistent engagement (online and mobile) with self-service capabilities.
