@@ -10,6 +10,9 @@ subtitle: "How might we dramatically improve health outcomes through precision m
 partner_description: "The All of Us Research Program is a historic effort to gather data from one million or more people living in the United States to accelerate research and improve health."
 project_link: https://allofus.nih.gov/
 status: "current"
+redirect_from:
+  - /newprojects/all-of-us.html
+
 ---
 
 The All of Us Research Program at the National Institutes of Health (NIH) is building an engagement and digital data platform, enabling thousands of studies on what will be one of the world’s largest, most diverse biomedical data sets. All of Us will engage one million or more U.S. volunteers of all life stages, health statuses, races/ethnicities, geographic regions, etc., reflecting the rich diversity of America.
