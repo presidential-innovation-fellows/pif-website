@@ -33,6 +33,8 @@ articles:
     description: "During a panel discussion broadcast on C-SPAN, Brad Brekke, Director, Office of Private Sector from the FBI, talks about key principles the Presidential Innovation Fellows developed as part of the initiative they are driving forward.",
     url: "https://www.c-span.org/video/?c4659812/brad-brekke-presidential-innovation-fellows"
   }
+redirect_from:
+  - /projects/fbi-risk-management.html
 ---
 
 In just six months, a team of Fellows developed and launched an end-to-end solution for creating digital records for historic files. Through crowdsourcing transcriptions, the project has engaged thousands of volunteers who have helped to transcribe and review historic and scientific records, making them easily accessible to the public for the first time.

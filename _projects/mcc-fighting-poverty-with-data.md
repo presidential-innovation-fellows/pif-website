@@ -10,6 +10,8 @@ subtitle: "How can we use data to fight poverty?"
 partner_description: "Millennium Challenge Corporation is committed to delivering sustainable economic growth and poverty reduction throughout the entire lifecycle of its investments."
 project_link: https://mcc.gov
 status: "current"
+redirect_from:
+  - /newprojects/mcc.html
 ---
 
 The Millennium Challenge Corporation (MCC) is an innovative and independent U.S. foreign aid agency that is helping lead the fight against global poverty. Created by the U.S. Congress in January 2004 with strong bipartisan support, MCC has changed the conversation on how best to deliver smart U.S. foreign assistance by focusing on good policies, country ownership, and results. MCC provides time-limited grants promoting economic growth, reducing poverty, and strengthening institutions.
