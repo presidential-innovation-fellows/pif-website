@@ -11,6 +11,9 @@ partner_description: "DIU's mission is to accelerate commercial technology for n
 project_link: https://www.diu.mil
 status: ["past", "case_study"]
 order: 1
+redirect_from:
+  - /projects/defense-innovation.html
+  - /newprojects/defense-innovation.html
 ---
 
 In 2017, Presidential Innovation Fellow Michael Brown [co-authored](https://admin.govexec.com/media/diux_chinatechnologytransferstudy_jan_2018_(1).pdf "Read: Defense Innovation Unit Experimental (DIUx)
