@@ -4,7 +4,7 @@ title: Ali Diallo
 image: ali-diallo-headshot.jpg
 fellow_year: 2019
 project: []
-agency: []
+agency: ["VA"]
 hometown: Boston, MA
 region: northeast
 bio_short: Entrepreneur, mentor, writer, and strategist focused on mobile technology, media, and social impact. Partner at United Ventures and Global Manager at MIT.

@@ -4,7 +4,7 @@ title: Gil Alterovitz
 image: gil-alterovitz-headshot.jpg
 fellow_year: 2017
 project: []
-agency: []
+agency: ["VA"]
 hometown: Boston, MA
 region: northeast
 bio_short: Clinical, genomics and informatics research. Faculty member at Harvard/MIT and the Computational Health Informatics Program at Boston Children’s Hospital

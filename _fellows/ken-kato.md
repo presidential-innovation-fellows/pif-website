@@ -4,7 +4,7 @@ title: Ken Kato
 image: ken-kato-headshot.jpg
 fellow_year: 2020
 project: []
-agency: []
+agency: ["Navy"]
 hometown: Boston, MA
 region: northeast
 bio_short: Thought leader. Technology disruptor. Innovator. Experienced in solving problems from bare metal to cloud. Steeped deeply in agile methods and development. Track record of success as a change agent in highly regulated industries.

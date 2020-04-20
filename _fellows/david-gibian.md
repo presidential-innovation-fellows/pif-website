@@ -4,7 +4,7 @@ title: Davey Gibian
 image: davey-gibian-headshot.jpg
 fellow_year: 2017
 project: []
-agency: []
+agency: ["DIU"]
 hometown: Brooklyn, NY
 region: northeast
 bio_short: A systems designer, Founder, and humanitarian with experience in cybersecurity, AI, data science, and business growth; developed platforms in active war zones, Silicon Valley, and New York City.

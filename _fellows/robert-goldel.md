@@ -3,8 +3,8 @@ id: robert-goldel
 title: Robert Goldel
 image: robert-goldel-headshot.jpg
 fellow_year: 2019
-project: []
-agency: []
+project: ["fda-informed"]
+agency: ["FDA","VA"]
 hometown: Boston, MA
 region: northeast
 bio_short: Founder, Neuroscientist, Data-Driven Technologist. Two decades of working at the intersection of cognition, behavior, and the brain, solving for human health and performance concerns with industry, non-profit, and government partners across populations.

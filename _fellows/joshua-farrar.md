@@ -4,7 +4,7 @@ title: Joshua Farrar
 image: joshua-farrar-headshot.jpg
 fellow_year: 2020
 project: []
-agency: []
+agency: ["VA"]
 hometown: Arlington, VA
 region: south
 bio_short: Helping agencies with digital transformation initiatives, software and enterprise architecture, analytics design, data collection, analysis, and reporting.

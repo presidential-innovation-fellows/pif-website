@@ -1,5 +1,5 @@
 ---
-id: usagm
+id: usagm-reaching-new-global-audiences
 agency: "U.S. Agency for Global Media"
 agency_abbrev: "USAGM"
 agency_logo: "USAGM.png"

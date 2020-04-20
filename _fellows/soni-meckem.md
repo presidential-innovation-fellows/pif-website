@@ -3,8 +3,8 @@ id: soni-meckem
 title: Soni Meckem
 image: soni-meckem-headshot.jpg
 fellow_year: 2019
-project: []
-agency: []
+project: ["nih-all-of-us"]
+agency: ["NIH","VA"]
 hometown: Jackson Hole, WY
 region: west
 bio_short: Customer experience, healthcare, and tech strategist, systems thinker, connector. CIO. Mathematician. Statistician. Lifelong learner.
