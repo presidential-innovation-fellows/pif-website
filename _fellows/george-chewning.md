@@ -4,7 +4,7 @@ title: George Chewning
 image: george-chewning-headshot.jpg
 fellow_year: 2020
 project: []
-agency: []
+agency: ["VA"]
 hometown: San Francisco, CA
 region: west
 bio_short: Veteran advocate and lifelong learner. Being a part of something greater than myself is what gets me out of bed in the morning.

@@ -3,8 +3,8 @@ id: sarayu-srinivasan
 title: Sarayu Srinivasan
 image: sarayu-srinivasan-headshot.jpg
 fellow_year: 2019
-project: []
-agency: []
+project: ["nist-lab-to-market"]
+agency: ["NIST"]
 hometown: New York, NY
 region: northeast
 bio_short: Venture capitalist. Technology & Consumer Operator/Executive. Founder/CEO. Visiting Scholar/EIR-VIR. Kaargo, University of Edinburgh, ASU, Intel Capital, Pepsi, HBS. Curious, evolving, resourceful.

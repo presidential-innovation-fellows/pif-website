@@ -4,7 +4,7 @@ title: Dennis Chornenky
 image: dennis-chornenky-headshot.jpg
 fellow_year: 2020
 project: []
-agency: []
+agency: ["OSTP"]
 hometown: Boston, MA
 region: northeast
 bio_short: Strategy and policy consultant in artificial intelligence and emerging technology.  Twenty years of experience in healthcare, technology, and financial services as an investment banker, entrepreneur, and operating partner.

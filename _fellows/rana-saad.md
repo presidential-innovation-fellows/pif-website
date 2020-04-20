@@ -3,8 +3,8 @@ id: rana-saad
 title: Rana Saad
 image: rana-saad-headshot.jpg
 fellow_year: 2019
-project: []
-agency: []
+project: ["fda-precert"]
+agency: ["FDA"]
 hometown: Gaithersburg, MD
 region: south
 bio_short: Innovator. Entrepreneur. Thought leader with more than 20 years of innovation and digital focused global experience, combining consulting and advisory with entrepreneurship and startups.

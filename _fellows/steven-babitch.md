@@ -3,8 +3,8 @@ id: steven-babitch
 title: Steven Babitch
 image: steven-babitch-headshot.jpg
 fellow_year: 2015
-project: []
-agency: []
+project: ["fbi-risk-management"]
+agency: ["FBI"]
 hometown: Detroit, MI
 region: midwest
 bio_short:  Design Strategist that humanizes technology, transforming user needs into viable products, platforms, and policy. Mentor @MATTERChicago. Emerging Leader @ChicagoCouncil. Lived in Chicago. Imported from Detroit.

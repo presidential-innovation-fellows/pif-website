@@ -3,8 +3,8 @@ id: michael-pritchard
 title: Michael Pritchard
 image: michael-pritchard-headshot.jpg
 fellow_year: 2019
-project: []
-agency: []
+project: ["usagm-reaching-new-global-audiences"]
+agency: ["USAGM"]
 hometown: Reston, VA
 region: south
 bio_short: Tinkerer, developer, executive, investor and entrepreneur building teams and companies.

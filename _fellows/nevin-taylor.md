@@ -3,8 +3,8 @@ id: nevin-taylor
 title: Nevin Taylor
 image: nevin-taylor-headshot.jpg
 fellow_year: 2019
-project: []
-agency: []
+project: ["state-data-office"]
+agency: ["State","VA"]
 hometown: Washington, DC
 region: south
 bio_short: Strategist, transformational innovator, and catalyst to collaboration. 34 years of leadership in industry, academia, and government. Actualizes the inherent value of data to unleash the power of information.
