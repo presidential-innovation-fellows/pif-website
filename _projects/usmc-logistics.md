@@ -9,7 +9,7 @@ cover_art: "helicopter.jpg"
 subtitle: "How can we help the USMC conduct a digital and data transformation to improve logistics and keep our nation’s Marines safe?"
 partner_description: "As America's expeditionary force in readiness since 1775, the Marines are forward deployed to win our nation's battles swiftly and aggressively in times of crisis."
 project_link: https://www.marines.mil
-status: "current"
+status: "upcoming"
 redirect_from:
   - /newprojects/usmc.html
 ---

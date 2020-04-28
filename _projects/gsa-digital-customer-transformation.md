@@ -9,7 +9,7 @@ cover_art: ""
 subtitle: "How might we help GSA streamline its web presence and save taxpayer dollars?"
 partner_description: "The General Services Administration (GSA) is an independent agency of the United States government established in 1949 to help manage and support the basic functioning of federal agencies. GSA supplies products and communications for U.S. government offices, provides transportation and office space to federal employees, and develops government-wide cost-minimizing policies and other management tasks."
 project_link: https://www.gsa.gov
-status: "past"
+status: "current"
 ---
 
 GSA helps government agencies with the acquisition of $50 billion of goods and services from more than 20 thousand industry partners each year. GSA is an agency that is known for innovation and technology, however, the current web presence does not reflect that. GSA has 87,000 pages, 37 different logins, and continually hears from vendors and potential vendors that they are frustrated in trying to figure out how to get on a GSA schedule. In fact, a whole industry has arisen to help businesses get on schedule. GSA’s own sites that vendors must visit to complete their journey don't directly connect to each other. Also, federal agencies find it confusing to buy from us and this leads to them spending more. A better web presence will lead to more small businesses on schedule and more agencies using those businesses, ultimately resulting in a lower tax dollar spent on acquisition and a greater proportion of acquisition dollars in the pockets of small businesses.

@@ -9,7 +9,7 @@ cover_art: ""
 subtitle: "How might we help the Food and Drug Administration inform the development of a regulatory model to assess the safety and effectiveness of software technologies without inhibiting patient access to these technologies?"
 partner_description: "The FDA's Digital Health Software Pre-Certification (Pre-Cert) Program will enable the FDA to develop a tailored approach toward regulating digital health and software technologies"
 project_link: https://www.fda.gov/medical-devices/digital-health/digital-health-software-precertification-pre-cert-program
-status: "past"
+status: "current"
 redirect_from:
   - /newprojects/fda-precert.html
 ---
