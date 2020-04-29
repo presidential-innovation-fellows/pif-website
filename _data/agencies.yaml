@@ -45,6 +45,11 @@
   url: http://www.fema.gov
   description:
 
+- name: FTC
+  fullname: Federal Trade Commission
+  url: http://www.ftc.gov
+  description: Protecting consumers and competition by preventing anticompetitive, deceptive, and unfair business practices through law enforcement, advocacy, and education without unduly burdening legitimate business activity.
+
 - name: GSA
   fullname: General Services Administration
   url: https://gsa.gov

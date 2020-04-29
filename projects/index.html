@@ -8,7 +8,16 @@ permalink: /projects/
 {% include banner.html %}
 
 <section class="usa-section grid-container">
-  <h2>Current projects</h2>
+  <h2>Potential upcoming projects</h2>
+  <div class="grid-row">
+    <div class="desktop:grid-col-12">
+      {% include projects-column.html project_filter="upcoming" %}
+    </div>
+  </div>
+</section>
+
+<section class="usa-section grid-container">
+  <h2>Select recent projects</h2>
   <div class="grid-row">
     <div class="desktop:grid-col-12">
       {% include projects-column.html project_filter="current" %}
@@ -17,7 +26,7 @@ permalink: /projects/
 </section>
 
 <section class="usa-section grid-container">
-  <h2>Case Studies</h2>
+  <h2>Case studies</h2>
   <div class="grid-row margin-x-neg-2">
   {% assign sorted_projects = site.projects | sort:"order" %}
   {% for project in sorted_projects %}

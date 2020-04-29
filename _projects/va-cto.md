@@ -9,7 +9,7 @@ cover_art: "va-cto.jpg"
 subtitle: "How might we deliver better services to our nation's veterans?"
 partner_description: "The U.S. Department of Veterans Affairs provides near-comprehensive healthcare services to eligible military veterans at VA medical centers and outpatient clinics located throughout the country; several non-healthcare benefits including disability compensation, vocational rehabilitation, education assistance, home loans, and life insurance; and provides burial and memorial benefits to eligible veterans and family members at 135 national cemeteries."
 project_link: https://www.va.gov
-status: "current"
+status: "upcoming"
 redirect_from:
   - /newprojects/va-cto.html
 ---

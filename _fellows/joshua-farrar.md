@@ -3,7 +3,7 @@ id: joshua-farrar
 title: Joshua Farrar
 image: joshua-farrar-headshot.jpg
 fellow_year: 2020
-project: []
+project: ["va-orm"]
 agency: ["VA"]
 hometown: Arlington, VA
 region: south
