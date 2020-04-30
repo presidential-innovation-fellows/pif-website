@@ -10,7 +10,7 @@ layout: default
           <h4 class="text-uppercase text-secondary-dark float-left margin-0 desktop:grid-col-8">{{ page.agency }}</h4>
           {% if page.project_link %}
           <a href="{{ page.project_link }}" class="usa-button float-right usa-button desktop:grid-col-3">
-            View project site
+            Visit agency website
           </a>
           {% endif %}
         </div>
@@ -38,7 +38,8 @@ layout: default
             {{ page.subtitle  }}
           </p>
         </div>
-        <h2>Our work at {{ page.agency_abbrev }}</h2>
+
+        <h2>Project description</h2>
         {{ content }}
 
         {% if page.status == "past" or page.status == "current" %}
