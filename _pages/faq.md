@@ -20,7 +20,7 @@ We accept applications once per year starting in February and new PIF cohorts ty
 
 ## What is the application timeline?
 
-Applications will close on May 4, 2020, at 11:59 PM ET. We will be conducting interviews on a rolling basis throughout May, with offers will be sent out by the end of June for an October 1 start date.
+Applications will close on May 18, 2020, at 11:59 PM ET. We will be conducting interviews on a rolling basis throughout May, with offers will be sent out by the end of June for an October 1 start date.
 
 ---
 
