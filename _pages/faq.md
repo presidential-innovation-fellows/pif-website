@@ -14,13 +14,13 @@ The Presidential Innovation Fellowship is a 12-month program, during which a Fel
 
 ## When can I apply?
 
-We accept applications once per year starting in February and new PIF cohorts typically start in October. Please [check our website](https://apply.pif.gov) for the current application deadline and information. If you are interested in the PIF program or other opportunities with the Technology Transformation Service, [join our mailing list](https://public.govdelivery.com/accounts/USGSATTS/subscriber/new?topic_id=USGSATTS_4).
+We accept applications once per year starting in February and new PIF cohorts typically start in October. Please [check our apply page](https://apply.pif.gov) for the current application deadline and information. If you are interested in the PIF program or other opportunities with the Technology Transformation Services, [join our mailing list](https://public.govdelivery.com/accounts/USGSATTS/subscriber/new?topic_id=USGSATTS_4).
 
 ---
 
 ## What is the application timeline?
 
-Applications will close on May 18, 2020, at 11:59 PM ET. We will be conducting interviews on a rolling basis throughout May, with offers will be sent out by the end of June for an October 1 start date.
+Applications are currently closed. Check back here or follow us on [Twitter](https://twitter.com/pifgov) or [LinkedIn](https://www.linkedin.com/company/white-house-presidential-innovation-fellows) to get updates on future cohorts.
 
 ---
 
