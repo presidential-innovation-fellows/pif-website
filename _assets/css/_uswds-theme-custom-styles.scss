@@ -11,19 +11,12 @@ USWDS - PIF THEME STYLES
 ----------------------------------------
 */
 
-// .tablet\:width-1\/3 {
-//   width: 33%;
-// }
-// .tablet\:float-left {
-//   float: left;
-// }
-
-// $button-stroke: "blue-warm-70";
-
-// .usa-button:hover, .usa-button.usa-button--hover
-
-.usa-banner__button {
+// Setting link color for the "Official government website" toggle
+.usa-banner__button, .usa-banner__button-text, .usa-banner__header-action {
   color: color("secondary-darkest");
+  &:hover {
+    color: color("secondary");
+  }
 }
 // Buttons
 .usa-button {
@@ -93,9 +86,9 @@ USWDS - PIF THEME STYLES
   }
 }
 .usa-nav__primary-item:last-child .usa-nav__link:hover::after, .usa-nav__primary-item .usa-button.usa-current::after  {
-  // @include at-media('desktop') {
-  //   display: none;
-  // }
+  @include at-media('desktop') {
+    display: none;
+  }
 }
 .usa-nav__primary button[aria-expanded=true], .usa-nav__submenu {
   @include at-media('desktop') {
