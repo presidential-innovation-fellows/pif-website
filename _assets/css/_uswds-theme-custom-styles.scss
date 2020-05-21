@@ -18,32 +18,41 @@ USWDS - PIF THEME STYLES
 //   float: left;
 // }
 
+// $button-stroke: "blue-warm-70";
 
-.usa-button:hover, .usa-button.usa-button--hover
+// .usa-button:hover, .usa-button.usa-button--hover
 
+.usa-banner__button {
+  color: color("secondary-darkest");
+}
 // Buttons
 .usa-button {
+  color: color("secondary-darkest");
   &:hover, &.usa-button--hover {
     @include u-bg('primary-vivid');
-    &.usa-button--outline {
-      box-shadow: $button-stroke color("primary");
-      color: color("primary");
+    color: color("secondary-darkest");
+  }
+  &:visited {
+    color: color("secondary-darkest");
+  }
+  &.usa-button--outline {
+    box-shadow: $button-stroke color("secondary-dark");
+    color: color("secondary-darker");
+    background-color: color("transparent");
+    &:hover,
+    &.usa-button--hover {
+      box-shadow: $button-stroke color("secondary");
+      color: color("secondary");
+    }
+    &:active,
+    &.usa-button--active {
+      box-shadow: $button-stroke color("secondary-darker");
+      color: color("secondary-darkest");
+    }
+    &.usa-button--inverse:hover {
       background-color: color("transparent");
-      &:hover,
-      &.usa-button--hover {
-        box-shadow: $button-stroke color("primary-vivid");
-        color: color("primary-vivid");
-      }
-      &:active,
-      &.usa-button--active {
-        box-shadow: $button-stroke color("primary-vivid");
-        color: color("primary-vivid");
-      }
-      &.usa-button--inverse:hover {
-        background-color: color("transparent");
-        color: #fff;
-        box-shadow: $button-stroke #fff;
-      }
+      color: color("secondary-darker");
+      box-shadow: $button-stroke #fff;
     }
   }
 }
@@ -64,6 +73,7 @@ USWDS - PIF THEME STYLES
   @include at-media('desktop') {
     @include u-margin-top(0);
   }
+  color: color("secondary-darkest");
 }
 .usa-nav__primary .usa-current, .usa-nav__primary a:hover {
   @include u-text('secondary-darker');
@@ -83,9 +93,9 @@ USWDS - PIF THEME STYLES
   }
 }
 .usa-nav__primary-item:last-child .usa-nav__link:hover::after, .usa-nav__primary-item .usa-button.usa-current::after  {
-  @include at-media('desktop') {
-    display: none;
-  }
+  // @include at-media('desktop') {
+  //   display: none;
+  // }
 }
 .usa-nav__primary button[aria-expanded=true], .usa-nav__submenu {
   @include at-media('desktop') {
@@ -94,15 +104,19 @@ USWDS - PIF THEME STYLES
 }
 .usa-nav__primary button[aria-expanded=true], .usa-nav__primary button[aria-expanded=true] span, .usa-nav__primary button[aria-expanded=true], .usa-nav__primary button[aria-expanded=true] span, .usa-nav__submenu .usa-nav__submenu-item a, .usa-nav__submenu .usa-nav__submenu-item a:hover {
   @include at-media('desktop') {
-    @include u-text('primary-darker');
+    @include u-text('primary-vivid');
   }
 }
 .usa-nav__primary > .usa-nav__primary-item > a:hover {
   @include at-media('desktop') {
-    color: #fff;
+    @include u-text('white');
   }
 }
-
+.usa-nav__primary > .usa-nav__primary-item > a.usa-button:hover {
+  @include at-media('desktop') {
+    @include u-text('secondary-darker');
+  }
+}
 
 // Pagination
 .paginate-link {
@@ -206,6 +220,9 @@ USWDS - PIF THEME STYLES
   h3 a {
     @include u-text('primary');
     text-decoration: none;
+    &:hover {
+      @include u-text('primary-vivid');
+    }
   }
   .usa-graphic-list__heading {
     @include u-font-family('sans');
@@ -223,9 +240,15 @@ USWDS - PIF THEME STYLES
 }
 
 .usa-footer {
+  .usa-footer__secondary-link a {
+    @include u-text('secondary-dark');
+    &:hover, &:active {
+      @include u-text('secondary');
+    }
+  }
   .usa-footer__secondary-section {
-    @include u-bg('primary');
-    a, a:hover, a:visited {
+    @include u-bg('secondary-dark');
+    a, a:hover, a:visited, a:active {
       @include u-text('white');
       text-decoration: none;
     }
@@ -234,7 +257,12 @@ USWDS - PIF THEME STYLES
       color: color("white");
     }
     .usa-button {
-      @include u-font('body', 'lg')
+      @include u-font('body', 'lg');
+      box-shadow: inset 0 0 0 2px #dcdee0;
+      &:hover, &:visited, &:active {
+        @include u-text('white');
+        box-shadow: $button-stroke color("white");
+      }
     }
     .grid-container {
       @include at-media('desktop') {
@@ -285,6 +313,10 @@ USWDS - PIF THEME STYLES
 }
 .usa-menu-btn {
   background: none;
+  &:hover, &:active {
+    @include u-bg('primary');
+    @include u-text('secondary-darker');
+  }
 }
 
 
@@ -312,11 +344,19 @@ USWDS - PIF THEME STYLES
 .usa-banner__content {
   display: hidden;
 }
-.usa-sidenav span {
-  color: #565c65;
-  display: block;
-  padding: 0.5rem 1rem;
-  text-decoration: none;
+.usa-sidenav {
+  a, .usa-current {
+    @include u-text('secondary-dark');
+    &:hover {
+      @include u-text('secondary');
+    }
+  }
+  span {
+    color: #565c65;
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+  }
 }
 
 .usa-graphic-list {
