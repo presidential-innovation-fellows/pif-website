@@ -53,8 +53,8 @@ primary_navigation:
   #       url: /document/
   #     - name: Document with sidenav
   #       url: /document-with-sidenav/
-  - name: Apply
-    url: /apply/
+  # - name: Apply
+  #   url: /apply/
 
 secondary_navigation:
   - name: Secondary link
