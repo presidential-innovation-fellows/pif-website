@@ -176,11 +176,15 @@
       }
     }
     .usa-button-sm{
+      @include u-bg('primary');
+      @include u-text('secondary-darkest');
+
+
       @include u-margin(0);
       @include u-margin-top(1);
       @include u-margin-bottom(2);
       @include u-padding-y(1);
-      @include u-text('white');
+      // @include u-text('white');
       white-space: nowrap;
       @include u-font('sans', 'sm');
       @include at-media('tablet') {
@@ -191,9 +195,9 @@
       @include at-media('tablet') {
         @include u-font('sans', 'sm');
       }
-      @include u-bg('blue-40v');
+      // @include u-bg('blue-40v');
       &:hover{
-        @include u-bg('blue-50v');
+        @include u-bg('primary-vivid');
       }
     }
   }
