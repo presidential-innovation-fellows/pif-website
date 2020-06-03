@@ -9,7 +9,7 @@ cover_art: "dot_home.jpg"
 subtitle: "How might we help the Department of Transportation leverage emerging technologies to make our cities and transportation systems safer?"
 partner_description: "The U.S. Department of Transportation ensures that our nation has the safest, most efficient and modern transportation system in the world; that improves the quality of life for all American people and communities, from rural to urban, and increases the productivity and competitiveness of American workers and businesses."
 project_link: https://www.transportation.gov
-status: "upcoming"
+status: "past"
 redirect_from:
   - /newprojects/dot.html
 ---
