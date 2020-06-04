@@ -32,6 +32,7 @@ google_analytics_ua: UA-67722639-1
 
 # Configuration for DAP, add your agency ID here:
 dap_agency: GSA
+dap_subagency: PIF
 
 # Site Navigation
 primary_navigation:

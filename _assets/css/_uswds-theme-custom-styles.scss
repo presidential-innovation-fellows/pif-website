@@ -139,7 +139,7 @@ USWDS - PIF THEME STYLES
 }
 .project-question {
   background-image: url(asset_path("question.svg")), linear-gradient(transparent, transparent);
-  background-position: units('205');
+  background-position: units('205') units('205');
   background-repeat: no-repeat;
   background-size: units(7);
   padding: units(1) units(2);
