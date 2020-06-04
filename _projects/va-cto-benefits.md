@@ -1,6 +1,6 @@
 ---
 id: va-cto
-agency: "U.S. Department of Veterans Affairs"
+agency: "Department of Veterans Affairs"
 agency_abbrev: "VA"
 agency_logo: "VA.png"
 title: "Transforming the Veteran’s experience"
@@ -11,7 +11,6 @@ partner_description: "The U.S. Department of Veterans Affairs provides near-comp
 project_link: https://www.va.gov
 status: ""
 ---
-
 The CTO office/OIT at the Department of Veterans Affairs works to help the VA adopt modern digital service delivery best practices, become more data-driven, improve processes and improve the experience that veterans have when interacting with the VA online. As part of this effort, the Office of the CTO/OIT is seeking four Presidential Innovation Fellows to work on the following challenges:
 
 Health Record Interoperability: VA has the nation’s largest integrated healthcare system, with 9 million patients and VA has long been a world-leader in the electronic medical record space. As we transition our EHR to a new platform and expand the use of outside providers to treat our patients, the need for health record interoperability between various systems is increasing. Due to our size and public interest mission, VA has a unique opportunity to drive industry progress on healthcare record interoperability. How can we ensure the clinicians (whether at the VA or in the community) who treat our patients have access to all the information they need to provide excellent care? How can we empower patients to use their own health data in new ways? How can we drive industry progress on health record interoperability.

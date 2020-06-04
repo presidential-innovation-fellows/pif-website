@@ -1,6 +1,6 @@
 ---
 id: usda-farmers
-agency: "U.S. Department of Agriculture"
+agency: "Department of Agriculture"
 agency_abbrev: "USDA"
 agency_logo: "USDA.png"
 title: "Developing open-source technology to improve autonomous vehicle safety, efficiency, and mobility"

@@ -1,6 +1,6 @@
 ---
 id: va-veo
-agency: "U.S. Department of Veterans Affairs"
+agency: "Department of Veterans Affairs"
 agency_abbrev: "VA"
 agency_logo: "VA.png"
 title: "Transforming the veteran experience"
@@ -13,5 +13,4 @@ status: "upcoming"
 redirect_from:
   - /newprojects/va-veo.html
 ---
-
 The Veteran Experience (VE) team at the Department of Veteran Affairs is leading the effort to orient the second largest agency in the federal government to be user-focused and provide a first class experience for our nation’s veterans. The VE team is working across a number of areas including creating common customer records, developing customer experience mechanisms in data, modernizing the VA’s contact center and understanding how to better recover veterans who drop off of the VA’s radar. During the assignment, fellows worked toward deploying high-quality, user-centric platforms and services to lead major initiatives, consult on systems and policy proposals, and provide technical, policy, and programmatic guidance to VA and the government.

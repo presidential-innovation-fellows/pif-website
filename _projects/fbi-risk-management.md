@@ -1,6 +1,6 @@
 ---
 id: fbi-risk-management
-agency: "Smithsonian Institution"
+agency: "Federal Bureau of Investigation"
 agency_abbrev: "FBI"
 agency_logo: "FBI.png"
 title: "Risk management at the FBI"
