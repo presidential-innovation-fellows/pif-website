@@ -1,6 +1,6 @@
 ---
 id: va-orm
-agency: "U.S. Department of Veterans Affairs"
+agency: "Department of Veterans Affairs"
 agency_abbrev: "VA"
 agency_logo: "VA.png"
 title: "Supporting a discrimination-free environment for all VA employees"

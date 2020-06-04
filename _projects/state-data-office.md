@@ -1,6 +1,6 @@
 ---
 id: state-data-office
-agency: "U.S. Department of State"
+agency: "Department of State"
 agency_abbrev: "State"
 agency_logo: "State.png"
 title: "Leveraging data as an asset at the State Department"

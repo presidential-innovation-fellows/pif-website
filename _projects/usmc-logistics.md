@@ -1,6 +1,6 @@
 ---
 id: usmc-logistics
-agency: "U.S. Marine Corps"
+agency: "United States Marine Corps"
 agency_abbrev: "USMC"
 agency_logo: "USMC.png"
 title: "Logistics digital transformation at USMC"

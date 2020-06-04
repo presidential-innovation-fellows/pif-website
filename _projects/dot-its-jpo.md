@@ -1,6 +1,6 @@
 ---
 id: dot-its-jpo
-agency: "U.S. Department of Transportation"
+agency: "Department of Transportation"
 agency_abbrev: "DOT"
 agency_logo: "DOT.png"
 title: "Accelerating research and implementation of technologies that lead to public safety and efficiency"
