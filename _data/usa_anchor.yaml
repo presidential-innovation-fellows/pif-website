@@ -3,9 +3,9 @@
 
 anchor_data:
     site_name: Presidential Innovation Fellows
-    site_email: digitalgov@gsa.gov
+    site_email: pif-team@gsa.gov
     site_url: https://presidentialinnovationfellows.gov
-    site_about: https://presidentialinnovationfellows.gov/mission
+    site_about: https://presidentialinnovationfellows.gov/about/
     agency: U.S. General Services Administration
     agency_acronym: GSA
     agency_logo: /img/gsa-logo-w100.png
