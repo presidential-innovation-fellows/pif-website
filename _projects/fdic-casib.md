@@ -4,7 +4,7 @@ agency: "Federal Deposit Insurance Corporation"
 agency_abbrev: "FDIC"
 agency_logo: "FDIC.png"
 title: "Enhancing the nation's financial data analytics capabilities"
-summary: "Helping the Federal Deposit Insurance Corporation use financial data to better analyze loans"
+summary: "Helping the Federal Deposit Insurance Corporation leverage financial data to better analyze loans, their associated credit risk, and whether or not they meet underwriting standards"
 subtitle: "How can we help the FDIC partner with startup companies to introduce new and viable technologies suitable for rapid prototyping projects that deliver cutting-edge capabilities for the FDIC and its member banks?"
 partner_description: "The Federal Deposit Insurance Corporation (FDIC) is an independent agency created by the Congress to maintain stability and public confidence in the nation's financial system by insuring deposits, examining and supervising financial institutions for safety and soundness and consumer protection, making large and complex financial institutions resolvable, and managing receiverships."
 project_link: https://www.fdic.gov
