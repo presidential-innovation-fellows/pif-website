@@ -214,6 +214,7 @@ USWDS - PIF THEME STYLES
   }
   .usa-graphic-list__heading {
     @include u-font-family('sans');
+    @include u-margin-top(1);
   }
 }
 
