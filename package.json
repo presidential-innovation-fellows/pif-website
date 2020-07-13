@@ -18,7 +18,7 @@
   },
   "license": "CC0-1.0",
   "dependencies": {
-    "uswds": "^2.0.2"
+    "uswds": "~2.8.0"
   },
   "devDependencies": {
     "a11y": "^0.5.1"

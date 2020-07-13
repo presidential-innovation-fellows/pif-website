@@ -21,14 +21,3 @@
 @mixin add-no-sr-only {
   position: static;
 }
-
-.usa-sr-only {
-  @include sr-only;
-}
-
-// Aria hidden helper
-@mixin accessibly-hidden {
-  &[aria-hidden=true] {
-    display: none;
-  }
-}
