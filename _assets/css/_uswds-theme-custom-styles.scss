@@ -327,15 +327,10 @@ USWDS - PIF THEME STYLES
     width: 100%;
   }
 }
-.usa-banner__inner {
-  @include u-padding-x(2);
-  margin: 0;
+.usa-banner__inner, .usa-banner__content {
   @include at-media('desktop') {
     @include u-padding-x(6);
   }
-}
-.usa-banner__content {
-  display: hidden;
 }
 .usa-sidenav {
   a, .usa-current {
