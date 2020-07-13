@@ -8,6 +8,8 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
+    autoprefixer-rails (9.8.5)
+      execjs
     colorator (1.1.0)
     colorize (0.8.1)
     concurrent-ruby (1.1.6)
@@ -66,6 +68,8 @@ GEM
       nokogiri (~> 1.8)
       pathutil (~> 0.16)
       sprockets (>= 3.3, < 4.1.beta)
+    jekyll-autoprefixer (1.0.2)
+      autoprefixer-rails (~> 9.3)
     jekyll-feed (0.11.0)
       jekyll (~> 3.3)
     jekyll-paginate-v2 (2.0.0)
@@ -141,6 +145,7 @@ DEPENDENCIES
   html-proofer (~> 3.10)
   jekyll (~> 3.8)
   jekyll-assets (~> 3.0)
+  jekyll-autoprefixer
   jekyll-feed (~> 0.6)
   jekyll-paginate-v2 (= 2.0)
   jekyll-redirect-from
@@ -152,4 +157,4 @@ RUBY VERSION
    ruby 2.6.3p62
 
 BUNDLED WITH
-   1.17.2
+   1.17.3
