@@ -11,13 +11,8 @@ USWDS - PIF THEME STYLES
 ----------------------------------------
 */
 
-// Setting link color for the "Official government website" toggle
-.usa-banner__button, .usa-banner__button-text, .usa-banner__header-action {
-  color: color("secondary-darkest");
-  &:hover {
-    color: color("secondary");
-  }
-}
+
+
 // Buttons
 .usa-button {
   color: color("secondary-darkest");
@@ -71,7 +66,7 @@ USWDS - PIF THEME STYLES
 .usa-nav__primary .usa-current, .usa-nav__primary a:hover {
   @include u-text('secondary-darker');
 }
-.usa-nav__primary-item .usa-current::after,  .usa-nav__primary-item .usa-nav__link:hover::after {
+.usa-nav__primary-item .usa-current::after, .usa-nav__primary-item .usa-nav__link:hover::after {
   @include u-bg('secondary-darker');
   @include at-media('desktop') {
     background-color: #fff;
@@ -82,8 +77,10 @@ USWDS - PIF THEME STYLES
     height: .25rem;
     left: 1rem;
     right: 1rem;
-    bottom: 0;
-  }
+ }
+}
+.usa-nav__primary a.usa-current:hover::after {
+  @include u-bg('primary');
 }
 .usa-nav__primary-item:last-child .usa-nav__link:hover::after, .usa-nav__primary-item .usa-button.usa-current::after  {
   @include at-media('desktop') {
@@ -219,6 +216,7 @@ USWDS - PIF THEME STYLES
   }
   .usa-graphic-list__heading {
     @include u-font-family('sans');
+    @include u-margin-top(1);
   }
 }
 
@@ -327,13 +325,23 @@ USWDS - PIF THEME STYLES
     width: 100%;
   }
 }
-.usa-banner__inner {
+
+.usa-banner__inner, .grid-row.grid-gap-lg .usa-banner__guidance {
   @include u-padding-x(2);
   margin: 0;
+}
+.usa-banner__inner {
   @include at-media('desktop') {
     @include u-padding-x(6);
   }
 }
+.grid-row.grid-gap-lg .usa-banner__guidance {
+  @include at-media('desktop') {
+    @include u-padding-x(3);
+  }
+}
+
+
 .usa-banner__content {
   display: hidden;
 }
