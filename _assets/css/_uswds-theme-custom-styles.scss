@@ -66,7 +66,7 @@ USWDS - PIF THEME STYLES
 .usa-nav__primary .usa-current, .usa-nav__primary a:hover {
   @include u-text('secondary-darker');
 }
-.usa-nav__primary-item .usa-current::after,  .usa-nav__primary-item .usa-nav__link:hover::after {
+.usa-nav__primary-item .usa-current::after, .usa-nav__primary-item .usa-nav__link:hover::after {
   @include u-bg('secondary-darker');
   @include at-media('desktop') {
     background-color: #fff;
@@ -77,8 +77,10 @@ USWDS - PIF THEME STYLES
     height: .25rem;
     left: 1rem;
     right: 1rem;
-    bottom: 0;
-  }
+ }
+}
+.usa-nav__primary a.usa-current:hover::after {
+  @include u-bg('primary');
 }
 .usa-nav__primary-item:last-child .usa-nav__link:hover::after, .usa-nav__primary-item .usa-button.usa-current::after  {
   @include at-media('desktop') {
