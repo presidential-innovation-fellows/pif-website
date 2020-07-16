@@ -10,7 +10,7 @@ subtitle: "Citizen science can augment traditional scientific approaches for col
 partner_description: "Designing and guiding open science and innovation research strategies for Earth and planetary science"
 project_link: https://nasa.gov
 status: ["past", "case_study"]
-order: 2
+order: 20
 ---
 The Asteroid Grand Challenge is focused on finding all asteroids threats to human populations and knowing what to do about them. Estimates suggest that less than 10% of objects smaller than 300 meters in diameter have been discovered, and it will take a global effort with innovative solutions to accelerate the completion of the survey of potentially hazardous asteroids.
 

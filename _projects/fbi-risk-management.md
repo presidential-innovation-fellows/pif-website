@@ -10,7 +10,7 @@ subtitle: "In collaboration with the FBI, the Presidential Innovation Fellows fo
 partner_description: "The Federal Bureau of Investigation (FBI) is the domestic intelligence and security service of the United States and its principal federal law enforcement agency"
 project_link: https://www.fbi.gov
 status: ["past", "case_study"]
-order: 6
+order: 60
 impact_metrics:
   - {
     metric: "1,400+",
@@ -39,4 +39,4 @@ redirect_from:
 
 In just six months, a team of Fellows developed and launched an end-to-end solution for creating digital records for historic files. Through crowdsourcing transcriptions, the project has engaged thousands of volunteers who have helped to transcribe and review historic and scientific records, making them easily accessible to the public for the first time.
 
-{% asset "ciso-pif-evanta.jpg" class="float-right" title="PIFs preparing for Chief Information Security Officer (CISO) conference in Los Angeles" %}
+{% asset "ciso-pif-evanta.jpg" class="" title="PIFs preparing for Chief Information Security Officer (CISO) conference in Los Angeles" %}
