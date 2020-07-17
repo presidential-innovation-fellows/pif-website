@@ -10,7 +10,7 @@ subtitle: "The U.S. government did not have a holistic view of how fast China's 
 partner_description: "DIU's mission is to accelerate commercial technology for national security. They are a fast-moving government entity that provides recurring revenue to companies to solve national security problems."
 project_link: https://www.diu.mil
 status: ["past", "case_study"]
-order: 1
+order: 10
 redirect_from:
   - /projects/defense-innovation.html
   - /newprojects/defense-innovation.html

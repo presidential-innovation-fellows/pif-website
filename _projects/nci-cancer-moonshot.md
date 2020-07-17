@@ -10,7 +10,7 @@ subtitle: "Reimagining cancer clinical trials increasing awareness and access fo
 partner_description: "Accurate, up-to-date, comprehensive cancer information from the U.S. government's principal agency for cancer research"
 project_link: https://clinicaltrialsapi.cancer.gov
 status: ["past", "case_study"]
-order: 4
+order: 40
 impact_metrics:
   - {
       metric: "Clinical trials are essential for developing new and more effective cancer diagnostics and treatments. But right now, less than five percent of cancer patients enroll in a clinical trial, often because patients and doctors don’t know what trials are available. We can do better - and we are.",
