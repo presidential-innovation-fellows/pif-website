@@ -10,6 +10,8 @@ partner_description: "NGA’s mission is to provide geospatial intelligence (GEO
 project_link: https://www.nga.mil
 status: "upcoming"
 ---
+NGA’s Human Development Directorate through strategic and collective partnerships, creates, leads and sustains a dynamic human capital system that is in alignment with the Agency’s culture and business strategy.  We design and implement policies and programs to attract, support, develop and retain a diverse and highly capable workforce.  We provide advice, consultation and a positive influence on the execution of human capital programs to leverage human talent and knowledge to its fullest potential.
+
 As a Nation, we are facing significant changes in the domestic and global environment that stress the need to be ready to meet 21st century challenges and recognize emerging threats and opportunities. In order to navigate today’s turbulent and complex strategic environment, we are committed to doing things differently at NGA.
 
 NGA’s 2025 Strategy has four goals:

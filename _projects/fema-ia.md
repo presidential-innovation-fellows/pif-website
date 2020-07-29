@@ -23,3 +23,11 @@ During the 2017 Hurricane Season, which included Hurricanes Harvey, Irma, and Ma
 </ul>
 
 The PIF will review the existing data, team and program structure to evaluate the overall customer experience capability of IA. Based on this review, the PIF will develop a comprehensive plan to improve on FEMA’s current mechanisms to enable survivor feedback to better and more immediately drive program effectiveness and evolution. This will enable a learning culture at FEMA, empowering FEMA staff with the information they need to best support the needs of disaster survivors, increasing the efficiency of the agency and improving outcomes for citizens.
+
+Examples of success:
+<ul>
+Feedback is collected and observed from disaster survivors, continuously, and in large volumes, in a seamless manner, on par with private sector best practices.
+Key metrics are known, utilized, and celebrated by IA staff at all levels.  Staff have a clear sense of how their day to day work drives towards better disaster recovery outcomes and has an impact on key metrics.
+Feedback is collected and analyzed in real time, allowing for faster learning and more responsive, effective and efficient FEMA programs.
+Feedback collection is channel and program agnostic.
+A culture where IA leadership and staff at all levels have a constant awareness of our most recent key metrics, which are so ingrained in our culture, that staff recites them from memory.
