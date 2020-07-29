@@ -10,7 +10,6 @@ partner_description: "The U.S. Centers for Disease Control and Prevention (CDC) 
 project_link: https://www.cdc.gov
 status: "upcoming"
 ---
-
 The Public Health Data Modernization Initiative will help CDC to respond to health threats as they occur and scale up public health surveillance, prevention and response efforts nationwide during pandemics and other emergencies. As part of this effort, CDC’s Deputy Director for Public Health Science and Surveillance is seeking two Presidential Innovation Fellows to work on the following challenges:
 
 ### Health Record Interoperability
