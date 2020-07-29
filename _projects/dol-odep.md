@@ -3,7 +3,7 @@ id: dol-odep
 agency: "Department of Labor"
 agency_abbrev: "DOL"
 agency_logo: "DOL.png"
-title: "Bridging the gap between technology and policy"
+title: "Developing new policies and protocols to prevent unintentional AI bias in human resources processes"
 summary: "Working with Department of Labor's Office of Disability Employment Policy (ODEP) policymakers and private sector technologists, including key AI developers, to develop new policies and protocols to ensure that human resources processes and tools related to artificial intelligence and non-human interaction are not unintentionally biased against job seekers and employees with disabilities."
 subtitle: "How can we help the Department of Labor adopt and implement technology policy and strategy?"
 partner_description: "The Department of Labor's <a href=\"https://www.dol.gov/odep/\">Office of Disability Employment Policy</a> (ODEP) is the only non-regulatory federal agency that promotes policies and coordinates with employers and all levels of government to increase workplace success for people with disabilities. ODEP was authorized by Congress in the Department of Labor's FY 2001 appropriation. Recognizing the need for a national policy to ensure that people with disabilities are fully integrated into the 21st-century workforce, the Secretary of Labor delegated authority and assigned responsibility to the Assistant Secretary for Disability Employment Policy. ODEP is a sub-cabinet level policy agency in the Department of Labor."
