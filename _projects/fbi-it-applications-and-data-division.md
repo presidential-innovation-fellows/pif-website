@@ -3,7 +3,7 @@ id: fbi-it-applications-and-data-division
 agency: "Federal Bureau of Investigation"
 agency_abbrev: "FBI"
 agency_logo: "FBI.png"
-title: "Using modern technology to help the private sector manage risk and mitigate threats"
+title: "Using modern technology to manage risk and mitigate threats"
 summary: "Advising on application hosting, enterprise-scale cloud adoption, and data analytics"
 subtitle: "How might we help the Federal Bureau of Investigation modernize their IT infrastructure and define an ecosystem to help the private sector manage risk and mitigate threats?"
 partner_description: "The Federal Bureau of Investigation (FBI) is the domestic intelligence and security service of the United States and its principal federal law enforcement agency"
