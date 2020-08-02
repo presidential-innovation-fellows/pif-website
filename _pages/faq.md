@@ -62,7 +62,7 @@ At this time we do not allow for part-time positions; working on some of the nat
 
 ## Do Fellows receive a salary?
 
-Yes, Fellows are hired as full time federal employees qualified at the GS-15 level with locality adjustment for the Washington DC Metro area.  For the 2020 year, this equiates to a salary of $142,701.  For current information please see the [the OPM Salaries & Wages page](https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/).
+Yes, Fellows are hired as full time federal employees qualified at the GS-15 level with locality adjustment for the Washington DC Metro area.  For the 2020 year, this equiates to a salary of $142,701.  For current information please see the [OPM Salaries & Wages page](https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/).
 
 ---
 
