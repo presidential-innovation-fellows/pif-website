@@ -1,6 +1,6 @@
 <!--
   Federalist recommends you use Continuous Integration to automatically test
-  and validate any new changes to your site. CircleCI is free for open source
+  and validate any new changes to your site. CircleCI is free for  open source
   projcets. You should replace this badge with your own.
 
   https://circleci.com/
