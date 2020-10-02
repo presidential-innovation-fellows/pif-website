@@ -127,7 +127,8 @@ Note that when built by Federalist, `npm run federalist` is used instead of the
 `build` script.
 
 
-## Technologies you should be familiarize yourself with
+## know more
+
 
 - [Jekyll](https://jekyllrb.com/docs/) - The primary site engine that builds your code and content.
 - [Front Matter](https://jekyllrb.com/docs/frontmatter) - The top of each page/post includes keywords within `--` tags. This is meta data that helps Jekyll build the site, but you can also use it to pass custom variables.
