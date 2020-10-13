@@ -1,0 +1,10 @@
+.usa-header--basic .usa-nav-container {
+  @include at-media('desktop') {
+    width: 100%;
+    max-width: unset;
+    align-items: flex-start;
+  }
+}
+.usa-header + .usa-section, .usa-header + main {
+  border: none;
+}

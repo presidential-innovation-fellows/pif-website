@@ -1,0 +1,29 @@
+.site-card {
+  @include u-border('base-light');
+  @include u-border('1px');
+  @include u-color('base-darker');
+  display: block;
+  height: 100%;
+  text-decoration: none;
+  .card-body {
+    @include u-padding-x(2);
+    @include u-padding-bottom(2);
+    @include u-color('base-darker');
+  }
+  .card-title {
+    @include u-font('body','xs');
+  }
+  .card-flag {
+    @include u-font('body','3xs');
+  }
+  .card-img {
+    width: 100%;
+    height: 12rem;
+    overflow: hidden;
+  }
+  &:hover{
+    h3 a{
+      @include u-border-bottom('2px', 'primary', 'solid');
+    }
+  }
+}

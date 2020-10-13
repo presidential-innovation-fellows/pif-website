@@ -1,0 +1,13 @@
+ul.project-fellows {
+  padding: 0;
+  @include clearfix;
+  li {
+    @include u-margin-bottom(2);
+    @include u-margin-right(2);
+    list-style: none;
+    float:left;
+    a {
+      display: block;
+    }
+  }
+}

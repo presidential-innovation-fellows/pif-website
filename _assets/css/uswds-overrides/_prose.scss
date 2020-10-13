@@ -1,0 +1,14 @@
+.usa-prose > a.usa-button {
+  color: white;
+}
+.usa-prose > h1, .usa-prose > h2, .usa-prose > h3, .usa-prose > h4, .usa-prose > h5, .usa-prose > h6 {
+  @include u-font-family('sans');
+}
+.usa-prose .usa-image-block {
+  max-width: 68ex;
+  .usa-image-text {
+    @include u-font('body', '2xs');
+    margin: 0;
+    font-style: italic;
+  }
+}

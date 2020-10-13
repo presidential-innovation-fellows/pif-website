@@ -1,0 +1,31 @@
+// Buttons
+.usa-button {
+  color: color("secondary-darkest");
+  &:hover, &.usa-button--hover {
+    @include u-bg('primary-vivid');
+    color: color("secondary-darkest");
+  }
+  &:visited {
+    color: color("secondary-darkest");
+  }
+  &.usa-button--outline {
+    box-shadow: $button-stroke color("secondary-dark");
+    color: color("secondary-darker");
+    background-color: color("transparent");
+    &:hover,
+    &.usa-button--hover {
+      box-shadow: $button-stroke color("secondary");
+      color: color("secondary");
+    }
+    &:active,
+    &.usa-button--active {
+      box-shadow: $button-stroke color("secondary-darker");
+      color: color("secondary-darkest");
+    }
+    &.usa-button--inverse:hover {
+      background-color: color("transparent");
+      color: color("secondary-darker");
+      box-shadow: $button-stroke #fff;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.list-fellows {
+  a.list-item {
+    @include u-border-bottom('transparent');
+    @include u-border-top('transparent');
+    @include u-border-left('transparent');
+    @include u-border-right('transparent');
+    @include u-border('1px');
+    &:hover {
+      h2 {
+        text-decoration: underline;
+      }
+      // @include u-border('base-light');
+      // @include u-border('1px');
+    }
+    text-decoration: none;
+    @include u-color('base-darker');
+    @include u-padding(2);
+    .list-item-img {
+      @include at-media(desktop) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .circle-card {
+        height: auto;
+      }
+    }
+  }
+}

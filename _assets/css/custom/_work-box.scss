@@ -1,0 +1,21 @@
+.work-box {
+  width: 7rem;
+  margin-bottom: units(2);
+  .work-box-ico {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @include u-height('card');
+  }
+  .work-box-head {
+   @include u-font('body', '2xs');
+  }
+  @include at-media(tablet) {
+    @include u-width('card');
+    margin-bottom: units(5);
+    .work-box-head {
+      @include u-font('body', 'xs');
+    }
+  }
+}
+

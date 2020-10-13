@@ -1,0 +1,24 @@
+.usa-graphic-list {
+  @include u-bg('secondary-darker');
+  h3 a {
+    @include u-text('primary');
+    text-decoration: none;
+    &:hover {
+      @include u-text('primary-vivid');
+    }
+  }
+  .usa-graphic-list__heading {
+    @include u-font-family('sans');
+    @include u-margin-top(1);
+  }
+  .usa-media-block__img {
+    margin: 0;
+    float: none;
+  }
+  .img-circle {
+    width: 8rem;
+  }
+  @include at-media('desktop') {
+    text-align: center;
+  }
+}

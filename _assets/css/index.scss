@@ -3,8 +3,34 @@
 // Import the US Web Design System SASS.
 @import "uswds";
 
-// Import theme custom styles
-@import "uswds-theme-custom-styles";
+// USWDS Overrides
+@import "uswds-overrides/button";
+@import "uswds-overrides/nav";
+@import "uswds-overrides/intro";
+@import "uswds-overrides/hero";
+@import "uswds-overrides/list";
+@import "uswds-overrides/graphic-list";
+@import "uswds-overrides/social-link";
+@import "uswds-overrides/footer";
+@import "uswds-overrides/section";
+@import "uswds-overrides/prose";
+@import "uswds-overrides/logo";
+@import "uswds-overrides/header";
+@import "uswds-overrides/menu";
+@import "uswds-overrides/banner";
+@import "uswds-overrides/sidenav";
 
-// Anchor component for the footer
-@import "usa_anchor.scss";
+// Custom Styles
+@import "custom/anchor";
+@import "custom/pagination";
+@import "custom/breadcrumb";
+@import "custom/project";
+@import "custom/image";
+@import "custom/site";
+@import "custom/partner";
+@import "custom/project-fellows";
+@import "custom/page-banner";
+@import "custom/project-item";
+@import "custom/list-fellows";
+@import "custom/site-card";
+@import "custom/work-box";

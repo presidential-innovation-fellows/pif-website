@@ -1,0 +1,17 @@
+.usa-banner__inner, .grid-row.grid-gap-lg .usa-banner__guidance {
+  @include u-padding-x(2);
+  margin: 0;
+}
+.usa-banner__inner {
+  @include at-media('desktop') {
+    @include u-padding-x(6);
+  }
+}
+.grid-row.grid-gap-lg .usa-banner__guidance {
+  @include at-media('desktop') {
+    @include u-padding-x(3);
+  }
+}
+.usa-banner__content {
+  display: hidden;
+}
