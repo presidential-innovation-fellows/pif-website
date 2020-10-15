@@ -1,7 +1,3 @@
-.usa-menu-btn {
-  background: none;
-  &:hover, &:active {
-    @include u-bg('primary');
-    @include u-text('secondary-darker');
-  }
+.usa-menu-btn:hover {
+  @include u-bg('primary');
 }

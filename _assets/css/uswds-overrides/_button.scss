@@ -5,6 +5,7 @@
   width: initial;
   height: 48px;
   border-radius: 24px;
+  color: white;
 
   &:hover {
     @include u-bg('blue-warm-40v');

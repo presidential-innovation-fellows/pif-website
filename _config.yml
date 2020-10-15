@@ -46,16 +46,6 @@ primary_navigation:
     url: /projects/
   - name: Agencies
     url: /agencies/
-  # - name: About Us
-  #   children:
-  #     - name: Blog
-  #       url: /blog/
-  #     - name: Document
-  #       url: /document/
-  #     - name: Document with sidenav
-  #       url: /document-with-sidenav/
-  - name: Join us
-    url: /apply/
 
 secondary_navigation:
   - name: Secondary link
