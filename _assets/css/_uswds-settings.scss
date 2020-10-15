@@ -1,3 +1,6 @@
+// General
+$theme-show-notifications: false;
+
 // Fonts
 
 $theme-respect-user-font-size: true;
@@ -5,12 +8,9 @@ $theme-font-type-sans:   'public-sans';
 $theme-font-type-serif:  'merriweather';
 
 $theme-h1-font-size: 14;
-
 $theme-h2-font-size: 12;
 $theme-h2-font-size-mobile: 9;
-
 $theme-h3-font-size: 12;
-
 $theme-body-font-size: 5;
 
 // Colors
@@ -18,8 +18,9 @@ $theme-color-base-family: 'gray-warm-80';
 
 $theme-color-primary: 'blue-warm-70v';
 $theme-color-primary-darker: 'blue-warm-80v';
-$theme-color-primary-lighter: 'gray-2';
+$theme-color-primary-lighter: 'blue-warm-10v';
 $theme-color-primary-vivid: 'blue-warm-50v';
 
 $theme-color-secondary-dark: 'red-60v';
 $theme-color-secondary-darker: 'red-70v';
+

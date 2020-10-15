@@ -1,26 +1,53 @@
 .usa-hero {
-  background-position: 50% 0;
-  background-image: url(asset_path('hero-pif.jpg'));
-  min-height: 360px;
-  .usa-hero__callout {
-    color: #fff;
-    max-width: none;
-    background: none;
-    @include u-margin-top(15);
-    .usa-button {
-      @include u-font('body','lg');
-    }
-    @include at-media('desktop') {
-      max-width: 80%;
-      @include u-padding-x(0);
-    }
-  }
-  .usa-hero__heading--alt, .usa-hero__heading{
-    color: #fff;
-    text-shadow: 1px 1px 2px #333;
-    @include u-font('heading', 'xl')
+  background-image: url(asset_path('highlight-fellows-nasa.jpg'));
+  background-position: 50% 25%;
+  height: 550px;
+  background-size: cover;
+  padding: 0;
+  position: relative;
+  @include at-media("tablet") {
+    background-size: 100%;
   }
 }
+// These are custom classes for the overlay
+.usa-hero__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  @include u-bg('primary-vivid');
+  opacity: .85;
+}
+.usa-hero__overlay-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+// end custom classes for the overlay
+
+.usa-hero__callout {
+  background-color: transparent;
+  max-width: 40rem;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 3.5rem;
+  h1,h2,p { color: white; }
+}
+
+.usa-hero__textlink {
+  @include text-links;
+  color: white;
+  font-style: italic;
+}
+
+@mixin hero-no-image {
+  background-size: cover;
+  height: 350px;
+}
+
 .home .usa-hero {
   background-image: url(asset_path('hero-pif.jpg'));
 }
@@ -31,6 +58,7 @@
   background-image: url(asset_path('banner-homecoming-eeob.jpg'));
 }
 .agencies .usa-hero {
+  @include hero-no-image;
   background-image: url(asset_path('banner-orientation-acq.jpg'));
 }
 .apply .usa-hero {

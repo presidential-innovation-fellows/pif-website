@@ -1,31 +1,34 @@
-// Buttons
 .usa-button {
-  color: color("secondary-darkest");
-  &:hover, &.usa-button--hover {
-    @include u-bg('primary-vivid');
-    color: color("secondary-darkest");
+  @include u-bg('primary-vivid');
+  @include u-font('sans', 8);
+  @include u-text('normal');
+  width: initial;
+  height: 48px;
+  border-radius: 24px;
+
+  &:hover {
+    @include u-bg('blue-warm-40v');
   }
-  &:visited {
-    color: color("secondary-darkest");
+
+  &.usa-button--inverse {
+    @include u-bg('white');
+    @include u-text('primary');
   }
-  &.usa-button--outline {
-    box-shadow: $button-stroke color("secondary-dark");
-    color: color("secondary-darker");
-    background-color: color("transparent");
-    &:hover,
-    &.usa-button--hover {
-      box-shadow: $button-stroke color("secondary");
-      color: color("secondary");
-    }
-    &:active,
-    &.usa-button--active {
-      box-shadow: $button-stroke color("secondary-darker");
-      color: color("secondary-darkest");
-    }
-    &.usa-button--inverse:hover {
-      background-color: color("transparent");
-      color: color("secondary-darker");
-      box-shadow: $button-stroke #fff;
-    }
+
+  &.usa-button--inverse:hover {
+    @include u-bg($theme-color-primary-lighter);
+  }
+
+  &.usa-button--secondary {
+    @include u-font('sans', 5);
+    @include u-bg($theme-color-secondary-darker);
+    height: 32px;
+    line-height: 32px;
+    border-radius: 16px;
+    padding-top: 0;
+  }
+
+  &.usa-button--secondary:hover {
+    @include u-bg($theme-color-secondary-dark);
   }
 }

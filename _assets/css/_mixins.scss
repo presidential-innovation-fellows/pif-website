@@ -26,4 +26,10 @@
   a.alt::after {
     @include u-bg('primary-darker');
   }
+  a.white, a.white:visited, a.white:active {
+    color: white;
+  }
+  a.white::after {
+    background-color: white;
+  }
 }
