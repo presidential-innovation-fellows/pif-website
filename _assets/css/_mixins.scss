@@ -1,0 +1,29 @@
+@mixin text-links {
+  a, a:visited, a:active {
+    position: relative;
+    @include u-text('primary-vivid');
+    @include u-text('normal');
+    padding-left: 15px;
+    margin-right: 10px;
+  }
+
+  a::after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 0;
+    display: block;
+    @include u-bg('primary-vivid');
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+  }
+
+  a.alt, a.alt:visited, a.alt:active {
+    @include u-text('primary-darker');
+  }
+
+  a.alt::after {
+    @include u-bg('primary-darker');
+  }
+}

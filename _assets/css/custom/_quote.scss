@@ -1,0 +1,75 @@
+.quote {
+  @include u-bg('secondary-darker');
+
+  blockquote {
+    margin: 0;
+    margin-top: 1rem;
+    @include at-media("tablet") {
+      margin-top: 0;
+      margin-left: 0.7rem;
+    }
+
+    p {
+      @include u-font-family('serif');
+      @include u-font-size('serif', 9);
+      @include u-text('light');
+      font-style: italic;
+      margin-top: 0;
+
+    }
+    footer {
+      @include u-font-family('sans');
+      @include u-text('normal');
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      flex-align: center;
+      @include at-media("tablet") {
+        flex-direction: row;
+      }
+    }
+  }
+
+  .quote__image {
+    width: 100%;
+    max-width: 190px;
+    display: block;
+    margin: auto;
+    margin-bottom: 2rem;
+    @include at-media("tablet") {
+      max-width: 100%;
+      margin-bottom: 0;
+    }
+  }
+
+  .quote__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @include at-media("tablet") {
+      flex-direction: row;
+      align-items: flex-start;
+      margin-left: 1rem;
+    }
+  }
+
+  .quote__mark--open {
+    width: 35px;
+    height: 25px;
+    font-family: Rockwell;
+    font-size: 60px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+  }
+
+  .quote__name {
+    margin-top: 1rem;
+    @include at-media("tablet") {
+      margin-top: 0;
+      margin-left: 1rem;
+    }
+  }
+
+}

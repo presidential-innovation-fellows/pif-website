@@ -3,32 +3,74 @@ Use this section to highlight key elements of your site. Some sites will only ha
 eight.
 {% endcomment %}
 
-<section class="usa-graphic-list usa-section usa-section--dark">
-  <div class="grid-container usa-prose">
-
-    <div class="usa-graphic-list__row grid-row grid-gap">
-      <div class="desktop:grid-col-4 tablet:grid-col-8 usa-media-block margin-bottom-3 desktop:margin-bottom-0">
-        <div class="usa-media-block__body">
-          {% asset highlight-farmers.jpg class="usa-media-block__img img-circle" alt="USDA Farmers" %}
-          <h3 class="usa-graphic-list__heading"><a href="{{ site.baseurl }}/projects">Our impact</a></h3>
-          <p class="desktop:padding-x-2">Learn about the time, money, and lives saved through PIF projects and federal partners.</p>
+<section class="usa-graphic-list usa-section">
+    <div class="grid-container">
+        <div class="usa-graphic-list__row grid-row grid-gap">
+            <div class="usa-media-block">
+                <span class="graphic-icon__container">
+                  {% asset highlight-fellows-meetup--cropped.jpg class="usa-media-block__img img-circle" alt="PIF Fellow speaking" %}
+                  <div class="graphic-icon">
+                    {% asset icons/building.png alt="people icon" %}
+                  </div>
+                </span>
+                <div class="usa-media-block__body">
+                    <h2 class="graphic-number display">1.</h2>
+                    <div>
+                      <h2 class="usa-graphic-list__heading">Our Impact</h2>
+                      <p>Presidential Innovation Fellows (PIF) pairs the innovation economy's technologists, designers, and strategists with top changemakers in the federal government for year-long residencies that are rooted in cutting-edge technology and citizen needs.</p>
+                      <p><a href="{{ site.baseurl }}/apply" class='alt'>Learn More</a></p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="desktop:grid-col-4 tablet:grid-col-8 usa-media-block margin-bottom-3 desktop:margin-bottom-0">
-        <div class="usa-media-block__body">
-          {% asset highlight-fellows-nasa.jpg class="usa-media-block__img img-circle" alt="Fellows on at NASA" %}
-          <h3 class="usa-graphic-list__heading"><a href="{{ site.baseurl }}/fellows">Our fellows</a></h3>
-          <p class="desktop:padding-x-2">Meet our current Fellows and alumni, joining us from big tech, startups, academia, and more.</p>
-        </div>
-      </div>
-      <div class="desktop:grid-col-4 tablet:grid-col-8 usa-media-block margin-bottom-3 desktop:margin-bottom-0">
-        <div class="usa-media-block__body">
-          {% asset highlight-fellows-meetup.jpg class="usa-media-block__img img-circle" alt="Alt text" %}
-          <h3 class="usa-graphic-list__heading"><a href="{{ site.baseurl }}/apply">Join us</a></h3>
-          <p class="desktop:padding-x-2">Leverage your expertise for the good of the people in a job like no other. Apply today.</p>
-        </div>
-      </div>
     </div>
+</section>
 
-  </div>
+<section class="usa-graphic-list reverse usa-section">
+    <div class="grid-container">
+        <div class="usa-graphic-list__row grid-row grid-gap">
+            <div class="usa-media-block">
+                <span class="graphic-icon__container">
+                  {% asset homecoming-cropped.jpg class="usa-media-block__img img-circle" alt="PIF Fellow speaking" %}
+                  <div class="graphic-icon">
+                    {% asset icons/people.png alt="people icon" %}
+                  </div>
+                </span>
+                <div class="usa-media-block__body">
+                    <h2 class="graphic-number display">2.</h2>
+                    <div>
+                      <h2 class="usa-graphic-list__heading">Our Fellows</h2>
+                      <p>Our Fellows are at the table and on the ground, improving data sharing across the healthcare ecosystem, combating climate change using AI, supporting veterans through mobile technology, and more.</p>
+                      <p><a href="{{ site.baseurl }}/fellows" class='alt'>Learn More</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="usa-graphic-list usa-section">
+    <div class="grid-container">
+        <div class="usa-graphic-list__row grid-row grid-gap">
+            <div class="usa-media-block">
+                <span class="graphic-icon__container">
+                  {% asset agency_logos.png class="usa-media-block__img img-circle" alt="PIF Fellow speaking" %}
+                  <div class="graphic-icon">
+                    {% asset icons/connect.png alt="connect icon" %}
+                  </div>
+                </span>
+                <div class="usa-media-block__body">
+                    <h2 class="graphic-number display">3.</h2>
+                    <div>
+                      <h2 class="usa-graphic-list__heading">Join Us</h2>
+                      <p>After 2-4 years, our fellows move on from the program, either back out into the private sector, or continue innovating within government.</p>
+                      <p>
+                        <a href="{{ site.baseurl }}/apply">Potential Fellows</a>
+                        <a href="{{ site.baseurl }}/agencies" class='alt'>Agency Partners</a>
+                      </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
