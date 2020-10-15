@@ -1,3 +1,4 @@
+// Styled Hyperlinks
 @mixin text-links {
   a, a:visited, a:active {
     position: relative;
@@ -32,4 +33,42 @@
   a.white::after {
     background-color: white;
   }
+}
+
+
+//  Image Overlay Components
+//
+// image-overlay and content-overlay need to be in relation to overlay-base
+// image-overlay precedes content-overlay in markup
+// image-overlay provides the color over the image
+// content-overlay will contain the content that rests above the overlay
+//
+// Markup
+//
+// <div class="overlay-base">
+//  <div class="image-overlay"></div>
+//  <div class="content-overlay">Your content here</div>
+// </div>
+//
+@mixin overlay-base($height) {
+  position: relative;
+  height: $height;
+}
+
+@mixin image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  @include u-bg('primary-vivid');
+  opacity: .85;
+}
+
+@mixin content-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }

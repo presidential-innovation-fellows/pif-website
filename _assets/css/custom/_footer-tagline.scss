@@ -1,0 +1,80 @@
+.footer-tagline {
+  background-image: url(asset_path('banner-homecoming-eeob.jpg'));
+  @include overlay-base(360px);
+  background-size: cover;
+  background-position: center center;
+  @include at-media('desktop') {
+    background-position: 400px center;
+  }
+}
+
+.footer-tagline__overlay {
+  @include image-overlay;
+}
+
+.footer-tagline__shape {
+  position: absolute;
+  width: 60%;
+  height: 347px;
+  transform: perspective(16px) rotateX(1deg);
+  top: -28px;
+  left: -75px;
+  @include u-bg('primary');
+  display: none;
+  @include at-media('desktop') {
+    display: block;
+  }
+}
+
+.footer-tagline__content {
+  @include content-overlay;
+
+  h2 {
+    @include u-font('serif', $theme-h1-font-size);
+    color: white;
+    @include u-text('light');
+    line-height: 1.24;
+    font-style: italic;
+    text-align: center;
+    @include at-media('desktop') {
+      text-align: left;
+    }
+  }
+
+  h3 {
+    @include u-font('serif', 10);
+    @include u-text('primary-lighter');
+    @include u-text('light');
+    font-style: italic;
+    text-align: center;
+    @include at-media('desktop') {
+      text-align: left;
+    }
+  }
+
+  .usa-button.usa-button--inverse {
+    @include u-bg('primary-lighter');
+  }
+}
+
+.footer-tagline__actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @include at-media("desktop") {
+    justify-content: flex-start;
+  }
+}
+
+.footer-tagline__stars {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+  margin: 0 1rem;
+}
+
+.footer-tagline__stars--hide-desktop {
+  @include at-media('desktop') {
+    display: none;
+  }
+}

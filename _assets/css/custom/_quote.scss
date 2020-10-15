@@ -15,7 +15,10 @@
       @include u-text('light');
       font-style: italic;
       margin-top: 0;
-
+      text-align: center;
+      @include at-media("tablet") {
+        text-align: left;
+      }
     }
     footer {
       @include u-font-family('sans');
