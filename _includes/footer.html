@@ -1,7 +1,10 @@
+{% include footer-tagline.html %}
 <footer class="usa-footer usa-footer--big">
-  {% include footer-tagline.html %}
   <div class="usa-footer__primary-section">
     <div class="grid-container">
+      <div class="padding-top-4">
+        {% asset pif-logo-nav.png alt="Presidential Innovation Fellows" %}
+      </div>
       <div class="grid-row grid-gap">
         <div class="tablet:grid-col-8">
           <nav aria-label="Footer navigation" class="usa-footer__nav">
@@ -55,7 +58,7 @@
             <form class="usa-form" id="GD-snippet-form" action="https://public.govdelivery.com/accounts/USGSATTS/subscriber/qualify?qsp=USGSATTS_1" accept-charset="UTF-8" method="post" target="_blank"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="BVsScV3cJRnFoVEu3356C3aW2YOaOpp/VH1/TrYPxME4KWzNT/7ABzgRFh1wpp3UA6+C6PZX4tirvSU4VE5KcQ==" />
               <label for="email" class="usa-sign-up__heading">Sign up for PIF updates</label>
               <input class="usa-input" type="text" name="email" id="email" placeholder="Enter your email address" />
-              <input class="usa-button" type="submit" name="commit" value="Submit" />
+              <input class="usa-button usa-button--secondary" type="submit" name="commit" value="Submit" />
             </form>
           </div>
         </div>

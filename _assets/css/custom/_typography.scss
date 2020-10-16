@@ -26,6 +26,12 @@ h3 {
   font-style: italic;
 }
 
+h4 {
+  @include u-font('serif', $theme-body-font-size);
+  @include u-text('bold');
+  @include u-text('primary-vivid');
+}
+
 p {
   @include u-font('sans', $theme-body-font-size);
   @include u-text('light');

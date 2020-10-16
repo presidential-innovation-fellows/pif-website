@@ -1,12 +1,28 @@
 .usa-footer {
+
+  h4, .usa-footer__primary-link {
+    margin-top: 0;
+    @include u-text('primary-vivid');
+  }
+
+  .usa-footer__primary-section {
+    background-color: rgba(237, 245, 255, 0.5); // this is a custom color
+  }
+
+  .usa-sign-up__heading {
+    @include u-font('serif', 9);
+    @include u-text('secondary-darker');
+    @include u-text('normal');
+  }
+
   .usa-footer__secondary-link a {
-    @include u-text('secondary-dark');
+    @include u-text('primary-darker');
     &:hover, &:active {
-      @include u-text('secondary');
+      @include u-text('primary');
     }
   }
   .usa-footer__secondary-section {
-    @include u-bg('secondary-dark');
+    @include u-bg('primary-dark');
     a, a:hover, a:visited, a:active {
       @include u-text('white');
       text-decoration: none;
@@ -30,8 +46,8 @@
       }
     }
   }
+
+  .usa-form .usa-input {
+    border-radius: 3px;
+  }
 }
-//  .usa-footer__return-to-top a, .usa-footer__return-to-top a:hover, .usa-footer__return-to-top a:visited {
-//
-// }
-//

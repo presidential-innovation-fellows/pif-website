@@ -3,7 +3,7 @@
 // Using the USWDS Design Tokens
 
 .component-anchor{
-  @include u-bg('blue-warm-90');
+  @include u-bg('primary-darker');
   @include u-text('white');
   &:hover, &:active {
     @include u-text('white');
@@ -27,6 +27,7 @@
         @include u-flex('align-center');
       }
       p{
+        @include u-text('white');
         @include u-margin(0);
         @include at-media('tablet'){
           @include u-measure(5);
@@ -52,6 +53,7 @@
       @include u-font('sans', 'sm');
     }
     p{
+      @include u-text('white');
       @include u-line-height('sans', 5);
       a{
         @include u-text('white');
@@ -73,7 +75,7 @@
       @include u-padding-right(1);
       @include u-padding-top('105');
       @include u-padding-bottom(2);
-      @include u-bg('blue-warm-80');
+      @include u-bg('primary');
       @include u-font('sans', '2xs');
       @include u-text('base-lightest');
       ul{
@@ -89,6 +91,9 @@
             }
           }
         }
+      }
+      p {
+        @include u-text('base-lightest');
       }
       a{
         @include u-text('base-lightest');
@@ -202,14 +207,7 @@
     }
   }
 }
-.usa-button.usa-button--outline.usa-button--inverse:hover {
-  color: #fff;
-}
-.usa-button-sm{
-  @include u-margin-x('05');
-  @include u-padding-y('05');
-  @include u-padding-x('105');
-}
+
 .arrow-down{
   @include u-margin-left('105');
   @include u-width('105');
