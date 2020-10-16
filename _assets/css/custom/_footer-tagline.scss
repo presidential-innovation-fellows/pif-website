@@ -30,14 +30,16 @@
   @include content-overlay;
 
   h2 {
-    @include u-font('serif', $theme-h1-font-size);
+    @include u-font('serif', $theme-h2-font-size);
     color: white;
     @include u-text('light');
-    line-height: 1.24;
     font-style: italic;
     text-align: center;
+    line-height: 1.4;
     @include at-media('desktop') {
+      @include u-font('serif', $theme-h1-font-size);
       text-align: left;
+      line-height: 1.24;
     }
   }
 
@@ -54,6 +56,7 @@
 
   .usa-button.usa-button--inverse {
     @include u-bg('primary-lighter');
+    flex-shrink: 0;
   }
 }
 

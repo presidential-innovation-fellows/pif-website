@@ -1,7 +1,9 @@
-.usa-banner__button-text {
+.usa-banner__button-text,
+.usa-banner__header-action {
   @include u-text('primary-darker');
 }
 
-.usa-banner__button::after {
+.usa-banner__button::after,
+.usa-banner__header-action::after {
   @include u-bg('primary-darker');
 }

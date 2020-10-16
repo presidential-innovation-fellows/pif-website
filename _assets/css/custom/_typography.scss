@@ -39,6 +39,12 @@ p {
   line-height: 1.625;
 }
 
+.usa-prose a:not(.usa-button),
+.usa-prose a:not(.usa-button):active,
+.usa-prose a:not(.usa-button):visited {
+  @include u-text('primary-vivid');
+}
+
 .display {
   @include u-font-family('serif');
   @include u-text('light');
