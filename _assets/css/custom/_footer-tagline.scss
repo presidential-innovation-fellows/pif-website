@@ -58,6 +58,10 @@
     @include u-bg('primary-lighter');
     flex-shrink: 0;
   }
+
+  .usa-button.usa-button--inverse:hover {
+    @include u-bg('white');
+  }
 }
 
 .footer-tagline__actions {

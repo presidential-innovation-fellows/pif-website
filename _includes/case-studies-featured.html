@@ -2,11 +2,10 @@
   <div class="grid-container">
     <h2>Case studies</h2>
     <div class="grid-row margin-x-neg-2">
-      {% assign sorted_projects = site.projects | sort:"order" %}
-      {% for project in sorted_projects %}
-        {% if project.status contains 'case_study' %}
+      {% assign sorted_projects = site.projects | where_exp:"project",
+"project.status contains 'case_study'" | sort:"order" %}
+      {% for project in sorted_projects limit:3 %}
           {% include case-study.html project=project %}
-        {% endif %}
       {% endfor %}
     </div>
   </div>

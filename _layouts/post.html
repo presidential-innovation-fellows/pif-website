@@ -1,24 +1,22 @@
 ---
-layout: default
+layout: default-main
 ---
 
 {% comment %}
 This is used in blog posts. The index page can be found at blog/index.html
 {% endcomment %}
-<main id="main-content">
-  <div class="usa-layout-docs usa-section">
-    <div class="grid-container">
-      <div class="grid-row grid-gap">
-        <div class="usa-layout-docs__main desktop:grid-col-9 usa-prose">
-          <h1 class="title">{{page.title}}</h1>
-          <div class="text-base margin-bottom-2">
-            <div class="margin-top-neg-105">
-              By <span class="text-bold">{{ page.author }}</span> · {{ page.date | date: '%B %d, %Y' }}
-            </div>
+<div class="usa-layout-docs usa-section">
+  <div class="grid-container">
+    <div class="grid-row grid-gap">
+      <div class="usa-layout-docs__main desktop:grid-col-9 usa-prose">
+        <h1 class="title">{{page.title}}</h1>
+        <div class="text-base margin-bottom-2">
+          <div class="margin-top-neg-105">
+            By <span class="text-bold">{{ page.author }}</span> · {{ page.date | date: '%B %d, %Y' }}
           </div>
-          {{ content }}
         </div>
+        {{ content }}
       </div>
     </div>
   </div>
-</main>
+</div>

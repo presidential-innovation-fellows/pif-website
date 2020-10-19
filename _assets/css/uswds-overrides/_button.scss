@@ -4,7 +4,9 @@
   @include u-text('normal');
   width: initial;
   height: 48px;
+  line-height: 48px;
   border-radius: 24px;
+  padding-top: 0;
   color: white;
 
   &:hover {
