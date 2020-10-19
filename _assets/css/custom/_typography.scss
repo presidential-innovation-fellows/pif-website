@@ -22,7 +22,7 @@ h2 {
 h3 {
   @include u-font('sans', $theme-h3-font-size);
   @include u-text('light');
-  @include u-text($theme-color-base-family);
+  @include u-text('base');
   font-style: italic;
 }
 
@@ -35,7 +35,7 @@ h4 {
 p {
   @include u-font('sans', $theme-body-font-size);
   @include u-text('light');
-  @include u-text($theme-color-base-family);
+  @include u-text('base');
   line-height: 1.625;
 }
 

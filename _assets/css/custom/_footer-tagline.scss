@@ -14,11 +14,11 @@
 
 .footer-tagline__shape {
   position: absolute;
-  width: 60%;
-  height: 347px;
-  transform: perspective(16px) rotateX(1deg);
-  top: -28px;
-  left: -75px;
+  width: 65%;
+  height: 100%;
+  top: 0;
+  left: -10%;
+  transform: skew(30deg);;
   @include u-bg('primary');
   display: none;
   @include at-media('desktop') {
