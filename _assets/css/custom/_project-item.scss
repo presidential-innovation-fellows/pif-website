@@ -18,7 +18,7 @@
       padding-left: 100px;
     }
   }
-  h3 {
+  .title {
     @include u-margin-top(0);
   }
   img {
@@ -33,9 +33,6 @@
     // @include u-margin-left(-100px);
     // @include u-margin-top(1);
     //@include u-square(10);
-  }
-  p {
-    @include u-font('body','xs');
   }
   .agency {
     text-transform: uppercase;

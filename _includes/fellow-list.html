@@ -1,12 +1,13 @@
+{% assign aria_id = fellow.title | url_encode | truncate: 15, "" %}
 {% for fellow in include.fellows %}
-<a href="{{ site.baseurl }}{{ fellow.url }}" class="list-item grid-row grid-gap" aria-describedby="{{ fellow.title | url_encode }}">
+<a href="{{ site.baseurl }}{{ fellow.url }}" class="list-item grid-row grid-gap" aria-labelledby="{{ aria_id }}">
   <div class="desktop:grid-col-3 tablet:grid-col-4 usa-prose list-item-img">
     {% if fellow.image %}
     {% asset "{{ fellow.image }}" class="circle-card" alt="{{ fellow.image_alt_text }}" %}
     {% endif %}
   </div>
   <div class="desktop:grid-col-9 usa-prose">
-    <h2 id="{{ fellow.title | url_encode }}">{{ fellow.title }}</h2>
+    <h2 id="{{ aria_id }}">{{ fellow.title }}</h2>
     <p class="content">
       {{ fellow.bio_short }}
     </p>

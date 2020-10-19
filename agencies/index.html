@@ -11,8 +11,8 @@ redirect_from:
 <section class="grid-container usa-section page-header">
   <div class="grid-row">
     <div class="grid-col-8">
-      <h1 class="header-main">Work with us</h1>
-      <h2 class="header-sub">Want to build cutting-edge solutions that truly serve the public's needs? Together, we can. We’d love to hear from you.</h2>
+      <h1>Work with us</h1>
+      <p class="body-intro">Want to build cutting-edge solutions that truly serve the public's needs? Together, we can. We’d love to hear from you.</p>
       <p><a class="usa-button usa-button--big" href="https://proposal.pif.gov">Submit a project</a></p>
     </div>
   </div>
@@ -35,14 +35,14 @@ redirect_from:
 
 <section class="usa-section grid-container">
   <h2>Trusted by agency leaders</h2>
-  <div class="grid-row grid-gap">
+  <ul class="grid-row grid-gap usa-list usa-list--unstyled">
     {% for agency in site.data.agencies %}
-    <div class="work-box desktop:grid-col-6 tablet:grid-col-4 flex-auto padding-x-2">
+    <li class="work-box desktop:grid-col-6 tablet:grid-col-4 flex-auto padding-x-2">
       <div class="work-box-ico grid-col-12 width-full">
-      {% asset "{{ agency.name }}.png" alt="{{ agency.name }} logo"  %}
+        {% asset "{{ agency.name }}.png" alt=""  %}
       </div>
       <p class="work-box-head grid-col-12 text-center padding-x-1 margin-top-1">{{ agency.fullname }}</p>
-    </div>
+    </li>
     {% endfor %}
-  </div>
+  </ul>
 </section>
