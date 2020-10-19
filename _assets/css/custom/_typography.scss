@@ -1,4 +1,4 @@
-h1 {
+h1, .as-h1 {
   @include u-font('serif', $theme-h1-font-size);
   @include u-text('bold');
   @include u-text('primary');
@@ -11,25 +11,20 @@ h1 {
   }
 }
 
-h2 {
+h2, .as-h2 {
   @include u-font('serif', $theme-h2-font-size);
   @include u-text('normal');
-  @include u-text('primary-vivid');
+  @include u-text('primary-darker');
   font-style: italic;
   line-height: 1.2;
 }
 
-h3 {
-  @include u-font('sans', $theme-h3-font-size);
-  @include u-text('light');
-  @include u-text('base');
-  font-style: italic;
-}
-
-h4 {
+h3, .as-h3,
+h4, .as-h4 {
   @include u-font('serif', $theme-body-font-size);
   @include u-text('bold');
   @include u-text('primary-vivid');
+  line-height: 1.625;
 }
 
 p {

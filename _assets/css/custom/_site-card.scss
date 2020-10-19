@@ -27,6 +27,7 @@
   }
   .card-title {
     @include u-font('body','xs');
+    @include u-text('primary-darker');
     @include u-text('bold');
     font-style: normal;
     line-height: 1.4;

@@ -2,17 +2,13 @@
 layout: default
 ---
 
-{% comment %}
-This template is for a single page that does not have a date associated with it. For example, an about page.
-{% endcomment %}
-
 {% assign navurl = page.url | remove: 'index.html' | remove: '.html' %}
 {% if navurl == '/fellows/' %}
-<div class="usa-hero">
-  <div class="grid-container">
-    <div class="usa-hero__callout"></div>
+  <div class="usa-hero">
+    <div class="grid-container">
+      <div class="usa-hero__callout"></div>
+    </div>
   </div>
-</div>
 {% else %}
   {% include banner.html %}
 {% endif %}
@@ -21,12 +17,13 @@ This template is for a single page that does not have a date associated with it.
   <div class="grid-row grid-gap">
     {% include sidenav.html fellows_landing=true %}
     <div class="usa-layout-docs__main desktop:grid-col-9 usa-prose list-fellows">
+      <main id="main-content">
+        {% if page.image %}
+        {% asset "{{ page.image }}" class="circle-card-lg float-right margin-left-3" alt="{{ page.image_alt_text }}" %}
+        {% endif %}
 
-      {% if page.image %}
-      {% asset "{{ page.image }}" class="circle-card-lg float-right margin-left-3" alt="{{ page.image_alt_text }}" %}
-      {% endif %}
-
-      {{ content }}
+        {{ content }}
+      </main>
     </div>
   </div>
 </section>
