@@ -8,7 +8,7 @@ _layouts/page.html layout template, or you can add "sidenav: true" in the front-
 <aside class="usa-layout-docs-sidenav desktop:grid-col-3 padding-bottom-4{% if include.order %} order-{{ include.order }}{% endif %}">
   <nav>
     {% if include.fellows_landing %}
-    <h2>Fellows by year</h2>
+    <h2 class="as-h3">Fellows by year</h2>
     <ul class="usa-sidenav">
       <li class="usa-sidenav__item">
         <a href="{{ site.baseurl }}/fellows/" class="{% if navurl == '/fellows/' %}usa-current{% endif %}">All Fellows</a>

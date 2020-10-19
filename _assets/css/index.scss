@@ -1,11 +1,9 @@
-@import "uswds-pif-theme-colors";
-
 @import "uswds-settings";
 
 // Import the US Web Design System SASS.
 @import "uswds";
 
-// Our Mixins
+// Custom Mixins
 @import "mixins";
 
 // USWDS Overrides
@@ -35,7 +33,6 @@
 @import "custom/list-fellows";
 @import "custom/site-card";
 @import "custom/work-box";
-// new
 @import "custom/typography";
 @import "custom/quote";
 @import "custom/footer-tagline";
