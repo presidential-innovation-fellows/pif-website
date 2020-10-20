@@ -3,7 +3,7 @@ id: ken-kato
 title: Ken Kato
 image: ken-kato-headshot.jpg
 fellow_year: 2020
-project: []
+project: ["navy-disc"]
 agency: ["Navy"]
 hometown: Boston, MA
 region: northeast
