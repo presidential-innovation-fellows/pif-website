@@ -53,6 +53,11 @@
   url: http://www.fda.gov
   description:
 
+- name: FDIC
+  fullname: Federal Deposit Insurance Corporation
+  url: https://www.fdic.gov/
+  description:
+
 - name: FEMA
   fullname: Federal Emergency Management Agency
   url: http://www.fema.gov
