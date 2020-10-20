@@ -8,6 +8,7 @@
     background-size: 100%;
   }
 }
+
 // These are custom classes for the overlay
 .usa-hero__overlay {
   @include image-overlay;
@@ -23,7 +24,14 @@
   padding-left: 0;
   padding-right: 0;
   padding-top: 4rem;
-  h1,h2,p { color: white; }
+  h1,p {
+    color: white;
+  }
+  h2 {
+    @include u-font('serif', 14); // 40px
+    @include u-text('light');
+    color: #d4e5ff;
+  }
 }
 
 .usa-hero__textlink {
