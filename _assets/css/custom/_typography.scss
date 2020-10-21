@@ -37,7 +37,7 @@ p {
 .usa-prose a:not(.usa-button),
 .usa-prose a:not(.usa-button):active,
 .usa-prose a:not(.usa-button):visited {
-  @include u-text('primary-vivid');
+  @include u-text('primary');
 }
 
 .display {
