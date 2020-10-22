@@ -32,7 +32,7 @@ All interviews for Presidential Innovation Fellows occur virtually (this is alwa
 
 ## Where is the Fellowship located?
 
-Presidential Innovation Fellows are based in Washington, D.C. for the duration of the Fellowship. Fellows will spend a portion of their time working at one of the federal agencies to which they are assigned, which are typically in Washington, D.C. or the surrounding area. Fellows occasionally co-work and collaborate on projects in space provided by the General Services Administration. In addition to onsite work at agencies, we believe that sharing a D.C. “home base” helps foster community.
+Presidential Innovation Fellows are typically based in Washington, D.C., for the duration of the Fellowship. Fellows will spend a portion of their time working at one of the federal agencies to which they are assigned, which are often in Washington, D.C. or the surrounding area. Fellows occasionally co-work and collaborate on projects in space provided by the General Services Administration. In addition to onsite work at agencies, we believe that sharing a D.C. “home base” helps foster community.
 
 ---
 
