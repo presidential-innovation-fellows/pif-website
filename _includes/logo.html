@@ -1,12 +1,12 @@
 <div class="usa-logo" id="extended-logo">
   <em class="usa-logo__text">
     <a href="{{site.baseurl}}/" title="Home" aria-label="Home" class="site-navbar__logo-link">
-      {% if page.nav == 'alt' %}
-        {% asset pif-logo-nav.png alt="Presidential Innovation Fellows" width="189" %}
-      {% else %}
+      {% if page.nav == 'dark' %}
         {% asset pif-logo-nav--white.png alt="Presidential Innovation Fellows" width="189" class="display-none desktop:display-inline-block" %}
 
         {% asset pif-logo-nav.png alt="Presidential Innovation Fellows" width="189" class="desktop:display-none" %}
+      {% else %}
+        {% asset pif-logo-nav.png alt="Presidential Innovation Fellows" width="189" %}
       {% endif %}
     </a>
   </em>
