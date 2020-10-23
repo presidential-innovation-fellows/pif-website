@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="43px" height="39px" viewBox="0 0 43 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 4</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="who-we-are" transform="translate(-343.000000, -1097.000000)" stroke="#FFFFFF" stroke-width="2">
+            <g id="Group-2" transform="translate(344.000000, 1098.000000)">
+                <path d="M41,35.6785714 L41,31.6264906 C40.9976022,27.9332575 38.8221484,24.7090218 35.7096774,23.7857143" id="Path"></path>
+                <path d="M30.4193548,2.64285714 C33.5323563,3.49281154 35.7096774,6.48402026 35.7096774,9.91071429 C35.7096774,13.3374083 33.5323563,16.328617 30.4193548,17.1785714" id="Path"></path>
+                <path d="M29.0967742,37 L29.0967742,32.5952381 C29.0967742,27.7298724 25.622889,23.7857143 21.3376344,23.7857143 L7.75913978,23.7857143 C3.47388521,23.7857143 0,27.7298724 0,32.5952381 L0,37" id="Path"></path>
+                <ellipse id="Oval" cx="15.2096774" cy="8.58928571" rx="8.59677419" ry="8.58928571"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

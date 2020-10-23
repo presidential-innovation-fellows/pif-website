@@ -43,10 +43,18 @@
 // image-overlay provides the color over the image
 // content-overlay will contain the content that rests above the overlay
 //
-// Markup
+// Markup For Simple Overlay
 //
 // <div class="overlay-base">
 //  <div class="image-overlay"></div>
+//  <div class="content-overlay">Your content here</div>
+// </div>
+//
+// Markup For Bi-Color Overlay
+//
+// <div class="overlay-base">
+//  <div class="image-overlay image-overlay-bicolor-left"></div>
+//  <div class="image-overlay image-overlay-bicolor-right"></div>
 //  <div class="content-overlay">Your content here</div>
 // </div>
 //
@@ -65,10 +73,36 @@
   opacity: .85;
 }
 
+@mixin image-overlay-bicolor-left {
+  top: 0;
+  left: -45%;
+  height: 100%;
+  width: 100%;
+  transform: skew(-30deg);
+  @include u-bg('primary');
+  opacity: .85;
+}
+
+@mixin image-overlay-bicolor-right {
+  top: 0;
+  left: initial;
+  right: -40%;
+  height: 100%;
+  width: 85%;
+  transform: skew(-30deg);
+  @include u-bg('primary-vivid');
+  opacity: .85;
+}
+
 @mixin content-overlay {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+// Custom background color with opacity
+@mixin light-bg {
+  background-color: rgba(237, 245, 255, 0.5);
 }

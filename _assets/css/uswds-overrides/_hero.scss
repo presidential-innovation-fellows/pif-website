@@ -3,6 +3,7 @@
   background-position: 50% 25%;
   background-size: cover;
   padding: 0;
+  overflow: hidden;
   @include overlay-base(550px);
   @include at-media("tablet") {
     background-size: 100%;
@@ -12,6 +13,12 @@
 // These are custom classes for the overlay
 .usa-hero__overlay {
   @include image-overlay;
+}
+.usa-hero__overlay--bicolor-left {
+  @include image-overlay-bicolor-left;
+}
+.usa-hero__overlay--bicolor-right {
+  @include image-overlay-bicolor-right;
 }
 .usa-hero__overlay-content {
   @include content-overlay;
@@ -51,7 +58,7 @@
 }
 .about .usa-hero {
   @include hero-no-image;
-  background-image: url(asset_path('banner-nasa.jpg'));
+  background-image: url(asset_path('banner-homecoming-eeob-bw.jpg'));
 }
 .fellows .usa-hero {
   @include hero-no-image;

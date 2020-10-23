@@ -33,7 +33,7 @@
     }
   }
 
-  .quote__image {
+  &__image {
     width: 100%;
     max-width: 190px;
     display: block;
@@ -45,7 +45,7 @@
     }
   }
 
-  .quote__text {
+  &__text {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,7 +56,7 @@
     }
   }
 
-  .quote__mark--open {
+  &__mark--open {
     width: 35px;
     height: 25px;
     font-family: Rockwell;
@@ -67,7 +67,7 @@
     letter-spacing: normal;
   }
 
-  .quote__name {
+  &__name {
     margin-top: 1rem;
     @include at-media("tablet") {
       margin-top: 0;
@@ -75,4 +75,27 @@
     }
   }
 
+  &__star--dark {
+    display: none;
+  }
+
+}
+
+.quote--light {
+  @include u-bg('white');
+
+  p {
+    @include u-text('primary');
+  }
+
+  .quote__mark--open {
+    @include u-text('primary-vivid');
+  }
+
+  .quote__name {
+    color: #6b6b6b;
+  }
+
+  .quote__star { display: none; }
+  .quote__star--dark { display: inline-block; }
 }

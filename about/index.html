@@ -4,88 +4,118 @@ title: Who We Are
 permalink: /about/
 redirect_from:
   - /pages/about.html
+footer_tagline: alt
+nav: dark
 ---
 
-<div class="usa-hero"></div>
+<div class="usa-hero">
+  <div class="usa-hero__overlay usa-hero__overlay--bicolor-left"></div>
+  <div class="usa-hero__overlay usa-hero__overlay--bicolor-right"></div>
+  <div class="usa-hero__overlay-content">
+    <div class="grid-container display-flex flex-column flex-justify-center height-full">
+      <h1 class="usa-hero__heading display display--inverted">
+        Who We Are
+      </h1>
+    </div>
+  </div>
+</div>
 
 
 <section class="grid-container usa-section page-header">
   <div class="grid-row">
-    <div class="grid-col desktop:grid-col-8">
-      <h1>Our mission</h1>
+    <div class="tablet:grid-col-8 desktop:padding-right-4">
+      <h1>Our <em>mission</em></h1>
       <p class='body-intro'>
         Harness technology and innovative solutions to solve our nation’s toughest challenges, build resilience, and improve the lives of the public.
       </p>
     </div>
-  </div>
-</section>
-
-<section class="usa-section grid-container usa-prose">
-  <div class="grid-row grid-gap">
-    <div class="desktop:grid-col-6">
-      <h2>Who we are</h2>
-      <p>Presidential Innovation Fellows aspires to be as diverse as the people we serve. We’re a multidisciplinary team of product designers, full-stack engineers, and VC-backed founders. We’re also artists. Parents. Immigrants. Veterans. Walking into the office, we all share a passion for civic purpose—people helping people.</p>
-    </div>
-    <div class="desktop:grid-col-6">
-      <h2>What we do</h2>
-      <p>We partner with senior government leaders to solve our nation’s most complex challenges. Our Fellows work within federal agencies to build their digital capabilities and infuse best practices across data science, design, engineering, product, and systems thinking. Fellows apply industry expertise and entrepreneurial perspectives to accelerate government modernization for the people.</p>
+    <div class="display-none tablet:display-block tablet:grid-col-4">
+      {% asset highlight-fellows-meetup--cropped.jpg class="usa-media-block__img img-circle" alt="PIF Fellow speaking" %}
     </div>
   </div>
 </section>
 
-<section class="usa-section grid-container usa-prose">
-  <div class="grid-row grid-gap">
-    <div class="grid-col-12">
-      <h2>Our values</h2>
-    </div>
-  </div>
-  <div class="grid-row grid-gap">
-    <div class="desktop:grid-col-4">
-      <h3>Design around citizen needs</h3>
-      <p>We create products and services with users, not for them</p>
-    </div>
-    <div class="desktop:grid-col-4">
-      <h3>Stay curious</h3>
-      <p>We are lifelong learners, and strive to bring empathy and humility to complex challenges.</p>
-    </div>
-    <div class="desktop:grid-col-4">
-      <h3>Focus on service</h3>
-      <p>We operate with service at the core. We modernize government services for the people.</p>
-    </div>
-    <div class="desktop:grid-col-4">
-      <h3>Be courageous</h3>
-      <p>We do what is right for the people.</p>
-    </div>
-    <div class="desktop:grid-col-4">
-      <h3>Reflect the diversity of our nation</h3>
-      <p>We're committed to representing the diverse public we serve.</p>
-    </div>
-    <div class="desktop:grid-col-4">
-      <h3>Empower others</h3>
-      <p>We make our agency partners, alumni, and collaborators successful. We foster community and belonging.</p>
+<section class="story">
+  <div class="usa-section grid-container usa-prose">
+    <div class="grid-row">
+      <div class="desktop:grid-col-6 story__left">
+        <h2><span class="story__text-em">Who</span> we are</h2>
+        <p>Presidential Innovation Fellows aspires to be as diverse as the people we serve. We’re a multidisciplinary team of product designers, full-stack engineers, and VC-backed founders. We’re also artists. Parents. Immigrants. Veterans. Walking into the office, we all share a passion for civic purpose—people helping people.</p>
+      </div>
+      <div class="desktop:grid-col-6 story__right">
+        <h2><span class="story__text-em">What</span> we do</h2>
+        <p>We partner with senior government leaders to solve our nation’s most complex challenges. Our Fellows work within federal agencies to build their digital capabilities and infuse best practices across data science, design, engineering, product, and systems thinking. Fellows apply industry expertise and entrepreneurial perspectives to accelerate government modernization for the people.</p>
+      </div>
     </div>
   </div>
 </section>
 
-<section class="usa-section grid-container usa-prose">
-  <div class="grid-row grid-gap">
-    <div class="desktop:grid-col-12">
-      <h2>Our story</h2>
-      <p>Whenever our nation has faced unprecedented challenges, our innovators and entrepreneurs have used technology and design thinking to bring solutions to life and move our country forward. The Presidential Innovation Fellows program was launched in 2012 by former U.S. Chief Technology Officer Todd Park to equip our country with a powerful, scalable framework to innovate and address the greatest challenges facing our leaders and people. PIF provides a path for bringing private-sector talent with cutting-edge skills, customer obsession, and emerging-tech leadership into the Federal government.</p>
-      <p>Since 2012, more than 150 Fellows have worked within over 35 federal agencies. Presidential Innovation Fellows help establish some of the nation’s top digital efforts, including 18F and the U.S. Digital Service (USDS). Over half of Fellows have decided to stay in government after the PIF program, and have gone on to lead new digital teams and serve as chief technology officers, chief information officers, chief data officers, and chief marketing officers at various agencies.</p>
+<section class="usa-section usa-section--dark bg-primary">
+  <div class="grid-container usa-prose">
+    <div class="grid-row grid-gap">
+      <div class="grid-col-12">
+        <h2 class="text-light">
+          <span class="text-no-italic text-bold">Our</span> values
+        </h2>
+      </div>
+    </div>
+    <div class="grid-row grid-gap">
+      <div class="desktop:grid-col-4 desktop:margin-bottom-5">
+        <div class="display-flex flex-align-center height-10">
+          {% asset icons/building--blue.svg class="padding-right-2" aria-hidden="true" %}
+          <h3 class="body-intro body-intro--italic body-intro--tight margin-0">
+            Design around citizen needs
+          </h3>
+        </div>
+        <p>We create products and services with users, not for them</p>
+      </div>
+      <div class="desktop:grid-col-4 desktop:margin-bottom-5">
+        <div class="display-flex flex-align-center height-10">
+          {% asset icons/people--white.svg class="padding-right-2" aria-hidden="true" %}
+          <h3 class="body-intro body-intro--italic body-intro--tight margin-0">
+            Stay curious
+          </h3>
+        </div>
+        <p>We are lifelong learners, and strive to bring empathy and humility to complex challenges.</p>
+      </div>
+      <div class="desktop:grid-col-4 desktop:margin-bottom-5">
+        <div class="display-flex flex-align-center height-10">
+          {% asset icons/building--blue.svg class="padding-right-2" aria-hidden="true" %}
+          <h3 class="body-intro body-intro--italic body-intro--tight margin-0">
+            Focus on service
+          </h3>
+        </div>
+        <p>We operate with service at the core. We modernize government services for the people.</p>
+      </div>
+      <div class="desktop:grid-col-4 desktop:margin-bottom-5">
+        <div class="display-flex flex-align-center height-10">
+          {% asset icons/people--white.svg class="padding-right-2" aria-hidden="true" %}
+          <h3 class="body-intro body-intro--italic body-intro--tight margin-0">
+            Be courageous
+          </h3>
+        </div>
+        <p>We do what is right for the people.</p>
+      </div>
+      <div class="desktop:grid-col-4 desktop:margin-bottom-5">
+        <div class="display-flex flex-align-center height-10">
+          {% asset icons/building--blue.svg class="padding-right-2" aria-hidden="true" %}
+          <h3 class="body-intro body-intro--italic body-intro--tight margin-0">
+            Reflect the diversity<br class="display-none desktop:display-inline-block" /> of our nation
+          </h3>
+        </div>
+        <p>We're committed to representing the diverse public we serve.</p>
+      </div>
+      <div class="desktop:grid-col-4 desktop:margin-bottom-5">
+        <div class="display-flex flex-align-center height-10">
+          {% asset icons/people--white.svg class="padding-right-2" aria-hidden="true" %}
+          <h3 class="body-intro body-intro--italic body-intro--tight margin-0">
+            Empower others
+          </h3>
+        </div>
+        <p>We make our agency partners, alumni, and collaborators successful. We foster community and belonging.</p>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- <section class="usa-section grid-container usa-prose">
-  <div class="grid-row grid-gap">
-    <div class="desktop:grid-col-12">
-      <h1>Meet the team</h1>
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-    </div>
-  </div>
-</section> -->
+{% include quote.html light=true image="likhitha-patha-headshot.jpg" quote="Being a Fellow has been the highlight of my professional career. I am honored to take my private sector expertise and apply it to public service." name="Name Nameson, Project with Agency X" %}

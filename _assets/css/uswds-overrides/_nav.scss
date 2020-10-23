@@ -22,8 +22,36 @@
 .usa-header--basic .usa-nav__primary-item > .usa-current::after,
 .usa-header--basic .usa-nav__link:hover::after {
   @include at-media('desktop') {
-    @include u-bg($theme-color-secondary-darker);
+    @include u-bg('secondary-darker');
     height: 2px;
     bottom: 6px;
+  }
+}
+
+// Custom Dark Styles
+
+.usa-header--dark {
+  @include at-media('desktop') {
+    position: absolute;
+    width: 100%;
+  }
+}
+
+.usa-header--dark .usa-nav__primary > .usa-nav__primary-item > a {
+  @include at-media('desktop') {
+    @include u-text('white');
+  }
+}
+
+.usa-header--dark .usa-nav__primary-item > .usa-current::after,
+.usa-header--dark .usa-nav__link:hover::after {
+  @include at-media('desktop') {
+    @include u-bg('white');
+  }
+}
+
+.usa-header--dark .usa-button.usa-button--secondary {
+  @include at-media('desktop') {
+    @include u-bg('primary-darker');
   }
 }

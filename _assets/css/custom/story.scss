@@ -1,0 +1,31 @@
+.story {
+  @include light-bg;
+  @include at-media("tablet") {
+    padding-top: 4%;
+    margin-top: -5%;
+  }
+  @include at-media("desktop") {
+    padding-top: 4rem;
+    margin-top: -90px;
+  }
+}
+
+.story__text-em {
+  @include u-text('bold');
+  font-style: normal;
+}
+
+.story__left {
+  @include at-media("desktop") {
+    width: 48.5%;
+    padding-right: 1.7rem;
+  }
+}
+
+.story__right {
+  @include at-media("desktop") {
+    padding-left: 2.5rem;
+    @include u-border-left(1px);
+    @include u-border-left('primary-vivid');
+  }
+}

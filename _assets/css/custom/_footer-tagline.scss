@@ -85,3 +85,35 @@
     display: none;
   }
 }
+
+.footer-tagline--alt {
+  background-position: 0 25%;
+
+  .footer-tagline__overlay {
+    @include u-bg('secondary-darker');
+    opacity: 0.87;
+  }
+
+  .footer-tagline__content {
+    h2 {
+      margin-top: 0;
+      text-align: center;
+    }
+    h3 {
+      @include u-text('white');
+      text-align: center;
+    }
+
+    .usa-button.usa-button--inverse {
+      @include u-bg('white');
+    }
+
+    .usa-button.usa-button--inverse:hover {
+      @include u-bg('primary-lighter');
+    }
+  }
+
+  .footer-tagline__actions {
+    justify-content: center;
+  }
+}

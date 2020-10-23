@@ -49,15 +49,27 @@ p {
   @include at-media("mobile-lg") {
     font-size: 3.75rem; // 60 pixels
   }
+
+  &--inverted {
+    @include u-text('white');
+  }
 }
 
 .body-intro {
-  @include u-font('serif', $theme-h2-font-size-mobile);
+  @include u-font('serif', 9); // 22 px
   @include u-text('light');
   @include u-text('primary-darker');
   font-style: normal;
   line-height: 1.62;
   @include at-media("mobile-lg") {
-    @include u-font('serif', $theme-h2-font-size);
+    @include u-font('serif', 9);
+  }
+
+  &--italic {
+    font-style: italic;
+  }
+
+  &--tight {
+    line-height: 1.2;
   }
 }

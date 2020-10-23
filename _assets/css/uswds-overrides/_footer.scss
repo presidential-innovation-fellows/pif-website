@@ -6,7 +6,7 @@
   }
 
   .usa-footer__primary-section {
-    background-color: rgba(237, 245, 255, 0.5); // this is a custom color
+    @include u-bg('white');
   }
 
   .usa-sign-up__heading {
