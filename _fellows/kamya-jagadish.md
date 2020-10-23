@@ -11,4 +11,12 @@ bio_short: Data-driven creative thinker, passionate about leading passionate tea
 tags: ['west', '2021']
 skills: ['product', 'data' ]
 ---
-Kamya has worked at various tech companies over the past few years. From finding new ways to increase the number of friendships formed on Facebook each day to leading efforts to create personas for Lime scooter riders, she always employs a data-driven approach. During her tech career, Kamya has often thought about helping the public sector leverage tech products to create greater social impact, so she is thrilled to be a part of the Presidential Innovation Fellowship.
+Kamya is a leader in consumer growth for tech companies, utilizing her product management and data science skills. 
+
+Most recently, Kamya led product growth projects at Lime, building products to increase electric scooter familiarity and usage.
+
+Prior to Lime, Kamya worked at Facebook, focused on their Friending and New User products, and also at Premise Data Corporation. 
+
+Kamya is passionate about employing data-driven strategies and open data for all. In always thinking about the end user, Kamya is also very interested in ethical data usage and bias in algorithms.
+
+She graduated from Yale with a B.S. in Environmental Engineering and currently resides in San Francisco, California.
