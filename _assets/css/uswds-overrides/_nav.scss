@@ -7,7 +7,7 @@
 
 .usa-nav__primary > .usa-nav__primary-item > a {
   @include at-media('desktop') {
-    @include u-font('sans', $theme-body-font-size);
+    @include u-font('sans', 'sm');
     @include u-text('normal');
     @include u-text('primary-darker');
   }

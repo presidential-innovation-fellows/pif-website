@@ -35,9 +35,10 @@
     color: white;
   }
   h2 {
-    @include u-font('serif', 14); // 40px
+    @include u-font('serif', '2xl'); // 40px
     @include u-text('light');
     color: #d4e5ff;
+    margin-top: 1rem;
   }
 }
 

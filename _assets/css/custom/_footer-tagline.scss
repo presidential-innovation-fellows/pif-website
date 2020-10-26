@@ -30,21 +30,21 @@
   @include content-overlay;
 
   h2 {
-    @include u-font('serif', $theme-h2-font-size);
+    @include u-font('serif', 'xl');
     color: white;
     @include u-text('light');
     font-style: italic;
     text-align: center;
     line-height: 1.4;
     @include at-media('desktop') {
-      @include u-font('serif', $theme-h1-font-size);
+      @include u-font('serif', '2xl');
       text-align: left;
       line-height: 1.24;
     }
   }
 
   h3 {
-    @include u-font('serif', 10);
+    @include u-font('serif', 10); // 24px
     @include u-text('primary-lighter');
     @include u-text('light');
     font-style: italic;
