@@ -2,6 +2,8 @@
   @include text-links;
 
   p {
+    @include u-font-size('sans', 8);
+    @include u-line-height('sans', 3);
     @include u-text('primary-darker');
   }
 
