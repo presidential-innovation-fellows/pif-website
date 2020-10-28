@@ -21,10 +21,6 @@ However, policy changes information and the impact on the public was not central
 
 ## The solution
 
-<div class="usa-image-block">
-  {% asset "hhs-telehealth-quotes.png" class="" alt="Quote from Presidential Innovation Fellows Dr. Kaeli Yuen and Likhitha Patha: We wanted to step up and serve people in a time of need, so we asked ourselves, how do we build useful digital services quickly without compromising the quality and value to the public?" %}
-</div>
-
 Early user research indicated that healthcare providers and patients needed a central government resource that provided up-to-date guidance on how to take advantage of the latest tools and information. This was particularly imperative to providers with fewer administrative resources, such as small-practice physicians. To address this challenge and expand telehealth capacity to meet the spike in demand for safe virtual care, Presidential Innovation Fellows (PIF) led the development and launch of <a href="https://telehealth.hhs.gov/">Telehealth.HHS.gov</a>, a government website that aims to increase the adoption of telehealth at a time when it is essential to protect the public by providing helpful information about telemedicine in plain language, and links to tools and resources for health care providers.
 
 <div class="usa-image-block">
