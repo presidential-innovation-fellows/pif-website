@@ -22,32 +22,28 @@ However, policy changes information and the impact on the public was not central
 ## The solution
 
 <div class="usa-image-block">
-  {% asset "hhs-telehealth-quotes.png" class="" title="Quote from Presidential Innovation Fellows Dr. Kaeli Yuen and Likhitha Patha: We wanted to step up and serve people in a time of need, so we asked ourselves, how do we build useful digital services quickly without compromising the quality and value to the public?" %}
+  {% asset "hhs-telehealth-quotes.png" class="" alt="Quote from Presidential Innovation Fellows Dr. Kaeli Yuen and Likhitha Patha: We wanted to step up and serve people in a time of need, so we asked ourselves, how do we build useful digital services quickly without compromising the quality and value to the public?" %}
 </div>
 
 Early user research indicated that healthcare providers and patients needed a central government resource that provided up-to-date guidance on how to take advantage of the latest tools and information. This was particularly imperative to providers with fewer administrative resources, such as small-practice physicians. To address this challenge and expand telehealth capacity to meet the spike in demand for safe virtual care, Presidential Innovation Fellows (PIF) led the development and launch of <a href="https://telehealth.hhs.gov/">Telehealth.HHS.gov</a>, a government website that aims to increase the adoption of telehealth at a time when it is essential to protect the public by providing helpful information about telemedicine in plain language, and links to tools and resources for health care providers.
 
 <div class="usa-image-block">
-  {% asset "hhs-telehealth-website.png" class="" title="Screenshot of telehealth.hhs.gov" %}
+  {% asset "hhs-telehealth-website.png" class="" alt="Screenshot of telehealth.hhs.gov" %}
 </div>
 
 PIF Likhitha Patha (she/her) was detailed to Health Resources and Services Administration (HRSA) within the U.S. Department of Health and Human Services (HHS) to lead this cross-agency initiative. She drove product strategy and engineering development and managed a lean team of developers, designers, and user researchers. In order to create a beautiful and modern website, they leveraged the <a href="https://designsystem.digital.gov/">U.S. Web Design System (USWDS)</a> to easily adopt the latest web design standards.
 
 <div class="usa-image-block">
-  {% asset "hhs-telehealth-likhitha-patha.jpg" class="" title="Photo of Likhitha Patha" %}
+  {% asset "hhs-telehealth-likhitha-patha.jpg" class="" alt="Photo of Likhitha Patha" %}
 </div>
 
 PIF Dennis Chornenky worked with White House Office of Science and Technology Policy (OSTP) colleagues as a telehealth policy lead to formulate and advance policy perspectives on telehealth.  He brought together leaders and subject-matter experts from HHS, HRSA, OSTP, Federal Emergency Management Agency (FEMA), and the Office of the Assistant Secretary for Preparedness and Response (ASPR) to develop cross-agency collaboration and secure sponsorship for the website project.
 
 <div class="usa-image-block">
-  {% asset "hhs-telehealth-dennis-chornenky.jpg" class="" title="Photo of Dennis Chornenky" %}
+  {% asset "hhs-telehealth-dennis-chornenky.jpg" class="" alt="Photo of Dennis Chornenky" %}
 </div>
 
 Communicating with our public servants and our people is critical in times of crisis. PIF also worked with the Office of the Surgeon General and OSTP to create a <a href="https://www.hhs.gov/blog/2020/04/22/health-providers-join-the-telehealth-revolution.html">call to service</a> for physicians to coincide with the site launch. The call ensured doctors could get the Surgeon General’s message on social media and the HHS blog, go to the site, and get resources to set up their practices for telemedicine. They could also sign up quickly with telehealth platforms to expand the supply of telehealth providers.
-
-<div class="usa-image-block">
-  {% asset "hhs-telehealth-kaeli-yuen.jpg" class="" title="Photo of Kaeli Yuen" %}
-</div>
 
 Bringing together leaders and subject matter experts from HHS, HRSA, OSTP, FEMA, and ASPR, PIF envisioned the project, articulated user needs, secured sponsorship for a timely execution and <strong>launched the site from inception to production in less than two weeks</strong>.
 
