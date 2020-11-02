@@ -2,7 +2,8 @@
   $border-radius: 5px;
 
   @include u-color('base-darker');
-  display: block;
+  display: flex;
+  flex-direction: column;
   height: 100%;
   text-decoration: none;
   border-radius: $border-radius;
@@ -17,24 +18,30 @@
     overflow: hidden;
   }
   .card-body {
+    flex: 1 1 0%;
     @include u-padding(2);
     @include u-color('base-darker');
   }
+  .card-footer {
+    @include text-links;
+    @include u-padding(2);
+    padding-top: 0;
+  }
   .card-flag {
-    @include u-font('serif','3xs');
-    @include u-text('primary-darker');
+    @include u-font('serif','lg');
+    @include u-text('primary-vivid');
     @include u-text('bold');
+    margin: .5rem 0;
   }
   .card-title {
-    @include u-font('body','xs');
-    @include u-text('primary-darker');
+    @include u-font('body','sm');
+    @include u-text('base');
     @include u-text('bold');
     font-style: normal;
     line-height: 1.4;
   }
   .card-affordance {
-    @include u-text('primary-vivid');
-    @include u-text('normal');
+    margin: 0;
     text-decoration: underline;
   }
   &:hover{

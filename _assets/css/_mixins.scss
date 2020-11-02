@@ -1,6 +1,7 @@
 // Styled Hyperlinks
 @mixin text-links {
-  a, a:visited, a:active {
+  a, a:visited, a:active,
+  .text-link {
     position: relative;
     @include u-text('primary-vivid');
     @include u-text('normal');
@@ -8,10 +9,11 @@
     margin-right: 10px;
   }
 
-  a::after {
+  a::after,
+  .text-link::after {
     content: '';
     position: absolute;
-    top: 5px;
+    top: 8px;
     left: 0;
     display: block;
     @include u-bg('primary-vivid');

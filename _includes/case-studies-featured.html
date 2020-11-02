@@ -1,7 +1,14 @@
 <section class="usa-section usa-section--light">
   <div class="grid-container">
-    <h2>Case studies</h2>
-    <div class="grid-row margin-x-neg-2">
+    <h2 class='as-h1'>
+      Case <em>studies<em>
+    </h2>
+    <div class="grid-col-8">
+      <p class="body-intro">
+        This is a sub-head about the work that we do and how you can learn more about it.
+      </p>
+    </div>
+    <div class="grid-row margin-x-neg-2 margin-top-5">
       {% assign sorted_projects = site.projects | where_exp:"project",
 "project.status contains 'case_study'" | sort:"order" %}
       {% for project in sorted_projects limit:3 %}

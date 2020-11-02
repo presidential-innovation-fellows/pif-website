@@ -7,10 +7,12 @@
     </div>
     {% endif %}
     <div class="card-body">
-      <span class="card-flag margin-top-3">{{ project.agency }}</span>
+      <h4 class="card-flag">{{ project.agency }}</h4>
       <h3 class="card-title" id="{{ aria_id }}">{{project.title}}</h3>
       <p class="card-desc">{{ project.summary }}</p>
-      <p class="card-affordance">Read More</p>
+    </div>
+    <div class="card-footer">
+      <p class="card-affordance text-link">Read More</p>
     </div>
   </a>
 </div>
