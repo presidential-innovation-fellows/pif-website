@@ -1,5 +1,5 @@
 .story {
-  @include light-bg;
+  @include u-bg('white');
   @include at-media("tablet") {
     padding-top: 4%;
     margin-top: -5%;

@@ -108,3 +108,9 @@
 @mixin light-bg {
   background-color: rgba(237, 245, 255, 0.5);
 }
+
+// Custom Utilities
+
+.bg--lightest {
+  @include light-bg;
+}
