@@ -8,7 +8,7 @@
   }
 
   .usa-graphic-list__heading {
-    @include u-font-size('serif', 10);
+    @include u-font-size('serif', 12);
     @include u-text('light');
     @include u-text('primary-darker');
   }
