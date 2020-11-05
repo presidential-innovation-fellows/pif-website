@@ -25,9 +25,10 @@
       text-align: center;
       display: flex;
       flex-direction: column;
-      flex-align: center;
       @include at-media("tablet") {
         flex-direction: row;
+        align-items: flex-start;
+        text-align: left;
       }
     }
   }
@@ -69,7 +70,7 @@
   &__name {
     margin-top: 1rem;
     @include at-media("tablet") {
-      margin-top: 0;
+      margin-top: 1px;
       margin-left: 1rem;
     }
   }
