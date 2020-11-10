@@ -1,63 +1,128 @@
 ---
 layout: default-main
 ---
-<div class="usa-layout-docs usa-section">
+<div class="usa-hero project">
+  <div class="usa-hero__overlay"></div>
+  <div class="usa-hero__overlay-content">
+    <div class="grid-container display-flex flex-column flex-justify-center height-full">
+      <h1 class="usa-hero__heading display display--inverted">
+        Projects
+      </h1>
+    </div>
+  </div>
+</div>
+
+<section class="usa-section bg--lightest">
   <div class="grid-container">
-    <div class="grid-row grid-gap">
-      <div class="usa-layout-docs__main desktop:grid-col-10 usa-prose">
-        <div class="clearfix">
-          <p class="text-uppercase text-bold text-secondary-dark float-left margin-0 desktop:grid-col-8">{{ page.agency }}</p>
-          {% if page.project_link %}
-          <a href="{{ page.project_link }}" class="usa-button float-right usa-button desktop:grid-col-3">
-            Visit agency website
-          </a>
-          {% endif %}
-        </div>
-        <h1 class="title">{{ page.title }}</h1>
+    <div class="flex-align-center flex-justify tablet:display-flex">
+      <p class="font-serif-lg text-italic text-primary-vivid flex-1">
+        {{ page.agency }}
+      </p>
 
-        <div class="grid-row grid-gap">
-          <div class="grid-col-3">
-            {% if page.agency_logo %}
-            {% asset "{{ page.agency_logo }}" class="img-responsive project-image" alt="{{ page.agency }}" %}
-            {% endif %}
-          </div>
-          <div class="grid-col-9">
-            <p class="usa-intro">
-              {{ page.summary }}
-            </p>
-          </div>
-        </div>
+      <div class="display-flex flex-wrap">
+        <a href="/projects" class="usa-button usa-button--outline usa-button--small usa-button--w-icon margin-bottom-1 tablet:margin-bottom-0">
+          {% asset 'icons/arrow--back.png' width=20 aria-hidden="true" %} Back to All
+        </a>
+        <a href="{{ page.project_link }}" class="usa-button usa-button--small">
+          Visit agency website
+        </a>
+      </div>
+    </div>
 
-        <h2>About {{page.agency_abbrev}}</h2>
-        <p>{{ page.partner_description }}</p>
+    <div class="grid-row">
+      <div class="tablet:grid-col-8">
+        <h1 class="font-serif-xl text-normal line-height-serif-4">
+          {{ page.title }}
+        </h1>
+        <p class="body-intro">
+          {{ page.summary }}
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
-        <h2>The challenge</h2>
-        <div class="bg-secondary-lightest project-question">
-          <p class="usa-intro">
-            {{ page.subtitle  }}
+<section class='padding-y-2 bg--lightest-alt'>
+  <div class="grid-container">
+    <div class="project-team">
+      {% if page.agency_logo %}
+        {% asset "{{ page.agency_logo }}" class="width-9" alt="{{ page.agency }}" %}
+      {% endif %}
+      {% if page.fellow_image %}
+        <span class="text-primary-darker font-sans-2xl padding-x-3 display-inline-block">
+          &#43;
+        </span>
+        {% asset "{{ page.fellow_image }}" class="width-9 img-circle" alt="{{ page.fellow }}" %}
+      {% endif %}
+      <div class="padding-y-1 tablet:padding-y-0 tablet:padding-left-2 tablet:padding-right-4">
+        {% if page.fellow_name %}
+          <p class="text-primary-darker text-bold text-uppercase margin-0">
+            PIF
+          </p>
+          <p class="text-primary-darker margin-0">
+            {{ page.fellow_name }}{% if page.fellow_year %},&nbsp;{{ page.fellow_year }}&nbsp;Fellow{% endif %}
+          </p>
+        {% endif %}
+      </div>
+      {% if page.topics %}
+        <div class="tablet:border-left-2px tablet:padding-x-4" style="border-color:#a9aeb1">
+          <p class="text-primary-darker text-bold text-uppercase margin-0">
+            TOPICS
+          </p>
+          <p class="text-primary-darker margin-0">
+            {{ page.topics }}
           </p>
         </div>
+      {% endif %}
+    </div>
+  </div>
+</section>
 
-        <h2>The project</h2>
+<div class="usa-layout-docs padding-y-8 bg--lightest">
+  <div class="grid-container">
+    <div class="grid-row grid-gap">
+      <div class="tablet:grid-col-3 margin-bottom-6">
+        {% include sidenav-dynamic.html %}
+      </div>
+      <div class="tablet:grid-col-8 tablet:grid-offset-1 usa-layout-docs__main usa-prose">
+        <h2 class="text-primary text-no-italic">
+          About <em>{{page.agency_abbrev}}</em>
+        </h2>
+        <p>{{ page.partner_description }}</p>
+
+        <h2 class="text-primary text-no-italic">
+          The <em>challenge</em>
+        </h2>
+        <p class="body-intro">
+          {{ page.subtitle  }}
+        </p>
+
         {{ content }}
-
-        {% if page.status == "past" or page.status == "current" %}
-          <h2>Fellows</h2>
-          <ul class="project-fellows">
-            {% assign fellows_list = site.fellows %}
-            {% for fellow in fellows_list %}
-            {% capture project_id %}{{page.id | remove: "/projects/"}}{% endcapture%}
-                {% if fellow.project contains project_id %}
-                <li>
-                  <a href="{{ site.baseurl }}{{ fellow.url }}" title="{{ fellow.title }}">
-                    {% asset "{{ fellow.image }}" alt="{{ fellow.title }}" class="circle-10" %}
-                  </a>
-              </li>
-              {% endif %}
-              {% endfor %}
-          </ul>
-        {% endif %}
       </div>
     </div>
   </div>
 </div>
+
+<script type="text/javascript">
+  var sidenav = document.getElementById('sidenav-dynamic');
+  var headers = document.querySelectorAll(".usa-prose h2, .usa-prose h3");
+
+  if (sidenav) {
+    headers.forEach(function(header, index) {
+      var headerText = header.innerHTML.replace( /(<([^>]+)>)/ig, '');
+      var headerId = headerText.trim().toLowerCase().replace(/ /gi, "-");
+      if (!header.id || !header.id.length) {
+        header.setAttribute("id", headerId);
+      }
+      var li = document.createElement("li");
+      li.classList.add('usa-sidenav__item');
+      var link = document.createElement("a");
+      index === 0 && link.classList.add('usa-current');
+      link.href = "#".concat(headerId);
+      var linkText = document.createTextNode(headerText);
+      link.appendChild(linkText);
+      li.appendChild(link);
+      sidenav.appendChild(li);
+    });
+  }
+</script>

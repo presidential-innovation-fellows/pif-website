@@ -114,3 +114,7 @@
 .bg--lightest {
   @include light-bg;
 }
+
+.bg--lightest-alt {
+  background-color: rgba(237, 245, 255, 1);
+}

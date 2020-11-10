@@ -1,3 +1,14 @@
+@mixin button--small {
+  height: 32px;
+  line-height: 32px;
+  border-radius: 16px;
+  padding-top: 0;
+}
+
+@mixin outline-box-shadow {
+  box-shadow: inset 0 0 0 1px #1a4480; // primary color
+}
+
 .usa-button {
   @include u-bg('primary-vivid');
   @include u-font('sans', 8);
@@ -13,6 +24,12 @@
     @include u-bg('blue-warm-40v');
   }
 
+  /* sizes */
+  &--small {
+    @include button--small;
+  }
+
+  /* colors */
   &.usa-button--inverse {
     @include u-bg('white');
     @include u-text('primary');
@@ -23,15 +40,29 @@
   }
 
   &.usa-button--secondary {
+    @include button--small;
     @include u-font('sans', 5);
     @include u-bg($theme-color-secondary-darker);
-    height: 32px;
-    line-height: 32px;
-    border-radius: 16px;
-    padding-top: 0;
   }
 
   &.usa-button--secondary:hover {
     @include u-bg($theme-color-secondary-dark);
+  }
+
+  &.usa-button--outline {
+    @include u-bg('transparent');
+    @include u-text('primary');
+    @include outline-box-shadow;
+  }
+
+  &.usa-button--outline:hover {
+    @include u-bg($theme-color-primary-lighter);
+    @include outline-box-shadow;
+  }
+
+  &.usa-button--w-icon {
+    img {
+      padding-right: 5px;
+    }
   }
 }

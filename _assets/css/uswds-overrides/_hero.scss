@@ -73,3 +73,8 @@
   @include hero-no-image;
   background-image: url(asset_path('banner-capitol.jpg'));
 }
+
+.usa-hero.project {
+  @include hero-no-image;
+  background-image: url(asset_path('banner-orientation-acq.jpg'));
+}

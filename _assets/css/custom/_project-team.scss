@@ -1,0 +1,12 @@
+.project-team {
+  text-align: center;
+  @include at-media("tablet") {
+    text-align: left;
+    display: flex;
+    align-items: center;
+  }
+
+  span, img {
+    vertical-align: middle;
+  }
+}
