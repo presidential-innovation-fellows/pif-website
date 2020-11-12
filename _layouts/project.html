@@ -18,7 +18,6 @@ layout: default-main
       <p class="font-serif-lg text-italic text-primary-vivid flex-1">
         {{ page.agency }}
       </p>
-
       <div class="display-flex flex-wrap">
         <a href="/projects" class="usa-button usa-button--outline usa-button--small usa-button--w-icon margin-bottom-1 tablet:margin-bottom-0">
           {% asset 'icons/arrow--back.png' width=20 aria-hidden="true" %} Back to All
@@ -42,41 +41,7 @@ layout: default-main
   </div>
 </section>
 
-<section class='padding-y-2 bg--lightest-alt'>
-  <div class="grid-container">
-    <div class="project-team">
-      {% if page.agency_logo %}
-        {% asset "{{ page.agency_logo }}" class="width-9" alt="{{ page.agency }}" %}
-      {% endif %}
-      {% if page.fellow_image %}
-        <span class="text-primary-darker font-sans-2xl padding-x-3 display-inline-block">
-          &#43;
-        </span>
-        {% asset "{{ page.fellow_image }}" class="width-9 img-circle" alt="{{ page.fellow }}" %}
-      {% endif %}
-      <div class="padding-y-1 tablet:padding-y-0 tablet:padding-left-2 tablet:padding-right-4">
-        {% if page.fellow_name %}
-          <p class="text-primary-darker text-bold text-uppercase margin-0">
-            PIF
-          </p>
-          <p class="text-primary-darker margin-0">
-            {{ page.fellow_name }}{% if page.fellow_year %},&nbsp;{{ page.fellow_year }}&nbsp;Fellow{% endif %}
-          </p>
-        {% endif %}
-      </div>
-      {% if page.topics %}
-        <div class="tablet:border-left-2px tablet:padding-x-4" style="border-color:#a9aeb1">
-          <p class="text-primary-darker text-bold text-uppercase margin-0">
-            TOPICS
-          </p>
-          <p class="text-primary-darker margin-0">
-            {{ page.topics }}
-          </p>
-        </div>
-      {% endif %}
-    </div>
-  </div>
-</section>
+{% include project-team.html agency_logo=page.agency_logo fellows=page.fellows topics=page.topics %}
 
 <div class="usa-layout-docs padding-y-8 bg--lightest">
   <div class="grid-container">
