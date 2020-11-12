@@ -7,7 +7,7 @@ project: ["onc-blue-button-initiative"]
 agency: ["ONC","VA"]
 hometown: San Diego, CA
 region: west
-bio_short: None
+bio_short: 
 tags: ['west', '2012']
 skills: []
 ---

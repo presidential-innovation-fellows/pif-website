@@ -7,7 +7,7 @@ project: []
 agency: []
 hometown: Connecticut
 region: northeast
-bio_short: None
+bio_short: 
 tags: ['northeast', '2012']
 skills: []
 ---

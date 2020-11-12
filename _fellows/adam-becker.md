@@ -7,9 +7,7 @@ project: []
 agency: []
 hometown: Oakland, CA
 region: west
-bio_short: None
+bio_short: 
 tags: ['west', '2012']
 skills: ['frontend development', 'product', 'backend development']
 ---
-
-

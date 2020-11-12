@@ -7,7 +7,7 @@ project: []
 agency: []
 hometown: Chicago, IL
 region: midwest
-bio_short: None
+bio_short: 
 tags: ['midwest', '2013']
 skills: []
 ---
