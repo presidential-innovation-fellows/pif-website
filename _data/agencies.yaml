@@ -13,10 +13,20 @@
   url: http://www.ed.gov
   description:
 
+- name: DHS
+  fullname: Department of Homeland Security
+  url: https://www.dhs.gov
+  description: 
+
 - name: DIU
   fullname: Defense Innovation Unit
   url: https://www.diu.mil
   description: Defense Innovation Unit is a fast-moving Department of Defense organization that contracts with commercial companies to solve national security problems.
+
+- name: DOD
+  fullname: Department of Defense
+  url: https://dod.defense.gov
+  description:
 
 - name: DOE
   fullname: Department of Energy
@@ -41,6 +51,11 @@
 - name: FDA
   fullname: Food and Drug Administration
   url: http://www.fda.gov
+  description:
+
+- name: FDIC
+  fullname: Federal Deposit Insurance Corporation
+  url: https://www.fdic.gov/
   description:
 
 - name: FEMA
@@ -95,6 +110,11 @@
 - name: NCI
   fullname: National Cancer Institute
   url: https://www.cancer.gov
+  description:
+
+- name: NGA
+  fullname: National Geospatial-Intelligence Agency
+  url: https://www.nga.mil
   description:
 
 - name: NIH

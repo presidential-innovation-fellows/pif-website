@@ -4,7 +4,7 @@ title: Scott Weiss
 image: scott-weiss-headshot.jpg
 fellow_year: 2020
 project: ["va-veo"]
-agency: ["VA"]
+agency: ["VA","DHS"]
 hometown: New York, NY
 region: northeast
 bio_short: Organizational and Systems Designer, Strategist, University Lecturer, Storyteller, Design Thinker and Community Organizer focused on bringing innovative practices and creative partnerships to solve systemic social challenges.

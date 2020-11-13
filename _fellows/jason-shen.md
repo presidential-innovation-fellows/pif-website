@@ -7,7 +7,7 @@ project: []
 agency: []
 hometown: Newton, MA
 region: northeast
-bio_short: None
+bio_short: 
 tags: ['northeast', '2013']
 skills: []
 ---

@@ -187,6 +187,7 @@ assets:
     - _assets/images/fellows/2018
     - _assets/images/fellows/2019
     - _assets/images/fellows/2020
+    - _assets/images/fellows/2021
     - _assets/images/agencies
     - node_modules/uswds/dist/img
     - node_modules/uswds/dist/js

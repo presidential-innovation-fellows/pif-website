@@ -7,7 +7,7 @@ project: []
 agency: []
 hometown: Washington, DC
 region: south
-bio_short: None
+bio_short: Formally the Chief Technology Officer (CTO) and U.S. Digital Services Lead at the EPA. Greg was the first Executive Director and Co-Founder of 18F, a 2013 Presidential Innovation Fellow, Day One Accelerator member.
 tags: ['south', '2013']
 skills: []
 ---

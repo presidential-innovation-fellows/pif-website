@@ -3,7 +3,7 @@ id: devin-brande
 title: Devin Brande
 image: devin-brande-headshot.jpg
 fellow_year: 2020
-project: []
+project: ["navy-disc"]
 agency: ["Navy"]
 hometown: Washington, DC
 region: south

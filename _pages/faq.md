@@ -20,7 +20,7 @@ We accept applications once per year starting in February and new PIF cohorts ty
 
 ## What is the application timeline?
 
-Applications for our next cohort of Presidential Innovation Fellows closed on May 18, 2020, at 11:59pm ET. For those who are selected to interview, we plan to conduct interviews on a rolling basis throughout May, June, July and anticipate a start date in early fall. Everyone will hear back from us by the end of July at the latest. All interviews occur virtually.
+Our applications typically open in February and close in May. For those who are selected to interview, we conduct interviews on a rolling basis throughout May, June, and July. All interviews occur virtually. We typically extend final offers in late summer. New PIF cohorts usually start in October. 
 
 ---
 
@@ -32,7 +32,7 @@ All interviews for Presidential Innovation Fellows occur virtually (this is alwa
 
 ## Where is the Fellowship located?
 
-Presidential Innovation Fellows are based in Washington, D.C. for the duration of the Fellowship. Fellows will spend a portion of their time working at one of the federal agencies to which they are assigned, which are typically in Washington, D.C. or the surrounding area. Fellows occasionally co-work and collaborate on projects in space provided by the General Services Administration. In addition to onsite work at agencies, we believe that sharing a D.C. “home base” helps foster community.
+Presidential Innovation Fellows are typically based in Washington, D.C., for the duration of the Fellowship. Fellows will spend a portion of their time working at one of the federal agencies to which they are assigned, which are often in Washington, D.C. or the surrounding area. Fellows occasionally co-work and collaborate on projects in space provided by the General Services Administration. In addition to onsite work at agencies, we believe that sharing a D.C. “home base” helps foster community.
 
 ---
 
@@ -44,13 +44,13 @@ While Fellows are placed across the government, the Presidential Innovation Fell
 
 ## Will I be able to work remotely?
 
-Employee health and safety are paramount during this time. We are actively monitoring public health guidelines and evaluating the best way to ensure our cohort works with greatest safety and community come October 2020 (our next cohort's start date). We do not have a final decision to share at this time, but please know that Fellows’ health and safety are top-of-mind for our team. For example, all current Fellows and PIF team members are teleworking as of May 2020.
+Employee health and safety are paramount during this time. We are actively monitoring public health guidelines and evaluating the best way to ensure our cohort works with greatest safety and community. For example, most current Fellows and all PIF team members are teleworking as of May 2020.
 
 ---
 
 ## Has COVID-19 affected program structure, timeline, or projects?
 
-Presidential Innovation Fellows have the history, opportunity, and responsibility to rally and ship human-centered solutions to our nation’s greatest challenges. Our program structure, timeline, and projects are continuing stronger than ever. We will have a robust portfolio of projects for a full class of 15-20 Fellows. Our start date for our next cohort of Presidential Innovation Fellows remains consistent: October 2020. We’re actively monitoring and prioritizing health and safety. Now, as always, Presidential Innovation Fellows are needed to modernize and build resilience into our government, and we are grateful for our Fellows’ service - as well as that of every public servant.
+Presidential Innovation Fellows have the history, opportunity, and responsibility to rally and ship human-centered solutions to our nation’s greatest challenges. Our program structure, timeline, and projects are continuing stronger than ever. We have a robust portfolio of projects and, on October 19, 2020, [we announced 34 new Presidential Innovation Fellows](https://www.gsa.gov/blog/2020/10/19/passion-and-purpose-meet-the-2021-presidential-innovation-fellows) who will be working alongside 22 federal agency projects to build innovative solutions to issues of national importance, including COVID-19 response. We’re actively monitoring and prioritizing health and safety. Now, as always, Presidential Innovation Fellows are needed to modernize and build resilience in our government, and we are grateful for our Fellows’ service - as well as that of every public servant.
 
 ---
 
@@ -86,7 +86,7 @@ While Fellows are placed across the government, the Presidential Innovation Fell
 
 ## How many Fellows are there?
 
-The number of Fellows throughout the year varies, depending on the needs of our partner agencies and projects we are supporting. We currently have 40 Fellows in the program (some of whom end their Fellowship this year) and are recruiting 20-25 Fellows for fall 2020.
+The number of Fellows throughout the year varies, depending on the needs of our partner agencies and projects we are supporting. We currently have nearly 60 Fellows in the program, 34 of whom are in our newest 2021 cohort, and 20+ of whom are returning Fellows. We typically recruit 20-30 Fellows for each new cohort.
 
 ---
 
