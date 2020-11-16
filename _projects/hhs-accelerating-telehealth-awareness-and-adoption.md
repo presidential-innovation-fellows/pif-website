@@ -27,13 +27,13 @@ Early user research indicated that healthcare providers and patients needed a ce
   {% asset "hhs-telehealth-website.png" class="" alt="Screenshot of telehealth.hhs.gov" %}
 </div>
 
-PIF Likhitha Patha (she/her) was detailed to Health Resources and Services Administration (HRSA) within the U.S. Department of Health and Human Services (HHS) to lead this cross-agency initiative. She drove product strategy and engineering development and managed a lean team of developers, designers, and user researchers. In order to create a beautiful and modern website, they leveraged the <a href="https://designsystem.digital.gov/">U.S. Web Design System (USWDS)</a> to easily adopt the latest web design standards.
+PIF Likhitha Patha was detailed to Health Resources and Services Administration (HRSA) within the U.S. Department of Health and Human Services (HHS) to lead this cross-agency initiative. She drove product strategy and engineering development and managed a lean team of developers, designers, and user researchers. In order to create a beautiful and modern website, they leveraged the <a href="https://designsystem.digital.gov/">U.S. Web Design System (USWDS)</a> to easily adopt the latest web design standards.
 
 <div class="usa-image-block">
   {% asset "hhs-telehealth-likhitha-patha.jpg" class="" alt="Photo of Likhitha Patha" %}
 </div>
 
-PIF Dennis Chornenky worked with White House Office of Science and Technology Policy (OSTP) colleagues as a telehealth policy lead to formulate and advance policy perspectives on telehealth.  He brought together leaders and subject-matter experts from HHS, HRSA, OSTP, Federal Emergency Management Agency (FEMA), and the Office of the Assistant Secretary for Preparedness and Response (ASPR) to develop cross-agency collaboration and secure sponsorship for the website project.
+PIF Dennis Chornenky was detailed to the White House Office of Science and Technology Policy (OSTP) as an AI policy advisor.  In response to COVID-19, he leveraged his healthcare and epidemiology background to take on the additional role of a telehealth policy lead.  Working with OSTP colleagues, he helped to bring together leaders and subject-matter experts from HHS, HRSA, Federal Emergency Management Agency (FEMA), and the Office of the Assistant Secretary for Preparedness and Response (ASPR) to identify opportunities and challenges for telehealth, formulate and advance policy perspectives, and build support for the website project.
 
 <div class="usa-image-block">
   {% asset "hhs-telehealth-dennis-chornenky.jpg" class="" alt="Photo of Dennis Chornenky" %}
