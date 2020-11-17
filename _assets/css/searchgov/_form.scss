@@ -22,6 +22,8 @@ $transition: width .25s;
   }
 
   .site-search-show {
+    border: none;
+    background-color: white;
     @include at-media('desktop') {
       background-image: url(asset_path('icons/search.svg'));
       background-repeat: no-repeat;
@@ -34,6 +36,10 @@ $transition: width .25s;
       top: 6px;
       right: 6px;
     }
+  }
+
+  .site-search-show:focus {
+    outline: none;
   }
 
   input[type=search] {
