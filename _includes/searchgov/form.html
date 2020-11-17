@@ -1,4 +1,4 @@
-{% comment %} 
+{% comment %}
   This will redirect the results to /search template which will handle the js loading
 {% endcomment %}
 
@@ -8,15 +8,30 @@
   {% else %}
     <form id="search_form" class="usa-search usa-search--small" action="{{include.searchgov.endpoint}}/search" accept-charset="UTF-8" method="get">
   {% endif %}
-    
-  
+
+
     <input name="utf8" type="hidden" value="&#x2713;" />
     <input name="affiliate" type="hidden" value="{{include.searchgov.affiliate}}" />
-  
-    <div role="search">
+
+    <div role="search" id="site-search" class="site-search">
       <label class="usa-sr-only" for="extended-search-field-small">Search small</label>
       <input class="usa-input usagov-search-autocomplete" id="extended-search-field-small" type="search" name="query" autocomplete="off">
       <button class="usa-button" type="submit"><span class="usa-sr-only">Search</span></button>
     </div>
+
+    <div id='site-search-show' class="site-search-show"></div>
   </form>
 {% endif %}
+
+<script type="text/javascript">
+  var show = document.getElementById("site-search-show");
+  var search = document.getElementById("site-search");
+  var input = document.getElementById("extended-search-field-small");
+
+  show.addEventListener('click', event => {
+    show.style.display = 'none';
+    search.classList.add('expanded');
+    input.focus();
+    input.select();
+  });
+</script>

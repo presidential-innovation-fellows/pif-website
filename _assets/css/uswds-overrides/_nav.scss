@@ -2,6 +2,27 @@
   @include at-media('desktop') {
     padding-top: 1rem;
     padding-bottom: 1rem;
+    align-items: center;
+  }
+}
+
+.usa-header--basic .usa-nav {
+  @include at-media('desktop') {
+    width: auto; // This helps logo to shrink when search bar is expanded
+    flex-grow: 1;
+  }
+}
+
+.usa-header--basic .usa-navbar {
+  @include at-media('desktop') {
+    max-width: 189px;
+    flex: 2 2 15%; // This allows the logo to shrink when search bar is expanded
+  }
+}
+
+.usa-nav__primary > .usa-nav__primary-item {
+  @include at-media('desktop') {
+    flex-shrink: 0;
   }
 }
 
@@ -26,6 +47,10 @@
     height: 2px;
     bottom: 6px;
   }
+}
+
+.usa-nav .usa-search {
+  margin-left: 0;
 }
 
 // Custom Dark Styles
