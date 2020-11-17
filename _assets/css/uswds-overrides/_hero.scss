@@ -68,6 +68,7 @@
 .agencies .usa-hero {
   @include hero-no-image;
   background-image: url(asset_path('banner-orientation-acq.jpg'));
+  background-position: center right 15%;
 }
 .apply .usa-hero {
   @include hero-no-image;
