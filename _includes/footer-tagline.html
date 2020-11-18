@@ -1,66 +1,31 @@
-{% if page.footer_tagline == 'alt' %}
-  <section class="footer-tagline footer-tagline--alt">
-    <div class="footer-tagline__overlay"></div>
-    <div class="footer-tagline__content">
-      <div class="grid-container display-flex flex-column flex-align-center flex-justify-center height-full">
-        <div>
-          <h2>
-            Our nation’s challenges are our<br/> biggest opportunities.
-          </h2>
-          <h3>
-            Our solutions need leaders like you.
-          </h3>
-          <div class="footer-tagline__actions">
-            <div class='footer-tagline__stars'>
-              {% asset star.svg aria-hidden="true" %}
-              {% asset star.svg aria-hidden="true" %}
-              {% asset star.svg aria-hidden="true" %}
-            </div>
-            <a class="usa-button usa-button--inverse" href="{{ site.baseurl }}/apply">
-              Join us
-            </a>
-            <div class='footer-tagline__stars'>
-              {% asset star.svg aria-hidden="true" %}
-              {% asset star.svg aria-hidden="true" %}
-              {% asset star.svg aria-hidden="true" %}
-            </div>
+
+<section class="footer-tagline {% if page.footer_tagline == 'alt' %}footer-tagline--alt{% endif %}">
+  <div class="footer-tagline__overlay"></div>
+  <div class="footer-tagline__content">
+    <div class="grid-container display-flex flex-column flex-align-center flex-justify-center height-full">
+      <div>
+        <h2>
+          Our nation’s challenges are our<br/> biggest opportunities.
+        </h2>
+        <h3>
+          Our solutions need leaders like you.
+        </h3>
+        <div class="footer-tagline__actions">
+          <div class='footer-tagline__stars'>
+            {% asset star.svg aria-hidden="true" %}
+            {% asset star.svg aria-hidden="true" %}
+            {% asset star.svg aria-hidden="true" %}
+          </div>
+          <a class="usa-button usa-button--inverse" href="{{ site.baseurl }}/apply">
+            Join us
+          </a>
+          <div class='footer-tagline__stars'>
+            {% asset star.svg aria-hidden="true" %}
+            {% asset star.svg aria-hidden="true" %}
+            {% asset star.svg aria-hidden="true" %}
           </div>
         </div>
       </div>
     </div>
-  </section>
-{% else %}
-  <section class="footer-tagline">
-    <div class="footer-tagline__overlay"></div>
-    <div class="footer-tagline__shape"></div>
-    <div class="footer-tagline__content">
-      <div class="grid-container">
-        <div class='grid-col'>
-          <h2>
-            Our nation’s <br/>
-            challenges are our <br/>
-            biggest opportunities.
-          </h2>
-          <h3>
-            Our solutions need leaders like you.
-          </h3>
-          <div class="footer-tagline__actions">
-            <div class='footer-tagline__stars footer-tagline__stars--hide-desktop'>
-              {% asset star.svg aria-hidden="true" %}
-              {% asset star.svg aria-hidden="true" %}
-              {% asset star.svg aria-hidden="true" %}
-            </div>
-            <a class="usa-button usa-button--inverse" href="{{ site.baseurl }}/apply">
-              Join us
-            </a>
-            <div class='footer-tagline__stars'>
-              {% asset star.svg aria-hidden="true" %}
-              {% asset star.svg aria-hidden="true" %}
-              {% asset star.svg aria-hidden="true" %}
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-{% endif %}
+  </div>
+</section>

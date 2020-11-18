@@ -1,29 +1,13 @@
 .footer-tagline {
-  background-image: url(asset_path('banner-homecoming-eeob-bw.jpg'));
+  @include u-bg('primary');
   @include overlay-base(360px);
+  background-image: url(asset_path('banner-homecoming-eeob-bw.jpg'));
   background-size: cover;
-  background-position: center center;
-  @include at-media('desktop') {
-    background-position: 400px 25%;
-  }
+  background-position: 0 25%;
 }
 
 .footer-tagline__overlay {
   @include image-overlay;
-}
-
-.footer-tagline__shape {
-  position: absolute;
-  width: 65%;
-  height: 100%;
-  top: 0;
-  left: -10%;
-  transform: skew(30deg);;
-  @include u-bg('primary');
-  display: none;
-  @include at-media('desktop') {
-    display: block;
-  }
 }
 
 .footer-tagline__content {
@@ -36,31 +20,20 @@
     font-style: italic;
     text-align: center;
     line-height: 1.4;
+    margin-top: 0;
+    text-align: center;
     @include at-media('desktop') {
       @include u-font('serif', '2xl');
-      text-align: left;
       line-height: 1.24;
     }
   }
 
   h3 {
-    @include u-font('serif', 10); // 24px
+    @include u-font('serif', 'xl'); // 32px
     @include u-text('primary-lighter');
     @include u-text('light');
     font-style: italic;
     text-align: center;
-    @include at-media('desktop') {
-      text-align: left;
-    }
-  }
-
-  .usa-button.usa-button--inverse {
-    @include u-bg('primary-lighter');
-    flex-shrink: 0;
-  }
-
-  .usa-button.usa-button--inverse:hover {
-    @include u-bg('white');
   }
 }
 
@@ -68,9 +41,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  @include at-media("desktop") {
-    justify-content: flex-start;
-  }
 }
 
 .footer-tagline__stars {
@@ -80,40 +50,13 @@
   margin: 0 1rem;
 }
 
-.footer-tagline__stars--hide-desktop {
-  @include at-media('desktop') {
-    display: none;
-  }
-}
-
 .footer-tagline--alt {
-  background-position: 0 25%;
-
   .footer-tagline__overlay {
     @include u-bg('secondary-darker');
     opacity: 0.87;
   }
 
-  .footer-tagline__content {
-    h2 {
-      margin-top: 0;
-      text-align: center;
-    }
-    h3 {
-      @include u-text('white');
-      text-align: center;
-    }
-
-    .usa-button.usa-button--inverse {
-      @include u-bg('white');
-    }
-
-    .usa-button.usa-button--inverse:hover {
-      @include u-bg('primary-lighter');
-    }
-  }
-
-  .footer-tagline__actions {
-    justify-content: center;
+  .footer-tagline__content h3 {
+    @include u-text('white');
   }
 }
