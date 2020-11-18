@@ -1,4 +1,6 @@
 @mixin button--small {
+  @include u-font('sans', 5);
+  @include u-text('bold');
   height: 32px;
   line-height: 32px;
   border-radius: 16px;
@@ -53,6 +55,7 @@
   &.usa-button--outline {
     @include u-bg('transparent');
     @include u-text('primary');
+    @include u-text('normal');
     @include outline-box-shadow;
   }
 

@@ -1,3 +1,5 @@
+// Custom Mixins
+
 // Styled Hyperlinks
 @mixin text-links {
   a, a:visited, a:active,
@@ -107,14 +109,4 @@
 // Custom background color with opacity
 @mixin light-bg {
   background-color: rgba(237, 245, 255, 0.5);
-}
-
-// Custom Utilities
-
-.bg--lightest {
-  @include light-bg;
-}
-
-.bg--lightest-alt {
-  background-color: rgba(237, 245, 255, 1);
 }

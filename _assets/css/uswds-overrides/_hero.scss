@@ -48,34 +48,38 @@
   font-style: italic;
 }
 
-@mixin hero-no-image {
+@mixin hero-short {
   background-size: cover;
-  height: 350px;
+  height: 150px;
+  @include at-media("tablet") {
+    height: 350px;
+  }
 }
 
 .home .usa-hero {
-  @include hero-no-image;
+  @include hero-short;
   background-image: url(asset_path('hero-pif.jpg'));
 }
 .about .usa-hero {
-  @include hero-no-image;
+  @include hero-short;
   background-image: url(asset_path('banner-homecoming-eeob-bw.jpg'));
 }
 .fellows .usa-hero {
-  @include hero-no-image;
+  @include hero-short;
   background-image: url(asset_path('banner-homecoming-eeob.jpg'));
 }
 .agencies .usa-hero {
-  @include hero-no-image;
+  @include hero-short;
   background-image: url(asset_path('banner-orientation-acq.jpg'));
   background-position: center right 15%;
 }
 .apply .usa-hero {
-  @include hero-no-image;
+  @include hero-short;
   background-image: url(asset_path('banner-capitol.jpg'));
 }
 
 .usa-hero.project {
-  @include hero-no-image;
+  @include hero-short;
   background-image: url(asset_path('banner-orientation-acq.jpg'));
+  background-position: center right 15%;
 }

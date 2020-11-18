@@ -14,13 +14,13 @@ layout: default-main
 
 <section class="usa-section bg--lightest">
   <div class="grid-container">
-    <div class="flex-align-center flex-justify tablet:display-flex">
+    <div class="flex-column-reverse-tablet flex-align-center flex-justify">
       <p class="font-serif-lg text-italic text-primary-vivid flex-1">
         {{ page.agency }}
       </p>
       <div class="display-flex flex-wrap">
-        <a href="/projects" class="usa-button usa-button--outline usa-button--small usa-button--w-icon margin-bottom-1 tablet:margin-bottom-0">
-          {% asset 'icons/arrow--back.png' width=20 aria-hidden="true" %} Back to All
+        <a href="/projects" class="usa-button usa-button--small usa-button--outline  usa-button--w-icon margin-bottom-1 tablet:margin-bottom-0">
+          {% asset 'icons/arrow--back.png' width=20 aria-hidden="true" %} Back to all
         </a>
         <a href="{{ page.project_link }}" class="usa-button usa-button--small">
           Visit agency website
