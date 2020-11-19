@@ -22,7 +22,7 @@
       {% endif %}
       {% for fellow in include.fellows %}
         <div class="project-team__member {%if forloop.first %}first{% endif%}">
-          {% asset "{{ fellow.image }}" class="width-9 img-circle" alt="{{ fellow.name }}" %}
+          {% asset "{{ fellow.image }}" class="width-9 height-9 img-circle" alt="{{ fellow.name }}" %}
           {% if fellow.name %}
           <div class="project-team__member-text">
             <p class="text-primary-darker text-bold text-uppercase margin-0">
