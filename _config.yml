@@ -177,7 +177,9 @@ exclude:
 assets:
   sources:
     - _assets/favicons
-    - _assets/images/projects
+    - _assets/images
+    - _assets/images/agencies
+    - _assets/images/banners
     - _assets/images/fellows/2012
     - _assets/images/fellows/2013
     - _assets/images/fellows/2014
@@ -188,7 +190,10 @@ assets:
     - _assets/images/fellows/2019
     - _assets/images/fellows/2020
     - _assets/images/fellows/2021
-    - _assets/images/agencies
+    - _assets/images/press
+    - _assets/images/projects
+    - _assets/images/icons
+    - _assets/images/logo
     - node_modules/uswds/dist/img
     - node_modules/uswds/dist/js
     - node_modules/uswds/dist/scss

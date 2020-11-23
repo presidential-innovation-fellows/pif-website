@@ -20,7 +20,7 @@
           </p>
         </div>
         {% if project.cover_art %}
-          <div class="project-item__content--right" style="background-image: url('{{ assets[project.cover_art].digest_path }}');">
+          <div class="project-item__content--right" style="background-image: url({% asset '{{ project.cover_art }}' @path %});">
           </div>
         {% endif %}
       </div>
