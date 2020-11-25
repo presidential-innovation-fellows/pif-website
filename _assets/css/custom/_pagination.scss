@@ -1,7 +1,7 @@
 .paginate-link {
   display: none;
   @include at-media('tablet') {
-    display: initial;
+    display: inline-block;
   }
 }
 .paginate-button {

@@ -8,9 +8,14 @@ summary: "Advising GSA on data strategy and data management, as well as providin
 subtitle: "How might we help GSA IT improve their data strategy and data management efforts?"
 partner_description: "The GSA IT Enterprise Information and Data Management Division (IDM) advises management on agency-wide performance, data entry design, data warehouse and accessibility, while leading agency-wide data management efforts toward achieving agency goals. They are instrumental in eliminating redundancy and providing a corporate-like, consistent, standardized, high-quality and integrated approach to data management."
 project_link: https://www.gsa.gov
-status: "upcoming"
+status: "current"
+fellows:
+  - name: "Payman Sadegh"
+    year: "2021"
+    image: "payman-sadegh-headshot.jpg"
+    url: "/fellows/payman-sadegh/"
 ---
-GSA is looking for a Senior Data Advisor/Chief Data Officer to advise management on matters related to: Agency-wide performance data entry design, data warehousing, data collection, data dissemination, data management and data accessibility. The PIF will provide analytical and evaluative expertise to ensure data programs are coordinated, comprehensive and strategic. 
+GSA is looking for a Senior Data Advisor/Chief Data Officer to advise management on matters related to: Agency-wide performance data entry design, data warehousing, data collection, data dissemination, data management and data accessibility. The PIF will provide analytical and evaluative expertise to ensure data programs are coordinated, comprehensive and strategic.
 
 The senior level advisor will lead efforts towards achieving Agency-wide effort goals of eliminating redundancy and providing a strategic corporate-like, consistent, standardized, high-quality integrated approach to data management. They will ensure the sharing of best practices so that GSA can increase openness and sharing of data. Additionally, the fellow will share industry and government knowledge on how to better manage government data efforts and provide recommendations on how to improve the manner in which GSA manages and publishes data, as well as how it measures the data quality, access and usage.
 

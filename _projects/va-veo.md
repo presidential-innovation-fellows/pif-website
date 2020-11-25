@@ -9,7 +9,7 @@ cover_art: ""
 subtitle: "How might we help the Department of Veteran Affairs deliver more veteran-centered services and care?"
 partner_description: "The Veterans Experience Office (VEO) office's mission is to enable VA to be the leading customer service organization in government so that Veterans, their families, caregivers and survivors Choose VA."
 project_link: https://www.va.gov/ve/
-status: "upcoming"
+status: "current"
 redirect_from:
   - /newprojects/va-veo.html
 ---

@@ -8,7 +8,7 @@ summary: "Helping the Office of Inspector General (OIG) within the Department of
 subtitle: "How can we promote public health and safety through technology?"
 partner_description: "The Office of Inspector General (OIG) within the Department of Health and Human Services (HHS) promotes the economy, efficiency, effectiveness, and integrity of HHS programs, as well as the health and welfare of the people they serve. Our work provides objective oversight for HHS’s over $1 trillion portfolio of health and human services programs that touch the lives of virtually all Americans. We are trusted guardians, relied upon by taxpayers, HHS officials, and policymakers to ferret out fraud, waste, and abuse and to recommend sound improvements to program operations. We do this with data-driven reviews and investigations, supported with modern auditing, investigative, and evaluative methods. In all we do, we strive to be impactful, innovative, and people-focused."
 project_link: https://www.hhs.gov
-status: "upcoming"
+status: "current"
 ---
 HHS-OIG supports a dynamic mission. HHS OIG’s priorities range from safeguarding the Medicare trust funds to combatting cybersecurity threats to protecting beneficiaries from prescription drug abuse, including opioids. Currently, at the forefront of this oversight work is promoting public health and safety in response to the coronavirus 2019 (COVID-19) pandemic. To support these priorities, HHS OIG is making investments in data analytics, technology, expertise, and training to promote secure and effective use of data and technology (see <a href="https://oig.hhs.gov/about-oig/strategic-plan/OIG-Strategic-Plan-2020-2025.pdf">HHS OIG 2020-2025 Strategic Plan</a>).
 

@@ -20,10 +20,14 @@
           &#43;
         </span>
       {% endif %}
+
       {% for fellow in include.fellows %}
+      {% if forloop.first %}
+      <div class="project-team__members">
+      {% endif %}
         <div class="project-team__member {%if forloop.first %}first{% endif%}">
-          {% asset "{{ fellow.image }}" class="width-9 height-9 img-circle" alt="{{ fellow.name }}" %}
-          {% if fellow.name %}
+          <a href="{{ fellow.url }}">{% asset "{{ fellow.image }}" class="width-9 height-9 img-circle" alt="{{ fellow.name }}" %}</a>
+          <!-- {% if fellow.name %}
           <div class="project-team__member-text">
             <p class="text-primary-darker text-bold text-uppercase margin-0">
               PIF
@@ -35,10 +39,13 @@
               <p class="text-primary-darker margin-0">
                 {{ fellow.year }}&nbsp;Fellow
               </p>
-            {% endif %}
+            {% endif %} -->
           </div>
           {% endif %}
         </div>
+      {% if forloop.last %}
+      </div>
+      {% endif %}
       {% endfor %}
       {% if include.topics %}
         <div class="project-team__topics">

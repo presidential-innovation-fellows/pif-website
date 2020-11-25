@@ -6,7 +6,7 @@ permalink: /projects/
 ---
 
 {% for project in site.projects %}
-  {% if project.status contains 'upcoming' or project.status contains 'current' or project.status contains 'case_study' %}
+  {% if project.status contains 'past' or project.status contains 'current' or project.status contains 'case_study' or project.status contains 'upcoming' %}
     {% include project-item.html project=project %}
   {% endif %}
 {% endfor %}

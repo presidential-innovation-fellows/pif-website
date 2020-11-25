@@ -8,7 +8,7 @@ summary: "Transforming EPA enterprise information programs with machine learning
 subtitle: "How can we use technology to transform the EPA enterprise information programs to drive better, more data-driven decisions that protect human health and the environment?"
 partner_description: "The Environmental Protection Agency (EPA) is an independent agency, specifically an independent executive agency, of the United States federal government for environmental protection."
 project_link: https://www.epa.gov
-status: "upcoming"
+status: "current"
 ---
 
 EPA would like to transform selected enterprise information programs with artificial intelligence and machine learning.  These advances would help protect human health and the environment by putting more and better information and analysis more quickly into the hands of Agency employees across the country.  The following information programs below are target opportunities where EPA believes the Agency could use AI to:

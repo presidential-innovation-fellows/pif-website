@@ -16,7 +16,7 @@
   > div {
     @include at-media("tablet") {
       @include left-border;
-      flex-shrink: 0;
+      // flex-shrink: 0;
     }
   }
 
@@ -27,12 +27,16 @@
     }
   }
 
+  .project-team__members {
+    border-left: none;
+  }
   .project-team__member {
-    display: flex;
+    // display: flex;
+    display: inline-block;
     margin: 1rem 0;
     @include at-media("tablet") {
-      padding-left: 1.5rem;
-      padding-right: 1.5rem;
+      // padding-left: 1rem;
+      padding-right: 1rem;
     }
   }
 

@@ -1,4 +1,4 @@
-{% assign agency_names = site.projects | map: 'agency' | uniq | sort %}
+{% assign agency_names = site.projects | map: 'agency' | uniq | sort: 'name' %}
 
 <div class="project-item__filters">
   <div>
@@ -12,11 +12,11 @@
     </select>
   </div>
   <div>
-    <a href="{{ site.baseurl }}/projects/case-studies#project-list-case-studies" class="usa-button usa-button--small usa-button--outline usa-button--outline-light" id="project-list-case-studies">
-      View all case studies
+    <a href="{{ site.baseurl }}/projects/case-studies#project-list-case-studies" class="usa-button usa-button--small usa-button--outline {% if page.active_page contains 'case-studies' %}usa-button--active{% endif %}" id="project-list-case-studies">
+      Case studies
     </a>
-    <a href="{{ site.baseurl }}/projects/projects-only#project-list-projects" class="usa-button usa-button--small usa-button--outline" id="project-list-projects">
-      View all projects
+    <a href="{{ site.baseurl }}/projects/projects-only#project-list-projects" class="usa-button usa-button--small usa-button--outline {% if page.active_page contains 'projects' %}usa-button--active{% endif %}" id="project-list-projects">
+      Current projects
     </a>
   </div>
 </div>

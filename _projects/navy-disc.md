@@ -9,7 +9,7 @@ subtitle: "How can we help the Navy implement a digital strategy critical to the
 partner_description: "<p>The Navy has a long history of engaging in cutting-edge technology development and is unique among the military services in retaining an organic Naval Research and Development Establishment (NRDE), but in recent years the Navy has struggled to gain and maintain momentum in pursuing enterprise-wide technology integration across a diversity of systems. This is especially important in areas where currently disparate systems could realize significant benefits from data sharing; rapid iteration, integration, and deployment; and resilient, modern software architectures.</p>
 <p>In December 2018, the Navy created the Digital Integration Support Cell (DISC), which is tasked to accelerate the transformation of the Naval force to the future \"should be\" state for naval enterprise digital warfighting capabilities realized via non-traditional, cross-enterprise teaming. The DISC is only the second Direct Report Program Manager (DRPM) in the Navy, reporting directly to the Assistant Secretary of the Navy for Research, Development, and Acquisition (ASN RDA).</p>"
 project_link: https://www.navy.mil
-status: "upcoming"
+status: "current"
 ---
 In order to succeed in their mandate, the DISC needs to bring together a diverse group of innovators to work as a team against expansive, often ambiguous challenges of modernizing and integrating existing systems in new ways and developing new systems combining the best practices of industry and government. Those efforts together will help define the digital way ahead for warfighting in the Navy. Simply put, the Navy is looking for creative and non-standard ways to improve the way they do software.
 

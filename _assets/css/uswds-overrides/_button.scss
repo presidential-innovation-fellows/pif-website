@@ -74,4 +74,12 @@
       padding-right: 5px;
     }
   }
+
+  &.usa-button--active, &.usa-button--active:hover {
+    @include u-bg('primary-vivid');
+    color: white;
+  }
+  &.usa-button--active:hover {
+    @include u-bg('blue-warm-40v');
+  }
 }

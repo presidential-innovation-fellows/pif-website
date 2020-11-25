@@ -3,6 +3,7 @@ layout: projects
 title: Projects
 description: We’re building human-centered solutions that scale, and strengthening federal culture while we’re at it. Learn about some of our projects and partners below.
 permalink: /projects/projects-only
+active_page: projects
 ---
 
 {% for project in site.projects %}
@@ -10,4 +11,3 @@ permalink: /projects/projects-only
     {% include project-item.html project=project %}
   {% endunless %}
 {% endfor %}
-
