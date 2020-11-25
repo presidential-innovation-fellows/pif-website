@@ -8,7 +8,7 @@ summary: "NGA’s Human Development Directorate through strategic and collective
 subtitle: "How can we help NGA deliver products and services, as well as help develop a strong product organization within NGA. "
 partner_description: "The National Geospatial-Intelligence Agency (NGA) delivers world-class geospatial intelligence that provides a decisive advantage to policymakers, warfighters, intelligence professionals and first responders. Anyone who sails a U.S. ship, flies a U.S. aircraft, makes national policy decisions, fights wars, locates targets, responds to natural disasters, or even navigates with a cellphone relies on NGA. NGA enables all of these critical actions and shapes decisions that impact our world through the indispensable discipline of geospatial intelligence (GEOINT)."
 project_link: https://www.nga.mil
-status: "upcoming"
+status: "current"
 ---
 The NGA CTO team is looking for two PIFs to help realize important aspects of NGA’s Technology Strategy. Specifically, NGA needs to grow its Product Management and User Experience research (UX) expertise. NGA has done something similar with software engineering and data science, with DevCorps and Data Corps respectively, in the past few years, so there is precedent for this type of work. Additionally there are already pockets of people practicing product management and human centered design/UX research in the agency, so we are not starting from scratch. However, we need experienced people to lead this effort and make this a reality within NGA.
 

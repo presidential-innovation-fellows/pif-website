@@ -1,0 +1,7 @@
+.breadcrumb {
+  padding: units(2);
+  display: none;
+  @include at-media('tablet') {
+    display: block;
+  }
+}

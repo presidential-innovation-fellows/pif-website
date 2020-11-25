@@ -1,0 +1,33 @@
+<aside class="usa-layout-docs-sidenav desktop:grid-col-3 padding-bottom-4{% if include.order %} order-{{ include.order }}{% endif %}">
+  <p>Class of <a href="/fellows/{{ include.pif_year }}">{{ include.pif_year }}</a></p>
+  <p>From {{ include.pif_hometown }}</p>
+
+  {% assign pif_project = include.pif_project | size %}
+  {% if pif_project != 0 %}
+    <h2>Project</h2>
+    <ul class="usa-sidenav">
+      {% for project in site.projects %}
+      {% capture project_id %}{{ project.id | remove: "/projects/"}}{% endcapture%}
+      {% if include.pif_project contains project_id %}
+      <li class="usa-sidenav__item">
+          <a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a>
+      </li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+  {% assign pif_agency = include.pif_agency | size %}
+  {% if pif_agency > 0 %}
+    <h2>{% if pif_agency > 1 %}Agencies{% else %}Agency{% endif %}</h2>
+    <ul class="usa-sidenav">
+      {% for agency in site.data.agencies %}
+      {% if include.pif_agency contains agency.name %}
+      <li class="">
+          <span>{{ agency.fullname }}</span>
+      </li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+    {% endif %}
+</aside>

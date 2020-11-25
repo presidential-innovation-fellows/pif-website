@@ -1,0 +1,31 @@
+
+<section class="footer-tagline {% if page.footer_tagline == 'alt' %}footer-tagline--alt{% endif %}">
+  <div class="footer-tagline__overlay"></div>
+  <div class="footer-tagline__content">
+    <div class="grid-container display-flex flex-column flex-align-center flex-justify-center height-full">
+      <div>
+        <h2>
+          Our nation’s challenges are our<br class="display-none tablet:display-inline"/> biggest opportunities.
+        </h2>
+        <h3>
+          Our solutions need leaders like you.
+        </h3>
+        <div class="footer-tagline__actions">
+          <div class='footer-tagline__stars'>
+            {% asset star.svg aria-hidden="true" %}
+            {% asset star.svg aria-hidden="true" %}
+            {% asset star.svg aria-hidden="true" %}
+          </div>
+          <a class="usa-button usa-button--inverse" href="{{ site.baseurl }}/apply">
+            Join us
+          </a>
+          <div class='footer-tagline__stars'>
+            {% asset star.svg aria-hidden="true" %}
+            {% asset star.svg aria-hidden="true" %}
+            {% asset star.svg aria-hidden="true" %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

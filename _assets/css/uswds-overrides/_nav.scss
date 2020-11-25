@@ -1,0 +1,82 @@
+.usa-header--basic .usa-nav-container {
+  @include at-media('desktop') {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    align-items: center;
+  }
+}
+
+.usa-header--basic .usa-nav {
+  @include at-media('desktop') {
+    width: auto; // This helps logo to shrink when search bar is expanded
+    flex-grow: 1;
+  }
+}
+
+.usa-header--basic .usa-navbar {
+  @include at-media('desktop') {
+    max-width: 189px;
+    flex: 2 2 15%; // This allows the logo to shrink when search bar is expanded
+  }
+}
+
+.usa-nav__primary > .usa-nav__primary-item {
+  @include at-media('desktop') {
+    flex-shrink: 0;
+  }
+}
+
+.usa-nav__primary > .usa-nav__primary-item > a {
+  @include at-media('desktop') {
+    @include u-font('sans', 'sm');
+    @include u-text('normal');
+    @include u-text('primary-darker');
+  }
+}
+
+.usa-header--basic .usa-nav__primary-item > .usa-current {
+  @include at-media('desktop') {
+    @include u-text('bold');
+  }
+}
+
+.usa-header--basic .usa-nav__primary-item > .usa-current::after,
+.usa-header--basic .usa-nav__link:hover::after {
+  @include at-media('desktop') {
+    @include u-bg('secondary-darker');
+    height: 2px;
+    bottom: 6px;
+  }
+}
+
+.usa-nav .usa-search {
+  margin-left: 0;
+}
+
+// Custom Dark Styles
+
+.usa-header--dark {
+  @include at-media('desktop') {
+    position: absolute;
+    width: 100%;
+  }
+}
+
+.usa-header--dark .usa-nav__primary > .usa-nav__primary-item > a {
+  @include at-media('desktop') {
+    @include u-text('white');
+  }
+}
+
+.usa-header--dark .usa-nav__primary-item > .usa-current::after,
+.usa-header--dark .usa-nav__link:hover::after {
+  @include at-media('desktop') {
+    @include u-bg('white');
+  }
+}
+
+.usa-header--dark .usa-button.usa-button--secondary {
+  @include at-media('desktop') {
+    @include u-bg('primary-darker');
+  }
+}

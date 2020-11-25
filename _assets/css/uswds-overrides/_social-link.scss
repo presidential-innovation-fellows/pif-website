@@ -1,0 +1,9 @@
+.usa-social-link {
+  @include u-margin-top(3);
+  @include u-margin-right(1);
+}
+
+.usa-social-link--linkedin {
+  background-image: url(asset_path("linkedin.svg")), linear-gradient(transparent, transparent);
+  background-repeat: no-repeat;
+}

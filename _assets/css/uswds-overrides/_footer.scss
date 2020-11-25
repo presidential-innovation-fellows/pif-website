@@ -1,0 +1,53 @@
+.usa-footer {
+
+  h4 {
+    margin-top: 0;
+    @include u-text('primary-vivid');
+  }
+
+  .usa-footer__primary-section {
+    @include u-bg('white');
+  }
+
+  .usa-sign-up__heading {
+    @include u-font('serif', 9);
+    @include u-text('secondary-darker');
+    @include u-text('normal');
+  }
+
+  .usa-footer__secondary-link a {
+    @include u-text('primary-darker');
+    &:hover, &:active {
+      @include u-text('primary');
+    }
+  }
+  .usa-footer__secondary-section {
+    @include u-bg('primary-dark');
+    a, a:hover, a:visited, a:active {
+      @include u-text('white');
+      text-decoration: none;
+    }
+    h3 {
+      @include u-font('heading', 'xl');
+      color: color("white");
+    }
+    .usa-button {
+      @include u-font('body', 'lg');
+      box-shadow: inset 0 0 0 2px #dcdee0;
+      &:hover, &:visited, &:active {
+        @include u-text('white');
+        box-shadow: $button-stroke color("white");
+      }
+    }
+    .grid-container {
+      @include at-media('desktop') {
+        text-align: center;
+        @include u-padding-x(8);
+      }
+    }
+  }
+
+  .usa-form .usa-input {
+    border-radius: 3px;
+  }
+}

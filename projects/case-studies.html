@@ -1,0 +1,13 @@
+---
+layout: projects
+title: Projects
+description: We’re building human-centered solutions that scale, and strengthening federal culture while we’re at it. Learn about some of our projects and partners below.
+permalink: /projects/case-studies
+active_page: case-studies
+---
+
+{% for project in site.projects %}
+  {% if project.status contains 'case_study' %}
+    {% include project-item.html project=project %}
+  {% endif %}
+{% endfor %}

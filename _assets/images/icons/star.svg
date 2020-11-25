@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="18px" viewBox="0 0 19 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Star</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="landing-v1" transform="translate(-361.000000, -2183.000000)">
+            <rect id="Rectangle" fill="none" x="-48" y="1994" width="1101" height="269"></rect>
+            <polygon id="Star" fill="#F9EEEE" points="370.5 2196.476 364.91604 2200.18566 366.718595 2193.72865 361.464963 2189.56434 368.162963 2189.28334 370.5 2183 372.837037 2189.28334 379.535037 2189.56434 374.281405 2193.72865 376.08396 2200.18566"></polygon>
+        </g>
+    </g>
+</svg>

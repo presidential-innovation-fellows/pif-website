@@ -1,63 +1,93 @@
 ---
-layout: default
+layout: default-main
 ---
+<div class="usa-hero project">
+  <div class="usa-hero__overlay"></div>
+  <div class="usa-hero__overlay-content">
+    <div class="grid-container display-flex flex-column flex-justify-center height-full">
+      <h1 class="usa-hero__heading display display--inverted">
+        Projects
+      </h1>
+    </div>
+  </div>
+</div>
 
-<div class="usa-layout-docs usa-section">
+<section class="usa-section bg--lightest">
+  <div class="grid-container">
+    <div class="flex-column-reverse-tablet flex-align-center flex-justify">
+      <p class="font-serif-lg text-italic text-primary-vivid flex-1">
+        {{ page.agency }}
+      </p>
+      <div class="display-flex flex-wrap">
+        <a href="/projects" class="usa-button usa-button--small usa-button--outline  usa-button--w-icon margin-bottom-1 tablet:margin-bottom-0">
+          {% asset 'icons/arrow--back.png' width=20 aria-hidden="true" %} Back to all
+        </a>
+        <a href="{{ page.project_link }}" class="usa-button usa-button--small">
+          Visit agency website
+        </a>
+      </div>
+    </div>
+
+    <div class="grid-row">
+      <div class="tablet:grid-col-8">
+        <h1 class="font-serif-xl text-normal line-height-serif-4">
+          {{ page.title }}
+        </h1>
+        <p class="body-intro">
+          {{ page.summary }}
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% include project-team.html agency_logo=page.agency_logo fellows=page.fellows topics=page.topics %}
+
+<div class="usa-layout-docs padding-y-8 bg--lightest">
   <div class="grid-container">
     <div class="grid-row grid-gap">
-      <div class="usa-layout-docs__main desktop:grid-col-10 usa-prose">
-        <div class="clearfix">
-          <h4 class="text-uppercase text-secondary-dark float-left margin-0 desktop:grid-col-8">{{ page.agency }}</h4>
-          {% if page.project_link %}
-          <a href="{{ page.project_link }}" class="usa-button float-right usa-button desktop:grid-col-3">
-            Visit agency website
-          </a>
-          {% endif %}
-        </div>
-        <h1 class="title">{{ page.title }}</h1>
-
-        <div class="grid-row grid-gap">
-          <div class="grid-col-3">
-            {% if page.agency_logo %}
-            {% asset "{{ page.agency_logo }}" class="img-responsive project-image" alt="{{ page.agency }}" %}
-            {% endif %}
-          </div>
-          <div class="grid-col-9">
-            <p class="usa-intro">
-              {{ page.summary }}
-            </p>
-          </div>
-        </div>
-
-        <h2>About {{page.agency_abbrev}}</h2>
+      <div class="tablet:grid-col-3 margin-bottom-6">
+        {% include sidenav-dynamic.html %}
+      </div>
+      <div class="tablet:grid-col-8 tablet:grid-offset-1 usa-layout-docs__main usa-prose">
+        <h2 class="text-primary text-no-italic">
+          About <em>{{page.agency_abbrev}}</em>
+        </h2>
         <p>{{ page.partner_description }}</p>
 
-        <h2>The challenge</h2>
-        <div class="bg-secondary-lightest project-question">
-          <p class="usa-intro">
-            {{ page.subtitle  }}
-          </p>
-        </div>
+        <h2 class="text-primary text-no-italic">
+          The <em>challenge</em>
+        </h2>
+        <p class="body-intro">
+          {{ page.subtitle  }}
+        </p>
 
         {{ content }}
-
-        {% if page.status == "past" or page.status == "current" %}
-          <h2>Fellows</h2>
-          <ul class="project-fellows">
-            {% assign fellows_list = site.fellows %}
-            {% for fellow in fellows_list %}
-            {% capture project_id %}{{page.id | remove: "/projects/"}}{% endcapture%}
-                {% if fellow.project contains project_id %}
-                <li>
-                  <a href="{{ site.baseurl }}{{ fellow.url }}" title="{{ fellow.title }}">
-                    {% asset "{{ fellow.image }}" alt="{{ fellow.title }}" class="circle-10" %}
-                  </a>
-              </li>
-              {% endif %}
-              {% endfor %}
-          </ul>
-        {% endif %}
       </div>
     </div>
   </div>
 </div>
+
+<script type="text/javascript">
+  var sidenav = document.getElementById('sidenav-dynamic');
+  var headers = document.querySelectorAll(".usa-prose h2, .usa-prose h3");
+
+  if (sidenav) {
+    headers.forEach(function(header, index) {
+      var headerText = header.innerHTML.replace( /(<([^>]+)>)/ig, '');
+      var headerId = headerText.trim().toLowerCase().replace(/ /gi, "-");
+      if (!header.id || !header.id.length) {
+        header.setAttribute("id", headerId);
+      }
+      var li = document.createElement("li");
+      li.classList.add('usa-sidenav__item');
+      var link = document.createElement("a");
+      index === 0 && link.classList.add('usa-current');
+      link.href = "#".concat(headerId);
+      var linkText = document.createTextNode(headerText);
+      link.appendChild(linkText);
+      li.appendChild(link);
+      sidenav.appendChild(li);
+    });
+  }
+</script>

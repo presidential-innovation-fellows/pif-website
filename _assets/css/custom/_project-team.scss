@@ -1,0 +1,52 @@
+@mixin left-border {
+  border-left: 1px solid #1a4480;
+}
+
+.project-team {
+  @include at-media("tablet") {
+    text-align: left;
+    display: flex;
+    align-items: center;
+  }
+
+  span, img {
+    vertical-align: middle;
+  }
+
+  > div {
+    @include at-media("tablet") {
+      @include left-border;
+      // flex-shrink: 0;
+    }
+  }
+
+  > div.first {
+    @include at-media("tablet") {
+      border-left: none;
+      padding-left: 0;
+    }
+  }
+
+  .project-team__members {
+    border-left: none;
+  }
+  .project-team__member {
+    // display: flex;
+    display: inline-block;
+    margin: 1rem 0;
+    @include at-media("tablet") {
+      // padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  }
+
+  .project-team__member-text {
+    padding-left: 1rem;
+  }
+
+  .project-team__topics {
+    @include at-media("tablet") {
+      padding: 0 2rem;
+    }
+  }
+}

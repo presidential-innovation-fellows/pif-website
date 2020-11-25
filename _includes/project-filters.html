@@ -1,0 +1,22 @@
+{% assign agency_names = site.projects | map: 'agency' | uniq | sort: 'name' %}
+
+<div class="project-item__filters">
+  <div>
+    <select class="usa-select" name="project-agencies" id="project-agencies-select">
+      <option value>Filter by agency</option>
+      {% for name in agency_names %}
+        <option value="{{ name | slugify }}">
+          {{ name }}
+        </option>
+      {% endfor %}
+    </select>
+  </div>
+  <div>
+    <a href="{{ site.baseurl }}/projects/case-studies#project-list-case-studies" class="usa-button usa-button--small usa-button--outline {% if page.active_page contains 'case-studies' %}usa-button--active{% endif %}" id="project-list-case-studies">
+      View case studies
+    </a>
+    <a href="{{ site.baseurl }}/projects/projects-only#project-list-projects" class="usa-button usa-button--small usa-button--outline {% if page.active_page contains 'projects' %}usa-button--active{% endif %}" id="project-list-projects">
+      View projects
+    </a>
+  </div>
+</div>

@@ -8,7 +8,7 @@ summary: "Login.gov is trying to solve the critical problem of secure digital ac
 subtitle: "How can we help Login simplify secure access to online Federal services for the public, while reducing costs for agencies and taxpayers."
 partner_description: "Login.gov offers the public secure and private online access to participating government programs. With one login.gov account, users can sign in to multiple government agencies. Our goal is to make managing federal benefits, services and applications easier and more secure."
 project_link: https://www.login.gov
-status: "upcoming"
+status: "past"
 ---
 Login.gov operates at the center of challenging and cutting-edge problems in online authentication, identity, and privacy. Login.gov already serves a significant section of the US population; as this continues to grow, the Login.gov team has an opportunity to lead both the public and private sector in addressing these problems.
 

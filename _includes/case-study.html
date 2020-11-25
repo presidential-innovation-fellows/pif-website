@@ -1,0 +1,18 @@
+{% assign aria_id = project.title | url_encode | truncate: 10, "" %}
+<div class="tablet:grid-col-6 desktop:grid-col-4 padding-x-2 margin-bottom-4">
+  <a href="{{ site.baseurl }}{{ project.url }}" class="site-card" aria-labelledby="{{ aria_id }}">
+    {% if project.cover_art %}
+    <div class="card-img">
+      {% asset "{{ project.cover_art }}" class="square-cards" alt="{{ project.image_alt_text }}" %}
+    </div>
+    {% endif %}
+    <div class="card-body">
+      <h4 class="card-flag">{{ project.agency }}</h4>
+      <h3 class="card-title" id="{{ aria_id }}">{{project.title}}</h3>
+      <p class="card-desc">{{ project.summary }}</p>
+    </div>
+    <div class="card-footer">
+      <p class="card-affordance text-link">Read More</p>
+    </div>
+  </a>
+</div>

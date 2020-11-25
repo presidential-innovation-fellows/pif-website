@@ -1,0 +1,112 @@
+// Custom Mixins
+
+// Styled Hyperlinks
+@mixin text-links {
+  a, a:visited, a:active,
+  .text-link {
+    position: relative;
+    @include u-text('primary-vivid');
+    @include u-text('normal');
+    padding-left: 15px;
+    margin-right: 10px;
+  }
+
+  a::after,
+  .text-link::after {
+    content: '';
+    position: absolute;
+    top: 8px;
+    left: 0;
+    display: block;
+    @include u-bg('primary-vivid');
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+  }
+
+  a.alt, a.alt:visited, a.alt:active {
+    @include u-text('primary-darker');
+  }
+
+  a.alt::after {
+    @include u-bg('primary-darker');
+  }
+  a.white, a.white:visited, a.white:active {
+    color: white;
+  }
+  a.white::after {
+    background-color: white;
+  }
+}
+
+
+//  Image Overlay Components
+//
+// image-overlay and content-overlay need to be in relation to overlay-base
+// image-overlay precedes content-overlay in markup
+// image-overlay provides the color over the image
+// content-overlay will contain the content that rests above the overlay
+//
+// Markup For Simple Overlay
+//
+// <div class="overlay-base">
+//  <div class="image-overlay"></div>
+//  <div class="content-overlay">Your content here</div>
+// </div>
+//
+// Markup For Bi-Color Overlay
+//
+// <div class="overlay-base">
+//  <div class="image-overlay image-overlay-bicolor-left"></div>
+//  <div class="image-overlay image-overlay-bicolor-right"></div>
+//  <div class="content-overlay">Your content here</div>
+// </div>
+//
+@mixin overlay-base($height) {
+  position: relative;
+  height: $height;
+}
+
+@mixin image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  @include u-bg('primary-vivid');
+  opacity: .85;
+}
+
+@mixin image-overlay-bicolor-left {
+  top: 0;
+  left: -45%;
+  height: 100%;
+  width: 100%;
+  transform: skew(-30deg);
+  @include u-bg('primary');
+  opacity: .85;
+}
+
+@mixin image-overlay-bicolor-right {
+  top: 0;
+  left: initial;
+  right: -40%;
+  height: 100%;
+  width: 85%;
+  transform: skew(-30deg);
+  @include u-bg('primary-vivid');
+  opacity: .85;
+}
+
+@mixin content-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+// Custom background color with opacity
+@mixin light-bg {
+  background-color: rgba(237, 245, 255, 0.5);
+}

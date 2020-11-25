@@ -11,12 +11,12 @@ The home page uses wide.html layout, since it extends full width of page
 
 {% assign page_id = page.url | remove:'/index.html' | split: '/' %}
 <body class="{% if page_id %}{{ page_id }}{% else %}home{% endif %}">
+  <a class="skipnav" href="#main-content">Skip to main content</a>
   {% include header.html %}
 
   {% include menu.html primary_navigation=site.primary_navigation  secondary_navigation=site.secondary_navigation %}
-  <main id="main-content">
-    {{ content }}
-  </main>
+
+  {{ content }}
 
   {% include footer.html %}
 

@@ -1,7 +1,7 @@
 ---
 id: cdc-digital-preparedness
 agency: "Centers for Disease Control and Prevention"
-agency_abbrev: "CDC"
+agency_abbrev: "The CDC"
 agency_logo: "CDC.png"
 title: "Strengthening digital preparedness across the public health ecosystem"
 summary: "Helping Centers for Disease Control and Prevention develop more holistic and interoperable approaches to public health reporting, and position itself as a leader in data modernization."

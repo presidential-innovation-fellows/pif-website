@@ -1,0 +1,83 @@
+@mixin header-em {
+  em {
+    @include u-text('light');
+    @include u-text('primary-vivid');
+    font-style: italic;
+  }
+}
+
+h1, .as-h1 {
+  @include u-font('serif', '2xl');
+  @include u-text('bold');
+  @include u-text('primary');
+  line-height: 1.2;
+  @include header-em;
+}
+
+h2, .as-h2 {
+  @include u-font('serif', 'xl');
+  @include u-text('normal');
+  @include u-text('primary-darker');
+  font-style: italic;
+  line-height: 1.2;
+  @include header-em;
+}
+
+h3, .as-h3,
+h4, .as-h4 {
+  @include u-font('serif', 'sm');
+  @include u-text('bold');
+  @include u-text('primary-vivid');
+  line-height: 1.625;
+}
+
+.usa-prose h3 {
+  @include u-text('primary-darker');
+}
+
+p {
+  @include u-font('sans', 'sm');
+  @include u-text('light');
+  @include u-text('base');
+  line-height: 1.625;
+}
+
+.usa-prose a:not(.usa-button),
+.usa-prose a:not(.usa-button):active,
+.usa-prose a:not(.usa-button):visited {
+  @include u-text('primary');
+}
+
+.display {
+  @include u-font-family('serif');
+  @include u-text('light');
+  @include u-text('primary');
+  line-height: 1.16;
+  font-size: 2.813rem; // 45 px
+  @include at-media("mobile-lg") {
+    font-size: 3.75rem; // 60 pixels
+  }
+
+  &--inverted {
+    @include u-text('white');
+  }
+}
+
+.body-intro {
+  @include u-font('serif', 9); // 22 px
+  @include u-text('light');
+  @include u-text('primary-darker');
+  font-style: normal;
+  line-height: 1.62;
+  @include at-media("mobile-lg") {
+    @include u-font('serif', 9);
+  }
+
+  &--italic {
+    font-style: italic;
+  }
+
+  &--tight {
+    line-height: 1.2;
+  }
+}

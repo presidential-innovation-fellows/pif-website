@@ -46,16 +46,6 @@ primary_navigation:
     url: /projects/
   - name: Agencies
     url: /agencies/
-  # - name: About Us
-  #   children:
-  #     - name: Blog
-  #       url: /blog/
-  #     - name: Document
-  #       url: /document/
-  #     - name: Document with sidenav
-  #       url: /document-with-sidenav/
-  - name: Join us
-    url: /apply/
 
 secondary_navigation:
   - name: Secondary link
@@ -70,8 +60,8 @@ secondary_navigation:
 # 3. Add your site/affiliate name here.
 searchgov:
   endpoint: https://search.usa.gov # You should not change this.
-  affiliate: federalist-uswds-example # replace this with your search.gov account
-  access_key: xX1gtb2RcnLbIYkHAcB6IaTRr4ZfN-p16ofcyUebeko= # This is placeholder. Not private.
+  affiliate: pif
+  access_key: DieVNJjIB73aXM8nnEbQfdy4ywVL_-PT_CIH7_0yc_o=
   inline: true #this renders the results on the same domain. Otherwise, it will render the results in the search.gov domain
 
 ##########################################################################################
@@ -187,7 +177,9 @@ exclude:
 assets:
   sources:
     - _assets/favicons
-    - _assets/images/projects
+    - _assets/images
+    - _assets/images/agencies
+    - _assets/images/banners
     - _assets/images/fellows/2012
     - _assets/images/fellows/2013
     - _assets/images/fellows/2014
@@ -198,7 +190,10 @@ assets:
     - _assets/images/fellows/2019
     - _assets/images/fellows/2020
     - _assets/images/fellows/2021
-    - _assets/images/agencies
+    - _assets/images/press
+    - _assets/images/projects
+    - _assets/images/icons
+    - _assets/images/logo
     - node_modules/uswds/dist/img
     - node_modules/uswds/dist/js
     - node_modules/uswds/dist/scss

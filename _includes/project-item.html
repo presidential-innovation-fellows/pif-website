@@ -1,0 +1,54 @@
+{% if project.status contains 'case_study' %}
+  <div class="project-item project-item--case-study {{ project.agency | slugify }}">
+    <a class="project-item__link" href="{{ site.baseurl }}{{ project.url }}">
+      <div class="project-item__header">
+        <span class="project-item__agency">
+          {{ project.agency }}
+        </span>
+        <span class="project-item__type">
+          Case Study
+        </span>
+      </div>
+
+      <div class="project-item__content">
+        <div class="project-item__content--left">
+          <p class="project-item__title">
+            {{ project.title }}
+          </p>
+          <p class="project-item__summary">
+            {{ project.summary }}
+          </p>
+        </div>
+        {% if project.cover_art %}
+          <div class="project-item__content--right" style="background-image: url({% asset '{{ project.cover_art }}' @path %});">
+          </div>
+        {% endif %}
+      </div>
+    </a>
+  </div>
+
+{% else %}
+
+  <div class="project-item {{ project.agency | slugify }}">
+    <a class="project-item__link" href="{{ site.baseurl }}{{ project.url }}">
+      <div class="project-item__header">
+        <span class="project-item__agency">
+          {{ project.agency }}
+        </span>
+        <span class="project-item__type">
+          Project
+        </span>
+      </div>
+
+      <div class="project-item__content">
+        {% if include.project.agency_logo %}
+          {% asset "{{ include.project.agency_logo }}" alt="{{ include.project.image_alt_text }}" class="project-item__logo" width="71" %}
+        {% endif %}
+
+        <p class="project-item__title">
+          {{ include.project.title }}
+        </p>
+      </div>
+    </a>
+  </div>
+{% endif %}

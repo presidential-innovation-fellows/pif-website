@@ -1,0 +1,89 @@
+---
+layout: wide
+---
+
+<div class="usa-hero project">
+  <div class="usa-hero__overlay"></div>
+  <div class="usa-hero__overlay-content">
+    <div class="grid-container display-flex flex-column flex-justify-center height-full">
+      <h1 class="usa-hero__heading display display--inverted">
+        Projects
+      </h1>
+    </div>
+  </div>
+</div>
+
+<section class="page-header bg--lightest padding-y-6">
+  <div class="grid-container">
+    <div class="grid-row usa-prose">
+      <h1>Our <em>Work</em></h1>
+      {% if page.description %}
+          <p class="body-intro">
+            {{ page.description }}
+          </p>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+<section class="usa-section">
+  <div class="grid-container">
+    {% include project-filters.html %}
+    <div class="project-items">
+      {{ content }}
+    </div>
+  </div>
+</section>
+
+{% include quote.html image="quotes/henry_wei.jpg" quote="I'm a parent, and wanted to help build a better government for my daughters and future generations. The PIF program opened my eyes to a diverse group of like-minded people ready, willing, and able to help in the cause — both during the Fellowship and well beyond in the PIF alumni community." name="Henry Wei
+, 2012-2013 PIF, detailed to the U.S. Department of Veterans Affairs and U.S. Department of Health and Human Services" %}
+
+<script type="text/javascript">
+  // Based on W3 How to Filter Elements:
+  // https://www.w3schools.com/howto/howto_js_filter_elements.asp
+  function filterSelection(c) {
+    var x, i;
+    var marginAdjust = false
+    x = document.getElementsByClassName("project-item");
+    if (c == "all") c = "";
+    for (i = 0; i < x.length; i++) {
+      removeClass(x[i], "hide");
+      removeClass(x[i], "margin-adjust");
+      // if class is NOT present on item
+      var isFound = x[i].className.indexOf(c) > -1;
+      if (!isFound) addClass(x[i], "hide");
+      // handle issue where top margin breaks single item styling
+      if (isFound && !marginAdjust) {
+        addClass(x[i], "margin-adjust");
+        marginAdjust = true;
+      }
+    }
+  }
+  function addClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      if (arr1.indexOf(arr2[i]) == -1) {
+        element.className += " " + arr2[i];
+      }
+    }
+  }
+  function removeClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      while (arr1.indexOf(arr2[i]) > -1) {
+        arr1.splice(arr1.indexOf(arr2[i]), 1);
+      }
+    }
+    element.className = arr1.join(" ");
+  }
+
+  // Selection
+  var selectElement = document.getElementById('project-agencies-select');
+  selectElement.addEventListener('change', (e) => {
+    filterSelection(e.target.value);
+  });
+</script>

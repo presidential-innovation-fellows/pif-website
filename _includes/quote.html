@@ -1,0 +1,34 @@
+{% comment %}
+  Quote area for the homepage
+  Arguments:
+    - light[boolean] - passing light=true gives the lighter styling
+    - quote[text] - the person's quote
+    - name[text] - the person's name
+    - image[text] - the filename of the image
+{% endcomment %}
+
+<section class="usa-section usa-section--dark quote {% if include.light  %}quote--light{% endif %}">
+  <div class="grid-container">
+    <div class="grid-row flex-align-center">
+      <div class="tablet:grid-col-3">
+        {% asset "{{ include.image }}" alt="Profile photo of person quoted" class="img-circle quote__image"  %}
+      </div>
+      <div class="tablet:grid-col-8 quote__text">
+        <div class="quote__mark--open">
+          “
+        </div>
+        <blockquote>
+          <p>{{ include.quote }}</p>
+          <footer>
+            {% asset star.svg class="quote__star" aria-hidden="true" %}
+            {% asset star--dark.svg class="quote__star--dark" aria-hidden="true" %}
+            <span class="quote__name">
+              {{ include.name }}
+            </span>
+          </footer>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+</section>
+

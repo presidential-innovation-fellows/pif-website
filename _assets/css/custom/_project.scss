@@ -1,0 +1,17 @@
+.project-question {
+  background-image: url(asset_path("question.svg")), linear-gradient(transparent, transparent);
+  background-position: units('205') units('205');
+  background-repeat: no-repeat;
+  background-size: units(7);
+  padding: units(1) units(2);
+}
+
+.project-question .usa-intro {
+  padding-left: units(9);
+  margin: units(1) 0;
+}
+
+.project-image {
+  @include u-width('card');
+  margin: units(2) 0;
+}

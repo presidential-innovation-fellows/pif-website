@@ -1,0 +1,19 @@
+<section class="usa-section usa-section--light">
+  <div class="grid-container">
+    <h2 class='as-h1 text-no-italic'>
+      Case <em>Studies<em>
+    </h2>
+    <div class="grid-col-8">
+      <p class="body-intro">
+        Our fellows use their expertise to develop human-centered solutions to issues of national priority. Explore our recent work.
+      </p>
+    </div>
+    <div class="grid-row margin-x-neg-2 margin-top-5">
+      {% assign sorted_projects = site.projects | where_exp:"project",
+"project.status contains 'case_study'" | sort:"order" %}
+      {% for project in sorted_projects limit:3 %}
+          {% include case-study.html project=project %}
+      {% endfor %}
+    </div>
+  </div>
+</section>

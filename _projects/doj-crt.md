@@ -8,7 +8,7 @@ summary: "Help the Civil Rights Division better connect with their intended audi
 subtitle: "How can we use design, content strategy, and data science to amplify civil rights-related efforts?"
 partner_description: "The Department of Justice Civil Rights Division (DOJ/CRT) leads the federal government's efforts to make the vision of over 30 federal civil rights laws happen. Through enforcement, education/outreach, and coordination, CRT upholds the civil and constitutional rights of all members of our society, with a particular focus on the most vulnerable."
 project_link: https://www.justice.gov
-status: "upcoming"
+status: "current"
 ---
 The Department of Justice Civil Rights Division is looking for fellows who can translate user insights and organizational needs into visual and interactive elements, lead user testing efforts, content strategy, data visualization, and work with natural language data sources. Specific roles include:
 

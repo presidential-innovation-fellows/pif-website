@@ -1,0 +1,13 @@
+.usa-logo {
+  a {
+    color: #fff;
+  }
+  @include at-media('desktop') {
+    line-height: 0;
+    margin: 0;
+  }
+  .usa-logo__text {
+    width: 100%;
+    max-width: 10em;
+  }
+}

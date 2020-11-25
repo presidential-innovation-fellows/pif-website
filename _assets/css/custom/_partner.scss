@@ -1,0 +1,23 @@
+.partner-card {
+  @include u-margin-y(2);
+
+  div {
+    @include u-padding(3);
+    @include u-border(1px);
+    @include u-border('base-light');
+    @include clearfix;
+
+  }
+
+  a {
+    @include u-color('ink');
+    @include u-font('sans', 'xs');
+  }
+
+  img {
+    @include u-square(9);
+    @include u-float('left');
+    @include u-margin-right(2);
+
+  }
+}

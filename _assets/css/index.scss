@@ -1,10 +1,46 @@
-@import "uswds-pif-theme-colors";
+@import "uswds-settings";
 
 // Import the US Web Design System SASS.
 @import "uswds";
 
-// Import theme custom styles
-@import "uswds-theme-custom-styles";
+// Custom Mixins
+@import "mixins";
 
-// Anchor component for the footer
-@import "usa_anchor.scss";
+// Custom Utilities
+@import "utilities";
+
+// USWDS Overrides
+@import "uswds-overrides/button";
+@import "uswds-overrides/nav";
+@import "uswds-overrides/intro";
+@import "uswds-overrides/hero";
+@import "uswds-overrides/list";
+@import "uswds-overrides/graphic-list";
+@import "uswds-overrides/social-link";
+@import "uswds-overrides/footer";
+@import "uswds-overrides/section";
+@import "uswds-overrides/logo";
+@import "uswds-overrides/menu";
+@import "uswds-overrides/banner";
+
+// Search.gov override
+@import "searchgov/form";
+
+// Custom Styles
+@import "custom/anchor";
+@import "custom/pagination";
+@import "custom/breadcrumb";
+@import "custom/project";
+@import "custom/image";
+@import "custom/partner";
+@import "custom/project-fellows";
+@import "custom/project-item";
+@import "custom/list-fellows";
+@import "custom/site-card";
+@import "custom/work-box";
+@import "custom/typography";
+@import "custom/quote";
+@import "custom/footer-tagline";
+@import "custom/skipnav";
+@import "custom/story";
+@import "custom/project-team";

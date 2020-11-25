@@ -1,0 +1,28 @@
+// General
+$theme-show-notifications: false;
+
+// Sizes
+$theme-banner-max-width: "none";
+
+// Fonts
+
+$theme-respect-user-font-size: true;
+$theme-font-type-sans:   'public-sans';
+$theme-font-type-serif:  'merriweather';
+
+// Colors
+$theme-color-base: 'gray-warm-80';
+$theme-color-base-light: "gray-cool-20";
+$theme-color-base-lightest: 'gray-5';
+$theme-color-base-ink: "gray-cool-80";
+
+
+$theme-color-primary: 'blue-warm-70v';
+$theme-color-primary-darker: 'blue-warm-80v';
+$theme-color-primary-lighter: 'blue-warm-10v';
+$theme-color-primary-vivid: 'blue-warm-50v';
+
+$theme-color-secondary-dark: 'red-60v';
+$theme-color-secondary-darker: 'red-70v';
+$theme-color-secondary-darkest: "blue-cool-80v"; // Not sure where this color should go
+$theme-color-accent-cool: 'white';

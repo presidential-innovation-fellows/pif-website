@@ -1,0 +1,85 @@
+@mixin button--small {
+  @include u-font('sans', 5);
+  @include u-text('bold');
+  height: 32px;
+  line-height: 32px;
+  border-radius: 16px;
+  padding-top: 0;
+}
+
+@mixin outline-box-shadow {
+  box-shadow: inset 0 0 0 1px #1a4480; // primary
+}
+
+.usa-button {
+  @include u-bg('primary-vivid');
+  @include u-font('sans', 8);
+  @include u-text('normal');
+  width: initial;
+  height: 48px;
+  line-height: 48px;
+  border-radius: 24px;
+  padding-top: 0;
+  color: white;
+  flex-shrink: 0;
+
+  &:hover {
+    @include u-bg('blue-warm-40v');
+  }
+
+  /* sizes */
+  &--small {
+    @include button--small;
+  }
+
+  /* colors */
+  &.usa-button--inverse {
+    @include u-bg('white');
+    @include u-text('primary');
+  }
+
+  &.usa-button--inverse:hover {
+    @include u-bg($theme-color-primary-lighter);
+  }
+
+  &.usa-button--secondary {
+    @include button--small;
+    @include u-font('sans', 5);
+    @include u-bg($theme-color-secondary-darker);
+  }
+
+  &.usa-button--secondary:hover {
+    @include u-bg($theme-color-secondary-dark);
+  }
+
+  &.usa-button--outline {
+    @include u-bg('transparent');
+    @include u-text('primary');
+    @include u-text('normal');
+    @include outline-box-shadow;
+  }
+
+  &.usa-button--outline:hover {
+    @include u-bg($theme-color-primary-lighter);
+    @include outline-box-shadow;
+  }
+
+  &.usa-button--outline-light {
+    @include u-text('primary-vivid');
+    box-shadow: inset 0 0 0 1px #2672de; // primary-vivid
+  }
+
+  &.usa-button--w-icon {
+    img {
+      padding-right: 5px;
+    }
+  }
+
+  &.usa-button--active, &.usa-button--active:hover {
+    @include u-bg('primary-vivid');
+    color: white;
+  }
+  &.usa-button--active:hover {
+    @include u-bg('blue-warm-40v');
+  }
+}
