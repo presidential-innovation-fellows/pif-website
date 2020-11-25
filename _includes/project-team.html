@@ -15,11 +15,6 @@
       {% if include.agency_logo %}
         {% asset "{{ include.agency_logo }}" class="width-9" alt="{{ include.agency }}" %}
       {% endif %}
-      {% if include.fellows %}
-        <span class="text-primary-darker font-sans-2xl padding-x-3 display-inline-block">
-          &#43;
-        </span>
-      {% endif %}
 
       {% capture project_id %}{{page.id | remove: "/projects/"}}{% endcapture %}
       {% assign fellows_list = site.fellows | where_exp: "fellow", "fellow.project contains project_id" %}
