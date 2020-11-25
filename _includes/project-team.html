@@ -62,3 +62,58 @@
     </div>
   </div>
 </section>
+
+
+
+
+<section class='padding-y-2 bg--lightest-alt'>
+  <div class="grid-container">
+    <div class="project-team">
+      {% if include.agency_logo %}
+        {% asset "{{ include.agency_logo }}" class="width-9" alt="{{ include.agency }}" %}
+      {% endif %}
+      {% if include.fellows %}
+        <span class="text-primary-darker font-sans-2xl padding-x-3 display-inline-block">
+          &#43;
+        </span>
+      {% endif %}
+
+      {% assign fellows_list = site.fellows %}
+      {% for fellow in fellows_list %}
+
+          {% if forloop.first %}
+          <span class="text-primary-darker font-sans-2xl padding-x-3 display-inline-block">
+            &#43;
+          </span>
+          <div class="project-team__members">
+          {% endif %}
+
+            {% capture project_id %}{{page.id | remove: "/projects/"}}{% endcapture%}
+
+            {% if fellow.project contains project_id %}
+            <div class="project-team__member{% if forloop.first %} first{% endif %}">
+              <a href="{{ site.baseurl }}{{ fellow.url }}" title="{{ fellow.title }}">
+              {% asset "{{ fellow.image }}" class="width-9 height-9 img-circle" alt="{{ fellow.title }}" %}
+              </a>
+            </div>
+            {% endif %}
+
+          {% if forloop.last %}
+          </div>
+          {% endif %}
+
+      {% endfor %}
+      {% if include.topics %}
+        <div class="project-team__topics">
+          <p class="text-primary-darker text-bold text-uppercase margin-0">
+            TOPICS
+          </p>
+          {% for topic in include.topics %}
+            <p class="text-primary-darker margin-0">
+              {{ topic }}
+            </p>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+</section>

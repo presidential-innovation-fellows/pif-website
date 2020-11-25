@@ -1,4 +1,4 @@
-{% assign agency_names = site.projects | map: 'agency' | uniq | sort: 'name' %}
+{% assign agency_names = site.projects | where_exp:"item", "item.status contains current" | map: 'agency' | uniq | sort: 'name' %}
 
 <div class="project-item__filters">
   <div>
