@@ -29,7 +29,7 @@ layout: wide
 <section class="usa-section">
   <div class="grid-container">
     {% include project-filters.html %}
-    <div class="project-items">
+    <div class="project-items grid-row grid-gap">
       {{ content }}
     </div>
   </div>
@@ -44,19 +44,13 @@ layout: wide
   function filterSelection(c) {
     var x, i;
     var marginAdjust = false
-    x = document.getElementsByClassName("project-item");
+    x = document.getElementsByClassName("project-item__outer");
     if (c == "all") c = "";
     for (i = 0; i < x.length; i++) {
       removeClass(x[i], "hide");
-      removeClass(x[i], "margin-adjust");
       // if class is NOT present on item
       var isFound = x[i].className.indexOf(c) > -1;
       if (!isFound) addClass(x[i], "hide");
-      // handle issue where top margin breaks single item styling
-      if (isFound && !marginAdjust) {
-        addClass(x[i], "margin-adjust");
-        marginAdjust = true;
-      }
     }
   }
   function addClass(element, name) {
@@ -81,8 +75,20 @@ layout: wide
     element.className = arr1.join(" ");
   }
 
-  // Selection
+  // ** Selection **
   var selectElement = document.getElementById('project-agencies-select');
+  // Remove select options with no results on page:
+  var toRemove = [];
+  for (i = 0; i < selectElement.options.length; i++) {
+      var val = selectElement.options[i].value;
+      console.log(val);
+      if (i === 0) continue; // skip placeholder
+      if (!document.getElementsByClassName(val).length) {
+        toRemove.push(selectElement.options[i]);
+      }
+  }
+  for (i = 0; i < toRemove.length; i++) toRemove[i].remove();
+  // Add filter functionality:
   selectElement.addEventListener('change', (e) => {
     filterSelection(e.target.value);
   });

@@ -11,7 +11,7 @@ partner_description: "<p>The <a href=\"https://www.joinallofus.org\"><em>All of 
 
 <p>Enrolling and retaining participants is a challenge for many longitudinal studies, but <em>All of Us</em>’ commitment to previously underrepresented populations requires innovative approaches to build public trust in and researcher use of the program.</p>"
 project_link: https://www.joinallofus.org
-status: ["past", "case_study"]
+status: ["case_study"]
 order: 1
 ---
 <p>Presidential Innovation Fellows <a href='https://presidentialinnovationfellows.gov/fellows/georgeta-dragoiu/'>Georgeta Dragoiu</a> and <a href='https://presidentialinnovationfellows.gov/fellows/adele-luta/'>Adele Luta</a> pooled their unique expertise as strategic communications and scientific leaders to support the <em>All of Us</em> Research Program in enrolling participants and activating a research community to help usher in a new era of precision medicine. Working hand-in-hand to meet these challenges, Georgeta launched communications campaigns to recruit a more diverse cohort of participants, and Adele focused on engaging an equally diverse community of researchers to use this rich national resource to drive health discoveries.</p>

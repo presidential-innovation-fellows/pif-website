@@ -9,7 +9,7 @@ cover_art: "hhs-telehealth-case-study.png"
 subtitle: "The public shouldn’t have to choose between social distancing and receiving medical care. How might we expedite awareness and adoption of telehealth at the peak of a public health emergency?"
 partner_description: "Presidential Innovation Fellows (PIF) worked with Health Resources and Services Administration (HRSA), the U.S. Department of Health and Human Services, the White House Office of Science and Technology Policy (OSTP), and the Office of the Surgeon General (OSG) to lead a cross-agency initiative to address challenges seen in adopting telehealth and serve 1M+ health care providers and 300M+ patients across the U.S."
 project_link: https://telehealth.hhs.gov
-status: ["past", "case_study"]
+status: ["case_study"]
 order: 1
 ---
 

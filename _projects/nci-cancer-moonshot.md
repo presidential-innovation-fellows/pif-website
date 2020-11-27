@@ -9,7 +9,7 @@ cover_art: "nci-cancer-moonshot.jpg"
 subtitle: "Reimagining cancer clinical trials increasing awareness and access for patients."
 partner_description: "Accurate, up-to-date, comprehensive cancer information from the U.S. government's principal agency for cancer research"
 project_link: https://clinicaltrialsapi.cancer.gov
-status: ["past", "case_study"]
+status: ["case_study"]
 order: 40
 impact_metrics:
   - {
