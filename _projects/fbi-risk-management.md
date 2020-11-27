@@ -9,7 +9,7 @@ cover_art: "computer-background.jpg"
 subtitle: "In collaboration with the FBI, the Presidential Innovation Fellows focused on the challenge of defining an ecosystem to help the private sector manage risk and mitigate threats, as part of the overall strategy to protect the US economy"
 partner_description: "The Federal Bureau of Investigation (FBI) is the domestic intelligence and security service of the United States and its principal federal law enforcement agency"
 project_link: https://www.fbi.gov
-status: ["past", "case_study"]
+status: ["case_study"]
 order: 60
 impact_metrics:
   - {

@@ -9,7 +9,7 @@ cover_art: "smithsonian-transcription.jpg"
 subtitle: "Make the Smithsonian Institution's digitization of 137 million+ artifacts more findable, useful and informative to researchers and members of the public"
 partner_description: "The Smithsonian Institution is the world's largest museum and research complex, with 19 museums, 9 research centers, and affiliates around the world."
 project_link: https://transcription.si.edu
-status: ["past", "case_study"]
+status: ["case_study"]
 order: 50
 impact_metrics:
   - { metric: "1,400+", desc: "volunteers contributing." }
