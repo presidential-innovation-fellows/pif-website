@@ -7,7 +7,7 @@ active_page: projects
 ---
 
 {% for project in site.projects %}
-  {% unless project.status contains 'case_study' %}
+  {% if project.status contains 'current' or project.status contains 'upcoming' %}
     {% include project-item.html project=project %}
-  {% endunless %}
+  {% endif %}
 {% endfor %}

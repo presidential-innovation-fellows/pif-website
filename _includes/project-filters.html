@@ -1,8 +1,4 @@
-{% assign agencies_current = site.projects | where_exp:"item", "item.status contains 'current'" %}
-{% assign agencies_past = site.projects | where_exp:"item", "item.status contains 'past'" %}
-<!-- {% assign agencies_upcoming = site.projects | where_exp:"item", "item.status contains 'upcoming'" %} -->
-
-{% assign agency_names = agencies_current | concat: agencies_past |map: 'agency' | uniq | sort: 'name' %}
+{% assign agency_names = site.projects | map: 'agency' | uniq | sort: 'name' %}
 
 <div class="project-item__filters">
   <div>
@@ -17,10 +13,10 @@
   </div>
   <div>
     <a href="{{ site.baseurl }}/projects/case-studies.html#project-list-case-studies" class="usa-button usa-button--small usa-button--outline {% if page.active_page contains 'case-studies' %}usa-button--active{% endif %}" id="project-list-case-studies">
-      View case studies
+      Case studies
     </a>
     <a href="{{ site.baseurl }}/projects/projects-only.html#project-list-projects" class="usa-button usa-button--small usa-button--outline {% if page.active_page contains 'projects' %}usa-button--active{% endif %}" id="project-list-projects">
-      View projects
+      Upcoming projects
     </a>
   </div>
 </div>

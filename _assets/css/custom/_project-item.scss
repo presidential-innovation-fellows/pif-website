@@ -1,30 +1,19 @@
 $project-item-border-radius: 5px;
 
-.project-items {
-  column-gap: 1.5em;
-  column-count: 1;
-  min-height: 100vh;
-  @include at-media('tablet') {
-    column-count: 2;
-  }
+.project-item__outer {
+  margin-bottom: 2rem;
+}
+
+.project-item__outer.hide {
+  display: none;
 }
 
 .project-item {
   border-radius: $project-item-border-radius;
-  border: 1px solid lightgrey;
-  margin: 1.5em 0 0 0;
-  -webkit-column-break-inside: avoid;
-  page-break-inside: avoid;
-  break-inside: avoid;
-}
-
-.project-item.hide {
-  display: none;
-}
-
-.project-item:first-child,
-.project-item.margin-adjust {
-  margin-top: 0;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.18);
+  @include at-media('tablet') {
+    height: 100%;
+  }
 }
 
 .project-item__link,
@@ -38,7 +27,7 @@ $project-item-border-radius: 5px;
   @include u-bg('base-lightest');
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   padding: 1rem;
   box-sizing: border-box;
 }
@@ -65,11 +54,18 @@ $project-item-border-radius: 5px;
 .project-item__content {
   padding: 2rem 1rem;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
   @include at-media('tablet') {
     flex-direction: row;
   }
+}
+
+.project-item__image {
+  height: 165px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
 }
 
 .project-item__logo {
@@ -92,31 +88,14 @@ $project-item-border-radius: 5px;
   .project-item__header {
     @include light-bg;
   }
+
+  .project-item__content {
+    display: block;
+    padding: 1rem;
+  }
+
   .project-item__type {
     @include u-bg('primary-darker');
-  }
-  .project-item__content {
-    padding: 0;
-    align-items: stretch;
-    flex-direction: column-reverse;
-    @include at-media('tablet') {
-      flex-direction: row;
-    }
-  }
-  .project-item__content--left {
-    padding: 2rem 1rem;
-    flex-basis: 60%;
-  }
-  .project-item__content--right {
-    flex-basis: 40%;
-    border-bottom-right-radius: $project-item-border-radius;
-    background-color: #efefef;
-    background-size: cover;
-    background-position: center center;
-    min-height: 150px;
-    @include at-media('tablet') {
-      min-height: 336px;
-    }
   }
 }
 
