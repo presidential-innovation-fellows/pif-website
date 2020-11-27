@@ -1,6 +1,8 @@
 {% assign agencies_current = site.projects | where_exp:"item", "item.status contains 'current'" %}
 {% assign agencies_past = site.projects | where_exp:"item", "item.status contains 'past'" %}
-{% assign agency_names = agencies_current | concat: agencies_past | map: 'agency' | uniq | sort: 'name' %}
+<!-- {% assign agencies_upcoming = site.projects | where_exp:"item", "item.status contains 'upcoming'" %} -->
+
+{% assign agency_names = agencies_current | concat: agencies_past |map: 'agency' | uniq | sort: 'name' %}
 
 <div class="project-item__filters">
   <div>

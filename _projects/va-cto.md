@@ -12,6 +12,9 @@ project_link: https://www.va.gov
 status: "current"
 redirect_from:
   - /newprojects/va-cto.html
+topics:
+  - Healthcare
+  - "Data Modernization"
 ---
 The CTO office/OIT at the Department of Veterans Affairs works to help the VA adopt modern digital service delivery best practices, become more data-driven, improve processes and improve the experience that veterans have when interacting with the VA online. As part of this effort, the Office of the CTO/OIT is seeking four Presidential Innovation Fellows to work on the following challenges:
 
