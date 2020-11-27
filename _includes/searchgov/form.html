@@ -27,11 +27,26 @@
   var show = document.getElementById("site-search-show");
   var search = document.getElementById("site-search");
   var input = document.getElementById("extended-search-field-small");
+  var showSearch = false;
 
   show.addEventListener('click', event => {
+    event.stopPropagation();
     show.style.display = 'none';
     search.classList.add('expanded');
     input.focus();
     input.select();
+    showSearch = true;
+  });
+
+  document.addEventListener('click', function(event) {
+    if (!showSearch) return;
+
+    var isClickInside = input.contains(event.target);
+
+    if (!isClickInside) {
+      show.style.display = 'block';
+      search.classList.remove('expanded');
+      showSearch = false;
+    }
   });
 </script>
