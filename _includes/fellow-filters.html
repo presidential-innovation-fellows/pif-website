@@ -1,0 +1,25 @@
+<div class="filters">
+  <div class="display-flex">
+    <div class='filter__col'>
+      <select class="usa-select" name="fellows-select-year" id="fellows-select-year">
+        {% for year in site.data.years %}
+          <option value="{{ year }}">
+            {{ year }} Fellows
+          </option>
+        {% endfor %}
+      </select>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+  // Year Select
+  var yearSelect = document.getElementById("fellows-select-year");
+  // get year from pathname
+  var curYearMatch = window.location.pathname.match(/([\d])\w+/g);
+  if (curYearMatch) yearSelect.value = curYearMatch[0];
+
+  yearSelect.addEventListener('change', (event) => {
+    window.location.href = "{{ site.baseurl }}/fellows/" + event.target.value + "#fellows-select-year";
+  });
+</script>

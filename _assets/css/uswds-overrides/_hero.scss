@@ -56,6 +56,10 @@
   }
 }
 
+.usa-hero.usa-hero--short {
+  @include hero-short;
+}
+
 .home .usa-hero {
   @include hero-short;
   background-image: url(asset_path('hero-pif.jpg'));
