@@ -2,7 +2,8 @@
   <div class="display-flex">
     <div class='filter__col'>
       <select class="usa-select" name="fellows-select-year" id="fellows-select-year">
-        {% for year in site.data.years %}
+        {% assign years = site.data.years | reverse %}
+        {% for year in years %}
           <option value="{{ year }}">
             {{ year }} Fellows
           </option>
