@@ -1,5 +1,5 @@
 <div class="filters">
-  <div class="display-flex">
+  <div class="filters__left display-flex">
     <div class='filter__col'>
       <select class="usa-select" name="fellows-select-year" id="fellows-select-year">
         {% assign years = site.data.years | reverse %}
@@ -11,11 +11,9 @@
       </select>
     </div>
   </div>
-  <div>
-    <input type="text" id="fellows-search-input" placeholder="Search fellows">
-    <button onClick="window.location.reload();">
-      Clear search
-    </button>
+
+  <div class='filter__search'>
+    <input type="text" id="fellows-search-input" placeholder="Search fellows" class="usa-input">
   </div>
 </div>
 
