@@ -81,7 +81,6 @@ layout: wide
   var toRemove = [];
   for (i = 0; i < selectElement.options.length; i++) {
       var val = selectElement.options[i].value;
-      console.log(val);
       if (i === 0) continue; // skip placeholder
       if (!document.getElementsByClassName(val).length) {
         toRemove.push(selectElement.options[i]);

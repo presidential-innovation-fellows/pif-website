@@ -1,0 +1,30 @@
+<div class="filters">
+  <div class="filters__left display-flex">
+    <div class='filter__col'>
+      <select class="usa-select" name="fellows-select-year" id="fellows-select-year">
+        {% assign years = site.data.years | reverse %}
+        {% for year in years %}
+          <option value="{{ year }}">
+            {{ year }} Fellows
+          </option>
+        {% endfor %}
+      </select>
+    </div>
+  </div>
+
+  <div class='filter__search'>
+    <input type="text" id="fellows-search-input" placeholder="Search fellows" class="usa-input">
+  </div>
+</div>
+
+<script type="text/javascript">
+  // Year Select
+  var yearSelect = document.getElementById("fellows-select-year");
+  // get year from pathname
+  var curYearMatch = window.location.pathname.match(/([\d])\w+/g);
+  if (curYearMatch) yearSelect.value = curYearMatch[0];
+
+  yearSelect.addEventListener('change', (event) => {
+    window.location.href = "{{ site.baseurl }}/fellows/" + event.target.value + "#fellows-select-year";
+  });
+</script>

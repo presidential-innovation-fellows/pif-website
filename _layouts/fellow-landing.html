@@ -2,35 +2,92 @@
 layout: default
 ---
 
-{% assign navurl = page.url | remove: 'index.html' | remove: '.html' %}
-{% if navurl == '/fellows/' %}
-  <div class="usa-hero">
-    <div class="usa-hero__overlay"></div>
-    <div class="usa-hero__overlay-content">
-      <div class="grid-container display-flex flex-column flex-justify-center height-full">
-        <h1 class="usa-hero__heading display display--inverted">
-          Our Fellows
-        </h1>
-      </div>
+<div class="usa-hero usa-hero--short">
+  <div class="usa-hero__overlay"></div>
+  <div class="usa-hero__overlay-content">
+    <div class="grid-container display-flex flex-column flex-justify-center height-full">
+      <h1 class="usa-hero__heading display display--inverted">
+        Fellows
+      </h1>
     </div>
   </div>
-{% else %}
-  {% include banner.html %}
-{% endif %}
+</div>
+
+<section class="padding-top-4 padding-bottom-1 bg--lightest">
+  <div class="grid-container">
+    <div class="grid-row usa-prose">
+      <p class="body-intro">
+        We're building human-centered solutions that scale, and<br class="display-none tablet:display-inline" />
+        fundamentally changing federal culture while we're at it.
+        <br/>
+        Learn about some of our projects below.
+      </p>
+    </div>
+    <div class="grid-row margin-top-4">
+      {% include fellow-filters.html %}
+    </div>
+  </div>
+</section>
 
 <section class="grid-container usa-layout-docs usa-section">
   <div class="grid-row grid-gap">
-    {% include sidenav.html fellows_landing=true %}
     <div class="usa-layout-docs__main desktop:grid-col-9 usa-prose list-fellows">
       <main id="main-content">
-        {% if page.image %}
-        {% asset "{{ page.image }}" class="circle-card-lg float-right margin-left-3" alt="{{ page.image_alt_text }}" %}
-        {% endif %}
-
-        {{ content }}
+        <!-- initial list that the search results replace -->
+        <span id='fellow-search-default'>
+          {{ content }}
+        </span>
+        <!-- search results container -->
+        <span id='fellow-search-results'>
+        </span>
       </main>
     </div>
   </div>
 </section>
 
 {% include quote.html image="quotes/jacqueline_kazil.jpg" quote="PIFdom is about having the opportunity to have an impact on every American." name="Jacqueline  Kazil, 2013 PIF, detailed to the Federal Emergency Management Agency (FEMA)" %}
+
+<!-- vendor search script -->
+{% asset simple_jekyll_search.js %}
+
+<!-- search -->
+<script type="text/javascript">
+  var searchInput = document.getElementById('fellows-search-input'); // Found in fellow-filters.html
+  var resultsContainer = document.getElementById('fellow-search-results');
+  var sjs = SimpleJekyllSearch({
+    searchInput: searchInput,
+    resultsContainer: resultsContainer,
+    json: [
+      {% for fellow in site.fellows %}
+        {
+          "title"    : "{{ fellow.title | escape }}",
+          "category" : "{{ fellow.category }}",
+          "tags"     : "{{ fellow.agency | join: ', ' }}",
+          "url"      : "{{ site.baseurl }}{{ fellow.url }}",
+          "date"     : "{{ fellow.date }}",
+          "content"  : "{{ fellow.bio_short | strip_html | strip_newlines | remove_chars | escape }}",
+          "image_path" : "{% asset '{{ fellow.image }}' @path %}"
+        } {% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ],
+    /***
+      - Search Result Template markup should match items in fellow-list.html
+      - Any fellow content needed for template should be added to json above.
+      - Template syntax: https://github.com/christian-fei/Simple-Jekyll-Search/wiki#searchresulttemplate-string-optional
+    ***/
+    searchResultTemplate: '<a href="{url}" class="list-item grid-row grid-gap"><div class="desktop:grid-col-3 tablet:grid-col-4 usa-prose list-item-img"><img src="{image_path}" class="circle-card" alt="{title}"/></div><div class="desktop:grid-col-9 usa-prose"><h2>{title}</h2><p class="content">{content}</p></div></a>'
+  });
+  var inFellowSearch = false;
+  var defaultList = document.getElementById("fellow-search-default");
+  /*** show initial list after search is over ***/
+  document.addEventListener('keyup', function() {
+    if (searchInput.value.trim().length && !inFellowSearch) {
+      inFellowSearch = true;
+      defaultList.style.display = "none";
+    }
+    if (!searchInput.value.trim().length && inFellowSearch) {
+      inFellowSearch = false;
+      defaultList.style.display = "block";
+    }
+  });
+</script>
