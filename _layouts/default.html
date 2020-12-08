@@ -7,20 +7,20 @@ The home page uses wide.html layout, since it extends full width of page
 
 <html lang="en">
 
-{% include meta.html %}
+{% include_cached meta.html %}
 
 {% assign page_id = page.url | remove:'/index.html' | split: '/' %}
 <body class="{% if page_id %}{{ page_id }}{% else %}home{% endif %}">
   <a class="skipnav" href="#main-content">Skip to main content</a>
-  {% include header.html %}
+  {% include_cached header.html %}
 
-  {% include menu.html primary_navigation=site.primary_navigation  secondary_navigation=site.secondary_navigation %}
+  {% include_cached menu.html primary_navigation=site.primary_navigation  secondary_navigation=site.secondary_navigation %}
 
   {{ content }}
 
-  {% include footer.html %}
+  {% include_cached footer.html %}
 
-  {% include scripts.html %}
+  {% include_cached scripts.html %}
 </body>
 
 </html>

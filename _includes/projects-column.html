@@ -2,7 +2,7 @@
 <div class="grid-row grid-gap">
 {% for project in site.projects %}
     {% if include.project_filter == project.status %}
-      {% include project-item.html project=project %}
+      {% include_cached project-item.html project=project %}
     {% endif %}
 {% endfor %}
 </div>

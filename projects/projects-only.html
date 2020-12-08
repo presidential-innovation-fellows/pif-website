@@ -8,6 +8,6 @@ active_page: projects
 
 {% for project in site.projects %}
   {% if project.status contains 'current' or project.status contains 'past' %}
-    {% include project-item.html project=project %}
+    {% include_cached project-item.html project=project %}
   {% endif %}
 {% endfor %}

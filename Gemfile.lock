@@ -63,6 +63,8 @@ GEM
       autoprefixer-rails (~> 9.3)
     jekyll-feed (0.15.1)
       jekyll (>= 3.7, < 5.0)
+    jekyll-include-cache (0.2.1)
+      jekyll (>= 3.7, < 5.0)
     jekyll-paginate-v2 (3.0.0)
       jekyll (>= 3.0, < 5.0)
     jekyll-redirect-from (0.16.0)
@@ -132,6 +134,7 @@ DEPENDENCIES
   jekyll-assets (~> 3.0)
   jekyll-autoprefixer
   jekyll-feed (~> 0.15)
+  jekyll-include-cache
   jekyll-paginate-v2 (= 3.0)
   jekyll-redirect-from
   jekyll-seo-tag

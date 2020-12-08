@@ -15,6 +15,24 @@ permalink: /apply/
   </div>
 </div>
 
+
+<section class="usa-section page-header bg--lightest">
+  <div class="grid-container">
+    <div class="grid-row">
+      <div class="tablet:grid-col-8 desktop:padding-right-4">
+        <h1>Become a <em>fellow</em></h1>
+        <p class='body-intro'>
+          Thank you for your interest in the Presidential Innovation Fellows program! We're excited that <i> you're </i> excited to jump into public service with confidence.
+        </p>
+      </div>
+      <div class="display-block tablet:grid-col-4">
+        {% asset pif-logo--dark.png class="usa-media-block__img img-circle" alt="PIF Logo" %}
+      </div>
+    </div>
+  </div>
+</section>
+
+
 <section class="grid-container usa-section page-header">
   <div class="grid-row">
     <div class="tablet:grid-col-8">
@@ -22,8 +40,15 @@ permalink: /apply/
       <p class="body-intro">Thank you for your interest in the Presidential Innovation Fellows program! We're excited that <i> you're </i> excited to jump into public service with confidence.</p>
       <!--<p><a class="usa-button usa-button--big" href="#">Submit</a></p>-->
     </div>
+    <div class="tablet:grid-col-4">
+      {% asset "pif-logo.png" class="padding-205" title="Presidential Innovation Fellows logo" %}
+    </div>
   </div>
 </section>
+
+
+
+
 
 <section class="grid-container usa-section usa-prose">
   <div class="grid-row">
@@ -52,4 +77,4 @@ permalink: /apply/
   </div>
 </section>
 
-{% include quote.html image="quotes/dain_miller.png" quote="My life changed when I became a PIF. I became a part of the world's best organization for change, and it's been my most treasured experience." name="Dain Miller, 2013 PIF, detailed to U.S. Department of State" %}
+{% include_cached quote.html image="quotes/dain_miller.png" quote="My life changed when I became a PIF. I became a part of the world's best organization for change, and it's been my most treasured experience." name="Dain Miller, 2013 PIF, detailed to U.S. Department of State" %}
