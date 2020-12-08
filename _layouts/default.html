@@ -14,7 +14,7 @@ The home page uses wide.html layout, since it extends full width of page
   <a class="skipnav" href="#main-content">Skip to main content</a>
   {% include_cached header.html %}
 
-  {% include_cached menu.html primary_navigation=site.primary_navigation  secondary_navigation=site.secondary_navigation %}
+  {% include_cached menu.html nav=page.nav url=page.url primary_navigation=site.primary_navigation secondary_navigation=site.secondary_navigation %}
 
   {{ content }}
 
