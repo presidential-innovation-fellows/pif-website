@@ -7,3 +7,4 @@ BingSiteAuth.xml
 .bundle/config
 vendor/
 node_modules
+.jekyll-metadata

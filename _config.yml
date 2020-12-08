@@ -173,6 +173,7 @@ exclude:
   - node_modules/uswds/dist/img/favicons
   - CONTRIBUTING.md
   - LICENSE.md
+  - .jekyll-cache
 
 assets:
   sources:
