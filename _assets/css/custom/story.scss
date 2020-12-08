@@ -1,4 +1,4 @@
-.story {
+.story, .section__margin-top-neg {
   @include u-bg('white');
   @include at-media("tablet") {
     padding-top: 4%;
