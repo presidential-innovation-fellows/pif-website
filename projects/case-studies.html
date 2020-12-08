@@ -8,6 +8,6 @@ active_page: case-studies
 
 {% for project in site.projects %}
   {% if project.status contains 'case_study' %}
-    {% include project-item.html project=project %}
+    {% include_cached project-item.html project=project %}
   {% endif %}
 {% endfor %}

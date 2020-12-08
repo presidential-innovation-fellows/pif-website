@@ -7,13 +7,13 @@ This template is for a single page that does not have a date associated with it.
 {% endcomment %}
 
 {% if page.banner == true %}
-  {% include banner.html %}
+  {% include_cached banner.html %}
 {% endif %}
 <div class="usa-layout-docs usa-section">
   <div class="grid-container">
     <div class="grid-row grid-gap">
       {% if page.sidenav == true %}
-        {% include sidenav.html %}
+        {% include_cached sidenav.html %}
       {% endif %}
       <div class="usa-layout-docs__main desktop:grid-col-9 usa-prose">
         {{ content }}
