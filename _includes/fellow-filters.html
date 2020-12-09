@@ -2,6 +2,7 @@
   <div class="filters__left display-flex">
     <div class='filter__col'>
       <select class="usa-select" name="fellows-select-year" id="fellows-select-year">
+        <option value="" selected disabled hidden>Fellows by year</option>
         {% assign years = site.data.years | reverse %}
         {% for year in years %}
           <option value="{{ year }}">
