@@ -6,7 +6,8 @@ layout: default
 This template is for a single page that does not have a date associated with it. For example, an about page.
 {% endcomment %}
 
-{% include_cached banner.html %}
+{% include_cached banner.html title=page.title description=page.description %}
+
 <main id="main-content">
   <div class="usa-layout-docs usa-section">
     <div class="grid-container">
