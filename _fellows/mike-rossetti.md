@@ -8,7 +8,7 @@ agency: []
 hometown: Branford, CT
 region: northeast
 bio_short: Civic technologist, open source software contributor, and adjunct professor of business and computer science.
-tags: ['northeast', '2017']
+tags: ['northeast', '2018']
 skills: ['backend development', 'communications', 'data', 'frontend development', 'product', 'policy', 'user experience']
 ---
 

@@ -8,7 +8,7 @@ agency: ["VA"]
 hometown: San Francisco, CA
 region: west
 bio_short: Generalist, systems thinker, statistical-minded, persistently curious. Formerly Basketball Operations in the NBA, Director / Founder @ Startups, and Political Advocate @ RepresentUS.
-tags: ['west', '2017']
+tags: ['west', '2018']
 skills: ['business development', 'data', 'digital', 'product']
 ---
 

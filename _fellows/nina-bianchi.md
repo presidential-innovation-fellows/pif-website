@@ -8,7 +8,7 @@ agency: []
 hometown: Detroit, MI
 region: midwest
 bio_short: Strategist, founder, and facilitator. 15 years of experience developing smarter collaborations between industry, academia, and government.
-tags: ['midwest', '2017']
+tags: ['midwest', '2018']
 skills: ['business development', 'design', 'digital', 'policy', 'user experience']
 ---
 
