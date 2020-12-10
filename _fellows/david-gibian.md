@@ -8,7 +8,7 @@ agency: ["DIU"]
 hometown: Brooklyn, NY
 region: northeast
 bio_short: A systems designer, Founder, and humanitarian with experience in cybersecurity, AI, data science, and business growth; developed platforms in active war zones, Silicon Valley, and New York City.
-tags: ['northeast', '2017']
+tags: ['northeast', '2018']
 skills: ['business development', 'communications', 'cybersecurity', 'design', 'policy', 'product']
 ---
 

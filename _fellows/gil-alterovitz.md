@@ -8,7 +8,7 @@ agency: ["VA"]
 hometown: Boston, MA
 region: northeast
 bio_short: Clinical, genomics and informatics research. Faculty member at Harvard/MIT and the Computational Health Informatics Program at Boston Children’s Hospital
-tags: ['northeast', '2017']
+tags: ['northeast', '2018']
 skills: ['communications', 'design', 'digital', 'policy', 'product']
 ---
 
