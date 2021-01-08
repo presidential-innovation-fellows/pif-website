@@ -57,14 +57,14 @@ site, this is the place to do it.
   <!-- Title and meta description
     ================================================== -->
   <title>{% if include.title %}{% if include.title == "Home" %}{{ site.title }}{% else %}{{ include.title }} | {{ site.title }}{% endif %}{% else %}{{ site.title }}{% endif %}</title>
-  <meta property="og:title" content="{% if page.title %}{% if page.title == "Home" %}{{ site.title }}{% else %}{{ include.title }} | {{ site.title }}{% endif %}{% else %}{{ site.title }}{% endif %}">
+  <meta property="og:title" content="{% if include.title %}{% if include.title == "Home" %}{{ site.title }}{% else %}{{ include.title }} | {{ site.title }}{% endif %}{% else %}{{ site.title }}{% endif %}">
   <meta name="description" content="{{site.description}}">
   <meta property="og:description" content="{{site.description}}">
   <meta property="og:image" content="{% asset pif-nasa-square.jpg @path %}">
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@{{site.twitter}}" />
-  <meta name="twitter:title" content="{% if page.title %}{% if page.title == "Home" %}{{ site.title }}{% else %}{{ page.title }} | {{ site.title }}{% endif %}{% else %}{{ site.title }}{% endif %}" />
+  <meta name="twitter:title" content="{% if include.title %}{% if include.title == "Home" %}{{ site.title }}{% else %}{{ include.title }} | {{ site.title }}{% endif %}{% else %}{{ site.title }}{% endif %}" />
   <meta name="twitter:description" content="{{site.description}}" />
   <meta name="twitter:image" content="https://presidentialinnovationfellows.gov{% asset pif-nasa-square.jpg @path %}" />
 
