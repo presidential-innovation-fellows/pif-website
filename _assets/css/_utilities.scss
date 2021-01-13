@@ -13,6 +13,9 @@
 .bg--lightest {
   @include light-bg;
 }
+.apply .bg--lightest {
+	padding-bottom: units(9);
+}
 
 .bg--lightest-alt {
   background-color: rgba(237, 245, 255, 1);
