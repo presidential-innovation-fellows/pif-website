@@ -101,8 +101,8 @@ This repo adapts the digital.gov USA anchor, which can be found in `_layout/anch
 
 Clone the repository.
 
-    $ git clone https://github.com/18F/federalist-uswds-jekyll
-    $ cd federalist-uswds-jekyll
+    $ git clone https://github.com/presidential-innovation-fellows/pif-website
+    $ cd pif-website
 
 Install the Node.js dependencies.
 
