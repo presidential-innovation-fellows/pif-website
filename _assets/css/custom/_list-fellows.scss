@@ -1,31 +1,58 @@
 .list-fellows {
   min-height: 100vh;
+}
 
-  a.list-item {
-    @include u-border-bottom('transparent');
-    @include u-border-top('transparent');
-    @include u-border-left('transparent');
-    @include u-border-right('transparent');
-    @include u-border('1px');
+.fellow-card {
+  @include u-padding(2);
+  a {
+    border: none;
+    text-decoration: none;
+    @include u-color('base-darker');
     &:hover {
       h2 {
         text-decoration: underline;
       }
-      // @include u-border('base-light');
-      // @include u-border('1px');
     }
-    text-decoration: none;
-    @include u-color('base-darker');
-    @include u-padding(2);
-    .list-item-img {
-      @include at-media(desktop) {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-      .circle-card {
-        height: auto;
-      }
+    .body-intro--bold {
+      color: color('blue-warm-50v');
+      @include u-font('serif', 9); // 22 px -- h2 sizing overrides the typography.scss size declaration
+      margin: 0; // using padding instead of default margin creates a cleaner focus outline 
+      @include u-padding-top(2.5);
+      @include u-padding-bottom(1.5);
     }
+    .content {
+      margin-top: 0;
+      padding-top: 0;
+    }
+  }
+  .fellow-img {
+    @include at-media(desktop) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      @include u-border-bottom('1px', 'blue-warm-50v');
+      @include u-padding-bottom(2);
+    }
+    .circle-card {
+      height: auto;
+    }
+  }
+}
+.fellow-card--specialty {
+  font-style: italic;
+  margin-top: 0;
+  @include u-margin-bottom(0.5);
+}
+
+.fellow-card--fellow-year {
+  color: color('blue-warm-50v');
+  font-weight: 700;
+}
+
+.fellow-card--linkedin, 
+.fellow-card--twitter {
+  img {
+    height: 1rem;
+    width: 1rem;
   }
 }

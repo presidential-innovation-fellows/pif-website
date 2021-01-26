@@ -31,7 +31,7 @@ layout: default
 
 <section class="grid-container usa-layout-docs usa-section">
   <div class="grid-row grid-gap">
-    <div class="usa-layout-docs__main desktop:grid-col-9 usa-prose list-fellows">
+    <div class="usa-layout-docs__main usa-prose list-fellows">
       <main id="main-content">
         <!-- initial list that the search results replace -->
         <span id='fellow-search-default'>
@@ -75,7 +75,7 @@ layout: default
       - Any fellow content needed for template should be added to json above.
       - Template syntax: https://github.com/christian-fei/Simple-Jekyll-Search/wiki#searchresulttemplate-string-optional
     ***/
-    searchResultTemplate: '<a href="{url}" class="list-item grid-row grid-gap"><div class="desktop:grid-col-3 tablet:grid-col-4 usa-prose list-item-img"><img src="{image_path}" class="circle-card" alt="{title}"/></div><div class="desktop:grid-col-9 usa-prose"><h2>{title}</h2><p class="content">{content}</p></div></a>'
+    searchResultTemplate: '<div class="fellow-card desktop:grid-col-3 tablet:grid-col-6"><a href="{url}" class="grid-row grid-gap"><div class="desktop:grid-col-3 tablet:grid-col-4 usa-prose fellow-img"><img src="{image_path}" class="circle-card" alt="{title}"/></div><div class="desktop:grid-col-9 usa-prose"><h2>{title}</h2><p class="content">{content}</p></div></a></div>'
   });
   var inFellowSearch = false;
   var defaultList = document.getElementById("fellow-search-default");
