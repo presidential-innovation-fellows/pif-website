@@ -66,7 +66,11 @@ layout: default
           "url"      : "{{ site.baseurl }}{{ fellow.url }}",
           "date"     : "{{ fellow.date }}",
           "content"  : "{{ fellow.bio_short | strip_html | strip_newlines | remove_chars | escape }}",
-          "image_path" : "{% asset '{{ fellow.image }}' @path %}"
+          "image_path" : "{% asset '{{ fellow.image }}' @path %}",
+          "specialty" : "{{ fellow.skills | first | escape }}",
+          "linkedin" : "{% if fellow.linkedin %}{{ fellow.linkedin }}{% else %}''{% endif %}",
+          "twitter" : "{% if fellow.twitter %}{{ fellow.twitter }}{% else %}''{% endif %}",
+          "fellow_year": "{{ fellow.fellow_year }}"
         } {% unless forloop.last %},{% endunless %}
       {% endfor %}
     ],
@@ -75,7 +79,7 @@ layout: default
       - Any fellow content needed for template should be added to json above.
       - Template syntax: https://github.com/christian-fei/Simple-Jekyll-Search/wiki#searchresulttemplate-string-optional
     ***/
-    searchResultTemplate: '<div class="fellow-card desktop:grid-col-3 tablet:grid-col-6"><a href="{url}" class="grid-row grid-gap"><div class="desktop:grid-col-3 tablet:grid-col-4 usa-prose fellow-img"><img src="{image_path}" class="circle-card" alt="{title}"/></div><div class="desktop:grid-col-9 usa-prose"><h2>{title}</h2><p class="content">{content}</p></div></a></div>'
+    searchResultTemplate: '<div class="fellow-card desktop:grid-col-3 tablet:grid-col-6"><a href="{url}"><div class="usa-prose fellow-img"><img src="{image_path}" class="circle-card" alt="{title}"/></div><div><h2 class="body-intro--bold">{title}</h2><p class="fellow-card--specialty">{specialty}</p><p class="content">{content}</p><p><span class="fellow-card--fellow-year">{fellow_year}</span><span class="fellow-card--linkedin"><a href={linkedin}>LinkedIn</a></span><span class="fellow-card--twitter"><a href={twitter}>Twitter</a></span></p></div></a></div>'
   });
   var inFellowSearch = false;
   var defaultList = document.getElementById("fellow-search-default");
