@@ -69,8 +69,11 @@ site, this is the place to do it.
   <meta name="twitter:image" content="https://presidentialinnovationfellows.gov{% asset pif-nasa-square.jpg @path %}" />
 
   <meta property="og:type" content="article">
+  {% if page.url == "/projects/case-studies" %}
+  <link rel="canonical" href="{{site.url}}/projects/">
+  {% else %}
   <link rel="canonical" href="{{site.url}}{{page.url}}">
-
+  {% endif %}
   <!-- Favicons
     ================================================== -->
   <!-- 128x128 -->
