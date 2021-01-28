@@ -47,10 +47,22 @@
 .fellow-card--fellow-year {
   color: color('blue-warm-50v');
   font-weight: 700;
+  &:after {
+    height: 0.8rem;
+    width: 1px;
+    border-right: 1px solid gray;
+    content: "";
+    margin: 0 0.5rem;
+    display: inline-block;
+  }
+  &:last-child:after {
+    border-right: none;
+  }
 }
 
 .fellow-card--linkedin, 
 .fellow-card--twitter {
+  padding-right: 0.5rem;
   img {
     height: 1rem;
     width: 1rem;

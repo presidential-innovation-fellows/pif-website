@@ -4,28 +4,26 @@
 {% if i==1 %}
 <div class="grid-row">
 {% endif %}
-<div class="fellow-card desktop:grid-col-3 tablet:grid-col-6">
-  <a href="{{ site.baseurl }}{{ fellow.url }}" aria-labelledby="{{ aria_id }}">
-    <div class="usa-prose fellow-img">
-      {% if fellow.image %}
-      {% asset "{{ fellow.image }}" class="circle-card" alt="{{ fellow.image_alt_text }}" %}
-      {% endif %}
-    </div>
-    <div>
-      <h2 class="body-intro--bold" id="{{ aria_id }}">{{ fellow.title }}</h2>
-      <p class="fellow-card--specialty">{{fellow.skills | first}}</p>
-      <p class="content">
-        {{ fellow.bio_short }}
+  <div class="fellow-card desktop:grid-col-3 tablet:grid-col-6">
+    <a href="{{ site.baseurl }}{{ fellow.url }}" aria-labelledby="{{ aria_id }}">
+      <div class="usa-prose fellow-img">
+        {% if fellow.image %}
+        {% asset "{{ fellow.image }}" class="circle-card" alt="{{ fellow.image_alt_text }}" %}
+        {% endif %}
+      </div>
+      <div>
+        <h2 class="body-intro--bold" id="{{ aria_id }}">{{ fellow.title }}</h2>
+        <p class="fellow-card--specialty">{{fellow.skills | first}}</p>
+        <p class="content">
+          {{ fellow.bio_short }}
+        </p>
+    </a>
+      <p>
+        <span class="fellow-card--fellow-year">{{ fellow.fellow_year }}</span>{% if fellow.linkedin %}<span class="fellow-card--linkedin"><a href={{fellow.linkedin}}>{% asset icons/linkedin-blue.svg alt="{{fellow.title}}'s LinkedIn profile" %}</a></span>{% endif %}{% if fellow.twitter%}<span class="fellow-card--twitter"><a href={{fellow.twitter}}>{% asset icons/twitter.svg alt="{{fellow.title}}'s Twitter profile" %}</a></span>{% endif %}
       </p>
-  </a>
-    <p>
-      <span class="fellow-card--fellow-year">{{ fellow.fellow_year }}</span>
-      {% if fellow.linkedin %}| <span class="fellow-card--linkedin"><a href={{fellow.linkedin}}>{% asset icons/linkedin-blue.svg alt="{{fellow.title}}'s LinkedIn profile" %}</a></span>{% endif %}
-      {% if fellow.twitter%}<span class="fellow-card--twitter"><a href={{fellow.twitter}}>{% asset icons/twitter.svg alt="{{fellow.title}}'s Twitter profile" %}</a></span>{% endif %}
-    </p>
+    </div>
   </div>
-</div>
-{% if i==4 %}
+{% if i==4 or forloop.last %}
 </div>
 {% assign i = 1 %}
 {% else %}
