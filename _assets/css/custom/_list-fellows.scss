@@ -63,6 +63,7 @@
 .fellow-card--linkedin, 
 .fellow-card--twitter {
   padding-right: 0.5rem;
+  color: transparent; // this is a terrible hack because Simple Jekyll Search won't allow variables or blank fields in its JSON, so it literally renders empty quotes
   img {
     height: 1rem;
     width: 1rem;
