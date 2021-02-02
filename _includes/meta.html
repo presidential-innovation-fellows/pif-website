@@ -1,7 +1,3 @@
-{% comment %}
-You shouldn't have to edit this page very often. But if you want to modify some of the meta-data for the
-site, this is the place to do it.
-{% endcomment %}
 <!--
                       __,__r========qL,
                    ,m**`~'            XW;
@@ -74,7 +70,23 @@ site, this is the place to do it.
   {% else %}
   <link rel="canonical" href="{{site.url}}{{page.url}}">
   {% endif %}
-
+  <!-- Favicons
+    ================================================== -->
+  <!-- 128x128 -->
+  <link rel="shortcut icon" type="image/ico" href="{% asset favicon.ico @path %}">
+  <link rel="icon" type="image/png" href="{% asset favicon.png @path %}">
+  <!-- 192x192, as recommended for Android
+    http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
+    -->
+  <link rel="icon" type="image/png" sizes="192x192" href="{% asset favicon-192.png @path %}">
+  <!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+  <link rel="apple-touch-icon-precomposed" href="{% asset favicon-57.png @path %}">
+  <!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{% asset favicon-72.png @path %}">
+  <!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{% asset favicon-114.png @path %}">
+  <!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{% asset favicon-144.png @path %}">
   <!-- CSS
     ================================================== -->
   {% asset index.scss %}
