@@ -1,4 +1,4 @@
-ruby '>= 2.6.6'
+ruby '>= 2.6.5'
 
 source "https://rubygems.org"
 
@@ -11,6 +11,12 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 gem "jekyll", "~> 3.9"
+
+# See https://github.com/sass/sassc-rails/issues/114#issuecomment-441024718
+gem "sassc-rails"
+
+# See https://github.com/rails/execjs#readme
+gem "mini_racer"
 
 # See https://github.com/envygeeks/jekyll-assets/issues/622
 gem "sprockets", "~> 3.7"
