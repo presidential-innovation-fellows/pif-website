@@ -1,4 +1,15 @@
 
+<!DOCTYPE html>
+
+<html lang="en">
+
+{% include_cached meta.html title=page.title %}
+
+{% assign page_id = page.url | remove:'/index.html' | split: '/' %}
+<body class="{% if page_id %}{{ page_id }}{% else %}home{% endif %}">
+  <a class="skipnav" href="#main-content">Skip to main content</a>
+
+
   <section class="usa-banner" aria-label="Official government website">
       <div class="grid-container">
           <div class="usa-accordion">
