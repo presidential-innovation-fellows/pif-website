@@ -7,9 +7,9 @@ The home page uses wide.html layout, since it extends full width of page
 
 <html lang="en">
 
-{% include_cached meta.html title=page.title %}
 
-<body class="">
+{% assign pageid = page.url | remove: '/index.html' | split: '/' %}
+<body class="{% if pageid %}{{ pageid }}{% else %}home{% endif %}">
 
   <a class="skipnav" href="#main-content">Skip to main content</a>
   {% comment %}
