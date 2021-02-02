@@ -56,7 +56,15 @@ site, this is the place to do it.
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Title and meta description
     ================================================== -->
+  <title>{% if include.title %}{% if include.title == "Home" %}{{ site.title }}{% else %}{{ include.title }} | {{ site.title }}{% endif %}{% else %}{{ site.title }}{% endif %}</title>
+  <meta property="og:title" content="{% if include.title %}{% if include.title == "Home" %}{{ site.title }}{% else %}{{ include.title }} | {{ site.title }}{% endif %}{% else %}{{ site.title }}{% endif %}">
+  <meta name="description" content="{{site.description}}">
+  <meta property="og:description" content="{{site.description}}">
+  <meta property="og:image" content="{% asset pif-nasa-square.jpg @path %}">
 
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@{{site.twitter}}" />
+  <meta name="twitter:title" content="{% if include.title %}{% if include.title == "Home %}{{ site.title }}{% else %}{{ include.title }} | {{ site.title }}{% endif %}{% else %}{{ site.title }}{% endif %}" />
   <meta name="twitter:description" content="{{site.description}}" />
   <meta name="twitter:image" content="https://presidentialinnovationfellows.gov{% asset pif-nasa-square.jpg @path %}" />
 
@@ -66,23 +74,7 @@ site, this is the place to do it.
   {% else %}
   <link rel="canonical" href="{{site.url}}{{page.url}}">
   {% endif %}
-  <!-- Favicons
-    ================================================== -->
-  <!-- 128x128 -->
-  <link rel="shortcut icon" type="image/ico" href="{% asset favicon.ico @path %}">
-  <link rel="icon" type="image/png" href="{% asset favicon.png @path %}">
-  <!-- 192x192, as recommended for Android
-    http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
-    -->
-  <link rel="icon" type="image/png" sizes="192x192" href="{% asset favicon-192.png @path %}">
-  <!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
-  <link rel="apple-touch-icon-precomposed" href="{% asset favicon-57.png @path %}">
-  <!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
-  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{% asset favicon-72.png @path %}">
-  <!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
-  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{% asset favicon-114.png @path %}">
-  <!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{% asset favicon-144.png @path %}">
+
   <!-- CSS
     ================================================== -->
   {% asset index.scss %}
