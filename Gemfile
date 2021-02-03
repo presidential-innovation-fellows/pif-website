@@ -15,10 +15,10 @@ gem "jekyll", "~> 3.9"
 
 # See https://github.com/sass/sassc-rails/issues/114#issuecomment-441024718
 # See https://github.com/rails/execjs#readme
-group :development do
-  gem "sassc-rails"
-  gem "mini_racer"
-end
+# group :development do
+#   gem "sassc-rails"
+#   gem "mini_racer"
+# end
 
 # See https://github.com/envygeeks/jekyll-assets/issues/622
 gem "sprockets", "~> 3.7"
