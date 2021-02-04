@@ -16,8 +16,6 @@ WORKDIR /app
 COPY Gemfile /app
 COPY Gemfile.lock /app
 
-RUN gem install therubyracer
-RUN gem install execjs
 RUN bundle install
 
 EXPOSE 4000

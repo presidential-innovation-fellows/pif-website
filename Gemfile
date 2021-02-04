@@ -20,6 +20,9 @@ gem "jekyll", "~> 3.9"
 #   gem "mini_racer"
 # end
 
+gem "therubyracer"
+
+
 # See https://github.com/envygeeks/jekyll-assets/issues/622
 gem "sprockets", "~> 3.7"
 gem "kramdown-parser-gfm", "~> 1.1.0"
