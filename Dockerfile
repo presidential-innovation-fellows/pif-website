@@ -17,5 +17,6 @@ COPY Gemfile /app
 COPY Gemfile.lock /app
 
 RUN bundle install
+RUN gem install therubyracer
 
 EXPOSE 4000
