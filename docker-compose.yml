@@ -12,4 +12,4 @@ services:
       - "4000:4000"
     volumes:
       - .:/app:delegated
-    command: bundle exec jekyll serve --host 0.0.0.0
+    command: bundle exec jekyll serve --incremental --host 0.0.0.0 
