@@ -17,6 +17,5 @@ COPY Gemfile /app
 COPY Gemfile.lock /app
 
 RUN bundle install
-RUN gem install mini_racer
 
 EXPOSE 4000
