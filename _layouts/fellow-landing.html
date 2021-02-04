@@ -98,7 +98,6 @@ layout: default
   /*** respond to fellow skill dropdown ***/
   var skillSelect = document.getElementById("fellows-select-skill");
   skillSelect.addEventListener('change', function(e) {
-    debugger;
     if (e.target.value) {
       sjs.search(e.target.value);
       defaultList.style.display = "none";
