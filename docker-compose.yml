@@ -1,10 +1,15 @@
-version: "3"
+version: '3'
 services:
-  web:
+  node:
+    image: node:12
+    working_dir: /app
+    volumes:
+      - .:/app:delegated
+  ruby:
     build: .
-    tty: true
+    working_dir: /app
     ports:
       - "4000:4000"
-      - "35729:35729" # for livereload
     volumes:
-      - .:/app
+      - .:/app:delegated
+    command: bundle exec jekyll serve --host 0.0.0.0

@@ -1,12 +1,23 @@
-FROM ruby:2.6.5
+FROM ruby:2.6.6
 
-ENV LC_ALL=C.UTF-8
+RUN apt-get update && \
+  apt-get install --reinstall -y locales && \
+  sed -i 's/# en_US.UTF-8 UTF-8/en_US.UTF-8 UTF-8/' /etc/locale.gen && \
+  locale-gen en_US.UTF-8
+
+ENV LANG en_US.UTF-8
+ENV LANGUAGE en_US
+ENV LC_ALL en_US.UTF-8
+
+RUN mkdir -p /app
+
 WORKDIR /app
 
-COPY Gemfile* ./
-RUN bundle add sassc-rails
-RUN bundle add mini_racer
+COPY Gemfile /app
+COPY Gemfile.lock /app
+
+RUN gem install therubyracer
+RUN gem install execjs
 RUN bundle install
 
-CMD bundle exec \
-  jekyll serve --host 0.0.0.0 --incremental --livereload
+EXPOSE 4000
