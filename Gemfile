@@ -13,7 +13,7 @@ source "https://rubygems.org"
 gem "jekyll", "~> 3.9"
 
 # See https://github.com/sass/sassc-rails/issues/114#issuecomment-441024718
-# gem "sassc-rails"
+gem "sassc-rails"
 
 # See https://github.com/rails/execjs#readme
 gem "mini_racer"
