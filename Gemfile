@@ -12,14 +12,10 @@ source "https://rubygems.org"
 # Happy Jekylling!
 gem "jekyll", "~> 3.9"
 
-
 # See https://github.com/sass/sassc-rails/issues/114#issuecomment-441024718
-# See https://github.com/rails/execjs#readme
-# group :development do
-#   gem "sassc-rails"
-#   gem "mini_racer"
-# end
+# gem "sassc-rails"
 
+# See https://github.com/rails/execjs#readme
 gem "mini_racer"
 
 # See https://github.com/envygeeks/jekyll-assets/issues/622
