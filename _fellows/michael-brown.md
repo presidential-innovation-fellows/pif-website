@@ -3,7 +3,7 @@ id: michael-brown
 title: Michael Brown
 image: michael-brown-headshot.jpg
 fellow_year: 2016
-project: ["diu-tech-transfer","diux-startups"]
+project: ["diu-tech-transfer","diux-startups","defense-innovation"]
 agency: ["DIU"]
 hometown: Palo Alto, CA
 region: west
