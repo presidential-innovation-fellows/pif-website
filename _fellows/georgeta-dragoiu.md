@@ -3,7 +3,7 @@ id: georgeta-dragoiu
 title: Georgeta Dragoiu
 image: georgeta-dragoiu-headshot.jpg
 fellow_year: 2019
-project: ["nih-all-of-us"]
+project: ["nih-all-of-us","nih-uniting-communications-and-science"]
 agency: ["NIH"]
 hometown: Washington, DC
 region: south
