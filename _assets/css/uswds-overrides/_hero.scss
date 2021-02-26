@@ -87,3 +87,7 @@
   background-image: url(asset_path("banner-orientation-eeob-bw.jpg"));
   background-position: top left 15%;
 }
+.usa-hero.faq {
+  @include hero-short;
+  background-position: 0px 45%;
+}
