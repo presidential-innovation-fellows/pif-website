@@ -1,11 +1,11 @@
 ---
 layout: page
-title: PIF Track - AI, Data and Analytics
+title: Presidential Innovation Fellow - AI, Data and Analytics
 sidenav: false
 banner: false
 permalink: /apply/track-ai-data-and-analytics/
 state: 'open'
-track_name: Presidential Innovation Fellow, AI, Data and Analytics
+track_name: 'Presidential Innovation Fellow: AI, Data and Analytics'
 role_name: Presidential Innovation Fellow
 opens: 'March 5, 2021'
 closes: 'May 14, 2021, 11:59pm Pacific Time'
@@ -47,7 +47,7 @@ The salary for this position is: GS-{{ page.gs_level }} Step 1 - ${{ page.salary
 You can find more information about this in the [compensation and benefits section on our site](https://join.tts.gsa.gov/compensation-and-benefits/).
 
 **Who May Apply:**
-All United States citizens who are not currently Federal employees or GSA contractors are eligible to apply. 
+All United States citizens and nationals (residents of American Samoa and Swains Islands) are eligible to apply.
 
 **Job announcement number:**
 {{ page.job_announcement_number }}

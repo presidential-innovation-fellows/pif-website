@@ -1,11 +1,11 @@
 ---
 layout: page
-title: PIF Track - Software and Infrastructure
+title: Presidential Innovation Fellow - Software and Infrastructure
 sidenav: false
 banner: false
 permalink: /apply/track-software-and-infrastructure/
 state: 'open'
-track_name: Presidential Innovation Fellow, Software and Infrastructure
+track_name: 'Presidential Innovation Fellow: Software and Infrastructure'
 role_name: Presidential Innovation Fellow
 opens: 'March 5, 2021, 12pm Eastern Time'
 closes: 'May 14, 2021, 11:59pm Pacific Time'
@@ -47,7 +47,7 @@ The salary for this position is: GS-{{ page.gs_level }} Step 1 - ${{ page.salary
 You can find more information about this in the [compensation and benefits section on our site](https://join.tts.gsa.gov/compensation-and-benefits/).
 
 **Who May Apply:**
-All United States citizens who are not currently Federal employees or GSA contractors are eligible to apply. 
+All United States citizens and nationals (residents of American Samoa and Swains Islands) are eligible to apply.
 
 **Job announcement number:**
 {{ page.job_announcement_number }}
@@ -193,7 +193,7 @@ Analyzing and scoping the technical and policy requirements needed to implement 
 
 All applications will be reviewed by a panel of subject matter experts against a scoring rubric created for this role. In order to properly be able to evaluate your previous experience, we recommend being as detailed as possible in your resume. We also recommend reviewing and following our general resume guidance, which provides helpful examples of the level of detail that is expected.
 
-To qualify for this role, you must have one year of specialized experience equivalent to the GS-{{ page.gs_level | minus: 1 }} or higher in the Federal service. Specialized experience is:
+To qualify for this role, you must have one year of specialized experience equivalent to the GS-14 or higher in the Federal service. Specialized experience is:
 
 This includes experience navigating highly ambiguous or uncertain situations to deliver results. This experience must include **ALL** of the following:
 
@@ -201,50 +201,62 @@ This includes experience navigating highly ambiguous or uncertain situations to 
 - Working in a team-oriented environment and collaborating within teams.
 - Working as an entrepreneur (i.e started and scaled companies or organizations) measured in increased revenue, clients or users; **OR** intrapreneur (i.e. starting and/or leading initiatives within corporate, academic or non-profit institutions) measured by increased revenue, promoted growth, drove business strategy, acquired clients or customers/end users.
 
-Plus **ONE** of the following tracks: (1. Data Strategy, Management and Analytics OR 2. Data Science OR 3. AI/Machine Learning)
+Plus **ONE** of the following tracks (1. Infrastructure Specialists OR 2. Cloud Specialist OR 3. Full Stack Engineer)
 
-**1. Data Strategy, Management and Analytics**
 
-A. Experience designing & implementing data management strategies to ensure data is treated as a strategic asset. This experience must include **ALL** of the following:
-- Leading organizational change management initiatives related to data strategy
-- Developing data literacy efforts to improve understanding across the organization 
-- Documenting and promoting data governance and analysis best practice.
-- Managing metadata, data cataloging and data sharing.
-- Translating key business questions to data and analytics requirements.
-- Data lifecycle management and strategies, from data source to data driven decision-making.
-- Developing holistic data strategies across multiple disparate data sources.
-- Using advanced analytics tools and methodologies.
-- Development of dashboard requirements and other user engagement strategies for effective data-driven  “story-telling”.
+**Infrastructure Specialist**
 
-B. Experience designing & implementing data management strategies to ensure data is treated as a strategic asset. This experience must include **ALL** of the following:
-- Using quantitative and qualitative methods to collect, validate, analyze, and display data
-- Identifying opportunities within an organization to leverage data analytics to aid service improvement and/or - decision-making for a project or organization
-- Developing project management documentation (e.g. scopes of work, project plans, status reports)
-- Briefing executive level stakeholders on project information (e.g. status, technical details, blockers, dependencies)
-- Developing data visualizations for stakeholders
+1. Experience leading a team to deliver projects or initiatives to migrate digital products or services to a cloud environment. This experience must include **ALL** of the following:
+- Leading client-facing consulting projects or initiatives
+- Leading a cross-functional team using agile methodologies to deliver projects or initiatives
+- Managing security and privacy requirements for cloud based digital products or services
+- Hands on and leadership experience with Networking, Databases, or Cloud Computing
 
-**2. Data Science**
+2. Experience providing technical expertise on cloud adoption or enterprise wide migration projects or initiatives. This experience must include **TWO** of the following:
+- Leading cloud adoption projects or initiatives that use Infrastructure-as-a-Service (IaaS)
+- Leading cloud adoption projects or initiatives that use legacy infrastructure configurations
+- Leading cloud adoption projects or initiatives that require data migrations strategies
+- Leading cloud adoption projects or initiatives that use Containerization and Virtualization technologies (e.g. AWS, Azure, Docker, Kubernetes, etc.)
+- Leading large scale or enterprise wide migrations (e.g. migrating legacy data center into a hybrid cloud environment)
+- Experience with DevOps tooling (e.g. Chef, Puppet, Terraform)
+- Experience using networking protocols and methods (e.g. DNS, Tunneling, IP and UPD, TCP concepts) and how to apply these in building networking zones and/or using networking to define and manage privacy and or security requirements.
+- Using cloud technologies to define SLA’s (e.g. uptime, availability, reliability, etc.)
 
-A. Experience helping clients collect and manage their data as a practitioner in the craft of data science. This experience must include **ALL** of the following:
 
-- Analyzing large data sets using scripting languages and/or modern statistical and computational methods (e.g. Python, R, SQL, etc.) to understand the health, challenges, and opportunities for an organization or product 
-- Implementing data warehousing solutions and modern big data storage technologies (e.g. Teradata, Oracle, Amazon Web Services, Informatica, data lakes)
-- Conducting research and statistical analyses to drive decision-making and/or recommendations (e.g. A/B testing)
-- Developing queries for complex relational databases and disparate data systems
-- Utilizing reporting and/or business intelligence tools (e.g. Dash, Tableau, Power BI, MicroStrategy etc.)
-- Developing strategies for querying and relating data across disparate sources via modern approaches such as graph based techniques
-- Working with advanced analytics, machine learning, and AI approaches, models, and methodologies
+**Cloud Specialist**
 
-**3. AI/Machine Learning**
+1. Experience leading a team to deliver digital products or services. This experience must include **ALL** of the following:
+- Managing client, partner, or account relationships
+- Using agile methodologies
+- Delivering tools or products with high uptime or availability requirements (i.e. SLAs of 99.9%+)
 
-A. Experience leading the design, development, testing and implementation of Artificial Intelligence/Machine Learning solutions to aid service improvement and/or decision-making for a project or organization. This experience must include **ALL** of the following:
+2. Experience providing technical leadership on projects or initiatives to deliver digital products or services. This experience must include **ONE** of the following:
+- Conducting technology evaluations
+- Making architectural decisions
+- Developing product roadmaps
 
-- Building impactful solutions that utilize machine learning/AI techniques such as supervised learning (e.g. predictive analytics, classification), unsupervised learning, natural language processing, and/or deep learning 
-- Working with common open source software languages, machine learning packages, and distributed computing technologies (e.g. Python, Spark, scikit-learn, Tensorflow, pyTorch, Keras)
-- Building end-to-end software pipelines to execute machine learning/AI solutions, preferably in the cloud environment (e.g. AWS stack, Apache Kafka, Logstash, etc.)
-- Implementing best practices for AI lifecycle management, monitoring tools for production quality continuous development of models, and machine learning operations (e.g., “MLOps” design, MLFlow, Kubeflow, Pachyderm)
-- Analyzing the advantages and disadvantages of applying AI/Machine Learning and articulating the tradeoff analysis to technical and non-technical audiences
+3. Experience developing full-stack web applications using test-driven development, delivering measurable results for clients. This experience must include **ALL** of the following:
+- Developing digital applications using **ONE** of the following server-side languages: Python, Ruby, Go or JavaScript/Node.js
+- Developing digital applications using a relational or non-relational data layers
+- Developing digital applications using test-driven development and software testing tools
 
+4. Experience deploying, operating, maintaining, or running cloud platforms. This experience must include **ALL** of the following:
+- Using continuous integration or continuous deployment tools
+- Using infrastructure automation tools
+- Using infrastructure monitoring tools
+
+
+**Full Stack Engineer**
+
+1. Experience developing or managing client, partner, or account relationships to deliver on large or complex projects as part of a cross-functional team. This experience must include **ONE** of the following:
+- Delivering digital projects with complex requirements, multiple stakeholders with disparate views or high levels of bureaucracy
+- Delivering public-facing digital products or features on public-facing products with a large number of users (e.g. 100,000+)
+- Delivering tools or products with high uptime or availability requirements (e.g. SLAs of 99.9%+)
+
+2. Experience developing full-stack web applications using test-driven development, delivering measurable results for clients. This experience must include **ALL** of the following:
+- Developing digital applications using at least one server-side language
+- Developing digital applications using a relational or non-relational data layers
+- Developing digital applications using test-driven development and software testing tools
 
 Qualification determinations cannot be made when resumes do not include the required information, so failure to provide this information may result in disqualification.
 

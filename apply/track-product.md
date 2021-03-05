@@ -1,11 +1,11 @@
 ---
 layout: page
-title: PIF Track - Product
+title: Presidential Innovation Fellow - Product
 sidenav: false
 banner: false
 permalink: /apply/track-product/
 state: 'open'
-track_name: Presidential Innovation Fellow, Product
+track_name: 'Presidential Innovation Fellow: Product'
 role_name: Presidential Innovation Fellow
 opens: 'March 5, 2021, 12pm Eastern Time'
 closes: 'May 14, 2021, 11:59pm Pacific Time'
@@ -47,7 +47,7 @@ The salary for this position is: GS-{{ page.gs_level }} Step 1 - ${{ page.salary
 You can find more information about this in the [compensation and benefits section on our site](https://join.tts.gsa.gov/compensation-and-benefits/).
 
 **Who May Apply:**
-All United States citizens who are not currently Federal employees or GSA contractors are eligible to apply. 
+All United States citizens and nationals (residents of American Samoa and Swains Islands) are eligible to apply.
 
 **Job announcement number:**
 {{ page.job_announcement_number }}
@@ -193,58 +193,33 @@ Analyzing and scoping the technical and policy requirements needed to implement 
 
 All applications will be reviewed by a panel of subject matter experts against a scoring rubric created for this role. In order to properly be able to evaluate your previous experience, we recommend being as detailed as possible in your resume. We also recommend reviewing and following our general resume guidance, which provides helpful examples of the level of detail that is expected.
 
-To qualify for this role, you must have one year of specialized experience equivalent to the GS-{{ page.gs_level | minus: 1 }} or higher in the Federal service. Specialized experience is:
+To qualify for this role, you must have one year of specialized experience equivalent to the GS-14 or higher in the Federal service. Specialized experience is:
 
-This includes experience navigating highly ambiguous or uncertain situations to deliver results. This experience must include **ALL** of the following:
-
+1. Experience navigating highly ambiguous or uncertain situations to deliver results. This experience must include **ALL** of the following:
 - Leading stakeholders through organizational change demonstrated by: Leading a cross-functional team to meet strategic objectives; Garnering support for the team by persuading others to provide approval, funding or resources; or Adjusting strategy based on qualitative or quantitative strategy.
 - Working in a team-oriented environment and collaborating within teams.
 - Working as an entrepreneur (i.e started and scaled companies or organizations) measured in increased revenue, clients or users; **OR** intrapreneur (i.e. starting and/or leading initiatives within corporate, academic or non-profit institutions) measured by increased revenue, promoted growth, drove business strategy, acquired clients or customers/end users.
 
-Plus **ONE** of the following tracks: (1. Data Strategy, Management and Analytics OR 2. Data Science OR 3. AI/Machine Learning)
+2. Experience leading interdisciplinary product teams in the research, design, development or delivery of digital products or services. This experience must include **ALL** of the following:
+- Leading the development of multiple digital products or services, or leading the development of multiple features in large products
+- Creating and managing the product vision based on user research & metrics
+- Leading teams through new tools, technologies or methodologies adoption
 
-**1. Data Strategy, Management and Analytics**
+3. Experience leading digital product or service development, from concept to delivery, within highly ambiguous or uncertain situations. This experience must include **ONE** of the following:
+- Leading a product with multiple dependencies requiring joint releases to achieve measurable and demonstrated business objectives
+- Leading intrapreneurial efforts with measurable and demonstrated impact to the organization
 
-A. Experience designing & implementing data management strategies to ensure data is treated as a strategic asset. This experience must include **ALL** of the following:
-- Leading organizational change management initiatives related to data strategy
-- Developing data literacy efforts to improve understanding across the organization 
-- Documenting and promoting data governance and analysis best practice.
-- Managing metadata, data cataloging and data sharing.
-- Translating key business questions to data and analytics requirements.
-- Data lifecycle management and strategies, from data source to data driven decision-making.
-- Developing holistic data strategies across multiple disparate data sources.
-- Using advanced analytics tools and methodologies.
-- Development of dashboard requirements and other user engagement strategies for effective data-driven  “story-telling”.
+4. Experience leading the development, delivery or integration of complex digital products or services. This experience must include **ONE** of the following: 
+- Developing new products or services for startups
+- Developing legacy migrations products or services
+- Developing for large integrations products or services
+- Developing large consumer products’ services or features
 
-B. Experience designing & implementing data management strategies to ensure data is treated as a strategic asset. This experience must include **ALL** of the following:
-- Using quantitative and qualitative methods to collect, validate, analyze, and display data
-- Identifying opportunities within an organization to leverage data analytics to aid service improvement and/or - decision-making for a project or organization
-- Developing project management documentation (e.g. scopes of work, project plans, status reports)
-- Briefing executive level stakeholders on project information (e.g. status, technical details, blockers, dependencies)
-- Developing data visualizations for stakeholders
-
-**2. Data Science**
-
-A. Experience helping clients collect and manage their data as a practitioner in the craft of data science. This experience must include **ALL** of the following:
-
-- Analyzing large data sets using scripting languages and/or modern statistical and computational methods (e.g. Python, R, SQL, etc.) to understand the health, challenges, and opportunities for an organization or product 
-- Implementing data warehousing solutions and modern big data storage technologies (e.g. Teradata, Oracle, Amazon Web Services, Informatica, data lakes)
-- Conducting research and statistical analyses to drive decision-making and/or recommendations (e.g. A/B testing)
-- Developing queries for complex relational databases and disparate data systems
-- Utilizing reporting and/or business intelligence tools (e.g. Dash, Tableau, Power BI, MicroStrategy etc.)
-- Developing strategies for querying and relating data across disparate sources via modern approaches such as graph based techniques
-- Working with advanced analytics, machine learning, and AI approaches, models, and methodologies
-
-**3. AI/Machine Learning**
-
-A. Experience leading the design, development, testing and implementation of Artificial Intelligence/Machine Learning solutions to aid service improvement and/or decision-making for a project or organization. This experience must include **ALL** of the following:
-
-- Building impactful solutions that utilize machine learning/AI techniques such as supervised learning (e.g. predictive analytics, classification), unsupervised learning, natural language processing, and/or deep learning 
-- Working with common open source software languages, machine learning packages, and distributed computing technologies (e.g. Python, Spark, scikit-learn, Tensorflow, pyTorch, Keras)
-- Building end-to-end software pipelines to execute machine learning/AI solutions, preferably in the cloud environment (e.g. AWS stack, Apache Kafka, Logstash, etc.)
-- Implementing best practices for AI lifecycle management, monitoring tools for production quality continuous development of models, and machine learning operations (e.g., “MLOps” design, MLFlow, Kubeflow, Pachyderm)
-- Analyzing the advantages and disadvantages of applying AI/Machine Learning and articulating the tradeoff analysis to technical and non-technical audiences
-
+5. Experience applying leading industry practices in the design, development and delivery of digital products or services. This experience must include **ONE** of the following:
+- Developing digital products or services using experimentation based frameworks
+- Developing digital products or services using iterative development methodologies
+- Developing digital products or services using user-centered design and planning tools
+- Developing digital products or services using continuous delivery methodologies
 
 Qualification determinations cannot be made when resumes do not include the required information, so failure to provide this information may result in disqualification.
 
