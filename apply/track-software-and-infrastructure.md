@@ -87,7 +87,7 @@ Excepted Service: Initial appointment 12 months and 1 day and may be extended as
 
 ### {{ page.role_name }} - GS-{{ page.gs_level }}
 
-Presidential Innovation Fellows (PIF) is a renowned fellowship program that pairs mid-to-senior-level entrepreneurs, executives, and technologists of all kinds with top civil servants and change-makers working within the federal government to tackle some of our nation’s biggest challenges. Fellows are embedded within agencies as entrepreneurs-in-residence for 12-24 month engagements working on mission-critical problems, shaping smarter policy and/or advancing equitable  technology for public good.
+Presidential Innovation Fellows (PIF) is a renowned fellowship program that pairs mid-to-senior-level entrepreneurs, executives, and technologists of all kinds with civil servants and change-makers working within the federal government to tackle some of our nation’s biggest challenges. Fellows are embedded within agencies as entrepreneurs-in-residence for 12-24 month engagements working on mission-critical problems, shaping smarter policy and/or advancing equitable  technology for public good.
 
 Since the program was launched in 2012 by former U.S. CTO Todd Park, [193 Fellows](https://presidentialinnovationfellows.gov/fellows/) have worked with over [45 agencies](https://presidentialinnovationfellows.gov/agencies/). Our Fellows join us from big tech, startups, academia, and more. Our Fellows come from diverse backgrounds and have a wide range of skills, but they share compassion, excellence, and dedication.  Past fellows’ projects have focused on improving care and access to benefits for our veterans, re-imagining cancer clinical trials to increase awareness and access for patients, advancing digital health platforms and diagnostics to combat COVID-19, ensuring AI tools are not biased against job seekers with disabilities, and creating a central digital location to share and improve outcomes for children within the foster care system.
 
@@ -108,12 +108,12 @@ The characteristics that we look for in Fellows, include:
 - Ability to describe esoteric and highly technical solutions to non-technical stakeholders
 
 ### Empathy and Emotional Intelligence:
-- High degree of emotional intelligence. A quick study, who intuitively knows what needs to get done to deliver with - integrity
+- High degree of emotional intelligence. A quick study, who intuitively knows what needs to get done to deliver with integrity.
 - Comfort in ambiguity. Able to build relationships, continually define and scope opportunities independently, and maintain focus and momentum as priorities shift.
-- Experience in client-facing roles, navigating bureaucracy, business development and delivering services with a strong - user-facing or consumer-oriented element
-- Coalition builder with the ability to persuade and convince others to think about solutions in new and creative ways
-- Ability to work with humility and empathy; bring together diverse co-creators; address power dynamics; and co-define - challenges and ideate with community members (i.e. the public).
-- Ability to know when you need to show and when you need to tell
+- Experience in client-facing roles, navigating bureaucracy, business development and delivering services with a strong user-facing or consumer-oriented element.
+- Coalition builder with the ability to persuade and convince others to think about solutions in new and creative ways.
+- Ability to work with humility and empathy; bring together diverse co-creators; address power dynamics; and co-define challenges and ideate with community members (i.e. the public).
+- Ability to know when you need to show and when you need to tell.
 
 ### Leadership:
 - Mid-senior/executive career professional experience working in your area
