@@ -115,7 +115,7 @@ The characteristics that we look for in Fellows, include:
 - Ability to work with humility and empathy; bring together diverse co-creators; address power dynamics; and co-define - challenges and ideate with community members (i.e. the public).
 - Ability to know when you need to show and when you need to tell
 
-### Leadership
+### Leadership:
 - Mid-senior/executive career professional experience working in your area
 - Demonstrated experience leading stakeholders through change where you don’t have explicit authority
 - Ability to be a thought leader and contribute best practices in a variety of technologies and business areas
