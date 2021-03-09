@@ -52,16 +52,6 @@ layout: default
 
 <!-- search -->
 <script type="text/javascript">
-function fakeSlugify (str) {
-    str = str.replace(/^\s+|\s+$/g, ''); // trim
-    str = str.toLowerCase();
-    str = str.replace(/\s+/g, '-') // collapse whitespace and replace by -
-        .replace(/-+/g, '-'); // collapse dashes
-    return str;
-}
-  var searchbox = document.getElementById('fellows-search-input');
-  var searchInput = document.getElementById('fellows-search-input'); // Found in fellow-filters.html
-  var resultsContainer = document.getElementById('fellow-search-results');
   var fellowsJson = [{% for fellow in site.fellows %}
         {
           "title"    : "{{ fellow.title | escape }}",
@@ -83,102 +73,7 @@ function fakeSlugify (str) {
     - Template syntax: https://github.com/christian-fei/Simple-Jekyll-Search/wiki#searchresulttemplate-string-optional
   ***/
   var searchResultTemplate = '<div class="fellow-card desktop:grid-col-3 tablet:grid-col-6"><a href="{url}"><div class="usa-prose fellow-img"><img src="{image_path}" class="circle-card" alt="{title}"/></div><div><h2 class="body-intro--bold">{title}</h2><p class="fellow-card--specialty">{specialty}</p><p class="content">{content}</p></a><p><span class="fellow-card--fellow-year">{fellow_year}</span>{linkedin}{twitter}</p></div></div>';
-  var searchInputDummy = {addEventListener: () => {}};
-  var sjs = SimpleJekyllSearch({
-    searchInput: searchInputDummy,
-    resultsContainer: resultsContainer,
-    json: fellowsJson,
-    searchResultTemplate: searchResultTemplate
-  });
-  var inFellowSearch = false;
-  var defaultList = document.getElementById("fellow-search-default");
-    
-  var yearSelect = document.getElementById("fellows-select-year");
-  var skillSelect = document.getElementById("fellows-select-skill");
-
-  resetFilters= () => {
-    yearSelect.value="";
-    skillSelect.value="";
-    window.history.replaceState({}, '', "{{site.baseurl}}/fellows"); 
-  };
-  
-  searchbox.addEventListener('focus', () => {
-    sjs = SimpleJekyllSearch({
-      searchInput: searchInput,
-      resultsContainer: resultsContainer,
-      json: fellowsJson,
-      searchResultTemplate: searchResultTemplate
-    });
-    resetFilters();
-  });
-
-  /*** show initial list after search is over ***/
-  searchbox.addEventListener('keyup', function() {
-    if (searchInput.value.trim().length && !inFellowSearch) {
-      sjs.search(searchInput.value.trim());
-      inFellowSearch = true;
-      defaultList.style.display = "none";
-    }
-    if (!searchInput.value.trim().length && inFellowSearch) {
-      inFellowSearch = false;
-      defaultList.style.display = "block";
-    }
-  });
-  
-  // wwe need to track both the filters by way of the URL so that if someone shares the path, we can render the right results
-  const buildPath = () => {
-    const base = "{{site.baseurl}}/fellows";
-    const subpage = yearSelect.value ? `/${yearSelect.value}` : ''; // years are rendered as pages because fellows are a Jekyll collection (defined in config.yml)
-    const querystring = skillSelect.value ? `?specialty=${fakeSlugify(skillSelect.value)}` : '';
-    return base + subpage + querystring;
-  };
-  
-  // get year from pathname
-  var curYearMatch = window.location.pathname.match(/([\d])\w+/g);
-  if (curYearMatch) yearSelect.value = curYearMatch[0];
-
-  yearSelect.addEventListener('change', (e) => {
-    if (e.target.value) {
-      let json = fellowsJson.filter(fellow => fellow.fellow_year === e.target.value);
-      if (skillSelect.value) {
-        json = json.filter(fellow => fellow.specialty === skillSelect.value);
-      }
-      sjs = SimpleJekyllSearch({
-        searchInput:  searchInputDummy,
-        resultsContainer: resultsContainer,
-        json: json,
-        searchResultTemplate: searchResultTemplate
-      });
-      console.log(json);
-      sjs.search(e.target.value);
-      window.history.replaceState({}, '', buildPath());
-      defaultList.style.display = "none";
-    } else {
-      defaultList.style.display = "block";
-    }
-  })
-  
-  /*** respond to fellow skill dropdown ***/
-  skillSelect.addEventListener('change', function(e) {
-    if (e.target.value) {
-      let json = fellowsJson.filter(fellow => fellow.specialty === e.target.value);
-      if (yearSelect.value) {
-        json = json.filter(fellow => fellow.fellow_year === yearSelect.value);
-      }
-      sjs = SimpleJekyllSearch({
-        searchInput:  searchInputDummy,
-        resultsContainer: resultsContainer,
-        json: json,
-        searchResultTemplate: searchResultTemplate
-      });
-      console.log(json);
-      sjs.search(e.target.value);
-      // reset the fellows year filter when skill is chosen
-      // yearSelect.value = "";
-      window.history.replaceState({}, '', buildPath());
-      defaultList.style.display = "none";
-    } else {
-      defaultList.style.display = "block";
-    }
-  });
+  const siteBaseurl = "{{ site.baseurl }}";
 </script>
+
+{% asset filters.js %}
