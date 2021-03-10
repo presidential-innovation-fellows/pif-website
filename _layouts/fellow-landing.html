@@ -52,13 +52,7 @@ layout: default
 
 <!-- search -->
 <script type="text/javascript">
-  var searchInput = document.getElementById('fellows-search-input'); // Found in fellow-filters.html
-  var resultsContainer = document.getElementById('fellow-search-results');
-  var sjs = SimpleJekyllSearch({
-    searchInput: searchInput,
-    resultsContainer: resultsContainer,
-    json: [
-      {% for fellow in site.fellows %}
+  var fellowsJson = [{% for fellow in site.fellows %}
         {
           "title"    : "{{ fellow.title | escape }}",
           "category" : "{{ fellow.category }}",
@@ -94,7 +88,7 @@ layout: default
       defaultList.style.display = "block";
     }
   });
-  
+
   /*** respond to fellow skill dropdown ***/
   var skillSelect = document.getElementById("fellows-select-skill");
   skillSelect.addEventListener('change', function(e) {
@@ -106,3 +100,5 @@ layout: default
     }
   });
 </script>
+
+{% asset filters.js %}
