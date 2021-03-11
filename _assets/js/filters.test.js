@@ -1,3 +1,8 @@
+/* Running tests:
+ * cd _assets/js
+ * yarn install
+ * yarn test --watch
+*/
 let filters, searchbox, searchInput, resultsContainer, inFellowSearch, defaultList, yearSelect, skillSelect, searchInputDummy, mockedSearch;
 
 describe('test that filters return correct data', () => {
@@ -74,15 +79,14 @@ describe('test that filters return correct data', () => {
   });
   
   it('searchbox values can be reset correctly', () => {
-    inFellowSearch = true;
     searchInput.value = 'nonsense';
     filters.resetSearch();
-    // expect(inFellowSearch).toEqual(false);
     expect(searchInput.value).toEqual('');
   });
   
   it('searchbox responds to search terms', () => {
     searchInput.value = "front end development";
+    // focus listener triggers the SimpleJekyllSearch object binding
     const event = new Event('focus');
     searchbox.dispatchEvent(event);
     filters.respondToSearchbox(searchInput.value);
@@ -100,7 +104,6 @@ describe('test that filters return correct data', () => {
   it('year select filters by year only when year is set', () => {
     yearSelect.value = '2020';
     skillSelect.value = '';
-    // let returnedJson = filters.respondToYearSelect('2020')
     let returnedJson = filters.respondToSelect([ {propertyName: 'fellow_year', value: '2020'} ]);
     expect(window.history.replaceState).toHaveBeenCalledWith({}, '', 'expected-baseurl/fellows/2020');
     expect(defaultList.style.display).toEqual('none');;
@@ -115,7 +118,6 @@ describe('test that filters return correct data', () => {
   it('year select filters by year and skill when both are set', () => {
     yearSelect.value = '2020';
     skillSelect.value = "front end development";
-    // let returnedJson = filters.respondToYearSelect('2020');
     let returnedJson = filters.respondToSelect([
       { propertyName: 'fellow_year', value: '2020' },
       { propertyName: 'specialty', value: 'front end development' }
@@ -140,7 +142,6 @@ describe('test that filters return correct data', () => {
   it('year select triggers a search by skill only when the year is unset', () => {
     yearSelect.value = '';
     skillSelect.value = "product management";
-    // let returnedJson = filters.respondToYearSelect('');
     let returnedJson = filters.respondToSelect([{ propertyName: 'specialty', value: 'product management' }]);
     expect(defaultList.style.display).toEqual('none');
     expect(window.history.replaceState).toHaveBeenCalledWith({}, '', 'expected-baseurl/fellows?specialty=product%20management');
@@ -154,7 +155,6 @@ describe('test that filters return correct data', () => {
   it('year select returns complete JSON when neither filter is set', () => {
     yearSelect.value = '';
     skillSelect.value = '';
-    // let returnedJson = filters.respondToYearSelect('');
     let returnedJson = filters.respondToSelect([]);
     expect(defaultList.style.display).toEqual('block');
     expect(window.history.replaceState).toHaveBeenCalledWith({}, '', 'expected-baseurl/fellows');
@@ -170,7 +170,6 @@ describe('test that filters return correct data', () => {
   it('skill select filters by skill only when skill is set', () => {
     yearSelect.value = '';
     skillSelect.value = "product management";
-    // let returnedJson = filters.respondToSkillSelect('product management');
     let returnedJson = filters.respondToSelect([{ propertyName: 'specialty', value: 'product management' }]);
     expect(defaultList.style.display).toEqual('none');
     expect(window.history.replaceState).toHaveBeenCalledWith({}, '', 'expected-baseurl/fellows?specialty=product%20management');
@@ -184,7 +183,6 @@ describe('test that filters return correct data', () => {
   it('skill select filters by skill and year when both are set', () => {
     yearSelect.value = '2020';
     skillSelect.value = 'product management';
-    // let returnedJson = filters.respondToSkillSelect('product management');
     let returnedJson = filters.respondToSelect([
       { propertyName: 'specialty', value: 'product management' },
       { propertyName: 'fellow_year', value: '2020'}
@@ -198,7 +196,6 @@ describe('test that filters return correct data', () => {
   it('skill select triggers a search by year only when skill is unset', () => {
     yearSelect.value = '2020';
     skillSelect.value = '';
-    // let returnedJson = filters.respondToSkillSelect('');
     let returnedJson = filters.respondToSelect([ {propertyName: 'fellow_year', value: '2020'} ]);
     expect(defaultList.style.display).toEqual('none');
     expect(window.history.replaceState).toHaveBeenCalledWith({}, '', 'expected-baseurl/fellows/2020');
@@ -213,7 +210,6 @@ describe('test that filters return correct data', () => {
   it('skill select returns complete JSON when neither filter is set', () => {
     yearSelect.value = '';
     skillSelect.value = '';
-    // let returnedJson = filters.respondToSkillSelect('');
     let returnedJson = filters.respondToSelect([]);
     expect(defaultList.style.display).toEqual('block');
     expect(window.history.replaceState).toHaveBeenCalledWith({}, '', 'expected-baseurl/fellows');

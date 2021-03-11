@@ -73,6 +73,7 @@ searchbox.addEventListener('focus', () => {
     json: fellowsJson,
     searchResultTemplate: searchResultTemplate
   });
+  // We can't search in a way that takes the filters into account, so set them back to "all"
   resetFilters();
 });
 
