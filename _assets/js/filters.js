@@ -5,8 +5,10 @@ var inFellowSearch = false;
 var defaultList = document.getElementById("fellow-search-default");
 var yearSelect = document.getElementById("fellows-select-year");
 var skillSelect = document.getElementById("fellows-select-skill");
-var searchInputDummy = {addEventListener: () => {}}; // in order to filter the JSON blob correctly and have both the search and the filters work as expected, we need to not bind the initial SJS instance to the actual search input.
-
+/* In order to filter the JSON blob correctly later and have both the search
+and the filters work as expected, we need to not bind the filters' SJS instance
+to the actual search input. */
+var searchInputDummy = {addEventListener: () => {}}; 
 
 let sjs = SimpleJekyllSearch({
   searchInput:  searchInputDummy,
@@ -18,13 +20,13 @@ let sjs = SimpleJekyllSearch({
 // Set filters based on path during page load
 const parseURL = () => {
   let json = fellowsJson;
-  // Since the year data is part of its own page, we don't need to worry about doing a search just for that
+
   var curYearMatch = window.location.pathname.match(/([\d])\w+/g);
   if (curYearMatch) {
     yearSelect.value = curYearMatch[0];
     json = json.filter(fellow => fellow.fellow_year === curYearMatch[0]);
   }
-  // Skills do need an explicit search because they're not their own Jekyll collection
+
   var params = new URLSearchParams(window.location.search);
   const curSkillMatch = params.getAll('specialty')[0];;
   
@@ -37,13 +39,17 @@ const parseURL = () => {
       json: json,
       searchResultTemplate: searchResultTemplate
     });
+    /* Since the year data is part of its own page/Jekyll collection,
+     * we can rely on redirecting to the appropriate fellows/[year] page 
+     * and don't need to worry about triggering an SJS search for year. 
+     * But we do need to trigger SJS if there's a specialty in the query string. */
     sjs.search(curSkillMatch);
     defaultList.style.display = "none";
   }
-  return json; // for testing
+  return json; // used in filters.tests.js
 }
+// Call the parseURL function immediately on page load. Could also be an IIFE.
 parseURL();
-
 
 const resetFilters = () => {
   yearSelect.value="";
@@ -52,16 +58,15 @@ const resetFilters = () => {
   defaultList.style.display = "block";
 };
 
-
 const resetSearch = () => {
   inFellowSearch = false;
   searchInput.value = '';
-  //defaultList.style.display = "block";
 };
 
-// When the searchbox is focused, create a new instance of SJS with access to the full fellows JSON blob and clear any filter choices.
+/* When the searchbox is focused, create a new instance of SJS with access
+ * to the full fellows JSON blob and clear any filter choices. 
+ * We also bind this SJS instance to the actual search input element. */
 searchbox.addEventListener('focus', () => {
-  // searchbox needs to be connected to the entire JSON results blob
   sjs = SimpleJekyllSearch({
     searchInput: searchInput,
     resultsContainer: resultsContainer,
@@ -71,17 +76,21 @@ searchbox.addEventListener('focus', () => {
   resetFilters();
 });
 
-/*** show initial list after search is over ***/
-searchbox.addEventListener('keyup', function() {
-  if (searchInput.value.trim().length && !inFellowSearch) {
-    sjs.search(searchInput.value.trim());
+const respondToSearchbox = (searchterm) => {
+  if (searchterm.length && !inFellowSearch) {
+    sjs.search(searchterm);
     inFellowSearch = true;
     defaultList.style.display = "none";
   }
-  if (!searchInput.value.trim().length && inFellowSearch) {
+  if (!searchterm.length && inFellowSearch) {
     inFellowSearch = false;
+    // show initial list after search is over
     defaultList.style.display = "block";
   }
+}
+
+searchbox.addEventListener('keyup', () => {
+  respondToSearchbox(searchInput.value.trim());
 });
 
 // we need to track both the filters by way of the URL so that if someone shares the path, we can render the right results
@@ -92,7 +101,6 @@ const buildPath = () => {
   return base + subpage + querystring;
 };
 
-// TODO: Test
 const doSJS = (json, searchterm) => {
   sjs = SimpleJekyllSearch({
     searchInput:  searchInputDummy,
@@ -103,58 +111,70 @@ const doSJS = (json, searchterm) => {
   sjs.search(searchterm); 
 };
 
-const respondToYearSelect = (value) => {
+/**** respondToSelect takes an object that looks like this:
+ * filtersToSet = [
+ * {propertyName: 'name of primary fellowsJson property to filter on', value: 'value from input'},
+ * {propertyName: 'secondary fellowsJson property', value: 'value from secondary input'}
+ * ]
+ * The "primary filter" is the one that triggered the event listener.
+ * The "secondary filter" is the other filter, which must also be checked for a value.
+ *
+ * Theoretically there could be multiple secondary filters, but this code doesn't quite support that.
+ * (Namely, the value passed to doSJS() assumes there are only two filters. See tests.)
+ * Note that it is possible for the primary property to be undefined. This happens when someone
+ * has filtered by both year and specialty, and then sets one of them back to "all." In this case,
+ * the array will have only one object in it, and that object will be the secondary filter.
+****/
+const respondToSelect = (filtersToSet) => {
   let json = fellowsJson;
-  if (value) {
-    json = json.filter(fellow => fellow.fellow_year === value);
-    if (skillSelect.value) {
-      json = json.filter(fellow => fellow.specialty === skillSelect.value);
-    }
-    doSJS(json, value);
+  if (filtersToSet.length) {
+    filtersToSet.forEach(filter => {
+      json = json.filter(fellow => fellow[filter.propertyName] === filter.value);
+    });
+    doSJS(json, filtersToSet[0].value); // if there are multiple values, filter on the first value.
     defaultList.style.display = "none";
   } else {
-    if (skillSelect.value) {
-      json = fellowsJson.filter(fellow => fellow.specialty === skillSelect.value);
-      doSJS(json, skillSelect.value);
-    } else {
-      defaultList.style.display = "block";
-    }
+    defaultList.style.display = "block";
   }
   window.history.replaceState({}, '', buildPath());
   return json; // for testing
 };
 
-const respondToSkillSelect = (value) => {
-  let json = fellowsJson;
-  if (value) {
-    json = json.filter(fellow => fellow.specialty === value);
-    if (yearSelect.value) {
-      json = json.filter(fellow => fellow.fellow_year === yearSelect.value);
-    }
-    doSJS(json, value);
-    defaultList.style.display = "none";
+const buildYearFilterObject = () => {
+  if (yearSelect.value) {
+    return { propertyName: 'fellow_year', value: yearSelect.value }
   } else {
-      if (yearSelect.value) {
-      json = fellowsJson.filter(fellow => fellow.fellow_year === yearSelect.value);
-      doSJS(json, yearSelect.value);
-    } else {
-      defaultList.style.display = "block";
-    }
+    return;
   }
-  window.history.replaceState({}, '', buildPath());
-  return json;
-};
+}
+
+const buildSkillFilterObject = () => {
+  if (skillSelect.value) {
+    return { propertyName: 'specialty', value: skillSelect.value }
+  } else {
+    return;
+  }
+}
 
 yearSelect.addEventListener('change', (e) => {
   resetSearch();
-  respondToYearSelect(e.target.value);
+  let filtersToSet = [];
+  // the first filter needs to match the select
+  filtersToSet.push(buildYearFilterObject());
+  filtersToSet.push(buildSkillFilterObject());
+  respondToSelect(filtersToSet.filter(item => item !== undefined));
 });
 
 skillSelect.addEventListener('change', (e) => {
   resetSearch();
-  respondToSkillSelect(e.target.value);
+  let filtersToSet = [];
+  // the first filter needs to match the select
+  filtersToSet.push(buildSkillFilterObject());
+  filtersToSet.push(buildYearFilterObject());
+  respondToSelect(filtersToSet.filter(item => item !== undefined));
 });
 
+// exports for tests in filters.test.js
 try {
   if (process.env.JEST_WORKER_ID !== undefined) {
     module.exports = {
@@ -170,9 +190,11 @@ try {
       buildPath,
       resetFilters,
       resetSearch,
-      respondToYearSelect,
-      respondToSkillSelect,
-      doSJS
+      doSJS,
+      respondToSelect,
+      respondToSearchbox
     }
   }
-} catch {};
+} catch {
+  // triggering the catch means we're in a prod environment, so don't do anything
+};

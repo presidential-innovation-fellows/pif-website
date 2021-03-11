@@ -63,7 +63,6 @@ describe('test that filters return correct data', () => {
   });
 
   it('filters can be reset correctly', () => {
-    // console.log({global})
     yearSelect.value = "2020";
     skillSelect.value = "clowning";
     defaultList.style.display = "none";
@@ -82,6 +81,15 @@ describe('test that filters return correct data', () => {
     expect(searchInput.value).toEqual('');
   });
   
+  it('searchbox responds to search terms', () => {
+    searchInput.value = "front end development";
+    const event = new Event('focus');
+    searchbox.dispatchEvent(event);
+    filters.respondToSearchbox(searchInput.value);
+    expect(mockedSearch).toHaveBeenCalledWith(searchInput.value);
+    expect(defaultList.style.display).toEqual('none');
+  });
+  
   it('filter values render correct page path', () => {
     skillSelect.value = "front end development";
     yearSelect.value = '2020';
@@ -92,7 +100,8 @@ describe('test that filters return correct data', () => {
   it('year select filters by year only when year is set', () => {
     yearSelect.value = '2020';
     skillSelect.value = '';
-    let returnedJson = filters.respondToYearSelect('2020')
+    // let returnedJson = filters.respondToYearSelect('2020')
+    let returnedJson = filters.respondToSelect([ {propertyName: 'fellow_year', value: '2020'} ]);
     expect(window.history.replaceState).toHaveBeenCalledWith({}, '', 'expected-baseurl/fellows/2020');
     expect(defaultList.style.display).toEqual('none');;
     expect(returnedJson).toEqual([
@@ -100,12 +109,17 @@ describe('test that filters return correct data', () => {
       { specialty: 'front end development', fellow_year: '2020' },
       { specialty: 'back end development', fellow_year: '2020' }
     ]);
+    expect(mockedSearch).toHaveBeenCalledWith('2020');
   });
 
   it('year select filters by year and skill when both are set', () => {
     yearSelect.value = '2020';
     skillSelect.value = "front end development";
-    let returnedJson = filters.respondToYearSelect('2020');
+    // let returnedJson = filters.respondToYearSelect('2020');
+    let returnedJson = filters.respondToSelect([
+      { propertyName: 'fellow_year', value: '2020' },
+      { propertyName: 'specialty', value: 'front end development' }
+    ]);
     expect(defaultList.style.display).toEqual('none');
     expect(window.history.replaceState).toHaveBeenCalledWith({}, '', 'expected-baseurl/fellows/2020?specialty=front%20end%20development');
     expect(returnedJson).toEqual([{ specialty: 'front end development', fellow_year: '2020' }]);
@@ -126,19 +140,22 @@ describe('test that filters return correct data', () => {
   it('year select triggers a search by skill only when the year is unset', () => {
     yearSelect.value = '';
     skillSelect.value = "product management";
-    let returnedJson = filters.respondToYearSelect('');
+    // let returnedJson = filters.respondToYearSelect('');
+    let returnedJson = filters.respondToSelect([{ propertyName: 'specialty', value: 'product management' }]);
     expect(defaultList.style.display).toEqual('none');
     expect(window.history.replaceState).toHaveBeenCalledWith({}, '', 'expected-baseurl/fellows?specialty=product%20management');
     expect(returnedJson).toEqual([
       { specialty: 'product management', fellow_year: '2021' },
       { specialty: 'product management', fellow_year: '2020' }
     ]);
+    expect(mockedSearch).toHaveBeenCalledWith('product management');
   });
   
   it('year select returns complete JSON when neither filter is set', () => {
     yearSelect.value = '';
     skillSelect.value = '';
-    let returnedJson = filters.respondToYearSelect('');
+    // let returnedJson = filters.respondToYearSelect('');
+    let returnedJson = filters.respondToSelect([]);
     expect(defaultList.style.display).toEqual('block');
     expect(window.history.replaceState).toHaveBeenCalledWith({}, '', 'expected-baseurl/fellows');
     expect(returnedJson).toEqual([
@@ -147,33 +164,42 @@ describe('test that filters return correct data', () => {
       { specialty: 'front end development', fellow_year: '2020' },
       { specialty: 'back end development', fellow_year: '2020' } 
     ]);
+    expect(mockedSearch).not.toHaveBeenCalled();
   });
   
   it('skill select filters by skill only when skill is set', () => {
     yearSelect.value = '';
     skillSelect.value = "product management";
-    let returnedJson = filters.respondToSkillSelect('product management');
+    // let returnedJson = filters.respondToSkillSelect('product management');
+    let returnedJson = filters.respondToSelect([{ propertyName: 'specialty', value: 'product management' }]);
     expect(defaultList.style.display).toEqual('none');
     expect(window.history.replaceState).toHaveBeenCalledWith({}, '', 'expected-baseurl/fellows?specialty=product%20management');
     expect(returnedJson).toEqual([
       { specialty: 'product management', fellow_year: '2021' },
       { specialty: 'product management', fellow_year: '2020' } 
     ]);
+    expect(mockedSearch).toHaveBeenCalledWith('product management');
   });
     
   it('skill select filters by skill and year when both are set', () => {
     yearSelect.value = '2020';
     skillSelect.value = 'product management';
-    let returnedJson = filters.respondToSkillSelect('product management');
+    // let returnedJson = filters.respondToSkillSelect('product management');
+    let returnedJson = filters.respondToSelect([
+      { propertyName: 'specialty', value: 'product management' },
+      { propertyName: 'fellow_year', value: '2020'}
+    ]);
     expect(defaultList.style.display).toEqual('none');
     expect(window.history.replaceState).toHaveBeenCalledWith({}, '', 'expected-baseurl/fellows/2020?specialty=product%20management');
     expect(returnedJson).toEqual([{ specialty: 'product management', fellow_year: '2020' }]);
+    expect(mockedSearch).toHaveBeenCalledWith('product management');
   });
   
   it('skill select triggers a search by year only when skill is unset', () => {
     yearSelect.value = '2020';
     skillSelect.value = '';
-    let returnedJson = filters.respondToSkillSelect('');
+    // let returnedJson = filters.respondToSkillSelect('');
+    let returnedJson = filters.respondToSelect([ {propertyName: 'fellow_year', value: '2020'} ]);
     expect(defaultList.style.display).toEqual('none');
     expect(window.history.replaceState).toHaveBeenCalledWith({}, '', 'expected-baseurl/fellows/2020');
     expect(returnedJson).toEqual([
@@ -181,13 +207,14 @@ describe('test that filters return correct data', () => {
       { specialty: 'front end development', fellow_year: '2020' },
       { specialty: 'back end development', fellow_year: '2020' } 
     ]);
-
+    expect(mockedSearch).toHaveBeenCalledWith('2020');
   });
   
   it('skill select returns complete JSON when neither filter is set', () => {
     yearSelect.value = '';
     skillSelect.value = '';
-    let returnedJson = filters.respondToSkillSelect('');
+    // let returnedJson = filters.respondToSkillSelect('');
+    let returnedJson = filters.respondToSelect([]);
     expect(defaultList.style.display).toEqual('block');
     expect(window.history.replaceState).toHaveBeenCalledWith({}, '', 'expected-baseurl/fellows');
     expect(returnedJson).toEqual([
@@ -196,6 +223,7 @@ describe('test that filters return correct data', () => {
       { specialty: 'front end development', fellow_year: '2020' },
       { specialty: 'back end development', fellow_year: '2020' } 
     ]);
+    expect(mockedSearch).not.toHaveBeenCalled();
   });
   
   describe('testing URL string parsing', () => {
@@ -210,6 +238,8 @@ describe('test that filters return correct data', () => {
       expect(yearSelect.value).toEqual('2020');
       expect(skillSelect.value).toEqual('front end development');
       expect(returnedJson).toEqual([{ specialty: 'front end development', fellow_year: '2020' }]);
+      expect(mockedSearch).toHaveBeenCalledWith('front end development');
+      expect(defaultList.style.display).toEqual('none');
     });
   });
 });
