@@ -14,6 +14,11 @@ order: 10
 redirect_from:
   - /projects/defense-innovation.html
   - /newprojects/defense-innovation.html
+fellows:
+  - name: "Michael Brown"
+    year: "2016"
+    image: "michael-brown-headshot.jpg"
+    url: "/fellows/michael-brown/"
 ---
 
 In 2017, Presidential Innovation Fellow Michael Brown [co-authored](https://admin.govexec.com/media/diux_chinatechnologytransferstudy_jan_2018_(1).pdf "Read: Defense Innovation Unit Experimental (DIUx)

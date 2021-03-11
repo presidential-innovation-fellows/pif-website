@@ -12,7 +12,23 @@ project_link: https://allofus.nih.gov/
 status: "past"
 redirect_from:
   - /newprojects/all-of-us.html
-
+fellows:
+  - name: "Soni Meckem"
+    year: "2019"
+    image: "soni-meckem-headshot.jpg"
+    url: "/fellows/soni-meckem/"
+  - name: "Adele Luta"
+    year: "2019"
+    image: "adele-luta-headshot.jpg"
+    url: "/fellows/adele-luta/"
+  - name: "Georgeta Dragoiu"
+    year: "2019"
+    image: "georgeta-dragoiu-headshot.jpg"
+    url: "/fellows/georgeta-dragoiu/"
+  - name: "Michelle Holko"
+    year: "2020"
+    image: "michelle-holko-headshot.jpg"
+    url: "/fellows/michelle-holko/"
 ---
 
 The All of Us Research Program at the National Institutes of Health (NIH) is building an engagement and digital data platform, enabling thousands of studies on what will be one of the world’s largest, most diverse biomedical data sets. All of Us will engage one million or more U.S. volunteers of all life stages, health statuses, races/ethnicities, geographic regions, etc., reflecting the rich diversity of America.

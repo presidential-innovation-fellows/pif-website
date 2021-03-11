@@ -3,9 +3,9 @@ id: nga-cto
 agency: "National Geospatial-Intelligence Agency"
 agency_abbrev: "NGA"
 agency_logo: "NGA.png"
-title: "Developing and delivering products at NGA"
-summary: "NGA’s Human Development Directorate through strategic and collective partnerships, creates, leads and sustains a dynamic human capital system that is in alignment with the Agency’s culture and business strategy.  We design and implement policies and programs to attract, support, develop and retain a diverse and highly capable workforce.  We provide advice, consultation and a positive influence on the execution of human capital programs to leverage human talent and knowledge to its fullest potential."
-subtitle: "How can we help NGA deliver products and services, as well as help develop a strong product organization within NGA. "
+title: "Developing and delivering products at National Geospatial-Intelligence Agency"
+summary: "Helping to create a strong product and user experience design culture at NGA"
+subtitle: "How can we help NGA deliver products and services, as well as help develop a strong product organization within NGA."
 partner_description: "The National Geospatial-Intelligence Agency (NGA) delivers world-class geospatial intelligence that provides a decisive advantage to policymakers, warfighters, intelligence professionals and first responders. Anyone who sails a U.S. ship, flies a U.S. aircraft, makes national policy decisions, fights wars, locates targets, responds to natural disasters, or even navigates with a cellphone relies on NGA. NGA enables all of these critical actions and shapes decisions that impact our world through the indispensable discipline of geospatial intelligence (GEOINT)."
 project_link: https://www.nga.mil
 status: "current"
