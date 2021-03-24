@@ -28,7 +28,7 @@ supervisory_status: 'No'
 ---
 
 {% if page.state != 'open' %}
-The target date for when this position will be officially open to application has not yet been determined. If you'd like to be notified when this position is open, sign up to our [mailing list](https://join.tts.gsa.gov/newsletter/). Check out [Join TTS Hiring Process]({{site.baseurl}}/hiring-process/) to learn more about the application process.
+The target date for when this position will be officially open to application has not yet been determined. If you'd like to be notified when this position is open, sign up to our [mailing list](https://join.tts.gsa.gov/newsletter/). Check out [Join TTS Hiring Process](https://join.tts.gsa.gov/hiring-process/) to learn more about the application process.
 {% else %}
 
 # {{ page.track_name }}
