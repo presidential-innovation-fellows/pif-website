@@ -191,7 +191,7 @@ Analyzing and scoping the technical and policy requirements needed to implement 
 
 ## Qualifications
 
-All applications will be reviewed by a panel of subject matter experts against a scoring rubric created for this role. In order to properly be able to evaluate your previous experience, we recommend being as detailed as possible in your resume. We also recommend reviewing and following our general resume guidance, which provides helpful examples of the level of detail that is expected.
+All applications will be reviewed by a panel of subject matter experts against a scoring rubric created for this role. In order to properly be able to evaluate your previous experience, we recommend being as detailed as possible in your resume. We also recommend reviewing and following [our general resume guidance](https://join.tts.gsa.gov/resume/), which provides helpful examples of the level of detail that is expected.
 
 To qualify for this role, you must have one year of specialized experience equivalent to the GS-14 or higher in the Federal service. Specialized experience is:
 
