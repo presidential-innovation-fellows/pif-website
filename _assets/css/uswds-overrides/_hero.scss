@@ -1,5 +1,5 @@
 .usa-hero {
-  background-image: url(asset_path('highlight-fellows-nasa-bw--cropped.jpg'));
+  background-image: url(asset_path("highlight-fellows-nasa-bw--cropped.jpg"));
   background-position: 50% 25%;
   background-size: cover;
   padding: 0;
@@ -62,28 +62,32 @@
 
 .home .usa-hero {
   @include hero-short;
-  background-image: url(asset_path('hero-pif.jpg'));
+  background-image: url(asset_path("hero-pif.jpg"));
 }
 .about .usa-hero {
   @include hero-short;
-  background-image: url(asset_path('banner-design-users-bw.jpg'));
+  background-image: url(asset_path("banner-design-users-bw.jpg"));
   background-position: center right 15%;
 }
 .fellows .usa-hero {
   @include hero-short;
-  background-image: url(asset_path('banner-homecoming-eeob-bw.jpg'));
+  background-image: url(asset_path("banner-homecoming-eeob-bw.jpg"));
 }
 .agencies .usa-hero {
   @include hero-short;
-  background-image: url(asset_path('banner-orientation-acq-bw.jpg'));
+  background-image: url(asset_path("banner-orientation-acq-bw.jpg"));
   background-position: center right 15%;
 }
 .apply .usa-hero {
   @include hero-short;
-  background-image: url(asset_path('banner-capitol-bw.jpg'));
+  background-image: url(asset_path("banner-capitol-bw.jpg"));
 }
 .usa-hero.project {
   @include hero-short;
-  background-image: url(asset_path('banner-orientation-eeob-bw.jpg'));
+  background-image: url(asset_path("banner-orientation-eeob-bw.jpg"));
   background-position: top left 15%;
+}
+.usa-hero.faq {
+  @include hero-short;
+  background-position: 0px 45%;
 }

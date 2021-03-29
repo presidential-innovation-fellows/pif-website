@@ -7,10 +7,11 @@ The home page uses wide.html layout, since it extends full width of page
 
 <html lang="en">
 
-{% include_cached meta.html title=page.title %}
+{% include_cached meta.html title=page.title description_apply=page.description_apply %}
 
-{% assign page_id = page.url | remove:'/index.html' | split: '/' %}
-<body class="{% if page_id %}{{ page_id }}{% else %}home{% endif %}">
+{% assign pageid = page.url | remove: '/index.html' | split: '/' %}
+<body class="{% if pageid %}{{ pageid }}{% else %}home{% endif %}">
+
   <a class="skipnav" href="#main-content">Skip to main content</a>
   {% comment %}
       use "nav: dark" in your frontmatter to get the alternate styling for the header that lays on top of a hero image

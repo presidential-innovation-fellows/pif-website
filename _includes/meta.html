@@ -1,6 +1,5 @@
 {% comment %}
-You shouldn't have to edit this page very often. But if you want to modify some of the meta-data for the
-site, this is the place to do it.
+You shouldn't have to edit this page very often. But if you want to modify some of the meta-data for the site, this is the place to do it.
 {% endcomment %}
 <!--
                       __,__r========qL,
@@ -40,10 +39,9 @@ site, this is the place to do it.
                                                  .#mj#X~YM#
                                                  ~`#WdD~  Y!
                                                  `'_|#f+-
-
   Like code? Want to use your skills for public good?
   Apply to be a Presidential Innovation Fellow: https://apply.pif.gov
-  -->
+-->
 <head>
   <!-- Basic Page Needs
     ================================================== -->
@@ -57,19 +55,27 @@ site, this is the place to do it.
   <!-- Title and meta description
     ================================================== -->
   <title>{% if include.title %}{% if include.title == "Home" %}{{ site.title }}{% else %}{{ include.title }} | {{ site.title }}{% endif %}{% else %}{{ site.title }}{% endif %}</title>
-  <meta property="og:title" content="{% if include.title %}{% if include.title == "Home" %}{{ site.title }}{% else %}{{ include.title }} | {{ site.title }}{% endif %}{% else %}{{ site.title }}{% endif %}">
-  <meta name="description" content="{{site.description}}">
-  <meta property="og:description" content="{{site.description}}">
-  <meta property="og:image" content="{% asset pif-nasa-square.jpg @path %}">
+  <meta property="og:title" content="{% if include.title %}{% if include.title == "Home" %}{{ site.title }}{% else %}{{ include.title }} | {{ site.title }}{% endif %}{% else %}{{ site.title }}{% endif %}">{% if include.description_apply %}
+  <meta name="description" content="{{ include.description_apply }}">{% else %}
+  <meta name="description" content="{{site.description}}">{% endif %}
+
+  {% if include.description_apply %}
+  <meta property="og:description" content="{{ include.description_apply }}">{% else %}
+  <meta property="og:description" content="{{site.description}}">{% endif %}{% if include.description_apply %}
+  <meta property="og:image" content="{% asset pif-application-2021.png @path %}">{% else %}
+  <meta property="og:image" content="{% asset pif-nasa-square.jpg @path %}">{% endif %}
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@{{site.twitter}}" />
-  <meta name="twitter:title" content="{% if include.title %}{% if include.title == "Home" %}{{ site.title }}{% else %}{{ include.title }} | {{ site.title }}{% endif %}{% else %}{{ site.title }}{% endif %}" />
-  <meta name="twitter:description" content="{{site.description}}" />
-  <meta name="twitter:image" content="https://presidentialinnovationfellows.gov{% asset pif-nasa-square.jpg @path %}" />
+  <meta name="twitter:title" content="{% if include.title %}{% if include.title == "Home" %}{{ site.title }}{% else %}{{ include.title }} | {{ site.title }}{% endif %}{% else %}{{ site.title }}{% endif %}" />{% if include.description_apply %}
+  <meta name="twitter:description" content="{{ include.description_apply }}" />{% else %}
+  <meta name="twitter:description" content="{{site.description}}" />{% endif %}{% if include.description_apply %}
+  <meta name="twitter:image" content="https://presidentialinnovationfellows.gov{% asset pif-application-2021.png @path %}" />{% else %}
+  <meta name="twitter:image" content="https://presidentialinnovationfellows.gov{% asset pif-nasa-square.jpg @path %}" />{% endif %}
 
-  <meta property="og:type" content="article">
-  <link rel="canonical" href="{{site.url}}{{page.url}}">
+  <meta property="og:type" content="article">{% if page.url == "/projects/case-studies" %}
+  <link rel="canonical" href="{{site.url}}/projects/">{% else %}
+  <link rel="canonical" href="{{site.url}}{{page.url}}">{% endif %}
 
   <!-- Favicons
     ================================================== -->
