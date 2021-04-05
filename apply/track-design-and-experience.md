@@ -33,7 +33,7 @@ The target date for when this position will be officially open to application ha
 
 # {{ page.track_name }}
 
-{{ page.org }} is hiring for GS-{{ page.gs_level }} - {{ page.role_name }}. This page contains information related to the role as well as a link to submit your application. Check out [Join TTS Hiring Process]({{site.baseurl}}/hiring-process/) to learn more about the application process.
+{{ page.org }} is hiring for GS-{{ page.gs_level }} - {{ page.role_name }}. This page contains information related to the role as well as a link to submit your application. Check out [Join TTS Hiring Process](https://join.tts.gsa.gov/hiring-process/) to learn more about the application process.
 
 
 ## Basic Information
