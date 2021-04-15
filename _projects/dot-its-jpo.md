@@ -10,7 +10,7 @@ partner_description: "<p>The Department of Transportation’s Intelligent Transp
 
 <p>The ITS JPO is a research-focused technology development organization. We are a group of highly-motivated individuals from different walks of life working with and leading the department's cross-functional teams. While we think big, we start small then scale our successes. We operate as a meritocracy (your talent and work is your value, not your pedigree or rank), decisions are fueled by data, and we iterate and pivot based on what is of value to our stakeholders (Federal/State/Municipal/City agencies, the private sector, individual citizens, etc). As a senior advisor to the Joint Program Office, you will be integral to understanding and building solutions around key technologies including artificial intelligence (AI), automated driving and autonomous systems, wireless communications, cybersecurity and many more.</p>"
 project_link: https://www.dot.gov
-status: "current"
+status: ["upcoming","current"]
 ---
 The Presidential Innovation Fellow is charged with bringing an innovator’s mindset to ITS JPO and accelerating research and implementation of technologies that lead to systemic public safety and efficiency. From developing the agency’s technology strategy and roadmap to setting up centers of excellence in emerging technology areas, the PIF will problem-solve America’s most pressing transportation matters.
 
