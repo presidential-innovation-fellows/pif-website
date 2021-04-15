@@ -4,9 +4,9 @@ agency: "Defense Innovation Unit"
 agency_abbrev: "DIU"
 agency_logo: "DIU.png"
 title: "Exploring China's Technology Transfer Strategy"
-summary: "Exploring China’s participation in U.S. venture deals and the passing of the Foreign Investment Risk Review Modernization Act of 2018 (FIRRMA)"
+summary: "Exploring China’s participation in U.S. venture deals and the passing of the Foreign Investment Risk Review Modernization Act of 2018 (FIRRMA)!"
 cover_art: "diux-case-study.jpg"
-subtitle: "The U.S. government did not have a holistic view of how fast China's technology transfer is occurring or the multiple methods China uses for that transfer, the level of Chinese investment in U.S. technology, or a consolidated view of what technologies we should be protecting."
+project_challenge: "The U.S. government did not have a holistic view of how fast China's technology transfer is occurring or the multiple methods China uses for that transfer, the level of Chinese investment in U.S. technology, or a consolidated view of what technologies we should be protecting."
 partner_description: "DIU's mission is to accelerate commercial technology for national security. They are a fast-moving government entity that provides recurring revenue to companies to solve national security problems."
 project_link: https://www.diu.mil
 status: ["case_study"]

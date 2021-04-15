@@ -40,6 +40,16 @@ p {
   @include u-text('light');
   @include u-text('base');
   line-height: 1.625;
+  strong {
+    @include u-text('bold');
+  }
+}
+
+ul, li {
+  @include u-text('light');
+  strong {
+    @include u-text('bold');
+  }
 }
 
 .usa-prose a:not(.usa-button),

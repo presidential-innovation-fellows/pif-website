@@ -5,7 +5,7 @@ agency_abbrev: "FDA"
 agency_logo: "FDA.png"
 title: "Enabling more efficient and seamless regulatory review processes"
 summary: "Identifying, developing, and deploying technology products that allow the Agency to operate at the accelerating pace of medical product development and regulation."
-subtitle: "How can the FDA keep up with the accelerating pace of medical product development and regulation?"
+project_challenge: "How can the FDA keep up with the accelerating pace of medical product development and regulation?"
 partner_description: "The Food and Drug Administration (FDA) is responsible for protecting the public health by ensuring the safety, efficacy, and security of human and veterinary drugs, biological products, and medical devices; and by ensuring the safety of our nation's food supply, cosmetics, and products that emit radiation. FDA also has responsibility for regulating the manufacturing, marketing, and distribution of tobacco products. FDA advances the public health by helping to speed innovations that make medical products safer and more effective. Overall, FDA is responsible for the oversight of more than $2.6 trillion in consumption of food, medical products, and tobacco. FDA-regulated products account for about 20 cents of every dollar spent by U.S. consumers."
 project_link: https://www.fda.gov
 status: "current"

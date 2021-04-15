@@ -5,10 +5,9 @@ agency_abbrev: "The CDC"
 agency_logo: "CDC.png"
 title: "Strengthening digital preparedness across the public health ecosystem"
 summary: "Helping Centers for Disease Control and Prevention develop more holistic and interoperable approaches to public health reporting, and position itself as a leader in data modernization."
-subtitle: "How might we increase digital preparedness across the public health ecosystem to help predict health threats and improve health outcomes?"
+project_challenge: "How might we increase digital preparedness across the public health ecosystem to help predict health threats and improve health outcomes?"
 partner_description: "The U.S. Centers for Disease Control and Prevention (CDC) is the nation’s health protection agency, working 24/7 to protect America from health and safety threats, both foreign and domestic. Whether diseases start at home or abroad, are chronic or acute, curable or preventable, human error or deliberate attack, CDC fights disease and supports communities and citizens to do the same."
 project_link: https://www.cdc.gov
-status: "upcoming"
 ---
 The Public Health Data Modernization Initiative will help CDC to respond to health threats as they occur and scale up public health surveillance, prevention and response efforts nationwide during pandemics and other emergencies. As part of this effort, CDC’s Deputy Director for Public Health Science and Surveillance is seeking two Presidential Innovation Fellows to work on the following challenges:
 

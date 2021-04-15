@@ -6,7 +6,7 @@ agency_logo: "DOT.png"
 title: "Developing open-source technology to improve autonomous vehicle safety, efficiency and mobility"
 summary: "Helping DOT ensure system-wide cybersecurity and adapt to the challenges and opportunities that autonomous vehicles and aerial systems offer"
 cover_art: "dot_home.jpg"
-subtitle: "How might we help the Department of Transportation leverage emerging technology to make our cities and transportation systems safer?"
+project_challenge: "How might we help the Department of Transportation leverage emerging technology to make our cities and transportation systems safer?"
 partner_description: "The U.S. Department of Transportation ensures that our nation has the safest, most efficient and modern transportation system in the world; that improves the quality of life for all American people and communities, from rural to urban, and increases the productivity and competitiveness of American workers and businesses."
 project_link: https://www.transportation.gov
 status: "past"

@@ -5,7 +5,7 @@ agency_abbrev: "NGA"
 agency_logo: "NGA.png"
 title: "Developing and delivering products at National Geospatial-Intelligence Agency"
 summary: "Helping to create a strong product and user experience design culture at NGA"
-subtitle: "How can we help NGA deliver products and services, as well as help develop a strong product organization within NGA."
+project_challenge: "How can we help NGA deliver products and services, as well as help develop a strong product organization within NGA."
 partner_description: "The National Geospatial-Intelligence Agency (NGA) delivers world-class geospatial intelligence that provides a decisive advantage to policymakers, warfighters, intelligence professionals and first responders. Anyone who sails a U.S. ship, flies a U.S. aircraft, makes national policy decisions, fights wars, locates targets, responds to natural disasters, or even navigates with a cellphone relies on NGA. NGA enables all of these critical actions and shapes decisions that impact our world through the indispensable discipline of geospatial intelligence (GEOINT)."
 project_link: https://www.nga.mil
 status: "current"
