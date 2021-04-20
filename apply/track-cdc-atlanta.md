@@ -7,17 +7,17 @@ permalink: /apply/track-cdc-atlanta/
 state: 'open'
 track_name: 'Presidential Innovation Fellow, CDC - Atlanta'
 role_name: Presidential Innovation Fellow
-opens: 'April 18, 2021'
+opens: 'April 20, 2021'
 closes: 'May 14, 2021, 11:59pm Pacific Time'
-location: 'Washington, DC'
+location: 'Atlanta, GA'
 gs_level: 15
-salary_min: '144,128'
-salary_max: '144,128'
+salary_min: '134,938'
+salary_max: '134,938'
 org: 'Presidential Innovation Fellows'
 contact_email: 'jointts@gsa.gov'
-job_announcement_number: '21FASC203SBOTR'
+job_announcement_number: '21FASC254SBOTR'
 pd_job_title: 'Industry Specialist'
-num_vacancies: '25'
+num_vacancies: '5'
 series: '0301'
 apply_url: https://apply.pif.gov/
 ohrm_contact_email: 'stephanie.bernstein@gsa.gov'
@@ -189,62 +189,61 @@ Typical duties for the Presidential Innovation Fellow include, but are not limit
 
 Analyzing and scoping the technical and policy requirements needed to implement complex digital solutions; conceiving/recommending projects/studies to advance state-of-the-art work in the specialty area; applying forward ­thinking design and development principles to product development and program management, such as lean startup, human-centered design, equity-centered design, and agile development; assessing the state of digital services provided by the Federal Government, and working to align strategies and practice; conferring with key government/private officials and top experts in the field; representing the agency at technical symposia and/or conferences; developing authoritative papers/reports; developing and leading adoption of government­wide standards for digital services, leading to their adoption across citizen- and business-­facing government services; demonstrating thought leadership and contributing best practices in a variety of technologies and principles; contributing to a talent strategy that includes recruiting innovators and entrepreneurs to participate in solving complex and esoteric challenges.
 
+## Agency Placement
+
+Fellows selected for this role will be embedded within the CDC.
+
+CDC works 24/7 to protect America from health, safety and security threats, both foreign and in the U.S. Whether diseases start at home or abroad, are chronic or acute, curable or preventable, human error or deliberate attack, CDC fights disease and supports communities and citizens to do the same.
+
+Presidential Innovation Fellows working with CDC will advise, consult, and advance innovation on the current state of digital health technologies, policies, and functionalities at the CDC, including the use of AI, data and analytics in a cloud environment.
+
+**Please note:** *This job announcement solely applies to the PIF projects at the CDC, and these are the only PIF positions located in Atlanta, GA. If you are interested in PIF projects at other agencies, all of which are based in Washington, D.C., please apply via the PIF standard application process at apply.pif.gov.*
+
+
 ## Qualifications
 
-All applications will be reviewed by a panel of subject matter experts against a scoring rubric created for this role. In order to properly be able to evaluate your previous experience, we recommend being as detailed as possible in your resume. We also recommend reviewing and following [our general resume guidance](https://join.tts.gsa.gov/resume/), which provides helpful examples of the level of detail that is expected.
+All applications will be reviewed by a panel of subject matter experts against a scoring rubric created for this role. In order to properly be able to evaluate your previous experience, we recommend being as detailed as possible in your resume. We also recommend reviewing and following our general resume guidance, which provides helpful examples of the level of detail that is expected.
 
-To qualify for this role, you must have one year of specialized experience equivalent to the GS-{{ page.gs_level | minus: 1 }} or higher in the Federal service. Specialized experience is:
+To qualify for this role, you must have one year of specialized experience equivalent to the GS-14 or higher in the Federal service. Specialized experience is:
 
-This includes experience navigating highly ambiguous or uncertain situations to deliver results. This experience must include **ALL** of the following:
+Navigating highly ambiguous or uncertain situations to deliver results. This experience must include **ALL** of the following:
 
 - Leading stakeholders through organizational change demonstrated by: Leading a cross-functional team to meet strategic objectives; Garnering support for the team by persuading others to provide approval, funding or resources; or Adjusting strategy based on qualitative or quantitative strategy.
 - Working in a team-oriented environment and collaborating within teams.
 - Working as an entrepreneur (i.e started and scaled companies or organizations) measured in increased revenue, clients or users; **OR** intrapreneur (i.e. starting and/or leading initiatives within corporate, academic or non-profit institutions) measured by increased revenue, promoted growth, drove business strategy, acquired clients or customers/end users.
 
-Plus **ONE** of the following tracks: (1. Data Strategy, Management and Analytics OR 2. Data Science OR 3. AI/Machine Learning)
+**Plus ONE of the following three tracks:**
 
-**1. Data Strategy, Management and Analytics**
+**CDC-PIF Track 1**
 
-A. Experience designing & implementing data management strategies to ensure data is treated as a strategic asset. This experience must include **ALL** of the following:
-- Leading organizational change management initiatives related to data strategy
-- Developing data literacy efforts to improve understanding across the organization
-- Documenting and promoting data governance and analysis best practice.
-- Managing metadata, data cataloging and data sharing.
-- Translating key business questions to data and analytics requirements.
-- Data lifecycle management and strategies, from data source to data driven decision-making.
-- Developing holistic data strategies across multiple disparate data sources.
-- Using advanced analytics tools and methodologies.
-- Development of dashboard requirements and other user engagement strategies for effective data-driven  “story-telling”.
+- Experience leading a team to deliver projects or initiatives. This experience must include **TWO** of the following:
+  - Mobile medical application development, medical device interoperability, and healthcare cybersecurity
+  - Digital therapeutics, machine learning, artificial intelligence and novel digital health technology
+  - Digital health product development, software as a medical device
+  - Cloud architecture and computing with a focus on data lakes
+  - Experience with health record interoperability and Health Level Seven’s (HL7) Fast Healthcare Interoperability Resources (FHIR) standard.
+  - Experience functioning in an organizational leadership capacity as a data scientist, statistician (using predictive analytics) or working in an organizational leadership capacity in the field of artificial intelligence/machine learning which can include: utilizing tools, algorithms or mathematical/statistical modeling techniques to positively impact business outcomes.
 
-B. Experience designing & implementing data management strategies to ensure data is treated as a strategic asset. This experience must include **ALL** of the following:
-- Using quantitative and qualitative methods to collect, validate, analyze, and display data
-- Identifying opportunities within an organization to leverage data analytics to aid service improvement and/or - decision-making for a project or organization
-- Developing project management documentation (e.g. scopes of work, project plans, status reports)
-- Briefing executive level stakeholders on project information (e.g. status, technical details, blockers, dependencies)
-- Developing data visualizations for stakeholders
+**OR**
 
-**2. Data Science**
+**CDC-PIF Track 2**
 
-A. Experience helping clients collect and manage their data as a practitioner in the craft of data science. This experience must include **ALL** of the following:
+- Experience leading a technical team to deliver projects or initiatives to migrate digital products or services to a cloud environment. This experience must include **ALL** of the following:
+  - Developing cloud architecture using AWS PaaS and cloud native services
+  - Developing and implementing big data engineering pipelines using Spark platform
+  - Architecting big data analytics architecture using EMR and Spark
+  - Experience integrating big data services with AWS security and governance services and adopting cost-efficient approaches into an enterprise offering for users.
+  - Experience with big data engineering and analytics implementations to demonstrate the integration with data life cycle of collection, ingestion, storage, processing, and visualization.
 
-- Analyzing large data sets using scripting languages and/or modern statistical and computational methods (e.g. Python, R, SQL, etc.) to understand the health, challenges, and opportunities for an organization or product
-- Implementing data warehousing solutions and modern big data storage technologies (e.g. Teradata, Oracle, Amazon Web Services, Informatica, data lakes)
-- Conducting research and statistical analyses to drive decision-making and/or recommendations (e.g. A/B testing)
-- Developing queries for complex relational databases and disparate data systems
-- Utilizing reporting and/or business intelligence tools (e.g. Dash, Tableau, Power BI, MicroStrategy etc.)
-- Developing strategies for querying and relating data across disparate sources via modern approaches such as graph based techniques
-- Working with advanced analytics, machine learning, and AI approaches, models, and methodologies
+**OR**
 
-**3. AI/Machine Learning**
+**CDC-PIF Track 3**
 
-A. Experience leading the design, development, testing and implementation of Artificial Intelligence/Machine Learning solutions to aid service improvement and/or decision-making for a project or organization. This experience must include **ALL** of the following:
-
-- Building impactful solutions that utilize machine learning/AI techniques such as supervised learning (e.g. predictive analytics, classification), unsupervised learning, natural language processing, and/or deep learning
-- Working with common open source software languages, machine learning packages, and distributed computing technologies (e.g. Python, Spark, scikit-learn, Tensorflow, pyTorch, Keras)
-- Building end-to-end software pipelines to execute machine learning/AI solutions, preferably in the cloud environment (e.g. AWS stack, Apache Kafka, Logstash, etc.)
-- Implementing best practices for AI lifecycle management, monitoring tools for production quality continuous development of models, and machine learning operations (e.g., “MLOps” design, MLFlow, Kubeflow, Pachyderm)
-- Analyzing the advantages and disadvantages of applying AI/Machine Learning and articulating the tradeoff analysis to technical and non-technical audiences
-
+- Experience as a cloud architect with broad knowledge of cloud native and PaaS services. This experience must include **ALL** of the following:
+  - Experience defining cloud architecture systems that can be scalable and cost effective
+  - Experience conducting system assessment, mapping business requirements to cloud architectures, providing technical and architecture designs, creating solution prototypes and proof of concepts.
+  - Experience providing technical oversight and guidance during client engagements.
+  - Development of software architecture, solutions, systems, and implementation in an Azure cloud environment.
 
 Qualification determinations cannot be made when resumes do not include the required information, so failure to provide this information may result in disqualification.
 
