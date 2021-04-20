@@ -35,7 +35,7 @@ h4, .as-h4 {
   @include u-text('primary-darker');
 }
 
-p {
+p, blockquote {
   @include u-font('sans', 'sm');
   @include u-text('light');
   @include u-text('base');
