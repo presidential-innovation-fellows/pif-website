@@ -10,8 +10,6 @@ partner_description: "The U.S. Centers for Disease Control and Prevention (CDC),
 project_link: https://www.cdc.gov
 status: ["upcoming"]
 ---
-
-<h2 class="text-primary text-no-italic" id="the-solution">The <em>solution</em></h2>
 Presidential Innovation Fellows working with CDC will advise, consult, and advance innovation on the current state of digital health technologies, policies, and functionalities at the CDC, including the use of AI, data and analytics in a cloud environment. Potential focus areas include:
 <ul>
 <li><strong>Datahub:</strong> CDC is looking to strengthen their engineering and big data analytics capabilities to monitor and improve public health by advancing the development of CDC’s DataHub agency-wide data lake and leading big data engineering and analytics.</li>
