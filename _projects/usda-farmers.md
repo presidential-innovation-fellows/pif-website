@@ -6,7 +6,7 @@ agency_logo: "USDA.png"
 title: "Delivering a better experience for America's farmers"
 summary: "Helping the U.S. Department of Agriculture re-imagine how it engages with its customers: America’s farmers, ranchers, conservationists, and private foresters"
 cover_art: ""
-subtitle: "How might the U.S. Department of Agriculture deliver a better experience for America's farmers?"
+project_challenge: "How might the U.S. Department of Agriculture deliver a better experience for America's farmers?"
 partner_description: "The U.S. Department of Agriculture provides leadership on food, agriculture, natural resources, rural development, nutrition, and related issues based on public policy, the best available science, and effective management."
 project_link: https://newfarmers.usda.gov
 status: "past"

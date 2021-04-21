@@ -5,7 +5,7 @@ agency_abbrev: "DOJ"
 agency_logo: "DOJ.png"
 title: "Designing high-impact technology projects that advance civil rights"
 summary: "Help the Civil Rights Division better connect with their intended audiences (both internal and external) and create technology products that advance civil rights. Translate public reports of civil rights violations into actionable insights for our enforcement teams."
-subtitle: "How can we use design, content strategy, and data science to amplify civil rights-related efforts?"
+project_challenge: "How can we use design, content strategy, and data science to amplify civil rights-related efforts?"
 partner_description: "The Department of Justice Civil Rights Division (DOJ/CRT) leads the federal government's efforts to make the vision of over 30 federal civil rights laws happen. Through enforcement, education/outreach, and coordination, CRT upholds the civil and constitutional rights of all members of our society, with a particular focus on the most vulnerable."
 project_link: https://www.justice.gov
 status: "current"

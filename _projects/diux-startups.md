@@ -6,7 +6,7 @@ agency_logo: "DIU.png"
 title: "DIUx Startup Collaboration"
 summary: "Helping the Defense Innovation Unit Experimental bridge the gap between the Department of Defense and the tech community to better access innovative and emerging technologies to solve critical national security challenges"
 cover_art: "DIUX_Small_Hero.jpg"
-subtitle: "How might the Department of Defense better collaborate with start-ups?"
+project_challenge: "How might the Department of Defense better collaborate with start-ups?"
 partner_description: "DIU's mission is to accelerate commercial technology for national security. They are a fast-moving government entity that provides recurring revenue to companies to solve national security problems."
 project_link: https://www.diu.mil
 status: "past"

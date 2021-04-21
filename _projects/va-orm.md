@@ -5,7 +5,7 @@ agency_abbrev: "VA"
 agency_logo: "VA.png"
 title: "Supporting a discrimination-free environment for all VA employees"
 summary: "Creating solutions to support the Department of VA/ORM product lines overall mission include an integrated approach of data science and strategic communication."
-subtitle: "How might we help the U.S. Department of Veterans Affairs better support VA employees who submit cases of discrimination and create an environment for all VA employees?"
+project_challenge: "How might we help the U.S. Department of Veterans Affairs better support VA employees who submit cases of discrimination and create an environment for all VA employees?"
 partner_description: "The Office of Resolution Management (ORM) at Department of Veterans Affairs promotes a healthy working environment through prevention, resolution, and processing of workplace disputes, including complaints of discrimination. We foster prevention by ensuring that managers and staff are educated on the elements of a healthy working environment.  ORM has resolution experts who promote and deliver alternative dispute resolution techniques for all workplace disputes, including alleged equal employment opportunity (EEO) discrimination.  In cases where resolution cannot be reached informally, ORM processes complaints of EEO discrimination in a timely and proficient manner."
 project_link: https://www.va.gov/orm/
 status: "current"

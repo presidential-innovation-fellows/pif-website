@@ -6,7 +6,7 @@ agency_logo: "NIST.png"
 title: "Accelerating federally funded R&D and science to market"
 summary: "Assisting the National Institute of Standards and Technology within the Department of Commerce as they connect federal technology transfer with private funding for commercialization"
 cover_art: ""
-subtitle: "How might we help the Department of Commerce create jobs and economic impact by leveraging our federal investments in research and development?"
+project_challenge: "How might we help the Department of Commerce create jobs and economic impact by leveraging our federal investments in research and development?"
 partner_description: "Working with industry and science to advance innovation and improve quality of life."
 project_link: https://www.nist.gov
 status: "past"

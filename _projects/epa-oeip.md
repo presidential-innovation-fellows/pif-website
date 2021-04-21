@@ -5,7 +5,7 @@ agency_abbrev: "EPA"
 agency_logo: "EPA.png"
 title: "Making data-driven decisions that protect human health and the environment"
 summary: "Transforming EPA enterprise information programs with machine learning and artificial intelligence."
-subtitle: "How can we use technology to transform the EPA enterprise information programs to drive better, more data-driven decisions that protect human health and the environment?"
+project_challenge: "How can we use technology to transform the EPA enterprise information programs to drive better, more data-driven decisions that protect human health and the environment?"
 partner_description: "The Environmental Protection Agency (EPA) is an independent agency, specifically an independent executive agency, of the United States federal government for environmental protection."
 project_link: https://www.epa.gov
 status: "current"

@@ -6,10 +6,10 @@ agency_logo: "VA.png"
 title: "Transforming the veteran experience"
 summary: "Helping to develop customer experience mechanisms in data, tools, and technology to enable the U.S. Department of Veterans Affairs to deliver the best experience to veterans, families, caregivers, and survivors"
 cover_art: ""
-subtitle: "How might we help the Department of Veteran Affairs deliver more veteran-centered services and care?"
+project_challenge: "How might we help the Department of Veteran Affairs deliver more veteran-centered services and care?"
 partner_description: "The Veterans Experience Office (VEO) office's mission is to enable VA to be the leading customer service organization in government so that Veterans, their families, caregivers and survivors Choose VA."
 project_link: https://www.va.gov/ve/
-status: "current"
+status: ["upcoming","current"]
 redirect_from:
   - /newprojects/va-veo.html
 fellows:

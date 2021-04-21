@@ -6,7 +6,7 @@ agency_logo: "USAGM.png"
 title: "U.S. Agency for Global Media"
 summary: "Assisting the U.S. Agency for Global Media with employing innovative data-driven techniques in reaching new global audiences"
 cover_art: ""
-subtitle: "How might we help the U.S. Agency for Global Media better counter global disinformation and become more data-driven?"
+project_challenge: "How might we help the U.S. Agency for Global Media better counter global disinformation and become more data-driven?"
 partner_description: "USAGM networks bring news and information to people around the world in 58 languages."
 project_link: https://www.usagm.gov/networks/
 status: "past"

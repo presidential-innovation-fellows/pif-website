@@ -6,7 +6,7 @@ agency_logo: "GSA.png"
 title: "Digital customer transformation at GSA's Office of Strategic Communications"
 summary: "Helping GSA to create a customer-centric \"portal of portals\" to make it easier for small business to do business with the federal government"
 cover_art: ""
-subtitle: "How might we help GSA streamline its web presence and save taxpayer dollars?"
+project_challenge: "How might we help GSA streamline its web presence and save taxpayer dollars?"
 partner_description: "The General Services Administration (GSA) is an independent agency of the United States government established in 1949 to help manage and support the basic functioning of federal agencies. GSA supplies products and communications for U.S. government offices, provides transportation and office space to federal employees, and develops government-wide cost-minimizing policies and other management tasks."
 project_link: https://www.gsa.gov
 status: "current"

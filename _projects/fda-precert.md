@@ -6,7 +6,7 @@ agency_logo: "FDA.png"
 title: "Informing the FDA's digital health pre-cert program"
 summary: "Helping FDA provide more streamlined and efficient regulatory oversight of software-based medical devices"
 cover_art: ""
-subtitle: "How might we help the Food and Drug Administration inform the development of a regulatory model to assess the safety and effectiveness of software technologies without inhibiting patient access to these technologies?"
+project_challenge: "How might we help the Food and Drug Administration inform the development of a regulatory model to assess the safety and effectiveness of software technologies without inhibiting patient access to these technologies?"
 partner_description: "The FDA's Digital Health Software Pre-Certification (Pre-Cert) Program will enable the FDA to develop a tailored approach toward regulating digital health and software technologies"
 project_link: https://www.fda.gov/medical-devices/digital-health/digital-health-software-precertification-pre-cert-program
 status: "past"

@@ -5,7 +5,7 @@ agency_abbrev: "GSA"
 agency_logo: "GSA.png"
 title: "Improving data strategy and data management efforts at the General Services Administration"
 summary: "Advising GSA on data strategy and data management, as well as providing analytical and evaluative expertise to ensure data programs are coordinated, comprehensive and strategic."
-subtitle: "How might we help GSA IT improve their data strategy and data management efforts?"
+project_challenge: "How might we help GSA IT improve their data strategy and data management efforts?"
 partner_description: "The GSA IT Enterprise Information and Data Management Division (IDM) advises management on agency-wide performance, data entry design, data warehouse and accessibility, while leading agency-wide data management efforts toward achieving agency goals. They are instrumental in eliminating redundancy and providing a corporate-like, consistent, standardized, high-quality and integrated approach to data management."
 project_link: https://www.gsa.gov
 status: "current"

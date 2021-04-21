@@ -6,7 +6,7 @@ agency_logo: "NIH.png"
 title: "Building a diverse database to develop individualized health care"
 summary: Working with the National Institutes of Health engage research participants and researchers for the All of Us research program.
 cover_art: "all-of-us-participants.jpg"
-subtitle: "How might we dramatically improve health outcomes through precision medicine?"
+project_challenge: "How might we dramatically improve health outcomes through precision medicine?"
 partner_description: "The All of Us Research Program is a historic effort to gather data from one million or more people living in the United States to accelerate research and improve health."
 project_link: https://allofus.nih.gov/
 status: "past"

@@ -33,9 +33,11 @@ layout: default-main
         <h1 class="font-serif-xl text-normal line-height-serif-4">
           {{ page.title }}
         </h1>
+        {% if page.summary %}
         <p class="body-intro">
           {{ page.summary }}
         </p>
+        {% endif %}
       </div>
     </div>
   </div>
@@ -51,16 +53,18 @@ layout: default-main
       </div>
       <div class="tablet:grid-col-8 tablet:grid-offset-1 usa-layout-docs__main usa-prose">
         <h2 class="text-primary text-no-italic">
-          About <em>{{page.agency_abbrev}}</em>
+          About <em>{% if page.agency_abbrev %}{{page.agency_abbrev}}{% else %}the project{% endif %}</em>
         </h2>
         <p>{{ page.partner_description }}</p>
 
+        {% if page.project_challenge %}
         <h2 class="text-primary text-no-italic">
           The <em>challenge</em>
         </h2>
         <p class="body-intro">
-          {{ page.subtitle  }}
+          {{ page.project_challenge  }}
         </p>
+        {% endif %}
 
         {{ content }}
       </div>

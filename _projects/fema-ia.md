@@ -5,7 +5,7 @@ agency_abbrev: "FEMA"
 agency_logo: "FEMA.png"
 title: "Improving the support experience for disaster survivors"
 summary: "Enabling a learning culture at the Federal Emergency Management Agency (FEMA), empowering FEMA staff with the information they need to best support the needs of disaster survivors, increasing the efficiency of the agency and improving outcomes for citizens."
-subtitle: "How can we help FEMA's Individual Assistance Division leverage their limited resources to make the biggest impact and ensure the assistance FEMA provides after a disaster is prioritized to meet the most important needs of disaster survivors?"
+project_challenge: "How can we help FEMA's Individual Assistance Division leverage their limited resources to make the biggest impact and ensure the assistance FEMA provides after a disaster is prioritized to meet the most important needs of disaster survivors?"
 partner_description: "The mission of the Federal Emergency Management Agency (FEMA) is to help people before, during, and after disasters. After large disasters, FEMA provides a suite of assistance to eligible individuals, families, and households to help with their recovery."
 project_link: https://www.fema.gov
 status: "current"
