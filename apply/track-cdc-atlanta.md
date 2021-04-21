@@ -8,7 +8,7 @@ state: 'open'
 track_name: 'Presidential Innovation Fellow, CDC - Atlanta'
 role_name: Presidential Innovation Fellow
 opens: 'April 20, 2021'
-closes: 'May 24, 2021, 11:59pm Pacific Time'
+closes: 'May 14, 2021, 11:59pm Pacific Time'
 location: 'Atlanta, GA'
 gs_level: 15
 salary_min: '134,938'
