@@ -3,7 +3,7 @@ id: nelson-colon-vargas
 title: Nelson A. Colón Vargas
 image: nelson-colon-vargas-headshot.jpg
 fellow_year: 2019
-project: ["va-cto","va-using-machine-learning-to-deliver-veterans-benefits-faster"]
+project: ["va-cto"]
 agency: ["VA"]
 hometown: Washington, DC
 region: south
