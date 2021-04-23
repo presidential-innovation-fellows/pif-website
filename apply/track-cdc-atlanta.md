@@ -47,7 +47,7 @@ The salary for this position is: GS-{{ page.gs_level }} Step 1 - ${{ page.salary
 You can find more information about this in the [compensation and benefits section on our site](https://join.tts.gsa.gov/compensation-and-benefits/).
 
 **Who May Apply:**
-All United States citizens and nationals (residents of American Samoa and Swains Islands) are eligible to apply.
+All United States citizens and nationals (residents of American Samoa and Swains Island) are eligible to apply.
 
 **Job announcement number:**
 {{ page.job_announcement_number }}
@@ -212,9 +212,7 @@ Navigating highly ambiguous or uncertain situations to deliver results. This exp
 - Working in a team-oriented environment and collaborating within teams.
 - Working as an entrepreneur (i.e started and scaled companies or organizations) measured in increased revenue, clients or users; **OR** intrapreneur (i.e. starting and/or leading initiatives within corporate, academic or non-profit institutions) measured by increased revenue, promoted growth, drove business strategy, acquired clients or customers/end users.
 
-**Plus ONE of the following three tracks:**
-
-**CDC-PIF Track 1**
+**Plus ONE of the following:**
 
 - Experience leading a team to deliver projects or initiatives. This experience must include **TWO** of the following:
   - Mobile medical application development, medical device interoperability, and healthcare cybersecurity
@@ -226,8 +224,6 @@ Navigating highly ambiguous or uncertain situations to deliver results. This exp
 
 **OR**
 
-**CDC-PIF Track 2**
-
 - Experience leading a technical team to deliver projects or initiatives to migrate digital products or services to a cloud environment. This experience must include **ALL** of the following:
   - Developing cloud architecture using AWS PaaS and cloud native services
   - Developing and implementing big data engineering pipelines using Spark platform
@@ -236,8 +232,6 @@ Navigating highly ambiguous or uncertain situations to deliver results. This exp
   - Experience with big data engineering and analytics implementations to demonstrate the integration with data life cycle of collection, ingestion, storage, processing, and visualization.
 
 **OR**
-
-**CDC-PIF Track 3**
 
 - Experience as a cloud architect with broad knowledge of cloud native and PaaS services. This experience must include **ALL** of the following:
   - Experience defining cloud architecture systems that can be scalable and cost effective
