@@ -1,21 +1,21 @@
 ---
 layout: page
-title: Presidential Innovation Fellow, CDC - Atlanta
+title: Presidential Innovation Fellow, FEMA - Oakland, CA
 sidenav: false
 banner: false
-permalink: /apply/track-cdc-atlanta/
+permalink: /apply/track-fema-oakland/
 state: 'open'
-track_name: 'Presidential Innovation Fellow, CDC - Atlanta'
+track_name: 'Presidential Innovation Fellow, FEMA - Oakland, CA'
 role_name: Presidential Innovation Fellow
-opens: 'April 20, 2021'
+opens: 'April 27, 2021'
 closes: 'May 14, 2021, 11:59pm Pacific Time'
-location: 'Atlanta, GA'
+location: 'Oakland, CA'
 gs_level: 15
-salary_min: '134,938'
-salary_max: '134,938'
+salary_min: '156,235'
+salary_max: '156,235'
 org: 'Presidential Innovation Fellows'
 contact_email: 'jointts@gsa.gov'
-job_announcement_number: '21FASC254SBOTR'
+job_announcement_number: '21FASC271SBOTR'
 pd_job_title: 'Industry Specialist'
 num_vacancies: '5'
 series: '0301'
@@ -33,7 +33,7 @@ The target date for when this position will be officially open to application ha
 
 # {{ page.track_name }}
 
-{{ page.org }} is hiring for GS-{{ page.gs_level }} - {{ page.role_name }} at the United States Centers for Disease Control and Prevention (CDC). This page contains information related to the role as well as a link to submit your application. Check out [Join TTS Hiring Process](https://join.tts.gsa.gov/hiring-process/) to learn more about the application process.
+{{ page.org }} is hiring for GS-{{ page.gs_level }} - {{ page.role_name }} at the United States Federal Emergency Management Agency (FEMA). This page contains information related to the role as well as a link to submit your application. Check out [Join TTS Hiring Process](https://join.tts.gsa.gov/hiring-process/) to learn more about the application process.
 
 
 ## Basic Information
@@ -191,13 +191,13 @@ Analyzing and scoping the technical and policy requirements needed to implement 
 
 ## Agency Placement
 
-Fellows selected for this role will be embedded within the CDC.
+FEMA Region 9 is the authorized lead federal agency for supporting people before, during, and after disasters in the Southwestern and Pacific United States. This work entails leading and supporting disaster preparedness, grants management, mitigation, response, and recovery efforts in partnership with California, Nevada, Arizona, Hawaii, the Commonwealth of the Northern Marianas Islands, American Samoa, Guam, and more than 150 Tribal Nations for all-hazards, including hurricanes and typhoons, wildfires, earthquakes, volcanic eruptions, flooding, acts of terrorism, among other natural and man-made disasters. The Region has processed more than $10 Billion in support of these efforts since 2017. The Region also has an innovation-oriented culture and history, and frequently drives changes in federal emergency management that are implemented nationwide.
 
-CDC works 24/7 to protect America from health, safety and security threats, both foreign and in the U.S. Whether diseases start at home or abroad, are chronic or acute, curable or preventable, human error or deliberate attack, CDC fights disease and supports communities and citizens to do the same.
+Recent experiences with COVID-19 highlight the need to develop a strategic approach for data management and analysis in advance of disasters, especially at the Regional level.
 
-Presidential Innovation Fellows working with CDC will advise, consult, and advance innovation on the current state of digital health technologies, policies, and functionalities at the CDC, including the use of AI, data and analytics in a cloud environment.
+In response, FEMA’s National Preparedness Division is establishing a new branch focused on data management and analytics, which will serve as a shared, cross-divisional, enterprise-wide service hub and center of excellence that supports all Regional programs. The Presidential Innovation Fellow will work closely with Regional leadership to establish the new branch and will help the Region adopt best practices for data management and analytics.
 
-**Please note:** *This job announcement solely applies to the PIF projects at the CDC, and these are the only PIF positions located in Atlanta, GA. If you are interested in PIF projects at other agencies, all of which are based in Washington, D.C., please apply via the PIF standard application process at apply.pif.gov.*
+**Please note:** *This job announcement solely applies to the PIF projects at FEMA, and these are the only PIF positions located in Oakland, CA. If you are interested in PIF projects at other agencies, all of which are based in Washington, D.C., please apply at apply.pif.gov.*
 
 
 ## Qualifications
@@ -212,32 +212,18 @@ Navigating highly ambiguous or uncertain situations to deliver results. This exp
 - Working in a team-oriented environment and collaborating within teams.
 - Working as an entrepreneur (i.e started and scaled companies or organizations) measured in increased revenue, clients or users; **OR** intrapreneur (i.e. starting and/or leading initiatives within corporate, academic or non-profit institutions) measured by increased revenue, promoted growth, drove business strategy, acquired clients or customers/end users.
 
-**Plus ONE of the following:**
+Experience leading initiatives that deliver insight through data analytics. This experience must include **ALL** of the following:
 
-- Experience leading a team to deliver projects or initiatives. This experience must include **TWO** of the following:
-  - Mobile medical application development, medical device interoperability, and healthcare cybersecurity
-  - Digital therapeutics, machine learning, artificial intelligence and novel digital health technology
-  - Digital health product development, software as a medical device
-  - Cloud architecture and computing with a focus on data lakes
-  - Experience with health record interoperability and Health Level Seven’s (HL7) Fast Healthcare Interoperability Resources (FHIR) standard.
-  - Experience functioning in an organizational leadership capacity as a data scientist, statistician (using predictive analytics) or working in an organizational leadership capacity in the field of artificial intelligence/machine learning which can include: utilizing tools, algorithms or mathematical/statistical modeling techniques to positively impact business outcomes.
+- Identifying opportunities within an organization to leverage data analytics to aid service improvement and/or decision-making for a project or organization
+Using quantitative and qualitative methods to collect, validate, analyze, and display data
+- Designing, developing, and working with platforms and tools for data visualization, analysis, and management
+- Utilizing reporting and/or business intelligence tools (e.g. Dash, Tableau, Power BI, MicroStrategy etc.)
+- Developing strategies for querying and relating data across disparate sources via modern approaches such as graph based techniques
+Working with advanced analytics, predictive modeling, machine learning, and AI approaches, models, and methodologies
+- Developing project management documentation (e.g. scopes of work, project plans, status reports)
+- Briefing executive level stakeholders on project information (e.g. status, technical details, blockers, dependencies)
 
-**OR**
-
-- Experience leading a technical team to deliver projects or initiatives to migrate digital products or services to a cloud environment. This experience must include **ALL** of the following:
-  - Developing cloud architecture using AWS PaaS and cloud native services
-  - Developing and implementing big data engineering pipelines using Spark platform
-  - Architecting big data analytics architecture using EMR and Spark
-  - Experience integrating big data services with AWS security and governance services and adopting cost-efficient approaches into an enterprise offering for users.
-  - Experience with big data engineering and analytics implementations to demonstrate the integration with data life cycle of collection, ingestion, storage, processing, and visualization.
-
-**OR**
-
-- Experience as a cloud architect with broad knowledge of cloud native and PaaS services. This experience must include **ALL** of the following:
-  - Experience defining cloud architecture systems that can be scalable and cost effective
-  - Experience conducting system assessment, mapping business requirements to cloud architectures, providing technical and architecture designs, creating solution prototypes and proof of concepts.
-  - Experience providing technical oversight and guidance during client engagements.
-  - Development of software architecture, solutions, systems, and implementation in an Azure cloud environment.
+Experience with geo-spatial intelligence and mapping is beneficial but not required.
 
 Qualification determinations cannot be made when resumes do not include the required information, so failure to provide this information may result in disqualification.
 
