@@ -17,7 +17,7 @@ org: 'Presidential Innovation Fellows'
 contact_email: 'jointts@gsa.gov'
 job_announcement_number: '21FASC271SBOTR'
 pd_job_title: 'Industry Specialist'
-num_vacancies: '5'
+num_vacancies: '1'
 series: '0301'
 apply_url: https://apply.pif.gov/
 ohrm_contact_email: 'stephanie.bernstein@gsa.gov'
