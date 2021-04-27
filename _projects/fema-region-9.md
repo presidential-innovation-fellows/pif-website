@@ -24,7 +24,8 @@ While the Region is familiar with some methods and best practices, the fellow wi
 
 ### Skills required
 
-- The fellow for this project will need to be an outstanding technical product leader and facilitator. FEMA is seeking candidates who possess the following qualities:
+The fellow for this project will need to be an outstanding technical product leader and facilitator. FEMA is seeking candidates who possess the following qualities:
+
 - Well-organized, and able to clearly communicate complex ideas, concepts, and systems to a wide range of audiences.
 - Technical background in data science and architecture with prior experience designing, developing, and working with platforms and tools for data visualization, analysis, and management; predictive modeling; and machine learning.
 - Experience with geo-spatial intelligence and mapping is beneficial but not required.
