@@ -35,6 +35,3 @@ The fellow for this project will need to be an outstanding technical product lea
 **---**
 
 Presidential Innovation Fellows working with FEMA Region 9 will be based in Oakland, CA.
-
-<p><a class="usa-button usa-button--big" href="https://apply.pif.gov" target="_blank">Apply to this FEMA opportunity today.</a></p>
-
