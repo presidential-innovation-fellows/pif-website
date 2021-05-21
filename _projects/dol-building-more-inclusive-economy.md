@@ -19,7 +19,7 @@ With the passage of historic legislation in the form of the American Rescue Plan
 
 DOL is poised to embark on a series of ambitious initiatives to build the labor force back better, modernize the Department to meet the demands of the future of work, and build a more inclusive economy.
 
-The Presidential Innovation Fellow will report to the Chief Innovation Officer (CInO) at the U.S. Department of Labor. The PIF will advise the CInO on matters related to innovation technologies and best practices, taking on special projects such as:
+The Presidential Innovation Fellow will report to the Chief Innovation Officer (CInO) at the Department of Labor. The PIF will advise the CInO on matters related to innovation technologies and best practices, taking on special projects such as:
 
 <ul>
 <li><em>Optimizing Unemployment Insurance and Setting a Foundation for a Re-Employment System</em>: The President has named unemployment insurance as a top priority. The Presidential Innovation Fellow will work side-by-side with the CInO to create a plan to roll out the four unemployment insurances in the latest stimulus plan in an equitable and accessible manner that avoids wide scale fraud. Additionally, the PIF will support the CInO in working with an already assigned team from USDS to build and vet a service design blueprint for a set of central technology solutions that states can use to better deliver these benefits.</li>
