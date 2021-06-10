@@ -130,8 +130,10 @@ Start a container, mounting your local volume, and pull up the command line.
 
     $ docker run -it --rm -v ${PWD}:/app -p 4000:4000 pif /bin/bash
 
-From the container's command line, build the site and run locally.
+From the container's command line, install dependencies, build the site, and run locally.
 
+    $ npm install -g npm@latest
+    $ npm install --save uswds@latest
     $ npm run clean
     $ npm run build
     $ npm run start

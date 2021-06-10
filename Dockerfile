@@ -18,7 +18,4 @@ COPY Gemfile /app
 COPY Gemfile.lock /app
 RUN bundle install
 
-
-RUN npm install -g npm@latest
-
 EXPOSE 4000
