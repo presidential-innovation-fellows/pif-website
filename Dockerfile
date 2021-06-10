@@ -1,6 +1,7 @@
 FROM ruby:2.6.6
 
 RUN apt-get update && \
+  apt-get install npm -y && \
   apt-get install --reinstall -y locales && \
   sed -i 's/# en_US.UTF-8 UTF-8/en_US.UTF-8 UTF-8/' /etc/locale.gen && \
   locale-gen en_US.UTF-8
@@ -16,5 +17,8 @@ WORKDIR /app
 COPY Gemfile /app
 COPY Gemfile.lock /app
 RUN bundle install
+
+
+RUN npm install -g npm@latest
 
 EXPOSE 4000
