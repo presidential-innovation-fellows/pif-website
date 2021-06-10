@@ -1,7 +1,7 @@
 .footer-tagline {
   @include u-bg('primary');
   @include overlay-base(360px);
-  background-image: url(asset_path("banner-homecoming-eeob-bw.jpg"));
+  background-image: url(asset_path('banners/banner-homecoming-eeob-bw.jpg'));
   background-size: cover;
   background-position: 0 25%;
 }

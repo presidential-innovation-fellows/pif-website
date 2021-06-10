@@ -5,7 +5,7 @@
   "scripts": {
     "build": "bundle exec jekyll build",
     "clean": "bundle exec jekyll clean",
-    "start": "bundle exec jekyll serve",
+    "start": "bundle exec jekyll serve --host=0.0.0.0 --force_polling --watch",
     "test": "bundle exec htmlproofer _site; npx a11y '_site/**/*.html'"
   },
   "author": "Federalist",
