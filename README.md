@@ -122,21 +122,7 @@ Note that when built by Federalist, `npm run federalist` is used instead of the
 
 You can also use Docker as an alternative to the Installation instructions above, after cloning the repository and entering the root directory.
 
-Build the Docker image.
-
-    $ docker build -t pif .
-
-Start a container, mounting your local volume, and pull up the command line.
-
-    $ docker run -it --rm -v ${PWD}:/app -p 4000:4000 pif /bin/bash
-
-From the container's command line, install dependencies, build the site, and run locally.
-
-    $ npm install -g npm@latest
-    $ npm install --save uswds@latest
-    $ npm run clean
-    $ npm run build
-    $ npm run start
+    $ docker compose up --build
 
 The site will be viewable at [localhost:4000](http://localhost:4000/).
  
