@@ -118,6 +118,15 @@ Note that when built by Federalist, `npm run federalist` is used instead of the
 `build` script.
 
 
+## Docker
+
+You can also use Docker as an alternative to the Installation instructions above, after cloning the repository and entering the root directory.
+
+    $ docker compose up --build
+
+The site will be viewable at [localhost:4000](http://localhost:4000/).
+ 
+
 ## Technologies you should familiarize yourself with
 
 - [Jekyll](https://jekyllrb.com/docs/) - The primary site engine that builds your code and content.
