@@ -9,7 +9,7 @@ hometown: San Francisco, CA
 region: west
 bio_short: Veteran advocate and lifelong learner. Being a part of something greater than myself is what gets me out of bed in the morning.
 tags: ['west', '2020']
-skills: []
+skills: ['Product']
 ---
 
 George is a West Point graduate and former Army Infantry Officer. Following five years of military service, both at home and in Afghanistan, he earned his graduate degree from the George Washington University while working as the legislative director for a Veteran non-profit organization. Most recently, he worked for Facebook where he led implementation of machine learning solutions to optimize availability of global data infrastructure.

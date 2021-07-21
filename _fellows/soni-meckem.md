@@ -9,7 +9,7 @@ hometown: Jackson Hole, WY
 region: west
 bio_short: Customer experience, healthcare, and tech strategist, systems thinker, connector. CIO. Mathematician. Statistician. Lifelong learner.
 tags: ['west', '2019']
-skills: ['design', 'digital', 'product']
+skills: ['Design and Experience', 'Change Management']
 ---
 
 Soni Meckem’s passion is innovative and transformational leadership, coaching, and making radical improvements in outcomes for individuals, businesses, government, and the planet using Customer Driven Innovation (CDI) and Lean Startup. She leverages advances in information, technology, and medicine to re-imagine our reactive healthcare ecosystem.

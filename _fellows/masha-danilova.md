@@ -9,7 +9,7 @@ hometown: Santa Monica, CA
 region: west
 bio_short: Analytically-minded thinker and problem solver, passionate about mapping complexity.
 tags: ['west', '2021']
-skills: ['business development', 'communications', 'data', 'user experience']
+skills: ['Product', 'Change Management']
 ---
 After graduating from Purdue University with a degree in Mechanical Engineering Masha worked for Procter & Gamble spanning operations, product design, product development, and consumer research. She recognized her aptitude for strategic problem solving and moved on to MIT Sloan School of Management to carefully curate her Strategy & Analytics skills.
 

@@ -9,7 +9,7 @@ hometown: Gaithersburg, MD
 region: south
 bio_short: Innovator. Entrepreneur. Thought leader with more than 20 years of innovation and digital focused global experience, combining consulting and advisory with entrepreneurship and startups.
 tags: ['south', '2019']
-skills: ['business development', 'data', 'digital', 'user experience']
+skills: ['Digital Health']
 ---
 
 Rana Saad is an innovator and digital leader specializing in Lean Innovation and Startups. As a thought leader, he promotes digital innovation through a startup-inspired methodology based on lean experimentation. As CTO and cofounder of a startup, he is helping bring AI-based disruptive digital products to market in weeks instead of months. Prior to that, in his role as the North America Digital Innovation Lead at Accenture, he helped some of the largest corporations and organizations innovate like startups and at startup speed. He advises many early stage companies and has built digital innovation labs and programs at multiple organizations. He has experience in global entrepreneurship and connecting cultures through technology.

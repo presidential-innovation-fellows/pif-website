@@ -9,7 +9,7 @@ hometown: Palo Alto, CA
 region: west
 bio_short: Michael is a Presidential Innovation Fellow working with the Defense Innovation Unit Experimental (DIUx) in Silicon Valley.
 tags: ['west', '2016']
-skills: []
+skills: ['Cybersecurity', 'Change Management']
 ---
 
 Through August of 2016, Michael was the CEO of Symantec Corporation, the global leader in cybersecurity.  During his tenure as CEO (2014-16), he led a turnaround as the company developed a new strategy focused on its security business, sold its Veritas business, hired a new executive team, formed business units, improved operating margins and articulated a new culture fostering innovation. Michael served on the Symantec Board from 2005 until 2016.

@@ -9,7 +9,7 @@ hometown: Brooklyn, NY
 region: northeast
 bio_short: A systems designer, Founder, and humanitarian with experience in cybersecurity, AI, data science, and business growth; developed platforms in active war zones, Silicon Valley, and New York City.
 tags: ['northeast', '2018']
-skills: ['business development', 'communications', 'cybersecurity', 'design', 'policy', 'product']
+skills: ['Venture Capital/Private Equity', 'Data Science and Analytics', 'Cybersecurity']
 ---
 
 As an innovator, David's diverse career has spanned active war zones, Wall Street, and Silicon Valley. He is best known for creating organizations that blend advances in technology with new organizational methods to solve critical human-centric challenges globally. He is a specialist in interdisciplinary strategy for data science, cybersecurity, geospatial information systems, and AI.

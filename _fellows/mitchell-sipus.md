@@ -9,7 +9,7 @@ hometown: Covington, KY
 region: south
 bio_short: Socio-technical Design and Innovation for Complex Global Problems
 tags: ['south', '2016']
-skills: ['user experience', 'business development', 'data', 'product', 'policy']
+skills: ['Product', 'Design and Experience']
 ---
 
  Mitchell has 15 years of on-the-ground experience researching and designing new approaches to the world's most challenging environments. He is a specialist in organizational innovation, social science research, and the fusion of interdisciplinary design methods with geospatial technologies.

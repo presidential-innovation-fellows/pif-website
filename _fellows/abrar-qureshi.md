@@ -9,7 +9,7 @@ hometown: Manassas Park, VA
 region: east
 bio_short: A technologist and a believer in continuous re-imagination and simplification.
 tags: ['east', '2021']
-skills: ['frontend development', 'data', 'backend development']
+skills: ['Software and Cloud Infrastructure', 'Data Science and Analytics']
 linkedin: 'https://linkedin.com'
 twitter: 'https://twitter.com'
 ---

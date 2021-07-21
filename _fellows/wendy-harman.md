@@ -9,7 +9,7 @@ hometown: Stuart, FL
 region: south
 bio_short: Connector of creative ideas at the intersection of social impact, technology, and community. Professional listener. Intrapreneur.
 tags: ['south', '2016']
-skills: ['communications', 'business development', 'digital', 'product']
+skills: ['Marketing and Communications']
 ---
 
 Wendy is a connector of creative ideas, an intrapreneur, a digital nerd, a strategic thinker and a professional listener. She is passionate about using these talents, her network, and her experience  for positive social impact.
