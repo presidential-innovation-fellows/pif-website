@@ -9,7 +9,7 @@ hometown: Washington, DC
 region: east
 bio_short: Listening, Asking questions, Research, Understanding, Action
 tags: ['east', '2021']
-skills: ['product', 'data','cyber', 'frontend development', 'backend development']
+skills: ['Digital Health', 'Cybersecurity']
 ---
 Janine has over 16 years of experience in biotechnology, biomedical and security with a focus of Health Care. Her work in health care has seen her deal with the complexities of modernization of complex legacy systems within the healthcare industry, this included but are not limited to infrastructure, legacy system integration and EHR (electronic healthcare records).
 

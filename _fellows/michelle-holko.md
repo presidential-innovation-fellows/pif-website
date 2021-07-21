@@ -9,7 +9,7 @@ hometown:
 region: northeast
 bio_short: Scientist and disruptive innovator with technical expertise in genomics, bioinformatics, and security. Passionate about implementing novel, results-driven solutions with experts across domains to ensure national and domestic health and biosecurity.
 tags: ['northeast', '2020']
-skills: []
+skills: ['Digital Health', 'Data Science and Analytics']
 ---
 
 Dr. Holko is a biomedical scientist driving innovation in health data analytics and bioinformatics. She is motivated by recent discoveries of patterns in molecular and physiological data to improve outcomes at the individual and population levels, and focused on translating these insights into operations.

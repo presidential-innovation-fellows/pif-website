@@ -9,7 +9,7 @@ hometown: Street, MD
 region: south
 bio_short: Product manager tackling complex problems with both sides of the brain. Co-Founder, Just Startup. Storyteller, UX, HCD, Lean Startup.
 tags: ['south', '2016']
-skills: ['frontend development', 'product', 'communications', 'business development', 'design', 'user experience', 'digital']
+skills: ['Software and Cloud Infrastructure', 'Change Management', 'Product', 'Design and Experience']
 ---
 
 Amy J. Wilsonis a user-centered product manager working at the intersection of communications and technology to solve complex challenges. Her career’s trademark is deconstructing problems and spurring inventive thinking into collaborative action. Tackling problems with a left- (usability/analytic) and right- (design/creative) brain mentality, she has 14 years’ experience shipping products with multiple government agencies, private companies, and nonprofit clients.

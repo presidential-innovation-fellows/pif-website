@@ -9,7 +9,7 @@ hometown: San Francisco, CA
 region: west
 bio_short: Technology entrepreneur, strategist, and Military Intelligence officer with experience across healthcare, law, and national security.
 tags: ['west', '2021']
-skills: ['data', 'product', 'communications', 'business development']
+skills: ['Product', 'Design and Experience']
 ---
 Scott has more than fifteen years of experience leading healthcare, technology, and military teams across five continents. He is the co-founder of Chorus Health, a digital health company using data and design to personalize healthcare at scale, where he led product development from conception to commercialization. His solutions have been adopted by the UK’s National Health Service and earned recognition from Apple, the Skoll Foundation, and Alzheimer’s Society, among others.
 

@@ -9,7 +9,7 @@ hometown: San Francisco, CA
 region: west
 bio_short: Successful entrepreneur (3 companies / 1 IPO), Strategist, Team Builder, Lifelong Learner,  20+ years of experience in the U.S. and across Asia implementing transformational innovation to over 30 million stakeholders
 tags: ['west', '2019']
-skills: ['business development', 'digital', 'frontend development', 'policy', 'product', 'user experience']
+skills: ['Change Management', 'AI/Machine Learning']
 ---
 
 Patrick is a passionate leader dedicated to strategic and technical innovations to problem solve issues in diverse industries. In the U.S. and across Asia, Patrick has created and led innovative teams to transform private and public organizations.

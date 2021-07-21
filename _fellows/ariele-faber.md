@@ -9,7 +9,7 @@ hometown: New York, NY
 region: northeast
 bio_short: Health professional leveraging human-centered design to drive innovation in patient experience, healthcare quality & safety, and environmental sustainability.
 tags: ['northeast', '2020']
-skills: []
+skills: ['Design and Experience', 'Digital Health']
 ---
 
 Ariele Faber is passionate about improving overall quality of life for those who are most vulnerable in the U.S. and globally. Ariele began her career in direct care settings serving older adults and children with complex neurological and developmental health experiences. These early encounters sparked a desire to better understand and meet the needs of populations affected by system-level healthcare challenges.

@@ -9,7 +9,7 @@ hometown: San Francisco, CA
 region: west
 bio_short: Creative technologist, researcher, and educator exploring the current use cases and future possibilities of emerging technologies. Specializations include digital accessibility and inclusive design.
 tags: ['west', '2021']
-skills: ['product', 'design']
+skills: ['Design and Experience', 'Change Management']
 ---
 Pia Zaragoza is a creative technologist, researcher, and educator exploring the current use cases and future possibilities of emerging technologies. She has held strategic roles at Fortune 500 companies working on inclusive design and accessibility research. Constantly tinkering and experimenting, her work is at the intersection of computer science, engineering, and the social sciences. She is well-versed with hardware, software, web, and mobile development. Her past fellowships include Cinereach, IDEO, and the Yerba Buena Center for the Arts.
 

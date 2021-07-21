@@ -9,7 +9,7 @@ hometown: Houston, TX
 region: south
 bio_short: Healthcare strategist and entrepreneur. Formerly on founding teams of digital health and startup initiatives @TexasMedicalCenter, @MassGeneralHospital, @Johnson&Johnson
 tags: ['south', '2018']
-skills: ['business development', 'communications', 'design', 'digital', 'frontend development', 'policy', 'product', 'user experience']
+skills: ['Design and Experience']
 ---
 
 Sandeep Burugupalli is driven by tackling complex challenges in healthcare through technology, entrepreneurship, and design. As Entrepreneur-in-Residence and Business Strategist at the Texas Medical Center's TMCx, Sandeep created the healthcare startup accelerator's strategy and offerings as part of its founding team and served as a primary strategic advisor for its 60+ digital health and medical device portfolio startups. Sandeep also launched TMC Biodesign, a venture design program that builds early stage medical device and digital health companies from the ground up by leveraging resources in the world's largest medical center.

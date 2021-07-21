@@ -9,7 +9,7 @@ hometown: Johns Creek, GA
 region: south
 bio_short: Lifelong Learner, Researcher, Technologist, Teambuilder, and Innovator. Architect and developer of complex systems, and a student of literature, religion, and history.
 tags: ['south', '2020']
-skills: []
+skills: ['Software and Cloud Infrastructure']
 ---
 
 Irtaza Barlas brings more than 25 years of diverse technology and product development experience to the program. With a passion for innovation, Irtaza has developed strong technology teams in small to medium-sized businesses, co-founded several startups and also served as CTO in three others. He has architected systems for several diverse sectors including agriculture, real estate, textile and fabrics, utilities, and healthcare.

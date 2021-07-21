@@ -9,7 +9,7 @@ hometown: Bellevue, WA
 region: west
 bio_short: Marketing and advertising leader, telling dynamic stories on innovative platforms.
 tags: ['west', '2021']
-skills: ['business development', 'communications']
+skills: ['Marketing and Communications']
 ---
 Vivian Lee is a marketing and advertising leader with diverse experiences building insight-driven, cross-channel, innovative digital campaigns from concept to market. She has worked across Microsoft’s consumer and commercial divisions, leveraging the latest innovations in marketing to educate customers, build thought leadership, and create tangible community impact.
 

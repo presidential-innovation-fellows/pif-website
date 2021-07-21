@@ -9,7 +9,7 @@ hometown: Menlo Park, CA
 region: west
 bio_short: Global Tech CXO & Entrepreneur driven by Innovation and the art of possible! "You are only ever limited by your own creativity" @johntrobough
 tags: ['west', '2016']
-skills: ['cybersecurity', 'data', 'product', 'communications', 'business development']
+skills: ['Product', 'Data Science and Analytics']
 ---
 
 With a keen eye for innovation, John Trobough has been a pioneer in revolutionizing mobile technology and its uses, at the forefront of the latest in the wireless Internet of Things (IoT) as well as cybernetics and sophisticated data analytics. He has built successful companies by repurposing and capitalizing their technology to realize commercial expansion and drive global market growth in new sectors.

@@ -9,7 +9,7 @@ hometown: Brooklyn, NY
 region: east
 bio_short: Data, machine learning, and natural language scientist. Passionate about building data products for public good. Former urban planning, economic development, and technology innovation strategist.
 tags: ['east', '2021']
-skills: ['data','design']
+skills: ['AI/Machine Learning','Data Science and Analytics']
 ---
 Diana is a data, machine learning, and natural language scientist who is passionate about building data products for public good.
 

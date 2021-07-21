@@ -9,7 +9,7 @@ hometown: Louisville, KY
 region: south
 bio_short:  Entrepreneur, Educator, Social Designer. Faculty SVA/Products of Design MICA/Johns Hopkins/ Design Leadership MBA. Cofounder Imperative.
 tags: ['south', '2016']
-skills: ['business development', 'communications', 'product']
+skills: ['Design and Experience', 'Product']
 ---
 
  Kyla Fullenwider is an entrepreneur, educator, and social designer. She is faculty in the Products of Design department at the School of Visual Arts and in the Design Leadership MBA program at Johns Hopkins and the Maryland Institute of Art.

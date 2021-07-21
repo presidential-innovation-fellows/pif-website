@@ -9,7 +9,7 @@ hometown: San Francisco, CA
 region: west
 bio_short: Seasoned social entrepreneur and systems designer with more than 20 major development and IT projects deployed globally.
 tags: ['west', '2019']
-skills: ['business development', 'data', 'design', 'digital', 'communications', 'policy', 'user experience']
+skills: ['Change Management', 'Design and Experience']
 ---
 
 Maria Lynne Dayton is a successful social entrepreneur, systems architect, and creative finance expert who has developed, funded, and managed more than 20 major development and IT projects on four continents with a variety of stakeholders including: international organizations, governments, civil society, and the private sector. She specializes in achieving systemic impact at the nexus between crowd-based technology, rich storytelling, and disruptive fintech.

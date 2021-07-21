@@ -9,7 +9,7 @@ hometown: Boston, MA
 region: northeast
 bio_short: Entrepreneur, mentor, writer, and strategist focused on mobile technology, media, and social impact. Partner at United Ventures and Global Manager at MIT.
 tags: ['northeast', '2019']
-skills: ['business development', 'data', 'design', 'digital', 'communications', 'product', 'policy', 'user experience']
+skills: ['Design and Experience', 'Product']
 ---
 
 Ali is a serial entrepreneur who focuses on contrarian entrepreneurship, network economics, frontier market development, and inclusive innovation in the Technology, Media, and Telecom sectors. He has more than ten years of experience in advertising technology, financial technology, and value-added telecom services. He is the Global Programs Manager of the MIT Legatum Center, MIT’s hub for entrepreneurship in frontier markets. He also serves as the founding Innovation Coordinator of the MIT-Africa Initiative and is a Regional Lead for the MIT Inclusive Innovation Challenge which is powered by the MIT Initiative on the Digital Economy. As a mentor and a member of the MIT community, he produced and oversaw several initiatives in collaboration with the Mastercard Foundation including the Zambezi Prize for Innovation in Financial Inclusion, the MIT Legatum Leadership Forum, and MIT’s annual Open Mic Africa Summit.

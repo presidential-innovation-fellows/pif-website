@@ -9,7 +9,7 @@ hometown: Boston, MA
 region: northeast
 bio_short: Strategy and policy consultant in artificial intelligence and emerging technology.  Twenty years of experience in healthcare, technology, and financial services as an investment banker, entrepreneur, and operating partner.
 tags: ['northeast', '2020']
-skills: []
+skills: ['Digital Health', 'AI/Machine Learning']
 ---
 
 Dennis Chornenky is a senior advisor and strategy consultant in artificial intelligence and emerging technology.  With twenty years of experience in healthcare, technology, and financial services, he advises Fortune 500 companies, policy makers, and startups.  Throughout his business career Dennis has managed senior leadership teams, M&A deal teams, and product development and sales teams.  His experience includes investment banking at Lazard, building an alternative investments and trading business at Morgan Stanley, and founding an AI-driven telemedicine startup in Silicon Valley and a drone startup at MIT.

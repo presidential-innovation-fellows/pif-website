@@ -9,7 +9,7 @@ hometown: Palo Alto, CA
 region: west
 bio_short: Software architect, EMT, musician. Previous team member at @Deliv, @Upstart, @BrightPointSec, @LiveOps. Santa Clara University.
 tags: ['west', '2015']
-skills: ['backend development', 'frontend development', 'data', 'product', 'user experience', 'cybersecurity']
+skills: ['Software and Cloud Infrastructure']
 ---
 
 Ross Dakin is a software engineer who enjoys bringing new products to life within dynamic, young companies. Most recently, Ross helped the crowdsourced same day delivery provider Deliv achieve market-winning growth by rebuilding the company's technical infrastructure that is now trusted by such enterprises as Macy's and T-Mobile. Prior to Deliv, Ross helped create novel financial services at Upstart, cyber threat intelligence collaboration at BrightPoint Security, and distributed callcenter technology at LiveOps, where he also coordinated employee philanthropic efforts as a member of the LiveOps Foundation.

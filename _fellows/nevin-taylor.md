@@ -9,7 +9,7 @@ hometown: Washington, DC
 region: south
 bio_short: Strategist, transformational innovator, and catalyst to collaboration. 34 years of leadership in industry, academia, and government. Actualizes the inherent value of data to unleash the power of information.
 tags: ['south', '2019']
-skills: ['cybersecurity', 'digital', 'policy']
+skills: ['AI/Machine Learning']
 ---
 
 Nevin Taylor is a transformational leader who applies evolutionary technology to achieve organizational goals. As the Co-Founder of AFWERX, the innovation arm of the United States Air Force, he served as a catalyst to optimize mission effectiveness.

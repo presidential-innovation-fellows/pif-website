@@ -9,7 +9,7 @@ hometown: Fairfield, CT
 region: northeast
 bio_short: Co-Founder Fulbright 1:1, Founder AsthmaVillage. Growth hacking @Percolate, product @US Army. Fulbright Scholar. MRes University of Leeds
 tags: ['northeast', '2016']
-skills: ['data', 'product', 'user experience', 'communications', 'digital']
+skills: ['Product']
 ---
 
 Justin's work as a Presidential Innovation Fellow across two administrations has been to develop an awareness of the problems faced by the American people, primarily within healthcare and clinical trials access, but also across Internet infrastructure, artificial intelligence, workforce development, and internal IT modernization. Working collaboratively with government leaders and their direct reports, he has worked in uniting diverse perspectives across multiple business lines towards intuitive solutions to complex problems.

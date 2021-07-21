@@ -9,7 +9,7 @@ hometown: San Francisco, CA
 region: west
 bio_short: Product leader and community builder, creating social impact through organizational transformation and human-centered design.
 tags: ['west', '2020']
-skills: []
+skills: ['Product', 'Design and Experience']
 ---
 
 C.C. is a product leader who has built cross-functional, global teams to bring innovation to a wide variety of technology products, from the augmented reality HoloLens device to consumer apps like Facebook Messenger, used by 1.6 billion people worldwide.

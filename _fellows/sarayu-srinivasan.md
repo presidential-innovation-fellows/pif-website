@@ -9,7 +9,7 @@ hometown: New York, NY
 region: northeast
 bio_short: Venture capital investor; consumer and technology executive; founder and CEO. Worked at KAARGO, University of Edinburgh, Intel Capital, Pepsi, Harvard Business School.
 tags: ['northeast', '2019']
-skills: ['business development', 'design', 'communications', 'policy', 'product']
+skills: ['Venture Capital/Private Equity', 'Marketing and Communications']
 ---
 
 Sarayu has had a long career in technology as an investor, operator and founder helping young companies grow and innovate. Prior to serving as a Fellow, Sarayu was the Founder & CEO of KAARGO, a mission driven consumer-to-consumer transport and shipping marketplace. She also held a Visiting Scholar appointment at the University of Edinburgh, a visiting EIR/VIR at Arizona State University, and is a guest lecturer at universities worldwide.

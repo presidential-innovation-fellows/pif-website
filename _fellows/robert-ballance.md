@@ -9,7 +9,7 @@ hometown: Santa Fe, NM
 region: west
 bio_short:  Computer scientist; catalyst; strategist; manager of high-tech teams and large-scale HPC systems.  Ph.D. from UC, Berkeley.
 tags: ['west', '2016']
-skills: ['digital', 'data', 'business development', 'cybersecurity', 'backend development', 'product']
+skills: ['Software and Cloud Infrastructure', 'Change Management']
 ---
 
  Bob works in the intersection of collaborative teams, system design, large-scale operations, user support, service delivery, and software development where interactions are frequent and learning is continuous. As a practicing computer scientist, he helps people and organizations to mesh with computing systems. His job is often linguistic. It's about getting the team to agree on a common language so that they can move forward together. He's served in multiple roles: graduate student, professor, researcher, developer, entrepreneur, consultant, manager of high-performance computing (HPC) systems, leader of high-tech teams, IT strategist.

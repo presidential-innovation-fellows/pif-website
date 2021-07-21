@@ -9,7 +9,7 @@ hometown: New York
 region: northeast
 bio_short: Medical Doctor, Technologist, and Health Data & Payor-Provider Leader.  Cares for patients & populations, does research, builds product, grows businesses, develops policy, and leads cross-functional teams.
 tags: ['northeast', '2012']
-skills: ['frontend development', 'product', 'business development', 'backend development']
+skills: ['Digital Health']
 ---
 
 Prior to being named a Presidential Innovation Fellow, Henry Wei was and continues to be a board-certified Internal Medicine physician on the faculty at Weill-Cornell Medicine & New York Presbyterian Hospital, in Health Policy & Research and Internal Medicine.  He trained at Harvard University for his undergraduate and graduate degrees, focusing on sleep neuroscience and circadian biology. At McKinsey, he developed corporate strategy for healthcare companies including insurers, hospitals, biotech, pharma & device and health IT & medical IoT companies.  As Senior Medical Director for Clinical Innovation at Aetna, he led multiple collaborations with health tech startups, led real-world pilots and research projects, co-founded the Healthagen Outcomes real-world evidence unit, and authored several patents in outcomes research and patient safety systems and methods, following a role leading Clinical R&D for clinical decision support, predictive modeling for population health, and consumer health engagement products.

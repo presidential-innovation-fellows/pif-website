@@ -9,7 +9,7 @@ hometown: San Jose, CA
 region: west
 bio_short: Entrepreneur, software architect, startup founder, leader, teacher. Hands-on technologist, computer science Ph.D. who still writes code.
 tags: ['west', '2020']
-skills: ['frontend development', 'data', 'backend development']
+skills: ['Software and Cloud Infrastructure', 'Product']
 ---
 
 Johnny Martin is a software development entrepreneur from San Jose, California. He has held strategic roles in software startups innovating, leading, mentoring, and doing. He has been a software architect at PayPal and Adobe, a professor of computer science, and a founder of several startup companies including Object Guild and Xmlify, both bootstrap companies that employed over two dozen employees.

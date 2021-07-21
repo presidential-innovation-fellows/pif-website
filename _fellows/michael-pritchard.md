@@ -9,7 +9,7 @@ hometown: Reston, VA
 region: south
 bio_short: Tinkerer, developer, executive, investor and entrepreneur building teams and companies.
 tags: ['south', '2019']
-skills: ['backend development', 'frontend development', 'product']
+skills: ['Software and Cloud Infrastructure', 'Product']
 ---
 
 Mike’s passion for engineering began when as a curious kid he would take everything apart “to see how it works.” His career in the field of Robotics and Artificial Intelligence, began when he worked with NASA and the DoD. He earned a commendation from NASA for his work in machine learning with industrial robots. He worked on a variety of real-world problems that ranged from mine detection with UWB radar to navigation in GPS-denied environments. He then founded his first startup and has had the startup bug ever since. During the last 20 years, Mike has been a founder, investor, developer, board member, and advisor.

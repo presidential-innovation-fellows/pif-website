@@ -9,5 +9,5 @@ hometown: Freemont, CA
 region: west
 bio_short:
 tags: ['west', '2012']
-skills: []
+skills: ['Venture Capital/Private Equity']
 ---

@@ -9,7 +9,7 @@ hometown: Rochester, NY
 region: northeast
 bio_short: Social impact designer and strategist dedicated to helping achieve health equity. MICA & RIT alum.
 tags: ['northeast', '2015']
-skills: ['data', 'communications', 'user experience', 'design']
+skills: ['Design and Experience']
 ---
 
 Emily is a social impact designer and design researcher who began her career as a visual designer and writer. She is dedicated to helping effect systemic change so that all humans have equitable opportunities to be healthy and happy. Curious about the intersection of public health and education, Emily studied the disparities in both while completing an M.A. in Social Design from the Maryland Institute College of Art (MICA). Her thesis work focused on youth-experienced trauma in Baltimore and the impact of chronic stress on education.

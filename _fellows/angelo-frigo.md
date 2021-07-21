@@ -9,7 +9,7 @@ hometown: Chicago, IL
 region: midwest
 bio_short: Organizing for innovation. Strategy for nascent markets. Service design and operational pilots. Coach. I help teams do the work to get their ideas funded.
 tags: ['midwest', '2020']
-skills: []
+skills: ['Design and Experience']
 ---
 
 Prior to being named a Presidential Innovation Fellow, Angelo consulted to Feeding America on the digital transformation of food rescue and charitable food distribution. From 2015 to 2019 he helped establish the Corporate Digital UX function at McDonald's where he led the research, digital strategy, design, and piloting of the mobile app and service operations for Mobile Order & Pay, Loyalty Rewards, and Table Service. He also co-founded Corp Digital's innovation governance and portfolio management process.

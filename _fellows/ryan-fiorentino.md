@@ -9,7 +9,7 @@ hometown: Los Angeles, CA
 region: west
 bio_short: Designer, founder, and corporate innovation leader. Equipping multidisciplinary teams to design industry defining products and services, navigate ambiguity, and mediate forces of market, organization, and business transformation.
 tags: ['west', '2019']
-skills: ['business development', 'product', 'design', 'digital', 'user experience']
+skills: ['Design and Experience']
 ---
 
 Ryan is a corporate innovation leader who focuses on complex strategic initiatives and multidisciplinary teams challenged with designing industry-defining products and services, navigating ambiguity, and mediating forces of market, organization, and business transformation. He is constantly training for versatility and exploring the intersection of experience and economics.

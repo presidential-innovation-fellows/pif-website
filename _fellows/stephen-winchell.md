@@ -9,7 +9,7 @@ hometown: Washington, DC
 region: south
 bio_short: Physicist, Engineer, Futurist. Complex systems architect.
 tags: ['south', '2018']
-skills: ['backend development', 'cybersecurity', 'data', 'design']
+skills: ['AI/Machine Learning', 'Cybersecurity']
 ---
 
 Stephen is currently a Presidential Innovation Fellow at the Intelligence Advanced Research Projects Activity (IARPA). He is a physicist and engineer with a passion for architecting and implementing complex systems solutions end-to-end: from physical laws and raw data to end user operations, system dynamics, and strategy.
