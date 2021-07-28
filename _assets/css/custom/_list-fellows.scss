@@ -39,7 +39,9 @@
   }
 }
 .fellow-card--specialty {
+  font-family: $theme-font-type-serif;
   font-style: italic;
+  color: #162E51;
   margin-top: 0;
   @include u-margin-bottom(0.5);
 }
@@ -47,6 +49,11 @@
 .fellow-card--fellow-year {
   color: color('blue-warm-50v');
   font-weight: 700;
+
+  span {
+    color: color('blue-warm-50v');
+  }
+
   &:after {
     height: 0.8rem;
     width: 1px;
@@ -59,6 +66,8 @@
     border-right: none;
   }
 }
+
+
 
 .fellow-card--linkedin, 
 .fellow-card--twitter {

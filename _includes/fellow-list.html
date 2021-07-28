@@ -19,7 +19,7 @@
         </p>
     </a>
       <p>
-        <span class="fellow-card--fellow-year">{{ fellow.fellow_year }}</span>{% if fellow.linkedin %}<span class="fellow-card--linkedin"><a href={{fellow.linkedin}}>{% asset icons/linkedin-blue.svg alt="{{fellow.title}}'s LinkedIn profile" %}</a></span>{% endif %}{% if fellow.twitter%}<span class="fellow-card--twitter"><a href={{fellow.twitter}}>{% asset icons/twitter.svg alt="{{fellow.title}}'s Twitter profile" %}</a></span>{% endif %}
+        <a href="{{ site.baseurl }}/fellows/{{ fellow.fellow_year }}/#main-content" class="fellow-card--fellow-year"><span>{{ fellow.fellow_year }}</span></a>{% if fellow.linkedin %}<span class="fellow-card--linkedin"><a href={{fellow.linkedin}}>{% asset icons/linkedin-blue.svg alt="{{fellow.title}}'s LinkedIn profile" %}</a></span>{% endif %}{% if fellow.twitter%}<span class="fellow-card--twitter"><a href={{fellow.twitter}}>{% asset icons/twitter.svg alt="{{fellow.title}}'s Twitter profile" %}</a></span>{% endif %}
       </p>
     </div>
   </div>

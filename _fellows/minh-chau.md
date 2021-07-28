@@ -9,7 +9,7 @@ hometown: Boston, MA
 region: northeast
 bio_short: Former refugee turned child actor, turned investment banker, turned tech entrepreneur.
 tags: ['northeast', '2020']
-skills: ['Venture Capital/Private Equity', 'Change Management']
+skills: ['Venture Capital/Private Equity', 'Change Management', 'Strategy and Growth']
 ---
 
 Minh is an innate relationship builder, strategist, and entrepreneur who believes that entrepreneurs are the most significant drivers of social change. Minh has spent his career leading interdisciplinary teams of investment bankers during his time on Wall Street, aerospace engineers as CEO of a venture-backed startup, and, in his personal life, leading groups of friends/adventurers traversing through the mountains of Nepal and the deserts of Jordan. These experiences have helped him learn how to extract the most out of his team, determine user needs, and identify new business opportunities.
