@@ -2,7 +2,7 @@
 id: gil-alterovitz
 title: Gil Alterovitz
 image: gil-alterovitz-headshot.jpg
-fellow_year: 2017
+fellow_year: 2018
 project: []
 agency: ["VA"]
 hometown: Boston, MA

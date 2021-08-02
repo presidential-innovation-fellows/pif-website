@@ -2,7 +2,7 @@
 id: stephen-wisniew
 title: Stephen Matthew Wisniew
 image: stephen-wisniew-headshot.jpg
-fellow_year: 2017
+fellow_year: 2018
 project: []
 agency: []
 hometown: San Diego, CA

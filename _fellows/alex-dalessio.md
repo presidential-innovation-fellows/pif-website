@@ -2,7 +2,7 @@
 id: alex-dalessio
 title: J. Alex Dalessio
 image: alex-dalessio-headshot.jpg
-fellow_year: 2017
+fellow_year: 2018
 project: []
 agency: []
 hometown: Washington, DC

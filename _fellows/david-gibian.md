@@ -2,7 +2,7 @@
 id: david-gibian
 title: Davey Gibian
 image: davey-gibian-headshot.jpg
-fellow_year: 2017
+fellow_year: 2018
 project: []
 agency: ["DIU"]
 hometown: Brooklyn, NY

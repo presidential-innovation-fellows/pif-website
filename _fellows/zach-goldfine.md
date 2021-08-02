@@ -2,7 +2,7 @@
 id: zach-goldfine
 title: Zach Goldfine
 image: zach-goldfine-headshot.jpg
-fellow_year: 2017
+fellow_year: 2018
 project: ["va-cto"]
 agency: ["VA"]
 hometown: San Francisco, CA

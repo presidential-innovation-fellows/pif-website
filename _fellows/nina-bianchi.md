@@ -2,7 +2,7 @@
 id: nina-bianchi
 title: Nina Bianchi
 image: nina-bianchi-headshot.jpg
-fellow_year: 2017
+fellow_year: 2018
 project: []
 agency: []
 hometown: Detroit, MI

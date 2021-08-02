@@ -2,7 +2,7 @@
 id: mike-rossetti
 title: Mike Rossetti
 image: mike-rossetti-headshot.jpg
-fellow_year: 2017
+fellow_year: 2018
 project: []
 agency: []
 hometown: Branford, CT

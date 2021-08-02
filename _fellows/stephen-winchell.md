@@ -2,7 +2,7 @@
 id: stephen-winchell
 title: Stephen Winchell
 image: stephen-winchell-headshot.jpg
-fellow_year: 2017
+fellow_year: 2018
 project: []
 agency: []
 hometown: Washington, DC
