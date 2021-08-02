@@ -10,8 +10,7 @@ region: east
 bio_short: A technologist and a believer in continuous re-imagination and simplification.
 tags: ['east', '2021']
 skills: ['Software and Cloud Infrastructure', 'Data Science and Analytics']
-linkedin: 'https://linkedin.com'
-twitter: 'https://twitter.com'
+
 ---
 Abrar Qureshi is a design thinker, a polyglot, and a creative technologist who wears multiple hats and wears them well. With a growth mindset and a can-do attitude, he strives to tackle difficult challenges and solve complex problems with simple and scalable solutions.
 
