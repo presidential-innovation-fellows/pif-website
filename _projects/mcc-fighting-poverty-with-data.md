@@ -6,7 +6,7 @@ agency_logo: "MCC.png"
 title: "Fighting poverty with data"
 summary: Supporting the Millennium Challenge Corporation to ensure that their partner countries have the data, technology and innovations skills needed to maximize the impact from U.S. investments and to leverage the digital data revolution to drive their own development priorities
 cover_art: ""
-subtitle: "How can we use data to fight poverty?"
+project_challenge: "How can we use data to fight poverty?"
 partner_description: "Millennium Challenge Corporation is committed to delivering sustainable economic growth and poverty reduction throughout the entire lifecycle of its investments."
 project_link: https://mcc.gov
 status: "current"

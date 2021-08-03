@@ -6,7 +6,7 @@ agency_logo: "HHS.png"
 title: "Accelerating telehealth awareness and adoption during the COVID-19 pandemic"
 summary: "Co-creating a cross-agency initiative to address challenges seen in adopting telehealth and serve 1M+ health care providers and 300M+ patients across the U.S."
 cover_art: "hhs-telehealth-case-study.png"
-subtitle: "The public shouldn’t have to choose between social distancing and receiving medical care. How might we expedite awareness and adoption of telehealth at the peak of a public health emergency?"
+project_challenge: "The public shouldn’t have to choose between social distancing and receiving medical care. How might we expedite awareness and adoption of telehealth at the peak of a public health emergency?"
 partner_description: "Presidential Innovation Fellows (PIF) worked with Health Resources and Services Administration (HRSA), the U.S. Department of Health and Human Services, the White House Office of Science and Technology Policy (OSTP), and the Office of the Surgeon General (OSG) to lead a cross-agency initiative to address challenges seen in adopting telehealth and serve 1M+ health care providers and 300M+ patients across the U.S."
 project_link: https://telehealth.hhs.gov
 status: ["case_study"]
@@ -19,8 +19,7 @@ Responding to this challenge, <a href="https://www.whitehouse.gov/articles/dereg
 
 However, policy changes information and the impact on the public was not centralized nor communicated in plain language. This thwarted fast adoption of telehealth for both providers and the public.
 
-## The solution
-
+<h2 class="text-primary text-no-italic" id="the-solution">The <em>solution</em></h2>
 Early user research indicated that healthcare providers and patients needed a central government resource that provided up-to-date guidance on how to take advantage of the latest tools and information. This was particularly imperative to providers with fewer administrative resources, such as small-practice physicians. To address this challenge and expand telehealth capacity to meet the spike in demand for safe virtual care, Presidential Innovation Fellows (PIF) led the development and launch of <a href="https://telehealth.hhs.gov/">Telehealth.HHS.gov</a>, a government website that aims to increase the adoption of telehealth at a time when it is essential to protect the public by providing helpful information about telemedicine in plain language, and links to tools and resources for health care providers.
 
 <div class="usa-image-block">
@@ -43,15 +42,14 @@ Communicating with our public servants and our people is critical in times of cr
 
 Bringing together leaders and subject matter experts from HHS, HRSA, OSTP, FEMA, and ASPR, PIF envisioned the project, articulated user needs, secured sponsorship for a timely execution and <strong>launched the site from inception to production in less than two weeks</strong>.
 
-## The impact
-
+<h2 class="text-primary text-no-italic" id="the-impact">The <em>impact</em></h2>
 The website actively serves thousands of its users by providing easy access to policy changes in plain language and has seen a positive response across the telehealth community. The core team remains committed to mobilizing a strong telehealth workforce to help keep Americans healthy through and beyond this challenging time, with this effort finding a long-term home and funding in HRSA’s Federal Office of Rural Health Policy and Office for the Advancement of Telehealth.
 
 Building on this work further, PIF Dennis Chornenky worked with White House colleagues and led the <a href="https://www.whitehouse.gov/articles/trump-administration-strongly-supports-telehealth-innovation/">White House launch of the Pledge to Embrace Technology to Advance America’s Health</a>. Over 50 of the nation’s largest health insurance plans and stakeholders enthusiastically committed to expand telehealth coverage and adoption.
 
 This move helped reassure Americans that telehealth is here to stay. <strong>When patients can get healthcare through telehealth—and doctors can provide it—we protect ourselves and our communities. Our digital approach helps keep providers and patients safe and healthy for the long run</strong>.
 
-## The response
+<h2 class="text-primary text-no-italic" id="the-response">The <em>response</em></h2>
 
 Here’s the response we’ve received from agency leaders we supported:
 

@@ -6,7 +6,7 @@ agency_logo: "GSA.png"
 title: "Improving the customer experience with federal services"
 summary: "Helping GSA and OMB achieve the customer experience Cross-Agency Priority goal by developing a government-wide, lightweight, low-cost, streamlined mechanism for collecting customer feedback"
 cover_art: ""
-subtitle: "How might we improve the customer experience of federal services across the entire government?"
+project_challenge: "How might we improve the customer experience of federal services across the entire government?"
 partner_description: "The General Services Administration (GSA) is an independent agency of the United States government established in 1949 to help manage and support the basic functioning of federal agencies. GSA supplies products and communications for U.S. government offices, provides transportation and office space to federal employees, and develops government-wide cost-minimizing policies and other management tasks."
 project_link: https://www.gsa.gov
 status: "current"

@@ -6,7 +6,7 @@ agency_logo: "State.png"
 title: "Leveraging data as an asset at the State Department"
 summary: "Aiding the U.S. Department of State in leveraging its data as a strategic asset to better gather insights on mission needs, results, and risks"
 cover_art: ""
-subtitle: "How might we help U.S. Department of State become more data driven?"
+project_challenge: "How might we help U.S. Department of State become more data driven?"
 partner_description: "As America's expeditionary force in readiness since 1775, the Marines are forward deployed to win our nation's battles swiftly and aggressively in times of crisis."
 project_link: https://www.state.gov
 status: "past"

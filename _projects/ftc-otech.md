@@ -5,7 +5,7 @@ agency_abbrev: "FTC"
 agency_logo: "FTC.png"
 title: "Developing a holistic view of complex and constantly evolving digital advertising markets and potential threats to consumers"
 summary: Creating strategies to implement consumer protection policy and targeted law enforcement that optimizes consumer welfare while maintaining vibrant competition and innovation.
-subtitle: "How can we develop a holistic view of the complex and constantly evolving digital advertising markets and potential threats to consumers"
+project_challenge: "How can we develop a holistic view of the complex and constantly evolving digital advertising markets and potential threats to consumers"
 partner_description: "For more than 50 years, the FTC has been the primary regulator of the advertising industry, and has been a leader on advertising issues, beginning with its cigarette advertising rules in the 1960s. Over that time, the FTC also has emerged as the primary US privacy regulator. Moreover, members of Congress and other policymakers look to the FTC for leadership, guidance, and expertise on these issues."
 project_link: https://www.ftc.gov/about-ftc/bureaus-offices/bureau-consumer-protection/office-technology-research-investigation
 status: "current"

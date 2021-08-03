@@ -5,10 +5,10 @@ agency_abbrev: "CMS"
 agency_logo: "CMS.png"
 title: "Improving data sharing across the healthcare ecosystem"
 summary: "Helping the Centers for Medicare & Medicaid Services with long-term strategic planning, including support for the continued growth and use of FHIR (Fast Healthcare Interoperability Resources) in API development and standardization."
-subtitle: "How might we help the Centers for Medicare & Medicaid Services modernize their technology so that they can share data across the healthcare ecosystem to support patient-centered, data-driven decision making and innovative research?"
+project_challenge: "How might we help the Centers for Medicare & Medicaid Services modernize their technology so that they can share data across the healthcare ecosystem to support patient-centered, data-driven decision making and innovative research?"
 partner_description: "The Centers for Medicare & Medicaid Services (CMS) is the agency within the U.S. Department of Health and Human Services (HHS) that administers the nation’s major healthcare programs. The CMS oversees programs including Medicare, Medicaid, the Children's Health Insurance Program (CHIP), and the state and federal health insurance marketplaces."
 project_link: https://www.cms.gov
-status: "current"
+status: ["upcoming","current"]
 ---
 
 The Presidential Innovation Fellow (PIF) will work in the Data & Analytics Strategy Group (DASG) within the Office of Enterprise Data & Analytics and report to the DASG Director, Yadira Sanchez. DASG designs, develops and promotes the use of innovative mechanisms to securely share data internally within CMS and externally to partners. DASG has been primarily focused on data sharing though the use of HL7 FHIR formatted Application Programming Interfaces (APIs). The PIF will focus on long-term strategic planning to continue the growth and use of FHIR in the API development and standardization.

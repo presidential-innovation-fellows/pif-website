@@ -5,7 +5,7 @@ agency_abbrev: "HHS"
 agency_logo: "HHS.png"
 title: "Promoting the secure and effective use of health data and technology"
 summary: "Helping the Office of Inspector General (OIG) within the Department of Health and Human Services (HHS) advance modern, data-driven audits, evaluations, and investigations to enable effective and efficient oversight over HHS programs well as the health and welfare of the people they serve."
-subtitle: "How can we promote public health and safety through technology?"
+project_challenge: "How can we promote public health and safety through technology?"
 partner_description: "The Office of Inspector General (OIG) within the Department of Health and Human Services (HHS) promotes the economy, efficiency, effectiveness, and integrity of HHS programs, as well as the health and welfare of the people they serve. Our work provides objective oversight for HHS’s over $1 trillion portfolio of health and human services programs that touch the lives of virtually all Americans. We are trusted guardians, relied upon by taxpayers, HHS officials, and policymakers to ferret out fraud, waste, and abuse and to recommend sound improvements to program operations. We do this with data-driven reviews and investigations, supported with modern auditing, investigative, and evaluative methods. In all we do, we strive to be impactful, innovative, and people-focused."
 project_link: https://www.hhs.gov
 status: "current"
