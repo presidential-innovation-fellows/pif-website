@@ -1,0 +1,12 @@
+---
+layout: fellow-landing
+title: All Fellows
+sidenav: true
+banner: true
+pagination:
+  enabled: true
+  collection: fellows
+  sort_field: 'name'
+---
+
+{% include_cached fellow-list.html fellows=paginator.posts %}

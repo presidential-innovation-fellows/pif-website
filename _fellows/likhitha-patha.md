@@ -9,7 +9,7 @@ hometown: Seattle, WA
 region: west
 bio_short: Product leader and rallier of cross-functional teams with experience in finding simple and innovative software solutions to solve complex problems at scale.
 tags: ['west', '2020']
-skills: []
+skills: ['Product','AI/Machine Learning']
 ---
 
 Likhitha is inspired by the pervasive problems that surround our everyday-life and is fueled by a passion to solve them by building products that deliver simple experiences to boost productivity. Her product philosophy is to start with a well articulated vision, develop with rapid iteration cycles coupled with a tight feedback loop and measure progress via simple and understandable metrics. She specializes in leveraging cloud services and artificial intelligence to bring new product ideas to life and maturing them to scale.

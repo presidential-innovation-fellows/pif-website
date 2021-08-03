@@ -2,14 +2,14 @@
 id: jeffrey-starr
 title: Jeffrey Starr
 image: jeffrey-starr-headshot.jpg
-fellow_year: 2017
+fellow_year: 2018
 project: ["dot-autonomous-vehicles"]
 agency: ["DOT"]
 hometown: Alexandria, VA
 region: south
 bio_short: Passion for building order out of chaos, mathematician & methodologist, educator in development of self-aware technologies, quant risk advisory and international security, patent holder and start-up founder and entrepreneur.  Celebrate the art and science of design and solutions, anticipate and own the human consequences.
 tags: ['south', '2018']
-skills: ['cybersecurity', 'data', 'design', 'policy', 'product']
+skills: ['AI/Machine Learning', 'Cybersecurity']
 ---
 
 Jeff is an architect of solutions who seeks to understand and act on the deep structure of events, and a strategist who operates tactically, mostly in the security space.  He co-founded Neo Prime Solutions, a cyber security and risk modeling firm, which uses its patented method to quantify cyber risks and forecast cyber losses both to hedge financial losses from cyber-attacks and to prioritize security control modernization reflecting actual sources of loss in networks.  He also founded Neo Prime Risk Management which focuses on critical military and emerging technology threat assessments, and data-driven and quantified approaches to financial and political risk assessments.  Jeff is an educator also, and teaches an honors undergraduate laboratory seminar focused on development of mobile apps and self-aware mobile platforms.

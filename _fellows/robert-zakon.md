@@ -9,7 +9,7 @@ hometown: Mt. Washington Valley, NH
 region: northeast
 bio_short: Entrepreneur, Technologist, Developer, Innovator, Mentor, STEM Coach. Founder @OpenConf, Zakon Group. CompEng&Sci @CWRU.
 tags: ['northeast', '2016']
-skills: ['frontend development', 'product', 'backend development', 'cybersecurity', 'user experience', 'digital']
+skills: ['Software and Cloud Infrastructure', 'Product']
 ---
 
 Robert Zakon is a technologist and entrepreneur with over 20 years of experience in innovating and applying emerging technologies across the intelligence, defense, health care, and scientific sectors. Born in Brazil and educated in the US since high school, he is a graduate of The Peddie School and Case Western Reserve University where he earned B.S. and M.S. degrees in Computer Engineering and Science with concentrations in Philosophy and Psychology.

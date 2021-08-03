@@ -9,7 +9,7 @@ hometown: San Francisco, CA
 region: west
 bio_short: Scientist and lifelong learner. Expertise in genomics and data science.
 tags: ['west', '2021']
-skills: ['frontend development', 'data', 'backend development' ]
+skills: ['Data Science and Analytics', 'AI/Machine Learning']
 ---
 Kimberly is passionate about driving innovation and positive change. She is a scientist, dedicated to translating cutting edge research and technology into impactful solutions.
 

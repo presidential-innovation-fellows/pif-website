@@ -8,8 +8,8 @@ agency: ["NGA"]
 hometown: Oakland, CA
 region: west
 bio_short: Building products.  Building teams.  Defining processes (but not too much!).
-tags: ['west', '2021']
-skills: ['product', 'data' ]
+tags: ['west', '2021', 'product']
+skills: ['Product', 'Venture Capital' ]
 ---
 Aamir Virani is a born-and-raised proud Houstonian who now lives in Oakland, California.  He is an engineer at heart.  He likes building new things to make people more effective and free their time.  He loves building teams and optimizing processes to make things better.
 

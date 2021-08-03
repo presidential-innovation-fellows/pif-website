@@ -9,5 +9,5 @@ hometown: Oakland, CA
 region: west
 bio_short: 
 tags: ['west', '2012']
-skills: ['frontend development', 'product', 'backend development']
+skills: ['Software and Cloud Infrastructure', 'Product']
 ---

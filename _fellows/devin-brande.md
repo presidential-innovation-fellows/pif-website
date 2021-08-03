@@ -9,7 +9,7 @@ hometown: Washington, DC
 region: south
 bio_short: Technologist and innovator aspiring to help develop and deliver the next generation of solutions to everyday users. Experienced at the intersection of venture-backed innovation and the U.S. Government.
 tags: ['south', '2020']
-skills: []
+skills: ['Product', 'Software and Cloud Infrastructure']
 ---
 
 Devin is a technologist and innovator working to bring the state of the art to users who face new and difficult challenges every day.

@@ -9,7 +9,7 @@ hometown: Round Rock, Texas
 region: south
 bio_short: Passionate about using mathematical models to improve performance.
 tags: ['south', '2021']
-skills: ['frontend development', 'business development', 'backend development']
+skills: ['AI/Machine Learning', 'Data Science and Analytics']
 ---
 Babatunde Oguntade is the founder of DeepCareAi, an organization focused on improving safety in the workplace using artificial intelligence techniques. In addition to his duties at DeepCareAi, he leads the consulting efforts at Rehoboth Group Incorporated, a consultancy that has successfully solved challenging problems in process engineering, financial engineering, fraud detection and preventative maintenance for corporations and individuals. He also currently works in retails and wholesale credit risk analytics at Citi Bank.
 

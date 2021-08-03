@@ -9,7 +9,7 @@ hometown: Pittsburgh, PA
 region: northeast
 bio_short: Improving lives through creating and integrating AI & Robotics. Engineering Trust. Fmr CS prof. @CarnegieMellon @Stanford @UWash. Fmr. VC. 6xEntrepreneur.
 tags: ['northeast', '2016']
-skills: ['digital', 'product', 'business development', 'communications', 'data', 'policy']
+skills: ['AI/Machine Learning', 'Venture Capital/Private Equity', 'Product']
 ---
 
 Eric Daimler is the founder of Spinglass.ai, an investment firm both investing in fresh robotics and AI technology while also applying developments to traditional industries. He is also authoring Engineering Trust, a manifesto for entrepreneurs, engineers, and key stakeholders on the psychology behind product design, development, and execution. Eric is a champion for robotics and the positive impact it can have on the economy and people’s daily life.

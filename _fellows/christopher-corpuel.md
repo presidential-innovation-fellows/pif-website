@@ -9,7 +9,7 @@ hometown: Bethesda, MD
 region: south
 bio_short: Innovation and growth leader balancing creative thinking with pragmatism and achievement-oriented focus to deliver meaningful solutions that make a difference in people’s lives.
 tags: ['south', '2020']
-skills: []
+skills: ['Design and Experience']
 ---
 
 Christopher is an innovation and growth leader who combines strategy, CX design, product and brand management skills with an ability to align global resources and capabilities to bring compelling single and multi-channel products, services, and experiences to fruition.
