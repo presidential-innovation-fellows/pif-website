@@ -2,14 +2,14 @@
 id: zach-goldfine
 title: Zach Goldfine
 image: zach-goldfine-headshot.jpg
-fellow_year: 2017
+fellow_year: 2018
 project: ["va-cto"]
 agency: ["VA"]
 hometown: San Francisco, CA
 region: west
 bio_short: Generalist, systems thinker, statistical-minded, persistently curious. Formerly Basketball Operations in the NBA, Director / Founder @ Startups, and Political Advocate @ RepresentUS.
 tags: ['west', '2018']
-skills: ['business development', 'data', 'digital', 'product']
+skills: ['Software and Cloud Infrastructure', 'Data Science and Analytics']
 ---
 
 Zach enjoys building teams, seeing projects and products through from conception to reflection, and solving complex problems. More specifically, Zach loves: - Dissecting challenges and finding solutions using data, empathy, collaboration, and rigor. - Making people around him feel like their most creative, valued, and capable selves. - Uniting a diverse set of interests toward a common high-level goal.

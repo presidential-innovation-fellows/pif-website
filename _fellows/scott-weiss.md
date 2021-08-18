@@ -9,7 +9,7 @@ hometown: New York, NY
 region: northeast
 bio_short: Organizational and Systems Designer, Strategist, University Lecturer, Storyteller, Design Thinker and Community Organizer focused on bringing innovative practices and creative partnerships to solve systemic social challenges.
 tags: ['northeast', '2020']
-skills: []
+skills: ['Design and Experience']
 ---
 
 Scott feels passionately about creating disproportionate positive impact and equity in society.  The last 10 years of his work reflects that philosophy.  He most recently co-led a social innovation and design consulting agency based in New York called Community by Design, that delivered human-centric concepts at the intersection of design thinking, civic innovation practices, and community organizing.  Some of these projects included co-creating an interfaith institute at Harvard University focused on improving the public education system, devising a strategic plan with the City of New York that bridged the technology industry with underserved communities, and developing strategic programming within the United Nations on sustainable tourism practices.

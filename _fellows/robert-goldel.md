@@ -9,7 +9,7 @@ hometown: Boston, MA
 region: northeast
 bio_short: Founder, Neuroscientist, Data-Driven Technologist. Two decades of working at the intersection of cognition, behavior, and the brain, solving for human health and performance concerns with industry, non-profit, and government partners across populations.
 tags: ['northeast', '2019']
-skills: ['business development', 'product', 'design', 'digital', 'user experience']
+skills: ['Digital Health', 'Data Science and Analytics']
 ---
 
 Robert Goldel is a founder, neuroscientist, and data-driven technologist. His research has applied behavioral and neuroimaging methods to analyze core brain functions, including memory, learning, attention, and decision making. At Neumitra, his team launched the first smart watch to measure and manage the physiology of the autonomic nervous system with real-time biofeedback and self-learning software. Working with designers, engineers, and researchers, their technologies applied continuous biosensor data to personalize devices and software with statistical learning on mobile phones and backed by cloud-based analytics. Their software and algorithms showed how artificial intelligence can respond with empathy to manage brain health and cognitive functions across daily life demands for diverse populations.

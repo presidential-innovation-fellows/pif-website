@@ -17,10 +17,10 @@ layout: default
   <div class="grid-container">
     <div class="grid-row usa-prose">
       <p class="body-intro">
-        We're building human-centered solutions that scale, and<br class="display-none tablet:display-inline" />
-        fundamentally changing federal culture while we're at it.
+        At PIF, you'll never go it alone. We hire annual cohorts of mid-to-senior<br class="display-none tablet:display-inline" />
+        career technologists, designers, entrepreneurs, and strategists.
         <br/>
-        Learn about some of our projects below.
+        Meet our fellows below.
       </p>
     </div>
     <div class="grid-row margin-top-4">
@@ -31,14 +31,14 @@ layout: default
 
 <section class="grid-container usa-layout-docs usa-section">
   <div class="grid-row grid-gap">
-    <div class="usa-layout-docs__main desktop:grid-col-9 usa-prose list-fellows">
+    <div class="usa-layout-docs__main usa-prose list-fellows">
       <main id="main-content">
         <!-- initial list that the search results replace -->
         <span id='fellow-search-default'>
           {{ content }}
         </span>
         <!-- search results container -->
-        <span id='fellow-search-results'>
+        <span id='fellow-search-results' class="grid-row">
         </span>
       </main>
     </div>
@@ -52,13 +52,7 @@ layout: default
 
 <!-- search -->
 <script type="text/javascript">
-  var searchInput = document.getElementById('fellows-search-input'); // Found in fellow-filters.html
-  var resultsContainer = document.getElementById('fellow-search-results');
-  var sjs = SimpleJekyllSearch({
-    searchInput: searchInput,
-    resultsContainer: resultsContainer,
-    json: [
-      {% for fellow in site.fellows %}
+  var fellowsJson = [{% for fellow in site.fellows %}
         {
           "title"    : "{{ fellow.title | escape }}",
           "category" : "{{ fellow.category }}",
@@ -66,28 +60,20 @@ layout: default
           "url"      : "{{ site.baseurl }}{{ fellow.url }}",
           "date"     : "{{ fellow.date }}",
           "content"  : "{{ fellow.bio_short | strip_html | strip_newlines | remove_chars | escape }}",
-          "image_path" : "{% asset '{{ fellow.image }}' @path %}"
+          "image_path" : "{% asset '{{ fellow.image }}' @path %}",
+          "specialty" : "{{ fellow.skills | first | escape }}",
+          "linkedin": "{% if fellow.linkedin %}<span class='fellow-card--linkedin'><a href={{ fellow.linkedin }}><img src={% asset 'icons/linkedin-blue.svg' @path %} alt='{{ fellow.title}} on LinkedIn'/></a>{% else %}</span>{% endif %}",
+          "twitter": "{% if fellow.twitter %}<span class='fellow-card--twitter'><a href={{ fellow.twitter }}><img src={% asset 'icons/twitter.svg' @path %} alt='{{ fellow.title }} on Twitter' /></a>{% else %}</span>{% endif %}",
+          "fellow_year": "{{ fellow.fellow_year }}"
         } {% unless forloop.last %},{% endunless %}
-      {% endfor %}
-    ],
-    /***
-      - Search Result Template markup should match items in fellow-list.html
-      - Any fellow content needed for template should be added to json above.
-      - Template syntax: https://github.com/christian-fei/Simple-Jekyll-Search/wiki#searchresulttemplate-string-optional
-    ***/
-    searchResultTemplate: '<a href="{url}" class="list-item grid-row grid-gap"><div class="desktop:grid-col-3 tablet:grid-col-4 usa-prose list-item-img"><img src="{image_path}" class="circle-card" alt="{title}"/></div><div class="desktop:grid-col-9 usa-prose"><h2>{title}</h2><p class="content">{content}</p></div></a>'
-  });
-  var inFellowSearch = false;
-  var defaultList = document.getElementById("fellow-search-default");
-  /*** show initial list after search is over ***/
-  document.addEventListener('keyup', function() {
-    if (searchInput.value.trim().length && !inFellowSearch) {
-      inFellowSearch = true;
-      defaultList.style.display = "none";
-    }
-    if (!searchInput.value.trim().length && inFellowSearch) {
-      inFellowSearch = false;
-      defaultList.style.display = "block";
-    }
-  });
+      {% endfor %}];
+  /***
+    - Search Result Template markup should match items in fellow-list.html
+    - Any fellow content needed for template should be added to json above.
+    - Template syntax: https://github.com/christian-fei/Simple-Jekyll-Search/wiki#searchresulttemplate-string-optional
+  ***/
+  var searchResultTemplate = '<div class="fellow-card desktop:grid-col-3 tablet:grid-col-6"><a href="{url}"><div class="usa-prose fellow-img"><img src="{image_path}" class="circle-card" alt="{title}"/></div><div><h2 class="body-intro--bold">{title}</h2><p class="fellow-card--specialty">{specialty}</p><p class="content">{content}</p></a><p><span class="fellow-card--fellow-year">{fellow_year}</span>{linkedin}{twitter}</p></div></div>';
+  const siteBaseurl = "{{ site.baseurl }}";
 </script>
+
+{% asset filters.js %}

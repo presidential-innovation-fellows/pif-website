@@ -9,7 +9,7 @@ hometown: San Francisco, CA
 region: west
 bio_short: Data-driven creative thinker, passionate about leading passionate teams.
 tags: ['west', '2021']
-skills: ['product', 'data' ]
+skills: ['Data Science and Analytics', 'Product' ]
 ---
 Kamya is a leader in consumer growth for tech companies, utilizing her product management and data science skills. 
 

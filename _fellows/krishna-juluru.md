@@ -9,7 +9,7 @@ hometown: New York, NY
 region: east
 bio_short: Physician-scientist with expertise in healthcare informatics.
 tags: ['east', '2021']
-skills: ['data','frontend development','product', 'design']
+skills: ['Digital Health','AI/Machine Learning']
 ---
 Krishna is a physician-scientist with expertise in healthcare informatics. Working at the juncture of healthcare and technology, he has led teams that consistently improve performance and efficiency while ensuring quality care and patient safety for premier organizations in the healthcare industry.
 

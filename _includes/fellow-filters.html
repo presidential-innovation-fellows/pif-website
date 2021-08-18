@@ -11,6 +11,19 @@
         {% endfor %}
       </select>
     </div>
+    <div class="filters__left display-flex">
+      <div class='filter__col'>
+        <select class="usa-select" name="fellows-select-skill" id="fellows-select-skill">
+          <option value="" selected disabled hidden>Fellows by specialty</option>
+          {% assign skills = site.data.fellow-specialties | reverse %}
+          {% for skill in skills %}
+            <option value="{{ skill }}">
+              {{ skill }}
+            </option>
+          {% endfor %}
+        </select>
+      </div>
+    </div>
   </div>
 
   <div class='filter__search'>

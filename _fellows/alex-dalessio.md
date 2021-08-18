@@ -2,14 +2,14 @@
 id: alex-dalessio
 title: J. Alex Dalessio
 image: alex-dalessio-headshot.jpg
-fellow_year: 2017
+fellow_year: 2018
 project: []
 agency: []
 hometown: Washington, DC
 region: south
 bio_short: "Recent: Head of @login.gov, Co-founder @Isabel.io, Board @equalit.ie, Advisor @massivesci, Builder @Bionicsolution. Past: Led innovation in 5+ Fortune 500, JD from UC Berkeley, MBA from Oxford."
 tags: ['south', '2018']
-skills: ['business development', 'communications', 'design', 'digital', 'policy', 'product']
+skills: ['Product', 'Design and Experience']
 ---
 
 Alex is a multidisciplinary professional with over 15 years of experience working across six continents. His primary focus is enterprise innovation management and he has built and lead transformational programs that have invented, patented, and released award-winning, revenue-generating products on three continents.

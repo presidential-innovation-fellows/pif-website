@@ -9,7 +9,7 @@ hometown: Provo, UT
 region: west
 bio_short: UX Prototyper and lover of APIs
 tags: ['west', '2012']
-skills: ['frontend development', 'backend development', 'user experience']
+skills: ['Software and Cloud Infrastructure', 'Design and Experience']
 ---
 
 

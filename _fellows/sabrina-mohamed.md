@@ -9,7 +9,7 @@ hometown: Seattle, WA
 region: west
 bio_short: Lifelong obsession with learning (coupled with courage to take risks).
 tags: ['west', '2021']
-skills: ['product', 'user experience']
+skills: ['Product', 'Software and Cloud Infrastructure']
 ---
 Sabrina is fascinated by the historical emergence of science and technology as salient ways of knowing the world. They shape and influence politics, policy, and society, and are shaped and influenced by those forces in turn. Because of this consequential interplay, Sabrina’s mission as a product leader is to incorporate ethics and human-centered design conversations into technological conversations. Whenever she builds product, she looks beyond the questions of "What and How" and encourages others to ask "Why and For Whom?"
 

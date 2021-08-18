@@ -9,7 +9,7 @@ hometown: Seattle, WA
 region: west
 bio_short: Social impact technologist applying user-centered design to solve human-centered problems at scale.
 tags: ['west', '2019']
-skills: ['design', 'digital', 'frontend development', 'product', 'user experience']
+skills: ['Product', 'Design and Experience']
 ---
 
 Clarice is a product strategist solving usability problems at scale. Graduating from UCLA with a background in Design and Film, Clarice began her career as a creative storyteller. She set out to use new media as a means of inspiring positive change in the world. But as she became more immersed in technology, she realized she could affect greater change by improving the usability and accessibility of everyday digital experiences. Working at the intersection of user-centered design and product management, she ultimately strives to bring clarity to complex problems.

@@ -9,7 +9,7 @@ hometown: Boston, MA
 region: northeast
 bio_short: Thought leader. Technology disruptor. Innovator. Experienced in solving problems from bare metal to cloud. Steeped deeply in agile methods and development. Track record of success as a change agent in highly regulated industries.
 tags: ['northeast', '2020']
-skills: []
+skills: ['Software and Cloud Infrastructure', 'Product']
 ---
 
 Ken Kato is an entrepreneur, platform/cloud architect, change agent, and innovator; with a wide range of experience across highly regulated industries from finance, to healthcare, to defense. Most recently as a founding member of Kessel Run, Ken disrupted USAF's technology. Working alongside industry innovators Pivotal to provide a cloud platform and help begin their cloud native journey.

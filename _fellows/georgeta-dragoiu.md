@@ -9,7 +9,7 @@ hometown: Washington, DC
 region: south
 bio_short: Entrepreneur, business strategist, and public relations professional, shaping public policy debates through strategic communications and creative stakeholder engagement.
 tags: ['south', '2019']
-skills: ['business development', 'cybersecurity', 'design', 'digital', 'policy']
+skills: ['Marketing and Communications']
 ---
 
 Georgeta Dragoiu is an entrepreneur, business strategist, and public relations professional. As the founder of a strategic communications firm in Washington, D.C., Georgeta has served as a key strategist in shaping the public debate on issues such as driverless cars, climate change, gender equality, and technology policy.

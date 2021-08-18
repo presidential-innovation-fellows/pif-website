@@ -9,7 +9,7 @@ hometown: Boston, MA
 region: northeast
 bio_short: Data-driven technologist with experience spanning the full healthcare continuum.
 tags: ['northeast', '2020']
-skills: []
+skills: ['AI/Machine Learning', 'Software and Cloud Infrastructure']
 ---
 
 As a proud mother of two daughters, Wanmei Ou is committed to leveraging digital technology to achieve a sustainable healthcare system. Wanmei’s experience spans the full healthcare continuum from providers, payers and life science companies.

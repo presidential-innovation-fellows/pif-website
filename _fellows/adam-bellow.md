@@ -9,7 +9,7 @@ hometown: Plainview, NY
 region: northeast
 bio_short: Educational Technologist. Founder of @eduTecher, @eduClipper, @WeLearnedItApp. @EdcampUSA Board Member. Co-Founder of 2 Amazing Boys.
 tags: ['northeast', '2016']
-skills: ['design', 'product', 'user experience', 'digital', 'communications']
+skills: ['Product', 'Design and Experience']
 ---
 
 Adam Bellow began his career in the classroom as a High School English teacher. He has worked as a technology training specialist, Director of Educational Technology, and is now considered one of today’s leading speakers on educational technology and infusing technology to aid school reformation. He is the founder of the websites eduTecher, eduClipper, WeLearnedIt, and eduGames. In addition to these free resources, Adam launched the popular charity "Change the World" student-focused charity campaigns.

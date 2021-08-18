@@ -9,7 +9,7 @@ hometown: Alexandria, VA
 region: east
 bio_short: Security and technology Advisor in artificial intelligence and emerging technologies supporting public sectors. Twenty years of experience in governance and security policy.
 tags: ['east', '2021']
-skills: ['business development', 'data' ]
+skills: ['Software and Cloud Infrastructure', 'Cybersecurity' ]
 ---
 Aaron Creel is a Security Executive with specialized expertise in government and commercial sectors. Aaron enjoys and excels at developing and motivating teams to personal and professional success.
 
