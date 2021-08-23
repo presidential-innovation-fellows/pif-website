@@ -8,7 +8,7 @@ agency: []
 hometown: Burlington, VT
 region: northeast
 bio_short: Systems Design and Management @ MIT, Co-Leader of MIT Hacking Medicine, Co-Founder of Smart Scheduling, Biomedical Engineering @ Cornell
-tags: ['northeast', '2014']
+tags: ['northeast', '2014', 'Product']
 skills: ['Product']
 ---
 

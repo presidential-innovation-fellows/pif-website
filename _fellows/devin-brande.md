@@ -8,7 +8,7 @@ agency: ["Navy"]
 hometown: Washington, DC
 region: south
 bio_short: Technologist and innovator aspiring to help develop and deliver the next generation of solutions to everyday users. Experienced at the intersection of venture-backed innovation and the U.S. Government.
-tags: ['south', '2020']
+tags: ['south', '2020', 'Product', 'Software_And_Cloud_Infrastructure']
 skills: ['Product', 'Software and Cloud Infrastructure']
 ---
 

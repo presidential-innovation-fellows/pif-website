@@ -8,7 +8,7 @@ agency: []
 hometown: California
 region: west
 bio_short: 
-tags: ['west', '2012']
+tags: ['west', '2012', 'Product']
 skills: ['Product']
 ---
 

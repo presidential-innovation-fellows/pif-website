@@ -8,7 +8,7 @@ agency: []
 hometown: Santa Cruz, CA
 region: west
 bio_short: Coder/Geographer. Humanitarian OpenStreetMap Team, GroundTruth, Map Kibera, Moabi. UCSC, U Sussex. Tactfully ignores silos. Maps.
-tags: ['west', '2014']
+tags: ['west', '2014', 'Software_And_Cloud_Infrastructure']
 skills: ['Software and Cloud Infrastructure']
 ---
 

@@ -8,7 +8,7 @@ agency: []
 hometown: California
 region: west
 bio_short: SF Ruby organizer. Ex Senior Eng at Indiegogo, Orange Labs, CleverMachine, Groundspring, Switchouse, AZ Republic, Ziff, DRI. Comp Sci, MIT.
-tags: ['west', '2014']
+tags: ['west', '2014', 'Software_And_Cloud_Infrastructure']
 skills: ['Software and Cloud Infrastructure']
 ---
 

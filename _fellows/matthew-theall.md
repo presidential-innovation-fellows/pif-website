@@ -8,7 +8,7 @@ agency: []
 hometown: Massachusetts
 region: northeast
 bio_short: 
-tags: ['northeast', '2013']
+tags: ['northeast', '2013', 'Change_Management']
 skills: ['Change Management']
 ---
 

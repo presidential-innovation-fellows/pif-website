@@ -8,7 +8,7 @@ agency: []
 hometown: Los Angeles, CA
 region: west
 bio_short: Head of Product YogaGlo, Product Management PlayStation Network, Qualcomm. Public Policy, Duke University, MFA, The School Of Visual Arts. 
-tags: ['west', '2013']
+tags: ['west', '2013', 'Design_And_Experience', 'Product']
 skills: ['Product', 'Design and Experience']
 ---
 

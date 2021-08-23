@@ -8,7 +8,7 @@ agency: []
 hometown: Bronxville, NY
 region: northeast
 bio_short: Data science at New York City Fire Department, NYC Mayor's Office, Halcrow. Applied Stats, Columbia University. Economics, Tufts University.
-tags: ['northeast', '2014']
+tags: ['northeast', '2014', 'Data_Science_And_Analytics']
 skills: ['Data Science and Analytics']
 ---
 

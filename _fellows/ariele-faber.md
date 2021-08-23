@@ -8,7 +8,7 @@ agency: []
 hometown: New York, NY
 region: northeast
 bio_short: Health professional leveraging human-centered design to drive innovation in patient experience, healthcare quality & safety, and environmental sustainability.
-tags: ['northeast', '2020']
+tags: ['northeast', '2020', 'Digital_Health', 'Design_And_Experience']
 skills: ['Design and Experience', 'Digital Health']
 ---
 

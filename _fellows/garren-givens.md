@@ -8,7 +8,7 @@ agency: []
 hometown: Colorado
 region: west
 bio_short: Government innovation sherpa for @PIF and @18F. Entrepreneur and consultant turned social impact junkie. Husband. Father. Founder. Yalie. 
-tags: ['west', '2013']
+tags: ['west', '2013', 'Product', 'Software_And_Cloud_Infrastructure']
 skills: ['Software and Cloud Infrastructure', 'Product']
 ---
 

@@ -8,7 +8,7 @@ agency: ["NIH"]
 hometown: Washington, DC
 region: south
 bio_short: Scientist and instructor with operational experience developing technical solutions as part of a multidisciplinary teams.
-tags: ['south', '2019']
+tags: ['south', '2019', 'Product', 'Digital_Health', 'Data_Science_And_Analytics']
 skills: ['Digital Health', 'Product', 'Data Science and Analytics']
 ---
 

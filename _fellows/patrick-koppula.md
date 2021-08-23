@@ -8,7 +8,7 @@ agency: []
 hometown: Los Angeles, CA
 region: west
 bio_short: Adaptation, Artistry, Entrepreneurship, Empowerment, Inclusion, Innovation, Productivity, Prosperity, Science, Systems & Virtue
-tags: ['west', '2016']
+tags: ['west', '2016', 'Product']
 skills: ['Product']
 ---
 

@@ -8,7 +8,7 @@ agency: []
 hometown: Amherst, MA
 region: northeast
 bio_short: Research Professor, UMass; Develops software that models users affect and cognition; Publishes data-rich, adaptive and engaging software.
-tags: ['northeast', '2013']
+tags: ['northeast', '2013', 'Product']
 skills: ['Product']
 ---
 

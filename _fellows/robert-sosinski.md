@@ -8,7 +8,7 @@ agency: []
 hometown: New Jersey
 region: northeast
 bio_short: Reactive.IO Founder. Led engineering at Ticket Evolution, Sling Media and Time Inc. Cryptographer at US Air Force. MS at NYU and BS at UMD.
-tags: ['northeast', '2014']
+tags: ['northeast', '2014', 'Software_And_Cloud_Infrastructure', 'AI_Machine_Learning']
 skills: ['AI/Machine Learning', 'Software and Cloud Infrastructure']
 ---
 

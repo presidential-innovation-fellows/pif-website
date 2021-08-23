@@ -8,7 +8,7 @@ agency: ["NGA"]
 hometown: Vienna, VA
 region: east
 bio_short: Parent, continuous learner, behavioral change champion.
-tags: ['east', '2021']
+tags: ['east', '2021', 'Design_And_Experience', 'Change_Management']
 skills: ['Change Management','Design and Experience']
 ---
 Alex Glade is motivated by opportunities to help people, and believes an empathetic heart should be at the core of how we serve. She is an education enthusiast; passionate about diversity, equity, inclusion; and advocates that quality early childhood education and care should be accessible and affordable for all families.

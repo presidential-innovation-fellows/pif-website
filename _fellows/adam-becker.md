@@ -8,6 +8,6 @@ agency: []
 hometown: Oakland, CA
 region: west
 bio_short: 
-tags: ['west', '2012']
+tags: ['west', '2012', 'Product', 'Software_And_Cloud_Infrastructure']
 skills: ['Software and Cloud Infrastructure', 'Product']
 ---

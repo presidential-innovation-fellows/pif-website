@@ -8,7 +8,7 @@ agency: []
 hometown: Chicago, IL
 region: midwest
 bio_short: Making government better, one line of code at a time. Government Evangelist @ GitHub, attorney, open source developer
-tags: ['midwest', '2012']
+tags: ['midwest', '2012', 'Product', 'Software_And_Cloud_Infrastructure']
 skills: ['Software and Cloud Infrastructure', 'Product']
 ---
 

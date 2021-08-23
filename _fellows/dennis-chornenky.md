@@ -8,7 +8,7 @@ agency: ["OSTP"]
 hometown: Boston, MA
 region: northeast
 bio_short: Strategy and policy consultant in artificial intelligence and emerging technology.  Twenty years of experience in healthcare, technology, and financial services as an investment banker, entrepreneur, and operating partner.
-tags: ['northeast', '2020']
+tags: ['northeast', '2020', 'AI_Machine_Learning', 'Digital_Health']
 skills: ['Digital Health', 'AI/Machine Learning']
 ---
 

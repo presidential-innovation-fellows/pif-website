@@ -8,7 +8,7 @@ agency: []
 hometown: Connecticut
 region: northeast
 bio_short: 
-tags: ['northeast', '2012']
+tags: ['northeast', '2012', 'Product']
 skills: ['Product']
 ---
 

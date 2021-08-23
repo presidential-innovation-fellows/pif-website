@@ -8,7 +8,7 @@ agency: []
 hometown: Washington, DC
 region: south
 bio_short: Founder @IdealImpact; Halcyon Incubator Fellow; civic-tech evangelist; PM @FissionStrategy; Sec of State speechwriter; Princeton & UPenn Law.
-tags: ['south', '2016']
+tags: ['south', '2016', 'Product', 'Software_And_Cloud_Infrastructure']
 skills: ['Product', 'Software and Cloud Infrastructure']
 ---
 

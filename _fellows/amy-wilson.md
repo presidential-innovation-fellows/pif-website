@@ -8,7 +8,7 @@ agency: ["GSA"]
 hometown: Street, MD
 region: south
 bio_short: Product manager tackling complex problems with both sides of the brain. Co-Founder, Just Startup. Storyteller, UX, HCD, Lean Startup.
-tags: ['south', '2016']
+tags: ['south', '2016', 'Product', 'Software_And_Cloud_Infrastructure', 'Design_And_Experience', 'Change_Management']
 skills: ['Software and Cloud Infrastructure', 'Change Management', 'Product', 'Design and Experience']
 ---
 

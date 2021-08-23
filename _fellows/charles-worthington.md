@@ -8,7 +8,7 @@ agency: []
 hometown: Washington, DC
 region: south
 bio_short: Charles is a product designer and developer who believes strongly in the power of an engaged citizenry to use technology to solve big problems.
-tags: ['south', '2013']
+tags: ['south', '2013', 'Product', 'Software_And_Cloud_Infrastructure']
 skills: ['Software and Cloud Infrastructure', 'Product']
 ---
 

@@ -8,7 +8,7 @@ agency: ["VA","DHS"]
 hometown: New York, NY
 region: northeast
 bio_short: Organizational and Systems Designer, Strategist, University Lecturer, Storyteller, Design Thinker and Community Organizer focused on bringing innovative practices and creative partnerships to solve systemic social challenges.
-tags: ['northeast', '2020']
+tags: ['northeast', '2020', 'Design_And_Experience']
 skills: ['Design and Experience']
 ---
 

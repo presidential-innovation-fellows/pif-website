@@ -1,11 +1,22 @@
-- AI/Machine Learning
-- Cybersecurity
-- Data Science and Analytics
-- Digital Health
-- Design and Experience
-- Marketing and Communications
-- Product
-- Software and Cloud Infrastructure
-- Venture Capital/Private Equity
-- Change Management
-- Strategy and Growth
+- display_name: AI/Machine Learning
+  url_name : AI_Machine_Learning
+- display_name: Cybersecurity
+  url_name: Cybersecurity
+- display_name: Data Science and Analytics
+  url_name: Data_Science_And_Analytics
+- display_name: Digital Health
+  url_name: Digital_Health
+- display_name: Design and Experience
+  url_name: Design_And_Experience
+- display_name: Marketing and Communications
+  url_name: Marketing_And_Communications
+- display_name: Product
+  url_name: Product
+- display_name: Software and Cloud Infrastructure
+  url_name: Software_And_Cloud_Infrastructure
+- display_name: Venture Capital/Private Equity
+  url_name: Venture_Capital_Private_Equity
+- display_name: Change Management
+  url_name: Change_Management
+- display_name: Strategy and Growth
+  url_name: Strategy_And_Growth

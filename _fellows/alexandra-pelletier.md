@@ -8,7 +8,7 @@ agency: []
 hometown: Boston, MA
 region: northeast
 bio_short: Passionate about creating positive impact with technology. Healthcare digital innovation. Frequent advisor for student STEM projects. Mentor for many start ups. Lives in Boston, but from all over.
-tags: ['northeast', '2015']
+tags: ['northeast', '2015', 'Change_Management', 'Product']
 skills: ['Product', 'Change Management']
 ---
 

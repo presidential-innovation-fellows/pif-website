@@ -8,7 +8,7 @@ agency: []
 hometown: Washington, DC
 region: south
 bio_short: Physicist, Engineer, Futurist. Complex systems architect.
-tags: ['south', '2018']
+tags: ['south', '2018', 'Cybersecurity', 'AI_Machine_Learning']
 skills: ['AI/Machine Learning', 'Cybersecurity']
 ---
 

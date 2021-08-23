@@ -8,7 +8,7 @@ agency: []
 hometown: Houston, TX
 region: south
 bio_short: Healthcare strategist and entrepreneur. Formerly on founding teams of digital health and startup initiatives @TexasMedicalCenter, @MassGeneralHospital, @Johnson&Johnson
-tags: ['south', '2018']
+tags: ['south', '2018', 'Design_And_Experience']
 skills: ['Design and Experience']
 ---
 

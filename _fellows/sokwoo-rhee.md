@@ -8,7 +8,7 @@ agency: []
 hometown: Boston, MA
 region: northeast
 bio_short: Associate Director of CPS Program at NIST. Previously CTO of Millennial Net. PhD from MIT in Mech Eng. Technology Review's TR35 Awardee.
-tags: ['northeast', '2013']
+tags: ['northeast', '2013', 'Product']
 skills: ['Product']
 ---
 

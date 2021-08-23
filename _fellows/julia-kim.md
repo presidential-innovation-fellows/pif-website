@@ -8,7 +8,7 @@ agency: []
 hometown: Los Angeles, CA
 region: west
 bio_short: Creating/using media & tech to help people. Former Project Leader, USC Institute for Creative Technologies. History of Science/Harvard Univ.
-tags: ['west', '2014']
+tags: ['west', '2014', 'Marketing_And_Communications', 'Change_Management']
 skills: ['Change Management', 'Marketing and Communications']
 ---
 

@@ -8,7 +8,7 @@ agency: []
 hometown: Palo Alto, CA
 region: west
 bio_short: Software architect, EMT, musician. Previous team member at @Deliv, @Upstart, @BrightPointSec, @LiveOps. Santa Clara University.
-tags: ['west', '2015']
+tags: ['west', '2015', 'Software_And_Cloud_Infrastructure']
 skills: ['Software and Cloud Infrastructure']
 ---
 

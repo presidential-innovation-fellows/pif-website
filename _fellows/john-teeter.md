@@ -8,7 +8,7 @@ agency: []
 hometown: Emmett, ID
 region: west
 bio_short: OpenSource-Sustainability-Scalable Systems-Solving real problems - Maalka; Global Electric Transportation; Civic Ecology DNA Bank; EnergyOS
-tags: ['west', '2013']
+tags: ['west', '2013', 'Software_And_Cloud_Infrastructure', 'Product', 'Cybersecurity']
 skills: ['Software and Cloud Infrastructure', 'Product', 'Cybersecurity']
 ---
 

@@ -8,7 +8,7 @@ agency: []
 hometown: Mt. Washington Valley, NH
 region: northeast
 bio_short: Entrepreneur, Technologist, Developer, Innovator, Mentor, STEM Coach. Founder @OpenConf, Zakon Group. CompEng&Sci @CWRU.
-tags: ['northeast', '2016']
+tags: ['northeast', '2016', 'Product', 'Software_And_Cloud_Infrastructure']
 skills: ['Software and Cloud Infrastructure', 'Product']
 ---
 

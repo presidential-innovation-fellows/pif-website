@@ -8,7 +8,7 @@ agency: []
 hometown: Fremont, CA
 region: west
 bio_short: Founder of BreakoutEDU,  Founder of yearBadges (acquired), co-developed the #FutureReady initiative and the White House Film Festival.
-tags: ['west', '2013']
+tags: ['west', '2013', 'Product']
 skills: ['Product']
 ---
 

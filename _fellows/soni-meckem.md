@@ -8,7 +8,7 @@ agency: ["NIH","VA"]
 hometown: Jackson Hole, WY
 region: west
 bio_short: Customer experience, healthcare, and tech strategist, systems thinker, connector. CIO. Mathematician. Statistician. Lifelong learner.
-tags: ['west', '2019']
+tags: ['west', '2019', 'Design_And_Experience', 'Change_Management']
 skills: ['Design and Experience', 'Change Management']
 ---
 

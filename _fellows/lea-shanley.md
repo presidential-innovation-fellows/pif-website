@@ -8,7 +8,7 @@ agency: ["NASA"]
 hometown: Madison, WI
 region: midwest
 bio_short: Founder, Commons Lab. Co-Founder, Fed Community of Practice on Crowdsourcing & Citizen Science. GIS & remote sensing, University of Wisconsin
-tags: ['midwest', '2014']
+tags: ['midwest', '2014', 'Data_Science_And_Analytics']
 skills: ['Data Science and Analytics']
 ---
 

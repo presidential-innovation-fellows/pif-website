@@ -8,7 +8,7 @@ agency: ["Treasury"]
 hometown: Waterford, PA
 region: northeast
 bio_short: Director of Consulting at 18F, former Presidential Innovation Fellow, entrepreneur, and full-stack developer. Penn State University.
-tags: ['northeast', '2013']
+tags: ['northeast', '2013', 'Venture_Capital_Private_Equity']
 skills: ['Venture Capital/Private Equity']
 ---
 

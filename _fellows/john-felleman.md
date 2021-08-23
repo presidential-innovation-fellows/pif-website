@@ -8,7 +8,7 @@ agency: []
 hometown: Boston, MA
 region: northeast
 bio_short: Using design think to Agilely create GSA's Acquisition Gateway. Private sector software and internet survivor.  MIT, Boston College.
-tags: ['northeast', '2013']
+tags: ['northeast', '2013', 'Software_And_Cloud_Infrastructure', 'Product', 'Design_And_Experience']
 skills: ['Software and Cloud Infrastructure', 'Product', 'Design and Experience']
 ---
 

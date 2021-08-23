@@ -8,7 +8,7 @@ agency: []
 hometown: Mesquite, TX
 region: south
 bio_short: Product manager, 18F. Formerly Senior Advisor to the White House CTO, Round 1 PIF. Fan of all things NYC, Improve comedy student.
-tags: ['south', '2012']
+tags: ['south', '2012', 'Product']
 skills: ['Product']
 ---
 

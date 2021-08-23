@@ -8,7 +8,7 @@ agency: []
 hometown: California
 region: west
 bio_short: Former Partner at Mohr Davidow Ventures, Columnist at Forbes. Work at Google, Facebook, and Harvard. Education at Stanford and Columbia.
-tags: ['west', '2013']
+tags: ['west', '2013', 'Venture_Capital_Private_Equity']
 skills: ['Venture Capital/Private Equity']
 ---
 

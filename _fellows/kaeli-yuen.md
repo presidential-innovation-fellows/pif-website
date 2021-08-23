@@ -8,7 +8,7 @@ agency: ["VA"]
 hometown: Los Angeles, CA
 region: west
 bio_short: MD and clinical informaticist experienced in research, product management, and health information technologies. Excited about leading data- and compassion-driven transformation of healthcare and medicine.
-tags: ['west', '2020']
+tags: ['west', '2020', 'Product', 'Digital_Health']
 skills: ['Digital Health', 'Product']
 ---
 

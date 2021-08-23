@@ -8,7 +8,7 @@ agency: ["VA"]
 hometown: Boston, MA
 region: northeast
 bio_short: Data-driven technologist with experience spanning the full healthcare continuum.
-tags: ['northeast', '2020']
+tags: ['northeast', '2020', 'AI_Machine_Learning', 'Software_And_Cloud_Infrastructure']
 skills: ['AI/Machine Learning', 'Software and Cloud Infrastructure']
 ---
 

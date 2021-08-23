@@ -8,7 +8,7 @@ agency: []
 hometown: Stillwater, MN
 region: midwest
 bio_short: Consultant with 18F, U.S. Navy vet, health data and open-source hacker, tech entrepreneur, lean startups and Agile design and development.
-tags: ['midwest', '2013']
+tags: ['midwest', '2013', 'Product', 'Software_And_Cloud_Infrastructure']
 skills: ['Product', 'Software and Cloud Infrastructure']
 ---
 

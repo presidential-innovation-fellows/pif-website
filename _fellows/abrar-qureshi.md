@@ -8,7 +8,7 @@ agency: ["USMC"]
 hometown: Manassas Park, VA
 region: east
 bio_short: A technologist and a believer in continuous re-imagination and simplification.
-tags: ['east', '2021']
+tags: ['east', '2021', 'Software_And_Cloud_Infrastructure', 'Data_Science_And_Analytics']
 skills: ['Software and Cloud Infrastructure', 'Data Science and Analytics']
 
 ---
