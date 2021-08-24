@@ -22,17 +22,19 @@ const parseURL = () => {
   let json = fellowsJson;
 
   var splitPath = window.location.pathname.split('/')
-  if (splitPath.length >= 3) {
-    match = splitPath[2]
-    if (validYears.includes(match) ) {
-      yearSelect.value = match;
-      json = json.filter(fellow => fellow.fellow_year === match);
+  for (item in splitPath) { 
+    if (validYears.includes(item) ) {
+      yearSelect.value = item;
+      json = json.filter(fellow => fellow.fellow_year === item);
+      break;
     }
-    if (validSpecialties.includes(match)) {
-      skillSelect.value = match;
-      json = json.filter(fellow => fellow.specialty === match);
+
+    if (validSpecialties.includes(item)) {
+      skillSelect.value = item;
+      json = json.filter(fellow => fellow.specialty === item);
+      break;
     }
-}
+  }
   return json; // used in filters.tests.js
 }
 // Call the parseURL function immediately on page load. Could also be an IIFE.
