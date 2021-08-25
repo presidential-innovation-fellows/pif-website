@@ -51,10 +51,16 @@
 
   // get match from pathname
   var splitPath = window.location.pathname.split('/')
-  if (splitPath.length >= 3) {
-    match = splitPath[2]
-    if (validYears.includes(match)) yearSelect.value = match;
-    if (validSpecialties.includes(match)) skillSelect.value = match;
+  for (item in splitPath) { 
+    if (validYears.includes(item) ) {
+      yearSelect.value = item;
+      break;
+    }
+
+    if (validSpecialties.includes(item)) {
+      skillSelect.value = item;
+      break;
+    }
   }
   
 
