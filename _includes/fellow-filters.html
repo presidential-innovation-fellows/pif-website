@@ -51,7 +51,8 @@
 
   // get match from pathname
   var splitPath = window.location.pathname.split('/')
-  for (item in splitPath) { 
+  for (i in splitPath) {
+    item = splitPath[i]
     if (validYears.includes(item) ) {
       yearSelect.value = item;
       break;

@@ -22,7 +22,8 @@ const parseURL = () => {
   let json = fellowsJson;
 
   var splitPath = window.location.pathname.split('/')
-  for (item in splitPath) { 
+  for (i in splitPath) { 
+    item = splitPath[i]
     if (validYears.includes(item) ) {
       yearSelect.value = item;
       json = json.filter(fellow => fellow.fellow_year === item);
