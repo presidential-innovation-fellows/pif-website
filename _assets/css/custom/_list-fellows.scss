@@ -38,11 +38,15 @@
     }
   }
 }
+// .fellow-card--specialty {
+//   font-family: $theme-font-type-serif;
+//   font-style: italic;
+//   color: #162E51;
+//   margin-top: 0;
+//   @include u-margin-bottom(0.5);
+// }
 .fellow-card--specialty {
   font-family: $theme-font-type-serif;
-  // font-style: italic;
-  // color: #162E51;
-  // margin-top: 0;
   @include u-margin-bottom(0.5);
   ul {
     @include u-padding(0);

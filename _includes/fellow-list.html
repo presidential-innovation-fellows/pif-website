@@ -1,4 +1,6 @@
 {% assign aria_id = fellow.title | url_encode | truncate: 15, "" %}
+<!-- {% assign fellows = include.fellows | group_by: 'fellow_year' | sort: 'title' | reverse %} -->
+
 {% assign i = 1 %}
 {% for fellow in include.fellows %}
 {% if i==1 %}
@@ -13,6 +15,7 @@
       </div>
       <div>
         <h2 class="body-intro--bold" id="{{ aria_id }}">{{ fellow.title }}</h2>
+        <!-- <p class="fellow-card--specialty">{{fellow.skills | first}}</p> -->
         <p class="content">
           {{ fellow.bio_short }}
         </p>
