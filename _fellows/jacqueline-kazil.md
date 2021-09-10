@@ -8,7 +8,7 @@ agency: []
 hometown: Washington, DC
 region: south
 bio_short: Computational social & data scientist; loves gov; served in journo & civic roles. Founder PyLadiesDC, GeoDC, & leader of PyLadies Int'l.
-tags: ['south', '2013']
+tags: ['south', '2013', 'Software_And_Cloud_Infrastructure', 'Data_Science_And_Analytics']
 skills: ['Software and Cloud Infrastructure', 'Data Science and Analytics']
 ---
 

@@ -8,7 +8,7 @@ agency: []
 hometown: North Attelboro, MA
 region: northeast
 bio_short: Former VP of Product at Onswipe. Creator of time-travel app Déjà Vu for iPhone. Brown University and Tufts University. Minimalist.
-tags: ['northeast', '2014']
+tags: ['northeast', '2014', 'Software_And_Cloud_Infrastructure', 'Product', 'Design_And_Experience']
 skills: ['Design and Experience', 'Product', 'Software and Cloud Infrastructure']
 ---
 

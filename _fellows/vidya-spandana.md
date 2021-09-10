@@ -8,7 +8,7 @@ agency: []
 hometown: San Francisco, CA
 region: west
 bio_short: Entrepreneur. Presidential Innovation Fellow Alum. Engineer. Startup Mentor. Open Data. Gov Tech. Global Development. Inclusion. Growth.
-tags: ['west','2013']
+tags: ['west','2013', 'Product', 'Venture_Capital_Private_Equity']
 skills: ['Product', 'Venture Capital/Private Equity']
 ---
 

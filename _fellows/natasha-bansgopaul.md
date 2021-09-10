@@ -8,7 +8,7 @@ agency: ["NIST"]
 hometown: New York, NY
 region: east
 bio_short: Global FinTech leader and strategist with expertise in cross functional management, communication, and business development.
-tags: ['east', '2021']
+tags: ['east', '2021', 'Strategy_And_Growth', 'Venture_Capital_Private_Equity', 'Marketing_And_Communications']
 skills: ['Strategy and Growth', 'Venture Capital/Private Equity', 'Marketing and Communications']
 ---
 As the Co-Founder and COO of DarcMatter (DM), Konstellation, and VegaX Holdings, Natasha is an experienced fintech, marketing, strategy, and M&A professional with over 10+ years of demonstrated leadership experience via Fortune100’s and startups.  As a fintech founder, she has increased the platform’s assets under management to $7.0 Bn, with users from 65+ countries.

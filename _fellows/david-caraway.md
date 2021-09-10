@@ -8,7 +8,7 @@ agency: []
 hometown: Ohio
 region: midwest
 bio_short: Co-founder of Ohio-based digital services startup, Fogmine
-tags: ['midwest', '2013']
+tags: ['midwest', '2013', 'Software_And_Cloud_Infrastructure', 'Product']
 skills: ['Software and Cloud Infrastructure', 'Product']
 ---
 

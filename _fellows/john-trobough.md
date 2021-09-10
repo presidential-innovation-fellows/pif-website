@@ -8,7 +8,7 @@ agency: []
 hometown: Menlo Park, CA
 region: west
 bio_short: Global Tech CXO & Entrepreneur driven by Innovation and the art of possible! "You are only ever limited by your own creativity" @johntrobough
-tags: ['west', '2016']
+tags: ['west', '2016', 'Product', 'Data_Science_And_Analytics']
 skills: ['Product', 'Data Science and Analytics']
 ---
 

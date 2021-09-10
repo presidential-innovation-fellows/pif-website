@@ -8,7 +8,7 @@ agency: []
 hometown: Covington, KY
 region: south
 bio_short: Socio-technical Design and Innovation for Complex Global Problems
-tags: ['south', '2016']
+tags: ['south', '2016', 'Product', 'Design_And_Experience']
 skills: ['Product', 'Design and Experience']
 ---
 

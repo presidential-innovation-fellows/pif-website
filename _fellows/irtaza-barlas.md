@@ -8,7 +8,7 @@ agency: ["USDA"]
 hometown: Johns Creek, GA
 region: south
 bio_short: Lifelong Learner, Researcher, Technologist, Teambuilder, and Innovator. Architect and developer of complex systems, and a student of literature, religion, and history.
-tags: ['south', '2020']
+tags: ['south', '2020', 'Software_And_Cloud_Infrastructure']
 skills: ['Software and Cloud Infrastructure']
 ---
 

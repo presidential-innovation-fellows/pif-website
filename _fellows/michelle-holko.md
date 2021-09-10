@@ -8,7 +8,7 @@ agency: ["NIH"]
 hometown:
 region: northeast
 bio_short: Scientist and disruptive innovator with technical expertise in genomics, bioinformatics, and security. Passionate about implementing novel, results-driven solutions with experts across domains to ensure national and domestic health and biosecurity.
-tags: ['northeast', '2020']
+tags: ['northeast', '2020', 'Digital_Health', 'Data_Science_And_Analytics']
 skills: ['Digital Health', 'Data Science and Analytics']
 ---
 

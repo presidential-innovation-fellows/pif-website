@@ -8,7 +8,7 @@ agency: ["USDA"]
 hometown: Arlington, VA
 region: south
 bio_short: Melissa is an Agile, Design, and Product leader with expertise in Government, Finance, and Media.
-tags: ['south', '2020']
+tags: ['south', '2020', 'Product', 'Change_Management']
 skills: ['Product', 'Change Management']
 ---
 

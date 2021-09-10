@@ -8,7 +8,7 @@ agency: ["DOE"]
 hometown: Chicago, IL
 region: midwest
 bio_short: Experienced entrepreneur and executive passionate about driving large scale impact through technology and innovation.
-tags: ['midwest', '2021']
+tags: ['midwest', '2021', 'Strategy_And_Growth', 'Venture_Capital_Private_Equity', 'Change_Management']
 skills: ['Strategy and Growth', 'Venture Capital/Private Equity', 'Change Management']
 ---
 Tricia is a serial entrepreneur and executive passionate about driving large scale impact through technology and innovation. Named top 20 founders of color, Hispanic Entrepreneur of the Year, top 100 Fintech leaders creating impact, and 100 most influential people in cryptocurrency. Her experience ranges from cash transfer solutions in Africa to small business microfinance, to the development of an investment fund for underserved markets.

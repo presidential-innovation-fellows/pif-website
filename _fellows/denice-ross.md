@@ -8,7 +8,7 @@ agency: []
 hometown: Tucson, AZ
 region: west
 bio_short: Data supply chain savant, data.nola.gov founder, apps/data for Katrina recovery. Biology, University of Arizona. Mom of four.
-tags: ['west', '2014']
+tags: ['west', '2014', 'Data_Science_And_Analytics']
 skills: ['Data Science and Analytics']
 ---
 

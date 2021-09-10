@@ -8,7 +8,7 @@ agency: ["GSA"]
 hometown: Seattle, WA
 region: west
 bio_short: Product leader and rallier of cross-functional teams with experience in finding simple and innovative software solutions to solve complex problems at scale.
-tags: ['west', '2020']
+tags: ['west', '2020', 'Product', 'AI_Machine_Learning']
 skills: ['Product','AI/Machine Learning']
 ---
 

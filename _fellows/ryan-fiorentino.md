@@ -8,7 +8,7 @@ agency: ["USDA"]
 hometown: Los Angeles, CA
 region: west
 bio_short: Designer, founder, and corporate innovation leader. Equipping multidisciplinary teams to design industry defining products and services, navigate ambiguity, and mediate forces of market, organization, and business transformation.
-tags: ['west', '2019']
+tags: ['west', '2019', 'Design_And_Experience']
 skills: ['Design and Experience']
 ---
 

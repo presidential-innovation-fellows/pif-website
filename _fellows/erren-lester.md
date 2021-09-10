@@ -8,7 +8,7 @@ agency: []
 hometown: Fort Washington, MD
 region: south
 bio_short: Technical and Strategic Product Manager with experience working in startups and large enterprise environments. Infosec, Cloud, Healthcare IT. Comp Sci and MBA from Carnegie Mellon.
-tags: ['south', '2015']
+tags: ['south', '2015', 'Product']
 skills: ['Product']
 ---
 

@@ -8,7 +8,7 @@ agency: []
 hometown: Columbia, SC
 region: south
 bio_short: Data Scientist at Accenture Tech Labs, passionate about data visualization and making data driven decisions. Economics, UNC and USC (not SoCal).
-tags: ['south', '2015']
+tags: ['south', '2015', 'Data_Science_And_Analytics', 'Software_And_Cloud_Infrastructure']
 skills: ['Software and Cloud Infrastructure', 'Data Science and Analytics']
 ---
 

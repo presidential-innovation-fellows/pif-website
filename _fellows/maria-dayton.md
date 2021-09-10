@@ -8,7 +8,7 @@ agency: ["GSA"]
 hometown: San Francisco, CA
 region: west
 bio_short: Seasoned social entrepreneur and systems designer with more than 20 major development and IT projects deployed globally.
-tags: ['west', '2019']
+tags: ['west', '2019', 'Change_Management', 'Design_And_Experience']
 skills: ['Change Management', 'Design and Experience']
 ---
 

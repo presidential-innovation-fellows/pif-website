@@ -8,7 +8,7 @@ agency: ["DOT"]
 hometown: San Francisco, CA
 region: west
 bio_short: Successful entrepreneur (3 companies / 1 IPO), Strategist, Team Builder, Lifelong Learner,  20+ years of experience in the U.S. and across Asia implementing transformational innovation to over 30 million stakeholders
-tags: ['west', '2019']
+tags: ['west', '2019', 'AI_Machine_Learning', 'Change_Management']
 skills: ['Change Management', 'AI/Machine Learning']
 ---
 

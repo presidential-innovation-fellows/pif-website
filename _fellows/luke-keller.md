@@ -8,7 +8,7 @@ agency: []
 hometown: Doylestown, PA
 region: northeast
 bio_short: Product designer and front-end web developer. Previously with Character Lab.
-tags: ['northeast', '2015']
+tags: ['northeast', '2015', 'Software_And_Cloud_Infrastructure']
 skills: ['Software and Cloud Infrastructure']
 ---
 

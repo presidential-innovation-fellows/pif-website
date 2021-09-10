@@ -8,7 +8,7 @@ agency: []
 hometown: Redwood City, CA
 region: west
 bio_short: Data scientist whose work has resulted in multiple patents and awards, illustrating the art of the possible in a world of abundant data.
-tags: ['west', '2013']
+tags: ['west', '2013', 'Data_Science_And_Analytics']
 skills: ['Data Science and Analytics']
 ---
 

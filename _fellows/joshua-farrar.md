@@ -8,7 +8,7 @@ agency: ["VA"]
 hometown: Arlington, VA
 region: south
 bio_short: Helping agencies with digital transformation initiatives, software and enterprise architecture, analytics design, data collection, analysis, and reporting.
-tags: ['south', '2020']
+tags: ['south', '2020', 'Software_And_Cloud_Infrastructure', 'Data_Science_And_Analytics']
 skills: ['Software and Cloud Infrastructure', 'Data Science and Analytics']
 ---
 

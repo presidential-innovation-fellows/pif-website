@@ -8,7 +8,7 @@ agency: []
 hometown: Washington, DC
 region: south
 bio_short: E-commerce, New Media, and Finance Entrepreneur / Executive / Investor
-tags: ['south', '2013']
+tags: ['south', '2013', 'Product', 'Marketing_And_Communications']
 skills: ['Product', 'Marketing and Communications']
 ---
 

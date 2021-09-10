@@ -8,7 +8,7 @@ agency: []
 hometown: San Jose, CA
 region: west
 bio_short: Entrepreneur, software architect, startup founder, leader, teacher. Hands-on technologist, computer science Ph.D. who still writes code.
-tags: ['west', '2020']
+tags: ['west', '2020', 'Product', 'Software_And_Cloud_Infrastructure']
 skills: ['Software and Cloud Infrastructure', 'Product']
 ---
 

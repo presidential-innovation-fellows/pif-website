@@ -8,7 +8,7 @@ agency: []
 hometown: Chicago, IL
 region: midwest
 bio_short: 
-tags: ['midwest', '2013']
+tags: ['midwest', '2013', 'Design_And_Experience', 'Software_And_Cloud_Infrastructure']
 skills: ['Software and Cloud Infrastructure', 'Design and Experience']
 ---
 

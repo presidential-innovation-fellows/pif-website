@@ -8,7 +8,7 @@ agency: ["GSA"]
 hometown: Anacortes, WA
 region: west
 bio_short: Creator of civic infrastructure for open government & digital services. Co-author of the Open311 standard and Chief Architect at Data.gov
-tags: ['west', '2012']
+tags: ['west', '2012', 'Product', 'Software_And_Cloud_Infrastructure']
 skills: ['Software and Cloud Infrastructure', 'Product']
 ---
 

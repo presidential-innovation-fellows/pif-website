@@ -8,7 +8,7 @@ agency: []
 hometown: McLean, VA
 region: south
 bio_short: Hacker with a love for creating cutting edge systems. Architected clinical trials API @theNCI. First engineer @DataFox, formerly @Accenture and @LockheedMartin. @Cornell alum.
-tags: ['south', '2016']
+tags: ['south', '2016', 'Product', 'Software_And_Cloud_Infrastructure']
 skills: ['Software and Cloud Infrastructure', 'Product']
 ---
 

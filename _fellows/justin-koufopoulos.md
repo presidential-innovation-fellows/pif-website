@@ -8,7 +8,7 @@ agency: []
 hometown: Fairfield, CT
 region: northeast
 bio_short: Co-Founder Fulbright 1:1, Founder AsthmaVillage. Growth hacking @Percolate, product @US Army. Fulbright Scholar. MRes University of Leeds
-tags: ['northeast', '2016']
+tags: ['northeast', '2016', 'Product']
 skills: ['Product']
 ---
 

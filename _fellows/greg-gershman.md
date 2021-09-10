@@ -8,7 +8,7 @@ agency: []
 hometown: Gaithersberg, MD
 region: south
 bio_short: Father, husband, software developer, co-founder Ad Hoc LLC, HealthCare.gov rescue, MyUSA (Round 1). Live band karaoke singer.
-tags: ['south', '2012']
+tags: ['south', '2012', 'Product', 'Software_And_Cloud_Infrastructure']
 skills: ['Software and Cloud Infrastructure','Product']
 ---
 

@@ -8,7 +8,7 @@ agency: []
 hometown: Palo Alto, CA
 region: west
 bio_short: Co-founder/VP Strategy @betterPHA. Former PIF who worked on Blue Button. Lives in Palo Alto, CA and Los Angeles, CA. 
-tags: ['west', '2013']
+tags: ['west', '2013', 'Product', 'Design_And_Experience']
 skills: ['Design and Experience', 'Product']
 ---
 

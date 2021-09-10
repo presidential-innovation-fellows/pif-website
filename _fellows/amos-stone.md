@@ -9,7 +9,7 @@ hometown: Tucson, AZ
 region: west
 bio_short: |
   I love good music, challenging projects and strong coffee. I'm an engineer at heart, an excellent communicator, and a problem solver.
-tags: ['west', '2013']
+tags: ['west', '2013', 'Product', 'Software_And_Cloud_Infrastructure']
 skills: ['Software and Cloud Infrastructure', 'Product']
 ---
 

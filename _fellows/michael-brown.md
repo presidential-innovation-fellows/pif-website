@@ -8,7 +8,7 @@ agency: ["DIU"]
 hometown: Palo Alto, CA
 region: west
 bio_short: Michael is a Presidential Innovation Fellow working with the Defense Innovation Unit Experimental (DIUx) in Silicon Valley.
-tags: ['west', '2016']
+tags: ['west', '2016', 'Cybersecurity', 'Change_Management']
 skills: ['Cybersecurity', 'Change Management']
 ---
 

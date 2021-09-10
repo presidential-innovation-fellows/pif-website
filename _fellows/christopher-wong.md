@@ -8,7 +8,7 @@ agency: []
 hometown: Denver, CO
 region: west
 bio_short: NYU Law Engelberg Center on Innovation Law & Policy, Yale Law School Information Society Project, Princeton University Center for IT Policy
-tags: ['west', '2014']
+tags: ['west', '2014', 'Product', 'Design_And_Experience']
 skills: ['Product', 'Design and Experience']
 ---
 

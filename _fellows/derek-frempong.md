@@ -8,7 +8,7 @@ agency: []
 hometown: Baltimore, MD
 region: south
 bio_short: Sr Dir of Eng & UX Design at Connections Education, a Pearson Company. BS Chem. from U of Delaware. Patent Pending in Academic Integrity.
-tags: ['south', '2013']
+tags: ['south', '2013', 'Software_And_Cloud_Infrastructure', 'Design_And_Experience']
 skills: ['Software and Cloud Infrastructure', 'Design and Experience']
 ---
 

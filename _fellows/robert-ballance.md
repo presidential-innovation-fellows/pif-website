@@ -8,7 +8,7 @@ agency: []
 hometown: Santa Fe, NM
 region: west
 bio_short:  Computer scientist; catalyst; strategist; manager of high-tech teams and large-scale HPC systems.  Ph.D. from UC, Berkeley.
-tags: ['west', '2016']
+tags: ['west', '2016', 'Software_And_Cloud_Infrastructure', 'Change_Management']
 skills: ['Software and Cloud Infrastructure', 'Change Management']
 ---
 

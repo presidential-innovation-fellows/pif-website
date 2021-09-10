@@ -8,7 +8,7 @@ agency: []
 hometown: New York
 region: northeast
 bio_short: Medical Doctor, Technologist, and Health Data & Payor-Provider Leader.  Cares for patients & populations, does research, builds product, grows businesses, develops policy, and leads cross-functional teams.
-tags: ['northeast', '2012']
+tags: ['northeast', '2012', 'Digital_Health']
 skills: ['Digital Health']
 ---
 

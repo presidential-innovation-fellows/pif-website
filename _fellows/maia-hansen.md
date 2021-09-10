@@ -8,7 +8,7 @@ agency: []
 hometown: Boston, MA
 region: northeast
 bio_short: "Boston-sourced software architect with a penchant for bringing order to chaotic data. CV: Endeca, Crimson Hexagon, Broad Institute, et al."
-tags: ['northeast', '2014']
+tags: ['northeast', '2014', 'Software_And_Cloud_Infrastructure']
 skills: ['Software and Cloud Infrastructure']
 ---
 

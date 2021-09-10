@@ -8,7 +8,7 @@ agency: ["USMC"]
 hometown: The Woodlands, TX
 region: south
 bio_short: Technology leader. People and process advisor. High-performance computing, machine learning, distributed systems enthusiast. Student. Teacher.
-tags: ['south', '2019']
+tags: ['south', '2019', 'Software_And_Cloud_Infrastructure', 'Data_Science_And_Analytics']
 skills: ['Software and Cloud Infrastructure', 'Data Science and Analytics']
 ---
 

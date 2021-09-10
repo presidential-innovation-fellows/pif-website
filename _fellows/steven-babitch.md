@@ -8,7 +8,7 @@ agency: ["FBI"]
 hometown: Detroit, MI
 region: midwest
 bio_short:  Design Strategist that humanizes technology, transforming user needs into viable products, platforms, and policy. Mentor @MATTERChicago. Emerging Leader @ChicagoCouncil. Lived in Chicago. Imported from Detroit.
-tags: ['midwest', '2015']
+tags: ['midwest', '2015', 'AI_Machine_Learning', 'Design_And_Experience', 'Product', 'Data_Science_And_Analytics', 'Marketing_And_Communications']
 skills: ['AI/Machine Learning', 'design', 'product', 'user experience', 'data', 'communications']
 ---
 

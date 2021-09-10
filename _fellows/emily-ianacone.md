@@ -8,7 +8,7 @@ agency: []
 hometown: Rochester, NY
 region: northeast
 bio_short: Social impact designer and strategist dedicated to helping achieve health equity. MICA & RIT alum.
-tags: ['northeast', '2015']
+tags: ['northeast', '2015', 'Design_And_Experience']
 skills: ['Design and Experience']
 ---
 

@@ -8,7 +8,7 @@ agency: []
 hometown: Stuart, FL
 region: south
 bio_short: Connector of creative ideas at the intersection of social impact, technology, and community. Professional listener. Intrapreneur.
-tags: ['south', '2016']
+tags: ['south', '2016', 'Marketing_And_Communications']
 skills: ['Marketing and Communications']
 ---
 

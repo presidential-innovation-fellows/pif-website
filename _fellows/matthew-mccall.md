@@ -8,7 +8,7 @@ agency: []
 hometown: Middletown, MD
 region: south
 bio_short: Co-Founder at Amida, Director at OSEHRA, Business Development at KRM, Management Information Systems, Salisbury University.
-tags: ['south', '2012']
+tags: ['south', '2012', 'Product', 'Data_Science_And_Analytics']
 skills: ['Data Science and Analytics', 'Product']
 ---
 

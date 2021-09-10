@@ -61,18 +61,22 @@ layout: default
           "date"     : "{{ fellow.date }}",
           "content"  : "{{ fellow.bio_short | strip_html | strip_newlines | remove_chars | escape }}",
           "image_path" : "{% asset '{{ fellow.image }}' @path %}",
-          "specialty" : "{{ fellow.skills | first | escape }}",
+          // "specialty" : "{{ fellow.skills | first | escape }}",
+          "specialty" : "{% assign fellow_skills = site.data.fellow-specialties | where_exp:'skill', 'fellow.tags contains skill.url_name' %}{% for skill in fellow_skills %}{% if forloop.first %}<ul>{% endif %}<li><span class='{{ skill.url_name }}'>{{ skill.display_name }}</span>{% if forloop.last %}</ul>{% endif %}{% endfor %}",
           "linkedin": "{% if fellow.linkedin %}<span class='fellow-card--linkedin'><a href={{ fellow.linkedin }}><img src={% asset 'icons/linkedin-blue.svg' @path %} alt='{{ fellow.title}} on LinkedIn'/></a>{% else %}</span>{% endif %}",
           "twitter": "{% if fellow.twitter %}<span class='fellow-card--twitter'><a href={{ fellow.twitter }}><img src={% asset 'icons/twitter.svg' @path %} alt='{{ fellow.title }} on Twitter' /></a>{% else %}</span>{% endif %}",
           "fellow_year": "{{ fellow.fellow_year }}"
         } {% unless forloop.last %},{% endunless %}
-      {% endfor %}];
+      {% endfor %}]
+
+
   /***
     - Search Result Template markup should match items in fellow-list.html
     - Any fellow content needed for template should be added to json above.
     - Template syntax: https://github.com/christian-fei/Simple-Jekyll-Search/wiki#searchresulttemplate-string-optional
   ***/
-  var searchResultTemplate = '<div class="fellow-card desktop:grid-col-3 tablet:grid-col-6"><a href="{url}"><div class="usa-prose fellow-img"><img src="{image_path}" class="circle-card" alt="{title}"/></div><div><h2 class="body-intro--bold">{title}</h2><p class="fellow-card--specialty">{specialty}</p><p class="content">{content}</p></a><p><span class="fellow-card--fellow-year">{fellow_year}</span>{linkedin}{twitter}</p></div></div>';
+  // var searchResultTemplate = '<div class="fellow-card desktop:grid-col-3 tablet:grid-col-6"><a href="{url}"><div class="usa-prose fellow-img"><img src="{image_path}" class="circle-card" alt="{title}"/></div><div><h2 class="body-intro--bold">{title}</h2><p class="fellow-card--specialty">{specialty}</p><p class="content">{content}</p></a><p><span class="fellow-card--fellow-year">{fellow_year}</span>{linkedin}{twitter}</p></div></div>';
+  var searchResultTemplate = '<div class="fellow-card desktop:grid-col-3 tablet:grid-col-6"><a href="{url}"><div class="usa-prose fellow-img"><img src="{image_path}" class="circle-card" alt="{title}"/></div><div><h2 class="body-intro--bold">{title}</h2><p class="content">{content}</p></a><p><span class="fellow-card--fellow-year">{fellow_year}</span>{linkedin}{twitter}</p><div class="fellow-card--specialty">{specialty}</div></div></div>';
   const siteBaseurl = "{{ site.baseurl }}";
 </script>
 

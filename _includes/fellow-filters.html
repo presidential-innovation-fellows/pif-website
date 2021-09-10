@@ -15,10 +15,11 @@
       <div class='filter__col'>
         <select class="usa-select" name="fellows-select-skill" id="fellows-select-skill">
           <option value="" selected disabled hidden>Fellows by specialty</option>
-          {% assign skills = site.data.fellow-specialties | reverse %}
+          <option value="">All Fellows</option>
+          {% assign skills = site.data.fellow-specialties | sort:"display_name" %}
           {% for skill in skills %}
-            <option value="{{ skill }}">
-              {{ skill }}
+            <option value="{{ skill.url_name }}">
+              {{ skill.display_name }}
             </option>
           {% endfor %}
         </select>
@@ -32,13 +33,37 @@
 </div>
 
 <script type="text/javascript">
+
+  const validYears = [{% for year in site.data.years %} "{{ year }}" {% unless forloop.last %},{% endunless %} {% endfor %}]
+  const validSpecialties = [{% for skill in site.data.fellow-specialties %} "{{ skill.url_name }}" {% unless forloop.last %},{% endunless %} {% endfor %}]
+
   // Year Select
   var yearSelect = document.getElementById("fellows-select-year");
-  // get year from pathname
-  var curYearMatch = window.location.pathname.match(/([\d])\w+/g);
-  if (curYearMatch) yearSelect.value = curYearMatch[0];
-
   yearSelect.addEventListener('change', (event) => {
     window.location.href = "{{ site.baseurl }}/fellows/" + event.target.value + "#fellows-select-year";
   });
+
+  // Skill Select
+  var skillSelect = document.getElementById("fellows-select-skill");
+  skillSelect.addEventListener('change', (event) => {
+    window.location.href = "{{ site.baseurl }}/fellows/" + event.target.value + "#fellows-select-skill";
+  });
+
+  // get match from pathname
+  var splitPath = window.location.pathname.split('/')
+  for (i in splitPath) {
+    item = splitPath[i]
+    if (validYears.includes(item) ) {
+      yearSelect.value = item;
+      break;
+    }
+
+    if (validSpecialties.includes(item)) {
+      skillSelect.value = item;
+      break;
+    }
+  }
+  
+
+  
 </script>

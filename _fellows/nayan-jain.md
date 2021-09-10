@@ -8,7 +8,7 @@ agency: []
 hometown: Connecticut
 region: northeast
 bio_short: Co-founder @ Leo. Healthcare hacker. Rally Health and a number of other start ups. Computational Media at the Georgia Institute of Technology.
-tags: ['northeast', '2013']
+tags: ['northeast', '2013', 'Data_Science_And_Analytics', 'Digital_Health', 'Software_And_Cloud_Infrastructure', 'AI_Machine_Learning']
 skills: ['Digital Health', 'Data Science and Analytics', 'Software and Cloud Infrastructure', 'AI/Machine Learning']
 ---
 

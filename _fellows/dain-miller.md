@@ -8,7 +8,7 @@ agency: []
 hometown: Outer Banks, NC
 region: south
 bio_short: Director of development & technology, educational podcaster (starthere.fm), product manager, and ruby/rails consultant.
-tags: ['south', '2013']
+tags: ['south', '2013', 'Product', 'Software_And_Cloud_Infrastructure']
 skills: ['Software and Cloud Infrastructure', 'Product']
 ---
 

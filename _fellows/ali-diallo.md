@@ -8,7 +8,7 @@ agency: ["VA"]
 hometown: Boston, MA
 region: northeast
 bio_short: Entrepreneur, mentor, writer, and strategist focused on mobile technology, media, and social impact. Partner at United Ventures and Global Manager at MIT.
-tags: ['northeast', '2019']
+tags: ['northeast', '2019', 'Product', 'Design_And_Experience']
 skills: ['Design and Experience', 'Product']
 ---
 
