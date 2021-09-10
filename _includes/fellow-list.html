@@ -13,14 +13,26 @@
       </div>
       <div>
         <h2 class="body-intro--bold" id="{{ aria_id }}">{{ fellow.title }}</h2>
-        <p class="fellow-card--specialty">{{fellow.skills | first}}</p>
         <p class="content">
           {{ fellow.bio_short }}
         </p>
     </a>
       <p>
-        <!-- <a href="{{ site.baseurl }}/fellows/{{ fellow.fellow_year }}"> --><span class="fellow-card--fellow-year">{{ fellow.fellow_year }}</span><!-- </a> -->{% if fellow.linkedin %}<span class="fellow-card--linkedin"><a href={{fellow.linkedin}}>{% asset icons/linkedin-blue.svg alt="{{fellow.title}}'s LinkedIn profile" %}</a></span>{% endif %}{% if fellow.twitter%}<span class="fellow-card--twitter"><a href={{fellow.twitter}}>{% asset icons/twitter.svg alt="{{fellow.title}}'s Twitter profile" %}</a></span>{% endif %}
+        <span class="fellow-card--fellow-year">{{ fellow.fellow_year }}</span>
+        {% if fellow.linkedin %}<span class="fellow-card--linkedin"><a href={{fellow.linkedin}}>{% asset icons/linkedin-blue.svg alt="{{fellow.title}}'s LinkedIn profile" %}</a></span>{% endif %}
+        {% if fellow.twitter%}<span class="fellow-card--twitter"><a href={{fellow.twitter}}>{% asset icons/twitter.svg alt="{{fellow.title}}'s Twitter profile" %}</a></span>{% endif %}
       </p>
+      <div class="fellow-card--specialty">
+        {% for skill in fellow.skills %}
+          {% if forloop.first %}
+          <ul>
+          {% endif %}
+            <li><span>{{ skill }}</span></li>
+          {% if forloop.last %}
+          </ul>
+          {% endif %}
+        {% endfor %}
+      </div>
     </div>
   </div>
 {% if i==4 or forloop.last %}

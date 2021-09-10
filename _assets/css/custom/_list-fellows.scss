@@ -16,7 +16,7 @@
     .body-intro--bold {
       color: color('blue-warm-50v');
       @include u-font('serif', 9); // 22 px -- h2 sizing overrides the typography.scss size declaration
-      margin: 0; // using padding instead of default margin creates a cleaner focus outline 
+      margin: 0; // using padding instead of default margin creates a cleaner focus outline
       @include u-padding-top(2.5);
       @include u-padding-bottom(1.5);
     }
@@ -40,10 +40,23 @@
 }
 .fellow-card--specialty {
   font-family: $theme-font-type-serif;
-  font-style: italic;
-  color: #162E51;
-  margin-top: 0;
+  // font-style: italic;
+  // color: #162E51;
+  // margin-top: 0;
   @include u-margin-bottom(0.5);
+  ul {
+    @include u-padding(0);
+    list-style: none;
+    li {
+      @include u-margin-bottom(1.5);
+      span {
+        @include u-font('sans', 1);
+        @include u-padding(1);
+        @include u-bg('red-cool-10v');
+        border-radius: 5px;
+      }
+    }
+  }
 }
 
 .fellow-card--fellow-year {
@@ -69,7 +82,7 @@
 
 
 
-.fellow-card--linkedin, 
+.fellow-card--linkedin,
 .fellow-card--twitter {
   padding-right: 0.5rem;
   color: transparent; // this is a terrible hack because Simple Jekyll Search won't allow variables or blank fields in its JSON, so it literally renders empty quotes
