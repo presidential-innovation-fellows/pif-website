@@ -76,17 +76,20 @@
         &.Digital_Health {
           @include u-bg('yellow-5');
         }
-        &.Marketing_and_Communications {
+        &.Marketing_And_Communications {
           @include u-bg('gray-cool-10');
         }
-        &.Strategy_and_Growth {
+        &.Strategy_And_Growth {
           @include u-bg('green-10v');
         }
         &.Change_Management {
           @include u-bg('red-cool-10v');
         }
-        &.Design_and_Experience {
+        &.Design_And_Experience {
           @include u-bg('indigo-10v');
+        }
+        &.Data_Science_And_Analytics {
+          @include u-bg('magenta-20v');
         }
       }
     }
