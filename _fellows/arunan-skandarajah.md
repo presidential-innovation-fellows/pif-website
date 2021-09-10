@@ -8,8 +8,8 @@ agency: ["FDA"]
 hometown: Washington, DC
 region: east
 bio_short: Global health technologist, interdisciplinary product manager, and systems-scale innovator.
-tags: ['east', '2021']
-skills: ['AI/Machine Learning', 'Digital Health', 'Digital_Health', 'Design_And_Experience']
+tags: ['east', '2021','AI_Machine_Learning','Digital_Health']
+skills: ['AI/Machine Learning', 'Digital Health']
 ---
 Arunan is an engineer, strategist, and global health practitioner who is passionate about erasing the barriers that people face when trying to access healthcare. He believes that digital tools, when designed with the both the user and the system in mind, can help deliver care more quickly and equitably. He has spent his career developing software and hardware products, generating evidence that they can improve care, and advancing the healthcare ecosystem abroad.
 
