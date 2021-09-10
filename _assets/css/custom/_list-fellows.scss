@@ -58,6 +58,37 @@
         @include u-padding(1);
         @include u-bg('red-cool-10v');
         border-radius: 5px;
+        &.Venture_Capital_Private_Equity {
+          @include u-bg('blue-cool-5v');
+        }
+        &.AI_Machine_Learning {
+          @include u-bg('blue-cool-5v');
+        }
+        &.Software_And_Cloud_Infrastructure {
+          @include u-bg('orange-10');
+        }
+        &.Product {
+          @include u-bg('blue-10v');
+        }
+        &.Cybersecurity {
+          @include u-bg('green-cool-10');
+        }
+        &.Digital_Health {
+          @include u-bg('yellow-5');
+        }
+        &.Marketing_and_Communications {
+          @include u-bg('gray-cool-10');
+        }
+        &.Strategy_and_Growth {
+          @include u-bg('green-10v');
+        }
+        &.Change_Management {
+          @include u-bg('red-cool-10v');
+        }
+        &.Design_and_Experience {
+          @include u-bg('indigo-10v');
+        }
+
       }
     }
   }

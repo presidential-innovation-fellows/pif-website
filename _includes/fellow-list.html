@@ -1,6 +1,4 @@
 {% assign aria_id = fellow.title | url_encode | truncate: 15, "" %}
-<!-- {% assign fellows = include.fellows | group_by: 'fellow_year' | sort: 'title' | reverse %} -->
-
 {% assign i = 1 %}
 {% for fellow in include.fellows %}
 {% if i==1 %}
