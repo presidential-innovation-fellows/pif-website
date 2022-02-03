@@ -3,7 +3,7 @@ id: charles-borges
 title: Chuck Borges
 image: charles-borges-headshot.jpg
 fellow_year: 2022
-project: []
+project: ["cdc-analytics-and-interoperable-systems"]
 agency: ["CDC"]
 hometown: 
 region: 

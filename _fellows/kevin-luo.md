@@ -3,7 +3,7 @@ id: kevin-luo
 title: Kevin Luo
 image: kevin-luo-headshot.jpg
 fellow_year: 2022
-project: []
+project: ["fema-region-9"]
 agency: ["FEMA"]
 hometown: 
 region: 

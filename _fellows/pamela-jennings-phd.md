@@ -3,7 +3,7 @@ id: pamela-jennings-phd
 title: Pamela L. Jennings, Ph.D.
 image: pamela-jennings-phd.jpg
 fellow_year: 2022
-project: []
+project: ["dot-equitable-and-efficient-infrastructure"]
 agency: ["DOT"]
 hometown: 
 region: 

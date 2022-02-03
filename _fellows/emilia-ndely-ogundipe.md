@@ -3,7 +3,7 @@ id: emilia-ndely-ogundipe
 title: Emilia Ndely-Ogundipe
 image: emilia-ndely-ogundipe-headshot.jpg
 fellow_year: 2022
-project: []
+project: ["dol-cio-building-more-inclusive-economy"]
 agency: ["DOL"]
 hometown: 
 region: 

@@ -3,6 +3,12 @@
 # Reference this data file in 'datafile' in the Front Matter and _layouts/list.html renders it
 # This is simple, hopefully provides you with a good enough example to make changes as needed
 
+- name: CDC
+  fullname: Centers for Disease Control and Prevention
+  url: https://www.cdc.gov
+  description:
+
+
 - name: CMS
   fullname: Centers for Medicare & Medicaid Services
   url: http://www.cms.gov

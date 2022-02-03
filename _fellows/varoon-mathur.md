@@ -3,7 +3,7 @@ id: varoon-mathur
 title: Varoon Mathur
 image: varoon-mathur-headshot.jpeg
 fellow_year: 2022
-project: []
+project: ["va-cto"]
 agency: ["VA"]
 hometown: 
 region: 

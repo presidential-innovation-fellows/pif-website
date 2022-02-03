@@ -3,7 +3,7 @@ id: andrea-levy
 title: Andrea Levy
 image: andrea-levy-headshot.jpg
 fellow_year: 2022
-project: []
+project: ["fema-region-9"]
 agency: ["FEMA"]
 hometown: 
 region: 

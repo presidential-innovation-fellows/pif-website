@@ -3,7 +3,7 @@ id: cen-liu
 title: Cen Liu
 image: cen-liu-headshot.jpg
 fellow_year: 2022
-project: []
+project: ["cms-oeda"]
 agency: ["CMS"]
 hometown: 
 region: 

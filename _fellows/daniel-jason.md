@@ -3,7 +3,7 @@ id: daniel-jason
 title: Daniel Jason
 image: daniel-jason-headshot.jpg
 fellow_year: 2022
-project: []
+project: ["cdc-analytics-and-interoperable-systems"]
 agency: ["CDC"]
 hometown: 
 region: 

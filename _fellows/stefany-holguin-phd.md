@@ -1,9 +1,9 @@
 ---
 id: stefany-holguin-phd
-title: Stefany Y. Holguin, PhD
+title: Stefany Y. Holguin, Ph.D.
 image: stefany-holguin-phd-headshot.jpg
 fellow_year: 2022
-project: []
+project: ["va-cto"]
 agency: ["VA"]
 hometown: 
 region: 
