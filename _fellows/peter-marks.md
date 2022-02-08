@@ -1,7 +1,7 @@
 ---
 id: peter-marks
 title: Peter Marks
-image: peter-marks-headshot.png
+image: peter-marks-headshot.jpeg
 fellow_year: 2022
 project: []
 agency: ["GSA"]

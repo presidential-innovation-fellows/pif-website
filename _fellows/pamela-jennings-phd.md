@@ -7,7 +7,7 @@ project: ["dot-equitable-and-efficient-infrastructure"]
 agency: ["DOT"]
 hometown: 
 region: 
-bio_short: Innovation strategists bringing blue sky ideas into realization through change management leadership and effective human and capital resourcing.
+bio_short: Innovation strategist bringing blue sky ideas into realization through change management leadership and effective human and capital resourcing.
 tags: ['2022']
 skills: []
 ---
