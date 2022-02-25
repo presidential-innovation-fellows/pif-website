@@ -19,6 +19,11 @@
   url: http://www.ed.gov
   description:
 
+- name: EOP
+  fullname: Executive Office of the President
+  url: https://www.whitehouse.gov/administration/executive-office-of-the-president/
+  description:
+
 - name: DHS
   fullname: Department of Homeland Security
   url: https://www.dhs.gov
