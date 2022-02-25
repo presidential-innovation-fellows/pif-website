@@ -12,5 +12,5 @@ tags: ['east','2022','Product','Strategy_And_Growth']
 skills: ['Strategy and Growth','Product']
 ---
 
-Following a stint in strategy consulting and change management, Jeff  (he/him) has been building startups for the last 25 years in the media and life sciences sectors. His career has been characterized by first-to-market solutions in the Interactive TV, Political Campaign Communications and Clinical Research fields. His experience is primarily leading companies deploying specialized mobile software products leveraging mobile apps and SMS. 
-With multiple successful exits under his belt, Jeff’s bootstrapped his latest company, mProve Health to an acquisition by Genstar Private Equity in 2017. Since that time, Jeff has been angel/venture investing and building a new home for his family in Arlington, VA.
+Following a stint in strategy consulting and change management, Jeff Lee (he/him) has been building startups for the last 25 years in the media and life sciences sectors. His career has been characterized by first-to-market solutions in the Interactive TV, Political Campaign Communications and Clinical Research fields. His experience is primarily leading companies deploying specialized mobile software products leveraging mobile apps and SMS. 
+With multiple successful exits under his belt, Jeff Lee’s bootstrapped his latest company to an acquisition in 2017. Since that time, Jeff Lee has been angel/venture investing and building a new home for his family in Arlington, VA. 

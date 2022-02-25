@@ -11,6 +11,7 @@ bio_short: Analytics and engineering leader passionate about building products a
 tags: ['west','2022', 'Data_Science_And_Analytics', 'Software_And_Cloud_Infrastructure']
 skills: ['Data Science and Analytics', 'Software and Cloud Infrastructure']
 ---
+
 Kevin (he/him) is passionate about urban environments, healthcare innovation, and emerging technologies such as virtual reality (VR). Prior to the Presidential Innovation Fellowship, he worked in data science, software engineering and product management roles at technology companies across Silicon Valley and the Pacific Northwest, including Redfin (real estate tech), Arcadia.io (health IT tech), PitchBook (venture capital research) and Pixar (animation).
 
 Most recently, he led analytics and data engineering for the Meta (nee Facebook) Reality Labs team productionizing movement algorithms for VR avatars, as well as previously for the team developing computer vision algorithms to understand physical environments. While at Meta, he established the working group to better integrate responsible innovation principles into early-stage VR research, and served in a leadership role in an Asian Pacific Islander employee resource group. 

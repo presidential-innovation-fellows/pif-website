@@ -1,6 +1,6 @@
 ---
 id: altin-ilirjani
-title: Altin Ilirjani, Ph.D.
+title: Altin Ilirjani, PhD
 image: altin-ilirjani-headshot.jpeg
 fellow_year: 2022
 project: ["cdc-analytics-and-interoperable-systems"]
