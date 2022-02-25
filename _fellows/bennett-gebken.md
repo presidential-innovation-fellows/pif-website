@@ -5,11 +5,11 @@ image: bennett-gebken-headshot.jpg
 fellow_year: 2022
 project: []
 agency: ["USAID"]
-hometown: 
-region: 
+hometown: Washington, DC
+region: east
 bio_short: Technologist adept at solving complex problems with emerging technology.
-tags: ['2022']
-skills: []
+tags: ['east','2022', 'Data_Science_And_Analytics']
+skills: ['Data Science and Analytics']
 ---
 
 Bennett (he/him) began his career by serving in the Marine Corps infantry, deploying multiple times to Afghanistan. He is obsessed with efficiency in government and a technologist with extensive experience navigating highly ambiguous and complex situations to deliver results. He brings expertise in artificial intelligence, cloud computing, enterprise architecture, robotic process automation and federal acquisitions.

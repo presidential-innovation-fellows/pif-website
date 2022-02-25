@@ -5,11 +5,11 @@ image: april-chen-headshot.jpg
 fellow_year: 2022
 project: []
 agency: ["EOP"]
-hometown: 
-region: 
+hometown: Washington D.C.
+region: east
 bio_short: Passionate about data science for social and economic advancement.
-tags: ['2022']
-skills: []
+tags: ['2022','east','Data_Science_And_Analytics']
+skills: ['Data Science and Analytics']
 ---
 
 April (she/her) is a data scientist with 10+ years of experience across tech, consulting, and research. She genuinely believes more organizations could be improved through a more scientific approach to solving problems, and using technology to scale those solutions. Her area of expertise is in causal inference methods for measuring the impact of policies, campaigns, and strategic decisions.

@@ -5,11 +5,11 @@ image: daniel-jason-headshot.jpg
 fellow_year: 2022
 project: ["cdc-analytics-and-interoperable-systems"]
 agency: ["CDC"]
-hometown: 
-region: 
+hometown: Columbia, MD
+region: east
 bio_short: Shaping the future with data, technology, and professional collaboration.
-tags: ['2022']
-skills: []
+tags: ['east','2022','Data_Science_And_Analytics']
+skills: ['Data Science and Analytics']
 ---
 
 Daniel Jason (he/him) is an engineer and data scientist with twelve years of professional experience tackling some of the biggest technology challenges in the federal healthcare and aerospace domains.  He is passionate about cutting edge technology and the rapidly changing landscape of information science.  Daniel is dedicated to continuous learning, leadership, and public service, and he has focused his career on addressing the engineering challenges with the largest impact to public health and safety.

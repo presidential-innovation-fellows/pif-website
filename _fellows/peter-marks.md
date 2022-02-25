@@ -3,13 +3,13 @@ id: peter-marks
 title: Peter Marks
 image: peter-marks-headshot.jpeg
 fellow_year: 2022
-project: []
+project: ['gsa-tts-login']
 agency: ["GSA"]
-hometown: 
-region: 
+hometown: Washington, DC 
+region: east
 bio_short: Digital products leader, agile methodology steward, mobile engineering expert.
-tags: ['2022']
-skills: []
+tags: ['east','2022','Product','Design_And_Experience']
+skills: ['Product',Design and Experience]
 ---
 
 Peter Marks (he/him) is a digital products leader who has designed and developed mobile experiences for a variety of large-scale organizations ranging from Walmart to the Bernie Sanders and Joe Biden 2020 presidential campaigns. 

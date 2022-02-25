@@ -5,11 +5,11 @@ image: olivia-zhu-headshot.jpeg
 fellow_year: 2022
 project: []
 agency: ["OMB"]
-hometown: 
-region: 
+hometown: Washington, DC
+region: east
 bio_short: Building tech solutions to solve business problems with machine learning.
-tags: ['2022']
-skills: []
+tags: ['2022', 'east', 'Data_Science_And_Analytics']
+skills: ['Data Science and Analytics']
 ---
 
  Olivia Zhu (she/her) is a tech leader focused on developing machine learning solutions to solve business problems. Throughout her career, Olivia has overseen 10+ launches of AI products into production. She has worked in a range of disciplines, holding roles as a software engineer, data scientist, and program/product manager. 

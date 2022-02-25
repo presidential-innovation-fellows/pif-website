@@ -3,13 +3,13 @@ id: ryan-harrison
 title: Ryan M. Harrison
 image: ryan-harrison-headshot.jpg
 fellow_year: 2022
-project: []
-agency: []
+project: ["cdc-analytics-and-interoperable-systems"]
+agency: ["CDC"]
 hometown: Baltimore, MD
-region: south
+region: east
 bio_short: Learner - Analytical - Strategic - Deliberative - Command.
-tags: ['south','2022']
-skills: []
+tags: ['east','2022', 'Software_And_Cloud_Infrastructure', 'Data_Science_And_Analytics']
+skills: ['Software and Cloud Infrastructure', 'Data Science and Analytics']
 ---
 
 Ryan is a computational scientist with bench training in the life sciences. His technical expertise includes enterprise architecture, healthcare and life-sciences data management, software engineering and high performance computing.

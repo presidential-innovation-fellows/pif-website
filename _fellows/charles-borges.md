@@ -5,11 +5,11 @@ image: charles-borges-headshot.jpg
 fellow_year: 2022
 project: ["cdc-analytics-and-interoperable-systems"]
 agency: ["CDC"]
-hometown: 
-region: 
+hometown: Washington, DC
+region: east
 bio_short: Enabling Digital Transformation through Collaboration, Creativity, and Communication.
-tags: ['2022']
-skills: []
+tags: ['east','2022','Data_Science_And_Analytics']
+skills: ['Data Science and Analytics']
 ---
 
 Chuck Borges (he/him) is a retired US Navy Commander, who spent the final 10 years of his naval career in federal acquisition, focused on data and analytics management.  Before his transition from service, he served as Naval Air Systems Command's first Data Officer, where he stood up multiple data and analytics cells, and also held roles in software/hardware integration, systems engineering, and program management.  He was most recently employed by Deloitte Consulting as a specialist in digital strategy and analytics.

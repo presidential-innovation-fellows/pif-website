@@ -5,11 +5,11 @@ image: stefany-holguin-phd-headshot.jpg
 fellow_year: 2022
 project: ["va-cto"]
 agency: ["VA"]
-hometown: 
-region: 
+hometown: Washington, DC
+region: east
 bio_short: Multifaceted materials engineer driving innovative health & biomedical solutions for society.
-tags: ['2022']
-skills: []
+tags: ['east','2022','Product','Digital_Health']
+skills: ['Product','Digital_Health']
 ---
 
 Stefany Y. Holguin, PhD, (she/her) is a materials engineer and multifaceted leader, working to improve accessible and equitable healthcare. Dr. Holguin has driven biomedical innovation for 10 years, spanning from drug delivery research to digital health platforms. She aims to lead transformational initiatives in this domain, while also bolstering the needs of underserved populations.

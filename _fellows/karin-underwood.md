@@ -5,11 +5,11 @@ image: karin-underwood-headshot.jpg
 fellow_year: 2022
 project: []
 agency: ["EOP"]
-hometown:
-region: 
+hometown: Washington, DC
+region: east
 bio_short: Innovator, product-builder, and people manager with a passion for creating connections and trying new, hard things.
-tags: ['2022']
-skills: []
+tags: ['east', '2022', 'Digital_Health', 'Strategy_And_Growth']
+skills: ['Digital Health', 'Strategy and Growth']
 ---
 
 Karin Underwood (she/her) is a healthcare expert and technology entrepreneur with a passion for service. 

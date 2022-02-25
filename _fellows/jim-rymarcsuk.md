@@ -5,11 +5,11 @@ image: jim-rymarcsuk-headshot.jpg
 fellow_year: 2022
 project: ["nga-cto"]
 agency: ["NGA"]
-hometown: 
-region: 
+hometown: Bethesda, MD
+region: east
 bio_short: Customer-focused entrepreneur who loves applying new technologies to meet people's needs.
-tags: ['2022']
-skills: []
+tags: ['east','2022','Product','Strategy_And_Growth']
+skills: ['Strategy and Growth','Product']
 ---
 
 Jim Rymarcsuk (he/him) is a senior executive and entrepreneur with over 25 years of experience in developing new technologies and businesses. Most recently he was a Distinguished Career Fellow at Stanford University, and currently serves on several Boards.  He is the former Chief Strategy Officer at Honeywell Aerospace where he led their transition to an integrated software-industrial company.  

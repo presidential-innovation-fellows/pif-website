@@ -5,11 +5,11 @@ image: varoon-mathur-headshot.jpeg
 fellow_year: 2022
 project: ["va-cto"]
 agency: ["VA"]
-hometown: 
-region: 
+hometown: Washington, D.C
+region: east
 bio_short: An expert in building technology for health systems.
-tags: ['2022']
-skills: []
+tags: ['east','2022','Data_Science_And_Analytics','Product','Software_And_Cloud_Infrastructure']
+skills: ['Data Science and Analytics','Product','Software and Cloud Infrastructure']
 ---
 
 Varoon (he/him) has a background conducting interdisciplinary research on the social implications of machine learning and related technologies on public domains.

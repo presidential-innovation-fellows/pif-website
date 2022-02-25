@@ -5,11 +5,11 @@ image: kevin-luo-headshot.jpg
 fellow_year: 2022
 project: ["fema-region-9"]
 agency: ["FEMA"]
-hometown: 
-region: 
+hometown: San Francisco, CA
+region: west
 bio_short: Analytics and engineering leader passionate about building products and teams.
-tags: ['2022']
-skills: []
+tags: ['west','2022', 'Data_Science_And_Analytics', 'Software_And_Cloud_Infrastructure']
+skills: ['Data Science and Analytics', 'Software and Cloud Infrastructure']
 ---
 Kevin (he/him) is passionate about urban environments, healthcare innovation, and emerging technologies such as virtual reality (VR). Prior to the Presidential Innovation Fellowship, he worked in data science, software engineering and product management roles at technology companies across Silicon Valley and the Pacific Northwest, including Redfin (real estate tech), Arcadia.io (health IT tech), PitchBook (venture capital research) and Pixar (animation).
 

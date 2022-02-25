@@ -5,11 +5,11 @@ image: becky-slogeris-headshot.jpg
 fellow_year: 2022
 project: []
 agency: ["DOJ"]
-hometown: 
-region: 
+hometown: Baltimore, MD
+region: east
 bio_short: Social impact designer and design justice advocate.
-tags: ['2022']
-skills: []
+tags: ['east','2022', 'Design_And_Experience']
+skills: ['Design and Experience']
 ---
 
 Becky Slogeris (she/her) is a social impact designer and design justice advocate. Most recently, she was Associate Director at the Center for Social Design at Maryland Institute College of Art (MICA), where she brought MICA students together with outside partners to advance equity and social justice through design. 

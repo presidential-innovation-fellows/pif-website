@@ -30,19 +30,18 @@ layout: default
 </section>
 
 <section class="grid-container usa-layout-docs usa-section">
-  <div class="grid-row grid-gap">
-    <div class="usa-layout-docs__main usa-prose list-fellows">
+    <div class="usa-layout-docs__main usa-prose">
       <main id="main-content">
         <!-- initial list that the search results replace -->
-        <span id='fellow-search-default'>
+        <div id='fellow-search-default' class="list-fellows">
           {{ content }}
-        </span>
+        </div>
         <!-- search results container -->
-        <span id='fellow-search-results' class="grid-row">
-        </span>
+        <div id='fellow-search-results' class="list-fellows">
+        </div>
+        {% include pagination.html %}
       </main>
-    </div>
-  </div>
+    </div> 
 </section>
 
 {% include_cached quote.html image="quotes/jacqueline_kazil.jpg" quote="PIFdom is about having the opportunity to have an impact on every American." name="Jacqueline  Kazil, 2013 PIF, detailed to the Federal Emergency Management Agency (FEMA)" %}
