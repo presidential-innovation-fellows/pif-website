@@ -45,7 +45,7 @@ const resetFilters = () => {
   yearSelect.value="";
   skillSelect.value="";
   window.history.replaceState({}, '', `${siteBaseurl}/fellows`); 
-  defaultList.style.display = "block";
+  defaultList.style.display = "flex";
 };
 
 const resetSearch = () => {
@@ -76,7 +76,7 @@ const respondToSearchbox = (searchterm) => {
   if (!searchterm.length && inFellowSearch) {
     inFellowSearch = false;
     // show initial list after search is over
-    defaultList.style.display = "block";
+    defaultList.style.display = "flex";
   }
 }
 
