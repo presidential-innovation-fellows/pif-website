@@ -1,5 +1,5 @@
 .list-fellows {
-  min-height: 100vh;
+  //min-height: 100vh;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -13,7 +13,6 @@
   @include u-margin(2);
   min-width: 180px;
   max-width: 200px;
-  //grid-auto-rows: minmax(100px, auto);
   
   // <tablet
   @include at-media-max("tablet") {
