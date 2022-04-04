@@ -1,9 +1,25 @@
 .list-fellows {
-  min-height: 100vh;
+  //min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: left;
 }
+
+
 
 .fellow-card {
   @include u-padding(2);
+  @include u-margin(2);
+  min-width: 180px;
+  max-width: 200px;
+  
+  // <tablet
+  @include at-media-max("tablet") {
+    @include u-margin-top(1);
+    @include u-margin-x(1);
+    max-width: 100%;
+}
   a {
     border: none;
     text-decoration: none;
