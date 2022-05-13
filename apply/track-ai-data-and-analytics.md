@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Presidential Innovation Fellow - AI, Data and Analytics
+title: Presidential Innovation Fellow - Data Strategy and AI
 sidenav: false
 banner: false
 permalink: /apply/track-ai-data-and-analytics/
 state: 'open'
-track_name: 'Presidential Innovation Fellow: AI, Data and Analytics'
+track_name: 'Presidential Innovation Fellow: Data Strategy and AI'
 role_name: Presidential Innovation Fellow
 opens: 'May 16, 2022'
 closes: 'June 24, 2022, 11:59pm Pacific Time'

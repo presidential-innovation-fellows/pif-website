@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Presidential Innovation Fellow - Software and Infrastructure
+title: Presidential Innovation Fellow - Software and Cloud Infrastructure
 sidenav: false
 banner: false
 permalink: /apply/track-software-and-infrastructure/
 state: 'open'
-track_name: 'Presidential Innovation Fellow: Software and Infrastructure'
+track_name: 'Presidential Innovation Fellow: Software and Cloud Infrastructure'
 role_name: Presidential Innovation Fellow
 opens: 'May 16, 2022, 12pm Eastern Time'
 closes: 'June 24, 2022, 11:59pm Pacific Time'

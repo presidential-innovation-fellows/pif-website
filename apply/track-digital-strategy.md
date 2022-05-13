@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Presidential Innovation Fellow - Digital Strategy
+title: Presidential Innovation Fellow - Digital Transformation and Strategy
 sidenav: false
 banner: false
 permalink: /apply/track-digital-strategy/
 state: 'open'
-track_name: 'Presidential Innovation Fellow: Digital Strategy'
+track_name: 'Presidential Innovation Fellow: Digital Transformation and Strategy'
 role_name: Presidential Innovation Fellow
 opens: 'May 16, 2022, 12pm Eastern Time'
 closes: 'June 24, 2022, 11:59pm Pacific Time'
