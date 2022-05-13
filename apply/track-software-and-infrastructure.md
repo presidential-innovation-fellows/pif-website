@@ -93,7 +93,7 @@ Since the program was launched in 2012 by former U.S. CTO Todd Park, [193 Fellow
 
 A sample of past fellows’ projects: focusing on improving care and access to benefits for our veterans; re-imagining cancer clinical trials to increase awareness and access for patients; advancing digital health platforms and diagnostics to combat COVID-19; ensuring AI tools are not biased against job seekers with disabilities; and creating a central digital location to share and improve outcomes for children within the foster care system. Issues of FY23 national priority for the administration and our agency partners include: COVID-19, climate crisis, racial equity and civil rights, economic relief, healthcare, immigration system improvement, infrastructure, strengthening national security workforce, leadership in emerging technologies (AI, digital currency, etc), rebuilding democratic alliances across the globe, and championing America’s values and human rights.
 
-Applicants can apply online at [apply.pif.gov](https://presidentialinnovationfellows.gov/apply/) and accepted Fellows will begin in April 2023.
+Applicants can apply online at [apply.pif.gov](https://presidentialinnovationfellows.gov/apply/). Accepted Fellows will begin in April 2023.
 
 Characteristics that we look for in Fellows include: 
 
