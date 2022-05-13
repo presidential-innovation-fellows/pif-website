@@ -95,10 +95,12 @@ A sample of past fellows’ projects: focusing on improving care and access to b
 
 Applicants can apply online at [apply.pif.gov](https://presidentialinnovationfellows.gov/apply/). Accepted Fellows will begin in April 2023.
 
+[Apply to PIF](https://presidentialinnovationfellows.gov/apply/){: .usa-button .usa-button--big}
+
 Characteristics that we look for in Fellows include: 
 
 ### Entrepreneurship and Technology:
-- Mid-senior/executive career professional experience in a subject matter expertise (see [tracks](http://link?))
+- Mid-senior/executive career professional experience in a subject matter expertise (see [tracks](https://presidentialinnovationfellows.gov/apply/#:~:text=All%20candidates%20must-,select%20a%20track,-based%20on%20their))
 - Ability to break down business problems, understand and design effective solutions and strategies that draw on current and emergent tools, technologies, initiatives and other resources
 - Experience delivering products or services from concept to market
 
