@@ -238,6 +238,6 @@ The information in this section outlines the criteria that your application will
 * Information you include in cover letters, responses to questions, etc. as these are not directly associated with your work experience.
 * Lists of tools, technologies, programming languages, etc. that are listed separately from your work experience.
 
-It is important to note that we do take everything listed above into consideration when deciding who we select to interview. The Qualification process is a bureaucratic requirement that we are stuck with. It’s best to think about it as the most intense and rigorous resume review you’ve ever heard of. To get through this process you need make sure your resume directly reflects the Qualifications section. We also have more guidance on creating a federal style resume on [Join TTS Hiring Process](https://join.tts.gsa.gov/resume/)
+It is important to note that we do take everything listed above into consideration when deciding who we select to interview. The **Qualification** process is a bureaucratic requirement that we are stuck with. It’s best to think about it as the most intense and rigorous resume review you’ve ever heard of. To get through this process, you need make sure your resume directly reflects the **Qualification** section. We also have more guidance on creating a federal style resume on [Join TTS Hiring Process](https://join.tts.gsa.gov/resume/)
 
 {% endif %}
