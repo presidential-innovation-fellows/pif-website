@@ -176,7 +176,7 @@ You will have access to many [benefits](http://www.gsa.gov/portal/category/26702
 3. Suitable for federal employment, determined by a background investigation
 4. You will be required to serve a trial period
 5. Direct Deposit of salary check to financial organization required
-6. Register with Selective Service, if you are required by https://www.sss.gov/Registration-Info/Who-Registration
+6. Register with Selective Service, if you are required by [law](https://www.sss.gov/Registration-Info/Who-Registration)
 7. Complete a financial disclosure report to verify that no conflict, or an appearance of conflict, exists between your financial interest and this position
 
 ## Duties
