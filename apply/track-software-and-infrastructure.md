@@ -47,7 +47,7 @@ The salary for this position is: GS-{{ page.gs_level }} Step 1 - ${{ page.salary
 You can find more information about this in the [compensation and benefits section on our site](https://join.tts.gsa.gov/compensation-and-benefits/).
 
 **Who May Apply:**
-All United States citizens and nationals (residents of American Samoa and Swains Islands) are eligible to apply.
+All United States citizens and nationals (residents of American Samoa and Swains Island) are eligible to apply.
 
 **Job announcement number:**
 {{ page.job_announcement_number }}
@@ -169,7 +169,7 @@ in the federal government. You will have access to many [benefits](http://www.gs
 
 ## Key Requirements
 
-1. You must be a U.S. Citizen or National (residents of American Samoa and Swains Islands)
+1. You must be a U.S. Citizen or National (residents of American Samoa and Swains Island)
 2. You must be matched with an Agency project
 3. Suitable for federal employment, determined by a background investigation
 4. You will be required to serve a trial period
