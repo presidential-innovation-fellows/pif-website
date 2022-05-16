@@ -194,7 +194,7 @@ Acting as a strategic advisor, collaborating with cross-functional teams to achi
 
 ## Qualifications
 
-In order to properly be able to evaluate your previous experience, we recommend being as detailed as possible in your resume and following [our general guidance on creating federal style resume](https://join.tts.gsa.gov/resume/){:target="_blank"}.
+In order to properly be able to evaluate your previous experience, we recommend being as detailed as possible in your resume and following [our general guidance on creating federal style resumes](https://join.tts.gsa.gov/resume/){:target="_blank"}.
 
 To qualify for this role, you must have one year of specialized experience. Specialized experience is:
 
