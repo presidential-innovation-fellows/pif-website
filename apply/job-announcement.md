@@ -7,7 +7,7 @@ permalink: /apply/job-announcement/
 state: 'open'
 track_name: 'Presidential Innovation Fellow Job Announcement'
 role_name: Presidential Innovation Fellow
-opens: 'May 16, 2022, 12pm Eastern Time'
+opens: 'May 16, 2022'
 closes: 'June 24, 2022, 11:59pm Pacific Time'
 location: 'Washington, DC'
 gs_level: 15
@@ -100,7 +100,7 @@ Applicants can apply online at [apply.pif.gov](https://presidentialinnovationfel
 Characteristics that we look for in Fellows include: 
 
 ### Entrepreneurship and Technology:
-- Mid-senior/executive career professional experience in a subject matter expertise. (see [tracks](https://presidentialinnovationfellows.gov/apply/#:~:text=All%20candidates%20must-,select%20a%20track,-based%20on%20their)){:target="_blank"}
+- Mid-senior/executive career professional experience in a subject matter expertise. 
 - Ability to break down business problems, understand and design effective solutions and strategies that draw on current and emergent tools, technologies, initiatives and other resources.
 - Experience delivering products or services from concept to market.
 
@@ -156,8 +156,7 @@ The incumbent will use their demonstrated experience building and scaling initia
 This position is located within the General Services Administration (GSA), Federal Acquisition Service (FAS), Technology Transformation Service (TTS), Office of the Presidential Innovation Fellows (PIF).
 
 
-GSA has been repeatedly named as one of the ['Best Places to Work'](http://bestplacestowork.org/BPTW/rankings/overall/mid){:target="_blank"}
-in the federal government.
+GSA has been repeatedly named as one of the 'Best Places to Work' in the federal government.
 You will have access to many [benefits](http://www.gsa.gov/portal/category/26702){:target="_blank"} including:
 
 - Health insurance (choose from a wide range of plans)
@@ -186,11 +185,11 @@ Typical duties for the Presidential Innovation Fellow include, but are not limit
 
 Acting as a strategic advisor, collaborating with cross-functional teams to achieve organizational or project objectives, and leading stakeholders through organizational change in one or more of the following areas:
 
-- **Software and Cloud Infrastructure** - This track includes expertise in DevOps, cloud computing, cloud infrastructure, front-end engineering, back-end engineering, and/or enterprise-level technology leadership.
-- **Product Management** - This track includes expertise in product development, product management, and/or agile software methodologies.
-- **Design and Experience** - This track includes expertise in user experience (UX), human-centered design, service design, implementation design and/or customer experience (CX).
-- **Data Strategy and AI** - This track includes expertise in the areas of data strategy and artificial intelligence. This includes data management, machine learning, data science, and/or modern statistical and computational methods.
-- **Digital Transformation and Strategy** - This track includes expertise in the areas of strategy and digital transformation. This includes digital marketing or advertising, healthcare innovation, change management, community outreach & engagement, DEIA, venture capital, accelerators, or incubators; and/or corporate innovation.
+- **Software and Cloud Infrastructure** - Expertise in DevOps, cloud computing, cloud infrastructure, front-end engineering, back-end engineering, and/or enterprise-level technology leadership.
+- **Product Management** - Expertise in product development, product management, and/or agile software methodologies.
+- **Design and Experience** - Expertise in user experience (UX), human-centered design, service design, implementation design and/or customer experience (CX).
+- **Data Strategy and AI** - Expertise in the areas of data strategy and artificial intelligence. This includes data management, machine learning, data science, and/or modern statistical and computational methods.
+- **Digital Transformation and Strategy** - Expertise in the areas of strategy and digital transformation. This includes digital marketing or advertising, healthcare innovation, change management, community outreach & engagement, DEIA, venture capital, accelerators, or incubators; and/or corporate innovation.
 
 ## Qualifications
 
@@ -198,13 +197,11 @@ In order to properly be able to evaluate your previous experience, we recommend 
 
 To qualify for this role, you must have one year of specialized experience. Specialized experience is:
 
-- Experience leading vision, direction, roadmap or leading the identification of user needs for a project, product, platform, or service.
-- Experience providing project or product leadership.
-- Experience with iterative or agile methodologies.
-- Experience leading cross-functional teams.
-- Experience collaborating with senior or executive stakeholders.
-- Experience collaborating with cross-functional teams to achieve organizational or project objectives.
-- Experience leading stakeholders through organizational change.
+- Experience leading vision, direction, roadmap or leading the identification of user needs for a project, product, platform, or service. - Providing project or product leadership.
+- Experience with iterative or agile and data-driven methodologies to achieve organizational objectives;
+- Leading cross-functional teams to achieve organizational or project objectives.
+- Collaborating with senior or executive stakeholders and cross-functional teams to achieve organizational or project objectives.
+- Leading stakeholders through organizational change.
 
 Qualification determinations cannot be made when resumes do not include the required information, so failure to provide this information may result in disqualification.
 
