@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Presidential Innovation Fellow - Design and Experience
+title: Presidential Innovation Fellow Job Announcement
 sidenav: false
 banner: false
-permalink: /apply/track-design-and-experience/
+permalink: /apply/job-announcement/
 state: 'open'
-track_name: 'Presidential Innovation Fellow: Design and Experience'
+track_name: 'Presidential Innovation Fellow Job Announcement'
 role_name: Presidential Innovation Fellow
 opens: 'May 16, 2022, 12pm Eastern Time'
 closes: 'June 24, 2022, 11:59pm Pacific Time'
@@ -15,9 +15,9 @@ salary_min: '148,484'
 salary_max: '148,484'
 org: 'Presidential Innovation Fellows'
 contact_email: 'jointts@gsa.gov'
-job_announcement_number: 'TBD'
+job_announcement_number: '22FASC331SVGOTR'
 pd_job_title: 'IT Specialist'
-num_vacancies: '10'
+num_vacancies: '25'
 series: '2210'
 apply_url: https://apply.pif.gov/
 ohrm_contact_email: 'stephanie.bernstein@gsa.gov'
@@ -28,12 +28,12 @@ supervisory_status: 'No'
 ---
 
 {% if page.state != 'open' %}
-The target date for when this position will be officially open to application has not yet been determined. If you'd like to be notified when this position is open, sign up to our [mailing list](https://join.tts.gsa.gov/newsletter/). Check out [Join TTS Hiring Process](https://join.tts.gsa.gov/hiring-process/) to learn more about the application process.
+The target date for when this position will be officially open to application has not yet been determined. If you'd like to be notified when this position is open, sign up to our [mailing list](https://join.tts.gsa.gov/newsletter/){:target="_blank"}. Check out [Join TTS Hiring Process](https://join.tts.gsa.gov/hiring-process/){:target="_blank"} to learn more about the application process.
 {% else %}
 
 # {{ page.track_name }}
 
-This page contains information related to the role as well as a link to submit your application. Check out [Join TTS Hiring Process](https://join.tts.gsa.gov/hiring-process/) to learn more about the application process.
+This page contains information related to the role as well as a link to submit your application. Check out [Join TTS Hiring Process](https://join.tts.gsa.gov/hiring-process/){:target="_blank"} to learn more about the application process.
 
 
 ## Basic Information
@@ -44,7 +44,7 @@ This page contains information related to the role as well as a link to submit y
 **Salary:**
 The salary for this position is: GS-{{ page.gs_level }} Step 1 - ${{ page.salary_min }} (as of May 2022)
 
-You can find more information about this in the [compensation and benefits section on our site](https://join.tts.gsa.gov/compensation-and-benefits/).
+You can find more information about this in the [compensation and benefits section on our site](https://join.tts.gsa.gov/compensation-and-benefits/){:target="_blank"}.
 
 **Who May Apply:**
 All United States citizens and nationals (residents of American Samoa and Swains Island).
@@ -89,18 +89,18 @@ Competitive Service Term Limited DHA: Initial appointment 12 months and 1 day an
 
 Presidential Innovation Fellows (PIF) is a renowned fellowship program that pairs mid-to-senior-level entrepreneurs, executives, and technologists of all kinds with top civil servants and change-makers working within the federal government to tackle some of our nation’s biggest challenges. Fellows are embedded within agencies as senior advisors for 12-24 month engagements working on mission-critical problems, shaping smarter policy and/or advancing equitable technology for public good.
 
-Since the program was launched in 2012 by former U.S. CTO Todd Park, 200+ [Presidential Innovation Fellows](https://presidentialinnovationfellows.gov/fellows/) have worked with over 45 [agencies](https://presidentialinnovationfellows.gov/agencies/). Our Fellows join us from big tech, startups,  non-profits, academia, and more. Fellows come from diverse backgrounds and have a wide range of skills, but share common values of compassion, equity, excellence, and dedication.
+Since the program was launched in 2012 by former U.S. CTO Todd Park, 200+ [Presidential Innovation Fellows](https://presidentialinnovationfellows.gov/fellows/){:target="_blank"} have worked with over 45 [agencies](https://presidentialinnovationfellows.gov/agencies/){:target="_blank"}. Our Fellows join us from big tech, startups,  non-profits, academia, and more. Fellows come from diverse backgrounds and have a wide range of skills, but share common values of compassion, equity, excellence, and dedication.
 
 A sample of past fellows’ projects: focusing on improving care and access to benefits for our veterans; re-imagining cancer clinical trials to increase awareness and access for patients; advancing digital health platforms and diagnostics to combat COVID-19; ensuring AI tools are not biased against job seekers with disabilities; and creating a central digital location to share and improve outcomes for children within the foster care system. Issues of FY23 national priority for the administration and our agency partners include: COVID-19, climate crisis, racial equity and civil rights, economic relief, healthcare, immigration system improvement, infrastructure, strengthening national security workforce, leadership in emerging technologies (AI, digital currency, etc), rebuilding democratic alliances across the globe, and championing America’s values and human rights.
 
-Applicants can apply online at [apply.pif.gov](https://presidentialinnovationfellows.gov/apply/). Accepted Fellows will begin in April 2023.
+Applicants can apply online at [apply.pif.gov](https://presidentialinnovationfellows.gov/apply/){:target="_blank"}. Accepted Fellows will begin in April 2023.
 
-[Apply to PIF](https://docs.google.com/forms/d/e/1FAIpQLSfvcTc_cxzY3J8tcbkqXiXNogE6JJqbIh9esVuCOofolmKE9w/viewform?usp=sf_link){: .usa-button .usa-button--big}{target="_blank"}
+[Apply to PIF](https://docs.google.com/forms/d/e/1FAIpQLSfvcTc_cxzY3J8tcbkqXiXNogE6JJqbIh9esVuCOofolmKE9w/viewform?usp=sf_link){: .usa-button .usa-button--big}{:target="_blank"}
 
 Characteristics that we look for in Fellows include: 
 
 ### Entrepreneurship and Technology:
-- Mid-senior/executive career professional experience in a subject matter expertise. (see [tracks](https://presidentialinnovationfellows.gov/apply/#:~:text=All%20candidates%20must-,select%20a%20track,-based%20on%20their))
+- Mid-senior/executive career professional experience in a subject matter expertise. (see [tracks](https://presidentialinnovationfellows.gov/apply/#:~:text=All%20candidates%20must-,select%20a%20track,-based%20on%20their)){:target="_blank"}
 - Ability to break down business problems, understand and design effective solutions and strategies that draw on current and emergent tools, technologies, initiatives and other resources.
 - Experience delivering products or services from concept to market.
 
@@ -140,10 +140,9 @@ Characteristics that we look for in Fellows include:
 
 ### Objective #3: You will utilize an entrepreneurial mindset, technology acumen, and strong communication skills in order to drive projects from ideation to completion.
 
-- You have the ability to present sensitive recommendations to higher authorities and to articulate positions/policy of vast technical complexity
-- You possess knowledge of and expertise in driving and implementing technology solutions from concept to market that overcome significant challenges resulting from complex bureaucratic environments or technically difficult problems
-- You have a high degree of emotional intelligence, are a quick study, and intuitively know what needs to get done to deliver with integrity, ensuring compliance at all levels
-
+- You have the ability to present sensitive recommendations to higher authorities and to articulate positions/policy of vast technical complexity.
+- You possess knowledge of and expertise in driving and implementing technology solutions from concept to market that overcome significant challenges resulting from complex bureaucratic environments or technically difficult problems.
+- You have a high degree of emotional intelligence, are a quick study, and intuitively know what needs to get done to deliver with integrity, ensuring compliance at all levels.
 
   
 ## Job Summary
@@ -157,9 +156,9 @@ The incumbent will use their demonstrated experience building and scaling initia
 This position is located within the General Services Administration (GSA), Federal Acquisition Service (FAS), Technology Transformation Service (TTS), Office of the Presidential Innovation Fellows (PIF).
 
 
-GSA has been repeatedly named as one of the ['Best Places to Work'](http://bestplacestowork.org/BPTW/rankings/overall/mid)
+GSA has been repeatedly named as one of the ['Best Places to Work'](http://bestplacestowork.org/BPTW/rankings/overall/mid){:target="_blank"}
 in the federal government.
-You will have access to many [benefits](http://www.gsa.gov/portal/category/26702) including:
+You will have access to many [benefits](http://www.gsa.gov/portal/category/26702){:target="_blank"} including:
 
 - Health insurance (choose from a wide range of plans)
 - Life insurance coverage with several options
@@ -178,7 +177,7 @@ You will have access to many [benefits](http://www.gsa.gov/portal/category/26702
 3. Suitable for federal employment, determined by a background investigation
 4. You will be required to serve a trial period
 5. Direct Deposit of salary check to financial organization required
-6. Register with Selective Service, if you are required by [law](https://www.sss.gov/Registration-Info/Who-Registration)
+6. Register with Selective Service, if you are required by [law](https://www.sss.gov/Registration-Info/Who-Registration){:target="_blank"}
 7. Complete a financial disclosure report to verify that no conflict, or an appearance of conflict, exists between your financial interest and this position
 
 ## Duties
@@ -195,26 +194,24 @@ Acting as a strategic advisor, collaborating with cross-functional teams to achi
 
 ## Qualifications
 
-In order to properly be able to evaluate your previous experience, we recommend being as detailed as possible in your resume and following our general guidance on creating federal style resume.
+In order to properly be able to evaluate your previous experience, we recommend being as detailed as possible in your resume and following [our general guidance on creating federal style resume](https://join.tts.gsa.gov/resume/){:target="_blank"}.
 
 To qualify for this role, you must have one year of specialized experience. Specialized experience is:
 
-- Experience training, coaching, or mentoring on customer experience, user centered design, content strategy, content design, or service design methodologies.
-- Experience leading and collaborating on design, customer experience, content strategy, or service design projects, initiatives or activities.
-- Experience with content strategy or design methodologies. For example: information architecture, UX writing, editorial design, usability research, user interviews, contextual inquiries, observational research, participatory workshops or product design.
-- Experience with creation, design, delivery, or iteration of digital products, platforms, systems, or services. 
-- Experience with iterative or agile methodologies
-- Experience facilitating content strategy or design sessions, or workshops.
-- Experience collaborating with cross-functional teams to achieve organizational or project objectives
-- Experience leading stakeholders through organizational change
-
+- Experience leading vision, direction, roadmap or leading the identification of user needs for a project, product, platform, or service.
+- Experience providing project or product leadership.
+- Experience with iterative or agile methodologies.
+- Experience leading cross-functional teams.
+- Experience collaborating with senior or executive stakeholders.
+- Experience collaborating with cross-functional teams to achieve organizational or project objectives.
+- Experience leading stakeholders through organizational change.
 
 Qualification determinations cannot be made when resumes do not include the required information, so failure to provide this information may result in disqualification.
 
 **For each job on your resume, provide:**
 
-- the exact dates you held each job (from month/year to month/year or “present”).
-- number of hours per week you worked (if part time).
+- The exact dates you held each job (from month/year to month/year or “present”).
+- Number of hours per week you worked (if part time).
 
 ## Evaluation
 
@@ -226,6 +223,8 @@ The information in this section outlines the criteria that your application will
 * Information you include in cover letters, responses to questions, etc. as these are not directly associated with your work experience.
 * Lists of tools, technologies, programming languages, etc. that are listed separately from your work experience.
 
-It is important to note that we do take everything listed above into consideration when deciding who we select to interview. The **Qualification** process is a bureaucratic requirement that we are stuck with. It’s best to think about it as the most intense and rigorous resume review you’ve ever heard of. To get through this process, you need make sure your resume directly reflects the **Qualification** section. We also have more guidance on creating a federal style resume on [Join TTS Hiring Process](https://join.tts.gsa.gov/resume/)
+It is important to note that we do take everything listed above into consideration when deciding who we select to interview. The Qualification process is a bureaucratic requirement that we are stuck with. It’s best to think about it as the most intense and rigorous resume review you’ve ever heard of. To get through this process you need to make sure your resume directly reflects the Qualifications section. We also have more guidance on creating a federal style resume on [Join TTS Hiring Process](https://join.tts.gsa.gov/resume/){:target="_blank"}.
+
+[Apply to PIF](https://docs.google.com/forms/d/e/1FAIpQLSfvcTc_cxzY3J8tcbkqXiXNogE6JJqbIh9esVuCOofolmKE9w/viewform?usp=sf_link){: .usa-button .usa-button--big}{:target="_blank"}
 
 {% endif %}
