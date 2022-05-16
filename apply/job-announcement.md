@@ -197,8 +197,9 @@ In order to properly be able to evaluate your previous experience, we recommend 
 
 To qualify for this role, you must have one year of specialized experience. Specialized experience is:
 
-- Experience leading vision, direction, roadmap or leading the identification of user needs for a project, product, platform, or service. - Providing project or product leadership.
-- Experience with iterative or agile and data-driven methodologies to achieve organizational objectives;
+- Leading vision, direction, roadmap or leading the identification of user needs for a project, product, platform, or service. 
+- Providing project or product leadership.
+- Using iterative or agile and data-driven methodologies to achieve organizational or project objectives.
 - Leading cross-functional teams to achieve organizational or project objectives.
 - Collaborating with senior or executive stakeholders and cross-functional teams to achieve organizational or project objectives.
 - Leading stakeholders through organizational change.
