@@ -8,7 +8,7 @@ state: 'open'
 track_name: 'Presidential Innovation Fellow Job Announcement'
 role_name: Presidential Innovation Fellow
 opens: 'May 16, 2022'
-closes: 'June 24, 2022, 11:59pm Pacific Time'
+closes: 'July 8, 11:59 PM PST'
 location: 'Washington, DC'
 gs_level: 15
 salary_min: '148,484'
