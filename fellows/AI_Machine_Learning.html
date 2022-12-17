@@ -1,0 +1,13 @@
+---
+layout: fellow-landing
+title: 2012 Fellows
+sidenav: true
+banner: true
+pagination:
+  enabled: true
+  collection: fellows
+  sort_field: 'title'
+  tag: 'AI_Machine_Learning'
+---
+
+{% include_cached fellow-list.html fellows=paginator.posts %}

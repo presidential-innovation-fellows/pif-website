@@ -8,7 +8,7 @@ agency: []
 hometown: San Francisco, CA
 region: west
 bio_short: USAID Advisor and EIR
-tags: ['west', '2013']
+tags: ['west', '2013', 'Venture_Capital_Private_Equity']
 skills: ['Venture Capital/Private Equity']
 ---
 

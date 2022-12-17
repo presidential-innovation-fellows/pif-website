@@ -8,7 +8,7 @@ agency: ["DOD"]
 hometown: Washington, DC
 region: east
 bio_short: Entrepreneur, warrior, diplomat, and leader that believes service to ones nation is the highest calling.
-tags: ['east', '2021']
+tags: ['east', '2021', 'Venture_Capital_Private_Equity', 'Change_Management']
 skills: ['Change Management', 'Venture Capital']
 ---
 CAPT C. Colin Supko is a native of Gardnerville, Nevada. He holds a Bachelor of Science in Economics from the United States Naval Academy (USNA), a Master of Business Management from the Stanford Graduate School of Business, a Master of Global Business Leadership from the University of San Diego, and a Master of National Security and Cyber Policy from the National Defense University’s College of Information and Cyberspace.

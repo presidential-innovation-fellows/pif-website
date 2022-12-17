@@ -8,7 +8,7 @@ agency: []
 hometown: Seattle, WA
 region: west
 bio_short: Technologist, Change Agent
-tags: ['west', '2014']
+tags: ['west', '2014', 'Data_Science_And_Analytics', 'Software_And_Cloud_Infrastructure']
 skills: ['Data Science and Analytics', 'Software and Cloud Infrastructure']
 ---
 

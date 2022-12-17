@@ -8,7 +8,7 @@ agency: ["VA"]
 hometown: Austin, TX
 region: south
 bio_short: Researcher and designer for social impact. Organizational strategist and facilitator. Passionate about solving complex challenges and creating more equitable outcomes for communities.
-tags: ['south', '2019']
+tags: ['south', '2019', 'Change_Management', 'Design_And_Experience']
 skills: ['Design and Experience', 'Change Management']
 ---
 

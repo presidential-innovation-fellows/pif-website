@@ -41,7 +41,7 @@
   document.addEventListener('click', function(event) {
     if (!showSearch) return;
 
-    var isClickInside = input.contains(event.target);
+    var isClickInside = input.includes(event.target);
 
     if (!isClickInside) {
       show.style.display = 'block';

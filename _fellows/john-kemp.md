@@ -8,7 +8,7 @@ agency: []
 hometown: Mill River, MA
 region: northeast
 bio_short: Software developer, musician and long-distance runner, who loves a challenge. Expert in security, identity and the web.
-tags: ['northeast', '2013']
+tags: ['northeast', '2013', 'Cybersecurity', 'Software_And_Cloud_Infrastructure']
 skills: ['Cybersecurity', 'Software and Cloud Infrastructure']
 ---
 

@@ -8,7 +8,7 @@ agency: []
 hometown: New York, NY
 region: northeast
 bio_short: Manager of Mobile Analytics at The New York Times, Mechanical Engineering and Entrepreneurship at The University of Pennsylvania.
-tags: ['northeast', '2014']
+tags: ['northeast', '2014', 'Design_And_Experience']
 skills: ['Design and Experience']
 ---
 

@@ -8,7 +8,7 @@ agency: ["EPA"]
 hometown: Washington, DC
 region: east
 bio_short: Technology researcher building AI infused software to improve people’s lives.
-tags: ['east', '2021']
+tags: ['east', '2021', 'AI_Machine_Learning', 'Software_And_Cloud_Infrastructure']
 skills: ['AI/Machine Learning', 'Software and Cloud Infrastructure']
 ---
 Mike Kreisel is a researcher and engineer who is passionate about using technology for the social good. His expertise is in designing, prototyping, and deploying machine learning systems which have an immediate, measurable impact.

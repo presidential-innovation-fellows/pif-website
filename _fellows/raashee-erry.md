@@ -8,7 +8,7 @@ agency: ["FTC"]
 hometown: Falls Church, VA
 region: east
 bio_short: Marketer believing in power of data & technology. Strategist. Advisor. Passionate about audience led, full funnel, performance marketing solutions.
-tags: ['east', '2021']
+tags: ['east', '2021', 'Marketing_And_Communications']
 skills: ['Marketing and Communications']
 ---
 Raashee is a digital media & marketing leader with 16 years of experience, in building brands, driving demand, and generating revenue. She has led digital and cross-channel integrated marketing programs for global brands and organizations ranging across B2C, B2B and public sector.

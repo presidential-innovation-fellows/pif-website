@@ -8,7 +8,7 @@ agency: []
 hometown: San Diego, CA
 region: west
 bio_short: Leader, Entrepreneur, Human-Centered Designer, Operational Designer, Formerly @USArmy @drum10thmtn @173rdAbnBde @82ndABNDiv, Currently CEO, Stephen Matthew Designs, LLC
-tags: ['west', '2018']
+tags: ['west', '2018', 'Marketing_And_Communications', 'Design_And_Experience']
 skills: ['Design and Experience', 'Marketing and Communications']
 ---
 

@@ -8,7 +8,7 @@ agency: []
 hometown: Cleveland, OH
 region: midwest
 bio_short: Dad, husband, co-founder @18F, recovering lawyer, hopelessly loyal Cleveland sports fan.
-tags: ['midwest', '2013']
+tags: ['midwest', '2013', 'Software_And_Cloud_Infrastructure']
 skills: ['Software and Cloud Infrastructure']
 ---
 

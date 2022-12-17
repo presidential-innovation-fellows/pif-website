@@ -8,7 +8,7 @@ agency: ["FDA"]
 hometown: Oakland, CA
 region: west
 bio_short: Experience Design Director for Emerging Platforms
-tags: ['west', '2020']
+tags: ['west', '2020', 'Product', 'Design_And_Experience']
 skills: ['Design and Experience', 'Product']
 ---
 

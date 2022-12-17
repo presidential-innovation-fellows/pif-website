@@ -8,7 +8,7 @@ agency: ["DOL"]
 hometown: Indianapolis, IN
 region: midwest
 bio_short: Astrophysicist turned tech innovator advancing equity with inclusive STEM communities.
-tags: ['midwest', '2021']
+tags: ['midwest', '2021', 'Data_Science_And_Analytics', 'Software_And_Cloud_Infrastructure']
 skills: ['Data Science and Analytics', 'Software and Cloud Infrastructure']
 ---
 Maria Patterson is passionate about building diverse and inclusive open data and science communities.  Since earning a PhD in astronomy, she has pioneered the development of large-scale data platforms for professional researchers and citizen scientists alike.  

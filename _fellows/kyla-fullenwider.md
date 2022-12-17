@@ -8,7 +8,7 @@ agency: []
 hometown: Louisville, KY
 region: south
 bio_short:  Entrepreneur, Educator, Social Designer. Faculty SVA/Products of Design MICA/Johns Hopkins/ Design Leadership MBA. Cofounder Imperative.
-tags: ['south', '2016']
+tags: ['south', '2016', 'Product', 'Design_And_Experience']
 skills: ['Design and Experience', 'Product']
 ---
 

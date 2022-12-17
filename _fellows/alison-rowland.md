@@ -8,7 +8,7 @@ agency: []
 hometown: Long Island, NY
 region: northeast
 bio_short: civic hacking & big data. postgresql. musician, linguist, foodie, parent.
-tags: ['northeast', '2013']
+tags: ['northeast', '2013', 'Product', 'Software_And_Cloud_Infrastructure', 'Data_Science_And_Analytics', 'AI_Machine_Learning']
 skills: ['Software and Cloud Infrastructure', 'Data Science and Analytics', 'Product', 'AI/Machine Learning']
 ---
 

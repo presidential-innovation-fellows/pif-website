@@ -8,7 +8,7 @@ agency: ["NIH"]
 hometown: Washington, DC
 region: south
 bio_short: Entrepreneur, business strategist, and public relations professional, shaping public policy debates through strategic communications and creative stakeholder engagement.
-tags: ['south', '2019']
+tags: ['south', '2019', 'Marketing_And_Communications']
 skills: ['Marketing and Communications']
 ---
 

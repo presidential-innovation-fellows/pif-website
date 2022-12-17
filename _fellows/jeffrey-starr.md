@@ -8,7 +8,7 @@ agency: ["DOT"]
 hometown: Alexandria, VA
 region: south
 bio_short: Passion for building order out of chaos, mathematician & methodologist, educator in development of self-aware technologies, quant risk advisory and international security, patent holder and start-up founder and entrepreneur.  Celebrate the art and science of design and solutions, anticipate and own the human consequences.
-tags: ['south', '2018']
+tags: ['south', '2018', 'Cybersecurity', 'AI_Machine_Learning']
 skills: ['AI/Machine Learning', 'Cybersecurity']
 ---
 

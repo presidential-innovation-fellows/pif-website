@@ -8,7 +8,7 @@ agency: []
 hometown: Lathrup Village, MI
 region: midwest
 bio_short: Co-founder of tinyGive. Research at CNA Corp. Berkman Ctr. Affiliate. Computer Engineering, Univ. of Michigan. PhD in ISYE at Georgia Tech.
-tags: ['midwest', '2014']
+tags: ['midwest', '2014', 'Software_And_Cloud_Infrastructure', 'Product', 'Design_And_Experience']
 skills: ['Product', 'Software and Cloud Infrastructure', 'Design and Experience']
 ---
 

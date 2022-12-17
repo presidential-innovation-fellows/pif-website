@@ -8,7 +8,7 @@ agency: []
 hometown: Riverside, RI
 region: northeast
 bio_short: Husband, Father, Designer. Creative Director, Ad Hoc. Round 1 Presidential Innovation Fellow. Formerly Director of Design, NIC.
-tags: ['northeast', '2012']
+tags: ['northeast', '2012', 'Design_And_Experience']
 skills: ['Design and Experience']
 ---
 

@@ -8,7 +8,7 @@ agency: ["ONC","VA"]
 hometown: San Diego, CA
 region: west
 bio_short: 
-tags: ['west', '2012']
+tags: ['west', '2012', 'Product', 'Venture_Capital_Private_Equity']
 skills: ['Venture Capital/Private Equity', 'Product']
 ---
 

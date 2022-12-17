@@ -8,7 +8,7 @@ agency: []
 hometown: Washington, DC
 region: south
 bio_short: CEO @nvite, Mayor of @whitehouse, first Design Manager @twitter, mascot @macawco, founder @canvascowork and @nclud.
-tags: ['south', '2013']
+tags: ['south', '2013', 'Product', 'Venture_Capital_Private_Equity']
 skills: ['Venture Capital/Private Equity', 'Product']
 ---
 

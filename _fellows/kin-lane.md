@@ -8,7 +8,7 @@ agency: []
 hometown: California
 region: west
 bio_short: Kin Lane is the API Evangelist dedicated to researching the business & politics of APIs while telling the stories on apievangelist.com
-tags: ['west', '2013']
+tags: ['west', '2013', 'Software_And_Cloud_Infrastructure']
 skills: ['Software and Cloud Infrastructure']
 ---
 

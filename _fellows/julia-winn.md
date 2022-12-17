@@ -8,7 +8,7 @@ agency: []
 hometown: Seattle, WA
 region: west
 bio_short: Founder & CEO of BetterFit Technologies (TechStars Boston), Product Manager at Ginger.io. Computer Science at Harvard College.
-tags: ['west', '2014']
+tags: ['west', '2014', 'Product', 'Software_And_Cloud_Infrastructure']
 skills: ['Product', 'Software and Cloud Infrastructure']
 ---
 

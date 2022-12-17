@@ -8,7 +8,7 @@ agency: []
 hometown: Pheonix, AZ
 region: west
 bio_short: User interface designer and frontend dev. Code for Tucson, Captain. Background in environmental policy and China, too ^.^ ISTJ
-tags: ['west', '2013']
+tags: ['west', '2013', 'Software_And_Cloud_Infrastructure', 'Design_And_Experience']
 skills: ['Software and Cloud Infrastructure', 'Design and Experience']
 ---
 

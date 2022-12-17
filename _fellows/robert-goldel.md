@@ -8,7 +8,7 @@ agency: ["FDA","VA"]
 hometown: Boston, MA
 region: northeast
 bio_short: Founder, Neuroscientist, Data-Driven Technologist. Two decades of working at the intersection of cognition, behavior, and the brain, solving for human health and performance concerns with industry, non-profit, and government partners across populations.
-tags: ['northeast', '2019']
+tags: ['northeast', '2019', 'Digital_Health', 'Data_Science_And_Analytics']
 skills: ['Digital Health', 'Data Science and Analytics']
 ---
 

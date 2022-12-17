@@ -8,7 +8,7 @@ agency: []
 hometown: Orinda, CA
 region: west
 bio_short: Entreprenur, Hackathon and STEM Aficionado. Formally Global Partners GTM @Microsoft, @Google Technology Policy Fellow
-tags: ['west', '2016']
+tags: ['west', '2016', 'Product', 'Software_And_Cloud_Infrastructure']
 skills: ['Product', 'Software and Cloud Infrastructure']
 ---
 

@@ -8,7 +8,7 @@ agency: []
 hometown: Oakland, CA
 region: west
 bio_short: Founder of TBJ Investments, LLC. Entrepreneur and Investor in Data/Analytics. BS/MBA from MIT, M.S. from Georgia State.
-tags: ['west', '2014']
+tags: ['west', '2014', 'Product', 'Venture_Capital_Private_Equity']
 skills: ['Venture Capital/Private Equity', 'Product']
 ---
 

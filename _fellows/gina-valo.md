@@ -8,7 +8,7 @@ agency: []
 hometown: Washington, DC
 region: south
 bio_short: Customer operations and software delivery executive with expertise in scaling high-growth technology organizations.Experienced leader of people, processes, and organizational change.
-tags: ['south', '2020']
+tags: ['south', '2020', 'Digital_Health', 'Change_Management']
 skills: ['Change Management', 'Digital Health']
 ---
 

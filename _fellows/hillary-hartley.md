@@ -8,7 +8,7 @@ agency: []
 hometown: Baxter Spring, KS
 region: midwest
 bio_short: 2013 PIF and founding team member of 18F. I'm in the Bay Area raising two boys with my lovely wife. Proud Smith alum with Jayhawk blood.
-tags: ['midwest', '2013']
+tags: ['midwest', '2013', 'Marketing_And_Communications', 'Design_And_Experience']
 skills: ['Design and Experience', 'Marketing and Communications']
 ---
 

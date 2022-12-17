@@ -8,7 +8,7 @@ agency: ["VA"]
 hometown: San Francisco, CA
 region: west
 bio_short: Veteran advocate and lifelong learner. Being a part of something greater than myself is what gets me out of bed in the morning.
-tags: ['west', '2020']
+tags: ['west', '2020', 'Product']
 skills: ['Product']
 ---
 

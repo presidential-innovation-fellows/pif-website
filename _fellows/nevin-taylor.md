@@ -8,7 +8,7 @@ agency: ["State","VA"]
 hometown: Washington, DC
 region: south
 bio_short: Strategist, transformational innovator, and catalyst to collaboration. 34 years of leadership in industry, academia, and government. Actualizes the inherent value of data to unleash the power of information.
-tags: ['south', '2019']
+tags: ['south', '2019', 'AI_Machine_Learning']
 skills: ['AI/Machine Learning']
 ---
 

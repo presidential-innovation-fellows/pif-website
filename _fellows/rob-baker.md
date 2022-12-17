@@ -8,7 +8,7 @@ agency: []
 hometown: Cambridge, MA
 region: northeast
 bio_short: Technology for humanitarian response
-tags: ['northeast', '2013']
+tags: ['northeast', '2013', 'Software_And_Cloud_Infrastructure', 'Product']
 skills: ['Software and Cloud Infrastructure', 'Product']
 ---
 

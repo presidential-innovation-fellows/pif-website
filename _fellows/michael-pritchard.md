@@ -8,7 +8,7 @@ agency: ["USAGM"]
 hometown: Reston, VA
 region: south
 bio_short: Tinkerer, developer, executive, investor and entrepreneur building teams and companies.
-tags: ['south', '2019']
+tags: ['south', '2019', 'Product', 'Software_And_Cloud_Infrastructure']
 skills: ['Software and Cloud Infrastructure', 'Product']
 ---
 

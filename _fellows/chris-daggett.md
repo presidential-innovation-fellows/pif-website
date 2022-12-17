@@ -8,7 +8,7 @@ agency: []
 hometown: Hawaii
 region: west
 bio_short: Product strategist with a focus on applied behavioral economics. Board member for the Action Design Network and former VP at ideas42.
-tags: ['west', '2014']
+tags: ['west', '2014', 'Product']
 skills: ['Product']
 ---
 

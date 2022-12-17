@@ -8,7 +8,7 @@ agency: []
 hometown: Arlington, VA
 region: south
 bio_short: "@amida_tech co-founder | ex-Presidential Innovation Fellow | Hacking: open data/healthIT/arduino; Fun: climbing/longboarding"
-tags: ['south', '2012']
+tags: ['south', '2012', 'Software_And_Cloud_Infrastructure']
 skills: ['Software and Cloud Infrastructure']
 ---
 

@@ -8,7 +8,7 @@ agency: []
 hometown: San Francisco, CA
 region: west
 bio_short: Designer, researcher, writer, educator and advocate for social change – in particular large-scale systems change.
-tags: ['west', '2014']
+tags: ['west', '2014', 'Design_And_Experience']
 skills: ['Design and Experience']
 ---
 

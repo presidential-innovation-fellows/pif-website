@@ -8,7 +8,7 @@ agency: []
 hometown: Los Angeles, CA
 region: west
 bio_short: Product Lead and Developer at 18F, Formerly a Presidential Innovation Fellow at the Food and Drug Administration and NASA's Open Data lead.
-tags: ['west', '2013']
+tags: ['west', '2013', 'Software_And_Cloud_Infrastructure', 'Design_And_Experience']
 skills: ['Software and Cloud Infrastructure', 'Design and Experience']
 ---
 

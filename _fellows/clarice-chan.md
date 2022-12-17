@@ -8,7 +8,7 @@ agency: ["VA"]
 hometown: Seattle, WA
 region: west
 bio_short: Social impact technologist applying user-centered design to solve human-centered problems at scale.
-tags: ['west', '2019']
+tags: ['west', '2019', 'Design_And_Experience', 'Product']
 skills: ['Product', 'Design and Experience']
 ---
 

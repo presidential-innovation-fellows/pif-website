@@ -8,7 +8,7 @@ agency: []
 hometown: Boston, MA
 region: northeast
 bio_short: Former White House PIF and USDSer. Director of Innovation R&D at Boston Children’s Hospital, Founder at 1upHealth, and Senior Advisor at Harvard Medical School.
-tags: ['northeast', '2014']
+tags: ['northeast', '2014', 'Digital_Health', 'Software_And_Cloud_Infrastructure']
 skills: ['Digital Health', 'Software and Cloud Infrastructure']
 ---
 

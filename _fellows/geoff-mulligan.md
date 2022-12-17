@@ -8,7 +8,7 @@ agency: []
 hometown: Colorado
 region: west
 bio_short: Helped design the ARPAnet, IPv6 and created 6lowpan and the embedded Internet. Chairman of the IPSO Alliance. US Rep on Smart Cities.
-tags: ['west', '2013']
+tags: ['west', '2013', 'Cybersecurity', 'Product']
 skills: ['Cybersecurity', 'Product']
 ---
 

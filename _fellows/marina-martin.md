@@ -8,7 +8,7 @@ agency: []
 hometown: Connecticut
 region: northeast
 bio_short: Chief Technology Officer of U.S. Department of Veterans Affairs. Author, Business Efficiency for Dummies. Dry erase aficionado.
-tags: ['northeast', '2012']
+tags: ['northeast', '2012', 'Product', 'Software_And_Cloud_Infrastructure']
 skills: ['Software and Cloud Infrastructure', 'Product']
 ---
 

@@ -8,7 +8,7 @@ agency: []
 hometown: California
 region: west
 bio_short: Chief Data Officer for @CommerceGov. Veteran of @USNavy, CleanTech, @Energy, @Google and @Socrata. Proud husband and father. 
-tags: ['west', '2012']
+tags: ['west', '2012', 'Data_Science_And_Analytics']
 skills: ['Data Science and Analytics']
 ---
 

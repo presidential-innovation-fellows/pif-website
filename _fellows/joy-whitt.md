@@ -8,7 +8,7 @@ agency: ["VA","DOJ"]
 hometown: Washington, DC
 region: south
 bio_short: Developer, data analyst, and tech inclusion leader. Over 13 years of civic engagement and public service experience.
-tags: ['south', '2019']
+tags: ['south', '2019', 'Software_And_Cloud_Infrastructure', 'Data_Science_And_Analytics']
 skills: ['Data Science and Analytics', 'Software and Cloud Infrastructure']
 ---
 

@@ -3,6 +3,12 @@
 # Reference this data file in 'datafile' in the Front Matter and _layouts/list.html renders it
 # This is simple, hopefully provides you with a good enough example to make changes as needed
 
+- name: CDC
+  fullname: Centers for Disease Control and Prevention
+  url: https://www.cdc.gov
+  description:
+
+
 - name: CMS
   fullname: Centers for Medicare & Medicaid Services
   url: http://www.cms.gov
@@ -11,6 +17,11 @@
 - name: ED
   fullname: Department of Education
   url: http://www.ed.gov
+  description:
+
+- name: EOP
+  fullname: Executive Office of the President
+  url: https://www.whitehouse.gov/administration/executive-office-of-the-president/
   description:
 
 - name: DHS
@@ -141,6 +152,11 @@
   fullname: Office of the Director of National Intelligence
   url: https://www.dni.gov
   description:
+  
+- name: OMB
+  fullname: Office of Management and Budget
+  url: https://www.whitehouse.gov/omb/
+  description:
 
 - name: OSTP
   fullname: White House Office of Science and Technology, Policy
@@ -206,3 +222,5 @@
   fullname: U.S. Agency for Global Media
   url: https://www.usagm.gov
   description:
+
+  

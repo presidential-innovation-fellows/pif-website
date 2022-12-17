@@ -8,7 +8,7 @@ agency: ["NARA"]
 hometown: Washington, DC
 region: south
 bio_short: Entrepreneur, developer, systems thinker. Founder of INTRIDEA, Socialspring, Scalr, DCRUG. CompSci at Loyola MD, Systems Engineering at UVA.
-tags: ['south', '2014']
+tags: ['south', '2014', 'Product', 'Software_And_Cloud_Infrastructure']
 skills: ['Product', 'Software and Cloud Infrastructure']
 ---
 

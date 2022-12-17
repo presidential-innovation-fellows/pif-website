@@ -8,7 +8,7 @@ agency: []
 hometown: Fairfield, CT
 region: northeast
 bio_short: Alan co-founded Weather Underground. He brings his expertise in CS, weather and consumer product development to the NOAA as a PIF.
-tags: ['northeast', '2014']
+tags: ['northeast', '2014', 'Product', 'Software_And_Cloud_Infrastructure']
 skills: ['Software and Cloud Infrastructure', 'Product']
 ---
 

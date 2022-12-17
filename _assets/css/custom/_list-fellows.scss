@@ -1,9 +1,25 @@
 .list-fellows {
-  min-height: 100vh;
+  //min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: left;
 }
+
+
 
 .fellow-card {
   @include u-padding(2);
+  @include u-margin(2);
+  min-width: 180px;
+  max-width: 200px;
+  
+  // <tablet
+  @include at-media-max("tablet") {
+    @include u-margin-top(1);
+    @include u-margin-x(1);
+    max-width: 100%;
+}
   a {
     border: none;
     text-decoration: none;
@@ -16,7 +32,7 @@
     .body-intro--bold {
       color: color('blue-warm-50v');
       @include u-font('serif', 9); // 22 px -- h2 sizing overrides the typography.scss size declaration
-      margin: 0; // using padding instead of default margin creates a cleaner focus outline 
+      margin: 0; // using padding instead of default margin creates a cleaner focus outline
       @include u-padding-top(2.5);
       @include u-padding-bottom(1.5);
     }
@@ -38,12 +54,62 @@
     }
   }
 }
+// .fellow-card--specialty {
+//   font-family: $theme-font-type-serif;
+//   font-style: italic;
+//   color: #162E51;
+//   margin-top: 0;
+//   @include u-margin-bottom(0.5);
+// }
 .fellow-card--specialty {
   font-family: $theme-font-type-serif;
-  font-style: italic;
-  color: #162E51;
-  margin-top: 0;
   @include u-margin-bottom(0.5);
+  ul {
+    @include u-padding(0);
+    list-style: none;
+    li {
+      @include u-margin-bottom(1.5);
+      span {
+        @include u-font('sans', 1);
+        @include u-padding(1);
+        @include u-bg('red-cool-10v');
+        border-radius: 5px;
+        &.Venture_Capital_Private_Equity {
+          @include u-bg('blue-cool-5v');
+        }
+        &.AI_Machine_Learning {
+          @include u-bg('blue-cool-5v');
+        }
+        &.Software_And_Cloud_Infrastructure {
+          @include u-bg('orange-10');
+        }
+        &.Product {
+          @include u-bg('blue-10v');
+        }
+        &.Cybersecurity {
+          @include u-bg('green-cool-10');
+        }
+        &.Digital_Health {
+          @include u-bg('yellow-5');
+        }
+        &.Marketing_And_Communications {
+          @include u-bg('gray-cool-10');
+        }
+        &.Strategy_And_Growth {
+          @include u-bg('mint-5v');
+        }
+        &.Change_Management {
+          @include u-bg('red-cool-10v');
+        }
+        &.Design_And_Experience {
+          @include u-bg('indigo-10v');
+        }
+        &.Data_Science_And_Analytics {
+          @include u-bg('magenta-10v');
+        }
+      }
+    }
+  }
 }
 
 .fellow-card--fellow-year {
@@ -69,7 +135,7 @@
 
 
 
-.fellow-card--linkedin, 
+.fellow-card--linkedin,
 .fellow-card--twitter {
   padding-right: 0.5rem;
   color: transparent; // this is a terrible hack because Simple Jekyll Search won't allow variables or blank fields in its JSON, so it literally renders empty quotes

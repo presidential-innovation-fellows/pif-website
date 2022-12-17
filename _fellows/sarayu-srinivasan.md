@@ -8,7 +8,7 @@ agency: ["NIST"]
 hometown: New York, NY
 region: northeast
 bio_short: Venture capital investor; consumer and technology executive; founder and CEO. Worked at KAARGO, University of Edinburgh, Intel Capital, Pepsi, Harvard Business School.
-tags: ['northeast', '2019']
+tags: ['northeast', '2019', 'Venture_Capital_Private_Equity', 'Marketing_And_Communications']
 skills: ['Venture Capital/Private Equity', 'Marketing and Communications']
 ---
 

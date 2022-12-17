@@ -8,7 +8,7 @@ agency: ["GSA"]
 hometown: Chicago, IL
 region: midwest
 bio_short: Organizing for innovation. Strategy for nascent markets. Service design and operational pilots. Coach. I help teams do the work to get their ideas funded.
-tags: ['midwest', '2020']
+tags: ['midwest', '2020', 'Design_And_Experience']
 skills: ['Design and Experience']
 ---
 

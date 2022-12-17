@@ -8,7 +8,7 @@ agency: []
 hometown: Palo Alto, CA
 region: west
 bio_short: Open data and digitization @ Smithsonian. Founder of Inventively. Executive Strategy, Policy, Product Management, Implementation, Advocacy.
-tags: ['west', '2013']
+tags: ['west', '2013', 'Product', 'Software_And_Cloud_Infrastructure']
 skills: ['Product', 'Software and Cloud Infrastructure']
 ---
 

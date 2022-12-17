@@ -8,7 +8,7 @@ agency: []
 hometown: Pittsburgh, PA
 region: northeast
 bio_short: Improving lives through creating and integrating AI & Robotics. Engineering Trust. Fmr CS prof. @CarnegieMellon @Stanford @UWash. Fmr. VC. 6xEntrepreneur.
-tags: ['northeast', '2016']
+tags: ['northeast', '2016', 'Product', 'AI_Machine_Learning', 'Venture_Capital_Private_Equity']
 skills: ['AI/Machine Learning', 'Venture Capital/Private Equity', 'Product']
 ---
 

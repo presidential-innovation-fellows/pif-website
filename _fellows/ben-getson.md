@@ -8,7 +8,7 @@ agency: []
 hometown: Washington, DC
 region: south
 bio_short: Product Management at LivingSocial. Former Software Developer (but constant hobbyist). Startup Mentor at 1776. CS/Information Science, Duke.
-tags: ['south', '2014']
+tags: ['south', '2014', 'Product']
 skills: ['Product']
 ---
 

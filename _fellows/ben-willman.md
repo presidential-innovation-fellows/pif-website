@@ -8,7 +8,7 @@ agency: []
 hometown: Washington, DC
 region: south
 bio_short: Co-founder of UstreamIt, ClientHat, RhythmData. Product Manager, Design Strategist, Technologist. Lean Startup mentor and coach
-tags: ['south', '2013']
+tags: ['south', '2013', 'Software_And_Cloud_Infrastructure']
 skills: ['Software and Cloud Infrastructure']
 ---
 

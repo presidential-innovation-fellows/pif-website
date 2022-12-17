@@ -8,7 +8,7 @@ agency: ["VA"]
 hometown: San Francisco, CA
 region: west
 bio_short: Product leader and community builder, creating social impact through organizational transformation and human-centered design.
-tags: ['west', '2020']
+tags: ['west', '2020', 'Product', 'Design_And_Experience']
 skills: ['Product', 'Design and Experience']
 ---
 

@@ -8,7 +8,7 @@ agency: ["State"]
 hometown: Arlington, VA
 region: east
 bio_short: Quantitative social scientist, statistician, data scientist for social good.
-tags: ['east', '2021']
+tags: ['east', '2021', 'AI_Machine_Learning', 'Data_Science_And_Analytics']
 skills: ['Data Science and Analytics', 'AI/Machine Learning']
 ---
 Nathen is a quantitative social scientist and data scientist passionate about leveraging statistics to advance society’s well-being (“data science for social good”). For most of his career, Nathen has consulted for federal clients including the F-35 Joint Program Office and the US Army Corps of Engineers Cold Regions Research and Engineering Laboratory; he has also worked as a lead data analyst at POLITICO, a political news organization. In his career, Nathen has worn many hats- statistician, programmer, visualization developer, and project manager.

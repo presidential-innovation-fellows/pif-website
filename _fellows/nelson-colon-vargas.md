@@ -8,7 +8,7 @@ agency: ["VA"]
 hometown: Washington, DC
 region: south
 bio_short: Mathematician, data scientist, and educator with 10 years of experience in analytics ranging from academia, to startups, and Fortune 100 companies.
-tags: ['south', '2019']
+tags: ['south', '2019', 'AI_Machine_Learning', 'Data_Science_And_Analytics']
 skills: ['AI/Machine Learning', 'Data Science and Analytics']
 ---
 

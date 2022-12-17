@@ -8,7 +8,7 @@ agency: ["NASA"]
 hometown: Washington, DC
 region: south
 bio_short: PhD candidate at UC Berkeley; former Chief Data Scientist at World Resources Institute; environmental economics, mostly in clojure & python
-tags: ['south', '2014']
+tags: ['south', '2014', 'Data_Science_And_Analytics']
 skills: ['Data Science and Analytics']
 ---
 

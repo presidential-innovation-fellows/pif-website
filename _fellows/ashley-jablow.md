@@ -8,7 +8,7 @@ agency: []
 hometown: Palo Alto, CA
 region: west
 bio_short: Formerly OpenIDEO / IDEO. Open innovation, design thinking, social impact, leadership. MBA, Boston University + BA, University of Michigan.
-tags: ['west', '2014']
+tags: ['west', '2014', 'Product', 'Change_Management', 'Marketing_And_Communications']
 skills: ['Marketing and Communications', 'Product', 'Change Management']
 ---
 

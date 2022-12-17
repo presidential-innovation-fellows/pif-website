@@ -8,7 +8,7 @@ agency: ["GSA"]
 hometown: Alpharetta, GA
 region: east
 bio_short: Data Science/AI expert, innovator and entrepreneur with extensive cross-industry experience.
-tags: ['east', '2021']
+tags: ['east', '2021', 'Data_Science_And_Analytics', 'AI_Machine_Learning']
 skills: ['Data Science and Analytics', 'AI/Machine Learning']
 ---
 Dr. Payman Sadegh is an executive with over 20 years of experience in leading applications of advanced analytics, data science, machine learning and AI across multiple industries including financial services, retail, Internet, healthcare, telecom, and automotive.  

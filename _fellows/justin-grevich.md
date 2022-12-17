@@ -8,7 +8,7 @@ agency: []
 hometown: Washington, DC
 region: south
 bio_short: Justin dabbles in infosec, software, and systems engineering. He thrives to improve the efficiency and reliability in digital systems.
-tags: ['south', '2013']
+tags: ['south', '2013', 'Software_And_Cloud_Infrastructure']
 skills: ['Software and Cloud Infrastructure']
 ---
 

@@ -8,7 +8,7 @@ agency: []
 hometown: Plainview, NY
 region: northeast
 bio_short: Educational Technologist. Founder of @eduTecher, @eduClipper, @WeLearnedItApp. @EdcampUSA Board Member. Co-Founder of 2 Amazing Boys.
-tags: ['northeast', '2016']
+tags: ['northeast', '2016', 'Product', 'Design_And_Experience']
 skills: ['Product', 'Design and Experience']
 ---
 

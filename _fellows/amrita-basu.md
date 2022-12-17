@@ -8,7 +8,7 @@ agency: []
 hometown: San Francisco, CA
 region: west
 bio_short: Genomicist, computational biologist; strategist; lead of high-throughput genomics platforms including big data analytics. Ph.D. from Rockefeller University.
-tags: ['west', '2016']
+tags: ['west', '2016', 'Software_And_Cloud_Infrastructure', 'Data_Science_And_Analytics']
 skills: ['Software and Cloud Infrastructure', 'Data Science and Analytics']
 ---
 

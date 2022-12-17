@@ -8,7 +8,7 @@ agency: []
 hometown: Washington, DC
 region: south
 bio_short: Digital strategist, developer and the co-founder of Spinnakr, a platform for making big data accessible and actionable.
-tags: ['south', '2015']
+tags: ['south', '2015', 'Product', 'Software_And_Cloud_Infrastructure', 'Data_Science_And_Analytics']
 skills: ['Software and Cloud Infrastructure', 'Product', 'Data Science and Analytics']
 ---
 

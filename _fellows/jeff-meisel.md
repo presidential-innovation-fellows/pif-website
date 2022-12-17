@@ -8,7 +8,7 @@ agency: []
 hometown: Lakin, KS
 region: midwest
 bio_short: APIs, Smart Cities, STEM, DC Startup Weekend Winner, NI Dev Relations and Product, 30+ articles, Chungaboo Founder, K-State EECE, UT McCombs
-tags: ['midwest', '2014']
+tags: ['midwest', '2014', 'Product']
 skills: ['Product']
 ---
 

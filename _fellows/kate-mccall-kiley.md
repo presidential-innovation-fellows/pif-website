@@ -8,7 +8,7 @@ agency: []
 hometown: Washington, DC
 region: south
 bio_short: Design Strategist and aspiring empath at the intersection of design, business, tech, & social innovation. MICA. Johns Hopkins. College of Wooster.
-tags: ['south', '2015']
+tags: ['south', '2015', 'Design_And_Experience']
 skills: ['Design and Experience']
 ---
 
