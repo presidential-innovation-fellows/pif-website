@@ -1,12 +1,12 @@
 ---
-id: nasa-mapping-digital-infrastructure
-agency: "National Aeronautics and Space Administration"
+id: nasa-madi
+agency: "NASA"
 agency_abbrev: "NASA"
 agency_logo: "NASA.png"
 title: "Mapping Digital Infrastructure and AI (MADI)"
 summary: "Helping the Convergent Aeronautics Solutions project leverage cloud automation and A.I. to better identify transformational solutions to wicked problems facing humanity."
-project_challenge: "How might CAS and NASA use modern NLP and cloud automation to ingest large volumes of unstructure data and understand connections between emerging trends, needs, and technical capabilities across the world?
-partner_description: "The National Aeronautics and Space Administration (NASA) is an independent agency responsible for the civil space program, aeronautics research, and space research.  The Convergent Aeronautics Solutions (CAS) project investigates and invests in "wicked problems" and potential solutions that might have transformational impacts on humanity and the environment through the lens of aviation and aerospace research."
+project_challenge: "How might CAS and NASA use modern NLP and cloud automation to ingest large volumes of unstructure data and understand connections between emerging trends, needs, and technical capabilities across the world?"
+partner_description: "The National Aeronautics and Space Administration (NASA) is an independent agency responsible for the civil space program, aeronautics research, and space research.  The Convergent Aeronautics Solutions (CAS) project investigates and invests in \"wicked problems\" and potential solutions that might have transformational impacts on humanity and the environment through the lens of aviation and aerospace research."
 project_link: https://nasa.gov
 status: ["current"]
 ---
