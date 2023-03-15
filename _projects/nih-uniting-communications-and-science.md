@@ -16,7 +16,7 @@ order: 1
 <p>Presidential Innovation Fellows <a href='https://presidentialinnovationfellows.gov/fellows/georgeta-dragoiu/'>Georgeta Dragoiu</a> and <a href='https://presidentialinnovationfellows.gov/fellows/adele-luta/'>Adele Luta</a> pooled their unique expertise as strategic communications and scientific leaders to support the <em>All of Us</em> Research Program in enrolling participants and activating a research community to help usher in a new era of precision medicine. Working hand-in-hand to meet these challenges, Georgeta launched communications campaigns to recruit a more diverse cohort of participants, and Adele focused on engaging an equally diverse community of researchers to use this rich national resource to drive health discoveries.</p>
 
 <div class="usa-image-block">
-  {% asset "nih-uniting-communications-and-science.jpg" class="" title="Adele Luta (left) and Georgeta Dragoiu (right) stand together smiling. A crowd of people are sitting in the background. Adele wears a blue dress and Georgeta wears a black dress." %}
+  {% asset "nih-uniting-communications-and-science.jpg" class="" title="Adele Luta (left) and Georgeta Dragoiu (right) stand together smiling. A crowd of people are sitting in the background. Adele wears a blue dress and Georgeta wears a black dress." alt="Adele Luta (left) and Georgeta Dragoiu (right) stand together smiling. A crowd of people are sitting in the background. Adele wears a blue dress and Georgeta wears a black dress." %}
   <div class="usa-image-text-block">
     <p class="usa-image-text">Adele Luta (left) and Georgeta Dragoiu (right) at the PIF orientation ceremony.</p>
   </div>
@@ -25,7 +25,7 @@ order: 1
 <p>While Georgeta worked with the Chief Communications Officer to develop data-driven national and regional campaign strategies to enroll the public, Adele worked with the Chief Medical and Scientific Officer (CMSO) to create the tools necessary for researchers to study <em>All of Us</em>’ participant data. With so much rich and diverse data, <em>All of Us</em> has the power to look for answers to some of our hardest health questions. The resulting marketing strategy and researcher data platform together enable <em>All of Us</em> to gather, study and return health information creating value for participants, researchers, and the larger scientific community.</p>
 
 <div class="usa-image-block">
-  {% asset "nih-aou-trailer-adele-luta.jpg" class="" title="Adele is smiling as she stands outside a trailer that is covered in posters featuring many different people. On the trailer, a sign reads, <em>All of Us</em> Research Program." %}
+  {% asset "nih-aou-trailer-adele-luta.jpg" class="" title="Adele is smiling as she stands outside a trailer that is covered in posters featuring many different people. On the trailer, a sign reads, <em>All of Us</em> Research Program." alt="Adele is smiling as she stands outside a trailer that is covered in posters featuring many different people. On the trailer, a sign reads, All of Us Research Program." %}
   <div class="usa-image-text-block">
     <p class="usa-image-text">Adele Luta stands outside the the NIH <em>All of Us</em> Research Program trailer.</p>
   </div>
