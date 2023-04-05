@@ -8,8 +8,8 @@ agency: ["MBDA"]
 hometown: 
 region: 
 bio_short: Designing and building community-centered platforms to advance equity.
-tags: ['2023']
-skills: []
+tags: ['2023', 'east', 'Design_And_Experience']
+skills: ['Design and Experience']
 ---
 
 Jacob Barss-Bailey is a leader in designing and building innovative, community-centered digital products and building the diverse design teams who deliver them. His 20 years of experience encompasses leading product & marketing design for Turo, Nextdoor, Nokia, and UNICEF’s child protection management platform.

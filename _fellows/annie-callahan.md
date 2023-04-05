@@ -8,8 +8,8 @@ agency: ["EOP"]
 hometown: 
 region: 
 bio_short: Strategy and innovation leader driven by data and relationships.
-tags: ['2023']
-skills: []
+tags: ['2023', 'east', 'Strategy_And_Growth']
+skills: ['Strategy and Growth']
 ---
 
 Annie Callahan uses data to change organizations and minds. She believes data is a starting point to build relationships and find common ground. Throughout her career, Annie's favorite projects required reimagining what was possible. She's excited to now do this at the Office of Management and Budget.

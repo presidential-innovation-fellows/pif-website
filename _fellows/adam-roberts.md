@@ -8,8 +8,8 @@ agency: ["EOP"]
 hometown: 
 region: 
 bio_short: Technology strategist developing solutions for the greater societal good.
-tags: ['2023']
-skills: []
+tags: ['2023', 'east', 'Strategy_And_Growth']
+skills: ['Strategy and Growth']
 ---
 
 Adam (he/him) is a mission-driven technologist with over 15 years of experience across the public, technology, and education sectors. He specializes in product leadership, digital transformation, and change management.

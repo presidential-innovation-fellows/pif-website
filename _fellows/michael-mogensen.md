@@ -8,8 +8,8 @@ agency: ["MMC"]
 hometown: 
 region: 
 bio_short: Curious big-picture thinker who pushes the edges of the possible to solve tough challenges.
-tags: ['2023']
-skills: []
+tags: ['2023', Design_And_Experience, 'east' ]
+skills: ['Design and Experience']
 ---
 
 Michael Mogensen is a creative leader providing strategic advice to organizations to help them solve complex problems and make better decisions.

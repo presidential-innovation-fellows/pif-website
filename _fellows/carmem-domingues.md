@@ -8,8 +8,8 @@ agency: ["VA"]
 hometown: 
 region: 
 bio_short: Using Data Science and Technology to solve real problems and for social good.
-tags: ['2023']
-skills: []
+tags: ['2023', 'east','AI_Machine_Learning']
+skills: ['AI/Machine Learning']
 ---
 
 A Data Scientist with almost 15 years of experience, Carmem excels at leveraging the tools of data analysis and technology to generate impactful insights to influence strategy, communication, business practices, and decision making, both in the private sector and in the public sphere.

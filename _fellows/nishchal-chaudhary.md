@@ -8,8 +8,8 @@ agency: ["NASA"]
 hometown: 
 region: 
 bio_short: Multidimensional product leader using data and environment-centered design to create better systems.
-tags: ['2023']
-skills: []
+tags: ['2023', 'east', 'Product']
+skills: ['Product']
 ---
 
 Nishchal Chaudhary (he/him) is a product and technology leader designing impactful digital products and services across public, private and non-profit sectors.

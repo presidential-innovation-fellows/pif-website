@@ -8,8 +8,8 @@ agency: ["CDC"]
 hometown: 
 region: 
 bio_short: Engineering leader experienced in building responsible AI and data technologies that put people first.
-tags: ['2023']
-skills: []
+tags: ['2023', 'Data_Science_And_Analytics', 'east']
+skills: ['Data Science and Analytics']
 ---
 
 Nadia Fawaz is an engineering leader in responsible technology, with expertise in AI, ML fairness and data privacy and their application to search and recommender systems. She has experience working with cross-functional teams to deliver technological solutions from concept to market in products used globally by hundreds of millions of people. She has worked in production engineering teams in the Tech Industry in Silicon Valley as well as research teams in industry and academia in collaboration between the U.S., Europe and Asia. 

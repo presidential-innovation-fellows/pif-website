@@ -8,8 +8,8 @@ agency: ["ARPA-H"]
 hometown: 
 region: 
 bio_short: Visionary leader, scientist, humanitarian; shaping future, connecting people with technology. 
-tags: ['2023']
-skills: []
+tags: ['2023', 'east', 'Data_Science_And_Analytics']
+skills: ['Data Science and Analytics']
 ---
 
 Dr. Rupam Sarmah is a visionary leader with twenty-five years of experience working in public and private sectors on data modernization, AI, media, and health research tackling challenges with innovation. Rupam aims to contribute to humanity through equitable and accessible technology solutions.

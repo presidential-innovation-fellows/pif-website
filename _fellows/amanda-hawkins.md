@@ -8,8 +8,8 @@ agency: ["DOD"]
 hometown: 
 region: 
 bio_short: Connect and disrupt with purpose. Making the world better while focusing on people.
-tags: ['2023']
-skills: []
+tags: ['2023', 'east', 'Design_And_Experience' ]
+skills: ['Design and Experience']
 ---
 
 ​​Amanda (she/her) has focused career 2.0 around all things innovation. From leading human-centered design events to conducting user experience research, she has helped organizations globally distill insights into action. She has helped individuals unlock their potential by building innovation skills, creating a culture of innovation in their organization, and developing the leadership skills necessary to lead innovation efforts.

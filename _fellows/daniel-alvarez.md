@@ -8,8 +8,8 @@ agency: []
 hometown: 
 region: 
 bio_short: Passionate about solving problems with data to solve real world problems of public interest.
-tags: ['2023']
-skills: []
+tags: ['2023', 'east', 'Strategy_And_Growth']
+skills: ['Strategy and Growth']
 ---
 
 ​Daniel is an innovator, advocate, technologist and creative pragmatist with an eye for problem-solving. He believes that data science can be used for social benefit to discover, diagnose and design responses to real-world problems of public interest. 

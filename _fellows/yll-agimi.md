@@ -8,8 +8,8 @@ agency: ["DOD"]
 hometown: 
 region: 
 bio_short: Data Scientist helping health systems use data to make smarter delivery of care decisions and leverage innovation to deliver better care.
-tags: ['2023']
-skills: []
+tags: ['2023', 'east', 'Strategy_And_Growth']
+skills: ['Strategy and Growth']
 ---
 
 Yll Agimi (he/him) is a Data Scientist covering the domains of machine leaning, statistics and healthcare. Most recently, Yll worked at General Dynamics Information Technology as a Senior Data Scientist, leading a team building advanced data solutions for clients, including the Military Health System (MHS), the health system supporting some 10 million active-duty personnel, military retirees and their families. Yll partnered with senior stakeholders to scope, develop and deliver new innovative approaches to incorporating data science into aspects of healthcare operations and clinical decision making. He oversaw the development and use of algorithms and statistical predictive models to evaluate health outcomes. He led teams in determining analytical approaches and modeling techniques. Supported clients in extracting insights out of structured and unstructured data to solve complex business problems by relying on statistical techniques and broad knowledge of healthcare systems. 

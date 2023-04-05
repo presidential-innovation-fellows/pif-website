@@ -8,8 +8,8 @@ agency: ["CDC"]
 hometown: 
 region: 
 bio_short: Curious Learner, Passionate about solving technology challenges, Data-driven.
-tags: ['2023']
-skills: []
+tags: ['2023', 'east', 'Software_And_Cloud_Infrastructure']
+skills: ['Software and Cloud Infrastructure']
 ---
 
 Sailaja is passionate about working in technology. Her vast experience established her as a problem solver, team builder and program owner with a commitment to delivering solutions in a timely manner. She is a technology leader with data-driven approach. She led cross-functional teams across the globe and successfully solved complex challenges with reliable solutions. She has strong domain knowledge in Media, Logistics, and Research industries.

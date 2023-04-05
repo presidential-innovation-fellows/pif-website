@@ -8,8 +8,8 @@ agency: ["GSA"]
 hometown: 
 region: 
 bio_short: Catapulting ideas into initiatives. Designing for Impact. Building for Scale. 
-tags: ['2023']
-skills: []
+tags: ['2023', 'east', 'Design_And_Experience']
+skills: ['Design and Experience']
 ---
 
 From organizing Google’s first disability-focused hackathon, to expanding grant access for young artists across the Front Range, to amplifying the impact of 300+ grassroots nonprofits, Eboni J.D. Freeman is dedicated to the underestimated. 
