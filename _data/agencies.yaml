@@ -184,7 +184,7 @@
   description:
 
 - name: Treasury
-  fullname: Department of Treasury
+  fullname: Department of the Treasury
   url: http://www.treasury.gov
   description:
 
@@ -236,4 +236,9 @@
 - name: MBDA
   fullname: Minority Business Development Agency
   url: https://www.mbda.gov/
-  description:
+  description: 
+
+- name: USSOCOM
+  fullname: United States Special Operations Command
+  url: https://www.socom.mil/
+  description: 
