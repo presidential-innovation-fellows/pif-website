@@ -12,5 +12,5 @@ tags: ['2023', 'eastt', 'Strategy_And_Growth']
 skills: ['Strategy and Growth']
 ---
 
-Dr. Rajni Aneja, MD, MBA, CPE is a senior physician executive at the intersection of medicine/business and technology with subject matter expertise in strategy/innovation/population health/digital health +data along with business development, ranging for various stakeholders like payors/providers/pharma/consumer digital/academia and start up organizations.
+Dr. Rajni Aneja, MD, MBA, CPE is a senior physician executive at the intersection of medicine/business and technology with subject matter expertise in strategy/innovation/population health/digital health and data along with business development, ranging for various stakeholders like payors/providers/pharma/consumer digital/academia and start up organizations.
 She also serves on the board for many organizations and is a connection science fellow at MIT.
