@@ -7,7 +7,7 @@ project: []
 agency: ["EOP"]
 hometown: 
 region: 
-bio_short: Using Data Science and Technology to solve real problems and for social good.
+bio_short: Thinking strategically to build impactful digital products that deliver tangible value for users.
 tags: ['2023', 'east', 'Product']
 skills: ['Product']
 ---
