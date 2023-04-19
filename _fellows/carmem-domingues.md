@@ -1,7 +1,7 @@
 ---
 id: carmem-domingues
 title: Carmem Domingues
-image: carmem-domingues-headshot.jpg
+image: carmem-domingues-headshot.jpeg
 fellow_year: 2023
 project: []
 agency: ["VA"]
