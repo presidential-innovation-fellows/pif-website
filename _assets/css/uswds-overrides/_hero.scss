@@ -80,7 +80,7 @@
 }
 .apply .usa-hero {
   @include hero-short;
-  background-image: url(asset_path("banner-capitol-bw.jpg"));
+  background-image: url(asset_path("banner-apply-bw.jpeg"));
 }
 .usa-hero.project {
   @include hero-short;
