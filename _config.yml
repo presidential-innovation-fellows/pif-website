@@ -24,6 +24,9 @@ description: "The Presidential Innovation Fellows program brings the principles,
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://presidentialinnovationfellows.gov" # the base hostname & protocol for your site, e.g. http://example.com
 
+apply_now: false 
+application_updates: true 
+
 # Twitter handle. Only the handle, not the URL.
 twitter: pifgov
 
@@ -38,13 +41,13 @@ dap_subagency: PIF
 primary_navigation:
   - name: Home
     url: /
-  - name: Who We Are
+  - name: About Us
     url: /about/
-  - name: Fellows
+  - name: Meet the Fellows
     url: /fellows/
   - name: Projects
     url: /projects/
-  - name: Agencies
+  - name: For Agencies
     url: /agencies/
 
 secondary_navigation:
