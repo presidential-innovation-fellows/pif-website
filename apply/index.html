@@ -18,21 +18,57 @@ description_apply: "Want to use your tech, design or entrepreneurial skills for 
 
 <section class="grid-container usa-section page-header">
   <div class="grid-row">
-    <div class="tablet:grid-col-8">
       {% if site.apply_now and site.application_updates == false %}
-      <!-- Application Open -->
-      <h1>Apply to Be a 2024 Fellow</h1>
-      <p class="body-intro">Thanks for your interest in becoming a Presidential Innovation Fellow (PIF)! We know the federal hiring process can be very different than other sectors. To help, we’re providing everything you need before and during the PIF application process.</p>
-      <!-- <p><a class="usa-button usa-button--big" href="https://docs.google.com/forms/d/e/1FAIpQLSfvcTc_cxzY3J8tcbkqXiXNogE6JJqbIh9esVuCOofolmKE9w/viewform?usp=sf_link" target="_blank">Apply to PIF here</a></p> -->
-      <p><a class="usa-button usa-button--big" href="https://docs.google.com/forms/d/e/1FAIpQLSfvcTc_cxzY3J8tcbkqXiXNogE6JJqbIh9esVuCOofolmKE9w/viewform?usp=sf_link" target="_blank">Apply to PIF here</a></p>
-      
+      <div class="tablet:grid-col-8">
+        <!-- Application Open -->
+        <h1>Apply to Be a 2024 Fellow</h1>
+        <p class="body-intro">Thanks for your interest in becoming a Presidential Innovation Fellow (PIF)! We know the federal hiring process can be very different than other sectors. To help, we’re providing everything you need before and during the PIF application process.</p>
+        <!-- <p><a class="usa-button usa-button--big" href="https://docs.google.com/forms/d/e/1FAIpQLSfvcTc_cxzY3J8tcbkqXiXNogE6JJqbIh9esVuCOofolmKE9w/viewform?usp=sf_link" target="_blank">Apply to PIF here</a></p> -->
+        <p><a class="usa-button usa-button--big" href="https://docs.google.com/forms/d/e/1FAIpQLSfvcTc_cxzY3J8tcbkqXiXNogE6JJqbIh9esVuCOofolmKE9w/viewform?usp=sf_link" target="_blank">Apply to PIF here</a></p>   
+      </div>
+   
       {% elsif site.apply_now ==false and site.application_updates ==true %}
       <!-- Applications Will Open Soon -->
-      <h1>Apply to Be a 2024 Fellow</h1>
-      <p class="body-intro">Thank you for your interest in becoming a Presidential Innovation Fellow! Applications for the 2024 fellowship class will be opening soon.</p>
-      <p><a class="usa-button usa-button--big" href="https://public.govdelivery.com/accounts/USGSATTS/subscriber/new?topic_id=USGSATTS_70" target="_blank">Sign up for updates</a></p>
+          <div class="desktop:grid-col-7">
+            <h1>Apply to Be a 2024 Fellow</h1>
+            <p class="body-intro">Thank you for your interest in becoming a Presidential Innovation Fellow! Applications for the 2024 fellowship class will be opening soon.</p>
+            <p><a class="usa-button usa-button--big" href="https://public.govdelivery.com/accounts/USGSATTS/subscriber/new?topic_id=USGSATTS_70" target="_blank">Sign up for updates</a></p>  
+          </div>
+         
+          <div class="usa-summary-box desktop:grid-col-5" role="region" aria-labelledby="summary-box-key-information">
+            <div class="usa-summary-box__body">
+              <h3 class="usa-summary-box__heading" id="summary-box-key-information">
+                <span>Register for an Information Session: </span>
+              </h3>
+              <div class="usa-summary-box__text">
+                <ul class="usa-list">
+                  <li>
+                    <a class="usa-summary-box__link" href="https://www.eventbrite.com/e/presidential-innovation-fellows-application-information-session-5823-tickets-622447616577" target="_blank"> Monday, May 8, 2023</a>
+                    <span>&nbsp;3:00 PM ET</span>
+                  </li>
+                  <li>
+                    <a class="usa-summary-box__link" href="https://www.eventbrite.com/e/presidential-innovation-fellows-application-information-session-51723-tickets-622561637617" target="_blank"> Wednesday, May 17, 2023</a>
+                    <span>&nbsp;12:00 PM ET</span>
+                  </li>
+                  <li>
+                    <a class="usa-summary-box__link" href="https://www.eventbrite.com/e/presidential-innovation-fellows-application-information-session-52323-tickets-622698697567" target="_blank"> Tuesday, May 23, 2023</a>
+                    <span>&nbsp;12:30 PM ET</span>
+                  </li>
+                  <li>
+                    <a class="usa-summary-box__link" href="https://www.eventbrite.com/e/622705237127" target="_blank"> Friday, June 9, 2023</a>
+                    <span>&nbsp;12:00 PM ET</span>
+                  </li>
+                  <li>
+                    <a class="usa-summary-box__link" href="https://www.eventbrite.com/e/presidential-innovation-fellows-application-information-session-61523-tickets-622713893017" target="_blank"> Thursday, June 15, 2023</a>
+                    <span>&nbsp;2:00 PM ET</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
       
       {% else %}
+      <div class="tablet:grid-col-8">
       <!-- Application Closed -->
       <h1>Apply to PIF</h1>
        <p class="body-intro">Thanks for your interest in becoming a Presidential Innovation Fellow (PIF)! Applications are currently closed, but we recruit annually and will be opening applications for the 2024 cohort in early 2023.</p>
@@ -244,7 +280,7 @@ description_apply: "Want to use your tech, design or entrepreneurial skills for 
         <h2><span>Get Ready to Apply</span></h2>
       </div>
       <div class="desktop:grid-col-8">
-        <p class="font-body-md"> Be sure to <a href="https://public.govdelivery.com/accounts/USGSATTS/subscriber/new?topic_id=USGSATTS_70" target="_blank">Sign up for updates!</a> We’ll send you an email when the application is available. We’ll also send you emails about information sessions we’ll be holding before the application opens and throughout the application window.</p>
+        <p class="font-body-md"> Be sure to <a href="https://public.govdelivery.com/accounts/USGSATTS/subscriber/new?topic_id=USGSATTS_70" target="_blank">sign up for updates!</a> We’ll send you an email when the application is available.</p>
         <p class="font-body-md">As part of your application, you’ll need to submit a federal-style resume. If you don’t already have one, it can take some time to put together. Here are <a href="https://join.tts.gsa.gov/resume/" target="_blank">tips on writing a federal resume</a> and an <a href="https://handbook.tts.gsa.gov/hiring-staying-or-changing-jobs/resume/" target="_blank">example of what a federal resume might look like</a>.</p>
         <p class="font-body-md">You’ll also be asked to provide a personal statement (no more than 900 characters) on why you want to become a fellow. </p>
         <p class="font-body-md">Links to professional portfolios or profiles may be included and are optional. </p>
@@ -295,7 +331,6 @@ description_apply: "Want to use your tech, design or entrepreneurial skills for 
   </div>
 </section>
 {% endif %}
-
 
 <!-- <section class="section__margin-top-neg">
   <div class="grid-container usa-section usa-prose">
