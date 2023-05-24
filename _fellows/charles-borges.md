@@ -8,7 +8,7 @@ agency: ["CDC"]
 hometown: Washington, DC
 region: east
 bio_short: Enabling Digital Transformation through Collaboration, Creativity, and Communication.
-tags: ['east','2022','Data_Science_And_Analytics']
+tags: ['east','2022','Data_Science_And_Analytics', 'active']
 skills: ['Data Science and Analytics']
 ---
 

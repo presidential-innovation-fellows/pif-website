@@ -8,7 +8,7 @@ agency: ["DOD"]
 hometown: 
 region: 
 bio_short: Connect and disrupt with purpose. Making the world better while focusing on people.
-tags: ['2023', 'east', 'Design_And_Experience' ]
+tags: ['2023', 'east', 'Design_And_Experience', 'active' ]
 skills: ['Design and Experience']
 ---
 

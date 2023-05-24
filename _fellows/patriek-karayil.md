@@ -8,7 +8,7 @@ agency: []
 hometown: 
 region: 
 bio_short: Strategist, Collaborator, Executive-in-Residence, and a supportive leader
-tags: ['2023', 'Strategy_And_Growth']
+tags: ['2023', 'Strategy_And_Growth', 'active']
 skills: ['Strategy and Growth']
 ---
 

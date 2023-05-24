@@ -8,7 +8,7 @@ agency: ["OMB"]
 hometown: Washington, DC
 region: east
 bio_short: Building tech solutions to solve business problems with machine learning.
-tags: ['2022', 'east', 'Data_Science_And_Analytics', 'Product', 'Software_And_Cloud_Infrastructure']
+tags: ['2022', 'east', 'Data_Science_And_Analytics', 'Product', 'Software_And_Cloud_Infrastructure', 'active']
 skills: ['Data Science and Analytics', 'Product', 'Software and Cloud Infrastructure']
 ---
 

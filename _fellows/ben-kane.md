@@ -8,7 +8,7 @@ agency: ["NGA"]
 hometown: 
 region: 
 bio_short: Product leader leveraging data to tell stories, solve problems, and create delightful experiences.
-tags: ['2023', 'east', 'Product']
+tags: ['2023', 'east', 'Product', 'active']
 skills: ['Product']
 ---
 

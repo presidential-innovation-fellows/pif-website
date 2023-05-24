@@ -8,7 +8,7 @@ agency: ["MMC"]
 hometown: 
 region: 
 bio_short: Curious big-picture thinker who pushes the edges of the possible to solve tough challenges.
-tags: ['2023', Design_And_Experience, 'east' ]
+tags: ['2023', Design_And_Experience, 'east', 'active' ]
 skills: ['Design and Experience']
 ---
 

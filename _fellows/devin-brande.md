@@ -8,7 +8,7 @@ agency: ["USSOCOM"]
 hometown: Washington, DC
 region: south
 bio_short: Technologist and innovator developing and delivering next generation solutions for everyday users. Experienced blending policy development with technical execution.
-tags: ['south', '2020', 'Product', 'Software_And_Cloud_Infrastructure']
+tags: ['south', '2020', 'Product', 'Software_And_Cloud_Infrastructure', 'active']
 skills: ['Product', 'Software and Cloud Infrastructure']
 ---
 

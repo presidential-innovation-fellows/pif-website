@@ -8,7 +8,7 @@ agency: ["NASA"]
 hometown: New York, NY
 region: northeast
 bio_short: Thinking creatively; fostering allyship; building it.
-tags: ['northeast','2022','Software_And_Cloud_Infrastructure']
+tags: ['northeast','2022','Software_And_Cloud_Infrastructure', 'active']
 skills: ['Software and Cloud Infrastructure']
 ---
 

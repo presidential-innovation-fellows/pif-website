@@ -8,7 +8,7 @@ agency: ["NASA"]
 hometown: 
 region: 
 bio_short: Multidimensional product leader using data and environment-centered design to create better systems.
-tags: ['2023', 'east', 'Product']
+tags: ['2023', 'east', 'Product', 'active']
 skills: ['Product']
 ---
 

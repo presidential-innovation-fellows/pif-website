@@ -8,7 +8,7 @@ agency: ["ARPA-H"]
 hometown: 
 region: 
 bio_short: Visionary leader, scientist, humanitarian; shaping future, connecting people with technology. 
-tags: ['2023', 'east', 'Data_Science_And_Analytics']
+tags: ['2023', 'east', 'Data_Science_And_Analytics', 'active']
 skills: ['Data Science and Analytics']
 ---
 

@@ -8,7 +8,7 @@ agency: ["EOP"]
 hometown: Washington D.C.
 region: east
 bio_short: Passionate about data science for social and economic advancement.
-tags: ['2022','east','Data_Science_And_Analytics']
+tags: ['2022','east','Data_Science_And_Analytics', 'active']
 skills: ['Data Science and Analytics']
 ---
 

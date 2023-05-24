@@ -8,7 +8,7 @@ agency: ["DOT"]
 hometown: Washington, D.C.
 region: east
 bio_short: Innovation strategist bringing blue sky ideas into realization through change management leadership and effective human and capital resourcing.
-tags: ['east','2022',Change_Management,Strategy_And_Growth]
+tags: ['east','2022',Change_Management,Strategy_And_Growth, 'active']
 skills: ['Change Management','Strategy and Growth']
 ---
 
