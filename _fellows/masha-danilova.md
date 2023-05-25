@@ -11,8 +11,8 @@ bio_short: Analytically-minded thinker and problem solver, passionate about mapp
 tags: ['west', '2021', 'Product', 'Change_Management', 'Innovation', 'Growth']
 skills: ['Product', 'Change Management']
 ---
-Masha is a driven leader and builder with deep industry expertise across scales and functions with the constant through-line of innovation. Bringing with her strategy consulting, business analysis, product design and development, and consumer research experience she came into PIF with the mission of putting skill to action. After her first term as an EIR of the PIF program, Masha recognized the early career tech talent gap in government.
+Masha is a driven leader and builder with deep industry expertise across scales and functions with the constant through-line of innovation. Bringing with her strategy consulting, business analysis, product design and development, and consumer research experience she came into PIF with the mission of putting skill to action. After her first term as an entrepreneur in residence (EIR) of the PIF program, Masha recognized the early career tech talent gap in government.
 
-Masha is now the Co-Founder of the U.S. Digital Corps, a two-year fellowship recruiting early-career technologists to contribute to high-impact efforts across the federal government, launched by the Biden-Harris administration in partnership with various federal agencies and is hosted by the General Services Administration Technology Transformation Services. [[digitalcorps.gsa.gov]](https://digitalcorps.gsa.gov/)
+Masha is now the Co-Founder of the U.S. Digital Corps, a two-year fellowship recruiting early-career technologists to contribute to high-impact efforts across the federal government, launched by the Biden-Harris Administration in partnership with various federal agencies and is hosted by the General Services Administration Technology Transformation Services. [[digitalcorps.gsa.gov]](https://digitalcorps.gsa.gov/)
 
 Masha thanks MIT Sloan, Wayfair, Procter & Gamble, and Purdue for her foundations.
