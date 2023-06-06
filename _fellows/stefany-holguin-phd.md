@@ -8,7 +8,7 @@ agency: ["VA"]
 hometown: Washington, DC
 region: east
 bio_short: Multifaceted materials engineer driving innovative health & biomedical solutions for society.
-tags: ['east','2022','Product','Digital_Health']
+tags: ['east','2022','Product','Digital_Health', 'active']
 skills: ['Product','Digital_Health']
 ---
 

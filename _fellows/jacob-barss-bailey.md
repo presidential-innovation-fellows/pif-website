@@ -8,7 +8,7 @@ agency: ["MBDA"]
 hometown: 
 region: 
 bio_short: Designing and building community-centered platforms to advance equity.
-tags: ['2023', 'east', 'Design_And_Experience']
+tags: ['2023', 'east', 'Design_And_Experience', 'active']
 skills: ['Design and Experience']
 ---
 

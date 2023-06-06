@@ -8,7 +8,7 @@ agency: ["NGA"]
 hometown: Fort Lauderdale, FL
 region: east
 bio_short: Team building, product development, and operations.
-tags: ['east', '2021', 'Product', 'Change_Management']
+tags: ['east', '2021', 'Product', 'Change_Management', 'active']
 skills: ['Product', 'Change Management']
 ---
 Carlos values a decisive, team-first culture built on accountability and collective ownership. His belief in practical solutions and building trust has helped get things done across industries like enterprise, consumer, hardware, and healthcare.

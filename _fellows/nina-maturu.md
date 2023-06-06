@@ -8,7 +8,7 @@ agency: ["ARPA-H"]
 hometown: 
 region: 
 bio_short: Innovation strategist, philosopher, and maker, who leads with the user.
-tags: ['2023', 'east', 'Design_And_Experience']
+tags: ['2023', 'east', 'Design_And_Experience', 'active']
 skills: ['Design and Experience']
 ---
 

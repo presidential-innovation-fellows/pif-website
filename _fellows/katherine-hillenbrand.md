@@ -8,7 +8,7 @@ agency: ["USDA"]
 hometown: 
 region: 
 bio_short: Passionate about using digital tools to help government work better for residents.
-tags: ['2023', 'east', 'Product']
+tags: ['2023', 'east', 'Product', 'active']
 skills: ['Product']
 ---
 

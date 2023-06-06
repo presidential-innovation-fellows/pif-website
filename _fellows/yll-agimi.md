@@ -8,7 +8,7 @@ agency: ["DOD"]
 hometown: 
 region: 
 bio_short: Data Scientist helping health systems use data to make smarter delivery of care decisions and leverage innovation to deliver better care.
-tags: ['2023', 'east', 'Strategy_And_Growth']
+tags: ['2023', 'east', 'Strategy_And_Growth', 'active']
 skills: ['Strategy and Growth']
 ---
 

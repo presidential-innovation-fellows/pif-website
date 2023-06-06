@@ -8,7 +8,7 @@ agency: ["NASA"]
 hometown: Arlington, VA
 region: east
 bio_short: Creative technologist and champion of positive social change through engineering.
-tags: ['east','2022','Data_Science_And_Analytics','Software_And_Cloud_Infrastructure']
+tags: ['east','2022','Data_Science_And_Analytics','Software_And_Cloud_Infrastructure', 'active']
 skills: ['Data Science and Analytics','Software_And_Cloud_Infrastructure']
 ---
 

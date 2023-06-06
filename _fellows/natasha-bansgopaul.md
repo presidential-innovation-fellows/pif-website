@@ -8,7 +8,7 @@ agency: ["NIST"]
 hometown: New York, NY
 region: east
 bio_short: Global FinTech leader with expertise across artificial intelligence, emerging technologies, and inter-agency collaboration.
-tags: ['east', '2021', 'Strategy_And_Growth', 'Venture_Capital_Private_Equity', 'Marketing_And_Communications']
+tags: ['east', '2021', 'Strategy_And_Growth', 'Venture_Capital_Private_Equity', 'Marketing_And_Communications', 'active']
 skills: ['Strategy and Growth', 'Venture Capital/Private Equity', 'Marketing and Communications']
 ---
 Natasha is an Entrepreneur in Residence (EIR) at the National Institute of Standards and Technology (NIST) where she leads A.I. Transparency initiatives as a PIF. In this role, she leads the development of the AI Transparency playbook as a part of NIST's AI Risk Management Framework (RMF), which was released in 2023. At NIST, she also supports the National Artificial Intelligence Advisory Committee's (NAIAC) which is tasked with advising the President and the National AI Initiative Office on topics related to the National AI Initiative.

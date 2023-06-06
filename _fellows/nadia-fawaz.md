@@ -8,7 +8,7 @@ agency: ["CDC"]
 hometown: 
 region: 
 bio_short: Engineering leader experienced in building responsible AI and data technologies that put people first.
-tags: ['2023', 'AI_Machine_Learning', 'east']
+tags: ['2023', 'AI_Machine_Learning', 'east', 'active']
 skills: ['AI/Machine Learning']
 ---
 
