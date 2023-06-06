@@ -8,7 +8,7 @@ agency: ["VA"]
 hometown: 
 region: 
 bio_short: Passionate about using tech for equity, inclusion, and impact.
-tags: ['2023', 'east', 'Strategy_And_Growth']
+tags: ['2023', 'east', 'Strategy_And_Growth', 'active']
 skills: ['Strategy and Growth']
 ---
 

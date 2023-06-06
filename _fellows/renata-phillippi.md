@@ -8,7 +8,7 @@ agency: ["VA"]
 hometown: Washington DC
 region: east
 bio_short: Design Strategist passionate about solving today’s wicked problems leveraging change management, digital transformation, and human centered design.
-tags: ['east', '2022', 'Design_And_Experience']
+tags: ['east', '2022', 'Design_And_Experience', 'active']
 skills: ['Design and Experience']
 ---
 

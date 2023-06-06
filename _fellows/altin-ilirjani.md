@@ -8,7 +8,7 @@ agency: ["CDC"]
 hometown: Atlanta, GA
 region: east
 bio_short: Lifelong learner, strategist, and innovator connecting people with technology to solve society’s critical problems. 
-tags: ['east','2022', 'Data_Science_And_Analytics', 'Digital_Health']
+tags: ['east','2022', 'Data_Science_And_Analytics', 'Digital_Health', 'active']
 skills: ['Data Science and Analytics', 'Digital Health']
 ---
 

@@ -8,7 +8,7 @@ agency: ["GSA"]
 hometown: Washington, DC 
 region: east
 bio_short: Digital products leader, agile methodology steward, mobile engineering expert.
-tags: ['east','2022','Product','Design_And_Experience']
+tags: ['east','2022','Product','Design_And_Experience', 'active']
 skills: ['Product',Design and Experience]
 ---
 

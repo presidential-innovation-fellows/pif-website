@@ -8,7 +8,7 @@ agency: ["CDC"]
 hometown: 
 region: 
 bio_short: Curious Learner, Passionate about solving technology challenges, Data-driven.
-tags: ['2023', 'east', 'Software_And_Cloud_Infrastructure']
+tags: ['2023', 'east', 'Software_And_Cloud_Infrastructure', 'active']
 skills: ['Software and Cloud Infrastructure']
 ---
 

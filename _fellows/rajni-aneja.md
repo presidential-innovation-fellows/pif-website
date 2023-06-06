@@ -8,7 +8,7 @@ agency: ["VA"]
 hometown: 
 region: 
 bio_short: Collaboration/fostering innovation
-tags: ['2023', 'eastt', 'Strategy_And_Growth']
+tags: ['2023', 'eastt', 'Strategy_And_Growth', 'active']
 skills: ['Strategy and Growth']
 ---
 
