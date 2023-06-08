@@ -8,8 +8,8 @@ agency: ["GSA"]
 hometown: Santa Monica, CA
 region: west
 bio_short: Analytically-minded thinker and problem solver, passionate about mapping complexity through early stage innovation and scale.
-tags: ['west', '2021', 'Product', 'Change_Management', 'Innovation', 'Growth', 'active']
-skills: ['Product', 'Change Management']
+tags: ['west', '2021', 'Product', 'Change_Management', 'Strategy_And_Growth', 'active']
+skills: ['Product', 'Change Management', 'Strategy and Growth']
 ---
 Masha is a driven leader and builder with deep industry expertise across scales and functions with the constant through-line of innovation. Bringing with her strategy consulting, business analysis, product design and development, and consumer research experience she came into PIF with the mission of putting skill to action. After her first term as an entrepreneur in residence (EIR) of the PIF program, Masha recognized the early career tech talent gap in government.
 
