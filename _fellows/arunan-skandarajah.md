@@ -3,7 +3,7 @@ id: arunan-skandarajah
 title: Arunan Skandarajah
 image: arunan-skandarajah-headshot.jpg
 fellow_year: 2021
-project: ["na"]
+project: []
 agency: ["ARPA-H"]
 hometown: Washington, DC
 region: east

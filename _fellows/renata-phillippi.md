@@ -3,7 +3,7 @@ id: renata-phillippi
 title: Renata K. Phillippi
 image: renata-phillippi-headshot.jpg
 fellow_year: 2022
-project: ["na"]
+project: []
 agency: ["GSA"]
 hometown: Washington DC
 region: east
