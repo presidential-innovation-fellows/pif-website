@@ -62,7 +62,7 @@ You shouldn't have to edit this page very often. But if you want to modify some 
   {% if include.description_apply %}
   <meta property="og:description" content="{{ include.description_apply }}">{% else %}
   <meta property="og:description" content="{{site.description}}">{% endif %}{% if include.description_apply %}
-  <meta property="og:image" content="{% asset pif-application-2024.png @path %}">{% else %}
+  <meta property="og:image" content="{% asset pif-application-2024.jpg @path %}">{% else %}
   <meta property="og:image" content="{% asset pif-nasa-square.jpg @path %}">{% endif %}
 
   <meta name="twitter:card" content="summary" />
@@ -70,7 +70,7 @@ You shouldn't have to edit this page very often. But if you want to modify some 
   <meta name="twitter:title" content="{% if include.title %}{% if include.title == "Home" %}{{ site.title }}{% else %}{{ include.title }} | {{ site.title }}{% endif %}{% else %}{{ site.title }}{% endif %}" />{% if include.description_apply %}
   <meta name="twitter:description" content="{{ include.description_apply }}" />{% else %}
   <meta name="twitter:description" content="{{site.description}}" />{% endif %}{% if include.description_apply %}
-  <meta name="twitter:image" content="https://presidentialinnovationfellows.gov{% asset pif-application-2024.png @path %}" />{% else %}
+  <meta name="twitter:image" content="https://presidentialinnovationfellows.gov{% asset pif-application-2024.jpg @path %}" />{% else %}
   <meta name="twitter:image" content="https://presidentialinnovationfellows.gov{% asset pif-nasa-square.jpg @path %}" />{% endif %}
 
   <meta property="og:type" content="article">{% if page.url == "/projects/case-studies" %}
