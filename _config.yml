@@ -24,7 +24,7 @@ description: "The Presidential Innovation Fellows program brings the principles,
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://presidentialinnovationfellows.gov" # the base hostname & protocol for your site, e.g. http://example.com
 
-apply_now: true 
+apply_now: false 
 application_updates: false 
 
 # Twitter handle. Only the handle, not the URL.
