@@ -1,14 +1,14 @@
 ---
 id: carmem-domingues
 title: Carmem Domingues
-image: carmem-domingues-headshot.jpg
+image: carmem-domingues-headshot.jpeg
 fellow_year: 2023
 project: []
 agency: ["VA"]
 hometown: 
 region: 
 bio_short: Using Data Science and Technology to solve real problems and for social good.
-tags: ['2023', 'east','AI_Machine_Learning']
+tags: ['2023', 'east','AI_Machine_Learning', 'active']
 skills: ['AI/Machine Learning']
 ---
 
