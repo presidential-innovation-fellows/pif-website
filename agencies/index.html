@@ -1,6 +1,6 @@
 ---
 layout: wide
-title: Agencies
+title: For Agencies
 permalink: /agencies/
 redirect_from:
   - /proposal/
@@ -22,13 +22,13 @@ redirect_from:
     <div class="tablet:grid-col-8">
       <h1>Work with us</h1>
       <p class="body-intro">Calling all federal innovators: Do you want to build cutting-edge solutions that serve your mission and the public? Together, we can. We’d love to hear from you.</p>
-      <span><a class="usa-button usa-button--big" target="_blank" href="https://touchpoints.app.cloud.gov/touchpoints/e641f506/submit">Submit a project</a></span>
+      <span><a class="usa-button usa-button--big" target="_blank" href="https://touchpoints.app.cloud.gov/touchpoints/c9b71101/submit">Submit a project</a></span>
     </div>
   </div>
   <div class="grid-row grid-gap">
     <div class="desktop:grid-col-12">
       <h2>How it works</h2>
-      <p> The 2023 PIF cohort of ~35 Fellows will begin in April 2023. Agencies interested in hosting Fellows should complete <strong style="color: #0b4778;"> <a target="_blank" href="https://touchpoints.app.cloud.gov/touchpoints/e641f506/submit">this form</a> </strong> by June 30, 2022. PIF will evaluate and interview prospective agency partners in early summer 2022</p>
+      <p> The 2024 PIF cohort of ~35 Fellows will begin in February 2024. Agencies interested in hosting Fellows should complete <strong style="color: #0b4778;"> <a target="_blank" href="https://touchpoints.app.cloud.gov/touchpoints/c9b71101/submit">this form</a> </strong> by July 30, 2023. PIF will evaluate and interview prospective agency partners in early summer 2023.</p>
       <p> PIF recruits strategists and technologists in fields including: <strong>software engineering and cloud infrastructure, data science and analytics, product management, customer experience and design, digital strategy, and change management</strong>. Fellows have worked with 45+ federal agencies to date.  </p>
       <p> Fellows are mid-to-senior career level leaders, and serve as senior advisor and entrepreneurs in residence to champion government modernization. They work on building agency innovation capabilities, tackling hard problems, shaping smarter policy, and/or delivering technology alongside talented and forward-thinking career federal leaders. </p>
     </div>
@@ -43,7 +43,7 @@ redirect_from:
         </ul>
       </p>
       <p>
-        Issues of FY23 national priority include: COVID-19, climate crisis, racial equity and civil rights, economic relief, healthcare, immigration system improvement, infrastructure, strengthening national security workforce, leadership in emerging technologies (AI, digital currency, etc), rebuilding democratic alliances across the globe, and championing America’s values and human rights.
+        Issues of FY 24 national priority include: COVID-19, climate crisis, racial equity and civil rights, economic relief, healthcare, immigration system improvement, infrastructure, strengthening national security workforce, leadership in emerging technologies (AI, digital currency, etc), rebuilding democratic alliances across the globe, and championing America’s values and human rights.
       </p>
     </div>
   </div>
@@ -57,16 +57,17 @@ redirect_from:
       <p> <strong style="color: #0b4778;">Duration:</strong> The PIF fellowship term lasts one year, with an option to be considered for a one year term extension.</p>
     </div>
   </div>
-  <br> <p><a class="usa-button usa-button--big" target="_blank" href="https://touchpoints.app.cloud.gov/touchpoints/e641f506/submit">Submit a project</a></p>
+  <br> <p><a class="usa-button usa-button--big" target="_blank" href="https://touchpoints.app.cloud.gov/touchpoints/c9b71101/submit">Submit a project</a></p>
 </section>
 
 <section class="usa-section grid-container">
   <h2>Trusted by agency leaders</h2>
   <ul class="grid-row grid-gap usa-list usa-list--unstyled">
-    {% for agency in site.data.agencies %}
+    {% assign agencies = site.data.agencies | sort:"fullname" %}
+    {% for agency in agencies %}
     <li class="work-box desktop:grid-col-6 tablet:grid-col-4 flex-auto padding-x-2">
       <div class="work-box-ico grid-col-12 width-full">
-        {% asset "{{ agency.name }}.png" alt=""  %}
+        {% asset "{{ agency.name }}.png" alt="{{ agency.name }}"  %}
       </div>
       <p class="work-box-head grid-col-12 text-center padding-x-1 margin-top-1">{{ agency.fullname }}</p>
     </li>

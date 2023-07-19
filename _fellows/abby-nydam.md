@@ -8,7 +8,7 @@ agency: ["EOP"]
 hometown: Washington, DC
 region: east
 bio_short: Data, strategy, and design alchemist.  Heart and user-centered, always.  
-tags: ['east','2022','Design_And_Experience', 'Marketing_And_Communications']
+tags: ['east','2022','Design_And_Experience', 'Marketing_And_Communications', 'active']
 skills: ['Design and Experience', 'Marketing and Communications']
 ---
 
