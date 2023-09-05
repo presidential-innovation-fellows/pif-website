@@ -4,11 +4,11 @@ title: Scott Gorman
 image: scott-gorman-headshot.jpg
 fellow_year: 2021
 project: []
-agency: ["DOE"]
+agency: ["ARPA-H"]
 hometown: San Francisco, CA
 region: west
 bio_short: Technology entrepreneur and strategist with experience across healthcare, law, and national security.
-tags: ['west', '2021', 'Product', 'Design_And_Experience']
+tags: ['west', '2021', 'Product', 'Design_And_Experience', 'active']
 skills: ['Product', 'Design and Experience']
 ---
 Scott has more than fifteen years of experience leading healthcare, technology, and military teams across four continents.
