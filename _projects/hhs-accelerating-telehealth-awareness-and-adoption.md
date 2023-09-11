@@ -15,7 +15,7 @@ order: 1
 
 During the global COVID-19 pandemic, digital health became increasingly important. When people seek in-person medical care, they risk exposure for themselves, their family, other patients, and health care providers. As a result, brick-and-mortar medical facilities are also offering telemedicine to add to or replace traditional in-person office visits. Using telemedicine from their home, clinicians are able to do virtual visits, refill and adjust essential medications, and modify treatments that will preserve and improve conditions that put patients at risk if left untreated.
 
-Responding to this challenge, <a href="https://www.whitehouse.gov/articles/deregulation-sparks-dramatic-telehealth-increase-covid-19-response/">the U.S. government made historic strides by deregulating telehealth</a> and reducing bottlenecks in key areas such as HIPAA requirements, reimbursement arrangements, and provider liability.
+Responding to this challenge, the U.S. government made historic strides by deregulating telehealth and reducing bottlenecks in key areas such as HIPAA requirements, reimbursement arrangements, and provider liability.
 
 However, policy changes information and the impact on the public was not centralized nor communicated in plain language. This thwarted fast adoption of telehealth for both providers and the public.
 
@@ -45,7 +45,7 @@ Bringing together leaders and subject matter experts from HHS, HRSA, OSTP, FEMA,
 <h2 class="text-primary text-no-italic" id="the-impact">The <em>impact</em></h2>
 The website actively serves thousands of its users by providing easy access to policy changes in plain language and has seen a positive response across the telehealth community. The core team remains committed to mobilizing a strong telehealth workforce to help keep Americans healthy through and beyond this challenging time, with this effort finding a long-term home and funding in HRSA’s Federal Office of Rural Health Policy and Office for the Advancement of Telehealth.
 
-Building on this work further, PIF Dennis Chornenky worked with White House colleagues and led the <a href="https://www.whitehouse.gov/articles/trump-administration-strongly-supports-telehealth-innovation/">White House launch of the Pledge to Embrace Technology to Advance America’s Health</a>. Over 50 of the nation’s largest health insurance plans and stakeholders enthusiastically committed to expand telehealth coverage and adoption.
+Building on this work further, PIF Dennis Chornenky worked with White House colleagues and led the White House launch of the Pledge to Embrace Technology to Advance America’s Health. Over 50 of the nation’s largest health insurance plans and stakeholders enthusiastically committed to expand telehealth coverage and adoption.
 
 This move helped reassure Americans that telehealth is here to stay. <strong>When patients can get healthcare through telehealth—and doctors can provide it—we protect ourselves and our communities. Our digital approach helps keep providers and patients safe and healthy for the long run</strong>.
 
