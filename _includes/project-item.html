@@ -9,7 +9,7 @@
         </div>
 
         {% if project.cover_art %}
-          <div role="img" class="project-item__image" style="background-image: url({% asset '{{ project.cover_art }}' @path %});" aria-label="{{ project.agency }}">
+          <div role="img" class="project-item__image" style="background-image: url({% asset '{{ project.cover_art }}' @path %});" title="{{project.title}}" aria-label="{{ project.agency }}">
           </div>
         {% endif %}
 
