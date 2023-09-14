@@ -16,7 +16,7 @@ This template is for a single page that does not have a date associated with it.
         <div class="usa-layout-docs__main desktop:grid-col-9 usa-prose">
          <h2>Biography</h2>
          {% if page.image %}
-          {% asset "{{ page.image }}" class="circle-card float-right margin-left-3" alt="{{ page.image_alt_text }}" %}
+          {% asset "{{ page.image }}" class="circle-card float-right margin-left-3" alt="{{ page.title }} headshot" %}
          {% endif %}
          <p class="usa-intro">
            {{ page.bio_short }}

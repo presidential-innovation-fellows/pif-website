@@ -8,7 +8,7 @@ agency: ["DOL"]
 hometown: Washington, D.C.
 region: east
 bio_short: Innovation strategist. Creating impactful products and services that center users.
-tags: ['east', '2022', 'Strategy_And_Growth', 'Product']
+tags: ['east', '2022', 'Strategy_And_Growth', 'Product', 'active']
 skills: ['Strategy and Growth','Product']
 ---
 

@@ -8,7 +8,7 @@ agency: ["VA"]
 hometown: Washington, D.C
 region: east
 bio_short: An expert in building technology for health systems.
-tags: ['east','2022','Data_Science_And_Analytics','Product','Software_And_Cloud_Infrastructure']
+tags: ['east','2022','Data_Science_And_Analytics','Product','Software_And_Cloud_Infrastructure', 'active']
 skills: ['Data Science and Analytics','Product','Software and Cloud Infrastructure']
 ---
 
