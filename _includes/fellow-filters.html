@@ -1,7 +1,7 @@
 <div class="filters">
   <div class="filters__left display-flex">
     <div class='filter__col'>
-      <select class="usa-select" name="fellows-select-year" id="fellows-select-year">
+      <select class="usa-select" aria-label="Filter by Year" name="fellows-select-year" id="fellows-select-year">
         <option value="" selected disabled hidden>Fellows by year</option>
         {% assign years = site.data.years | reverse %}
         {% for year in years %}
@@ -13,7 +13,7 @@
     </div>
     <div class="filters__left display-flex">
       <div class='filter__col'>
-        <select class="usa-select" name="fellows-select-skill" id="fellows-select-skill">
+        <select class="usa-select" aria-label="Filter by Specialty" name="fellows-select-skill" id="fellows-select-skill">
           <option value="" selected disabled hidden>Fellows by specialty</option>
           <option value="">All Fellows</option>
           {% assign skills = site.data.fellow-specialties | sort:"display_name" %}
@@ -28,7 +28,7 @@
   </div>
 
   <div class='filter__search'>
-    <input type="text" id="fellows-search-input" placeholder="Search fellows" class="usa-input">
+    <input type="text" aria-label="Search Fellows" id="fellows-search-input" placeholder="Search fellows" class="usa-input">
   </div>
 </div>
 

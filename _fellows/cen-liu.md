@@ -3,8 +3,8 @@ id: cen-liu
 title: Cen Liu
 image: cen-liu-headshot.jpg
 fellow_year: 2022
-project: ["cms-oeda"]
-agency: ["CMS"]
+project: []
+agency: ["NASA"]
 hometown: New York, NY
 region: northeast
 bio_short: Thinking creatively; fostering allyship; building it.

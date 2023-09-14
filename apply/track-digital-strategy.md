@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 title: Presidential Innovation Fellow - Digital Transformation and Strategy
 sidenav: false
@@ -100,7 +100,8 @@ Applicants can apply online at [apply.pif.gov](https://presidentialinnovationfel
 Characteristics that we look for in Fellows include: 
 
 ### Entrepreneurship and Technology:
-- Mid-senior/executive career professional experience in a subject matter expertise. (see [tracks](https://presidentialinnovationfellows.gov/apply/#:~:text=All%20candidates%20must-,select%20a%20track,-based%20on%20their))
+- Mid-senior/executive career professional experience in a subject matter expertise. 
+<!-- (see [tracks](https://presidentialinnovationfellows.gov/apply/#:~:text=All%20candidates%20must-,select%20a%20track,-based%20on%20their)) -->
 - Ability to break down business problems, understand and design effective solutions and strategies that draw on current and emergent tools, technologies, initiatives and other resources.
 - Experience delivering products or services from concept to market.
 
@@ -159,7 +160,7 @@ The incumbent will use their demonstrated experience building and scaling initia
 This position is located within the General Services Administration (GSA), Federal Acquisition Service (FAS), Technology Transformation Service (TTS), Office of the Presidential Innovation Fellows (PIF).
 
 
-GSA has been repeatedly named as one of the ['Best Places to Work'](http://bestplacestowork.org/BPTW/rankings/overall/mid)
+GSA has been repeatedly named as one of the ['Best Places to Work'](https://bestplacestowork.org/rankings/?view=overall&size=mid)
 in the federal government.
 You will have access to many [benefits](http://www.gsa.gov/portal/category/26702) including:
 
@@ -226,4 +227,4 @@ The information in this section outlines the criteria that your application will
 
 It is important to note that we do take everything listed above into consideration when deciding who we select to interview. The **Qualification** process is a bureaucratic requirement that we are stuck with. It’s best to think about it as the most intense and rigorous resume review you’ve ever heard of. To get through this process, you need make sure your resume directly reflects the **Qualification** section. We also have more guidance on creating a federal style resume on [Join TTS Hiring Process](https://join.tts.gsa.gov/resume/)
 
-{% endif %}
+{% endif %} -->
