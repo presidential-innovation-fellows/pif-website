@@ -4,7 +4,7 @@
   <a href="{{ site.baseurl }}{{ fellow.url }}" aria-labelledby="{{ aria_id }}">
     <div class="usa-prose fellow-img">
       {% if fellow.image %}
-      {% asset "{{ fellow.image }}" class="circle-card" alt="{{ fellow.image_alt_text }}" %}
+      {% asset "{{ fellow.image }}" class="circle-card" alt="{{ fellow.title }}" %}
       {% endif %}
     </div>
     <div>

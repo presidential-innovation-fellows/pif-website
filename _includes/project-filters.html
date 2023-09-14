@@ -2,7 +2,7 @@
 
 <div class="project-item__filters">
   <div>
-    <select class="usa-select" name="project-agencies" id="project-agencies-select">
+    <select class="usa-select" aria-label="Filter by Agency" name="project-agencies" id="project-agencies-select">
       <option value>Filter by agency</option>
       {% for name in agency_names %}
         <option value="{{ name | slugify }}">
@@ -12,13 +12,13 @@
     </select>
   </div>
   <div>
-    <!-- <a href="{{ site.baseurl }}/projects/upcoming-projects.html#project-list-upcoming" class="usa-button usa-button--small usa-button--outline {% if page.active_page contains 'upcoming-proj' %}usa-button--active{% endif %}" id="project-list-upcoming">
+    <!-- <a href="{{ site.baseurl }}/projects/upcoming-projects.html#project-list-upcoming" class="usa-button usa-button--small usa-button--outline {% if page.active_page contains 'upcoming-proj' %}usa-button--active{% endif %}" id="project-list-upcoming" aria-label="Get a list of All Upcoming Projects">
       Upcoming projects
     </a> -->
-    <a href="{{ site.baseurl }}/projects/case-studies.html#project-list-case-studies" class="usa-button usa-button--small usa-button--outline {% if page.active_page contains 'case-studies' %}usa-button--active{% endif %}" id="project-list-case-studies">
+    <a href="{{ site.baseurl }}/projects/case-studies.html#project-list-case-studies" class="usa-button usa-button--small usa-button--outline {% if page.active_page contains 'case-studies' %}usa-button--active{% endif %}" aria-label="Get a list of All Case Studies" id="project-list-case-studies">
       Case studies
     </a>
-    <a href="{{ site.baseurl }}/projects/projects-only.html#project-list-projects" class="usa-button usa-button--small usa-button--outline {% if page.active_page contains 'projects' %}usa-button--active{% endif %}" id="project-list-projects">
+    <a href="{{ site.baseurl }}/projects/projects-only.html#project-list-projects" class="usa-button usa-button--small usa-button--outline {% if page.active_page contains 'projects' %}usa-button--active{% endif %}" aria-label="Get a list of All Projects" id="project-list-projects">
       All Projects
     </a>
   </div>
