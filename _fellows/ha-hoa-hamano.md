@@ -8,7 +8,7 @@ agency: ["NASA"]
 hometown: Washington, DC
 region: east
 bio_short: Optimizing for inclusivity by centering people in innovation.
-tags: ['east','2022','Product']
+tags: ['east','2022','Product', 'active']
 skills: ['Product']
 ---
 

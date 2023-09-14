@@ -8,7 +8,7 @@ agency: ["DOJ"]
 hometown: Baltimore, MD
 region: east
 bio_short: Social impact designer and design justice advocate.
-tags: ['east','2022', 'Design_And_Experience']
+tags: ['east','2022', 'Design_And_Experience', 'active']
 skills: ['Design and Experience']
 ---
 
