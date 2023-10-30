@@ -18,7 +18,44 @@ description_apply: "Want to use your tech, design or entrepreneurial skills for 
 
 <section class="grid-container usa-section page-header">
   <div class="grid-row">
-      {% if site.apply_now and site.application_updates == false %}
+      {% if site.ai_eo == true %}
+      <div class="tablet:grid-col-7">
+        <!-- Applications for AI EO Open -->
+        <h1>Apply to PIF</h1>
+         <p><em>After closing our annual application cycle for the 2024 cohort, we are extending a new avenue to join the 2024 cohort in response to the recently announced <a href="https://www.whitehouse.gov/briefing-room/statements-releases/2023/10/30/fact-sheet-president-biden-issues-executive-order-on-safe-secure-and-trustworthy-artificial-intelligence/" target="_blank" rel="noopener">AI Executive Order</a>. All previous applicants are encouraged to review the updated specialized experience and apply again if of interest.</em></p>
+         <p class="body-intro">Thank you for your interest in becoming a Presidential Innovation Fellow! We are now accepting applications for the hiring initiative focused on the <a href="https://www.whitehouse.gov/briefing-room/statements-releases/2023/10/30/fact-sheet-president-biden-issues-executive-order-on-safe-secure-and-trustworthy-artificial-intelligence/" target="_blank" rel="noopener">AI Executive Order</a> to join the 2024 fellowship class.</p>
+         <p><a class="usa-button usa-button--big" href="https://www.usajobs.gov/job/757678800" target="_blank">Apply by November 17, 2023, 11:59 pm ET</a></p>    
+         <p>Not the right time for you?&nbsp;<a href="https://public.govdelivery.com/accounts/USGSATTS/subscriber/new?topic_id=USGSATTS_70" target="_blank">Sign up for PIF updates and stay in touch. </a></p> 
+      </div>
+
+      <div class="usa-summary-box desktop:grid-col-5" role="region" aria-labelledby="summary-box-key-information">
+        <div class="usa-summary-box__body">
+          <h3 class="usa-summary-box__heading" id="summary-box-key-information">
+            <span>Register for an Information Session: </span>
+          </h3>
+          <div class="usa-summary-box__text">
+            <ul class="usa-list">
+              <li>
+                <a class="usa-summary-box__link" href="https://gsa.zoomgov.com/webinar/register/WN_q4skXQbQStqpn1KLi22PVw" target="_blank"> Wednesday November 1, 2023 12:30-1:30 pm ET</a>
+              </li>
+              <li>
+                <a class="usa-summary-box__link" href="https://gsa.zoomgov.com/webinar/register/WN_IKUjc_fVSx-h4WvrpzxY2A" target="_blank"> Monday, November 6, 2023 2:30-3:30 pm ET</a>       
+              </li>
+              <li>
+                <a class="usa-summary-box__link" href="https://gsa.zoomgov.com/webinar/register/WN_4I1ESo9wQ-a_cZfn0lcCJQ" target="_blank"> Thursday, November 9, 2023 1:00-2:00 pm ET</a>
+              </li>
+              <li>
+                <a class="usa-summary-box__link" href="https://gsa.zoomgov.com/webinar/register/WN_KyuwOWVnS2uYKuX6t78m8g" target="_blank"> Tuesday, November 14, 2023 11:30 am-12:30 pm ET</a>
+              </li>
+              <li>
+                <a class="usa-summary-box__link" href="https://join.tts.gsa.gov/resume/" target="_blank"> Learn more about preparing a federal resume</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      {% elsif site.apply_now and site.application_updates == false %}
       <div class="tablet:grid-col-7">
         <!-- Application Open -->
         <h1>Apply to Be a 2024 Fellow</h1>
@@ -26,8 +63,6 @@ description_apply: "Want to use your tech, design or entrepreneurial skills for 
         <p><a class="usa-button usa-button--big" href="https://www.usajobs.gov/job/724308900" target="_blank">Apply by July 7</a></p>   
       </div>
 
-    
-   
       {% elsif site.apply_now ==false and site.application_updates ==true %}
       <!-- Applications Will Open Soon -->
           <div class="desktop:grid-col-7">
@@ -75,7 +110,138 @@ description_apply: "Want to use your tech, design or entrepreneurial skills for 
   </div>
 </section>
 
-{% if site.apply_now and site.application_updates == false %}
+{% if site.ai_eo %}
+<section class="section__margin-top-neg">
+  <div class="grid-container usa-section usa-prose">
+    <div class="grid-row grid-gap">
+      <div class="desktop:grid-col-4">
+        <h2><span>About the Fellowship</span></h2>
+      </div>
+      <div class="desktop:grid-col-8">
+        <p class="font-body-md">Presidential Innovation Fellows are mid-to-senior career technologists, designers, entrepreneurs, and strategists.</p>
+        <p class="font-body-md">Each fellow is paired with a federal agency to complete a 12-24 month project as an entrepreneur-in-residence. Learn more about <a href="https://presidentialinnovationfellows.gov/projects/" target="_blank">projects that have been completed by past fellows</a> and the <a href="https://handbook.tts.gsa.gov/about-us/tts-history/" target="_blank"> values that guide our work</a>.</p>
+        <p class="font-body-md">As a fellow, you’ll gain executive-level exposure in a federal agency. Behind the walls of government, you’ll tackle some of our nation’s biggest challenges.</p>
+        <p class="font-body-md">Making government work better for the people we serve is our top priority. And you have the experience we need to drive that mission home. Together, we can have an incredible impact on how the government delivers to the public at every interaction, each and every time.</p>
+        <p class="font-body-md">After you complete your fellowship, you’ll join our alumni community of more than 250 technologists and innovators in advancing mission-driven solutions at local, national, and international levels.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section__margin-top-neg">
+  <div class="grid-container usa-section usa-prose">
+    <div class="grid-row grid-gap">
+      <div class="desktop:grid-col-4">
+        <h2><span>Requirements</span></h2>
+      </div>
+      <div class="desktop:grid-col-8">
+        <p class="font-body-md">To be eligible for the Presidential Innovation Fellows program, you must be a United States citizen or a resident of American Samoa or Swains Island.</p>
+        <p class="font-body-md">Additionally, fellows must be based in Washington, D.C. for the duration of the fellowship. </p>
+        <p class="font-body-md">There are no education requirements. </p>
+        <p class="font-body-md"> All fellows will be required to complete a <a href="https://www.usajobs.gov/help/faq/job-announcement/security-clearances/" target="_blank">Public Trust background investigation</a>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section__margin-top-neg">
+  <div class="grid-container usa-section usa-prose">
+    <div class="grid-row grid-gap">
+      <div class="desktop:grid-col-4">
+        <h2><span>Expertise</span></h2>
+      </div>
+      <div class="desktop:grid-col-8">
+        <p class="font-body-md"><strong>To qualify as a fellow, you must also have at least one year of experience in each of the following areas: </strong> </p>
+        <ul>
+          <li>Experience conducting user-centered needs analysis to define opportunities focused on emerging technologies;</li>
+          <li>Experience leading or advising executive leadership on the launch of new technology initiatives and; </li>
+          <li>Experience in at least one of the following areas:
+              <ul>
+                <li>Implementing or developing data analytics or business intelligence solutions</li>
+                <li>Leading the development or implementation of data strategy and policy</li>
+                <li>Experience in a data science, product, or design role focused on Artificial Intelligence products, platforms, or solutions.</li>
+              </ul>
+          </li>
+        </ul>
+        <p class="font-body-md">Presidential Innovation Fellows typically have and demonstrate expertise in one or more of the following areas:</p>
+        <ul>
+          <li><strong>Data Strategy and AI:</strong> Data management, machine learning, data science, or modern statistical and computational methods.</li>
+          <li><strong>Product:</strong> Product development, product management, and/or agile software methodologies.</li>
+          <li><strong>Design and Experience:</strong> User experience (UX), human-centered design, service design, implementation design or customer experience (CX).</li>
+          <li><strong>Digital Transformation and Strategy:</strong> Digital marketing or advertising, healthcare innovation, change management, community outreach and engagement, DEIA (diversity, equity, inclusion, and accessibility), venture capital, accelerators, or incubators; or corporate innovation.</li>
+          <li><strong>Cloud Infrastructure and Technology Leadership:</strong> Cloud computing, cloud infrastructure, or enterprise-level technology leadership.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section__margin-top-neg">
+  <div class="grid-container usa-section usa-prose">
+    <div class="grid-row grid-gap">
+      <div class="desktop:grid-col-4">
+        <h2><span>Benefits</span></h2>
+      </div>
+      <div class="desktop:grid-col-8">
+        <p class="font-body-md">All Presidential Innovation Fellows are hired at the GS-15 Step 1 pay grade. Learn more about the <a href="https://join.tts.gsa.gov/compensation-and-benefits/" target="_blank"> GS system that defines federal salaries</a>.</p>
+        <p class="font-body-md">As of January 2023, the GS-15 Step 1 salary for the Washington, D.C. locality is $155,700. </p>
+        <p class="font-body-md">All fellows receive <a href="https://handbook.tts.gsa.gov/getting-started/classes/benefits/" target="_blank">federal employee benefits</a>. This includes medical, vision, and dental insurance, FSA accounts, life insurance, paid leave, and the Thrift Savings Plan (the government version of a 401K) with up to five percent matching. </p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section__margin-top-neg">
+  <div class="grid-container usa-section usa-prose">
+    <div class="grid-row grid-gap">
+      <div class="desktop:grid-col-4">
+        <h2><span>Get Ready to Apply</span></h2>
+      </div>
+      <div class="desktop:grid-col-8">
+        <p class="font-body-md">As part of your application, you’ll need to submit a federal-style resume. If you don’t already have one, it can take some time to put together. Here are <a href="https://join.tts.gsa.gov/resume/" target="_blank">tips on writing a federal resume</a> and an <a href="https://handbook.tts.gsa.gov/hiring-staying-or-changing-jobs/resume/" target="_blank">example of what a federal resume might look like</a>.</p>
+        <p class="font-body-md">Links to professional portfolios or profiles may be included and are optional. </p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section__margin-top-neg">
+  <div class="grid-container usa-section usa-prose">
+    <div class="grid-row grid-gap">
+      <div class="desktop:grid-col-4">
+        <h2><span>Selection Timeline</span></h2>
+      </div>
+      <div class="desktop:grid-col-8">
+        <p class="font-body-lg">Here is a tentative timeline so you can know what to expect. </p>
+        <ul>
+          <li><strong>October 30, 2023 - November 17, 2023:</strong> Submit your application.</li>
+          <li><strong>December 2023-February 2024:</strong>  Interviews (for a limited number of qualified candidates) take place with the Presidential Innovation Fellows team and potential agencies </li>
+          <li><strong>February 2024 - March 2024:</strong> Final selections and tentative offers will be made. Tentative offers are contingent on the successful completion of a background check.</li>
+          <li><strong>Spring 2024:</strong> After you accept a tentative offer, our pre-employment process begins – including a background check. <a href="https://join.tts.gsa.gov/hiring-process/#security-and-onboarding" target="_blank">Learn more about our process</a>.</li>
+          <li><strong>Summer 2024:</strong> We welcome a new cohort of fellows.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section__margin-top-neg">
+  <div class="grid-container usa-section usa-prose">
+    <div class="grid-row grid-gap">
+      <div class="desktop:grid-col-4">
+        <h2><span>Our interview process: What to expect!</span></h2>
+      </div>
+      <div class="desktop:grid-col-8">
+        <p class="font-body-lg">For candidates selected to interview, here’s our process:</p>
+        <ul>
+          <li><strong>Accessibility:</strong> If you are selected to interview, a member of our Talent Team will be in touch to ensure any accessibility considerations are covered. We typically conduct interviews as video calls, however, we realize that this option may not accommodate everyone’s needs. Throughout the hiring process, please don’t hesitate to let us know if you have a preferred method of communication and we will work with you to create a positive experience. If you require accommodations, please contact us directly at <a href="mailto:pif-application@gsa.gov" target="_blank">pif-application@gsa.gov</a> at least 24-48 hours in advance of your scheduled interview.</li>
+          <li><strong>PIF interviews</strong> include questions regarding skills (your self-identified area of expertise), core competencies (behavioral questions, leadership, and/or navigating ambiguity), and core values (including diversity, equity, and inclusion). The PIF team will provide questions in advance of interviews to allow candidates time to prepare.</li>
+          <li><strong>Agency interviews</strong> are with PIF’s federal agency partner(s). This is a conversation with the agency’s PIF project champion. The PIF team will share finalist resumes with agencies who then identify candidates that they would like to interview.</li>
+          <li><strong>Format:</strong> All interviews occur virtually and are typically scheduled for 1-2 hours in length. We offer live captioning and other accessibility assistance to all candidates.</li>
+          <li><strong>Offer Process:</strong> Once the agency interviews are complete, the PIF team will meet with each agency to discuss their selections. This gives us our list of finalists to whom we make offers! We operate within the U.S. General Services Administration (GSA), and the GSA HR team will then make tentative offers to selected candidates. The PIF team will also set up calls with each incoming PIF to welcome them into our program and community, and answer any questions!</li>
+          <li><strong>Onboarding:</strong> PIF augments GSA onboarding with PIF-specific programming, followed by each PIF onboarding at their respective agencies.</li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+{% elsif site.apply_now and site.application_updates == false %}
 <section class="section__margin-top-neg">
   <div class="grid-container usa-section usa-prose">
     <div class="grid-row grid-gap">
