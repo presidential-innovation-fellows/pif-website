@@ -2,7 +2,7 @@
 id: diux-startups
 agency: "Defense Innovation Unit"
 agency_abbrev: "DIU"
-agency_logo: "DIU.png"
+agency_logo: "/assets/images/agencies/DIU.png"
 title: "DIUx Startup Collaboration"
 summary: "Helping the Defense Innovation Unit Experimental bridge the gap between the Department of Defense and the tech community to better access innovative and emerging technologies to solve critical national security challenges"
 cover_art: "DIUX_Small_Hero.jpg"

@@ -2,7 +2,7 @@
 id: fda-precert
 agency: "Food and Drug Administration"
 agency_abbrev: "FDA"
-agency_logo: "FDA.png"
+agency_logo: "/assets/images/agencies/FDA.png"
 title: "Supporting innovations that enhance FDA’s mission of promotion and protection of public health"
 summary: "Helping FDA address the needs of cancer patients in today’s technology-driven and connected world"
 cover_art: ""

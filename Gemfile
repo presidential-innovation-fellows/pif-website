@@ -1,4 +1,4 @@
-ruby '>= 2.6.6'
+ruby '>= 3.1.4'
 
 source "https://rubygems.org"
 
@@ -31,7 +31,6 @@ group :jekyll_plugins do
   gem 'jekyll-seo-tag'
   gem 'jekyll-autoprefixer'
   gem 'jekyll-include-cache'
-  gem "jekyll-assets", "~> 3.0", group: :jekyll_plugins
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

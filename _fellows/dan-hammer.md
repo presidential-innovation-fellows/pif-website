@@ -1,7 +1,7 @@
 ---
 id: dan-hammer
 title: Dan Hammer
-image: dan-hammer-headshot.png
+image: /assets/images/fellows/2014/dan-hammer-headshot.png
 fellow_year: 2014
 project: []
 agency: ["NASA"]

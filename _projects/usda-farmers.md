@@ -2,7 +2,7 @@
 id: usda-farmers
 agency: "Department of Agriculture"
 agency_abbrev: "USDA"
-agency_logo: "USDA.png"
+agency_logo: "/assets/images/agencies/USDA.png"
 title: "Delivering a better experience for America's farmers"
 summary: "Helping the U.S. Department of Agriculture re-imagine how it engages with its customers: America’s farmers, ranchers, conservationists, and private foresters"
 cover_art: ""

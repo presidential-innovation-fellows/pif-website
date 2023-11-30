@@ -1,7 +1,7 @@
 ---
 id: wanmei-ou
 title: Wanmei Ou
-image: wanmei-ou-headshot.jpg
+image: /assets/images/fellows/2020/wanmei-ou-headshot.jpg
 fellow_year: 2020
 project: ["va-cto"]
 agency: ["VA"]

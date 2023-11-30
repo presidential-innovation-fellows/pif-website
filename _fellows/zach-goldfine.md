@@ -1,7 +1,7 @@
 ---
 id: zach-goldfine
 title: Zach Goldfine
-image: zach-goldfine-headshot.jpg
+image: /assets/images/fellows/2018/zach-goldfine-headshot.jpg
 fellow_year: 2018
 project: ["va-cto"]
 agency: ["VA"]

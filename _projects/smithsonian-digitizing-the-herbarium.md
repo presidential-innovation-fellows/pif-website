@@ -2,7 +2,7 @@
 id: smithsonian-digitizing-the-herbarium
 agency: "Smithsonian Institution"
 agency_abbrev: "Smithsonian"
-agency_logo: "Smithsonian.png"
+agency_logo: "/assets/images/agencies/Smithsonian.png"
 title: "Digitizing the Smithsonian Institution's Herbarium"
 summary: "Bringing fresh perspective and critical expertise to the important work of sharing our treasures with millions of people online"
 cover_art: "smithsonian-transcription.jpg"

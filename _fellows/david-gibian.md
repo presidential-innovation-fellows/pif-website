@@ -1,7 +1,7 @@
 ---
 id: david-gibian
 title: Davey Gibian
-image: davey-gibian-headshot.jpg
+image: /assets/images/fellows/2018/davey-gibian-headshot.jpg
 fellow_year: 2018
 project: []
 agency: ["DIU"]

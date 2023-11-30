@@ -1,7 +1,7 @@
 ---
 id: karin-underwood
 title: Karin Underwood, MBA
-image: karin-underwood-headshot.jpg
+image: /assets/images/fellows/2022/karin-underwood-headshot.jpg
 fellow_year: 2022
 project: []
 agency: ["EOP"]

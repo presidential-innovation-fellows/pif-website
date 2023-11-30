@@ -1,7 +1,7 @@
 ---
 id: ben-kane
 title: Ben Kane
-image: ben-kane-headshot.jpeg
+image: /assets/images/fellows/2023/ben-kane-headshot.jpeg
 fellow_year: 2023
 project: []
 agency: ["NGA"]

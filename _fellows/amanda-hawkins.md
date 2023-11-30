@@ -1,7 +1,7 @@
 ---
 id: amanda-hawkins
 title: Amanda Hawkins
-image: amanda-hawkins-headshot.jpg
+image: /assets/images/fellows/2023/amanda-hawkins-headshot.jpg
 fellow_year: 2023
 project: []
 agency: ["DOD"]

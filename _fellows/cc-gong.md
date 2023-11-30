@@ -1,7 +1,7 @@
 ---
 id: cc-gong
 title: C.C. Gong
-image: cc-gong-headshot.jpg
+image: /assets/images/fellows/2020/cc-gong-headshot.jpg
 fellow_year: 2020
 project: ["va-cto"]
 agency: ["VA"]

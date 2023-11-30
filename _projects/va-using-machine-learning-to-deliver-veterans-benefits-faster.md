@@ -2,7 +2,7 @@
 id: va-using-machine-learning-to-deliver-veterans-benefits-faster
 agency: "U.S. Department of Veterans Affairs"
 agency_abbrev: "VA"
-agency_logo: "VA.png"
+agency_logo: "/assets/images/agencies/VA.png"
 title: "Using machine learning to deliver veterans’ benefits faster"
 summary: "Getting veterans their benefits in days, not months"
 cover_art: "va-cto-nelson-colon-vargas.jpg"

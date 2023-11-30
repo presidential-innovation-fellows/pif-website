@@ -1,7 +1,7 @@
 ---
 id: nevin-taylor
 title: Nevin Taylor
-image: nevin-taylor-headshot.jpg
+image: /assets/images/fellows/2019/nevin-taylor-headshot.jpg
 fellow_year: 2019
 project: ["state-data-office"]
 agency: ["State","VA"]

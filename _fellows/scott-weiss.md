@@ -1,7 +1,7 @@
 ---
 id: scott-weiss
 title: Scott Weiss
-image: scott-weiss-headshot.jpg
+image: /assets/images/fellows/2020/scott-weiss-headshot.jpg
 fellow_year: 2020
 project: ["va-veo"]
 agency: ["VA","DHS"]

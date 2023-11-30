@@ -1,7 +1,7 @@
 ---
 id: marina-martin
 title: Marina Martin
-image: marina-martin-headshot.png
+image: /assets/images/fellows/2012/marina-martin-headshot.png
 fellow_year: 2012
 project: []
 agency: []

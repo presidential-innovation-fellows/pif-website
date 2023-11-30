@@ -1,7 +1,7 @@
 ---
 id: emily-ryan
 title: Emily Ryan
-image: emily-ryan-headshot.jpg
+image: /assets/images/fellows/2021/emily-ryan-headshot.jpg
 fellow_year: 2021
 project: ["doj-crt"]
 agency: ["DOJ"]

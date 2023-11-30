@@ -1,7 +1,7 @@
 ---
 id: alison-rowland
 title: Alison Rowland
-image: alison-rowland-headshot.png
+image: /assets/images/fellows/2013/alison-rowland-headshot.png
 fellow_year: 2013
 project: []
 agency: []

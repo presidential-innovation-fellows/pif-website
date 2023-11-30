@@ -1,7 +1,7 @@
 ---
 id: john-felleman
 title: John Felleman
-image: john-felleman-headshot.png
+image: /assets/images/fellows/2013/john-felleman-headshot.png
 fellow_year: 2013
 project: []
 agency: []

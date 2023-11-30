@@ -2,7 +2,7 @@
 id: dot-equitable-and-efficient-infrastructure
 agency: "Department of Transportation"
 agency_abbrev: "DOT"
-agency_logo: "DOT.png"
+agency_logo: "/assets/images/agencies/DOT.png"
 title: "Ensuring our nation's future infrastructure is equitable and efficient"
 summary: "Connecting strategy, design, and public needs to lead the implementation of an equity assessment and the creation of a platform to address the historic failure to invest sufficiently, justly and equally in underserved communities."
 cover_art: "dot_home.jpg"

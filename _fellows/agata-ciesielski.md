@@ -1,7 +1,7 @@
 ---
 id: agata-ciesielski
 title: Agata Ciesielski
-image: agata-ciesielski-headshot.jpg
+image: /assets/images/fellows/2021/agata-ciesielski-headshot.jpg
 fellow_year: 2021
 project: ["dot-its-jpo"]
 agency: ["DOT"]

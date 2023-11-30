@@ -1,7 +1,7 @@
 ---
 id: béatrice-mercier
 title: Béatrice Mercier
-image: beatrice-mercier-headshot.jpg
+image: /assets/images/fellows/2023/beatrice-mercier-headshot.jpg
 fellow_year: 2023
 project: []
 agency: ["EOP"]

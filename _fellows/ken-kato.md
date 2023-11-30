@@ -1,7 +1,7 @@
 ---
 id: ken-kato
 title: Ken Kato
-image: ken-kato-headshot.jpg
+image: /assets/images/fellows/2020/ken-kato-headshot.jpg
 fellow_year: 2020
 project: ["navy-disc"]
 agency: ["Navy"]

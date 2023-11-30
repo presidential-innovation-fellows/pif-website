@@ -1,7 +1,7 @@
 ---
 id: brandy-thomas
 title: Brandy Thomas
-image: brandy-thomas-headshot.jpg
+image: /assets/images/fellows/2021/brandy-thomas-headshot.jpg
 fellow_year: 2021
 project: ["navy-disc"]
 agency: ["Navy"]

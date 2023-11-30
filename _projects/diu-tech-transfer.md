@@ -2,7 +2,7 @@
 id: defense-innovation
 agency: "Defense Innovation Unit"
 agency_abbrev: "DIU"
-agency_logo: "DIU.png"
+agency_logo: "/assets/images/agencies/DIU.png"
 title: "Exploring China's Technology Transfer Strategy"
 summary: "Exploring China’s participation in U.S. venture deals and the passing of the Foreign Investment Risk Review Modernization Act of 2018 (FIRRMA)!"
 cover_art: "diux-case-study.jpg"

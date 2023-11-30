@@ -1,7 +1,7 @@
 ---
 id: robert-sosinski
 title: Robert Sosinski
-image: robert-sosinski-headshot.png
+image: /assets/images/fellows/2014/robert-sosinski-headshot.png
 fellow_year: 2014
 project: []
 agency: []

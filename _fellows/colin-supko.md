@@ -1,7 +1,7 @@
 ---
 id: colin-supko
 title: Colin Supko
-image: colin-supko-headshot.jpg
+image: /assets/images/fellows/2021/colin-supko-headshot.jpg
 fellow_year: 2021
 project: []
 agency: ["DOD"]

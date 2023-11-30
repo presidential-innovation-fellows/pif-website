@@ -1,7 +1,7 @@
 ---
 id: raphael-villas
 title: Raphael Villas
-image: raphael-villas-headshot.png
+image: /assets/images/fellows/2013/raphael-villas-headshot.png
 fellow_year: 2013
 project: []
 agency: []

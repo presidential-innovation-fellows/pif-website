@@ -1,7 +1,7 @@
 ---
 id: john-trobough
 title: John Trobough
-image: john-trobough-headshot.jpg
+image: /assets/images/fellows/2016/john-trobough-headshot.jpg
 fellow_year: 2016
 project: []
 agency: []

@@ -2,7 +2,7 @@
 id: fda-cio
 agency: "Food and Drug Administration"
 agency_abbrev: "FDA"
-agency_logo: "FDA.png"
+agency_logo: "/assets/images/agencies/FDA.png"
 title: "Enabling more efficient and seamless regulatory review processes"
 summary: "Identifying, developing, and deploying technology products that allow the Agency to operate at the accelerating pace of medical product development and regulation."
 project_challenge: "How can the FDA keep up with the accelerating pace of medical product development and regulation?"

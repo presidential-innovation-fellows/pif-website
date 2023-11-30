@@ -1,7 +1,7 @@
 ---
 id: adam-drake
 title: Adam Drake
-image: adam-drake-headshot.jpg
+image: /assets/images/fellows/2019/adam-drake-headshot.jpg
 fellow_year: 2019
 project: ["usmc-logistics"]
 agency: ["USMC"]

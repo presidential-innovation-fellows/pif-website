@@ -2,7 +2,7 @@
 id: usagm-reaching-new-global-audiences
 agency: "U.S. Agency for Global Media"
 agency_abbrev: "USAGM"
-agency_logo: "USAGM.png"
+agency_logo: "/assets/images/agencies/USAGM.png"
 title: "U.S. Agency for Global Media"
 summary: "Assisting the U.S. Agency for Global Media with employing innovative data-driven techniques in reaching new global audiences"
 cover_art: ""

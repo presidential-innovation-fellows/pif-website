@@ -1,7 +1,7 @@
 ---
 id: jason-shen
 title: Jason Shen
-image: jason-shen-headshot.png
+image: /assets/images/fellows/2013/jason-shen-headshot.png
 fellow_year: 2013
 project: []
 agency: []

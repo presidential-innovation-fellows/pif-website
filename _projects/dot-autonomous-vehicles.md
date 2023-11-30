@@ -2,7 +2,7 @@
 id: dot-autonomous-vehicles
 agency: "Department of Transportation"
 agency_abbrev: "DOT"
-agency_logo: "DOT.png"
+agency_logo: "/assets/images/agencies/DOT.png"
 title: "Developing open-source technology to improve autonomous vehicle safety, efficiency and mobility"
 summary: "Helping DOT ensure system-wide cybersecurity and adapt to the challenges and opportunities that autonomous vehicles and aerial systems offer"
 cover_art: "dot_home.jpg"

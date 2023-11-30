@@ -1,7 +1,7 @@
 ---
 id: kevin-luo
 title: Kevin Luo
-image: kevin-luo-headshot.jpg
+image: /assets/images/fellows/2022/kevin-luo-headshot.jpg
 fellow_year: 2022
 project: ["fema-region-9"]
 agency: ["FEMA"]

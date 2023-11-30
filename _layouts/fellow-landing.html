@@ -47,7 +47,7 @@ layout: default
 {% include_cached quote.html image="quotes/jacqueline_kazil.jpg" quote="PIFdom is about having the opportunity to have an impact on every American." name="Jacqueline  Kazil, 2013 PIF, detailed to the Federal Emergency Management Agency (FEMA)" %}
 
 <!-- vendor search script -->
-{% asset simple_jekyll_search.js %}
+<script src="simple_jekyll_search.js"></script>
 
 <!-- search -->
 <script type="text/javascript">
@@ -62,8 +62,8 @@ layout: default
           "image_path" : "{% asset '{{ fellow.image }}' @path %}",
           // "specialty" : "{{ fellow.skills | first | escape }}",
           "specialty" : "{% assign fellow_skills = site.data.fellow-specialties | where_exp:'skill', 'fellow.tags contains skill.url_name' %}{% for skill in fellow_skills %}{% if forloop.first %}<ul>{% endif %}<li><span class='{{ skill.url_name }}'>{{ skill.display_name }}</span>{% if forloop.last %}</ul>{% endif %}{% endfor %}",
-          "linkedin": "{% if fellow.linkedin %}<span class='fellow-card--linkedin'><a href={{ fellow.linkedin }}><img src={% asset 'icons/linkedin-blue.svg' @path %} alt='{{ fellow.title}} on LinkedIn'/></a>{% else %}</span>{% endif %}",
-          "twitter": "{% if fellow.twitter %}<span class='fellow-card--twitter'><a href={{ fellow.twitter }}><img src={% asset 'icons/twitter.svg' @path %} alt='{{ fellow.title }} on Twitter' /></a>{% else %}</span>{% endif %}",
+          "linkedin": "{% if fellow.linkedin %}<span class='fellow-card--linkedin'><a href={{ fellow.linkedin }}><img src='{{site.baseurl}}/assets/images/icons/linkedin-blue.svg' alt='{{ fellow.title}} on LinkedIn'/></a>{% else %}</span>{% endif %}",
+          "twitter": "{% if fellow.twitter %}<span class='fellow-card--twitter'><a href={{ fellow.twitter }}><img src='{{site.baseurl}}/assets/images/icons/twitter.svg' alt='{{ fellow.title }} on Twitter' /></a>{% else %}</span>{% endif %}",
           "fellow_year": "{{ fellow.fellow_year }}"
         } {% unless forloop.last %},{% endunless %}
       {% endfor %}]
@@ -79,4 +79,4 @@ layout: default
   const siteBaseurl = "{{ site.baseurl }}";
 </script>
 
-{% asset filters.js %}
+<script src="filters.js"></script>

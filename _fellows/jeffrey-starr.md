@@ -1,7 +1,7 @@
 ---
 id: jeffrey-starr
 title: Jeffrey Starr
-image: jeffrey-starr-headshot.jpg
+image: /assets/images/fellows/2018/jeffrey-starr-headshot.jpg
 fellow_year: 2018
 project: ["dot-autonomous-vehicles"]
 agency: ["DOT"]

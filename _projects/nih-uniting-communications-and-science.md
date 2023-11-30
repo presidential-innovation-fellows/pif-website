@@ -2,7 +2,7 @@
 id: nih-uniting-communications-and-science
 agency: "National Institutes of Health"
 agency_abbrev: "the NIH <em>All of Us</em> Research Program"
-agency_logo: "NIH.png"
+agency_logo: "/assets/images/agencies/NIH.png"
 cover_art: "nih-uniting-communications-and-science.jpg"
 title: "Uniting communications and science to increase diverse representation in precision medicine research"
 summary: "Presidential Innovation Fellows (PIF) leveraged their expertise across marketing and data to help launch unprecedented health research initiatives."

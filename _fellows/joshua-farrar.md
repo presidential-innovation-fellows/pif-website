@@ -1,7 +1,7 @@
 ---
 id: joshua-farrar
 title: Joshua Farrar
-image: joshua-farrar-headshot.jpg
+image: /assets/images/fellows/2020/joshua-farrar-headshot.jpg
 fellow_year: 2020
 project: ["va-orm"]
 agency: ["VA"]

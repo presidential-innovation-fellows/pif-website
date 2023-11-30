@@ -1,7 +1,7 @@
 ---
 id: emily-nichole-white
 title: Emily White
-image: emily-nichole-white-headshot.png
+image: /assets/images/fellows/2023/emily-nichole-white-headshot.png
 fellow_year: 2023
 project: []
 agency: ["GSA"]

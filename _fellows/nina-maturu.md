@@ -1,7 +1,7 @@
 ---
 id: nina-maturu
 title: Nina Maturu
-image: nina-maturu-headshot.jpeg
+image: /assets/images/fellows/2023/nina-maturu-headshot.jpeg
 fellow_year: 2023
 project: []
 agency: ["ARPA-H"]

@@ -2,7 +2,7 @@
 id: nga-hd
 agency: "National Geospatial-Intelligence Agency"
 agency_abbrev: "NGA"
-agency_logo: "NGA.png"
+agency_logo: "/assets/images/agencies/NGA.png"
 title: "Facilitating culture change across the National Geospatial-Intelligence Agency"
 summary: "NGA’s Human Development Directorate through strategic and collective partnerships, creates, leads and sustains a dynamic human capital system that is in alignment with the Agency’s culture and business strategy.  We design and implement policies and programs to attract, support, develop and retain a diverse and highly capable workforce.  We provide advice, consultation and a positive influence on the execution of human capital programs to leverage human talent and knowledge to its fullest potential."
 project_challenge: "How can we help NGA create a culture plan that will facilitate the achievement of agency strategic goals?"

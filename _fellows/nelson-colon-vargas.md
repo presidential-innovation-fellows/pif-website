@@ -1,7 +1,7 @@
 ---
 id: nelson-colon-vargas
 title: Nelson A. Colón Vargas
-image: nelson-colon-vargas-headshot.jpg
+image: /assets/images/fellows/2019/nelson-colon-vargas-headshot.jpg
 fellow_year: 2019
 project: ["va-cto","va-using-machine-learning-to-deliver-veterans-benefits-faster"]
 agency: ["VA"]

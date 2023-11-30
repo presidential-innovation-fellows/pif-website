@@ -2,7 +2,7 @@
 id: hhs-accelerating-telehealth-awareness-and-adoption
 agency: "Health and Human Services"
 agency_abbrev: "the project"
-agency_logo: "HHS.png"
+agency_logo: "/assets/images/agencies/HHS.png"
 title: "Accelerating telehealth awareness and adoption during the COVID-19 pandemic"
 summary: "Co-creating a cross-agency initiative to address challenges seen in adopting telehealth and serve 1M+ health care providers and 300M+ patients across the U.S."
 cover_art: "hhs-telehealth-case-study.png"

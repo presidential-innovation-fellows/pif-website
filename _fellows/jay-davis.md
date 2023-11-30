@@ -1,7 +1,7 @@
 ---
 id: jay-davis
 title: Jay Davis
-image: jay-davis-headshot.jpg
+image: /assets/images/fellows/2022/jay-davis-headshot.jpg
 fellow_year: 2022
 project: ["dot-equitable-and-efficient-infrastructure"]
 agency: ["DOT"]

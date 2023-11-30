@@ -2,7 +2,7 @@
 id: onc-blue-button-initiative
 agency: "Office of the National Coordinator for Health Information Technology"
 agency_abbrev: "ONC"
-agency_logo: "ONC.png"
+agency_logo: "/assets/images/agencies/ONC.png"
 title: "Blue Button Initiative"
 summary: "Increasing Americans' access to their own health information electronically"
 cover_art: "health-tech-cover-art.jpg"

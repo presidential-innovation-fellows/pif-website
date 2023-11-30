@@ -1,7 +1,7 @@
 ---
 id: kimberly-mcmanus
 title: Kimberly McManus
-image: kimberly-mcmanus-headshot.jpg
+image: /assets/images/fellows/2021/kimberly-mcmanus-headshot.jpg
 fellow_year: 2021
 project: ["va-cto"]
 agency: ["VA"]

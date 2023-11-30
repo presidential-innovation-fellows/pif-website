@@ -1,7 +1,7 @@
 ---
 id: katherine-hillenbrand
 title: Katherine Hillenbrand
-image: katherine-hillenbrand-headshot.jpg
+image: /assets/images/fellows/2023/katherine-hillenbrand-headshot.jpg
 fellow_year: 2023
 project: []
 agency: ["USDA"]

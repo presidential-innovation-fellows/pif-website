@@ -1,7 +1,7 @@
 ---
 id: kate-mccall-kiley
 title: Kate McCall-Kiley
-image: kate-mccall-kiley-headshot.jpg
+image: /assets/images/fellows/2015/kate-mccall-kiley-headshot.jpg
 fellow_year: 2015
 project: []
 agency: []

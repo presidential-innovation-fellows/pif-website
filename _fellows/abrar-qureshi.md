@@ -1,7 +1,7 @@
 ---
 id: abrar-qureshi
 title: Abrar Qureshi
-image: abrar-qureshi-headshot.jpg
+image: /assets/images/fellows/2021/abrar-qureshi-headshot.jpg
 fellow_year: 2021
 project: ["usmc-logistics"]
 agency: ["USMC"]

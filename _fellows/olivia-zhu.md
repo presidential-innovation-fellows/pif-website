@@ -1,7 +1,7 @@
 ---
 id: olivia-zhu
 title: Olivia Zhu
-image: olivia-zhu-headshot.jpeg
+image: /assets/images/fellows/2022/olivia-zhu-headshot.jpeg
 fellow_year: 2022
 project: []
 agency: ["OMB"]

@@ -2,7 +2,7 @@
 id: fda-precert
 agency: "Food and Drug Administration"
 agency_abbrev: "FDA"
-agency_logo: "FDA.png"
+agency_logo: "/assets/images/agencies/FDA.png"
 title: "Informing the FDA's digital health pre-cert program"
 summary: "Helping FDA provide more streamlined and efficient regulatory oversight of software-based medical devices"
 cover_art: ""

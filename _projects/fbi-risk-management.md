@@ -2,7 +2,7 @@
 id: fbi-risk-management
 agency: "Federal Bureau of Investigation"
 agency_abbrev: "FBI"
-agency_logo: "FBI.png"
+agency_logo: "/assets/images/agencies/FBI.png"
 title: "Risk management at the FBI"
 summary: "Defining an Ecosystem to Help the Private Sector Manage Risk and Mitigate Threats"
 cover_art: "computer-background.jpg"

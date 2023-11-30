@@ -1,7 +1,7 @@
 ---
 id: adam-becker
 title: Adam Becker
-image: adam-becker-headshot.png
+image: /assets/images/fellows/2012/adam-becker-headshot.png
 fellow_year: 2012
 project: []
 agency: []

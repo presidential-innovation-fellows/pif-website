@@ -1,7 +1,7 @@
 ---
 id: carlos-roque
 title: Carlos Roqué
-image: carlos-roque-headshot.jpg
+image: /assets/images/fellows/2021/carlos-roque-headshot.jpg
 fellow_year: 2021
 project: ["nga-cto"]
 agency: ["NGA"]

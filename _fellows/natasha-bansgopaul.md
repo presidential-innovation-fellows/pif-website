@@ -1,7 +1,7 @@
 ---
 id: natasha-bansgopaul
 title: Natasha Bansgopaul
-image: natasha-bansgopaul-headshot.jpg
+image: /assets/images/fellows/2021/natasha-bansgopaul-headshot.jpg
 fellow_year: 2021
 project: []
 agency: ["NIST"]
