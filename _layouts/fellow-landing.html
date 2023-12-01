@@ -59,7 +59,7 @@ layout: default
           "url"      : "{{ site.baseurl }}{{ fellow.url }}",
           "date"     : "{{ fellow.date }}",
           "content"  : "{{ fellow.bio_short | strip_html | strip_newlines | remove_chars | escape }}",
-          "image_path" : "{% asset '{{ fellow.image }}' @path %}",
+          "image_path" : "{{site.baseurl}}{{ fellow.image }}",
           // "specialty" : "{{ fellow.skills | first | escape }}",
           "specialty" : "{% assign fellow_skills = site.data.fellow-specialties | where_exp:'skill', 'fellow.tags contains skill.url_name' %}{% for skill in fellow_skills %}{% if forloop.first %}<ul>{% endif %}<li><span class='{{ skill.url_name }}'>{{ skill.display_name }}</span>{% if forloop.last %}</ul>{% endif %}{% endfor %}",
           "linkedin": "{% if fellow.linkedin %}<span class='fellow-card--linkedin'><a href={{ fellow.linkedin }}><img src='{{site.baseurl}}/assets/images/icons/linkedin-blue.svg' alt='{{ fellow.title}} on LinkedIn'/></a>{% else %}</span>{% endif %}",

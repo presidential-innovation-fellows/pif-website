@@ -27,7 +27,7 @@ CCPS is the first machine learning API the VA implemented. The tool reads what a
 <h2 class="text-primary text-no-italic" id="the-impact">The <em>impact</em></h2>
 
 <div class="usa-image-block float-right width-15 padding-bottom-1 padding-left-1">
-  {% asset "va-cto-chart-claims.png" class="" alt="Chart showing total claims established without manual intervention in June 2019 (6.9%) versus June 2020 (40.5%)" %}
+  <img src="{{site.baseurl}}/assets/images/projects/va-cto-chart-claims.png" class="" alt="Chart showing total claims established without manual intervention in June 2019 (6.9%) versus June 2020 (40.5%)"/>
 </div>
 
 This API has processed over 400K claims automatically without needing human intervention, a <strong>24x increase that has saved $1.5M in direct labor cost</strong>. The VA CTO team is now scaling this technology in new products and services.

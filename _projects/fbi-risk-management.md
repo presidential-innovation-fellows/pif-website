@@ -39,4 +39,4 @@ redirect_from:
 
 In just six months, a team of Fellows developed and launched an end-to-end solution for creating digital records for historic files. Through crowdsourcing transcriptions, the project has engaged thousands of volunteers who have helped to transcribe and review historic and scientific records, making them easily accessible to the public for the first time.
 
-{% asset "ciso-pif-evanta.jpg" class="" title="PIFs preparing for Chief Information Security Officer (CISO) conference in Los Angeles" alt="image of PIFs preparing for Chief Information Security Officer (CISO) conference in Los Angeles" %}
+<img src="{{site.baseurl}}/assets/images/projects/ciso-pif-evanta.jpg" class="" title="PIFs preparing for Chief Information Security Officer (CISO) conference in Los Angeles" alt="image of PIFs preparing for Chief Information Security Officer (CISO) conference in Los Angeles"/>

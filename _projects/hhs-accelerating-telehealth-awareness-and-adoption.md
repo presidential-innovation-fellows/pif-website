@@ -23,19 +23,19 @@ However, policy changes information and the impact on the public was not central
 Early user research indicated that healthcare providers and patients needed a central government resource that provided up-to-date guidance on how to take advantage of the latest tools and information. This was particularly imperative to providers with fewer administrative resources, such as small-practice physicians. To address this challenge and expand telehealth capacity to meet the spike in demand for safe virtual care, Presidential Innovation Fellows (PIF) led the development and launch of <a href="https://telehealth.hhs.gov/">Telehealth.HHS.gov</a>, a government website that aims to increase the adoption of telehealth at a time when it is essential to protect the public by providing helpful information about telemedicine in plain language, and links to tools and resources for health care providers.
 
 <div class="usa-image-block">
-  {% asset "hhs-telehealth-website.png" class="" alt="Screenshot of telehealth.hhs.gov" %}
+  <img src="{{site.baseurl}}/assets/images/projects/hhs-telehealth-website.png" class="" alt="Screenshot of telehealth.hhs.gov" />
 </div>
 
 PIF Likhitha Patha was detailed to Health Resources and Services Administration (HRSA) within the U.S. Department of Health and Human Services (HHS) to lead this cross-agency initiative. She drove product strategy and engineering development and managed a lean team of developers, designers, and user researchers. In order to create a beautiful and modern website, they leveraged the <a href="https://designsystem.digital.gov/">U.S. Web Design System (USWDS)</a> to easily adopt the latest web design standards.
 
 <div class="usa-image-block">
-  {% asset "hhs-telehealth-likhitha-patha.jpg" class="" alt="Photo of Likhitha Patha" %}
+ <img src="{{site.baseurl}}/assets/images/projects/hhs-telehealth-likhitha-patha.jpg" class="" alt="Photo of Likhitha Patha"/>
 </div>
 
 PIF Dennis Chornenky was detailed to the White House Office of Science and Technology Policy (OSTP) as an AI policy advisor.  In response to COVID-19, he leveraged his healthcare and epidemiology background to take on the additional role of a telehealth policy lead.  Working with OSTP colleagues, he helped to bring together leaders and subject-matter experts from HHS, HRSA, Federal Emergency Management Agency (FEMA), and the Office of the Assistant Secretary for Preparedness and Response (ASPR) to identify opportunities and challenges for telehealth, formulate and advance policy perspectives, and build support for the website project.
 
 <div class="usa-image-block">
-  {% asset "hhs-telehealth-dennis-chornenky.jpg" class="" alt="Photo of Dennis Chornenky" %}
+  <img src="{{site.baseurl}}/assets/images/projects/hhs-telehealth-dennis-chornenky.jpg" class="" alt="Photo of Dennis Chornenky"/>
 </div>
 
 Communicating with our public servants and our people is critical in times of crisis. PIF also worked with the Office of the Surgeon General and OSTP to create a <a href="https://www.hhs.gov/blog/2020/04/22/health-providers-join-the-telehealth-revolution.html">call to service</a> for physicians to coincide with the site launch. The call ensured doctors could get the Surgeon General’s message on social media and the HHS blog, go to the site, and get resources to set up their practices for telemedicine. They could also sign up quickly with telehealth platforms to expand the supply of telehealth providers.
