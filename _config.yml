@@ -213,3 +213,21 @@ exclude:
 #     - "> 2%"
 #     - IE 11
 #     - not dead
+
+autoprefixer:
+  browsers:
+    - "> 2%"
+    - "last 2 versions"
+    - "IE 11"
+    - "not dead"
+
+sass:
+  source_dir: _sass
+  load_paths:
+    - node_modules/uswds/dist/img
+    - node_modules/uswds/dist/js
+    - node_modules/uswds/dist/scss
+  sourcemap: development
+  quiet_deps: true
+  style: compressed
+  verbose: true
