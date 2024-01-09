@@ -26,7 +26,7 @@ url: "https://presidentialinnovationfellows.gov" # the base hostname & protocol 
 
 apply_now: false 
 application_updates: false 
-ai_eo: true
+ai_eo: false
 
 # Twitter handle. Only the handle, not the URL.
 twitter: pifgov
