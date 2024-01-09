@@ -5,7 +5,7 @@ agency_abbrev: "ONC"
 agency_logo: "/assets/images/agencies/ONC.png"
 title: "Blue Button Initiative"
 summary: "Increasing Americans' access to their own health information electronically"
-cover_art: "health-tech-cover-art.jpg"
+cover_art: "/assets/images/projects/health-tech-cover-art.jpg"
 project_challenge: "Increase the transparency and access to their health information, in order to make more informed decisions about their health, care for their family members, and share information with their providers"
 partner_description: "The Office of the National Coordinator for Health Information Technology (ONC) is a staff division of the Office of the Secretary, within the U.S. Department of Health and Human Services. ONC leads national health IT efforts, charged as the principal federal entity to coordinate nationwide efforts to implement and use the most advanced health information technology and the electronic exchange of health information"
 project_link: https://www.healthit.gov/topic/patient-access-information-individuals-get-it-check-it-use-it/blue-button

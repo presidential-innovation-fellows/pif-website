@@ -5,7 +5,7 @@ agency_abbrev: "DOT"
 agency_logo: "/assets/images/agencies/DOT.png"
 title: "Ensuring our nation's future infrastructure is equitable and efficient"
 summary: "Connecting strategy, design, and public needs to lead the implementation of an equity assessment and the creation of a platform to address the historic failure to invest sufficiently, justly and equally in underserved communities."
-cover_art: "dot_home.jpg"
+cover_art: "/assets/images/projects/dot_home.jpg"
 project_challenge: "With myriad new and emerging technologies poised to transform the way we move, how can PIFs help ensure our country’s current and future transportation systems are equitable and efficient?"
 partner_description: "The U.S. Department of Transportation’s (DOT) mission is to ensure America has the safest, most efficient and modern transportation system in the world, which boosts our economic productivity and global competitiveness and enhances the quality of life in communities both rural and urban.
 

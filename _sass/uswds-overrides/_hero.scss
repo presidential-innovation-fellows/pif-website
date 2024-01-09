@@ -1,0 +1,93 @@
+.usa-hero {
+  background-image: url("/assets/images/banners/highlight-fellows-nasa-bw--cropped.jpg");
+  background-position: 50% 25%;
+  background-size: cover;
+  padding: 0;
+  overflow: hidden;
+  @include overlay-base(550px);
+  @include at-media("tablet") {
+    background-size: 100%;
+  }
+}
+
+// These are custom classes for the overlay
+.usa-hero__overlay {
+  @include image-overlay;
+}
+.usa-hero__overlay--bicolor-left {
+  @include image-overlay-bicolor-left;
+}
+.usa-hero__overlay--bicolor-right {
+  @include image-overlay-bicolor-right;
+}
+.usa-hero__overlay-content {
+  @include content-overlay;
+}
+// end custom classes for the overlay
+
+.usa-hero__callout {
+  background-color: transparent;
+  max-width: 40rem;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 4rem;
+  h1,p {
+    color: white;
+  }
+  h2 {
+    @include u-font('serif', '2xl'); // 40px
+    @include u-text('light');
+    color: #d4e5ff;
+    margin-top: 1rem;
+  }
+}
+
+.usa-hero__textlink {
+  @include text-links;
+  color: white;
+  font-style: italic;
+}
+
+@mixin hero-short {
+  background-size: cover;
+  height: 150px;
+  @include at-media("tablet") {
+    height: 350px;
+  }
+}
+
+.usa-hero.usa-hero--short {
+  @include hero-short;
+}
+
+.home .usa-hero {
+  @include hero-short;
+  background-image: url("/assets/images/banners/hero-pif.jpg");
+}
+.about .usa-hero {
+  @include hero-short;
+  background-image: url("/assets/images/banners/banner-design-users-bw.jpg");
+  background-position: center right 15%;
+}
+.fellows .usa-hero {
+  @include hero-short;
+  background-image: url("/assets/images/banners/banner-homecoming-eeob-bw.jpg");
+}
+.agencies .usa-hero {
+  @include hero-short;
+  background-image: url("/assets/images/banners/banner-orientation-acq-bw.jpg");
+  background-position: center right 15%;
+}
+.apply .usa-hero {
+  @include hero-short;
+  background-image: url("/assets/images/banners/banner-apply-bw.jpeg");
+}
+.usa-hero.project {
+  @include hero-short;
+  background-image: url("/assets/images/banners/banner-orientation-eeob-bw.jpg");
+  background-position: top left 15%;
+}
+.usa-hero.faq {
+  @include hero-short;
+  background-position: 0px 45%;
+}

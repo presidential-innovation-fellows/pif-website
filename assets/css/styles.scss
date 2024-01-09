@@ -1,0 +1,129 @@
+---
+---
+// https://jekyllrb.com/docs/assets/
+/*
+* * * * * ==============================
+* * * * * ==============================
+* * * * * ==============================
+* * * * * ==============================
+========================================
+========================================
+========================================
+*/
+
+// -------------------------------------
+// Import individual theme settings
+@import "theme/uswds-theme-general";
+@import "theme/uswds-theme-typography";
+@import "theme/uswds-theme-spacing";
+@import "theme/uswds-theme-color";
+@import "theme/uswds-theme-utilities";
+@import "theme/uswds-theme-components";
+
+// Set correct paths for use with asset pipeline
+$theme-font-path: "../uswds/fonts";
+$theme-image-path: "../uswds/img";
+
+// -------------------------------------
+// Import individual USWDS packages...
+@import "scss/packages/required";
+@import "scss/packages/global";
+
+@import "scss/packages/uswds-components";
+@import "scss/packages/uswds-utilities";
+
+/*
+----------------------------------------
+USWDS THEME CUSTOM STYLES
+----------------------------------------
+!! Copy this file to your project's
+   sass root. Don't edit the version
+   in node_modules.
+----------------------------------------
+Custom project SASS goes here.
+
+i.e.
+@include u-padding-right('05');
+----------------------------------------
+*/
+
+@import "uswds-settings";
+
+// Import the US Web Design System SASS.
+@import "uswds";
+
+// Custom Mixins
+@import "mixins";
+
+// Custom Utilities
+@import "utilities";
+
+// USWDS Overrides
+@import "uswds-overrides/button";
+@import "uswds-overrides/nav";
+@import "uswds-overrides/intro";
+@import "uswds-overrides/hero";
+@import "uswds-overrides/list";
+@import "uswds-overrides/graphic-list";
+@import "uswds-overrides/social-link";
+@import "uswds-overrides/footer";
+@import "uswds-overrides/section";
+@import "uswds-overrides/logo";
+@import "uswds-overrides/menu";
+@import "uswds-overrides/banner";
+@import "uswds-overrides/form";
+
+// Search.gov override
+@import "searchgov/form";
+
+// Custom Styles
+@import "custom/anchor";
+@import "custom/pagination";
+@import "custom/breadcrumb";
+@import "custom/project";
+@import "custom/image";
+@import "custom/partner";
+@import "custom/project-item";
+@import "custom/list-fellows";
+@import "custom/site-card";
+@import "custom/work-box";
+@import "custom/typography";
+@import "custom/quote";
+@import "custom/footer-tagline";
+@import "custom/skipnav";
+@import "custom/story";
+@import "custom/project-team";
+@import "custom/filters";
+
+
+// default mode hide banner
+.usa-banner__content {
+  display: hidden;
+}
+
+@media screen and (min-width: 640px) {
+  .tablet\:width-1\/3 {
+    width: 33%;
+  }
+  .tablet\:float-left {
+    float: left;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .paginate-link {
+    display: initial;
+  }
+  .paginate-button {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .paginate-link {
+    display: none;
+  }
+  .paginate-button {
+    display: block;
+  }
+}

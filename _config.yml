@@ -224,6 +224,27 @@ autoprefixer:
 sass:
   source_dir: _sass
   load_paths:
+    - assets/favicons
+    - assets/images
+    - assets/images/agencies
+    - assets/images/banners
+    - assets/images/fellows/2012
+    - assets/images/fellows/2013
+    - assets/images/fellows/2014
+    - assets/images/fellows/2015
+    - assets/images/fellows/2016
+    - assets/images/fellows/2017
+    - assets/images/fellows/2018
+    - assets/images/fellows/2019
+    - assets/images/fellows/2020
+    - assets/images/fellows/2021
+    - assets/images/fellows/2022
+    - assets/images/fellows/2023
+    - assets/images/press
+    - assets/images/projects
+    - assets/images/icons
+    - assets/images/logo
+    - node_modules/uswds/dist/
     - node_modules/uswds/dist/img
     - node_modules/uswds/dist/js
     - node_modules/uswds/dist/scss

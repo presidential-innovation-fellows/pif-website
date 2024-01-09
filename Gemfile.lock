@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.8.5)
+    addressable (2.8.6)
       public_suffix (>= 2.0.2, < 6.0)
     autoprefixer-rails (9.8.6.5)
       execjs
@@ -27,7 +27,7 @@ GEM
     http_parser.rb (0.8.0)
     i18n (1.14.1)
       concurrent-ruby (~> 1.0)
-    jekyll (3.9.3)
+    jekyll (3.9.4)
       addressable (~> 2.4)
       colorator (~> 1.0)
       em-websocket (~> 0.5)
@@ -62,19 +62,17 @@ GEM
       rexml
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
-    libv8-node (18.16.0.0)
+    libv8-node (18.16.0.0-arm64-darwin)
     liquid (4.0.4)
     listen (3.8.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.3.6)
-    mini_portile2 (2.8.5)
     mini_racer (0.8.0)
       libv8-node (~> 18.16.0.0)
-    nokogiri (1.15.5)
-      mini_portile2 (~> 2.8.2)
+    nokogiri (1.16.0-arm64-darwin)
       racc (~> 1.4)
-    parallel (1.23.0)
+    parallel (1.24.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (5.0.4)
@@ -101,7 +99,7 @@ GEM
     yell (2.2.2)
 
 PLATFORMS
-  ruby
+  arm64-darwin
 
 DEPENDENCIES
   html-proofer (~> 3.18)
@@ -123,4 +121,4 @@ RUBY VERSION
    ruby 3.1.4p223
 
 BUNDLED WITH
-   2.4.19
+   2.5.1
