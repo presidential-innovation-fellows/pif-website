@@ -1,7 +1,7 @@
 ---
 id: joy-whitt
 title: Joy Whitt
-image: joy-whitt-headshot.jpg
+image: /assets/images/fellows/2019/joy-whitt-headshot.jpg
 fellow_year: 2019
 project: ["va-cto","doj-crt"]
 agency: ["VA","DOJ"]

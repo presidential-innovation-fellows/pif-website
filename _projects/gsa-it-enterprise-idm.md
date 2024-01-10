@@ -2,7 +2,7 @@
 id: gsa-it-enterprise-idm
 agency: "General Services Administration"
 agency_abbrev: "GSA"
-agency_logo: "GSA.png"
+agency_logo: "/assets/images/agencies/GSA.png"
 title: "Improving data strategy and data management efforts at the General Services Administration"
 summary: "Advising GSA on data strategy and data management, as well as providing analytical and evaluative expertise to ensure data programs are coordinated, comprehensive and strategic."
 project_challenge: "How might we help GSA IT improve their data strategy and data management efforts?"

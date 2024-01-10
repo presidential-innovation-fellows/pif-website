@@ -1,7 +1,7 @@
 ---
 id: justin-grevich
 title: Justin Grevich
-image: justin-grevich-headshot.png
+image: /assets/images/fellows/2013/justin-grevich-headshot.png
 fellow_year: 2013
 project: []
 agency: []

@@ -1,7 +1,7 @@
 ---
 id: chris-cairns
 title: Chris Cairns
-image: chris-cairns-headshot.png
+image: /assets/images/fellows/2013/chris-cairns-headshot.png
 fellow_year: 2013
 project: []
 agency: ["Treasury"]

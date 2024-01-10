@@ -2,7 +2,7 @@
 id: nga-cto
 agency: "National Geospatial-Intelligence Agency"
 agency_abbrev: "NGA"
-agency_logo: "NGA.png"
+agency_logo: "/assets/images/agencies/NGA.png"
 title: "Developing and delivering products at National Geospatial-Intelligence Agency"
 summary: "Helping to create a strong product and user experience design culture at NGA"
 project_challenge: "How can we help NGA deliver products and services, as well as help develop a strong product organization within NGA."

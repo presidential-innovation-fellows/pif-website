@@ -21,7 +21,7 @@ layout: default-main
           <div class="grid-row grid-gap">
             <div class="tablet:grid-col-3">
               {% if page.agency_logo %}
-              {% asset "{{ page.agency_logo }}" class="img-circle img-responsive project-image margin-auto" alt="{{ page.name }}" %}
+              <img src="{{site.baseurl}}{{ page.agency_logo }}" class="img-circle img-responsive project-image margin-auto" alt="{{ page.name }}" />
               {% endif %}
             </div>
             <div class="grid-col-9">

@@ -1,7 +1,7 @@
 ---
 id: likhitha-patha
 title: Likhitha Patha
-image: likhitha-patha-headshot.jpg
+image: /assets/images/fellows/2020/likhitha-patha-headshot.jpg
 fellow_year: 2020
 project: []
 agency: ["GSA"]

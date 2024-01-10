@@ -1,7 +1,7 @@
 ---
 id: dain-miller
 title: Dain Miller
-image: dain-miller-headshot.png
+image: /assets/images/fellows/2013/dain-miller-headshot.png
 fellow_year: 2013
 project: []
 agency: []

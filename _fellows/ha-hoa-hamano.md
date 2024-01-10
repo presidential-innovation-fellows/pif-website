@@ -1,7 +1,7 @@
 ---
 id: ha-hoa-hamano
 title: Ha-Hoa Hamano
-image: ha-hoa-hamano-headshot.jpg
+image: /assets/images/fellows/2022/ha-hoa-hamano-headshot.jpg
 fellow_year: 2022
 project: []
 agency: ["NASA"]

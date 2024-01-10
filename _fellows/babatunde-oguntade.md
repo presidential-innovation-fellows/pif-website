@@ -1,7 +1,7 @@
 ---
 id: babatunde-oguntade
 title: Babatunde Oguntade
-image: babatunde-oguntade-headshot.jpg
+image: /assets/images/fellows/2021/babatunde-oguntade-headshot.jpg
 fellow_year: 2021
 project: ["va-cto"]
 agency: ["VA"]

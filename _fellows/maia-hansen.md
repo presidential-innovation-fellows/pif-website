@@ -1,7 +1,7 @@
 ---
 id: maia-hansen
 title: Maia Hansen
-image: maia-hansen-headshot.png
+image: /assets/images/fellows/2014/maia-hansen-headshot.png
 fellow_year: 2014
 project: []
 agency: []

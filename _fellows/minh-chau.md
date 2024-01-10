@@ -1,7 +1,7 @@
 ---
 id: minh-chau
 title: Minh Chau
-image: minh-chau-headshot.jpg
+image: /assets/images/fellows/2020/minh-chau-headshot.jpg
 fellow_year: 2020
 project: ["mcc-fighting-poverty-with-data"]
 agency: ["MCC"]

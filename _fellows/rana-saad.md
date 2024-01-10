@@ -1,7 +1,7 @@
 ---
 id: rana-saad
 title: Rana Saad
-image: rana-saad-headshot.jpg
+image: /assets/images/fellows/2019/rana-saad-headshot.jpg
 fellow_year: 2019
 project: ["fda-precert"]
 agency: ["FDA"]

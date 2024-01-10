@@ -1,7 +1,7 @@
 ---
 id: adrianna-valenti
 title: Adrianna Valenti
-image: adrianna-valenti-headshot.jpg
+image: /assets/images/fellows/2021/adrianna-valenti-headshot.jpg
 fellow_year: 2021
 project: ["dot-its-jpo"]
 agency: ["DOT"]

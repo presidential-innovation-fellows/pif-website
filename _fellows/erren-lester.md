@@ -1,7 +1,7 @@
 ---
 id: erren-lester
 title: Erren Lester
-image: erren-lester-headshot.jpg
+image: /assets/images/fellows/2015/erren-lester-headshot.jpg
 fellow_year: 2015
 project: []
 agency: []

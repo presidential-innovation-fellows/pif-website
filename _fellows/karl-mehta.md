@@ -1,7 +1,7 @@
 ---
 id: karl-mehta
 title: Karl Mehta
-image: karl-mehta-headshot.png
+image: /assets/images/fellows/2012/karl-mehta-headshot.png
 fellow_year: 2012
 project: []
 agency: ["USAID"]

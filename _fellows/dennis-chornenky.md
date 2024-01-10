@@ -1,7 +1,7 @@
 ---
 id: dennis-chornenky
 title: Dennis Chornenky
-image: dennis-chornenky-headshot.jpg
+image: /assets/images/fellows/2020/dennis-chornenky-headshot.jpg
 fellow_year: 2020
 project: []
 agency: ["OSTP"]

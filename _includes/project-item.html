@@ -9,7 +9,7 @@
         </div>
 
         {% if project.cover_art %}
-          <div role="img" class="project-item__image" style="background-image: url({% asset '{{ project.cover_art }}' @path %});" title="{{project.title}}" aria-label="{{ project.agency }}">
+          <div role="img" class="project-item__image" style="background-image: url('{{site.baseurl}}{{ project.cover_art }}');" title="{{project.title}}" aria-label="{{ project.agency }}">
           </div>
         {% endif %}
 
@@ -38,7 +38,7 @@
 
         <div class="project-item__content">
           {% if include.project.agency_logo %}
-            {% asset "{{ include.project.agency_logo }}" alt="{{ include.project.agency }}" class="project-item__logo" width="71" %}
+          <img src="{{site.baseurl}}{{ include.project.agency_logo }}" alt="{{ include.project.agency }}" class="project-item__logo" width="71" />
           {% endif %}
 
           <p class="project-item__title">

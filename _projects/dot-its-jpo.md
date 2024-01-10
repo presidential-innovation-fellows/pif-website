@@ -2,7 +2,7 @@
 id: dot-its-jpo
 agency: "Department of Transportation"
 agency_abbrev: "DOT"
-agency_logo: "DOT.png"
+agency_logo: "/assets/images/agencies/DOT.png"
 title: "Accelerating technology research and implementation that lead to public safety and efficiency"
 summary: "From developing the Department of Transportation's technology strategy and roadmap, to setting up centers of excellence in emerging technology areas, the PIF will be tasked with problem-solving America’s most pressing transportation matters."
 project_challenge: "With myriad emerging technology poised to transform the way Americans move, how can we ensure America’s current and future transportation systems are safe and efficient?"

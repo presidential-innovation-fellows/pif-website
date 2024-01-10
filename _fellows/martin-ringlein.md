@@ -1,7 +1,7 @@
 ---
 id: martin-ringlein
 title: Martin Ringlein
-image: martin-ringlein-headshot.png
+image: /assets/images/fellows/2013/martin-ringlein-headshot.png
 fellow_year: 2013
 project: []
 agency: []

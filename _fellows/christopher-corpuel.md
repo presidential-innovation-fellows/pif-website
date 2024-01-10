@@ -1,7 +1,7 @@
 ---
 id: christopher-corpuel
 title: Christopher Corpuel
-image: christopher-corpuel-headshot.jpg
+image: /assets/images/fellows/2020/christopher-corpuel-headshot.jpg
 fellow_year: 2020
 project: ["va-veo"]
 agency: ["VA"]

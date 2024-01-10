@@ -1,7 +1,7 @@
 ---
 id: antoinette-coleman
 title: Antoinette Coleman
-image: antoinette-coleman-headshot.jpg
+image: /assets/images/fellows/2021/antoinette-coleman-headshot.jpg
 fellow_year: 2021
 project: ["fda-cio"]
 agency: ["FDA"]

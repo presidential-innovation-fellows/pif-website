@@ -2,7 +2,7 @@
 id: gsa-digital-customer-transformation
 agency: "General Services Administration"
 agency_abbrev: "GSA"
-agency_logo: "GSA.png"
+agency_logo: "/assets/images/agencies/GSA.png"
 title: "Digital customer transformation at GSA's Office of Strategic Communications"
 summary: "Helping GSA to create a customer-centric \"portal of portals\" to make it easier for small business to do business with the federal government"
 cover_art: ""

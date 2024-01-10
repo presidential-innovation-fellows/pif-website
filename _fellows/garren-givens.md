@@ -1,7 +1,7 @@
 ---
 id: garren-givens
 title: Garren Givens
-image: garren-givens-headshot.png
+image: /assets/images/fellows/2013/garren-givens-headshot.png
 fellow_year: 2013
 project: []
 agency: []

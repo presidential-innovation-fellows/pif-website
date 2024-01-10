@@ -1,7 +1,7 @@
 ---
 id: jeff-meisel
 title: Jeff Meisel
-image: jeff-meisel-headshot.png
+image: /assets/images/fellows/2014/jeff-meisel-headshot.png
 fellow_year: 2014
 project: []
 agency: []

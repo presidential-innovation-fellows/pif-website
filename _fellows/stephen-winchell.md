@@ -1,7 +1,7 @@
 ---
 id: stephen-winchell
 title: Stephen Winchell
-image: stephen-winchell-headshot.jpg
+image: /assets/images/fellows/2018/stephen-winchell-headshot.jpg
 fellow_year: 2018
 project: []
 agency: []

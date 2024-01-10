@@ -2,7 +2,7 @@
 id: fdic-casib
 agency: "Federal Deposit Insurance Corporation"
 agency_abbrev: "FDIC"
-agency_logo: "FDIC.png"
+agency_logo: "/assets/images/agencies/FDIC.png"
 title: "Enhancing our nation's financial data analytics capabilities"
 summary: "Helping the Federal Deposit Insurance Corporation leverage financial data to better analyze loans, their associated credit risk, and whether or not they meet underwriting standards"
 project_challenge: "How can we help the FDIC partner with startup companies to introduce new and viable technologies suitable for rapid prototyping projects that deliver cutting-edge capabilities for the FDIC and its member banks?"

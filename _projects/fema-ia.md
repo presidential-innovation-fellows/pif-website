@@ -2,7 +2,7 @@
 id: fema-ia
 agency: "Federal Emergency Management Agency"
 agency_abbrev: "FEMA"
-agency_logo: "FEMA.png"
+agency_logo: "/assets/images/agencies/FEMA.png"
 title: "Improving the support experience for disaster survivors"
 summary: "Enabling a learning culture at the Federal Emergency Management Agency (FEMA), empowering FEMA staff with the information they need to best support the needs of disaster survivors, increasing the efficiency of the agency and improving outcomes for citizens."
 project_challenge: "How can we help FEMA's Individual Assistance Division leverage their limited resources to make the biggest impact and ensure the assistance FEMA provides after a disaster is prioritized to meet the most important needs of disaster survivors?"

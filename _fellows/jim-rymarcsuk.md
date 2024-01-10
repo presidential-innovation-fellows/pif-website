@@ -1,7 +1,7 @@
 ---
 id: jim-rymarcsuk
 title: Jim Rymarcsuk
-image: jim-rymarcsuk-headshot.jpg
+image: /assets/images/fellows/2022/jim-rymarcsuk-headshot.jpg
 fellow_year: 2022
 project: ["nga-cto"]
 agency: ["NGA"]

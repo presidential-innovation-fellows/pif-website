@@ -1,7 +1,7 @@
 ---
 id: devin-brande
 title: Devin Brande
-image: devin-brande-headshot.jpg
+image: /assets/images/fellows/2020/devin-brande-headshot.jpg
 fellow_year: 2020
 project: [""]
 agency: ["USSOCOM"]

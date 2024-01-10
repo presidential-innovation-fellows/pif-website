@@ -1,7 +1,7 @@
 ---
 id: raashee-gupta-erry
 title: Raashee Gupta Erry
-image: raashee-gupta-erry-headshot.jpg
+image: /assets/images/fellows/2021/raashee-gupta-erry-headshot.jpg
 fellow_year: 2021
 project: ["ftc-otech"]
 agency: ["FTC"]

@@ -1,7 +1,7 @@
 ---
 id: arunan-skandarajah
 title: Arunan Skandarajah
-image: arunan-skandarajah-headshot.jpg
+image: /assets/images/fellows/2021/arunan-skandarajah-headshot.jpg
 fellow_year: 2021
 project: []
 agency: ["ARPA-H"]

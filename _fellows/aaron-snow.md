@@ -1,7 +1,7 @@
 ---
 id: aaron-snow
 title: Aaron Snow
-image: aaron-snow-headshot.png
+image: /assets/images/fellows/2013/aaron-snow-headshot.png
 fellow_year: 2013
 project: []
 agency: []

@@ -1,7 +1,7 @@
 ---
 id: annie-callahan
 title: Annie Callahan
-image: annie-callahan-headshot.jpeg
+image: /assets/images/fellows/2023/annie-callahan-headshot.jpeg
 fellow_year: 2023
 project: []
 agency: ["EOP"]

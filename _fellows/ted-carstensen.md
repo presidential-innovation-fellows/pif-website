@@ -1,7 +1,7 @@
 ---
 id: ted-carstensen
 title: Ted Carstensen
-image: ted-carstensen-headshot.jpg
+image: /assets/images/fellows/2021/ted-carstensen-headshot.jpg
 fellow_year: 2021
 project: ["cms-oeda"]
 agency: ["CMS"]

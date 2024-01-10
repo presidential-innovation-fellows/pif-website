@@ -1,7 +1,7 @@
 ---
 id: michelle-holko
 title: Michelle Holko
-image: michelle-holko-headshot.jpg
+image: /assets/images/fellows/2020/michelle-holko-headshot.jpg
 fellow_year: 2020
 project: ["nih-all-of-us"]
 agency: ["NIH"]

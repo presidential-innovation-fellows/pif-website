@@ -1,7 +1,7 @@
 ---
 id: scott-gorman
 title: Scott Gorman
-image: scott-gorman-headshot.jpg
+image: /assets/images/fellows/2021/scott-gorman-headshot.jpg
 fellow_year: 2021
 project: []
 agency: ["ARPA-H"]

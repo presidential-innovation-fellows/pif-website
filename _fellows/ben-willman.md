@@ -1,7 +1,7 @@
 ---
 id: ben-willman
 title: Ben Willman
-image: ben-willman-headshot.png
+image: /assets/images/fellows/2013/ben-willman-headshot.png
 fellow_year: 2013
 project: []
 agency: []

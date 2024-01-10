@@ -1,7 +1,7 @@
 ---
 id: yasmin-lalani
 title: Yasmin Lalani
-image: yasmin-lalani-headshot.jpg
+image: /assets/images/fellows/2023/yasmin-lalani-headshot.jpg
 fellow_year: 2023
 project: []
 agency: ["VA"]

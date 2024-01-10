@@ -1,7 +1,7 @@
 ---
 id: robert-ballance
 title: Dr. Robert Ballance
-image: robert-ballance-headshot.jpg
+image: /assets/images/fellows/2016/robert-ballance-headshot.jpg
 fellow_year: 2016
 project: []
 agency: []

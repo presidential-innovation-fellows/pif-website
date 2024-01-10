@@ -1,7 +1,7 @@
 ---
 id: awalin-sopan
 title: Awalin Sopan
-image: awalin-sopan-headshot.jpg
+image: /assets/images/fellows/2022/awalin-sopan-headshot.jpg
 fellow_year: 2022
 project: []
 agency: ["SBA"]

@@ -1,7 +1,7 @@
 ---
 id: lea-shanley
 title: Lea Shanley
-image: lea-shanley-headshot.png
+image: /assets/images/fellows/2014/lea-shanley-headshot.png
 fellow_year: 2014
 project: []
 agency: ["NASA"]

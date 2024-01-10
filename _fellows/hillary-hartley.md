@@ -1,7 +1,7 @@
 ---
 id: hillary-hartley
 title: Hillary Hartley
-image: hillary-hartley-headshot.png
+image: /assets/images/fellows/2013/hillary-hartley-headshot.png
 fellow_year: 2013
 project: []
 agency: []

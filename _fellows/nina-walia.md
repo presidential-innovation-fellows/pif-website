@@ -1,7 +1,7 @@
 ---
 id: nina-walia
 title: Nina Walia
-image: nina-walia-headshot.jpg
+image: /assets/images/fellows/2020/nina-walia-headshot.jpg
 fellow_year: 2020
 project: []
 agency: ["FDA"]

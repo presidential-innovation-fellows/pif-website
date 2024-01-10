@@ -1,7 +1,7 @@
 ---
 id: chris-daggett
 title: Chris Daggett
-image: chris-daggett-headshot.png
+image: /assets/images/fellows/2014/chris-daggett-headshot.png
 fellow_year: 2014
 project: []
 agency: []

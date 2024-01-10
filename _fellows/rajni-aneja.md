@@ -1,7 +1,7 @@
 ---
 id: rajni-aneja
 title: Rajni Aneja, MD MBA CPE
-image: rajni-aneja-headshot.jpg
+image: /assets/images/fellows/2023/rajni-aneja-headshot.jpeg
 fellow_year: 2023
 project: []
 agency: ["VA"]

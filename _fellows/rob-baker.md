@@ -1,7 +1,7 @@
 ---
 id: rob-baker
 title: Rob Baker
-image: rob-baker-headshot.png
+image: /assets/images/fellows/2013/rob-baker-headshot.png
 fellow_year: 2013
 project: []
 agency: []

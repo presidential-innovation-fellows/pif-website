@@ -1,7 +1,7 @@
 ---
 id: olivier-kamanda
 title: Olivier Kamanda
-image: olivier-kamanda-headshot.jpg
+image: /assets/images/fellows/2016/olivier-kamanda-headshot.jpg
 fellow_year: 2016
 project: []
 agency: []
