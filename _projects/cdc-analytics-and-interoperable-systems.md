@@ -22,4 +22,3 @@ Presidential Innovation Fellows working with the CDC will advise, consult, and a
 </ul>
 **---**
 
-Presidential Innovation Fellows working with the CDC will be based in Atlanta, GA.
