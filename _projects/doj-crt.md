@@ -2,7 +2,7 @@
 id: doj-crt
 agency: "Department of Justice"
 agency_abbrev: "DOJ"
-agency_logo: "DOJ.png"
+agency_logo: "/assets/images/agencies/DOJ.png"
 title: "Designing high-impact technology projects that advance civil rights"
 summary: "Help the Civil Rights Division better connect with their intended audiences (both internal and external) and create technology products that advance civil rights. Translate public reports of civil rights violations into actionable insights for our enforcement teams."
 project_challenge: "How can we use design, content strategy, and data science to amplify civil rights-related efforts?"

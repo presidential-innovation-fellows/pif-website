@@ -1,7 +1,7 @@
 ---
 id: john-kemp
 title: John Kemp
-image: john-kemp-headshot.png
+image: /assets/images/fellows/2013/john-kemp-headshot.png
 fellow_year: 2013
 project: []
 agency: []

@@ -2,10 +2,10 @@
 id: nasa-asteroid-grand-challenge
 agency: "NASA"
 agency_abbrev: "NASA"
-agency_logo: "NASA.png"
+agency_logo: "/assets/images/agencies/NASA.png"
 title: "Asteroid Grand Challenge and Citizenscience.gov"
 summary: "Designing and guiding open science and innovation research strategies for Earth and planetary science"
-cover_art: "nasa-challenge-case-study.jpg"
+cover_art: "/assets/images/projects/nasa-challenge-case-study.jpg"
 project_challenge: "Citizen science can augment traditional scientific approaches for collecting and analyzing data for asteroids as well as other fields, but technical, policy and institutional barriers need to be addressed."
 partner_description: "Designing and guiding open science and innovation research strategies for Earth and planetary science"
 project_link: https://nasa.gov

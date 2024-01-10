@@ -1,7 +1,7 @@
 ---
 id: ryan-harrison
 title: Ryan M. Harrison
-image: ryan-harrison-headshot.jpg
+image: /assets/images/fellows/2022/ryan-harrison-headshot.jpg
 fellow_year: 2022
 project: ["cdc-analytics-and-interoperable-systems"]
 agency: ["CDC"]

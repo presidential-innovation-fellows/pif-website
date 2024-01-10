@@ -1,7 +1,7 @@
 ---
 id: aaron-creel
 title: Aaron Creel
-image: aaron-creel-headshot.jpg
+image: /assets/images/fellows/2021/aaron-creel-headshot.jpg
 fellow_year: 2021
 project: ["hhs-oig"]
 agency: ["HHS"]

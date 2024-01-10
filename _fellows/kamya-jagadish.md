@@ -1,7 +1,7 @@
 ---
 id: kamya-jagadish
 title: Kamya Jagadish
-image: kamya-jagadish-headshot.jpg
+image: /assets/images/fellows/2021/kamya-jagadish-headshot.jpg
 fellow_year: 2021
 project: ["dot-its-jpo"]
 agency: ["DOT"]

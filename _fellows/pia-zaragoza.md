@@ -1,7 +1,7 @@
 ---
 id: pia-zaragoza
 title: Pia Zaragoza
-image: pia-zaragoza-headshot.jpg
+image: /assets/images/fellows/2021/pia-zaragoza-headshot.jpg
 fellow_year: 2021
 project: []
 agency: ["DHS"]

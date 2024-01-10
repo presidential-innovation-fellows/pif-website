@@ -1,7 +1,7 @@
 ---
 id: abby-nydam
 title: Abby Nydam 
-image: abby-nydam-headshot.jpeg
+image: /assets/images/fellows/2022/abby-nydam-headshot.jpeg
 fellow_year: 2022
 project: []
 agency: ["EOP"]

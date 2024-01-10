@@ -1,7 +1,7 @@
 ---
 id: irtaza-barlas
 title: Irtaza Barlas
-image: irtaza-barlas-headshot.jpg
+image: /assets/images/fellows/2020/irtaza-barlas-headshot.jpg
 fellow_year: 2020
 project: ["usda-farmers"]
 agency: ["USDA"]

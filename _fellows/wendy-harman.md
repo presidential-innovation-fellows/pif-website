@@ -1,7 +1,7 @@
 ---
 id: wendy-harman
 title: Wendy Harman
-image: wendy-harman-headshot.jpg
+image: /assets/images/fellows/2016/wendy-harman-headshot.jpg
 fellow_year: 2016
 project: []
 agency: []

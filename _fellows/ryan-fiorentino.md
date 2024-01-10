@@ -1,7 +1,7 @@
 ---
 id: ryan-fiorentino
 title: Ryan Fiorentino
-image: ryan-fiorentino-headshot.jpg
+image: /assets/images/fellows/2019/ryan-fiorentino-headshot.jpg
 fellow_year: 2019
 project: []
 agency: ["VA","NASA"]

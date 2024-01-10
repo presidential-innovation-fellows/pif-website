@@ -1,7 +1,7 @@
 ---
 id: ariele-faber
 title: Ariele Faber
-image: ariele-faber-headshot.jpg
+image: /assets/images/fellows/2020/ariele-faber-headshot.jpg
 fellow_year: 2020
 project: []
 agency: []

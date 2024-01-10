@@ -1,7 +1,7 @@
 ---
 id: nadia-fawaz
 title: Nadia Fawaz, Ph.D.
-image: nadia-fawaz-headshot.jpg
+image: /assets/images/fellows/2023/nadia-fawaz-headshot.jpg
 fellow_year: 2023
 project: []
 agency: ["CDC"]

@@ -1,7 +1,7 @@
 ---
 id: bennett-gebken
 title: Bennett Gebken
-image: bennett-gebken-headshot.jpeg
+image: /assets/images/fellows/2022/bennett-gebken-headshot.jpeg
 fellow_year: 2022
 project: []
 agency: ["USAID"]

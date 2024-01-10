@@ -1,7 +1,7 @@
 ---
 id: vivian-lee
 title: Vivian Lee
-image: vivian-lee-headshot.jpg
+image: /assets/images/fellows/2021/vivian-lee-headshot.jpg
 fellow_year: 2021
 project: ["ftc-otech"]
 agency: ["FTC"]

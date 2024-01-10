@@ -1,7 +1,7 @@
 ---
 id: becky-slogeris
 title: Becky Slogeris
-image: becky-slogeris-headshot.jpg
+image: /assets/images/fellows/2022/becky-slogeris-headshot.jpg
 fellow_year: 2022
 project: []
 agency: ["DOJ"]

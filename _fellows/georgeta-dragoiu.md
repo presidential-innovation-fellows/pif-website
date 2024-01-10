@@ -1,7 +1,7 @@
 ---
 id: georgeta-dragoiu
 title: Georgeta Dragoiu
-image: georgeta-dragoiu-headshot.jpg
+image: /assets/images/fellows/2019/georgeta-dragoiu-headshot.jpg
 fellow_year: 2019
 project: ["nih-all-of-us","nih-uniting-communications-and-science"]
 agency: ["NIH"]

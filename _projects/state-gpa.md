@@ -2,7 +2,7 @@
 id: state-gpa
 agency: "Department of State"
 agency_abbrev: "State"
-agency_logo: "State.png"
+agency_logo: "/assets/images/agencies/State.png"
 title: "Developing digital tools and strategies to communicate U.S. foreign policy priorities"
 summary: "Effectively communicate U.S. foreign policy priorities and the importance of diplomacy and better engage foreign publics"
 project_challenge: "How might we help the Department of State develop new digital tools and strategies to more effectively communicate U.S. foreign policy priorities and the importance of diplomacy and better engage foreign publics?"

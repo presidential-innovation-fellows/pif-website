@@ -1,7 +1,7 @@
 ---
 id: kara-defrias
 title: Kara DeFrias
-image: kara-defrias-headshot.png
+image: /assets/images/fellows/2012/kara-defrias-headshot.png
 fellow_year: 2012
 project: []
 agency: []

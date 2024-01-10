@@ -1,7 +1,7 @@
 ---
 id: renata-phillippi
 title: Renata K. Phillippi
-image: renata-phillippi-headshot.jpg
+image: /assets/images/fellows/2022/renata-phillippi-headshot.jpg
 fellow_year: 2022
 project: []
 agency: ["GSA"]

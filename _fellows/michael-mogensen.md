@@ -1,7 +1,7 @@
 ---
 id: michael-mogensen
 title: Michael Mogensen
-image: michael-mogensen-headshot.jpg
+image: /assets/images/fellows/2023/michael-mogensen-headshot.jpg
 fellow_year: 2023
 project: []
 agency: ["MMC"]

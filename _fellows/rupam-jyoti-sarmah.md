@@ -1,7 +1,7 @@
 ---
 id: rupam-jyoti-sarmah
 title: Rupam Jyoti Sarmah, Ph.D.
-image: rupam-jyoti-sarmah-headshot.jpeg
+image: /assets/images/fellows/2023/rupam-jyoti-sarmah-headshot.jpeg
 fellow_year: 2023
 project: []
 agency: ["ARPA-H"]

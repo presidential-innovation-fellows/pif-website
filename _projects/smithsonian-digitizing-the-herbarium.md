@@ -2,10 +2,10 @@
 id: smithsonian-digitizing-the-herbarium
 agency: "Smithsonian Institution"
 agency_abbrev: "Smithsonian"
-agency_logo: "Smithsonian.png"
+agency_logo: "/assets/images/agencies/Smithsonian.png"
 title: "Digitizing the Smithsonian Institution's Herbarium"
 summary: "Bringing fresh perspective and critical expertise to the important work of sharing our treasures with millions of people online"
-cover_art: "smithsonian-transcription.jpg"
+cover_art: "/assets/images/projects/smithsonian-transcription.jpg"
 project_challenge: "Make the Smithsonian Institution's digitization of 137 million+ artifacts more findable, useful and informative to researchers and members of the public"
 partner_description: "The Smithsonian Institution is the world's largest museum and research complex, with 19 museums, 9 research centers, and affiliates around the world."
 project_link: https://transcription.si.edu
@@ -25,4 +25,4 @@ redirect_from:
 
 In just six months, a team of Fellows developed and launched an end-to-end solution for creating digital records for historic files. Through crowdsourcing transcriptions, the project has engaged thousands of volunteers who have helped to transcribe and review historic and scientific records, making them easily accessible to the public for the first time.
 
-{% asset "smithsonian-screenshot.jpg" class="float-right" title="The homepage of the Smithsonian Transcription Center" alt="The homepage of the Smithsonian Transcription Center" %}
+<img src="{{site.baseurl}}/assets/images/projects/smithsonian-screenshot.jpg" class="float-right" title="The homepage of the Smithsonian Transcription Center" alt="The homepage of the Smithsonian Transcription Center"/>

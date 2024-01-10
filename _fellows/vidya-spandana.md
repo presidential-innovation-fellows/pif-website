@@ -1,7 +1,7 @@
 ---
 id: vidya-spandana
 title: Vidya Spandana
-image: vidya-spandana-headshot.png
+image: /assets/images/fellows/2013/vidya-spandana-headshot.png
 fellow_year: 2013
 project: []
 agency: []

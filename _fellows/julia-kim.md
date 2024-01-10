@@ -1,7 +1,7 @@
 ---
 id: julia-kim
 title: Julia Kim
-image: julia-kim-headshot.png
+image: /assets/images/fellows/2014/julia-kim-headshot.png
 fellow_year: 2014
 project: []
 agency: []

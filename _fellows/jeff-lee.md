@@ -1,7 +1,7 @@
 ---
 id: jeff-lee
 title: Jeff Lee
-image: jeff-lee-headshot.jpg
+image: /assets/images/fellows/2022/jeff-lee-headshot.jpg
 fellow_year: 2022
 project: ['gsa-tts-login']
 agency: ["GSA"]

@@ -2,7 +2,7 @@
 id: cdc-analytics-and-interoperable-systems
 agency: "Centers for Disease Control and Prevention"
 agency_abbrev: "the CDC"
-agency_logo: "CDC.png"
+agency_logo: "/assets/images/agencies/CDC.png"
 title: "Strengthening CDC’s engineering, big data analytics and interoperable systems to protect public health"
 summary: "Help the CDC monitor and improve public health by improving their data, technical innovation and cloud capabilities."
 project_challenge: "How might we advance innovation on the current state of digital health technologies, policies, and functionalities across the public health ecosystem to improve health outcomes?"

@@ -1,7 +1,7 @@
 ---
 id: david-naffis
 title: David Naffis
-image: david-naffis-headshot.png
+image: /assets/images/fellows/2014/david-naffis-headshot.png
 fellow_year: 2014
 project: []
 agency: ["NARA"]

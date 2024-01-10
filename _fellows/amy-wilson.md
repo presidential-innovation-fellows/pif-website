@@ -1,7 +1,7 @@
 ---
 id: amy-wilson
 title: Amy Wilson
-image: amy-wilson-headshot.jpg
+image: /assets/images/fellows/2016/amy-wilson-headshot.jpg
 fellow_year: 2016
 project: []
 agency: ["GSA"]

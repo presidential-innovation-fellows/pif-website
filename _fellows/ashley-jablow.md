@@ -1,7 +1,7 @@
 ---
 id: ashley-jablow
 title: Ashley Jablow
-image: ashley-jablow-headshot.png
+image: /assets/images/fellows/2014/ashley-jablow-headshot.png
 fellow_year: 2014
 project: []
 agency: []

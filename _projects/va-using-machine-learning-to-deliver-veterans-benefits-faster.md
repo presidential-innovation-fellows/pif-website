@@ -2,10 +2,10 @@
 id: va-using-machine-learning-to-deliver-veterans-benefits-faster
 agency: "U.S. Department of Veterans Affairs"
 agency_abbrev: "VA"
-agency_logo: "VA.png"
+agency_logo: "/assets/images/agencies/VA.png"
 title: "Using machine learning to deliver veterans’ benefits faster"
 summary: "Getting veterans their benefits in days, not months"
-cover_art: "va-cto-nelson-colon-vargas.jpg"
+cover_art: "/assets/images/projects/va-cto-nelson-colon-vargas.jpg"
 project_challenge: "Veterans submit 1.5M+ claims/year for disability compensation and pension benefits, and 65-80% of those claims are submitted via mail or fax. Unfortunately, 98.2% of attempts to submit claims online fail. Processing also delays how quickly veterans receive and use their benefits."
 partner_description: "The U.S. Department of Veterans Affairs provides near-comprehensive healthcare services to eligible military veterans at VA medical centers and outpatient clinics located throughout the country; several non-healthcare benefits including disability compensation, vocational rehabilitation, education assistance, home loans, and life insurance; and provides burial and memorial benefits to eligible veterans and family members at 135 national cemeteries."
 project_link: https://www.va.gov
@@ -27,7 +27,7 @@ CCPS is the first machine learning API the VA implemented. The tool reads what a
 <h2 class="text-primary text-no-italic" id="the-impact">The <em>impact</em></h2>
 
 <div class="usa-image-block float-right width-15 padding-bottom-1 padding-left-1">
-  {% asset "va-cto-chart-claims.png" class="" alt="Chart showing total claims established without manual intervention in June 2019 (6.9%) versus June 2020 (40.5%)" %}
+  <img src="{{site.baseurl}}/assets/images/projects/va-cto-chart-claims.png" class="" alt="Chart showing total claims established without manual intervention in June 2019 (6.9%) versus June 2020 (40.5%)"/>
 </div>
 
 This API has processed over 400K claims automatically without needing human intervention, a <strong>24x increase that has saved $1.5M in direct labor cost</strong>. The VA CTO team is now scaling this technology in new products and services.

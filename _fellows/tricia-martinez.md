@@ -1,7 +1,7 @@
 ---
 id: tricia-martinez
 title: Tricia Martinez
-image: tricia-martinez-headshot.jpg
+image: /assets/images/fellows/2021/tricia-martinez-headshot.jpg
 fellow_year: 2021
 project: []
 agency: ["DOE"]

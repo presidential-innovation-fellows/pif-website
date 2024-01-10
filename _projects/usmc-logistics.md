@@ -2,10 +2,10 @@
 id: usmc-logistics
 agency: "United States Marine Corps"
 agency_abbrev: "USMC"
-agency_logo: "USMC.png"
+agency_logo: "/assets/images/agencies/USMC.png"
 title: "Logistics digital transformation at USMC"
 summary: "Helping the USMC conduct a digital and data transformation to improve logistics and keep our nation’s Marines safe"
-cover_art: "helicopter.jpg"
+cover_art: "/assets/images/projects/helicopter.jpg"
 project_challenge: "How might we help the USMC modernize all areas of logistics: people, process and technology?"
 partner_description: "The Marine Corps Deputy Commandant for Installations and Logistics (DC I&L) is responsible for formulating Marine Corps logistics plans, policies, and concepts, exercising staff supervision over joint and Marine Corps logistics matters, logistics manpower matters, logistics analysis, mobility, lift requirements, sustainability productivity, material readiness, logistics information systems, security assistance, fiscal matters for appropriate division sponsored programs, and coordinating the logistics aspects of prepositioning programs."
 project_link: https://www.marines.mil

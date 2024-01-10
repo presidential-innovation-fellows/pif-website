@@ -1,7 +1,7 @@
 ---
 id: patrick-koppula
 title: Patrick Koppula
-image: patrick-koppula-headshot.jpg
+image: /assets/images/fellows/2016/patrick-koppula-headshot.jpg
 fellow_year: 2016
 project: []
 agency: []

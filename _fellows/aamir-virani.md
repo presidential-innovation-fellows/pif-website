@@ -1,7 +1,7 @@
 ---
 id: aamir-virani
 title: Aamir Virani
-image: aamir-virani-headshot.jpg
+image: /assets/images/fellows/2021/aamir-virani-headshot.jpg
 fellow_year: 2021
 project: ["nga-cto"]
 agency: ["NGA"]

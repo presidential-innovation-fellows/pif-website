@@ -1,7 +1,7 @@
 ---
 id: michael-pritchard
 title: Michael Pritchard
-image: michael-pritchard-headshot.jpg
+image: /assets/images/fellows/2019/michael-pritchard-headshot.jpg
 fellow_year: 2019
 project: ["usagm-reaching-new-global-audiences"]
 agency: ["USAGM"]

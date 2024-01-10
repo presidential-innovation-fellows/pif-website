@@ -2,7 +2,7 @@
 id: gsa-customer-experience
 agency: "General Services Administration"
 agency_abbrev: "GSA"
-agency_logo: "GSA.png"
+agency_logo: "/assets/images/agencies/GSA.png"
 title: "Improving the customer experience with federal services"
 summary: "Helping GSA and OMB achieve the customer experience Cross-Agency Priority goal by developing a government-wide, lightweight, low-cost, streamlined mechanism for collecting customer feedback"
 cover_art: ""

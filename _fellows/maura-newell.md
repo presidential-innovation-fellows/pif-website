@@ -1,7 +1,7 @@
 ---
 id: maura-newell
 title: Maura Newell
-image: maura-newell-headshot.jpg
+image: /assets/images/fellows/2019/maura-newell-headshot.jpg
 fellow_year: 2019
 project: ["va-veo"]
 agency: ["VA"]

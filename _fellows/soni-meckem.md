@@ -1,7 +1,7 @@
 ---
 id: soni-meckem
 title: Soni Meckem
-image: soni-meckem-headshot.jpg
+image: /assets/images/fellows/2019/soni-meckem-headshot.jpg
 fellow_year: 2019
 project: ["nih-all-of-us","va-orm"]
 agency: ["NIH","VA"]

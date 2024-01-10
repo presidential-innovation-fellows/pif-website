@@ -1,7 +1,7 @@
 ---
 id: adele-luta
 title: Adele Luta
-image: adele-luta-headshot.jpg
+image: /assets/images/fellows/2019/adele-luta-headshot.jpg
 fellow_year: 2019
 project: ["nih-all-of-us","nih-uniting-communications-and-science"]
 agency: ["NIH"]

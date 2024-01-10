@@ -1,7 +1,7 @@
 ---
 id: jeff-chen
 title: Jeff Chen
-image: jeff-chen-headshot.png
+image: /assets/images/fellows/2014/jeff-chen-headshot.png
 fellow_year: 2014
 project: []
 agency: []

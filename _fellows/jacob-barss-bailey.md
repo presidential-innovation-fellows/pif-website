@@ -1,7 +1,7 @@
 ---
 id: jacob-barss-bailey
 title: Jacob Barss-Bailey
-image: jacob-barss-bailey-headshot.jpg
+image: /assets/images/fellows/2023/jacob-barss-bailey-headshot.jpg
 fellow_year: 2023
 project: []
 agency: ["MBDA"]

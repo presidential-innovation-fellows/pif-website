@@ -1,7 +1,7 @@
 ---
 id: maria-dayton
 title: Maria Lynne Dayton
-image: maria-dayton-headshot.jpg
+image: /assets/images/fellows/2019/maria-dayton-headshot.jpg
 fellow_year: 2019
 project: ["gsa-customer-experience"]
 agency: ["GSA"]

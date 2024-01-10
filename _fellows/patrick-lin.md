@@ -1,7 +1,7 @@
 ---
 id: patrick-lin
 title: Patrick Lin
-image: patrick-lin-headshot.jpg
+image: /assets/images/fellows/2019/patrick-lin-headshot.jpg
 fellow_year: 2019
 project: ["dot-autonomous-vehicles"]
 agency: ["DOT"]

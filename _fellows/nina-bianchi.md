@@ -1,7 +1,7 @@
 ---
 id: nina-bianchi
 title: Nina Bianchi
-image: nina-bianchi-headshot.jpg
+image: /assets/images/fellows/2018/nina-bianchi-headshot.jpg
 fellow_year: 2018
 project: []
 agency: []

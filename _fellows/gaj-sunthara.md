@@ -1,7 +1,7 @@
 ---
 id: gaj-sunthara
 title: Gajen Sunthara
-image: gaj-sunthara-headshot.png
+image: /assets/images/fellows/2014/gaj-sunthara-headshot.png
 fellow_year: 2014
 project: []
 agency: []

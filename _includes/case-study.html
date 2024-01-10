@@ -3,7 +3,7 @@
   <a href="{{ site.baseurl }}{{ project.url }}" class="site-card" aria-labelledby="{{ aria_id }}">
     {% if project.cover_art %}
     <div class="card-img">
-      {% asset "{{ project.cover_art }}" class="square-cards" alt="{{ project.image_alt_text }}" %}
+      <img src="{{site.baseurl}}{{project.cover_art}}" class="square-cards" alt="{{project.image_alt_text}}">
     </div>
     {% endif %}
     <div class="card-body">

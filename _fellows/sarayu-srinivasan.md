@@ -1,7 +1,7 @@
 ---
 id: sarayu-srinivasan
 title: Sarayu Srinivasan
-image: sarayu-srinivasan-headshot.jpg
+image: /assets/images/fellows/2019/sarayu-srinivasan-headshot.jpg
 fellow_year: 2019
 project: ["nist-lab-to-market"]
 agency: ["NIST"]

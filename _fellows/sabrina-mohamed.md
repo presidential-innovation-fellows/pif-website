@@ -1,7 +1,7 @@
 ---
 id: sabrina-mohamed
 title: Sabrina Mohamed
-image: sabrina-mohamed-headshot.jpg
+image: /assets/images/fellows/2021/sabrina-mohamed-headshot.jpg
 fellow_year: 2021
 project: ["va-cto"]
 agency: ["VA"]

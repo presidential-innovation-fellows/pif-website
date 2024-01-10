@@ -1,7 +1,7 @@
 ---
 id: kaeli-yuen
 title: Kaeli Yuen
-image: kaeli-yuen-headshot.jpg
+image: /assets/images/fellows/2020/kaeli-yuen-headshot.jpg
 fellow_year: 2020
 project: ["va-cto"]
 agency: ["VA"]

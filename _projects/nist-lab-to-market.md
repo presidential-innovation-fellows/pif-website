@@ -2,7 +2,7 @@
 id: nist-tech-transfer
 agency: "National Institute of Standards and Technology"
 agency_abbrev: "NIST"
-agency_logo: "NIST.png"
+agency_logo: "/assets/images/agencies/NIST.png"
 title: "Accelerating federally funded R&D and science to market"
 summary: "Assisting the National Institute of Standards and Technology within the Department of Commerce as they connect federal technology transfer with private funding for commercialization"
 cover_art: ""

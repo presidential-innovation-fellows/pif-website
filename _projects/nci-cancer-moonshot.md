@@ -2,10 +2,10 @@
 id: nci-cancer-moonshot
 agency: "National Cancer Institute"
 agency_abbrev: "NIH"
-agency_logo: "NIH.png"
+agency_logo: "/assets/images/agencies/NIH.png"
 title: "Vice President Biden’s Cancer Moonshot"
 summary: "Reimagining cancer clinical trials increasing awareness and access for patients."
-cover_art: "nci-cancer-moonshot.jpg"
+cover_art: "/assets/images/projects/nci-cancer-moonshot.jpg"
 project_challenge: "Reimagining cancer clinical trials increasing awareness and access for patients."
 partner_description: "Accurate, up-to-date, comprehensive cancer information from the U.S. government's principal agency for cancer research"
 project_link: https://clinicaltrialsapi.cancer.gov

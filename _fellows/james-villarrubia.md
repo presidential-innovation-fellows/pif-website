@@ -1,7 +1,7 @@
 ---
 id: james-villarrubia
 title: James Villarrubia
-image: james-villarrubia-headshot.png
+image: /assets/images/fellows/2022/james-villarrubia-headshot.png
 fellow_year: 2022
 project: ['nasa-madi']
 agency: ["NASA"]

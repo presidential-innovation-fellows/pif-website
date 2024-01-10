@@ -1,7 +1,7 @@
 ---
 id: nicholas-bramble
 title: Nicholas Bramble
-image: nicholas-bramble-headshot.png
+image: /assets/images/fellows/2012/nicholas-bramble-headshot.png
 fellow_year: 2012
 project: []
 agency: []

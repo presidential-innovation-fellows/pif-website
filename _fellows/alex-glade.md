@@ -1,7 +1,7 @@
 ---
 id: alex-glade
 title: Alex Glade
-image: alex-glade-headshot.jpg
+image: /assets/images/fellows/2021/alex-glade-headshot.jpg
 fellow_year: 2021
 project: ["nga-hd"]
 agency: ["NGA"]

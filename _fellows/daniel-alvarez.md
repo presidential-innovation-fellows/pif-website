@@ -1,7 +1,7 @@
 ---
 id: daniel-alvarez
 title: Daniel Alvarez
-image: daniel-alvarez-headshot.jpeg
+image: /assets/images/fellows/2023/daniel-alvarez-headshot.jpeg
 fellow_year: 2023
 project: []
 agency: []
