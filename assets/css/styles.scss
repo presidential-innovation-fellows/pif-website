@@ -46,6 +46,8 @@ i.e.
 @include u-padding-right('05');
 ----------------------------------------
 */
+//set baseurl for image paths in imported scss files
+$baseurl:"{{ site.baseurl }}";
 
 @import "uswds-settings";
 

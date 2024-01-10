@@ -25,7 +25,7 @@ $transition: width .25s;
     border: none;
     background-color: white;
     @include at-media('desktop') {
-      background-image: url("/assets/images/icons/search.svg");
+      background-image: url($baseurl + "/assets/images/icons/search.svg");
       background-repeat: no-repeat;
       background-position: center center;
       background-size: 1rem;
@@ -66,7 +66,7 @@ $transition: width .25s;
 
 .usa-search--small [type="submit"],
 .usa-search--small .usa-search__submit {
-  background-image: url("/assets/images/icons/search.svg");
+  background-image: url($baseurl + "/assets/images/icons/search.svg");
   width: 20px;
   border-radius: 0;
   background-color: transparent;

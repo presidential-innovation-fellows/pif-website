@@ -4,6 +4,6 @@
 }
 
 .usa-social-link--linkedin {
-  background-image: url("/assets/images/icons/linkedin.svg"), linear-gradient(transparent, transparent);
+  background-image: url($baseurl + "/assets/images/icons/linkedin.svg"), linear-gradient(transparent, transparent);
   background-repeat: no-repeat;
 }
