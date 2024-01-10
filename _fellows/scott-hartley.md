@@ -1,7 +1,7 @@
 ---
 id: scott-hartley
 title: Scott Hartley
-image: scott-hartley-headshot.png
+image: /assets/images/fellows/2013/scott-hartley-headshot.png
 fellow_year: 2013
 project: []
 agency: []

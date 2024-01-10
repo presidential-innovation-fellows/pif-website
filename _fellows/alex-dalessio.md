@@ -1,7 +1,7 @@
 ---
 id: alex-dalessio
 title: J. Alex Dalessio
-image: alex-dalessio-headshot.jpg
+image: /assets/images/fellows/2018/alex-dalessio-headshot.jpg
 fellow_year: 2018
 project: []
 agency: []

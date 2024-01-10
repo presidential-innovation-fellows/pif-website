@@ -1,7 +1,7 @@
 ---
 id: erin-maneri-akred
 title: Erin Maneri Akred
-image: erin-maneri-akred-headshot.png
+image: /assets/images/fellows/2013/erin-maneri-akred-headshot.png
 fellow_year: 2013
 project: []
 agency: []

@@ -1,7 +1,7 @@
 ---
 id: marian-adly
 title: Marian Adly
-image: marian-adly-headshot.jpg
+image: /assets/images/fellows/2021/marian-adly-headshot.jpg
 fellow_year: 2021
 project: ["va-cto"]
 agency: ["VA"]

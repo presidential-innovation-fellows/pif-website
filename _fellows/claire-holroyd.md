@@ -1,7 +1,7 @@
 ---
 id: claire-holroyd
 title: Claire Holroyd
-image: claire-holroyd-headshot.png
+image: /assets/images/fellows/2013/claire-holroyd-headshot.png
 fellow_year: 2013
 project: []
 agency: []

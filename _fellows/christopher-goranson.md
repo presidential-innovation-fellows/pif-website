@@ -1,7 +1,7 @@
 ---
 id: christopher-goranson
 title: Christopher Goranson
-image: christopher-goranson-headshot.png
+image: /assets/images/fellows/2014/christopher-goranson-headshot.png
 fellow_year: 2014
 project: []
 agency: []

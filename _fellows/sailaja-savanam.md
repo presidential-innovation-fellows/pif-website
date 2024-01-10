@@ -1,7 +1,7 @@
 ---
 id: sailaja-savanam
 title: Sailaja Savanam
-image: sailaja-savanam-headshot.jpg
+image: /assets/images/fellows/2023/sailaja-savanam-headshot.jpg
 fellow_year: 2023
 project: []
 agency: ["CDC"]

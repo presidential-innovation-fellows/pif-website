@@ -2,7 +2,7 @@
 id: gsa-tts-login
 agency: "General Services Administration"
 agency_abbrev: "GSA"
-agency_logo: "LOGIN.png"
+agency_logo: "/assets/images/agencies/LOGIN.png"
 title: "Providing simple, secure access to government services online"
 summary: "Login.gov is trying to solve the critical problem of secure digital access to online government services. The product is used by almost 15 million users across dozens of different federal services. In the near future, they will be launching additional tools, including remote and in-person identity validation."
 project_challenge: "How can we help Login simplify secure access to online Federal services for the public, while reducing costs for agencies and taxpayers."

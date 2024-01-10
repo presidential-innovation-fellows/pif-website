@@ -1,7 +1,7 @@
 ---
 id: melissa-keene
 title: Melissa Keene
-image: melissa-keene-headshot.jpg
+image: /assets/images/fellows/2020/melissa-keene-headshot.jpg
 fellow_year: 2020
 project: ["usda-farmers"]
 agency: ["USDA"]

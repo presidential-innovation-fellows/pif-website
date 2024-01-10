@@ -1,7 +1,7 @@
 ---
 id: joe-polastre
 title: Joe Polastre
-image: joe-polastre-headshot.png
+image: /assets/images/fellows/2013/joe-polastre-headshot.png
 fellow_year: 2013
 project: []
 agency: []

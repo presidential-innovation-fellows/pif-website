@@ -1,7 +1,7 @@
 ---
 id: michael-kreisel
 title: Mike Kreisel
-image: michael-kreisel-headshot.jpg
+image: /assets/images/fellows/2021/michael-kreisel-headshot.jpg
 fellow_year: 2021
 project: ["epa-oeip"]
 agency: ["EPA"]

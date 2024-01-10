@@ -1,7 +1,7 @@
 ---
 id: steven-babitch
 title: Steven Babitch
-image: steven-babitch-headshot.jpg
+image: /assets/images/fellows/2015/steven-babitch-headshot.jpg
 fellow_year: 2015
 project: ["fbi-risk-management"]
 agency: ["FBI"]

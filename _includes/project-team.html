@@ -13,7 +13,7 @@
   <div class="grid-container">
     <div class="project-team">
       {% if include.agency_logo %}
-        {% asset "{{ include.agency_logo }}" class="width-9" alt="{{ page.agency }} logo" %}
+        <img src="{{site.baseurl}}{{include.agency_logo}}" class="width-9" alt="{{ page.agency }} logo"/>
       {% endif %}
 
       {% capture project_id %}{{page.id | remove: "/projects/"}}{% endcapture %}
@@ -30,7 +30,7 @@
 
         <div class="project-team__member{% if forloop.first %} first{% endif %}">
           <a href="{{ site.baseurl }}{{ fellow.url }}" title="{{ fellow.title }}">
-          {% asset "{{ fellow.image }}" class="width-9 height-9 img-circle" alt="{{ fellow.title }}" %}
+            <img src="{{ site.baseurl}}{{fellow.image}}"  class="width-9 height-9 img-circle" alt="{{ fellow.title }}" />
           </a>
         </div>
 

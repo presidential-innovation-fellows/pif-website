@@ -1,7 +1,7 @@
 ---
 id: yll-agimi
 title: Yll Agimi, Ph.D.
-image: yll-agimi-headshot.jpeg
+image: /assets/images/fellows/2023/yll-agimi-headshot.jpeg
 fellow_year: 2023
 project: []
 agency: ["DOD"]

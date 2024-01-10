@@ -2,7 +2,7 @@
 id: doj-facilitate-data-driven-decision-making
 agency: "Department of Justice"
 agency_abbrev: "DOJ"
-agency_logo: "DOJ.png"
+agency_logo: "/assets/images/agencies/DOJ.png"
 title: "Fueling data-driven decisions, transparency, and operations across the U.S. Department of Justice"
 summary: "Advise senior leaders and create an agency-wide strategy to modernize the U.S. Department of Justice (DOJ) so that it can enforce the law and ensure fair and impartial administration of justice."
 project_challenge: "What are the existing gaps within DOJ’s legacy systems, and what is a structured way to implement change?"

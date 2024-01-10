@@ -1,7 +1,7 @@
 ---
 id: diana-lam
 title: Diana Lam
-image: diana-lam-headshot.jpg
+image: /assets/images/fellows/2021/diana-lam-headshot.jpg
 fellow_year: 2021
 project: ["state-gpa"]
 agency: ["State"]

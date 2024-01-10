@@ -1,7 +1,7 @@
 ---
 id: robert-zakon
 title: Robert H'obbes' Zakon
-image: robert-zakon-headshot.jpg
+image: /assets/images/fellows/2016/robert-zakon-headshot.jpg
 fellow_year: 2016
 project: []
 agency: []

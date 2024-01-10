@@ -2,7 +2,7 @@
 id: dol-cio-building-more-inclusive-economy
 agency: "Department of Labor"
 agency_abbrev: "DOL"
-agency_logo: "DOL.png"
+agency_logo: "/assets/images/agencies/DOL.png"
 title: "Meeting the demands of the future of work and building a more inclusive economy"
 summary: "Advise DOL’s Chief Innovation Officer on ways to leverage innovative technologies, practices and partnerships that ensure the successful delivery of services and benefits to every worker."
 project_challenge: "How might the U.S. Department of Labor build and deploy effective, equitable, and accessible programs that protect against fraud?"

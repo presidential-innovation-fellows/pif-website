@@ -2,7 +2,7 @@
 id: cms-oeda
 agency: "Centers for Medicare & Medicaid Services"
 agency_abbrev: "CMS"
-agency_logo: "CMS.png"
+agency_logo: "/assets/images/agencies/CMS.png"
 title: "Improving data sharing across the healthcare ecosystem"
 summary: "Helping the Centers for Medicare & Medicaid Services with long-term strategic planning, including support for the continued growth and use of FHIR (Fast Healthcare Interoperability Resources) in API development and standardization."
 project_challenge: "How might we help the Centers for Medicare & Medicaid Services modernize their technology so that they can share data across the healthcare ecosystem to support patient-centered, data-driven decision making and innovative research?"

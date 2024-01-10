@@ -2,7 +2,7 @@
 id: sba-synthesize-data-for-equitable-access
 agency: "Small Business Administration"
 agency_abbrev: "SBA"
-agency_logo: "SBA.png"
+agency_logo: "/assets/images/agencies/SBA.png"
 title: "Synthesizing data for equitable access to small business resources"
 summary: "Helping the Small Business Administration use data science and visual analytics techniques across several sources of cross-agency data to better serve the needs of underserved small business owners."
 project_challenge: "How can SBA identify and connect with entrepreneurs and business owners in greatest need – tapping into their community networks to help people keep their businesses going during the pandemic?"

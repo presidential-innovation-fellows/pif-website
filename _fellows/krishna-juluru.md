@@ -1,7 +1,7 @@
 ---
 id: krishna-juluru
 title: Krishna Juluru
-image: krishna-juluru-headshot.jpg
+image: /assets/images/fellows/2021/krishna-juluru-headshot.jpg
 fellow_year: 2021
 project: []
 agency: ["NIH"]

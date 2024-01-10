@@ -1,7 +1,7 @@
 ---
 id: varoon-mathur
 title: Varoon Mathur
-image: varoon-mathur-headshot.jpeg
+image: /assets/images/fellows/2022/varoon-mathur-headshot.jpeg
 fellow_year: 2022
 project: ["va-cto"]
 agency: ["VA"]

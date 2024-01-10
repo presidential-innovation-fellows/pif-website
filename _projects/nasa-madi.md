@@ -2,7 +2,7 @@
 id: nasa-madi
 agency: "NASA"
 agency_abbrev: "NASA"
-agency_logo: "NASA.png"
+agency_logo: "/assets/images/agencies/NASA.png"
 title: "Mapping Digital Infrastructure and AI (MADI)"
 summary: "Helping the Convergent Aeronautics Solutions project leverage cloud automation and AI to better identify transformational solutions to wicked problems facing humanity."
 project_challenge: "How might CAS and NASA use modern NLP and cloud automation to ingest large volumes of unstructure data and understand connections between emerging trends, needs, and technical capabilities across the world?"

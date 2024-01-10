@@ -1,7 +1,7 @@
 ---
 id: sarah-brooks
 title: Sarah Brooks
-image: sarah-brooks-headshot.png
+image: /assets/images/fellows/2014/sarah-brooks-headshot.png
 fellow_year: 2014
 project: []
 agency: []

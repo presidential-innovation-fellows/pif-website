@@ -1,7 +1,7 @@
 ---
 id: clarice-chan
 title: Clarice Chan
-image: clarice-chan-headshot.jpg
+image: /assets/images/fellows/2019/clarice-chan-headshot.jpg
 fellow_year: 2019
 project: ["va-cto"]
 agency: ["VA"]

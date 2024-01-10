@@ -2,7 +2,7 @@
 id: ftc-otech
 agency: "Federal Trade Commission"
 agency_abbrev: "FTC"
-agency_logo: "FTC.png"
+agency_logo: "/assets/images/agencies/FTC.png"
 title: "Developing a holistic view of complex and constantly evolving digital advertising markets and potential threats to consumers"
 summary: Creating strategies to implement consumer protection policy and targeted law enforcement that optimizes consumer welfare while maintaining vibrant competition and innovation.
 project_challenge: "How can we develop a holistic view of the complex and constantly evolving digital advertising markets and potential threats to consumers"

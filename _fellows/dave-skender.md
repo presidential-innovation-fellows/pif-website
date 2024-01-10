@@ -1,7 +1,7 @@
 ---
 id: dave-skender
 title: Dave Skender
-image: dave-skender-headshot.jpg
+image: /assets/images/fellows/2021/dave-skender-headshot.jpg
 fellow_year: 2021
 project: []
 agency: ["DHS"]

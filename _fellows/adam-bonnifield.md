@@ -1,7 +1,7 @@
 ---
 id: adam-bonnifield
 title: Adam Bonnifield
-image: adam-bonnifield-headshot.jpg
+image: /assets/images/fellows/2015/adam-bonnifield-headshot.jpg
 fellow_year: 2015
 project: []
 agency: []

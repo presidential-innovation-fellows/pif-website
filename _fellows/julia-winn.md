@@ -1,7 +1,7 @@
 ---
 id: julia-winn
 title: Julia Winn
-image: julia-winn-headshot.png
+image: /assets/images/fellows/2014/julia-winn-headshot.png
 fellow_year: 2014
 project: []
 agency: []

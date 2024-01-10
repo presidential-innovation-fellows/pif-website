@@ -1,7 +1,7 @@
 ---
 id: andrea-levy
 title: Andrea Levy
-image: andrea-levy-headshot.jpg
+image: /assets/images/fellows/2022/andrea-levy-headshot.jpg
 fellow_year: 2022
 project: []
 agency: ["Treasury"]

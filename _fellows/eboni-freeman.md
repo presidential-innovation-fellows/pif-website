@@ -1,7 +1,7 @@
 ---
 id: eboni-freeman
 title: Eboni J.D. Freeman
-image: eboni-freeman-headshot.jpeg
+image: /assets/images/fellows/2023/eboni-freeman-headshot.jpeg
 fellow_year: 2023
 project: []
 agency: ["GSA"]

@@ -1,7 +1,7 @@
 ---
 id: ryan-panchadsaram
 title: Ryan Panchadsaram
-image: ryan-panchadsaram-headshot.png
+image: /assets/images/fellows/2012/ryan-panchadsaram-headshot.png
 fellow_year: 2012
 project: ["onc-blue-button-initiative"]
 agency: ["ONC","VA"]

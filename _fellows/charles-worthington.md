@@ -1,7 +1,7 @@
 ---
 id: charles-worthington
 title: Charles Worthington
-image: charles-worthington-headshot.png
+image: /assets/images/fellows/2013/charles-worthington-headshot.png
 fellow_year: 2013
 project: []
 agency: []

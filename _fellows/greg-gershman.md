@@ -1,7 +1,7 @@
 ---
 id: greg-gershman
 title: Greg Gershman
-image: greg-gershman-headshot.png
+image: /assets/images/fellows/2012/greg-gershman-headshot.png
 fellow_year: 2012
 project: []
 agency: []

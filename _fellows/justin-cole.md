@@ -1,7 +1,7 @@
 ---
 id: justin-cole
 title: Justin Cole
-image: justin-cole-headshot.jpeg
+image: /assets/images/fellows/2021/justin-cole-headshot.jpeg
 fellow_year: 2021
 project: ["fdic-casib"]
 agency: ["FDIC"]

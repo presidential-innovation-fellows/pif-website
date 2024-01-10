@@ -1,7 +1,7 @@
 ---
 id: april-chen
 title: April Chen
-image: april-chen-headshot.jpg
+image: /assets/images/fellows/2022/april-chen-headshot.jpg
 fellow_year: 2022
 project: []
 agency: ["EOP"]

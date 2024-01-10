@@ -2,7 +2,7 @@
 id: fema-region-9
 agency: "Federal Emergency Management Agency"
 agency_abbrev: "FEMA"
-agency_logo: "FEMA.png"
+agency_logo: "/assets/images/agencies/FEMA.png"
 title: "Save lives and build more resilient communities using data analytics"
 summary: "Enabling FEMA Region 9 to take a more comprehensive approach to assessing readiness, risk, and performance of essential functions, make more effective and cost-efficient decisions on billions of dollars invested on an annual basis for life-saving priorities, and use the best available data to manage and improve programs as a regular way of doing business."
 project_challenge: "How might we apply expertise in data management and analytics to help the nation pioneer the future of emergency management, save lives and livelihoods during disasters, and build more resilient communities?"

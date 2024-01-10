@@ -181,35 +181,74 @@ exclude:
   - docker-compose.yml
   - Dockerfile
 
-assets:
-  sources:
-    - _assets/favicons
-    - _assets/images
-    - _assets/images/agencies
-    - _assets/images/banners
-    - _assets/images/fellows/2012
-    - _assets/images/fellows/2013
-    - _assets/images/fellows/2014
-    - _assets/images/fellows/2015
-    - _assets/images/fellows/2016
-    - _assets/images/fellows/2017
-    - _assets/images/fellows/2018
-    - _assets/images/fellows/2019
-    - _assets/images/fellows/2020
-    - _assets/images/fellows/2021
-    - _assets/images/fellows/2022
-    - _assets/images/fellows/2023
-    - _assets/images/press
-    - _assets/images/projects
-    - _assets/images/icons
-    - _assets/images/logo
-    - node_modules/uswds/dist/img
-    - node_modules/uswds/dist/js
-    - node_modules/uswds/dist/scss
+# assets:
+#   sources:
+#     - _assets/favicons
+#     - _assets/images
+#     - _assets/images/agencies
+#     - _assets/images/banners
+#     - _assets/images/fellows/2012
+#     - _assets/images/fellows/2013
+#     - _assets/images/fellows/2014
+#     - _assets/images/fellows/2015
+#     - _assets/images/fellows/2016
+#     - _assets/images/fellows/2017
+#     - _assets/images/fellows/2018
+#     - _assets/images/fellows/2019
+#     - _assets/images/fellows/2020
+#     - _assets/images/fellows/2021
+#     - _assets/images/fellows/2022
+#     - _assets/images/fellows/2023
+#     - _assets/images/press
+#     - _assets/images/projects
+#     - _assets/images/icons
+#     - _assets/images/logo
+#     - node_modules/uswds/dist/img
+#     - node_modules/uswds/dist/js
+#     - node_modules/uswds/dist/scss
+
+# autoprefixer:
+#   browsers:
+#     - last 2 versions
+#     - "> 2%"
+#     - IE 11
+#     - not dead
 
 autoprefixer:
   browsers:
-    - last 2 versions
     - "> 2%"
-    - IE 11
-    - not dead
+    - "last 2 versions"
+    - "IE 11"
+    - "not dead"
+
+sass:
+  source_dir: _sass
+  load_paths:
+    - assets/favicons
+    - assets/images
+    - assets/images/agencies
+    - assets/images/banners
+    - assets/images/fellows/2012
+    - assets/images/fellows/2013
+    - assets/images/fellows/2014
+    - assets/images/fellows/2015
+    - assets/images/fellows/2016
+    - assets/images/fellows/2017
+    - assets/images/fellows/2018
+    - assets/images/fellows/2019
+    - assets/images/fellows/2020
+    - assets/images/fellows/2021
+    - assets/images/fellows/2022
+    - assets/images/fellows/2023
+    - assets/images/press
+    - assets/images/projects
+    - assets/images/icons
+    - assets/images/logo
+    - node_modules/uswds/dist/
+    - node_modules/uswds/dist/img
+    - node_modules/uswds/dist/js
+    - node_modules/uswds/dist/scss
+  sourcemap: development
+  quiet_deps: true
+  style: compressed
+  verbose: true

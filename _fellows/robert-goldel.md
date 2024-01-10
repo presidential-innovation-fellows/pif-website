@@ -1,7 +1,7 @@
 ---
 id: robert-goldel
 title: Robert Goldel
-image: robert-goldel-headshot.jpg
+image: /assets/images/fellows/2019/robert-goldel-headshot.jpg
 fellow_year: 2019
 project: ["fda-informed"]
 agency: ["FDA","VA"]

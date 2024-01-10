@@ -2,10 +2,10 @@
 id: fbi-risk-management
 agency: "Federal Bureau of Investigation"
 agency_abbrev: "FBI"
-agency_logo: "FBI.png"
+agency_logo: "/assets/images/agencies/FBI.png"
 title: "Risk management at the FBI"
 summary: "Defining an Ecosystem to Help the Private Sector Manage Risk and Mitigate Threats"
-cover_art: "computer-background.jpg"
+cover_art: "/assets/images/projects/computer-background.jpg"
 project_challenge: "In collaboration with the FBI, the Presidential Innovation Fellows focused on the challenge of defining an ecosystem to help the private sector manage risk and mitigate threats, as part of the overall strategy to protect the US economy"
 partner_description: "The Federal Bureau of Investigation (FBI) is the domestic intelligence and security service of the United States and its principal federal law enforcement agency"
 project_link: https://www.fbi.gov
@@ -39,4 +39,4 @@ redirect_from:
 
 In just six months, a team of Fellows developed and launched an end-to-end solution for creating digital records for historic files. Through crowdsourcing transcriptions, the project has engaged thousands of volunteers who have helped to transcribe and review historic and scientific records, making them easily accessible to the public for the first time.
 
-{% asset "ciso-pif-evanta.jpg" class="" title="PIFs preparing for Chief Information Security Officer (CISO) conference in Los Angeles" alt="image of PIFs preparing for Chief Information Security Officer (CISO) conference in Los Angeles" %}
+<img src="{{site.baseurl}}/assets/images/projects/ciso-pif-evanta.jpg" class="" title="PIFs preparing for Chief Information Security Officer (CISO) conference in Los Angeles" alt="image of PIFs preparing for Chief Information Security Officer (CISO) conference in Los Angeles"/>

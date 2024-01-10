@@ -2,7 +2,7 @@
 id: epa-oeip
 agency: "Environmental Protection Agency"
 agency_abbrev: "EPA"
-agency_logo: "EPA.png"
+agency_logo: "/assets/images/agencies/EPA.png"
 title: "Making data-driven decisions that protect human health and the environment"
 summary: "Transforming EPA enterprise information programs with machine learning and artificial intelligence."
 project_challenge: "How can we use technology to transform the EPA enterprise information programs to drive better, more data-driven decisions that protect human health and the environment?"

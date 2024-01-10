@@ -1,7 +1,7 @@
 ---
 id: payman-sadegh
 title: Payman Sadegh
-image: payman-sadegh-headshot.jpg
+image: /assets/images/fellows/2021/payman-sadegh-headshot.jpg
 fellow_year: 2021
 project: ["gsa-it-enterprise-idm"]
 agency: ["GSA"]

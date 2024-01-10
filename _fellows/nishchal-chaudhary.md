@@ -1,7 +1,7 @@
 ---
 id: nishchal-chaudhary
 title: Nishchal Chaudhary
-image: nishchal-chaudhary-headshot.jpg
+image: /assets/images/fellows/2023/nishchal-chaudhary-headshot.jpg
 fellow_year: 2023
 project: []
 agency: ["NASA"]

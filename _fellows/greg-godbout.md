@@ -1,7 +1,7 @@
 ---
 id: greg-godbout
 title: Greg Godbout
-image: greg-godbout-headshot.png
+image: /assets/images/fellows/2013/greg-godbout-headshot.png
 fellow_year: 2013
 project: []
 agency: []

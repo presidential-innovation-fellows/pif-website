@@ -2,7 +2,7 @@
 id: navy-disc
 agency: "Department of the Navy"
 agency_abbrev: "Navy"
-agency_logo: "Navy.png"
+agency_logo: "/assets/images/agencies/Navy.png"
 title: "Accelerating technological development of Naval warfighting capabilities"
 summary: "Shape and execute digital strategy for the Navy Digital Integration Support Cell (DISC), with a focus on injecting software development best practices into the Navy warfighting domain and evolving towards a DevSecOps culture and paradigm for software development and deployment."
 project_challenge: "How can we help the Navy implement a digital strategy critical to the future technological development of the Navy and our nation’s safety?"

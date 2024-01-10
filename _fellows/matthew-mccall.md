@@ -1,7 +1,7 @@
 ---
 id: matthew-mccall
 title: Matthew McCall
-image: matthew-mccall-headshot.png
+image: /assets/images/fellows/2012/matthew-mccall-headshot.png
 fellow_year: 2012
 project: []
 agency: []

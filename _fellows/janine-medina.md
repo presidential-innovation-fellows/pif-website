@@ -1,7 +1,7 @@
 ---
 id: janine-medina
 title: Janine Medina
-image: janine-medina-headshot.jpg
+image: /assets/images/fellows/2021/janine-medina-headshot.jpg
 fellow_year: 2021
 project: []
 agency: ["HHS"]

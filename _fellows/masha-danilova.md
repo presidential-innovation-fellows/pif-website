@@ -1,7 +1,7 @@
 ---
 id: masha-danilova
 title: Masha Danilova
-image: masha-danilova-headshot.jpg
+image: /assets/images/fellows/2021/masha-danilova-headshot.jpg
 fellow_year: 2021
 project: []
 agency: ["GSA"]

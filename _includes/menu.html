@@ -11,7 +11,7 @@ where we provide an easy way to manage your navigation system
   </div>
   <nav role="navigation" aria-label="Primary navigation" class="usa-nav usa-nav site-nav">
 
-      <button class="usa-nav__close">{% asset close.svg alt="close" %}</button>
+      <button class="usa-nav__close"><img src="{{site.baseurl}}/assets/uswds/img/close.svg" alt="close" /></button>
       <ul class="usa-nav__primary usa-accordion">
         {% for nav_item in include.primary_navigation %}
         {% unless nav_item.children %}

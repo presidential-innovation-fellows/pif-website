@@ -4,7 +4,7 @@
   <a href="{{ site.baseurl }}{{ fellow.url }}" aria-labelledby="{{ aria_id }}">
     <div class="usa-prose fellow-img">
       {% if fellow.image %}
-      {% asset "{{ fellow.image }}" class="circle-card" alt="{{ fellow.title }}" %}
+      <img src="{{site.baseurl}}{{fellow.image}}" class="circle-card" alt="{{fellow.title}}">
       {% endif %}
     </div>
     <div>
@@ -17,10 +17,13 @@
   </a>
   <p>
     <span class="fellow-card--fellow-year">{{ fellow.fellow_year }}</span>
-    {% if fellow.linkedin %}<span class="fellow-card--linkedin"><a href={{fellow.linkedin}}>{% asset
-        icons/linkedin-blue.svg alt="{{fellow.title}}'s LinkedIn profile" %}</a></span>{% endif %}
-    {% if fellow.twitter%}<span class="fellow-card--twitter"><a href={{fellow.twitter}}>{% asset icons/twitter.svg
-        alt="{{fellow.title}}'s Twitter profile" %}</a></span>{% endif %}
+    {% if fellow.linkedin %}<span class="fellow-card--linkedin"><a href={{fellow.linkedin}}>
+      <img src="{{site.baseurl}}/assets/images/icons/linkedin-blue.svg"alt="{{fellow.title}}'s LinkedIn profile"/>
+      </a></span>{% endif %}
+    {% if fellow.twitter%}<span class="fellow-card--twitter"><a href={{fellow.twitter}}>
+      
+      <img src="{{site.baseurl}}/assets/images/icons/twitter.svg" alt="{{fellow.title}}'s Twitter profile"/>
+      </a></span>{% endif %}
   </p>
   <div class="fellow-card--specialty">
     {% assign fellow_skills = site.data.fellow-specialties | where_exp:'skill', "fellow.tags contains skill.url_name" %}

@@ -1,7 +1,7 @@
 ---
 id: patriek-karayil
 title: Patriek Karayil
-image: patriek-karayil-headshot.jpeg
+image: /assets/images/fellows/2023/patriek-karayil-headshot.jpeg
 fellow_year: 2023
 project: []
 agency: []

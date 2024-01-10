@@ -2,7 +2,7 @@
 id: va-orm
 agency: "Department of Veterans Affairs"
 agency_abbrev: "VA"
-agency_logo: "VA.png"
+agency_logo: "/assets/images/agencies/VA.png"
 title: "Supporting a discrimination-free environment for all VA employees"
 summary: "Creating solutions to support the Department of VA/ORM product lines overall mission include an integrated approach of data science and strategic communication."
 project_challenge: "How might we help the U.S. Department of Veterans Affairs better support VA employees who submit cases of discrimination and create an environment for all VA employees?"

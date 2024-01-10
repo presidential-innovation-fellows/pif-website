@@ -1,7 +1,7 @@
 ---
 id: christopher-wong
 title: Christopher Wong
-image: christopher-wong-headshot.png
+image: /assets/images/fellows/2014/christopher-wong-headshot.png
 fellow_year: 2014
 project: []
 agency: []
