@@ -74,7 +74,7 @@ redirect_from:
     {% for agency in agencies %}
     <li class="work-box desktop:grid-col-6 tablet:grid-col-4 flex-auto padding-x-2">
       <div class="work-box-ico grid-col-12 width-full">
-        <img src="/assets/images/agencies/{{agency.name }}.png" alt="{{ agency.name }}" />
+        <img src="{{site.baseurl}}/assets/images/agencies/{{agency.name }}.png" alt="{{ agency.name }}" />
       </div>
       <p class="work-box-head grid-col-12 text-center padding-x-1 margin-top-1">{{ agency.fullname }}</p>
     </li>
