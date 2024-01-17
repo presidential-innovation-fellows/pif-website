@@ -8,7 +8,9 @@ agency: []
 hometown: 
 region: 
 bio_short: Passionate about solving problems with data to solve real world problems of public interest.
-tags: ['2023', 'east', 'AI_Machine_Learning', 'Data_Science_And_Analytics', 'active']
+
+tags: ['2023', 'east', 'Data_Science_And_Analytics', 'AI_Machine_Learning', 'active']
+
 skills: ['Data Science and Analytics', 'AI/Machine Learning']
 ---
 
