@@ -8,8 +8,8 @@ agency: ["CDC"]
 hometown: 
 region: east
 bio_short: Product Architect,  Digital Strategist, Applied AI practitioner, Digital Health Entrepreneur, Innovation Catalyst. Passionate about bringing innovation with process and technology redesign, centered around the wellbeing of humans and our planet (sustainability).
-tags: ['east', '2024', 'active']
-skills: ['', '' ]
+tags: ['east', '2024', 'active', 'Data_Science_And_Analytics', 'Digital_Health']
+skills: ['Data Science and Analytics', 'Digital Health']
 ---
 For over two decades, Vishal Dubey has been helping drive digital transformation and innovation in the Silicon Valley as an entrepreneur, product architect and executive/board advisor. He has led strategic and innovation initiatives for Fortune 100 Health and Tech companies (Kaiser, Walgreens, HP, Meta, Accenture and more) as well as for venture backed startups on ground up product development and market adoption. 
 

@@ -8,8 +8,8 @@ agency: ["FEMA"]
 hometown: 
 region: east
 bio_short:  Tackling complex problems with human-centered, multi-disciplinary solutions.
-tags: ['east', '2024', 'active']
-skills: ['', '' ]
+tags: ['east', '2024', 'active', 'Data_Science_And_Analytics', 'Product']
+skills: ['Data Science and Analytics', 'Product' ]
 ---
 Matt is a versatile product manager and strategist who transitioned to the tech sector after a career designing and managing humanitarian programs in the Middle East and Central Asia for USAID, the U.S. State Department, United Nations, and other donors. 
 

@@ -8,8 +8,8 @@ agency: ["FAA"]
 hometown: 
 region: east
 bio_short: Passionate about innovation, change, and strategy, growth.
-tags: ['east', '2024', 'active']
-skills: ['', '' ]
+tags: ['east', '2024', 'active', 'Change_Management', 'Strategy_And_Growth']
+skills: ['Strategy and Growth', 'Change Management']
 ---
 Jasmine Miles, a Florida A&M University graduate, holds a B.S. in Business Administration and an MBA specializing in marketing. Outside her career, she indulges in outdoor sports like tennis, rock climbing, and ziplining, alongside being a Certified Personal Trainer. Analytical and adept at devising strategies, she thrives on solving intricate problems.
 

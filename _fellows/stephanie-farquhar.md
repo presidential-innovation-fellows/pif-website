@@ -8,8 +8,8 @@ agency: ["OMB"]
 hometown: 
 region: east
 bio_short: Unlocking data’s potential to drive equity and innovation in tech and health 
-tags: ['east', '2024', 'active']
-skills: ['', '' ]
+tags: ['east', '2024', 'active', 'Data_Science_And_Analytics', 'Digital_Health']
+skills: ['Data Science and Analytics', 'Digital Health']
 ---
 Stephanie E. Farquhar, Ph.D. M.H.S. (she/her), is a qualitative researcher who has spent the last decade working with epidemiologists, engineers and clinicians to reimagine what data can do and who it can serve. Dr. Farquhar has worked across sectors to create the kind of data innovation needed for products and policies to eliminate unfair and unjust gaps in health outcomes. 
 

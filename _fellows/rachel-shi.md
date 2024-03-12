@@ -8,8 +8,8 @@ agency: ["DOE"]
 hometown: 
 region: east
 bio_short: Technology strategist dedicated to social impact 
-tags: ['east', '2024', 'active']
-skills: ['', '' ]
+tags: ['east', '2024', 'active', 'Change_Management', 'Strategy_And_Growth']
+skills: ['Strategy and Growth', 'Change Management']
 ---
 Rachel Shi is driven by a mission to empower those around her through individual interactions and systems-level change. Rachel has experience working in both the private and public sectors, making people-centered connections and breaking down silos in complex organizations.
 

@@ -8,8 +8,8 @@ agency: ["CISA"]
 hometown: 
 region: east
 bio_short: Design and innovation leader solving big problems to increase global tech inclusion.
-tags: ['east', '2024', 'active']
-skills: ['', '' ]
+tags: ['east', '2024', 'active', 'Design_And_Experience']
+skills: ['Design and Experience' ]
 ---
 Burgan is an experienced design leader focused on building high-functioning teams and using human-centered methodologies to create a more inclusive global digital economy.
 

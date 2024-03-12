@@ -8,8 +8,8 @@ agency: ["State"]
 hometown: 
 region: east
 bio_short: Designer, strategist, and facilitator driven by putting people first.
-tags: ['east', '2024', 'active']
-skills: ['', '' ]
+tags: ['east', '2024', 'active', 'Design_And_Experience']
+skills: ['Design and Experience' ]
 ---
 Sweta brings 10 years of experience in using human-centered design, business & marketing strategy, and facilitation to help public sector, non-profit, and advocacy organizations solve complex customer experience problems.
 

@@ -8,8 +8,8 @@ agency: ["SBA"]
 hometown: 
 region: east
 bio_short: Tireless advocate for the end user of technology and services, always looking for opportunities for information to flow upwards through hierarchies (and not just downwards)
-tags: ['east', '2024', 'active']
-skills: ['', '' ]
+tags: ['east', '2024', 'active', 'Design_And_Experience']
+skills: ['Design and Experience' ]
 ---
 Richard Abisla (Ricky) most recently served as an Accessibility UX Researcher at Meta, where he worked on projects that made technology more accessible and inclusive for Meta’s hardware users. He has also worked with the UX hardware team at Google Nest. Prior to joining industry, Ricky led the development and implementation of a nationwide human centered design training program with librarians in Brazil. He has worked alongside grassroots groups in Honduras and Jamaica, public housing residents in Chicago, and new immigrants in San Francisco. Ricky was also selected to serve as an India-US Public Interest Technology Fellow at New America, where he investigated emerging community-based models of organizing and publishing open transit data in four cities in India. 
 

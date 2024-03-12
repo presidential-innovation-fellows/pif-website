@@ -8,8 +8,8 @@ agency: ["SBA"]
 hometown: 
 region: east
 bio_short: Designer, strategist, and urbanist building more equitable and responsive government.
-tags: ['east', '2024', 'active']
-skills: ['', '' ]
+tags: ['east', '2024', 'active', 'Design_And_Experience']
+skills: ['Design and Experience']
 ---
 Jennifer Gardner is a creative leader, big-picture thinker, and strategic advisor working across civic design, urban planning, and public policy to promote equity and opportunity. Jennifer focuses on the ways the built environment and public policy affect social justice and quality of life—particularly the health and sustainability of communities and cities. As a designer, Jennifer is committed to collaboration, making design accessible to all, sharing knowledge, and learning while doing. 
 

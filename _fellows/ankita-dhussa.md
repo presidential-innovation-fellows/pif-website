@@ -8,8 +8,8 @@ agency: ["USDA"]
 hometown: 
 region: east
 bio_short: Creating equitable user-centered design and research experiences
-tags: ['east', '2024', 'active']
-skills: ['', '' ]
+tags: ['east', '2024', 'active', 'Design_And_Experience']
+skills: ['Design and Experience' ]
 ---
 Ankita (she/her) is a user experience strategist and practitioner passionate about human-centered and equitable design practices that serve all people. 
 

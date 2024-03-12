@@ -8,8 +8,8 @@ agency: ["CMS"]
 hometown: 
 region: east
 bio_short: Human-centered designer and DEIB advocate with a passion for solving complex problems.
-tags: ['east', '2024', 'active']
-skills: ['', '' ]
+tags: ['east', '2024', 'active', 'Design_And_Experience']
+skills: ['Design and Experience' ]
 ---
 Glennette Clark is a talented and compassionate human-centered designer with over 15 years of experience. She believes in the ability of design to create inclusive and accessible solutions to complex problems. She advocates for diversity, equity, inclusion, and a sense of belonging in her work.
 
