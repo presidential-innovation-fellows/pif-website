@@ -1,13 +1,13 @@
 ---
 id: stephanie-farquhar
-title: Stephanie E. Farquhar Ph.D.
+title: Stephanie E. Farquhar, PhD
 image: /assets/images/fellows/2024/stephanie-farquhar.jpeg
 fellow_year: 2024
 project: [""]
 agency: ["OMB"]
 hometown: 
 region: east
-bio_short: Unlocking data’s potential to drive equity and innovation in tech and health 
+bio_short: Unlocking data’s potential to drive equity and innovation in tech and health.
 tags: ['east', '2024', 'active', 'Data_Science_And_Analytics', 'Digital_Health']
 skills: ['Data Science and Analytics', 'Digital Health']
 ---

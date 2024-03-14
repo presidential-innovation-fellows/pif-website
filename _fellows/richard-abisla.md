@@ -7,7 +7,7 @@ project: [""]
 agency: ["SBA"]
 hometown: 
 region: east
-bio_short: Tireless advocate for the end user of technology and services, always looking for opportunities for information to flow upwards through hierarchies (and not just downwards)
+bio_short: Tireless advocate for the end user of technology and services, always looking for opportunities for information to flow upwards through hierarchies (and not just downwards).
 tags: ['east', '2024', 'active', 'Design_And_Experience']
 skills: ['Design and Experience' ]
 ---

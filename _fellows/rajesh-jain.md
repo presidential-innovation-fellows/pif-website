@@ -1,13 +1,13 @@
 ---
 id: rajesh-jain
-title: Rajesh-Jain
+title: Rajesh Jain
 image: /assets/images/fellows/2024/rajesh-jain.jpeg
 fellow_year: 2024
 project: [""]
 agency: ["VA"]
 hometown: 
 region: east
-bio_short: Catalyst and Innovator in technology, fostering empathy, leading by example and building bridges.
+bio_short: Catalyst and innovator in technology, fostering empathy, leading by example and building bridges.
 tags: ['east', '2024', 'active', 'Data_Science_And_Analytics', 'Software_And_Cloud_Infrastructure']
 skills: ['Data Science and Analytics', 'Software and Cloud Infrastructure' ]
 ---

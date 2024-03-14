@@ -7,7 +7,7 @@ project: [""]
 agency: ["USDA"]
 hometown: 
 region: east
-bio_short: Creating equitable user-centered design and research experiences
+bio_short: Creating equitable user-centered design and research experiences.
 tags: ['east', '2024', 'active', 'Design_And_Experience']
 skills: ['Design and Experience' ]
 ---

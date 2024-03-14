@@ -7,7 +7,7 @@ project: [""]
 agency: ["CDC"]
 hometown: 
 region: east
-bio_short: Product Architect,  Digital Strategist, Applied AI practitioner, Digital Health Entrepreneur, Innovation Catalyst. Passionate about bringing innovation with process and technology redesign, centered around the wellbeing of humans and our planet (sustainability).
+bio_short: Product architect, digital strategist, applied AI practitioner, digital health entrepreneur, innovation catalyst. Passionate about bringing innovation with process and technology redesign, centered around the wellbeing of humans and our planet (sustainability).
 tags: ['east', '2024', 'active', 'Data_Science_And_Analytics', 'Digital_Health']
 skills: ['Data Science and Analytics', 'Digital Health']
 ---

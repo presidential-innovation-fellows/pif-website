@@ -1,6 +1,6 @@
 ---
 id: nina-daoud
-title: Nina Daoud, Ph.D.
+title: Nina Daoud, PhD
 image: /assets/images/fellows/2024/nina-daoud.jpeg
 fellow_year: 2024
 project: [""]

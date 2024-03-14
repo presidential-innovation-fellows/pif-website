@@ -7,7 +7,7 @@ project: [""]
 agency: ["DOE"]
 hometown: 
 region: east
-bio_short: Technology strategist dedicated to social impact 
+bio_short: Technology strategist dedicated to social impact.
 tags: ['east', '2024', 'active', 'Change_Management', 'Strategy_And_Growth']
 skills: ['Strategy and Growth', 'Change Management']
 ---

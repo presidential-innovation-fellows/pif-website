@@ -7,7 +7,7 @@ project: [""]
 agency: ["USDA"]
 hometown: 
 region: east
-bio_short: Creative strategist, dot-connector, and bureaucracy-hacker for equity and progress
+bio_short: Creative strategist, dot-connector, and bureaucracy-hacker for equity and progress.
 tags: ['east', '2024', 'active', 'Change_Management', 'Strategy_And_Growth']
 skills: ['Strategy and Growth', 'Change Management' ]
 ---
