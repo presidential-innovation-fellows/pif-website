@@ -8,7 +8,7 @@ agency: ["Treasury"]
 hometown: Burlingame, CA
 region: west
 bio_short: Big-picture thinker; passionate about using data to understand the world.
-tags: ['west','2022','Data_Science_And_Analytics', 'active']
+tags: ['west','2022','Data_Science_And_Analytics']
 skills: ['Data Science and Analytics']
 ---
 

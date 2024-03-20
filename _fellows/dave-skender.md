@@ -8,7 +8,7 @@ agency: ["DHS"]
 hometown: Potomac, MD
 region: east
 bio_short: Technology leader, organization builder, and pragmatic implementer of modern engineering solutions and products.
-tags: ['east', '2021', 'Product', 'Software_And_Cloud_Infrastructure', 'Cybersecurity', 'active']
+tags: ['east', '2021', 'Product', 'Software_And_Cloud_Infrastructure', 'Cybersecurity']
 skills: ['Product', 'Software and Cloud Infrastructure', 'Cybersecurity']
 ---
 Dave Skender is a lifelong product and engineering professional, coach, and leader with roots in traditional systems design, and has been a prominent member of senior software engineering leadership teams. While his career has taken him deeply into software product development, he has also worked in an executive management consulting firm helping startup to medium-sized companies develop and execute strategic plans. Early in his career, Dave contributed to the design, prototype construction, and destructive ballistic testing of heavy military combat vehicles and future force warrior systems.
