@@ -1,6 +1,6 @@
 ---
 id: stephanie-farquhar
-title: Stephanie E. Farquhar, PhD
+title: Stephanie E. Farquhar, Ph.D.
 image: /assets/images/fellows/2024/stephanie-farquhar.jpeg
 fellow_year: 2024
 project: [""]
