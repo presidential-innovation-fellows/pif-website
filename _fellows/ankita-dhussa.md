@@ -3,7 +3,7 @@ id: ankita-dhussa
 title: Ankita Dhussa
 image: /assets/images/fellows/2024/ankita-dhussa.jpeg
 fellow_year: 2024
-project: [""]
+project: []
 agency: ["USDA"]
 hometown: 
 region: east

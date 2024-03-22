@@ -3,7 +3,7 @@ id: jonathan-roberts
 title: Jon Roberts
 image: /assets/images/fellows/2024/jonathan-roberts.png
 fellow_year: 2024
-project: [""]
+project: []
 agency: ["USDA"]
 hometown: 
 region: east

@@ -3,7 +3,7 @@ id: erin-doherty
 title: Erin Doherty
 image: /assets/images/fellows/2024/erin-doherty.jpeg
 fellow_year: 2024
-project: [""]
+project: []
 agency: ["CDC"]
 hometown: 
 region: east

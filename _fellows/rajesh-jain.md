@@ -3,7 +3,7 @@ id: rajesh-jain
 title: Rajesh Jain
 image: /assets/images/fellows/2024/rajesh-jain.jpeg
 fellow_year: 2024
-project: [""]
+project: []
 agency: ["VA"]
 hometown: 
 region: east

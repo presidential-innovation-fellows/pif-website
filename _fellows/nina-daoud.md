@@ -3,7 +3,7 @@ id: nina-daoud
 title: Nina Daoud, Ph.D.
 image: /assets/images/fellows/2024/nina-daoud.jpeg
 fellow_year: 2024
-project: [""]
+project: []
 agency: ["USDA"]
 hometown: 
 region: east

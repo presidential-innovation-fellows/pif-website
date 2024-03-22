@@ -3,7 +3,7 @@ id: michael-conlin
 title: Michael Conlin
 image: /assets/images/fellows/2024/michael-conlin.jpeg
 fellow_year: 2024
-project: [""]
+project: []
 agency: ["USDA"]
 hometown: 
 region: east

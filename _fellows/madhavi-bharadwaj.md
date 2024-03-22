@@ -3,7 +3,7 @@ id: madhavi-bharadwaj
 title: Madhavi Bharadwaj
 image: /assets/images/fellows/2024/madhavi-bharadwaj.jpeg
 fellow_year: 2024
-project: [""]
+project: []
 agency: ["HHS"]
 hometown: 
 region: east

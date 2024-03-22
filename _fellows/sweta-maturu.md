@@ -3,7 +3,7 @@ id: sweta-maturu
 title: Sweta Maturu
 image: /assets/images/fellows/2024/sweta-maturu.jpeg
 fellow_year: 2024
-project: [""]
+project: []
 agency: ["State"]
 hometown: 
 region: east

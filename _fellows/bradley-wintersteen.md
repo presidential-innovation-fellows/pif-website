@@ -3,7 +3,7 @@ id: bradley-wintersteen
 title: Brad Wintersteen
 image: /assets/images/fellows/2024/bradley-wintersteen.jpeg
 fellow_year: 2024
-project: [""]
+project: []
 agency: ["DOE"]
 hometown: 
 region: east

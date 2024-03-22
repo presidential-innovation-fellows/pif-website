@@ -3,7 +3,7 @@ id: matthew-law
 title: Matt Law
 image: /assets/images/fellows/2024/matthew-law.jpeg
 fellow_year: 2024
-project: [""]
+project: []
 agency: ["FEMA"]
 hometown: 
 region: east

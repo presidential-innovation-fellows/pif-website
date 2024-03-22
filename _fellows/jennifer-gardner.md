@@ -3,7 +3,7 @@ id: jennifer-gardner
 title: Jennifer Gardner
 image: /assets/images/fellows/2024/jennifer-gardner.jpeg
 fellow_year: 2024
-project: [""]
+project: []
 agency: ["SBA"]
 hometown: 
 region: east

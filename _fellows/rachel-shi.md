@@ -3,7 +3,7 @@ id: rachel-shi
 title: Rachel Shi
 image: /assets/images/fellows/2024/rachel-shi.jpeg
 fellow_year: 2024
-project: [""]
+project: []
 agency: ["DOE"]
 hometown: 
 region: east

@@ -3,7 +3,7 @@ id: jasmine-miles
 title: Jasmine Miles
 image: /assets/images/fellows/2024/jasmine-miles.jpeg
 fellow_year: 2024
-project: [""]
+project: []
 agency: ["FAA"]
 hometown: 
 region: east

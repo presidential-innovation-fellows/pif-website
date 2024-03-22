@@ -3,7 +3,7 @@ id: glennette-clark
 title: Glennette Clark, MBA
 image: /assets/images/fellows/2024/glennette-clark.jpg
 fellow_year: 2024
-project: [""]
+project: []
 agency: ["CMS"]
 hometown: 
 region: east

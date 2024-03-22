@@ -3,7 +3,7 @@ id: burgan-shealy
 title: Burgan Shealy
 image: /assets/images/fellows/2024/burgan-shealy.jpeg
 fellow_year: 2024
-project: [""]
+project: []
 agency: ["CISA"]
 hometown: 
 region: east

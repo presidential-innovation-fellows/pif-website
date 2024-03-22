@@ -3,7 +3,7 @@ id: richard-abisla
 title: Ricky Abisla
 image: /assets/images/fellows/2024/richard-abisla.jpeg
 fellow_year: 2024
-project: [""]
+project: []
 agency: ["SBA"]
 hometown: 
 region: east

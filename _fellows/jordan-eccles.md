@@ -3,7 +3,7 @@ id: jordan-eccles
 title: Jordan Eccles
 image: /assets/images/fellows/2024/jordan-eccles.jpeg
 fellow_year: 2024
-project: [""]
+project: []
 agency: ["EOP"]
 hometown: 
 region: east

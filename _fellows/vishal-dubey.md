@@ -3,7 +3,7 @@ id: vishal-dubey
 title: Vishal Dubey
 image: /assets/images/fellows/2024/vishal-dubey.jpeg
 fellow_year: 2024
-project: [""]
+project: []
 agency: ["CDC"]
 hometown: 
 region: east

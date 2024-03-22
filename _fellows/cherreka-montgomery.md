@@ -3,7 +3,7 @@ id: cherreka-montgomery
 title: Cherreka Montgomery
 image: /assets/images/fellows/2024/cherreka-montgomery.jpeg
 fellow_year: 2024
-project: [""]
+project: []
 agency: ["DOE"]
 hometown: 
 region: east

@@ -3,7 +3,7 @@ id: todd-holloway
 title: Todd Holloway
 image: /assets/images/fellows/2024/todd-holloway.jpeg
 fellow_year: 2024
-project: [""]
+project: []
 agency: ["GSA"]
 hometown: 
 region: east
