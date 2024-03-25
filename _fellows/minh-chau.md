@@ -8,7 +8,7 @@ agency: ["MCC"]
 hometown: Boston, MA
 region: northeast
 bio_short: Former refugee turned child actor, turned investment banker, turned tech entrepreneur.
-tags: ['northeast', '2020', 'Strategy_And_Growth' , 'Change_Management', 'Venture_Capital_Private_Equity', 'active']
+tags: ['northeast', '2020', 'Strategy_And_Growth' , 'Change_Management', 'Venture_Capital_Private_Equity']
 skills: ['Venture Capital/Private Equity', 'Change Management', 'Strategy and Growth']
 ---
 

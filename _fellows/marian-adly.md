@@ -8,7 +8,7 @@ agency: ["VA"]
 hometown: St. Louis, MO
 region: midwest
 bio_short: Healthcare, life sciences, and public health innovator, strategist, caregiver -- focused on empowering individuals and communities to take control of their health and wellness.  
-tags: ['midwest', '2021', 'Digital_Health', 'Change_Management', 'active']
+tags: ['midwest', '2021', 'Digital_Health', 'Change_Management']
 skills: ['Digital Health', 'Change Management']
 ---
 Marian Adly's experience spans the healthcare ecosystem having worked in public and private entities across the continuum of care and delivery networks. Most recently, Marian worked at Google supporting COVID response efforts and was responsible for managing a large public-private partnership. Prior to Google, she was the founder of a biotech company focused on an array of consumer-based products. Additionally, she has been involved with a variety of public health programs ranging from local to international including the United Nations Development Programme on global pandemic planning efforts.

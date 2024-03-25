@@ -8,7 +8,7 @@ agency: ["CDC"]
 hometown: Baltimore, MD
 region: east
 bio_short: Architecture and interoperability for healthcare and life sciences.
-tags: ['east','2022', 'Software_And_Cloud_Infrastructure', 'Data_Science_And_Analytics', 'active']
+tags: ['east','2022', 'Software_And_Cloud_Infrastructure', 'Data_Science_And_Analytics']
 skills: ['Software and Cloud Infrastructure', 'Data Science and Analytics']
 ---
 

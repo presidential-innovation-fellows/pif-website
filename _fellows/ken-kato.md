@@ -8,7 +8,7 @@ agency: ["Navy"]
 hometown: Boston, MA
 region: northeast
 bio_short: Thought leader. Technology disruptor. Innovator. Experienced in solving problems from bare metal to cloud. Steeped deeply in agile methods and development. Track record of success as a change agent in highly regulated industries.
-tags: ['northeast', '2020', 'Product', 'Software_And_Cloud_Infrastructure', 'active']
+tags: ['northeast', '2020', 'Product', 'Software_And_Cloud_Infrastructure']
 skills: ['Software and Cloud Infrastructure', 'Product']
 ---
 

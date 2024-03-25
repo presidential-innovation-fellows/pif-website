@@ -8,7 +8,7 @@ agency: ["DOT"]
 hometown: Fairfax Station, VA
 region: east
 bio_short: Transformational leader combining art and science to provide clarity to complex issues.
-tags: ['east', '2021', 'Data_Science_And_Analytics', 'AI_Machine_Learning', 'active']
+tags: ['east', '2021', 'Data_Science_And_Analytics', 'AI_Machine_Learning']
 skills: ['Data Science and Analytics', 'AI/Machine Learning']
 ---
 Throughout her 15-year career, Adrianna Valenti has established a reputation as a transformational leader who is driven by challenge, undeterred by obstacles, and committed to furthering standards of excellence. She began her journey as a musician then found her way to supporting intelligence operations in the U.S. Air Force. Here, she discovered her passion for combining art and science to provide answers and understanding to complex issues. She is particularly inspired by humanitarian efforts and identifying vulnerable populations in potentially catastrophic situations.

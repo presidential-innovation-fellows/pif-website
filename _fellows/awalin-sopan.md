@@ -8,7 +8,7 @@ agency: ["SBA"]
 hometown: Reston, Virginia 
 region: east
 bio_short: Transforming information into insights. Putting users first. Leading with compassion.
-tags: ['east','2022','Data_Science_And_Analytics', 'active']
+tags: ['east','2022','Data_Science_And_Analytics']
 skills: ['Data Science and Analytics']
 ---
 
