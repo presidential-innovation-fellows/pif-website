@@ -7,7 +7,7 @@ project: []
 agency: ["FAA"]
 hometown: 
 region: east
-bio_short: Passionate about innovation, change, and strategy, growth.
+bio_short: Passionate about innovation, change, strategy, and growth.
 tags: ['east', '2024', 'active', 'Change_Management', 'Strategy_And_Growth']
 skills: ['Strategy and Growth', 'Change Management']
 ---
