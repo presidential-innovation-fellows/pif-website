@@ -8,8 +8,8 @@ agency: ["DOE"]
 hometown: 
 region: east
 bio_short: Passionate about ensuring technology change is accessible and achievable for all.
-tags: ['east', '2024', 'active', 'Data_Science_And_Analytics', 'AI_Machine_Learning']
-skills: ['Data Science and Analytics', 'AI/Machine Learning']
+tags: ['east', '2024', 'active', 'Data_Science_And_Analytics']
+skills: ['Data Science and Analytics']
 ---
 Brad has spent his career working to understand people's needs and creating technology solutions to achieve them. Having worked and conducted research in six countries, he is an experienced and dynamic technologist specializing in bringing together diverse stakeholders and finding ways to make technology achievable for all. 
 
