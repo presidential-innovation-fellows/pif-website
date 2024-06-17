@@ -7,7 +7,7 @@ project: []
 agency: ["DOS"]
 hometown: Washington, DC
 region: 
-bio_short: Hacker at heart. Seeking a safe, magical future for all.
+bio_short: Seeking a safe, magical future for all.
 tags: ['2024','2024_AI']
 skills: []
 ---
