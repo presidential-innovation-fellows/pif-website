@@ -7,7 +7,7 @@ project: []
 agency: ["OMB"]
 hometown: 
 region: 
-bio_short: Analytical business strategist, tech governance leader, and consumer advocate. Think at a systems level and build trust at the user level. Artificial Intelligence SME, entrepreneur, professor, evangelist, patent holder, philosopher, coach.
+bio_short: Analytical business strategist, tech governance leader, and consumer advocate. 
 tags: ['2024', '2024_AI']
 skills: []
 ---
