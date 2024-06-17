@@ -8,8 +8,8 @@ agency: ["EEOC"]
 hometown: 
 region: 
 bio_short: Building solutions and teams with purpose and integrity.
-tags: ['2024', '2024_AI']
-skills: []
+tags: ['2024', '2024_AI', 'AI_Machine_Learning']
+skills: ['AI/Machine Learning']
 ---
 
 Anjali Patel is a proven consultant and people leader on a mission to drive social progress using technology. With a blend of creativity, entrepreneurial spirit, and structured approach, Anjali has been behind numerous, complex technology and organizational solutions that have successfully created value and new possibilities for across industries.

@@ -8,8 +8,8 @@ agency: ["DOD"]
 hometown: 
 region: 
 bio_short: Trusted problem solver, supportive team builder, strategic thinker. Passion for creating value with innovative tech.
-tags: ['2024', '2024_AI']
-skills: []
+tags: ['2024', '2024_AI', 'AI_Machine_Learning']
+skills: ['AI/Machine Learning']
 ---
 
 Scott has over two decades of experience leading dynamic teams at all organizational levels in a variety of business, defense, intelligence, technology, and diplomatic positions across numerous countries and continents. He most recently contributed to the transition and establishment of a major AI/ML pathfinder as a program of record at a federal intelligence agency, personally driving global customer engagement and product development for thousands of end users and stakeholders.

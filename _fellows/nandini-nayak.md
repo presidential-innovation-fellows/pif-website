@@ -8,8 +8,8 @@ agency: ["FHFA"]
 hometown: 
 region: 
 bio_short: Human centered digital transformation strategy. Thought leadership. Executive coaching.
-tags: ['2024', '2024_AI']
-skills: []
+tags: ['2024', '2024_AI', 'AI_Machine_Learning']
+skills: ['AI/Machine Learning']
 ---
 
 Nandini Nayak is an experienced Digital Transformation executive - an amalgam of human- centered service designer, cognitive scientist, digital strategist and operator.  She thrives on working at the bleeding edge of technology with a human-centered lens. Her 25+ year career spans digital leadership roles at Hewlett Packard and at Accenture where she led innovative product research and development and experience optimization programs enabled by transformative technologies.  

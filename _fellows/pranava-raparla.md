@@ -8,8 +8,8 @@ agency: ["DOE"]
 hometown: 
 region: 
 bio_short: Bringing energy-efficiency and responsive design to product development
-tags: ['2024', '2024_AI']
-skills: []
+tags: ['2024', '2024_AI', 'AI_Machine_Learning']
+skills: ['AI/Machine Learning']
 ---
 
 Pranava is a product manager who spent his career building hardware and software products with great performance and energy efficiency. At Microsoft, he worked on projects ranging from optimizing the compute of AI features on next generation silicon to improving performance of biometric authentication. Pranava is passionate about designing experiences from the ground up with energy consumption in mind, he is eager to learn about how that’s achieved across the tech industry.

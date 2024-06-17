@@ -8,8 +8,8 @@ agency: ["CMS"]
 hometown: 
 region: 
 bio_short: Artificial Intelligence SME, entrepreneur, professor, evangelist, patent holder, philosopher, coach.
-tags: ['2024', '2024_AI']
-skills: []
+tags: ['2024', '2024_AI', 'AI_Machine_Learning']
+skills: ['AI/Machine Learning']
 ---
 
 Matthew is an Artificial intelligence subject matter expert, a senior leader in AI at the fortune-5 healthcare level who has seen hundreds of use-cases, and has been in the AI space since the mid-80's.

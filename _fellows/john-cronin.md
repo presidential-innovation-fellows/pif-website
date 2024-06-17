@@ -8,8 +8,8 @@ agency: ["DOD"]
 hometown: 
 region: 
 bio_short: Applied scientist passionate about education and finding things that work.
-tags: ['2024', '2024_AI']
-skills: []
+tags: ['2024', '2024_AI', 'AI_Machine_Learning']
+skills: ['AI/Machine Learning']
 ---
 
 John Cronin is an experienced product leader who leverages his diverse background in consulting, nursing, and entrepreneurship to solve complex problems. He was most recently a product manager at Tembo Health, where he worked to create products that improved the lives of caregivers and patients impacted by dementia. Prior to his time at Tembo Health, John co-founded F3 Healthcare, which focused on addressing a root cause of the opioid crisis by using data to influence prescriber behavior. A longtime emergency and critical care nurse, John spent much of the COVID-19 pandemic working as a flight nurse for MEDEVAC Helicopter ExpressCare-1. John has also worked as a consultant advising senior leaders on operational improvements, digital transformations, and strategic growth.

@@ -8,8 +8,8 @@ agency: ["DOJ"]
 hometown: 
 region: 
 bio_short: Enabling empathetic and rigorous decision-making through data
-tags: ['2024', '2024_AI']
-skills: []
+tags: ['2024', '2024_AI', 'AI_Machine_Learning']
+skills: ['AI/Machine Learning']
 ---
 
 Brian Karfunkel is a data scientist who has worked in academic, nonprofit, and industry settings to turn raw data into decisions and knowledge. He is passionate about transforming how organizations use data to develop the deep understanding necessary to achieve their mission.

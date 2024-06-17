@@ -8,8 +8,8 @@ agency: ["State"]
 hometown: Washington, DC
 region: 
 bio_short: Software engineer with a passion for security and civic tech.
-tags: ['2024','2024_AI']
-skills: []
+tags: ['2024', '2024_AI', 'AI_Machine_Learning']
+skills: ['AI/Machine Learning']
 ---
 
 Dr. James Pavur is a software engineer with a passion for security and civic tech. His most recent professional experience involved serving as the Lead Product Security Engineer at an early-stage startup building next-generation tools to facilitate the digital engineering of physical objects. Other experiences include supporting the Pentagon's Defense Digital Service and Chief Digital and Artificial Intelligence Office and various positions in the embedded systems security and reverse engineering domains.

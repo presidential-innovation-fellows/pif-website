@@ -8,8 +8,8 @@ agency: ["OMB"]
 hometown: 
 region: 
 bio_short: Analytical business strategist, tech governance leader, and consumer advocate. 
-tags: ['2024', '2024_AI']
-skills: []
+tags: ['2024', '2024_AI', 'AI_Machine_Learning']
+skills: ['AI/Machine Learning']
 ---
 
 Arushi is a consumer advocate and Trust & Safety professional with broad experience across large technology companies, startups, and academia. Her area of expertise is in risk management, use case design, quantitative data analysis, product marketing, and go-to-market strategy.
