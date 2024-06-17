@@ -7,7 +7,7 @@ project: []
 agency: ["DOD"]
 hometown: 
 region: 
-bio_short: Applied scientist passionate about education and finding things that work.
+bio_short: Creative problem solver. 
 tags: ['2024', '2024_AI', 'AI_Machine_Learning']
 skills: ['AI/Machine Learning']
 ---
