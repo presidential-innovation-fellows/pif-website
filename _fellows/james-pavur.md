@@ -7,7 +7,7 @@ project: []
 agency: ["DOS"]
 hometown: Washington, DC
 region: 
-bio_short: Seeking a safe, magical future for all.
+bio_short: Software engineer with a passion for security and civic tech.
 tags: ['2024','2024_AI']
 skills: []
 ---
