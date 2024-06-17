@@ -7,7 +7,7 @@ project: []
 agency: ["DOJ"]
 hometown: 
 region: 
-bio_short: Fusing Team Creativity and Technology to Solve Meaningful Problems.
+bio_short: Fusing team creativity and technology to solve meaningful problems.
 tags: ['2024', '2024_AI']
 skills: []
 ---
