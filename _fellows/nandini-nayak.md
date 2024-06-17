@@ -7,7 +7,7 @@ project: []
 agency: ["FHFA"]
 hometown: 
 region: 
-bio_short: Human Centered Digital Transformation Strategy. Thought Leadership. Executive Coaching.
+bio_short: Human centered digital transformation strategy. Thought leadership. Executive coaching.
 tags: ['2024', '2024_AI']
 skills: []
 ---
