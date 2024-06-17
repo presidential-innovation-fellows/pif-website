@@ -28,6 +28,11 @@
   url: http://www.ed.gov
   description:
 
+- name: EEOC
+  fullname: Equal Employment Opportunity Commission
+  url: https://www.eeoc.gov/
+  description:
+
 - name: EOP
   fullname: Executive Office of the President
   url: https://www.whitehouse.gov/administration/executive-office-of-the-president/
@@ -51,6 +56,11 @@
 - name: DOE
   fullname: Department of Energy
   url: http://energy.gov
+  description:
+
+- name: DOJ
+  fullname: Department of Justice
+  url: https://www.justice.gov/
   description:
 
 - name: DOI

@@ -4,7 +4,7 @@ title: James Pavur
 image: /assets/images/fellows/2024/ai/james-pavur-headshot.jpeg
 fellow_year: 2024
 project: []
-agency: ["DOS"]
+agency: ["State"]
 hometown: Washington, DC
 region: 
 bio_short: Software engineer with a passion for security and civic tech.
