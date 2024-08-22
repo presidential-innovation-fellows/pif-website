@@ -5,8 +5,8 @@
         <option value="" selected disabled hidden>Fellows by year</option>
         {% assign years = site.data.years | reverse %}
         {% for year in years %}
-          <option value="{{ year }}">
-            {{ year }} Fellows
+          <option value="{{ year.url_name }}">
+            {{ year.display_name }} Fellows
           </option>
         {% endfor %}
       </select>
@@ -34,7 +34,7 @@
 
 <script type="text/javascript">
 
-  const validYears = [{% for year in site.data.years %} "{{ year }}" {% unless forloop.last %},{% endunless %} {% endfor %}]
+  const validYears = [{% for year in site.data.years %} "{{ year.url_name }}" {% unless forloop.last %},{% endunless %} {% endfor %}]
   const validSpecialties = [{% for skill in site.data.fellow-specialties %} "{{ skill.url_name }}" {% unless forloop.last %},{% endunless %} {% endfor %}]
 
   // Year Select
