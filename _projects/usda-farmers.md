@@ -8,7 +8,7 @@ summary: "Helping the U.S. Department of Agriculture re-imagine how it engages w
 cover_art: ""
 project_challenge: "How might the U.S. Department of Agriculture deliver a better experience for America's farmers?"
 partner_description: "The U.S. Department of Agriculture provides leadership on food, agriculture, natural resources, rural development, nutrition, and related issues based on public policy, the best available science, and effective management."
-project_link: https://newfarmers.usda.gov
+project_link: https://www.farmers.gov/your-business/beginning-farmers
 status: "past"
 redirect_from:
   - /newprojects/usda-farmers.html
