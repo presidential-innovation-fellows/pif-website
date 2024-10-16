@@ -12,7 +12,7 @@ This will be displayed on the homepage. Ideally, you want to highlight key goals
         </h1>
         <h2>to improve government for every person in our country</h2>
         {% if site.apply_now %}
-        <p><a class="usa-button usa-button--inverse" href="https://www.usajobs.gov/job/808657100" target="_blank">Apply by September 30</a></p> 
+        <p><a class="usa-button usa-button--inverse" href="{{ site.baseurl }}/apply" target="_blank">Apply by September 30</a></p> 
         {% else %}
         <a class="usa-button usa-button--inverse" target="_blank" href="https://public.govdelivery.com/accounts/USGSATTS/subscriber/new?qsp=USGSATTS_1" rel="noopener"> Sign up for PIF Updates</a>
         {% endif %}
@@ -20,9 +20,9 @@ This will be displayed on the homepage. Ideally, you want to highlight key goals
           {% if site.apply_now %}
           <a href="{{ site.baseurl }}/apply" class="white">Apply:</a> Applications for the 2025 PIF cohort are now open. <br/>
           {% else %}
-          <a href="{{ site.baseurl }}/apply" class="white">Apply:</a> Applications for the 2025 PIF cohort are now open. Join our mailing list to <a href="{{ site.baseurl }}/apply" class="white" style="all: unset; text-decoration: underline;">receive alerts</a> <br/>
+          <a href="{{ site.baseurl }}/apply" class="white">Apply:</a> Applications for the 2025 PIF cohort are now closed. Join our mailing list to <a href="{{ site.baseurl }}/apply" class="white" style="all: unset; text-decoration: underline;">receive alerts</a> <br/>
           {% endif %}
-          <a href="{{ site.baseurl }}/agencies" class="white">Agencies:</a> <a href="https://touchpoints.app.cloud.gov/touchpoints/a86e0543/submit" class="white" style="all: unset; text-decoration: underline;"> Submit a proposal </a>for our next cohort starting June 2025 now!  </br>
+          <a href="{{ site.baseurl }}/agencies" class="white">Agencies:</a> <a href="https://airtable.com/appmoRzhg5rtU6vjj/pagmgNcA6o9ShsRA1/form" class="white" style="all: unset; text-decoration: underline;"> Submit a proposal </a>for our next cohort starting June 2025 now!  </br>
         </p>
       </div>
     </div>
