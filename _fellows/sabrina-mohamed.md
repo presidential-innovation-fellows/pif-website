@@ -7,12 +7,10 @@ project: ["va-cto"]
 agency: ["VA"]
 hometown: Seattle, WA
 region: west
-bio_short: Lifelong obsession with learning (coupled with courage to take risks).
+bio_short: Product leader blending ethics, innovation, and user-centered design in tech.
 tags: ['west', '2021', 'Product', 'Software_And_Cloud_Infrastructure']
 skills: ['Product', 'Software and Cloud Infrastructure']
 ---
-Sabrina is fascinated by the historical emergence of science and technology as salient ways of knowing the world. They shape and influence politics, policy, and society, and are shaped and influenced by those forces in turn. Because of this consequential interplay, Sabrina’s mission as a product leader is to incorporate ethics and human-centered design conversations into technological conversations. Whenever she builds product, she looks beyond the questions of "What and How" and encourages others to ask "Why and For Whom?"
+Sabrina is an experienced product leader with expertise in AI-driven product strategy, user-centered design, and enterprise solutions. She has a proven track record of defining product vision, leading cross-functional teams, and delivering innovative features that drive customer engagement and business growth. At Microsoft, Sabrina spearheaded the development of AI-powered collaboration tools, focusing on security and customization to meet the needs of enterprise clients. Her ability to translate user needs into scalable, impactful solutions has been instrumental in enhancing communication and productivity across diverse industries.
 
-Prior to Government, Sabrina worked at Microsoft. She most recently worked on Word, building ways for information workers to collaborate and stay on top of personal productivity. She also worked on Sway, scaling the just-launched service, and on OneDrive for Business, designing external collaboration capabilities to meet the multi-faceted security needs of enterprise customers.
-
-Sabrina graduated from Harvard University with a concentration in Computer Science and a secondary in History of Science. During those years, she wrote for the newspaper, The Crimson, and was a founding member of the Women in Computer Science organization. For enjoyment, she likes to read, to row, to recreate in our State and National Parks, and to spend time with family. She is based in Seattle, Washington.
+Sabrina holds a degree in Computer Science from Harvard University, with a secondary degree in the History of Science.
