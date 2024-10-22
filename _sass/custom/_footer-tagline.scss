@@ -1,7 +1,7 @@
 .footer-tagline {
   @include u-bg('primary');
   @include overlay-base(360px);
-  background-image: url($baseurl + "/assets/images/banners/banner-homecoming-eeob-bw.jpg");
+  background-image: url($baseurl + "/assets/images/banners/join-us-footer-banner.webp");
   background-size: cover;
   background-position: 0 25%;
 }
