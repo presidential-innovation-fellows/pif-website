@@ -53,6 +53,70 @@
   margin-left: 0;
 }
 
+.sidenav {
+  .usa-sidenav {
+      a {
+          padding-left: 0.5rem;
+          padding-right: 0.5rem;
+      }
+  }
+
+  .usa-sticky-sidenav {
+      position: sticky;
+      top: 16px;
+  }
+}
+//Apply Process Section
+// unique tweaks to process list
+.apply-process {
+  .usa-process-list {
+      // keep
+  }
+
+  .usa-sidenav {
+      counter-reset: usa-numbered-list;
+
+      .usa-sidenav__item {
+          border-top: none;
+          a {
+              &:hover{
+                @include u-text("primary-light");
+              }
+            }
+      }
+
+      .usa-sidenav__item::before {
+          display: flex;
+          flex-direction: row;
+
+          position: absolute;
+          left: -1.5rem;
+          height: 1.5rem;
+          width: 1.5rem;
+
+          margin-top: 0.45rem;
+          align-items: center;
+          justify-content: center;
+
+          font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+          font-size: 0.9rem;
+          font-weight: bold;
+          color: color("base-dark");
+
+          border: 0.15rem solid color("base-dark");
+          border-radius: 50%;
+          background-color: white;
+
+          content: counter(usa-numbered-list, decimal);
+          counter-increment: usa-numbered-list;
+      }
+
+      // custom bullets
+      .bullet-question::before {
+          content: "?";
+      }
+  }
+}
 // Custom Dark Styles
 
 .usa-header--dark {
