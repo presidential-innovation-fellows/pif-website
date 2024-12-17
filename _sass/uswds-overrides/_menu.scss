@@ -1,3 +1,7 @@
 .usa-menu-btn:hover {
   @include u-bg('primary');
 }
+
+.menu-apply {
+  @include u-margin-left(10);
+}

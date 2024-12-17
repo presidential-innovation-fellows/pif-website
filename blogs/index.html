@@ -1,0 +1,18 @@
+---
+layout: blog-landing
+title: Blog
+permalink: /blog/
+social: blogs
+pagination:
+  enabled: true
+  collection: blogs
+  sort_field: 'published_at'
+  sort_reverse: 'true'
+  tag: 
+---
+
+
+
+{% include_cached blog-list.html blogs=paginator.posts %}
+
+ 
