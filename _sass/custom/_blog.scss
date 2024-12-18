@@ -1,0 +1,109 @@
+// BLOG customization
+
+
+  //Filter
+.blog-filter{
+    @include at-media ('desktop'){
+     margin: 0 10%;
+    }
+     //@include u-margin-right(2);
+   }
+
+
+//Blog Card
+.blog-card{
+    min-height: 300px;
+    a {
+        text-decoration: none;
+
+    }
+    .usa-card__body{
+      @include u-text("black");
+    }
+   
+}
+.tag {
+    margin: 0;
+    ul {
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        li{
+            padding: 2px;
+            span{
+                border-radius: 10px;
+            }
+        }
+    }
+}
+.blog-card--tag {
+  ul{
+    padding-inline-start: 20px;
+  }
+}
+.blog-page--tag {
+  ul{
+    padding-inline-start: 0px;
+  }
+}
+
+.usa-card__footer {
+  .usa-button{
+    display: flex;
+  justify-content: center;
+  }
+  
+}
+
+
+//Individual Blog Page
+.blog-header{
+    p{
+        @include u-text("primary");
+    }
+}
+.usa-image-block{
+    margin: 5px;
+    img{
+        float: left;
+        margin: 12px;
+        width: 20%;
+        max-height: 200px;
+    }
+}
+
+.blog-quote-box{
+    margin-bottom: 0.5rem;
+    max-width: 88ex;
+    padding: 1rem;
+    background-color: #edeff0;
+    border-radius: 2px;
+}
+
+
+
+
+// ID Custom Styling
+#photo-of-fellows {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    img{
+      margin: 12px;
+      max-height: 420px;
+    }
+}
+
+#celebrating-fellows-present {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5px;
+
+    img{
+      margin: 12px;
+      max-height: 420px;
+    }
+}

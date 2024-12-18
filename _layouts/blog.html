@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+{% comment %}
+This template is for a single page that does not have a date associated with it. For example, an about page.
+{% endcomment %}
+
+
+  <div class="usa-layout-docs usa-section">
+    <div class="grid-container">
+      <div class="grid-row grid-gap">
+        <div class="usa-layout-docs__main desktop:grid-col-7 usa-prose blog-page">
+          <div class="blog-header">
+            <h1>{{page.title}}</h1>
+            <p><strong>{{page.author}}</strong></p>
+            <p>{{page.published_at | date: '%B %e, %Y'}}</p>
+            <div class="blog-page--tag tag">
+              {% assign blog_types = site.data.blog-type | where_exp:'type', "page.tags contains type.url_name" %}
+              {% for type in blog_types%}
+              {% if forloop.first %}
+              <ul>
+                {% endif %}
+                <li><span class="{{ type.url_name }} usa-tag">{{ type.display_name }}</span></li>
+                {% if forloop.last %}
+              </ul>
+              {% endif %}
+              {% endfor %}
+            </div>
+          </div>
+          <div class="blog-content"> {{ page.content }} </div>
+        </div>
+        <!-- {% include blog-aside.html %} -->
+      </div>
+    </div>
+  </div>
