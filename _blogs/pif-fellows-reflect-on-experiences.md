@@ -1,7 +1,7 @@
 ---
 id: pif-fellows-reflect-on-experiences
 title: 'PIF Fellows Reflect On Experiences'
-image: /assets/images/logo/pif-logo--dark.png
+image: /assets/images/blogs/PIF_Experiences_Blog.png
 author: Presidential Innovation Fellows alumni
 published_at: "2024-12-13"
 summary: "Former Presidential Innovation Fellows reflect on their experiences within the program and how it has helped them to continue their careers in public service."

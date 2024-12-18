@@ -84,7 +84,7 @@
 }
 .blogs .usa-hero {
   @include hero-short;
-  background-image: url($baseurl + "/assets/images/banners/banner-nasa.jpg");
+  background-image: url($baseurl + "/assets/images/banners/blog-header.png");
 }
 .usa-hero.project {
   @include hero-short;
