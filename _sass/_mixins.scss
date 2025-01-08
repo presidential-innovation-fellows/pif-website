@@ -37,6 +37,10 @@
   a.white::after {
     background-color: white;
   }
+
+  a.white.transparent::after{
+    background-color: transparent;
+  }
 }
 
 
