@@ -24,6 +24,9 @@ Since PIF’s founding in 2012, over 50% of PIF alumni continue in or return to 
 *Former: PIF at the Department of Justice (DoJ) focusing on social impact design*
 *Current: Access DOJ Senior Design Lead at the Department of Justice’s Office for Access to Justice*
 
+<div class="usa-image-block">
+  <img src="{{site.baseurl}}/assets/images/fellows/2022/becky-slogeris-headshot.jpg" alt="Photo of Becky Slogeris"/>
+</div>
 “My proudest moment as a PIF was launching Access DOJ, the Department of Justice’s human-centered design and customer experience initiative, in collaboration with my team at the Office for Access to Justice. This was the culmination of over two years of building relationships, demonstrating the value of design, honing the value proposition, and strategizing on how to best bring Human Centered Design (HCD) & Customer Experience (CX) to the DOJ.
 
 The best part about being in public service is that every win, even if it’s small, feels monumental because you know it’s part of a larger movement to help make government more accessible, effective, and efficient for the public. PIF showed me that true change in government can only happen in collaboration with civil servants. There’s a huge learning curve when you join the federal government – PIF gave me the support and skills needed to be able to jump right in and get to work.” 
