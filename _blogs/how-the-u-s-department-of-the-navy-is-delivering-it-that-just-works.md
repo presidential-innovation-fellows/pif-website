@@ -6,7 +6,7 @@ author: Amanda Hawkins
 published_at: "2024-06-10"
 summary: ""
 external_url:
-tags: ['GSA']
+tags: ['Navy']
 type: Blog
 social: blog
 ---

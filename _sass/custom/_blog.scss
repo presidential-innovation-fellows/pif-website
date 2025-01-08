@@ -66,9 +66,11 @@
     margin: 5px;
     img{
         float: left;
-        margin: 12px;
-        width: 20%;
-        max-height: 200px;
+        margin-right: 12px;
+        width:  200px;
+        height: 250px;
+        object-fit: cover;
+        max-height: 250px;
     }
 }
 

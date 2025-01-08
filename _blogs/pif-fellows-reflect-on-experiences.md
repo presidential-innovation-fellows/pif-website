@@ -6,7 +6,7 @@ author: Presidential Innovation Fellows alumni
 published_at: "2024-12-13"
 summary: "Former Presidential Innovation Fellows reflect on their experiences within the program and how it has helped them to continue their careers in public service."
 external_url:
-tags: ['GSA']
+tags: ['Alumni']
 type: Blog
 social: blog
 ---
@@ -32,7 +32,9 @@ The best part about being in public service is that every win, even if it’s sm
 **DAN JASON**
 *Former: PIF at the Centers for Disease Control and Prevention (CDC) focusing on data analytics and interoperable systems*
 *Current: Technical Program Manager at the Centers for Disease Control and Prevention (CDC)*
-
+<div class="usa-image-block">
+  <img src="{{site.baseurl}}/assets/images/fellows/2022/daniel-jason-headshot.jpg" alt="Photo of Dan Jason"/>
+</div>
 “My experience as a Presidential Innovation Fellow profoundly shaped my approach to leadership and innovation in my current role as an IT Program Manager. The PIF program taught me the value of cross-disciplinary collaboration, which I now leverage to bridge gaps between technical teams and broader organizational goals. It inspired me to embrace a user-centric mindset, driving me to focus on delivering solutions that truly meet the needs of the end-users. This experience also instilled a deep sense of public service and the impact technology can have on improving lives, which continues to inspire me to drive meaningful change in my work every day.
 
 Being part of the PIF community was an incredibly enriching experience that taught me the power of collaboration and the importance of diverse perspectives. I learned that innovation thrives when people from different backgrounds, disciplines, and sectors come together to tackle challenges. The collective knowledge and creativity of the PIF community pushed me to think beyond traditional solutions and to embrace bold, out-of-the-box ideas. I also learned the value of resilience and adaptability, as PIFs are often tasked with navigating complex government systems to drive change. Most importantly, the camaraderie and support within the PIF community showed me the strength of working together towards a common goal of public service innovation.”
@@ -42,6 +44,9 @@ Being part of the PIF community was an incredibly enriching experience that taug
 *Former: PIF at the Department of Veterans Affairs (VA) focusing on research, product management, and health information technologies.*
 *Current: AI Product Lead at the Veteran Affairs Office of the Chief AI Officer & Chief Technology Officer (VA CTO)*
 
+<div class="usa-image-block">
+  <img src="{{site.baseurl}}/assets/images/blogs/Kaeli_Yuen_headshot.jpg" alt="Photo of Kaeli Yuen"/>
+</div>
 “My proudest PIF-related moment happened a few years after I finished my tour of duty as a PIF. Following the program, I returned to the private sector for several years before coming back to the VA Office of the CTO to join its newly-minted AI team. Upon my return, I learned that my zero-to-one PIF project, the Clinical Decision Support Platform (CDSP), which is the core system to power clinical decisions, had grown into a robust platform that impacts every VA Medical Center in the country. I am extremely proud of that work and of the stellar team at VA that did the hard work of post-pilot scaling. My second proudest moment is successfully preparing a gourmet five-course meal for a large group of PIFs after losing a bet!
 
 Joining PIF was the best career decision I’ve made. At the time I received my offer, I was deciding between PIF and an offer at a healthcare startup. I ultimately decided to pursue PIF to expand my horizons and gain exposure to a diverse network of Fellows with whom I’d never cross paths with otherwise. I have learned a lot from their perspectives, and am thrilled to be back at the VA again working on a team with many other former PIFs.”
@@ -50,6 +55,10 @@ Joining PIF was the best career decision I’ve made. At the time I received my 
 **RYAN HARRISON**
 *Former: PIF at Centers for Disease Control and Prevention (CDC) focusing on enterprise architecture and data management*
 *Current: Data Scientist Architect at the CDC*
+
+<div class="usa-image-block">
+  <img src="{{site.baseurl}}/assets/images/blogs/Ryan_Harrison_headshot.jpg" alt="Photo of Ryan Harrison"/>
+</div>
 Read the Health+ Long COVID Report, and share it with your colleagues, partners, and loved ones. To keep the dialogue going, follow 
 
 “As a PIF, I designed the data exchange portion of the CDC's data modernization initiative. Seeing real data flow more efficiently through the ‘exchange pipes’ I designed and led a team to implement was the highlight of my PIF experience. For example, the National Center for Immunization and Respiratory Diseases (NCIRD) awarded our team, as well as the data exchange system we worked on, its 2023 Excellence in Information Technology award for ‘the remarkable expansion of the immunization data exchange.’

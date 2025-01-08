@@ -48,10 +48,10 @@ primary_navigation:
     url: /fellows/
   - name: Projects
     url: /projects/
-  - name: Blog
-    url: /blog/
   - name: For Agencies
     url: /agencies/
+  - name: Blog
+    url: /blog/
 
 secondary_navigation:
   - name: Secondary link
