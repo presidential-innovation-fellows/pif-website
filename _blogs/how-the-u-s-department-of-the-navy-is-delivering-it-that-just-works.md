@@ -11,6 +11,8 @@ type: Blog
 social: blog
 ---
 
+*This post was originally published on the [Digital.gov blog](https://digital.gov/2024/06/10/how-the-u-s-department-of-the-navy-is-delivering-it-that-just-works/)*
+
 ## A case study from the Navy’s Chief Information Officer and Program Executive Office for Digital and Enterprise Services
 
 In August 2023, then-acting U.S. Department of the Navy Chief Information Officer Jane Rathbun shed light on the ongoing efforts spearheaded by the Navy’s Program Executive Office for Digital and Enterprise Services (PEO Digital) to improve user experience. In this case study, we’re going to delve deeper into the “why” and “how” behind the Navy’s strategy to drive the delivery of modern, secure, and effective enterprise information technology and business systems and services.

@@ -10,6 +10,7 @@ tags: ['DOJ']
 type: Blog
 social: blog
 ---
+*This post was originally published on the [Digital.gov blog](https://digital.gov/2024/10/28/making-the-case-for-human-centered-design-a-department-of-justice-case-study/)*
 
 ## Lessons learned from the launch of Access DOJ.
 
