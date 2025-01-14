@@ -45,7 +45,7 @@ Being part of the PIF community was an incredibly enriching experience that taug
 
 **KAELI YUEN**
 *Former: PIF at the Department of Veterans Affairs (VA) focusing on research, product management, and health information technologies.*
-*Current: AI Product Lead at the Veteran Affairs Office of the Chief AI Officer & Chief Technology Officer (VA CTO)*
+*Current: Acting Deputy Director at the Veteran Affairs Office of the Chief AI Officer*
 
 <div class="usa-image-block">
   <img src="{{site.baseurl}}/assets/images/blogs/Kaeli_Yuen_headshot.jpg" alt="Photo of Kaeli Yuen"/>
