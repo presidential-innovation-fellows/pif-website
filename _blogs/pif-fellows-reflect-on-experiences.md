@@ -20,7 +20,7 @@ The program unites experienced and dedicated data scientists, designers, enginee
 
 Since PIF’s founding in 2012, over 50% of PIF alumni continue in or return to government after their fellowship. Using their experience in the program, PIFs have made significant impacts across several agencies and governmental departments as they continue their careers in public service.
 
-**BECKY SLOGERIS**
+**BECKY SLOGERIS**{:.fellowName}
 *Former: PIF at the Department of Justice (DoJ) focusing on social impact design*
 *Current: Access DOJ Senior Design Lead at the Department of Justice’s Office for Access to Justice*
 
@@ -32,7 +32,7 @@ Since PIF’s founding in 2012, over 50% of PIF alumni continue in or return to 
 The best part about being in public service is that every win, even if it’s small, feels monumental because you know it’s part of a larger movement to help make government more accessible, effective, and efficient for the public. PIF showed me that true change in government can only happen in collaboration with civil servants. There’s a huge learning curve when you join the federal government – PIF gave me the support and skills needed to be able to jump right in and get to work.” 
 
 
-**DAN JASON**
+**DAN JASON**{:.fellowName}
 *Former: PIF at the Centers for Disease Control and Prevention (CDC) focusing on data analytics and interoperable systems*
 *Current: Technical Program Manager at the Centers for Disease Control and Prevention (CDC)*
 <div class="usa-image-block">
@@ -43,7 +43,7 @@ The best part about being in public service is that every win, even if it’s sm
 Being part of the PIF community was an incredibly enriching experience that taught me the power of collaboration and the importance of diverse perspectives. I learned that innovation thrives when people from different backgrounds, disciplines, and sectors come together to tackle challenges. The collective knowledge and creativity of the PIF community pushed me to think beyond traditional solutions and to embrace bold, out-of-the-box ideas. I also learned the value of resilience and adaptability, as PIFs are often tasked with navigating complex government systems to drive change. Most importantly, the camaraderie and support within the PIF community showed me the strength of working together towards a common goal of public service innovation.”
 
 
-**KAELI YUEN**
+**KAELI YUEN**{:.fellowName}
 *Former: PIF at the Department of Veterans Affairs (VA) focusing on research, product management, and health information technologies.*
 *Current: Acting Deputy Director at the Veteran Affairs Office of the Chief AI Officer*
 
@@ -55,7 +55,7 @@ Being part of the PIF community was an incredibly enriching experience that taug
 Joining PIF was the best career decision I’ve made. At the time I received my offer, I was deciding between PIF and an offer at a healthcare startup. I ultimately decided to pursue PIF to expand my horizons and gain exposure to a diverse network of Fellows with whom I’d never cross paths with otherwise. I have learned a lot from their perspectives, and am thrilled to be back at the VA again working on a team with many other former PIFs.”
 
 
-**RYAN HARRISON**
+**RYAN HARRISON**{:.fellowName}
 *Former: PIF at Centers for Disease Control and Prevention (CDC) focusing on enterprise architecture and data management*
 *Current: Data Scientist Architect at the CDC*
 
