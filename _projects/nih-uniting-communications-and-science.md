@@ -4,7 +4,7 @@ agency: "National Institutes of Health"
 agency_abbrev: "the NIH <em>All of Us</em> Research Program"
 agency_logo: "/assets/images/agencies/NIH.png"
 cover_art: "/assets/images/projects/nih-uniting-communications-and-science.jpg"
-title: "Uniting communications and science to increase diverse representation in precision medicine research"
+title: "Uniting communications and science to increase health data in precision medicine research"
 summary: "Presidential Innovation Fellows (PIF) leveraged their expertise across marketing and data to help launch unprecedented health research initiatives."
 project_challenge: "How might we ensure that precision medicine serves diverse populations and researchers?"
 partner_description: "<p>The <a href=\"https://www.joinallofus.org\"><em>All of Us</em> Research Program</a> at the National Institutes of Health (NIH) works to advance individualized health care by enrolling one million or more participants to contribute their health data over many years. <a href=\"https://allofus.nih.gov/about/diversity-and-inclusion\">The program aims to reflect the diversity of the United States</a> and to include participants from groups that have been <a href=\"https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0234962\">underrepresented in health research in the past</a>, including ethnic, rural, low socio-economic and gender and sexual minorities. It has enrolled more than 270,000 people from across all 50 states -- 80% of whom come from communities historically underrepresented in research.</p>
