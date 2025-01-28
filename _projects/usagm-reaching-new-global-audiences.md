@@ -17,3 +17,9 @@ USAGM – an independent agency of the U.S. Government composed of Voice of Amer
 For many adversaries, the use of the information battlefield is a critical component of their success and their ability to recruit fellow loyalist organizations and new adherents to their cause.
 
 The Presidential Innovation Fellows will take on leadership roles to help collect cutting edge big data and audience research in over 100 countries and 60 languages across multiple platforms. Data sets include mobile panel surveys, large scale bricks and mortar surveys, omnibus, commercial data, competitive landscape and a host of real-time digital data. Bringing on a seasoned technology professional, USAGM hopes to augment their team to inform content, targeting and messaging recommendations by audience and a road map for ongoing media and audience engagement. Desired skills for Fellows include: strategy, branding, technology development, and big data/data analysis.
+
+<section class="usa-section">
+  <div class="grid-container">
+    {% include_cached touchpoint-survey-script.html %}
+  </div>
+</section>

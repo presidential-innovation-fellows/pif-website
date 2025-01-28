@@ -22,3 +22,9 @@ The senior level advisor will lead efforts towards achieving Agency-wide effort 
 The fellow will be the GSA-wide expert for development, implementation, and enhancement of GSA-wide data management activities that involve in-depth expert and technical knowledge in planning, selecting, analyzing, evaluating, controlling and monitoring of data management. The PIF will lead projects requiring data management expertise across the agency by building an asset inventory, working with other Federal agencies, such as DOD, on data sharing projects, and increasing the number of open application programming interfaces (APIs).
 
 The Fellow will also act as a liaison with persons and/or groups within and outside of the organization on data management. Independently or leading a team, the senior level advisor, will conduct complex evaluation studies that focus on one-of-a-kind, unique or controversial issues related to data management that may be cross- cutting over several GSA offices as well as other Federal agencies. The fellow will also utilize expert persuasive techniques to effectively change the opinions of high level GSA executives/managers and gain acceptance and implementation of recommendations.
+
+<section class="usa-section">
+  <div class="grid-container">
+    {% include_cached touchpoint-survey-script.html %}
+  </div>
+</section>

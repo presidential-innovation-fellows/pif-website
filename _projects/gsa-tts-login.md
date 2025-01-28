@@ -21,3 +21,9 @@ Login.gov is looking for help in the following areas:
 <li><strong>Technical Strategist:</strong> Understand the variety of agency needs across the U.S. Government and determine the technical roadmap to define an optimal migration path. The technical strategist would be or would aspire to be a thought leader in the space of Identity and Access Management (IAM/IdM). He/She will advise the partner agencies in the best practices. The Fellow will be in a position to define the next level of protocols and best practices as the IAM/IdM product offerings become more mature.</li>
 <li><strong>Compliance and Security Evangelist:</strong> Using their knowledge of security and experience with large corporate compliance requirements, the PIF will help login.gov navigate the processes to obtain CIO authorizations, provide technical briefings to the CISO, campaign for login.gov approvals, and  gain federal authorizations to operate.  Additionally, the Fellow will need to hold recognized security certifications.</li>
 </ul>
+
+<section class="usa-section">
+  <div class="grid-container">
+    {% include_cached touchpoint-survey-script.html %}
+  </div>
+</section>

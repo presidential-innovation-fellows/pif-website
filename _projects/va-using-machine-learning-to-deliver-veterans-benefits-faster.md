@@ -43,3 +43,9 @@ In October 2020, VA Office of the CTO brought on <a href="https://www.gsa.gov/bl
 <blockquote>“[Presidential Innovation Fellow] Nel Colón and his VA partners used a modern data science technique to get benefits to Veterans more quickly. They solved the right problem with the right technology and served as an example of why it's so impactful for people with modern technology skillsets to work in government.”
 <footer><cite>— Zachary Goldfine, Deputy Chief Technology Officer, U.S. Department of Veterans Affairs Office Benefits Team</cite></footer>
 </blockquote>
+
+<section class="usa-section">
+  <div class="grid-container">
+    {% include_cached touchpoint-survey-script.html %}
+  </div>
+</section>

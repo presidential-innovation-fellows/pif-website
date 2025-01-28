@@ -27,3 +27,9 @@ The Fellow would also help the Civil Rights Division more broadly embed and inco
 <li>Finding trends and indicators to inform CRT’s broader enforcement strategy</li>
 <li>Designing ways to enhance the review process for CRT staff</li>
 </ul>
+
+<section class="usa-section">
+  <div class="grid-container">
+    {% include_cached touchpoint-survey-script.html %}
+  </div>
+</section>

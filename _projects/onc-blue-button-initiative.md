@@ -26,3 +26,9 @@ A team of PIFs, in partnership with the Office of the National Coordinator for H
 
 <h2 class="text-primary text-no-italic" id="the-impact">The <em>impact</em></h2>
 As a result of the Blue Button Initiative, over 150 million Americans have access to their personalized health data, and more than 600 organizations have committed to advance health information access efforts.
+
+<section class="usa-section">
+  <div class="grid-container">
+    {% include_cached touchpoint-survey-script.html %}
+  </div>
+</section>

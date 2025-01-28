@@ -24,3 +24,9 @@ The candidate should have experience working with and establishing strategy arou
 The fellow will report directly to the Deputy Assistant Secretary of the Navy for Research Development Test and Evaluation (DASN RDT&E), though on a day-to-day basis will assist the DISC Program Manager (PM), Deputy Program Manager (DPM), and overall team in shaping and executing the overall digital strategy.
 
 This role is critical to the future technological development of our Navy, and the nation’s safety. The DISC is very eager to work together with the PIF program in order to address these critical needs.
+
+<section class="usa-section">
+  <div class="grid-container">
+    {% include_cached touchpoint-survey-script.html %}
+  </div>
+</section>
