@@ -23,3 +23,9 @@ As part of the President’s Management Agenda, a Cross-Agency Priority (CAP) go
 As part of this effort, the CX CAP goal team conducted extensive research to develop the first-ever government-wide customer experience metrics. Outlined in OMB Circular A-11 (a document that instructs agencies how to complete their annual planning and budgeting process), 27 High Impact Service Providers (HISPs) are required to begin implementing these measures.  HISPs are those Federal entities designated by the Office of Management and Budget (OMB) that provide the most high-impact customer-facing services, either due to a large customer base or a high impact on those served by the program. However, these HISPs range across the full spectrum of maturity in their customer experience approach, let alone possess sophisticated customer feedback and measurement strategies.
 
 The OMB CAP goal team, which OPP sits on, is a coordinated effort between the Office of Management and Budget, Veterans Experience Office, the Office of Customer Experience at GSA, and the United States Digital Service. OPP is leading the development of a government-wide, lightweight, low-cost, streamlined mechanism for collecting customer feedback.
+
+<section class="usa-section">
+  <div class="grid-container">
+    {% include_cached touchpoint-survey-script.html %}
+  </div>
+</section>

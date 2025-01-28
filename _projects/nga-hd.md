@@ -28,3 +28,9 @@ NGA desires a Presidential Innovation Fellow to work with Agency senior leaders 
 Developing an executable NGA culture plan will greatly aid in operationalizing culture change management across the NGA enterprise.  Additionally, this culture plan will align and harmonize multiple business initiatives, and drive transformational change based on NGA’s Core Values of Excellence (Accountability, Respect, Teamwork and Honesty).
 
 For this project, NGA is looking for a combination of the following skill sets:  Knowledge of cultural analysis/anthropology, understanding of change management principles, data analysis, visualization and communication,  project management, business development and human-centered design thinking
+
+<section class="usa-section">
+  <div class="grid-container">
+    {% include_cached touchpoint-survey-script.html %}
+  </div>
+</section>

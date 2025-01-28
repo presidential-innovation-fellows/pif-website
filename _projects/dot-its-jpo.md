@@ -15,3 +15,9 @@ status: "current"
 The Presidential Innovation Fellow is charged with bringing an innovator’s mindset to ITS JPO and accelerating research and implementation of technologies that lead to systemic public safety and efficiency. From developing the agency’s technology strategy and roadmap to setting up centers of excellence in emerging technology areas, the PIF will problem-solve America’s most pressing transportation matters.
 
 The PIF will need to have significant experience with the full technology lifecycle (development, deployment, retirement/replacement). The PIF must be able to operate independently, as well as work in or lead teams to solve complex issues. The PIF must be proactive in understanding existing and potential problems while building relationships and leading change. Ability to communicate effectively at an executive level, both writing and presenting, is a must. In bringing on a seasoned technology professional, we hope to augment the core team’s deep understanding of transportation issues with data-driven solutions. Desired skills or expertise for Fellows include: AI/ML, cross-functional leadership, system dynamics, strategic thinking, innovation acceleration, model-based engineering, transportation systems experience, automation, wireless communications (5G), technology development and big data/data analysis.
+
+<section class="usa-section">
+  <div class="grid-container">
+    {% include_cached touchpoint-survey-script.html %}
+  </div>
+</section>

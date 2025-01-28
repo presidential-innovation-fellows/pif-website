@@ -16,3 +16,9 @@ The mission of the Office of Resolution Management (ORM) at Department of Vetera
 <li>APIs: As the second largest discrimination management program office in the Federal Government, VA has massive and valuable data. How can the Department of VA/ORM use data science to understand and predict based on insights they collect?</li>
 </ul>
 For these projects, the Department of VA/ORM is looking for the following skill sets: digital strategy, human-centered designer, enterprise design thinking, customer experience, data scientist with end-to-end (acquire, prepare, analyze, act) and change management expertise, product management, and management consulting.
+
+<section class="usa-section">
+  <div class="grid-container">
+    {% include_cached touchpoint-survey-script.html %}
+  </div>
+</section>

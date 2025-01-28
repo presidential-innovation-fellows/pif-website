@@ -31,3 +31,9 @@ Key metrics are known, utilized, and celebrated by IA staff at all levels.  Staf
 Feedback is collected and analyzed in real time, allowing for faster learning and more responsive, effective and efficient FEMA programs.
 Feedback collection is channel and program agnostic.
 A culture where IA leadership and staff at all levels have a constant awareness of our most recent key metrics, which are so ingrained in our culture, that staff recites them from memory.
+
+<section class="usa-section">
+  <div class="grid-container">
+    {% include_cached touchpoint-survey-script.html %}
+  </div>
+</section>

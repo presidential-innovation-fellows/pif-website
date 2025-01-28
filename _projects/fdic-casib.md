@@ -17,3 +17,9 @@ FDIC is seeking two Presidential Innovation Fellows:
 <li>Investment manager to build a new portfolio and orchestrate business plan reviews using prize incentives, open innovation design and deployment, etc.</li>
 <li>SME with a background in AI and ML, preferably in the financial sector, with the goal of ensuring that solutions are feasible and both technically sound and secure. The PIFs will serve as a government-industry liaisons, use emerging technologies and agile practices to deliver rapid prototypes, and have strong presentation and stakeholder management skills.</li>
 </ol>
+
+<section class="usa-section">
+  <div class="grid-container">
+    {% include_cached touchpoint-survey-script.html %}
+  </div>
+</section>

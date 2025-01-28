@@ -48,3 +48,9 @@ The Fellows launched an application programming interface (API) to interact with
 People can now search for clinical trials using this new API at the National Cancer Institute’s search: <a href='http://trials.cancer.gov/'>http://trials.cancer.gov/</a> The ultimate goal is to make it as easy (or close to) as booking a flight. We have elevated helpful services from NCI like Live Chat and a bilingual call service so patients and their loved ones can get the support they need during this challenging and scary time.</p>
 
 The Presidential Innovation Fellows continue to build upon the momentum from our efforts from the Vice President’s Cancer Moonshot initiative, helping to accelerate innovation in the agencies we collaborate with to improve the experience for all citizens across the broad domain of research, care, and access.
+
+<section class="usa-section">
+  <div class="grid-container">
+    {% include_cached touchpoint-survey-script.html %}
+  </div>
+</section>

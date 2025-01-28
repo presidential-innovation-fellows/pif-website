@@ -23,3 +23,9 @@ The Software Pre-Certification (Pre-Cert) Pilot Program, as outlined in the FDA'
 The FDA envisions that the future regulatory model will provide more streamlined and efficient regulatory oversight of software-based medical devices developed by manufacturers who have demonstrated a robust culture of quality and organizational excellence, and who are committed to monitoring real-world performance of their products once they reach the U.S. market. This proposed approach aims to look first at the software developer and/or digital health technology developer, rather than primarily at the product, which is what we currently do for traditional medical devices.
 
 Because software products can be adapted to respond to glitches, adverse events, and other safety concerns quickly, the FDA is working to establish a regulatory framework that is equally responsive when issues arise to help ensure consumers continue to have access to safe and effective products. In the Pre-Cert program, the FDA is proposing that software products from pre-certified companies would continue to meet the same safety and effectiveness standard that the agency expects for products that have followed the traditional path to market.
+
+<section class="usa-section">
+  <div class="grid-container">
+    {% include_cached touchpoint-survey-script.html %}
+  </div>
+</section>

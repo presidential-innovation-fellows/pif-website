@@ -22,3 +22,9 @@ Shanley then designed and implemented the Citizen Science Asteroid Data, Educati
 Before becoming a PIF, Dr. Shanley founded the U.S. Federal Crowdsourcing and Citizen Science Community of Practice (CCS), and through briefings with Senator Coon’s office, sparked draft legislation to address some of the challenges inhibiting effective use of citizen science by the federal government. While serving as a PIF, she worked to expand these efforts; she collaborated closely with the White House Office of Science and Technology Policy to mobilize 125 federal staff to build the Citizen Science Toolkit, which launched which CitizenScience.gov. The Toolkit provides an easy to use “how to” guide for designing and running projects.
 
 In addition, she helped to shape the White House Memorandum on Crowdsourcing and Citizen Science, the citizen science section of the President’s Strategy for American Innovation, and other policies, and informed the development of the Crowdsourcing and Citizen Science Act (Sec. 402 of the American Innovation Competitiveness Act). The Memo encouraged agencies to inventory and provide easy access to information about federal citizen science projects through a searchable, online catalog. It also required each agency to designate a citizen science coordinator. Lastly, Dr. Shanley coordinated with the Citizen Science Association, SciStarter, and the federal citizen science community to put together a team that organized the first National Citizen Science Day with the goal of increasing public participation in scientific research around the country. Today more than 350 staff from 60+ federal organizations participate in the Federal CCS.
+
+<section class="usa-section">
+  <div class="grid-container">
+    {% include_cached touchpoint-survey-script.html %}
+  </div>
+</section>

@@ -94,3 +94,42 @@ ul, li {
     font-weight: 700;
   }
 }
+
+
+// WAS THIS HELPFUL TOUCHPOINT
+.feedback-modal {
+  z-index: 1000;
+  text-align: center;
+  display: none;
+  background: rgba(0, 0, 0, 0.7);
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  overflow: scroll;
+  overflow-x: hidden;
+  padding: 1.5rem;
+  position: fixed;
+  scroll-behavior: smooth;
+  top: 0;
+  width: 100%;
+
+  .modal-content {
+    font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+    font-size: 1.06rem;
+    line-height: 1.5;
+    border-radius: 0.5rem;
+    background: white;
+    color: #1b1b1b;
+    display: inline-block;
+    margin: 1.25rem auto;
+    max-width: 35rem;
+    position: relative;
+    text-align: left;
+    vertical-align: middle;
+    width: 100%;
+  }
+}
+
+.touchpoints-footer-banner {
+  @include u-padding-left(1);
+}

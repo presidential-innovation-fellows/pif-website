@@ -17,3 +17,9 @@ The PIF Technical Advisor will work with the three teams within the Office of An
 <li>The Platforms Unit provides expert advice, consultations, and media reports for bureau, Department, and interagency entities as it relates to the digital footprint of U.S. Government (USG) digital properties and the associated data produced from current events around the world. The team designs and implements measurement strategies designed to optimize the performance of digital initiatives, as well as collect and analyze the data to provide reporting that includes actionable insights.</li>
 </ul>
 This work will include participating in the development of new strategies, new tools, and in product management. The fellow will also collaborate with others within the Bureau and within the larger department.
+
+<section class="usa-section">
+  <div class="grid-container">
+    {% include_cached touchpoint-survey-script.html %}
+  </div>
+</section>

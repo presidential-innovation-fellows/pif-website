@@ -19,3 +19,9 @@ On January 20, 2021 President Biden issued an Executive Order (EO) on <a href='h
 The Presidential Innovation Fellow(s) will need to have significant experience with the full technology life-cycle (development, deployment, retirement/replacement). The PIF must be able to operate independently, as well as work in or lead teams to solve complex issues. The PIF is required to be proactive in understanding existing and potential problems while building relationships and leading change. The ability to communicate effectively at an executive level, both writing and presenting, is a must.
 
 In bringing on a seasoned technology professional, we hope to augment the core team’s deep understanding of transportation or housing issues with data-driven solutions. Desired skills or expertise for Fellows include: Product management, data visualization, GIS and spatial mapping, urban planning.
+
+<section class="usa-section">
+  <div class="grid-container">
+    {% include_cached touchpoint-survey-script.html %}
+  </div>
+</section>
