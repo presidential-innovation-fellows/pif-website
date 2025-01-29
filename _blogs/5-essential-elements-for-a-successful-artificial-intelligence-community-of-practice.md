@@ -13,7 +13,6 @@ social: blog
 
 *This post was originally published on the [apolitical blog](https://apolitical.co/solution-articles/en/5-essential-elements-for-a-successful-artificial-intelligence-community-of-practice)*
 
-# 5 essential elements for a successful artificial intelligence community of practice
 ## An insight into the federal AI Community of Practice (AI CoP), which was established to foster responsible AI adoption across US government.
 
 - **The opportunity:** There is currently an opportunity for the US government to champion responsible AI education, innovation and integration across federal agencies.
