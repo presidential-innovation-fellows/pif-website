@@ -1,4 +1,4 @@
----
+<!-- ---
 id: julia-kim
 title: Julia Kim
 image: /assets/images/fellows/2014/julia-kim-headshot.png
@@ -12,4 +12,4 @@ tags: ['west', '2014', 'Marketing_And_Communications', 'Change_Management']
 skills: ['Change Management', 'Marketing and Communications']
 ---
 
- Julia is focused on technology and media that help people address hard problems. She has tackled everything from improving the decision-making of troops on the ground to forecasting future science & technology trends. For the past eight years, she directed projects at the University of Southern California Institute for Creative Technologies (ICT), an Army-funded research center developing immersive technologies to benefit education, health care, and people’s lives. Leading teams that included researchers, developers, Hollywood talent, and military personnel, Julia produced educational games, short films, virtual reality-based installations and artificial intelligence systems that were used across the Department of Defense. Before ICT, Julia was a management consultant and programmer guiding and executing technology development for companies. Julia has a BA and MA in history of science from Harvard University where she studied how people use technology. Originally from the DC area, Julia now lives in Los Angeles, CA.
+ Julia is focused on technology and media that help people address hard problems. She has tackled everything from improving the decision-making of troops on the ground to forecasting future science & technology trends. For the past eight years, she directed projects at the University of Southern California Institute for Creative Technologies (ICT), an Army-funded research center developing immersive technologies to benefit education, health care, and people’s lives. Leading teams that included researchers, developers, Hollywood talent, and military personnel, Julia produced educational games, short films, virtual reality-based installations and artificial intelligence systems that were used across the Department of Defense. Before ICT, Julia was a management consultant and programmer guiding and executing technology development for companies. Julia has a BA and MA in history of science from Harvard University where she studied how people use technology. Originally from the DC area, Julia now lives in Los Angeles, CA. -->

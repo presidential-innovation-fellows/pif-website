@@ -1,4 +1,4 @@
----
+<!-- ---
 id: bennett-gebken
 title: Bennett Gebken
 image: /assets/images/fellows/2022/bennett-gebken-headshot.jpg
@@ -16,4 +16,4 @@ Bennett is a technologist who believes in the value of public service and improv
 
 Previous work includes service in the Marines, civil service, and private sector technology work. At Veterans Affairs he supported a variety of projects including developing an artificial intelligence prototype, creating business intelligence solutions, Forever GI Bill implementation, fraud prevention, and implementing automation to improve benefits delivery. His expertise in artificial intelligence and other emerging technology combined with experience in federal acquisitions has resulted in successfully delivering significant improvements.
 
-He holds a MS in IT Management, emphasis in Data Science and a BS, Computer Information Technology, summa cum laude from Regis University.
+He holds a MS in IT Management, emphasis in Data Science and a BS, Computer Information Technology, summa cum laude from Regis University. -->

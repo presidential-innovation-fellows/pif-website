@@ -1,4 +1,4 @@
----
+<!-- ---
 id: ryan-fiorentino
 title: Ryan Fiorentino
 image: /assets/images/fellows/2019/ryan-fiorentino-headshot.jpg
@@ -18,4 +18,4 @@ As a student of inclusive design, biological and social ecology, behavioral econ
 
 He’s built international brands from the ground up with proceeds in excess of $50m/yr, introduced brands to new cultures, and anchored greenfield organizational strategies for some of the most influential platforms in the world. First introduced to brand and design by Alex Bogusky (CP+B) and John Beilenberg (Project M) at the Fearless Cottage, he was involved in the ‘design for good movement’ early on. Always exploring the potential of visual storytelling and new media for social change, he is currently working on ‘The Genesis Project’ with Iconoclast/Anonymous Content, a series of art activations and short form non-fiction stories that dimensionalize, elevate, and expose the complex relationship we as a civilization have with water. As a result of a mass casualty attack in Dhaka, Bangladesh he began a pursuit into the counter-violent-extremism space and has since developed extensive counter-terrorism experience in Southeast Asia via the organization he co-founded, Hellen&#124;Herald.  As an independent studio designer and trained architect, he was the principal inventor, alongside NIKE Innovation, of the Concord Harness, a helixed-exoskeletal undergarment de­veloped for TEAM USA to increase the longevity of para­plegic athletes during periods of extreme fatigue, ultimately worn by medal winning teams in the Paralympics.
 
-He is a frequent speaker on the value of design and has lectured at Harvard Business School and contributed as Program Faculty at Yale Executive School of Management.
+He is a frequent speaker on the value of design and has lectured at Harvard Business School and contributed as Program Faculty at Yale Executive School of Management. -->

@@ -1,4 +1,4 @@
----
+<!-- ---
 id: minh-chau
 title: Minh Chau
 image: /assets/images/fellows/2020/minh-chau-headshot.jpg
@@ -18,4 +18,4 @@ Most recently, Minh was the co-founder and Chief Executive Officer of Radii Robo
 
 Previously, Minh spent nearly ten years on Wall Street as an investment banker representing multinational hedge funds, banks, insurance companies, and sovereign wealth funds in capital raising.
 
-Minh earned his MBA degree in Entrepreneurship from Babson College. Originally from the Boston area, Minh now resides in Washington, D.C., with his wife.
+Minh earned his MBA degree in Entrepreneurship from Babson College. Originally from the Boston area, Minh now resides in Washington, D.C., with his wife. -->

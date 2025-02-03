@@ -1,4 +1,4 @@
----
+<!-- ---
 id: carmem-domingues
 title: Carmem Domingues
 image: /assets/images/fellows/2023/carmem-domingues-headshot.jpeg
@@ -18,4 +18,4 @@ Carmem started her career at Goldman Sachs and the World Bank, then worked on po
 
 She dedicates some of her free time to a science communication passion project on her social media channels and through speaking engagements. Using simple language, she shares information and helps clarify technical concepts, while bringing to the fore the complexity and social impacts of the widespread use of data, artificial intelligence, and technology across an ever-increasing number of aspects of our lives, inviting all of us to reflect and debate the use of technology across society. 
 
-Carmem Domingues earned her Bachelor’s degree in Applied Math at Harvard, and her Master’s in Data Science at Columbia University. Besides the US, she has also worked in London, the Netherlands and Brazil.
+Carmem Domingues earned her Bachelor’s degree in Applied Math at Harvard, and her Master’s in Data Science at Columbia University. Besides the US, she has also worked in London, the Netherlands and Brazil. -->

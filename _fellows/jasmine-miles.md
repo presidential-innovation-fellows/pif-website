@@ -1,4 +1,4 @@
----
+<!-- ---
 id: jasmine-miles
 title: Jasmine Miles
 image: /assets/images/fellows/2024/jasmine-miles.jpeg
@@ -17,4 +17,4 @@ Beginning her career journey with Johnson & Johnson (J&J), Jasmine completed a d
 
 Subsequently, she joined JPMorgan Chase in a Strategy & Innovation role, contributing to smarter, faster, and more efficient job execution. Transitioning to Citibank, she tackled process inefficiencies within the HR domain, documenting processes and addressing audit findings.
 
-Jasmine's immediate objectives include advancing professionally, gaining industry-specific experience, and maintaining a positive impact on her community through her transferable skills.
+Jasmine's immediate objectives include advancing professionally, gaining industry-specific experience, and maintaining a positive impact on her community through her transferable skills. -->

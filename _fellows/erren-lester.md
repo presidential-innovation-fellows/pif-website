@@ -1,4 +1,4 @@
----
+<!-- ---
 id: erren-lester
 title: Erren Lester
 image: /assets/images/fellows/2015/erren-lester-headshot.jpg
@@ -16,4 +16,4 @@ Erren Lester is a technical and strategic product manager with over 15 years of 
 Previously, Erren was Director of Product for Synteractive, a DC startup that partnered with other firms to launch Recovery.gov. He also spent seven years at Microsoft, leading the development of multiple massively scalable web services. 
 Aside from creative technical pursuits, Erren has a deep passion for developing and mentoring innovators. In 2008, he co-founded the annual James R. Swartz Entrepreneurship Boot Camp for Carnegie Mellon University. He later created Foundation Boot Camp, a company that educates and inspires entrepreneurs through intense training exercises.
 Erren earned a Bachelor of Science in Computer Science from Carnegie Mellon University and an MBA from the Tepper School of Business, also at Carnegie Mellon. In 2012, he was elected to the Carnegie Mellon University Board of Trustees and served a three-year term.
-For fun, Erren likes to sing and write music, cook, volunteer and travel with his wife, Kisha.
+For fun, Erren likes to sing and write music, cook, volunteer and travel with his wife, Kisha. -->

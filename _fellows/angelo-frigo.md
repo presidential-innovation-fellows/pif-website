@@ -1,4 +1,4 @@
----
+<!-- ---
 id: angelo-frigo
 title: Angelo Frigo
 image: /assets/images/fellows/2020/angelo-frigo-headshot.jpg
@@ -16,4 +16,4 @@ Prior to being named a Presidential Innovation Fellow, Angelo consulted to Feedi
 
 For the ten years prior to McDonald's, Angelo led consulting teams as a Senior Manager at Doblin, now the innovation practice of Deloitte, and as Director of the Transformation Programs team at What If Innovation, now part of Accenture. He continues to coach executives and their teams on innovation strategy and effectiveness. Past clients as an independent advisor include The World Bank, Hitachi, Fisher & Paykel, and UBS.
 
-Angelo holds a Master of Design degree from the Institute of Design at IIT, and a BS in Engineering from the University of Illinois at Urbana-Champaign.
+Angelo holds a Master of Design degree from the Institute of Design at IIT, and a BS in Engineering from the University of Illinois at Urbana-Champaign. -->

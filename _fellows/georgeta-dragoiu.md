@@ -1,4 +1,4 @@
----
+<!-- ---
 id: georgeta-dragoiu
 title: Georgeta Dragoiu
 image: /assets/images/fellows/2019/georgeta-dragoiu-headshot.jpg
@@ -18,4 +18,4 @@ Driven by her passion for human-centered technology, Georgeta started 3TEC, a co
 
 In 2016, she joined the Department of Health and Human Services (HHS) as a Spokesperson and Communications Director. At HHS, she was part of the leadership team that developed and drove communications strategies to reach the millions of Americans who qualify for health coverage under the Affordable Care Act.
 
-Georgeta graduated from Harvard Kennedy School and the University of Chicago. Some of her writing has been featured in the Washington Post, The Hill, The Christian Science Monitor, TribTalk, and Medium.
+Georgeta graduated from Harvard Kennedy School and the University of Chicago. Some of her writing has been featured in the Washington Post, The Hill, The Christian Science Monitor, TribTalk, and Medium. -->

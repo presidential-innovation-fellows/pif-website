@@ -1,4 +1,4 @@
----
+<!-- ---
 id: olivia-zhu
 title: Olivia Zhu
 image: /assets/images/fellows/2022/olivia-zhu-headshot.jpeg
@@ -18,4 +18,4 @@ Prior to joining PIF, Olivia was a software development manager at Amazon, where
 
 Previously, Olivia worked as a research engineer and product manager at Microsoft Research in the Deep Learning Technology Center. At Microsoft Research, she developed novel machine learning solutions to augment decision-making in Microsoft enterprise sales. Olivia also worked as a software engineer at Pinterest and Google. 
 
-Olivia is originally from the Bay Area, California. She graduated from Duke University with a B.S. in Biophysics and a minor in Computer Science; at Duke, she did research at the Mooney Lab of Neurobiology. Olivia currently lives in Seattle, Washington.
+Olivia is originally from the Bay Area, California. She graduated from Duke University with a B.S. in Biophysics and a minor in Computer Science; at Duke, she did research at the Mooney Lab of Neurobiology. Olivia currently lives in Seattle, Washington. -->

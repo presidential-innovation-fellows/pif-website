@@ -1,4 +1,4 @@
----
+<!-- ---
 id: zach-goldfine
 title: Zach Goldfine
 image: /assets/images/fellows/2018/zach-goldfine-headshot.jpg
@@ -16,4 +16,4 @@ Zach enjoys building teams, seeing projects and products through from conception
 
 Zach began his career doing sales and statistical work for NBA teams. He then joined a startup as an early employee and helped them grow to a $35MM valuation. Next, he started and worked on a company that made it easier for blue-collar workers to find and land jobs. Most recently, he wrote business-automation software used by small business owners across the US and Canada, graduated from the first iteration of a new Minerva educational experiment (Minerva's Masters of Science in Applied Analyses & Decision-Making), and helped pass two pieces of legislation that reduce the influence of money in politics.
 
-In his free time, he likes to scour cities for their best burritos, read non-fiction books in the realm of psychology, play chess, travel with his girlfriend, and have deep discussions with anyone open to having one!
+In his free time, he likes to scour cities for their best burritos, read non-fiction books in the realm of psychology, play chess, travel with his girlfriend, and have deep discussions with anyone open to having one! -->

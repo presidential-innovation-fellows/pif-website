@@ -1,4 +1,4 @@
----
+<!-- ---
 id: scott-gorman
 title: Scott Gorman
 image: /assets/images/fellows/2021/scott-gorman-headshot.jpg
@@ -19,4 +19,4 @@ Prior to PIF, Scott co-founded Chorus Health, a digital health company using dat
 
 Scott also serves as an Innovation Officer in the U.S. Army Reserve, assigned to the Silicon Valley Team, 75th Innovation Command, Army Futures. He previously served as a Military Intelligence Officer and Counterterrorism Officer, spearheading multinational initiatives including the establishment of a dynamic targeting process for Special Operations Command Forward, East Africa.
 
-Scott grew up in Vermont and has a BA from Yale, MBA from Oxford, and JD from Berkeley Law.
+Scott grew up in Vermont and has a BA from Yale, MBA from Oxford, and JD from Berkeley Law. -->

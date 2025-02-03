@@ -1,4 +1,4 @@
----
+<!-- ---
 id: derek-frempong
 title: Derek Frempong
 image: /assets/images/fellows/2013/derek-frempong-headshot.png
@@ -12,4 +12,4 @@ tags: ['south', '2013', 'Software_And_Cloud_Infrastructure', 'Design_And_Experie
 skills: ['Software and Cloud Infrastructure', 'Design and Experience']
 ---
 
-Derek is a software engineer intent on creating innovative software that delivers a great user experience.  He most recently served as a Senior Software Development Manager at Connections Education, which was acquired in 2011 by Pearson plc.  Connections Education specializes in K-12 education via public and private virtual schools.  Among Derek’s accomplishments is a patent pending in the field of enforcing academic integrity in virtual learning environments.  He previously worked in the entertainment field, delivering innovative software for both web and mobile.  He has three active boys who he has coached in recreational league soccer and volunteers at the elementary school of his two youngest.  He has a BS in Chemistry, which he earned from the University of Delaware, where he met his wife.  Derek and his family currently live near Baltimore, MD.
+Derek is a software engineer intent on creating innovative software that delivers a great user experience.  He most recently served as a Senior Software Development Manager at Connections Education, which was acquired in 2011 by Pearson plc.  Connections Education specializes in K-12 education via public and private virtual schools.  Among Derek’s accomplishments is a patent pending in the field of enforcing academic integrity in virtual learning environments.  He previously worked in the entertainment field, delivering innovative software for both web and mobile.  He has three active boys who he has coached in recreational league soccer and volunteers at the elementary school of his two youngest.  He has a BS in Chemistry, which he earned from the University of Delaware, where he met his wife.  Derek and his family currently live near Baltimore, MD. -->

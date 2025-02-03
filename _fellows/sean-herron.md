@@ -1,4 +1,4 @@
----
+<!-- ---
 id: sean-herron
 title: Sean Herron
 image: /assets/images/fellows/2013/sean-herron-headshot.png
@@ -12,4 +12,4 @@ tags: ['west', '2013', 'Software_And_Cloud_Infrastructure', 'Design_And_Experien
 skills: ['Software and Cloud Infrastructure', 'Design and Experience']
 ---
 
-Sean is a digital strategist, web developer, and policy expert dedicated to creating easier ways for citizens to interact with their government. Most recently, he served as a Strategist in the Open Innovation office at the National Aeronautics and Space Administration, where he spearheaded open-data and open source initiatives for the agency and helped create the International Space Apps Challenge, a global hackathon that aims to solve some of the most critical issues facing space exploration.  Sean has a passion for web standards and responsive design, and he frequently works with organizations around the world to help them communicate with their audiences more effectively.  He graduated magna cum laude with a BA in Public Policy from the Maxwell School at Syracuse University.
+Sean is a digital strategist, web developer, and policy expert dedicated to creating easier ways for citizens to interact with their government. Most recently, he served as a Strategist in the Open Innovation office at the National Aeronautics and Space Administration, where he spearheaded open-data and open source initiatives for the agency and helped create the International Space Apps Challenge, a global hackathon that aims to solve some of the most critical issues facing space exploration.  Sean has a passion for web standards and responsive design, and he frequently works with organizations around the world to help them communicate with their audiences more effectively.  He graduated magna cum laude with a BA in Public Policy from the Maxwell School at Syracuse University. -->

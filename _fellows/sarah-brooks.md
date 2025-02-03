@@ -1,4 +1,4 @@
----
+<!-- ---
 id: sarah-brooks
 title: Sarah Brooks
 image: /assets/images/fellows/2014/sarah-brooks-headshot.png
@@ -12,4 +12,4 @@ tags: ['west', '2014', 'Design_And_Experience']
 skills: ['Design and Experience']
 ---
 
-Design strategist and advocate for social change, Sarah’s' work in the design world includes service design, design research, product strategy and large-scale systems thinking about interventions for a better world. For the past 15 years Sarah has worked with the corporate world, social entrepreneurs, nonprofits and foundations leading multidisciplinary creative teams through initiatives across digital platforms and sectors including civic innovation, education, finance, food systems and healthcare. In addition to her practice work, Sarah has taught at Stanford University school’s Change Labs, California College of the Arts and Centro Diseño. Sarah is a frequent speaker and active design community organizer around the theme of design for social innovation. Sarah holds a BA in Film and Literature from Boston University and a BFA in Printmaking and Textiles from the California College of the Arts. She lives at the beach in San Francisco with her husband.
+Design strategist and advocate for social change, Sarah’s' work in the design world includes service design, design research, product strategy and large-scale systems thinking about interventions for a better world. For the past 15 years Sarah has worked with the corporate world, social entrepreneurs, nonprofits and foundations leading multidisciplinary creative teams through initiatives across digital platforms and sectors including civic innovation, education, finance, food systems and healthcare. In addition to her practice work, Sarah has taught at Stanford University school’s Change Labs, California College of the Arts and Centro Diseño. Sarah is a frequent speaker and active design community organizer around the theme of design for social innovation. Sarah holds a BA in Film and Literature from Boston University and a BFA in Printmaking and Textiles from the California College of the Arts. She lives at the beach in San Francisco with her husband. -->

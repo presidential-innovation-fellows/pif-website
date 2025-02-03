@@ -1,4 +1,4 @@
----
+<!-- ---
 id: nishchal-chaudhary
 title: Nishchal Chaudhary
 image: /assets/images/fellows/2023/nishchal-chaudhary-headshot.jpg
@@ -18,4 +18,4 @@ Leveraging design principles, data analytics and strategy frameworks, Nishchal i
 
 Nishchal spent a decade as an Individual Contributor in the tech industry with engineering roles at Arraycomm, Atheros and Qualcomm. He transitioned to working with mission driven organizations and startups as a consultant before venturing into the public sector. Most recently, he managed a team of technologists at the City of Long Beach and also jointly led various community focused initiatives such as the Justice Lab and city’s open data program. 
 
-Nishchal holds a Master’s degree in Electrical Engineering from University of Mississippi and a Certificate in Innovation from Stanford University.
+Nishchal holds a Master’s degree in Electrical Engineering from University of Mississippi and a Certificate in Innovation from Stanford University. -->

@@ -1,4 +1,4 @@
----
+<!-- ---
 id: michael-pritchard
 title: Michael Pritchard
 image: /assets/images/fellows/2019/michael-pritchard-headshot.jpg
@@ -16,4 +16,4 @@ Mike’s passion for engineering began when as a curious kid he would take every
 
 His most recent position, as an executive at the digital publishing company Remedy Health Media, typifies his experience. In this role, Mike rebuilt the technology department, introduced modern business and development processes, and helped the company through an acquisition.
 
-Mike is passionate about building products, companies, systems, and teams, as well as mentoring and training staff.
+Mike is passionate about building products, companies, systems, and teams, as well as mentoring and training staff. -->

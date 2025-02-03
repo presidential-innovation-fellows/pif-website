@@ -1,4 +1,4 @@
----
+<!-- ---
 id: alex-dalessio
 title: J. Alex Dalessio
 image: /assets/images/fellows/2018/alex-dalessio-headshot.jpg
@@ -16,4 +16,4 @@ Alex is a multidisciplinary professional with over 15 years of experience workin
 
 As part of this work, he has developed innovative programs with some of the world's largest organizations, including the United Nations, the United States Government, Reed Elsevier, Nike, Citibank, John Wiley & Sons, AB InBev, and Bionic Solution.
 
-Alex has also co-founded two agtech businesses focused on global food security, Isabel.io and CityFarmFish, and is an advisor on numerous other startups. He currently heads up Login.gov, the Federal Government-wide program to provide simple access to online digital services. An avid traveler, he has lived in eight countries and traveled to over 70. Alex holds a JD from UC Berkeley and received his MBA from Oxford University.
+Alex has also co-founded two agtech businesses focused on global food security, Isabel.io and CityFarmFish, and is an advisor on numerous other startups. He currently heads up Login.gov, the Federal Government-wide program to provide simple access to online digital services. An avid traveler, he has lived in eight countries and traveled to over 70. Alex holds a JD from UC Berkeley and received his MBA from Oxford University. -->

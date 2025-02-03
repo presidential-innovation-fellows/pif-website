@@ -1,4 +1,4 @@
----
+<!-- ---
 id: ben-kane
 title: Ben Kane
 image: /assets/images/fellows/2023/ben-kane-headshot.jpeg
@@ -14,4 +14,4 @@ skills: ['Product']
 
 Ben is an experienced and versatile product leader with experiences in B2B, B2C, growth and ecommerce. He was the 3rd hire at Imperfect Foods and has 7+ years of experience leading the research, planning, testing, development, and launch of large-scale, consumer-facing mobile and web products. 
 
-Ben is passionate about leaving the world a kinder, healthier place for future generations. Outside of work, you'll find him running, gravel biking, and searching for the next best cup of coffee with his fiance and puppy.
+Ben is passionate about leaving the world a kinder, healthier place for future generations. Outside of work, you'll find him running, gravel biking, and searching for the next best cup of coffee with his fiance and puppy. -->
