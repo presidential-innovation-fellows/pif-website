@@ -1,4 +1,4 @@
----
+<!-- ---
 id: emily-nichole-white
 title: Emily White
 image: /assets/images/fellows/2023/emily-nichole-white-headshot.png
@@ -16,4 +16,4 @@ Emily is an empathetic product leader focused on building ethical and inclusive 
 
 Outside of work, Emily serves as a volunteer Court-Appointed Special Advocate (CASA) for foster youth in DC. She also seeks to use the power of the internet for good as a leader of the Digital Corps (part of Out in Tech) volunteer team, which builds websites for global LGBTQ+ organizations and activists.
 
-Emily earned her AS from Portland Community College and transferred to the University of Oregon as a Ford Scholar, where she earned a BA in Economics and Spanish. Emily currently lives in Washington DC.
+Emily earned her AS from Portland Community College and transferred to the University of Oregon as a Ford Scholar, where she earned a BA in Economics and Spanish. Emily currently lives in Washington DC. -->

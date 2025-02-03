@@ -1,4 +1,4 @@
----
+<!-- ---
 id: babatunde-oguntade
 title: Babatunde Oguntade
 image: /assets/images/fellows/2021/babatunde-oguntade-headshot.jpg
@@ -15,4 +15,4 @@ Babatunde Oguntade is the founder of DeepCareAi, an organization focused on impr
 
 Babatunde completed his PhD in Chemical Engineering at the University of Texas at Austin and was a NSF/ASEE Industrial Postdoctoral Fellow at SABIC Innovative Plastics.
 
-Babatunde is very passionate about digitalization of traditional business models to improve profitability, operational efficiency and safety. In his spare time, he likes to spend time with family and friends, watch movies, read and draw portraits.
+Babatunde is very passionate about digitalization of traditional business models to improve profitability, operational efficiency and safety. In his spare time, he likes to spend time with family and friends, watch movies, read and draw portraits. -->

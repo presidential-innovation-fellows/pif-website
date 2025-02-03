@@ -1,4 +1,4 @@
----
+<!-- ---
 id: maria-dayton
 title: Maria Lynne Dayton
 image: /assets/images/fellows/2019/maria-dayton-headshot.jpg
@@ -16,4 +16,4 @@ Maria Lynne Dayton is a successful social entrepreneur, systems architect, and c
 
 Her current passion is the creative financing of the UN Sustainable Development Goals and last mile infrastructure; blending different approaches such as blockchain, impact investment, and crowd finance. As an Impact Fellow at Singularity University and beyond, she leads several moonshot initiatives with a coalition of Fortune 50 companies and foundations around global health and small business finance.
 
-Maria has co-founded a number of companies, including Transterra Media, an award-winning online marketplace that is changing the way companies source news and marketing video. Their video stories have reached over a trillion people globally with 70% of profits returning to local producers. Maria holds a BA in International Studies and Biology from Gonzaga University, as well as MAs from both France and Egypt in International Relations, International Economic Development, and Middle East Studies. She consults regularly with governments and IGOs on citizen engagement, alternative finance, and ecosystem development.
+Maria has co-founded a number of companies, including Transterra Media, an award-winning online marketplace that is changing the way companies source news and marketing video. Their video stories have reached over a trillion people globally with 70% of profits returning to local producers. Maria holds a BA in International Studies and Biology from Gonzaga University, as well as MAs from both France and Egypt in International Relations, International Economic Development, and Middle East Studies. She consults regularly with governments and IGOs on citizen engagement, alternative finance, and ecosystem development. -->

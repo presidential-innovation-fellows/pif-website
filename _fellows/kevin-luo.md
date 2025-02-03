@@ -1,4 +1,4 @@
----
+<!-- ---
 id: kevin-luo
 title: Kevin Luo
 image: /assets/images/fellows/2022/kevin-luo-headshot.jpg
@@ -18,4 +18,4 @@ Most recently, he led analytics and data engineering for the Meta (nee Facebook)
 
 Kevin is a proud first-generation Asian American born in Taipei. He received his Bachelors from the University of Pennsylvania in Urban Studies and Computer Science, and his Masters from Stanford University in Management Science and Engineering. He is also a trained Emergency Medical Technician.
 
-He is excited to bring his analytical, engineering, and leadership experiences to help the government build, design, and deliver more data-driven and inclusive services to Americans nationwide.
+He is excited to bring his analytical, engineering, and leadership experiences to help the government build, design, and deliver more data-driven and inclusive services to Americans nationwide. -->

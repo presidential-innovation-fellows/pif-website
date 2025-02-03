@@ -1,4 +1,4 @@
----
+<!-- ---
 id: masha-danilova
 title: Masha Danilova
 image: /assets/images/fellows/2021/masha-danilova-headshot.jpg
@@ -15,4 +15,4 @@ Masha is a driven leader and builder with deep industry expertise across scales 
 
 Masha is now the Co-Founder of the U.S. Digital Corps, a two-year fellowship recruiting early-career technologists to contribute to high-impact efforts across the federal government, launched by the Biden-Harris Administration in partnership with various federal agencies and is hosted by the General Services Administration Technology Transformation Services. [[digitalcorps.gsa.gov]](https://digitalcorps.gsa.gov/)
 
-Masha thanks MIT Sloan, Wayfair, Procter & Gamble, and Purdue for her foundations.
+Masha thanks MIT Sloan, Wayfair, Procter & Gamble, and Purdue for her foundations. -->

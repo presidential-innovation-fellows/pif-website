@@ -1,4 +1,4 @@
----
+<!-- ---
 id: peter-marks
 title: Peter Marks
 image: /assets/images/fellows/2022/peter-marks-headshot.jpeg
@@ -16,4 +16,4 @@ Peter Marks (he/him) is a digital products leader currently serving as Business 
 
 With hands-on experience in user-centered design, software engineering, data analysis, and sales, Peter has a holistic understanding of digital products. He leverages that expertise to bring teams together and to create a clear shared mission.
 
-Peter began his career as a software engineer and was a lead developer on the number one downloaded app in the iOS App Store. He found himself playing leadership and management roles to break down silos and help teams reach their full potential.
+Peter began his career as a software engineer and was a lead developer on the number one downloaded app in the iOS App Store. He found himself playing leadership and management roles to break down silos and help teams reach their full potential. -->

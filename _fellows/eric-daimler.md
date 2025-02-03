@@ -1,4 +1,4 @@
----
+<!-- ---
 id: eric-daimler
 title: Eric Daimler
 image: /assets/images/fellows/2016/eric-daimler-headshot.jpg
@@ -16,4 +16,4 @@ Eric Daimler is the founder of Spinglass.ai, an investment firm both investing i
 Eric served as a PIF during the Obama Administration in the Robotics & AI workstreams with the White House Office of Science and Technology Policy helping with a team of others to drive the agenda for US leadership in research, commercialization, and public adoption.
 In addition to his career in public service, Eric held global executive, investor, and advisor roles in IT companies, including six as a co-founder. Eric has more than twenty years of experience building companies and championing early-stage investments, including Hotmail and TiVo.
 Eric studied at the University of Washington-Seattle, Stanford, and Carnegie Mellon, where he earned his PhD. With degrees in Computer Science and Economics, Eric’s academic research with Robotics & AI has been in the domain of planning at the intersection of Machine Learning and Network Science (Graph Theory).
-Notable academic achievements include research and faculty roles as Assistant Dean and Assistant Professor of Software Engineering in Carnegie Mellon’s School of Computer Science. Eric launched Carnegie Mellon’s Silicon Valley Campus’ Entrepreneurial Management program and was one of its early financial backers and operational executives. He also founded Carnegie Mellon’s Undergraduate University Entrepreneurship Association and was founding chair of the Computer Science College's Alumni Advisory Board. ᐧ .
+Notable academic achievements include research and faculty roles as Assistant Dean and Assistant Professor of Software Engineering in Carnegie Mellon’s School of Computer Science. Eric launched Carnegie Mellon’s Silicon Valley Campus’ Entrepreneurial Management program and was one of its early financial backers and operational executives. He also founded Carnegie Mellon’s Undergraduate University Entrepreneurship Association and was founding chair of the Computer Science College's Alumni Advisory Board. ᐧ . -->

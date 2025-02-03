@@ -1,4 +1,4 @@
----
+<!-- ---
 id: ej-kalafarski
 title: EJ Kalafarski
 image: /assets/images/fellows/2014/ej-kalafarski-headshot.png
@@ -12,4 +12,4 @@ tags: ['northeast', '2014', 'Software_And_Cloud_Infrastructure', 'Product', 'Des
 skills: ['Design and Experience', 'Product', 'Software and Cloud Infrastructure']
 ---
 
-E.J. is a product designer and manager who believes strongly in the power of design and minimalism to create usability, through both elegant interfaces and streamlined organization. Most recently, E.J. served as Vice President of Product at Onswipe, a New York-based tablet publishing startup. At Brown University, he built experimental and pioneering touch screen interfaces across multiple disciplines. He has built cartographic apps for Google, taught on new media at Tufts University, and served as an editor for Techmeme. E.J. has a BS in Computer Science and English from Tufts University and an ScM in Computer Science from Brown University. In his spare time, E.J.'s a history and transit buff. Originally from Massachusetts, he now lives in New York City.
+E.J. is a product designer and manager who believes strongly in the power of design and minimalism to create usability, through both elegant interfaces and streamlined organization. Most recently, E.J. served as Vice President of Product at Onswipe, a New York-based tablet publishing startup. At Brown University, he built experimental and pioneering touch screen interfaces across multiple disciplines. He has built cartographic apps for Google, taught on new media at Tufts University, and served as an editor for Techmeme. E.J. has a BS in Computer Science and English from Tufts University and an ScM in Computer Science from Brown University. In his spare time, E.J.'s a history and transit buff. Originally from Massachusetts, he now lives in New York City. -->

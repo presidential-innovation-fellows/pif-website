@@ -1,4 +1,4 @@
----
+<!-- ---
 id: robert-zakon
 title: Robert H'obbes' Zakon
 image: /assets/images/fellows/2016/robert-zakon-headshot.jpg
@@ -18,4 +18,4 @@ Robert's work spans a wide array of technologies and supporting disciplines, inc
 
 Recognized for his work through numerous commendations, Robert has also been elected an IEEE Senior Member and ACSA Senior Fellow. Among his other activities, he volunteers as a business mentor with SCORE, coaches an award-winning robotics competition team of public school students, authors Hobbes' Internet Timeline, and serves on the board of advisors for an angel investment group providing start-up and growth capital to high-tech businesses.
 
-Robert resides in the Mount Washington Valley of New Hampshire (the Live Free and Start state) with his lovely wife and two wondrous sons. 
+Robert resides in the Mount Washington Valley of New Hampshire (the Live Free and Start state) with his lovely wife and two wondrous sons.  -->

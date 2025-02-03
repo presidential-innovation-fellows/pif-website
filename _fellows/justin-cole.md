@@ -1,4 +1,4 @@
----
+<!-- ---
 id: justin-cole
 title: Justin Cole
 image: /assets/images/fellows/2021/justin-cole-headshot.jpeg
@@ -19,4 +19,4 @@ After the signing of the Bipartisan Infrastructure Law, Justin began supporting 
 
 Before PIF, Justin served as a Managing Consultant at IBM and worked in the areas of economic development and disaster recovery, helping local, state, and Federal government agencies recover from Hurricane Sandy and be more resilient to future disasters.
 
-Justin has a Master of Science in Public Policy & Management (Data Analytics) from Carnegie Mellon University and a BA in Economics and Policy Studies from Syracuse University. He is a certified Project Management Professional (PMP) and is a Board member of Community Tax Aid, a nonprofit that provides free tax preparation for low-income individuals.
+Justin has a Master of Science in Public Policy & Management (Data Analytics) from Carnegie Mellon University and a BA in Economics and Policy Studies from Syracuse University. He is a certified Project Management Professional (PMP) and is a Board member of Community Tax Aid, a nonprofit that provides free tax preparation for low-income individuals. -->

@@ -1,4 +1,4 @@
----
+<!-- ---
 id: dave-skender
 title: Dave Skender
 image: /assets/images/fellows/2021/dave-skender-headshot.jpg
@@ -15,4 +15,4 @@ Dave Skender is a lifelong product and engineering professional, coach, and lead
 
 Overall, Dave is a highly involved and evolved technology leader who guides organizations and engineering initiatives from idea generation through end-use. He is a proven problem solver with a track record for developing pragmatic, lean, and agile solutions and organizational capabilities.
 
-Dave has a Masters of Business Administration in Entrepreneurship + Finance, an undergraduate degree in Mechanical Engineering, and is an active open-source software developer.
+Dave has a Masters of Business Administration in Entrepreneurship + Finance, an undergraduate degree in Mechanical Engineering, and is an active open-source software developer. -->

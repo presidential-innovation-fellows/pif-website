@@ -1,4 +1,4 @@
----
+<!-- ---
 id: jed-wood
 title: Jed Wood
 image: /assets/images/fellows/2012/jed-wood-headshot.png
@@ -12,4 +12,4 @@ tags: ['west', '2012', 'Software_And_Cloud_Infrastructure', 'Design_And_Experien
 skills: ['Software and Cloud Infrastructure', 'Design and Experience']
 ---
 
-
+ -->

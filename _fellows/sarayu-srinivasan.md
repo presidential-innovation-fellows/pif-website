@@ -1,4 +1,4 @@
----
+<!-- ---
 id: sarayu-srinivasan
 title: Sarayu Srinivasan
 image: /assets/images/fellows/2019/sarayu-srinivasan-headshot.jpg
@@ -18,4 +18,4 @@ Earlier, Sarayu was with Intel Capital investing in high-growth companies across
 
 Prior to her investment career, Sarayu held senior operating roles at several successful early-stage software and services pioneers and was also a brand manager at Pepsi where she ran two $300M brands. Sarayu also held a research fellowship at Harvard Business School and was invited to join the PhD program based on her work.
 
-Sarayu has authored a range of academic and practitioner’s literature including in Forbes, WIRED, Fast Company, National Academy of Inventors Tech & Innovation Journal, and various Harvard Business School publications. She is a frequent speaker on VC, technology, international business, and entrepreneurship. Sarayu holds a BA in Architecture from Barnard College/Columbia University, an MBA from École Nationale des Ponts et Chaussées, Certificates in Medieval European Studies and Shakespeare from Cambridge University, and held a pre-PhD fellowship at the Harvard Business School.
+Sarayu has authored a range of academic and practitioner’s literature including in Forbes, WIRED, Fast Company, National Academy of Inventors Tech & Innovation Journal, and various Harvard Business School publications. She is a frequent speaker on VC, technology, international business, and entrepreneurship. Sarayu holds a BA in Architecture from Barnard College/Columbia University, an MBA from École Nationale des Ponts et Chaussées, Certificates in Medieval European Studies and Shakespeare from Cambridge University, and held a pre-PhD fellowship at the Harvard Business School. -->

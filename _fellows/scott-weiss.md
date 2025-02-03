@@ -1,4 +1,4 @@
----
+<!-- ---
 id: scott-weiss
 title: Scott Weiss
 image: /assets/images/fellows/2020/scott-weiss-headshot.jpg
@@ -16,4 +16,4 @@ Scott feels passionately about creating disproportionate positive impact and equ
 
 Prior to that, Scott worked at the award-winning design agency IDEO as an organizational and experience designer.  This work focused on helping organizations of all shapes, sizes and industries transform themselves into more human-centered, and design-led organizations. In addition, Scott collaborated with senior IDEO leadership on cross-industry, systems-level work that re-imagined aging, dying, and modern religion in American society.
 
-In his spare time, Scott guest lectures at NYU and Parsons on topics such as: Design Thinking for Social Impact, Design Research, and Storytelling.
+In his spare time, Scott guest lectures at NYU and Parsons on topics such as: Design Thinking for Social Impact, Design Research, and Storytelling. -->

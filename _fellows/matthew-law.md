@@ -1,4 +1,4 @@
----
+<!-- ---
 id: matthew-law
 title: Matt Law
 image: /assets/images/fellows/2024/matthew-law.jpeg
@@ -17,4 +17,4 @@ Most recently, he has led diverse product teams at major U.S. retailers, with a 
 
 Matt received his M.B.A. from the University of Michigan and B.A. from Williams College. Originally from upstate New York, he has lived in Massachusetts, D.C., Michigan, Arkansas, Kentucky, and Ohio.
 
-Outside of work, you can find Matt on hikes with his wife and dog, competing at a local trivia night, learning new musical instruments, playing disc golf, or cheering on the U.S. men’s and women’s national soccer teams.
+Outside of work, you can find Matt on hikes with his wife and dog, competing at a local trivia night, learning new musical instruments, playing disc golf, or cheering on the U.S. men’s and women’s national soccer teams. -->

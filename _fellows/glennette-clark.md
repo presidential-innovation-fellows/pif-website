@@ -1,4 +1,4 @@
----
+<!-- ---
 id: glennette-clark
 title: Glennette Clark, MBA
 image: /assets/images/fellows/2024/glennette-clark.jpg
@@ -17,4 +17,4 @@ Throughout her impressive career, Glennette has worked on numerous exciting proj
 
 Glennette is a co-founder of UXCamp DC and UXCamp NYC. As an adjunct professor, she created a curriculum for the Design Leadership Program's Cultural Relevance and Awareness course at MICA. Her curriculum encouraged MBA students to focus on impactful social entrepreneurship ventures by emphasizing the interconnectedness of different cultures.
 
-Glennette enjoys spending time with her family and two dogs. She is married to a retired MPD officer and is proud of two children. Glennette holds an MBA in Strategic Design from Philadelphia University and a BA in Journalism from Howard University.
+Glennette enjoys spending time with her family and two dogs. She is married to a retired MPD officer and is proud of two children. Glennette holds an MBA in Strategic Design from Philadelphia University and a BA in Journalism from Howard University. -->

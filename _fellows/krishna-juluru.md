@@ -1,4 +1,4 @@
----
+<!-- ---
 id: krishna-juluru
 title: Krishna Juluru
 image: /assets/images/fellows/2021/krishna-juluru-headshot.jpg
@@ -17,4 +17,4 @@ In his most recent role, Krishna founded and served as the first Director of the
 
 He serves on the Radiology Society of North America’s (RSNA) Radiology Informatics Committee (RIC), helping to guide national strategies in managing healthcare information, including the development and implementation of international uniform standards and ontologies. He has served as an advisor on information technology and informatics to some key industries.
 
-Krishna earned a BS in Applied Physics from Yale University. He earned an MD from Johns Hopkins School of Medicine, where he also completed a residency in Diagnostic Radiology and fellowship in magnetic resonance imaging. He completed a fellowship in Imaging Informatics at University of Maryland School of Medicine. 
+Krishna earned a BS in Applied Physics from Yale University. He earned an MD from Johns Hopkins School of Medicine, where he also completed a residency in Diagnostic Radiology and fellowship in magnetic resonance imaging. He completed a fellowship in Imaging Informatics at University of Maryland School of Medicine.  -->

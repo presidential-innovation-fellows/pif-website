@@ -1,4 +1,4 @@
----
+<!-- ---
 id: kin-lane
 title: Kin Lane
 image: /assets/images/fellows/2013/kin-lane-headshot.png
@@ -12,4 +12,4 @@ tags: ['west', '2013', 'Software_And_Cloud_Infrastructure']
 skills: ['Software and Cloud Infrastructure']
 ---
 
-Kin is a computer scientist and 'API Evangelist' working to understand the technology, business, and political aspects of Application Programming Interfaces (APIs) and to help share this insight with the world.  He is the author of the book, “Business of APIs,” and is behind the popular API Evangelist blog.  He has over 20 years of experience as a programmer, database administrator, architect, product developer, manager, and executive in the API space.
+Kin is a computer scientist and 'API Evangelist' working to understand the technology, business, and political aspects of Application Programming Interfaces (APIs) and to help share this insight with the world.  He is the author of the book, “Business of APIs,” and is behind the popular API Evangelist blog.  He has over 20 years of experience as a programmer, database administrator, architect, product developer, manager, and executive in the API space. -->

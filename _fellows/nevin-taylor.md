@@ -1,4 +1,4 @@
----
+<!-- ---
 id: nevin-taylor
 title: Nevin Taylor
 image: /assets/images/fellows/2019/nevin-taylor-headshot.jpg
@@ -18,4 +18,4 @@ A published author of three books on operationalizing data, he is focused on lev
 
 This combat veteran, senior Air Force officer, and serving reservist (34+ years) directly contributed to the successful culmination of Operation New Dawn. He has served in public service, industry, and academia. Nevin is a Harvard Cyber Policy Scholar, National International Security Fellow, Oxford Alumni for Knowledge and Change Management for Innovative Technology, and Stanford Alumnus on Strategic Decisions and Risk Management.
 
-Nevin is a servant leader committed to contributing to organizational transformation.  He believes organizations that actualize the value of data can unleash the inherent power of information and achieve their goals.
+Nevin is a servant leader committed to contributing to organizational transformation.  He believes organizations that actualize the value of data can unleash the inherent power of information and achieve their goals. -->

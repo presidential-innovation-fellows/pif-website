@@ -1,4 +1,4 @@
----
+<!-- ---
 id: maria-patterson
 title: Maria Patterson
 image: /assets/images/fellows/2021/maria-patterson-headshot.jpg
@@ -19,4 +19,4 @@ Dr. Patterson led the design of a ‘newsfeed from the Universe’ for the Zwick
 
 Most recently, Dr. Patterson developed data concepts for High Alpha Innovation, partnering with large organizations to create opportunity through startup and venture studio creation.
 
-She aims to advance equity for all, particularly in STEM fields, and serves on the Committee on the Status of Women in Astronomy for the American Astronomical Society.
+She aims to advance equity for all, particularly in STEM fields, and serves on the Committee on the Status of Women in Astronomy for the American Astronomical Society. -->

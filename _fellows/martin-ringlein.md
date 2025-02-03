@@ -1,4 +1,4 @@
----
+<!-- ---
 id: martin-ringlein
 title: Martin Ringlein
 image: /assets/images/fellows/2013/martin-ringlein-headshot.png
@@ -12,4 +12,4 @@ tags: ['south', '2013', 'Product', 'Venture_Capital_Private_Equity']
 skills: ['Venture Capital/Private Equity', 'Product']
 ---
 
-A designer, entrepreneur, and angel investor, Martin was co-founder of nclud, an internationally recognized and award-winning design agency. He then served as Design Manager at Twitter. Martin’s experience ranges from designing and directing major strategic interactive initiatives with organizations large and small, such as Apple, Google, Adobe, British Telecom, Mozilla and Oracle. Initiatives included: the redesign of Ogilvy and Mashable; developing the initial mobile strategies for The Washington Post, POLITICO, National Journal, Kiplinger, C-SPAN, PUMA, OPOWER; and designing the original brand identity for start-ups such as LivingSocial. In addition to being a design practitioner, Martin has taught experience design at the Maryland Institute College of Art, Boston University, and General Assembly. Martin studied Advertising & Design at The University of Maryland and Business Management at Columbia Business School and Yale School of Management.
+A designer, entrepreneur, and angel investor, Martin was co-founder of nclud, an internationally recognized and award-winning design agency. He then served as Design Manager at Twitter. Martin’s experience ranges from designing and directing major strategic interactive initiatives with organizations large and small, such as Apple, Google, Adobe, British Telecom, Mozilla and Oracle. Initiatives included: the redesign of Ogilvy and Mashable; developing the initial mobile strategies for The Washington Post, POLITICO, National Journal, Kiplinger, C-SPAN, PUMA, OPOWER; and designing the original brand identity for start-ups such as LivingSocial. In addition to being a design practitioner, Martin has taught experience design at the Maryland Institute College of Art, Boston University, and General Assembly. Martin studied Advertising & Design at The University of Maryland and Business Management at Columbia Business School and Yale School of Management. -->

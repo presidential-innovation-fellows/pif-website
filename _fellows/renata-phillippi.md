@@ -1,4 +1,4 @@
----
+<!-- ---
 id: renata-phillippi
 title: Renata K. Phillippi
 image: /assets/images/fellows/2022/renata-phillippi-headshot.jpg
@@ -20,4 +20,4 @@ In her second year, she continued to develop the community of practice and worke
 
 In her third year, she ran a 90 day pilot to identify the thorniest issues in developing, socializing, and codifying web standards in the federal government. She launched the Federal Website Standards program, website, and initial standards before onboarding a full time hire to continue to grow and expand on the work. This work will lead to better and more consistent digital products across the government.
 
-Her unique background makes her adept at creating solutions to complex problems all while saving money and solving user’s needs, even within limited budgets.
+Her unique background makes her adept at creating solutions to complex problems all while saving money and solving user’s needs, even within limited budgets. -->

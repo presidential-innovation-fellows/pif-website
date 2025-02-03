@@ -1,4 +1,4 @@
----
+<!-- ---
 id: béatrice-mercier
 title: Beatrice Mercier
 image: /assets/images/fellows/2023/beatrice-mercier-headshot.jpg
@@ -18,4 +18,4 @@ Passionate about ensuring government delivers the highest quality services to th
 
 Beatrice has worked for the last four years for the French Government’s Digital Department, specifically for the beta.gouv.fr program which champions digital entrepreneurship within the French government, training government officials with specific policy expertise to act as Product Managers in order to build bespoke digital services. In her role, Beatrice has trained over 10 government officials as Product Managers, and assembled and supervised 12 cross-functional digital teams. 
 
-Beatrice holds a Master’s degree in Public Policy from the Institute for Political Study (Sciences Po) in Paris, France, and a Bachelor of Arts in English Literature from Oxford University.
+Beatrice holds a Master’s degree in Public Policy from the Institute for Political Study (Sciences Po) in Paris, France, and a Bachelor of Arts in English Literature from Oxford University. -->

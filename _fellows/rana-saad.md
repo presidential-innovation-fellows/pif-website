@@ -1,4 +1,4 @@
----
+<!-- ---
 id: rana-saad
 title: Rana Saad
 image: /assets/images/fellows/2019/rana-saad-headshot.jpg
@@ -14,4 +14,4 @@ skills: ['Digital Health']
 
 Rana Saad is an innovator and digital leader specializing in Lean Innovation and Startups. As a thought leader, he promotes digital innovation through a startup-inspired methodology based on lean experimentation. As CTO and cofounder of a startup, he is helping bring AI-based disruptive digital products to market in weeks instead of months. Prior to that, in his role as the North America Digital Innovation Lead at Accenture, he helped some of the largest corporations and organizations innovate like startups and at startup speed. He advises many early stage companies and has built digital innovation labs and programs at multiple organizations. He has experience in global entrepreneurship and connecting cultures through technology.
 
-Rana Saad is also building a foundation which seeks to bring digital disruption to philanthropy and solve some of the world’s largest problems through technology and lean innovation. Rana holds a Master's and Bachelor's degree in Engineering from University of Maryland, College Park.
+Rana Saad is also building a foundation which seeks to bring digital disruption to philanthropy and solve some of the world’s largest problems through technology and lean innovation. Rana holds a Master's and Bachelor's degree in Engineering from University of Maryland, College Park. -->

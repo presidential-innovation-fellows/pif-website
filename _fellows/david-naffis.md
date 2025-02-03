@@ -1,4 +1,4 @@
----
+<!-- ---
 id: david-naffis
 title: David Naffis
 image: /assets/images/fellows/2014/david-naffis-headshot.png
@@ -12,4 +12,4 @@ tags: ['south', '2014', 'Product', 'Software_And_Cloud_Infrastructure']
 skills: ['Product', 'Software and Cloud Infrastructure']
 ---
 
-David is an entrepreneur and software developer with experience in software services, product development, strategy, and operations. He is a founder of Intridea, an Inc 500 winning software development firm where he oversaw several successful product spinouts and acquisitions. Before starting Intridea, David worked as a software engineer and architect at companies including AOL, Cisco, and McKinsey. He holds a masters in Systems Engineering from The University of Virginia, has contributed to a number of open-source projects, and has spoken at numerous regional and national conferences. He lives in Washington, DC with his wife, Aubrey.
+David is an entrepreneur and software developer with experience in software services, product development, strategy, and operations. He is a founder of Intridea, an Inc 500 winning software development firm where he oversaw several successful product spinouts and acquisitions. Before starting Intridea, David worked as a software engineer and architect at companies including AOL, Cisco, and McKinsey. He holds a masters in Systems Engineering from The University of Virginia, has contributed to a number of open-source projects, and has spoken at numerous regional and national conferences. He lives in Washington, DC with his wife, Aubrey. -->

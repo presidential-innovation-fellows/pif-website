@@ -1,4 +1,4 @@
----
+<!-- ---
 id: adam-bellow
 title: Adam Bellow
 image: /assets/images/fellows/2016/adam-bellow-headshot.jpg
@@ -18,4 +18,4 @@ Bellow was honored by ISTE in 2010 as an emerging leader and then again in 2011 
 
 Bellow is currently serving as CEO of eduClipper, the edtech startup that he founded in 2012. eduClipper is a free web tool focused on helping students and teachers find, share, and build valid learning experiences in a K-12 safe educational social platform.
 
-In addition, he also serves on the Board of the EdCamp Foundation and an advisor to Alma, a modern SIS and is the co-founder of two amazing little boys.
+In addition, he also serves on the Board of the EdCamp Foundation and an advisor to Alma, a modern SIS and is the co-founder of two amazing little boys. -->

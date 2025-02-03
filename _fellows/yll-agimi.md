@@ -1,4 +1,4 @@
----
+<!-- ---
 id: yll-agimi
 title: Yll Agimi, Ph.D.
 image: /assets/images/fellows/2023/yll-agimi-headshot.jpeg
@@ -18,4 +18,4 @@ In 2019, parallel to his work, Yll designed a digital solution to monitor and di
 
 While at Booz Allen Hamilton, Yll et al. built the “Chronic Disease and Healthcare Cost Predictor” a personal disability predictor tool: a tool to model the probability of disease using user data and data from the Behavioral Risk Factor Surveillance System. Another of Yll’s creations was the “Heath 2 Head Voting Comparator,"" a web tool developed as part of National Library Contest that allows users to compare the voting records of any two Senators or Congress members, tracking the bills or topics on which may agree. Prior to that, Yll’s little app called QuickQuestion, an app that helps you answer life’s questions, both big and small, lived on the app stores, yet never taking off. 
 
-Yll holds a Bachelor’s degree from the University of Prishtina, Kosovo, and a Masters in Public Health, a Masters in Epidemiology and a Ph.D. in Public Health, all from the University of Pittsburgh, Pittsburgh, PA.
+Yll holds a Bachelor’s degree from the University of Prishtina, Kosovo, and a Masters in Public Health, a Masters in Epidemiology and a Ph.D. in Public Health, all from the University of Pittsburgh, Pittsburgh, PA. -->
