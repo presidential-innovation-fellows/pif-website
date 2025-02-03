@@ -1,4 +1,4 @@
----
+<!-- ---
 id: denice-ross
 title: Denice Ross
 image: /assets/images/fellows/2014/denice-ross-headshot.png
@@ -12,4 +12,4 @@ tags: ['west', '2014', 'Data_Science_And_Analytics']
 skills: ['Data Science and Analytics']
 ---
 
-Denice’s specialty is applying data and innovation to solve pressing real-world problems. Most recently, she directed information strategy for the City of New Orleans, launching data.nola.gov to support priorities such as performance management, neighborhood revitalization, and emergency preparedness. Before City Hall, Denice co-directed the nonprofit Greater New Orleans Community Data Center, work that was propelled into the national spotlight with Hurricane Katrina. Denice collaborated with Brookings to track recovery through The New Orleans Index, and also co-designed an app using “junk mail” data to visualize neighborhood repopulation. She supported many post-Katrina planning initiatives and co-founded the first new childcare center after the storm. Denice holds a BS in Biology from the University of Arizona. A New Orleanian since 2001, Denice and her family now live in the DC area.
+Denice’s specialty is applying data and innovation to solve pressing real-world problems. Most recently, she directed information strategy for the City of New Orleans, launching data.nola.gov to support priorities such as performance management, neighborhood revitalization, and emergency preparedness. Before City Hall, Denice co-directed the nonprofit Greater New Orleans Community Data Center, work that was propelled into the national spotlight with Hurricane Katrina. Denice collaborated with Brookings to track recovery through The New Orleans Index, and also co-designed an app using “junk mail” data to visualize neighborhood repopulation. She supported many post-Katrina planning initiatives and co-founded the first new childcare center after the storm. Denice holds a BS in Biology from the University of Arizona. A New Orleanian since 2001, Denice and her family now live in the DC area. -->

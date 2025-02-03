@@ -1,4 +1,4 @@
----
+<!-- ---
 id: george-chewning
 title: George Chewning
 image: /assets/images/fellows/2020/george-chewning-headshot.jpg
@@ -16,4 +16,4 @@ George is a West Point graduate and former Army Infantry Officer. Following five
 
 His advocacy experience includes successfully lobbying for the passage of a bill in the U.S. Congress, resulting in federal sponsorship of a new memorial on the National Mall to honor post-9/11 veterans and their families. While at Facebook, he initiated the development of the Military Skills Translator - a tool to help veterans identify prospective career paths based on their military experience and realize their potential in the technology industry. He also serves as a Commissioner on the San Francisco Veterans Affairs Commission where he advises the mayor and board of supervisors on economic opportunities, healthcare, and social services for veterans in the city.
 
-George holds a Bachelor of Science in Sociology degree from the United States Military Academy, a Master of Business Administration degree from the George Washington University, and was a Newmark Scholar when he earned a Master of Public Leadership degree from the University of San Francisco. He resides in San Francisco when he's not in Washington, DC.
+George holds a Bachelor of Science in Sociology degree from the United States Military Academy, a Master of Business Administration degree from the George Washington University, and was a Newmark Scholar when he earned a Master of Public Leadership degree from the University of San Francisco. He resides in San Francisco when he's not in Washington, DC. -->

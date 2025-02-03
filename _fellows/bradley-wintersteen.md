@@ -1,4 +1,4 @@
----
+<!-- ---
 id: bradley-wintersteen
 title: Brad Wintersteen
 image: /assets/images/fellows/2024/bradley-wintersteen.jpeg
@@ -19,4 +19,4 @@ Brad has also worked for the United Nations High Commissioner for Refugees to de
  
 When not in the office, he is kept busy chasing after his toddler and dog or moonlighting as a woodworker and car mechanic.
 
-Brad earned his Masters of Public Policy from the University of Michigan as well as a Bachelors in Global Studies from Global College of Long Island University. 
+Brad earned his Masters of Public Policy from the University of Michigan as well as a Bachelors in Global Studies from Global College of Long Island University.  -->

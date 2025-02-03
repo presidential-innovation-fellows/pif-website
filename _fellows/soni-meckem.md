@@ -1,4 +1,4 @@
----
+<!-- ---
 id: soni-meckem
 title: Soni Meckem
 image: /assets/images/fellows/2019/soni-meckem-headshot.jpg
@@ -16,4 +16,4 @@ Soni Meckem’s passion is innovative and transformational leadership, coaching,
 
 Her Silicon Valley positions with Cisco, Intuit, PayPal, and Sun include extensive domestic and international experience in enterprise-wide Customer Experience, Innovation, Operational Excellence, Change Adoption, and Business Operations. She was the CIO of Miami-Dade County, the 4th largest court system in the U.S. Her background includes both mature and pre-IPO organizations and strong cross-organizational project execution. With an enthusiastic, rapid, results-oriented approach to success, she has a passion for white spaces, collaborative work environments, and tackling barriers to customer success and business outcomes.
 
-With broad experience in healthcare, technology, government, and financial industries, Soni excels at leading and re-engineering complex global organizations experiencing periods of strategic change that require creating a new strategic framework, business, or operating model.
+With broad experience in healthcare, technology, government, and financial industries, Soni excels at leading and re-engineering complex global organizations experiencing periods of strategic change that require creating a new strategic framework, business, or operating model. -->

@@ -1,4 +1,4 @@
----
+<!-- ---
 id: daniel-jason
 title: Daniel Jason
 image: /assets/images/fellows/2022/daniel-jason-headshot.jpg
@@ -16,4 +16,4 @@ Daniel Jason (he/him) is an engineer and data scientist with twelve years of pro
 
 Highly motivated by collaboration, teaching, and learning from others, he seeks to drive organizational change by empowering and enabling the people around him through the use of scalable processes and technology.  He seeks to leverage his passion for big data, machine learning, artificial intelligence, and information system architecture technology to create a positive impact on the world.
 
-Daniel graduated from Iowa State University in the field of Computer Engineering.  He then went on to complete the Lockheed Martin Engineering Leadership Development Program while simultaneously earning his Master’s degree in Information Systems Engineering from Johns Hopkins University.  He has made significant contributions in big-data analysis and healthcare record interoperability for a number of organizations in the public sector.
+Daniel graduated from Iowa State University in the field of Computer Engineering.  He then went on to complete the Lockheed Martin Engineering Leadership Development Program while simultaneously earning his Master’s degree in Information Systems Engineering from Johns Hopkins University.  He has made significant contributions in big-data analysis and healthcare record interoperability for a number of organizations in the public sector. -->

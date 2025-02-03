@@ -1,4 +1,4 @@
----
+<!-- ---
 id: irtaza-barlas
 title: Irtaza Barlas
 image: /assets/images/fellows/2020/irtaza-barlas-headshot.jpg
@@ -18,4 +18,4 @@ Previously, as the Director of Software Engineering at Nuesoft Technologies/Adva
 
 Irtaza also led the development of several products related to image processing, industrial process monitoring, and automation in the utilities, wire, cable, and textile industries as the principal and Director of Software Development at Atlanta-based Intelligent Automation Systems (IAS).
 
-Irtaza received his MS from California State University, Sacramento where he worked extensively on microprocessors, digital systems, computer networks, and FPGAs. He received his Ph.D. in Electrical and Computer Engineering from Georgia Tech., with a thesis on Multi-Agent systems for Diagnostics and Prognostics of complex systems. His other research interests include the design of self-aware processors, integrity verification and the repair of distributed systems, mobile agents, e-publishing, image analysis, data mining, and data visualization.
+Irtaza received his MS from California State University, Sacramento where he worked extensively on microprocessors, digital systems, computer networks, and FPGAs. He received his Ph.D. in Electrical and Computer Engineering from Georgia Tech., with a thesis on Multi-Agent systems for Diagnostics and Prognostics of complex systems. His other research interests include the design of self-aware processors, integrity verification and the repair of distributed systems, mobile agents, e-publishing, image analysis, data mining, and data visualization. -->

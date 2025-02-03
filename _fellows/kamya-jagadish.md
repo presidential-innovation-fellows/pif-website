@@ -1,4 +1,4 @@
----
+<!-- ---
 id: kamya-jagadish
 title: Kamya Jagadish
 image: /assets/images/fellows/2021/kamya-jagadish-headshot.jpg
@@ -19,4 +19,4 @@ Prior to Lime, Kamya worked at Facebook, focused on their Friending and New User
 
 Kamya is passionate about employing data-driven strategies and open data for all. In always thinking about the end user, Kamya is also very interested in ethical data usage and bias in algorithms.
 
-She graduated from Yale with a B.S. in Environmental Engineering and currently resides in San Francisco, California.
+She graduated from Yale with a B.S. in Environmental Engineering and currently resides in San Francisco, California. -->

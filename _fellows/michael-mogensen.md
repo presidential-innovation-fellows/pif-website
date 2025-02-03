@@ -1,4 +1,4 @@
----
+<!-- ---
 id: michael-mogensen
 title: Michael Mogensen
 image: /assets/images/fellows/2023/michael-mogensen-headshot.jpg
@@ -18,4 +18,4 @@ He has led projects that combine human-centered research, strategy, design, futu
 
 He was an entrepreneurship coach with MIT’s Middle Eastern Entrepreneurs of Tomorrow program in Jerusalem, where he taught human-centered design research techniques to young Palestinian and Israeli entrepreneurs. As an embedded researcher he worked alongside and wrote on youth involved in organized armed organizations world-wide. 
 
-Michael grew up in Alaska and has lived and worked in Sweden, the UK, Switzerland, Brazil, Colombia and Peru, in addition to other countries. He holds a Master’s in Interaction Design from Goldsmiths, University of London, a Master’s in Development Management from the American University and a Bachelor’s in Latin American Studies from New York University. He lives in Washington, DC with his husband Alex.
+Michael grew up in Alaska and has lived and worked in Sweden, the UK, Switzerland, Brazil, Colombia and Peru, in addition to other countries. He holds a Master’s in Interaction Design from Goldsmiths, University of London, a Master’s in Development Management from the American University and a Bachelor’s in Latin American Studies from New York University. He lives in Washington, DC with his husband Alex. -->

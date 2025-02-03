@@ -1,4 +1,4 @@
----
+<!-- ---
 id: sandeep-burugupalli
 title: Sandeep Burugupalli
 image: /assets/images/fellows/2018/sandeep-burugupalli-headshot.jpg
@@ -16,4 +16,4 @@ Sandeep Burugupalli is driven by tackling complex challenges in healthcare throu
 
 Prior to this, Sandeep led new ventures and strategic partnerships for Massachusetts General Hospital’s Healthcare Transformation Lab and launched an academic healthcare startup incubator for the hospital in partnership with MIT. He has also advanced digital health and mobile application development initiatives for several leading pharmaceutical companies with HITLAB and at Johnson & Johnson as well as recently cofounded a side project that received the “Innovation Award” from the GE Foundation named GiveBack, a nonprofit that targets the leading source of prescription opioid abuse by encouraging the safe and timely disposal of leftover prescription medications.
 
-Sandeep received his Masters in Public Health in Healthcare Management from Columbia University and a dual-degree Bachelors in Writing and Rhetoric and Writing from the University of Texas at Austin.
+Sandeep received his Masters in Public Health in Healthcare Management from Columbia University and a dual-degree Bachelors in Writing and Rhetoric and Writing from the University of Texas at Austin. -->

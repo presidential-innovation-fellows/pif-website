@@ -1,4 +1,4 @@
----
+<!-- ---
 id: karl-mehta
 title: Karl Mehta
 image: /assets/images/fellows/2012/karl-mehta-headshot.png
@@ -10,4 +10,4 @@ region: west
 bio_short:
 tags: ['west', '2012', 'Venture_Capital_Private_Equity']
 skills: ['Venture Capital/Private Equity']
----
+--- -->

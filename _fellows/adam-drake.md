@@ -1,4 +1,4 @@
----
+<!-- ---
 id: adam-drake
 title: Adam Drake
 image: /assets/images/fellows/2019/adam-drake-headshot.jpg
@@ -12,4 +12,4 @@ tags: ['south', '2019', 'Software_And_Cloud_Infrastructure', 'Data_Science_And_A
 skills: ['Software and Cloud Infrastructure', 'Data Science and Analytics']
 ---
 
-Adam Drake is a leader in business transformations across global and multi-cultural environments. Drake founded Atazzo, a technical leadership and scalability consulting company. Adam has provided leadership in a number of industries, including logistics, e-commerce, online travel, online marketing, financial services, healthcare, and oil and gas. Adam helps companies achieve rapid acceleration and sustainable growth by improving leadership capabilities, operations, and technology at the board and executive level. When faced with complex technical problems, Adam dives deep with data science and software engineering teams to tackle areas including machine learning, systems performance, data architecture, optimization problems, and anomaly detection. He has a Masters of Science in Applied Mathematics and is an IEEE Senior Member.
+Adam Drake is a leader in business transformations across global and multi-cultural environments. Drake founded Atazzo, a technical leadership and scalability consulting company. Adam has provided leadership in a number of industries, including logistics, e-commerce, online travel, online marketing, financial services, healthcare, and oil and gas. Adam helps companies achieve rapid acceleration and sustainable growth by improving leadership capabilities, operations, and technology at the board and executive level. When faced with complex technical problems, Adam dives deep with data science and software engineering teams to tackle areas including machine learning, systems performance, data architecture, optimization problems, and anomaly detection. He has a Masters of Science in Applied Mathematics and is an IEEE Senior Member. -->

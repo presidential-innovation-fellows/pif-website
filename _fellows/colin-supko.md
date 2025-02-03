@@ -1,4 +1,4 @@
----
+<!-- ---
 id: colin-supko
 title: Colin Supko
 image: /assets/images/fellows/2021/colin-supko-headshot.jpg
@@ -17,4 +17,4 @@ CAPT Supko began his Naval career as a Surface Warfare Officer making two deploy
 
 In his civilian capacity, Colin is a two-time start-up founder having co-founded the consumer electronics company MUNITIO.com and the digital marketplace PatriotList.us.
 
-Colin has traveled to 79 countries. His adventures include a climb to the roof top of Africa summiting Mt. Kilimanjaro in 2010, a walk along the Inca Trail to the heights of Machu Picchu where he proposed to his wife and countless diving trips throughout the South Pacific. He is married to Ms. Stephanie Barker and currently resides in Washington, DC.
+Colin has traveled to 79 countries. His adventures include a climb to the roof top of Africa summiting Mt. Kilimanjaro in 2010, a walk along the Inca Trail to the heights of Machu Picchu where he proposed to his wife and countless diving trips throughout the South Pacific. He is married to Ms. Stephanie Barker and currently resides in Washington, DC. -->

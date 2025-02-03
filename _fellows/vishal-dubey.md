@@ -1,4 +1,4 @@
----
+<!-- ---
 id: vishal-dubey
 title: Vishal Dubey
 image: /assets/images/fellows/2024/vishal-dubey.jpeg
@@ -19,4 +19,4 @@ Early on in his career, eager to transform Healthcare, Vishal co-founded Heal De
 
 Over the last 15 years, Vishal has also been working with silicon valley startups as fractional CxO or Board advisor on Product Development, Adoption and Commercialization. To help and encourage entrepreneurship, Vishal also volunteers his time advising portfolio companies of startup accelerators working with Astia (Women entrepreneurs), Stanford StartX and CLSI.
 
-Vishal received his dual Master’s degree in Systems Science and Industrial Engineering from Louisiana State University, and later an MBA from University of California, Davis. He continues to acquire new knowledge, especially in AI via continuous learning programs from Stanford and other sources.
+Vishal received his dual Master’s degree in Systems Science and Industrial Engineering from Louisiana State University, and later an MBA from University of California, Davis. He continues to acquire new knowledge, especially in AI via continuous learning programs from Stanford and other sources. -->

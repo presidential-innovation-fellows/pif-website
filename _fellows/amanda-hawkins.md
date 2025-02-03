@@ -1,4 +1,4 @@
----
+<!-- ---
 id: amanda-hawkins
 title: Amanda Hawkins
 image: /assets/images/fellows/2023/amanda-hawkins-headshot.jpg
@@ -18,4 +18,4 @@ Prior to joining PIF, Amanda served as the Director of Innovation for Data Socie
  
 In career 1.0, Amanda served in the U.S. Navy where she retired as a Commander in 2018. While in the Navy, Amanda served in various operational and staff roles as a Naval Flight Officer. Her final operational tour was in command of Patrol Squadron Sixteen, a maritime and patrol reconnaissance aircraft squadron which operated the P-8A Poseidon in Europe engaged in sea control and power projection alongside allies and partners.
  
-She is married to a fellow Naval Officer, and is the proud mother of two strong willed children.
+She is married to a fellow Naval Officer, and is the proud mother of two strong willed children. -->

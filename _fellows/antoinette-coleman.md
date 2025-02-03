@@ -1,4 +1,4 @@
----
+<!-- ---
 id: antoinette-coleman
 title: Antoinette Coleman
 image: /assets/images/fellows/2021/antoinette-coleman-headshot.jpg
@@ -13,4 +13,4 @@ skills: ['Strategy and Growth', 'Marketing and Communications', 'Change Manageme
 ---
 Antoinette Coleman is an experienced consumer products leader with expertise across innovation, brand strategy, digital marketing and consumer-centered design. She has held leadership positions across a variety of brands in the food, beauty and beverage industries. Her expertise is in leading cross-functional teams to solve key organization challenges and build scalable business strategies that drive growth.
 
-Antoinette has an MBA from the Wharton School at the University of Pennsylvania.
+Antoinette has an MBA from the Wharton School at the University of Pennsylvania. -->

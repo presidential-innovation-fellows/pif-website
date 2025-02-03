@@ -1,4 +1,4 @@
----
+<!-- ---
 id: mikel-maron
 title: Mikel Maron
 image: /assets/images/fellows/2014/mikel-maron-headshot.png
@@ -12,4 +12,4 @@ tags: ['west', '2014', 'Software_And_Cloud_Infrastructure']
 skills: ['Software and Cloud Infrastructure']
 ---
 
-Mikel Maron is a programmer and geographer dedicated to community and humanitarian use of open source and open data. He has organized mapping projects in India, Palestine, Egypt, Swaziland and elsewhere with Ground Truth Initiative, and especially our flagship effort, Map Kibera, the first open source map of the slums of Nairobi. He’s a long time contributor to OpenStreetMap; and Founder and Board Member of Humanitarian OpenStreetMap Team, having helped facilitate the OSM response to the 2010 Haiti earthquake. Mikel has served as technical lead for Moabi, a collaborative data project to monitor natural resources in DRC. He co-founded the geoweb company Mapufacture (now part of ESRI), helped build the first wiki at the UN (WaterWiki at the UNDP), and generally worked on collaborative platforms and geoweb standards, with everyone from multinationals to anarchist hacker collectives. Mikel is based in Washington DC, but calls Santa Cruz, CA home.
+Mikel Maron is a programmer and geographer dedicated to community and humanitarian use of open source and open data. He has organized mapping projects in India, Palestine, Egypt, Swaziland and elsewhere with Ground Truth Initiative, and especially our flagship effort, Map Kibera, the first open source map of the slums of Nairobi. He’s a long time contributor to OpenStreetMap; and Founder and Board Member of Humanitarian OpenStreetMap Team, having helped facilitate the OSM response to the 2010 Haiti earthquake. Mikel has served as technical lead for Moabi, a collaborative data project to monitor natural resources in DRC. He co-founded the geoweb company Mapufacture (now part of ESRI), helped build the first wiki at the UN (WaterWiki at the UNDP), and generally worked on collaborative platforms and geoweb standards, with everyone from multinationals to anarchist hacker collectives. Mikel is based in Washington DC, but calls Santa Cruz, CA home. -->

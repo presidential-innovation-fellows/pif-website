@@ -1,4 +1,4 @@
----
+<!-- ---
 id: natasha-bansgopaul
 title: Natasha Bansgopaul
 image: /assets/images/fellows/2021/natasha-bansgopaul-headshot.jpg
@@ -17,4 +17,4 @@ Natasha Bansgopaul is a serial entrepreneur and technologist focusing on the int
 
 Featured in Forbes, Fortune, Black Enterprise, Korea Times, and Fast Company, Natasha was recognized as “Female Entrepreneur of the Year” in 2018 and has led her companies to secure numerous awards globally such as, NextMoney Global FinTech Finals, “Best FinTech Solution for Hedge Funds,” and “Best Blockchain Technology Provider” in the 2019 Wealth Management.com Industry Awards.
 
-Most recently, Natasha was named by Cosmopolitan and DigitalUndivided to the 2022 "The New C-Suite", honoring women entrepreneurs who are heading the evolution of business leadership in America. Natasha graduated with her MBA from Pennsylvania State University, with a focus on entrepreneurship and strategic leadership, and her BS from Binghamton University. With a passion for learning, business development, diversity and inclusion, and universal access to technology, Natasha continues to be a leader and advocate for the development and adoption of FinTech and A.I. solutions globally.
+Most recently, Natasha was named by Cosmopolitan and DigitalUndivided to the 2022 "The New C-Suite", honoring women entrepreneurs who are heading the evolution of business leadership in America. Natasha graduated with her MBA from Pennsylvania State University, with a focus on entrepreneurship and strategic leadership, and her BS from Binghamton University. With a passion for learning, business development, diversity and inclusion, and universal access to technology, Natasha continues to be a leader and advocate for the development and adoption of FinTech and A.I. solutions globally. -->

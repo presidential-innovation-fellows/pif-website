@@ -1,4 +1,4 @@
----
+<!-- ---
 id: marian-adly
 title: Marian Adly
 image: /assets/images/fellows/2021/marian-adly-headshot.jpg
@@ -15,4 +15,4 @@ Marian Adly's experience spans the healthcare ecosystem having worked in public 
 
 Marian is the author of “Limiting the Collateral Damage of Decision Making” that was the culmination of her work as an American Fulbright Scholar (2004-05) at the University of Toronto studying Canada’s response to the 2003 SARS outbreak. Marian is a caregiver advocate and has managed the care for her father as a traumatic brain injury survivor.  
 
-Mrs. Adly holds Master of Science degrees from the University of Toronto as well as the University of Chicago. She also holds a B.S. in Chemistry as well as a B.A. in Philosophy, International Relations, and Political Science from Loyola University of Chicago.
+Mrs. Adly holds Master of Science degrees from the University of Toronto as well as the University of Chicago. She also holds a B.S. in Chemistry as well as a B.A. in Philosophy, International Relations, and Political Science from Loyola University of Chicago. -->

@@ -1,4 +1,4 @@
----
+<!-- ---
 id: nandini-nayak
 title: Nandini Nayak Ph.D. 
 image: /assets/images/fellows/2024/ai/nandini-nayak-headshot.jpeg
@@ -20,4 +20,4 @@ She has led large cross-functional practice and delivery teams and mentored prof
 
 A key strength is her ability to to help align cross-functional teams to solve complex technology and business transformation problems through compelling outcome-based narratives, underpinned by design and systems thinking and Agile delivery,   
 
-Nandini holds a PH.D. with academic training in Clinical and Cognitive Psychology; Brain-Behavior relationships; Experimental Design; Behavioral Research; Natural Language Processing and Artificial Intelligence. 
+Nandini holds a PH.D. with academic training in Clinical and Cognitive Psychology; Brain-Behavior relationships; Experimental Design; Behavioral Research; Natural Language Processing and Artificial Intelligence.  -->

@@ -1,4 +1,4 @@
----
+<!-- ---
 id: charles-borges
 title: Chuck Borges
 image: /assets/images/fellows/2022/charles-borges-headshot.jpg
@@ -18,4 +18,4 @@ As a PIF, Chuck has been focused on enabling the CDC’s Data Modernization Init
 
 Working part-time with the EOP/OMB Data Team as a special project, Chuck has also been instrumental in developing updates to the Evidence Act, the Federal Data Strategy Action Plan, and various other OMB products and circulars.
 
-Chuck has an MBA from the University of Maryland, an MS from the University of Tennessee, and an undergraduate degree in Astronomy/Mechanical Engineering from the Massachusetts Institute of Technology. He is a Certified Data Management Professional (CDMP) and a graduate of the Aspen Tech Policy Hub’s Tech Executive Leadership Initiative. His interests include camping, science fiction, ancient history, and tabletop board games.
+Chuck has an MBA from the University of Maryland, an MS from the University of Tennessee, and an undergraduate degree in Astronomy/Mechanical Engineering from the Massachusetts Institute of Technology. He is a Certified Data Management Professional (CDMP) and a graduate of the Aspen Tech Policy Hub’s Tech Executive Leadership Initiative. His interests include camping, science fiction, ancient history, and tabletop board games. -->

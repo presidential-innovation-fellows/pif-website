@@ -1,4 +1,4 @@
----
+<!-- ---
 id: kyla-fullenwider
 title: Kyla Fullenwider
 image: /assets/images/fellows/2016/kyla-fullenwider-headshot.jpg
@@ -16,4 +16,4 @@ skills: ['Design and Experience', 'Product']
 
 Previous work includes directing Garden in Transit, the City of New York’s largest and most expansive social design initiative to date, developing the first crowd sourced CSR program with GOOD Magazine and Pepsico, and creating Etsy's first annual Values & Impact report. She’s designed and implemented other programs and initiatives with the City of Los Angeles, the City of Baltimore, the Cooper Hewitt Design Museum, UCLA, and the Legacy Foundation. She is also a Cofounder and board member of New York based Imperative and SOLA Ventures.
 
-Some of her work has been featured in the NY Times, LA Times, NY Magazine, and Fast Company and in case studies authored by the Harvard School of Business and the Annie E. Casey Foundation. She is also a former Fellow in Social Design at the Maryland Institute College of Art. In 2015 she was named Top 100 Creatives Making an Impact by Origin Magazine and a Google Launchpad Mentor. Her writing has been published by Metropolis Magazine, Next City, GOOD Magazine, and the Outpost Journal. And she speaks and lectures at a range of institutions including the Smithsonian American Art Museum, the Art Institute of Chicago, Columbia University, the University of Pennsylvania, and the Ashoka Future Forum among others.
+Some of her work has been featured in the NY Times, LA Times, NY Magazine, and Fast Company and in case studies authored by the Harvard School of Business and the Annie E. Casey Foundation. She is also a former Fellow in Social Design at the Maryland Institute College of Art. In 2015 she was named Top 100 Creatives Making an Impact by Origin Magazine and a Google Launchpad Mentor. Her writing has been published by Metropolis Magazine, Next City, GOOD Magazine, and the Outpost Journal. And she speaks and lectures at a range of institutions including the Smithsonian American Art Museum, the Art Institute of Chicago, Columbia University, the University of Pennsylvania, and the Ashoka Future Forum among others. -->

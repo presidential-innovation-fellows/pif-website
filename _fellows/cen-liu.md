@@ -1,4 +1,4 @@
----
+<!-- ---
 id: cen-liu
 title: Cen Liu
 image: /assets/images/fellows/2022/cen-liu-headshot.jpg
@@ -16,4 +16,4 @@ Cen Liu (he/him) is an adopted son of Baltimore and an engineering-minded tinker
 
 People have known Cen for his unbounded curiosity, meaningful relationship building, and bias towards actions. He listens, stimulates feedback, and offers conversational laughter. Together, Cen looks forward to collaborating with the public focusing on care delivery in the advent of telehealth and connected health.
 
-Cen holds a B.S. from Loyola University Maryland, an M.S. from Rice University, and an M.B.A. from Imperial College London. In addition, his education at a Title I high school drove him to continue working with youths and to be a force on their journeys.
+Cen holds a B.S. from Loyola University Maryland, an M.S. from Rice University, and an M.B.A. from Imperial College London. In addition, his education at a Title I high school drove him to continue working with youths and to be a force on their journeys. -->

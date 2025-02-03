@@ -1,4 +1,4 @@
----
+<!-- ---
 id: matthew-versaggi
 title: Matthew Versaggi
 image: /assets/images/fellows/2024/ai/matthew-versaggi-headshot.jpeg
@@ -24,4 +24,4 @@ He has been an entrepreneur of 16 years as CEO of his own company,  taught for a
 
 Matthew is a philosopher of decades, and is an accomplished athletic coach of 15 years in the pole vault.
 
-He currently consults in the AI business strategy space helping organizations become AI ready.
+He currently consults in the AI business strategy space helping organizations become AI ready. -->

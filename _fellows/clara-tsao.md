@@ -1,4 +1,4 @@
----
+<!-- ---
 id: clara-tsao
 title: Clara Tsao
 image: /assets/images/fellows/2016/clara-tsao-headshot.jpg
@@ -12,4 +12,4 @@ tags: ['west', '2016', 'Product', 'Software_And_Cloud_Infrastructure']
 skills: ['Product', 'Software and Cloud Infrastructure']
 ---
 
-Clara Tsao is an entrepreneur and a White House Presidential Innovation Fellow. Prior to government, she led global strategic partnerships in education for Microsoft. In addition to corporate roles with Google, Apple, Sony, Playstation, HP, and AT&T, Clara is also the co-founder and former Executive Director of the Congressional App Challenge. In her spare time, you can find Clara writing tech pieces for the Huffington Post or mentoring students on social entrepreneurship as a STEM mentor for Clinton Global Initiative University.
+Clara Tsao is an entrepreneur and a White House Presidential Innovation Fellow. Prior to government, she led global strategic partnerships in education for Microsoft. In addition to corporate roles with Google, Apple, Sony, Playstation, HP, and AT&T, Clara is also the co-founder and former Executive Director of the Congressional App Challenge. In her spare time, you can find Clara writing tech pieces for the Huffington Post or mentoring students on social entrepreneurship as a STEM mentor for Clinton Global Initiative University. -->

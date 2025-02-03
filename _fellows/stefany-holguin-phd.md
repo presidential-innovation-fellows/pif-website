@@ -1,4 +1,4 @@
----
+<!-- ---
 id: stefany-holguin-phd
 title: Stefany Y. Holguin, Ph.D.
 image: /assets/images/fellows/2022/stefany-holguin-phd-headshot.jpg
@@ -18,4 +18,4 @@ At Becton Dickinson (BD), she conducted materials science R&D, delivered technic
 
 Dr. Holguin earned her Ph.D. in Materials Science & Engineering (MSE) from Georgia Tech and BS in MSE from the University of Florida. Her doctoral research focused on a novel, intracellular drug delivery method leveraging laser energy and nanoparticles as a platform for gene therapy. At GaTech, she won several distinctions including the NSF Graduate Research Fellowship, NIH Biomaterials Training Grant, and the Sloan Foundation & GaTech UCEM Scholarship.
 
-For recreation, Dr. Holguin enjoys hiking, birding, and martial arts. She actively mentors students in STEM.
+For recreation, Dr. Holguin enjoys hiking, birding, and martial arts. She actively mentors students in STEM. -->

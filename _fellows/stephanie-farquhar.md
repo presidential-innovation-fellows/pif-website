@@ -1,4 +1,4 @@
----
+<!-- ---
 id: stephanie-farquhar
 title: Stephanie E. Farquhar, Ph.D.
 image: /assets/images/fellows/2024/stephanie-farquhar.jpeg
@@ -19,4 +19,4 @@ As a member of Google’s inaugural Health Equity team, Dr. Farquhar adapted her
 
 Dr. Farquhar founded Equitable Data Solutions, a consulting firm that supports data and AI-reliant organizations in building equitable practices into their data work. 
 
-A native Texan, Stephanie earned a BA from New York University and a PhD and MHS from Johns Hopkins School of Public Health as a Sylvia and Eddie Brown Community Health Scholar. She is the proud mom of a very opinionated teenager, an avid reader and a volunteer with the OpEd Project. 
+A native Texan, Stephanie earned a BA from New York University and a PhD and MHS from Johns Hopkins School of Public Health as a Sylvia and Eddie Brown Community Health Scholar. She is the proud mom of a very opinionated teenager, an avid reader and a volunteer with the OpEd Project.  -->

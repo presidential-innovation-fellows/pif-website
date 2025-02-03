@@ -1,4 +1,4 @@
----
+<!-- ---
 id: john-trobough
 title: John Trobough
 image: /assets/images/fellows/2016/john-trobough-headshot.jpg
@@ -38,4 +38,4 @@ Early in his career, working with McCaw Cellular, John helped spur the wireless 
 
 
 John is an alumnus of Stanford University Graduate School of Business and has a BA in Business Administration from Washington State University. He is an Advisor and Board Member for early-stage technology companies, and is an active Advisory Board Member to the Washington State University Entrepreneurship department.
-
+ -->

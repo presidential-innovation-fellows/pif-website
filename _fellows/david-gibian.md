@@ -1,4 +1,4 @@
----
+<!-- ---
 id: david-gibian
 title: Davey Gibian
 image: /assets/images/fellows/2018/davey-gibian-headshot.jpg
@@ -18,4 +18,4 @@ David is a dynamic entrepreneur and executive. Prior to the White House, he serv
 
 David is well known as the Cofounder of Office:MG, an applied data laboratory. Office:MG's work created solutions that improved public infrastructure in New York City, enabled humanitarian responses in the Middle East, applied data science to political campaigns, and provided situational awareness in areas of crisis in sub-Saharan Africa. In tandem with Office:MG, David teamed up with researchers at Carnegie Mellon and in 2015, he cofounded the software platform Symkala, which applies breakthrough robotics technologies to unstructured dark data, driving a new direction in geospatial information systems (GIS).
 
-Prior to becoming an entrepreneur, David worked in finance as an investor and investment banker. He is a graduate of Columbia University. He is a restaurant investor and a cofounder in the women’s fashion line, Newcomen.
+Prior to becoming an entrepreneur, David worked in finance as an investor and investment banker. He is a graduate of Columbia University. He is a restaurant investor and a cofounder in the women’s fashion line, Newcomen. -->
