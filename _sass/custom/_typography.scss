@@ -95,6 +95,33 @@ ul, li {
   }
 }
 
+//Last Updated
+.topic_page_footer--container{
+  .footer-row{
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -.25rem;
+    margin-right: .25rem;
+
+    .last-reviewed {
+      text-align: right;
+      white-space: nowrap;
+      flex: 0 1 auto;
+      width: 100%;
+      font-size: 80%;
+       
+      div {
+        float: right;
+      }
+    }
+  }
+  #content-modified {
+    margin-top: 3rem;
+    border-top: 1px solid #e0e6eb;
+  }
+}
 
 // WAS THIS HELPFUL TOUCHPOINT
 .feedback-modal {

@@ -30,7 +30,8 @@ Product Management Transition: VA’s OIT is embarking on an ambitious transform
 For these projects, the VA is looking for the following skill sets: data science, design, product management, software development and deep expertise in the healthcare industry, especially in the areas of health record interoperability and clinical software workflows.
 
 <section class="usa-section">
-  <div class="grid-container">
+  <div class="grid-container">  
+    {% include last-modified.html %}
     {% include_cached touchpoint-survey-script.html %}
   </div>
 </section>

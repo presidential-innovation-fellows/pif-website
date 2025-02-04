@@ -103,7 +103,11 @@ plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-last-modified-at
 
+# Optional. The default date format, used if none is specified in the tag.
+last-modified-at:
+    date-format: '%b %d, %Y'
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
 # The values here represent the defaults if nothing is set
