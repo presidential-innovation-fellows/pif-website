@@ -36,3 +36,10 @@ To stimulate a proactive U.S. response to China’s investment in U.S.-based dua
 In September 2018, Secretary James Mattis selected Michael Brown to lead the Defense Innovation Unit (DIU), which was formed in 2015 to accelerate the adoption of commercial technology into the military. In this way, he follows in the footsteps of other PIFs who have decided to stay and serve in leadership roles within the government.
 
 In addition to DIU, the rebranded National Security Innovation Network (NSIN), which brings national security problems to universities where students and professors collaborate on new ways to solve these problems as part of the “Hacking For Defense” curriculum. The combination of NSIN, NSIC and core DIU are all aimed at growing the national security innovation base. With over 100 projects started,  DIU has introduced more than 45 first-time vendors to the Department of Defense.
+
+<section class="usa-section">
+  <div class="grid-container">
+    {% include last-modified.html %}
+    {% include_cached touchpoint-survey-script.html %}
+  </div>
+</section>

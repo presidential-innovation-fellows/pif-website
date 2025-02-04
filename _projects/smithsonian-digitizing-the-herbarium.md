@@ -26,3 +26,10 @@ redirect_from:
 In just six months, a team of Fellows developed and launched an end-to-end solution for creating digital records for historic files. Through crowdsourcing transcriptions, the project has engaged thousands of volunteers who have helped to transcribe and review historic and scientific records, making them easily accessible to the public for the first time.
 
 <img src="{{site.baseurl}}/assets/images/projects/smithsonian-screenshot.jpg" class="float-right" title="The homepage of the Smithsonian Transcription Center" alt="The homepage of the Smithsonian Transcription Center"/>
+
+<section class="usa-section">
+  <div class="grid-container">
+    {% include last-modified.html %}
+    {% include_cached touchpoint-survey-script.html %}
+  </div>
+</section>

@@ -17,3 +17,10 @@ Specifically, the Office of the Chief Data Officer (CDO) and the Office of the C
 <li>Maturing OIG’s Hybrid-Cloud Architecture and Governance: OIG’s IT infrastructure supports a diverse array of functions and large data sets across a widely disbursed geographic area. HHS-OIG has made strategic investments in cloud computing and network modernization. This includes investments in migrating OIG’s legacy applications to the cloud as well as developing OIG’s Integrated Data Platform (IDP), which provides key analytical capabilities to enable our staff to apply advanced analysis and logic-based techniques, including machine learning (ML), to a large amount of data. As we continue to migrate applications and large data sets such as Medicare, Medicaid, and grants data, we are seeking expertise to help optimize our hybrid-cloud infrastructure and governance process to enable a secure, cost effective, and modern infrastructure.</li>
 <li>Advancing advanced data analytics and use of Artificial Intelligence (AI): OCDO’s team of highly trained data analysts, scientists, and statisticians partner with OIG investigators, auditors, attorneys, and evaluators to identify HHS’s most significant risks and better target fraud, waste, and abuse. Specifically, OCDO provides a suite of self-service tools, advanced analytics support, and data operations infrastructure that put “data at the fingertips” of OIG staff. HHS OIG is seeking expertise to help advance OIG’s data infrastructure and tools to support text analytics; machine learning, natural language processing, robotics process automation, and predictive analytics; integrate data analytics and AI into OIG’s investigative and oversight business processes; and enable an AI-ready workforce.</li>
 </ul>
+
+<section class="usa-section">
+  <div class="grid-container">
+    {% include last-modified.html %}
+    {% include_cached touchpoint-survey-script.html %}
+  </div>
+</section>

@@ -28,3 +28,10 @@ MCC engages in policy and/or technical components of programs aimed at alleviati
 * Skill building and human capital development
 * Improvements in government services (Digital Government) and public infrastructure and platforms
 * Technology-enabled surveys, tracking which is material to the efforts
+
+<section class="usa-section">
+  <div class="grid-container">
+    {% include last-modified.html %}
+    {% include_cached touchpoint-survey-script.html %}
+  </div>
+</section>

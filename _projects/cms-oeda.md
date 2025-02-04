@@ -47,3 +47,10 @@ With a focus on long-term strategic planning as described above, the PIF will:
 </ul>
 
 The PIF may also participate in hands-on development of FHIR-based APIs.
+
+<section class="usa-section">
+  <div class="grid-container">
+    {% include last-modified.html %}
+    {% include_cached touchpoint-survey-script.html %}
+  </div>
+</section>
