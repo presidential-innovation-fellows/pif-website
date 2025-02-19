@@ -1,4 +1,4 @@
----
+<!-- ---
 id: michelle-hertzfeld
 title: Michelle Hertzfeld
 image: /assets/images/fellows/2013/michelle-hertzfeld-headshot.png
@@ -12,4 +12,4 @@ tags: ['west', '2013', 'Software_And_Cloud_Infrastructure', 'Design_And_Experien
 skills: ['Software and Cloud Infrastructure', 'Design and Experience']
 ---
 
-Michelle is a science communicator.  From teaching ranchers to use satellite imagery to improve land management, to creating digital interfaces that facilitate access to weather data, she bridges the divide between data and understanding with structure, intelligence, and empathy.  She has worked with clients ranging from small businesses to government agencies and international organizations, helping them strategize both offline and online user experiences to reach business and project goals.  Most recently, she lent her user interface expertise to international data-sharing projects at the National Oceanic and Atmospheric Administration’s Satellite and Information Service.  Her abilities include both front-end web development skills in HTML5, CSS3, and Javascript, and user-centered design with strong opinions about typography and color.  Michelle lives in Silver Spring, Maryland, where she arrived from Arizona via grad school in Indiana, and has dual degrees in Environmental Policy and Mandarin.
+Michelle is a science communicator.  From teaching ranchers to use satellite imagery to improve land management, to creating digital interfaces that facilitate access to weather data, she bridges the divide between data and understanding with structure, intelligence, and empathy.  She has worked with clients ranging from small businesses to government agencies and international organizations, helping them strategize both offline and online user experiences to reach business and project goals.  Most recently, she lent her user interface expertise to international data-sharing projects at the National Oceanic and Atmospheric Administration’s Satellite and Information Service.  Her abilities include both front-end web development skills in HTML5, CSS3, and Javascript, and user-centered design with strong opinions about typography and color.  Michelle lives in Silver Spring, Maryland, where she arrived from Arizona via grad school in Indiana, and has dual degrees in Environmental Policy and Mandarin. -->

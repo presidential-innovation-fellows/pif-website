@@ -1,4 +1,4 @@
----
+<!-- ---
 id: payman-sadegh
 title: Payman Sadegh
 image: /assets/images/fellows/2021/payman-sadegh-headshot.jpg
@@ -17,4 +17,4 @@ Payman is a cofounder of ChainSquared, an AI-based startup in healthcare. Prior 
 
 In other previous roles, Payman was a program manager in advanced technology at Sikorsky Aircraft (acquired by Lockheed Martin) and the Director of Computational and Statistical Sciences Center at the American Institutes for Research.
 
-Dr. Sadegh has a Ph.D. in Mathematical Statistics from Technical University of Denmark and MBA from Indiana University, Kelley School of Business.
+Dr. Sadegh has a Ph.D. in Mathematical Statistics from Technical University of Denmark and MBA from Indiana University, Kelley School of Business. -->

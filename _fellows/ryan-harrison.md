@@ -1,4 +1,4 @@
----
+<!-- ---
 id: ryan-harrison
 title: Ryan M. Harrison
 image: /assets/images/fellows/2022/ryan-harrison-headshot.jpg
@@ -18,4 +18,4 @@ As a PIF with the Centers for Disease Control and Prevention (CDC) Data Moderniz
 
 Prior to PIF, Ryan was the Chief Software Architect at Amida Technology Solutions, leading data modernization and interoperability engagements with large healthcare enterprises. Ryan was an early employee at several life-sciences start-ups, including BioBright, Oxford Nanopore Technologies, and Ginkgo Bioworks.
 
-He holds a DPhil (PhD) in Computational Biophysics from the University of Oxford (NSF Graduate Research Fellow, NIH-Oxford Scholar), where he studied DNA bending with supercomputers and DNA helicases with single-molecule microscopes. He received a Bachelor of Science in Biomedical Engineering, with a minor in Economics, from Johns Hopkins University. Ryan is a proud product of Baltimore City Public Schools.
+He holds a DPhil (PhD) in Computational Biophysics from the University of Oxford (NSF Graduate Research Fellow, NIH-Oxford Scholar), where he studied DNA bending with supercomputers and DNA helicases with single-molecule microscopes. He received a Bachelor of Science in Biomedical Engineering, with a minor in Economics, from Johns Hopkins University. Ryan is a proud product of Baltimore City Public Schools. -->

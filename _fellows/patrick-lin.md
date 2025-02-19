@@ -1,4 +1,4 @@
----
+<!-- ---
 id: patrick-lin
 title: Patrick Lin
 image: /assets/images/fellows/2019/patrick-lin-headshot.jpg
@@ -18,4 +18,4 @@ Most recently, Patrick led the autonomous driving team for Ford Motor Company in
 
 With over 20 years of experience serving as an executive in diverse industries ranging from travel and tourism, to software development, and healthcare, Mr. Lin excels at strategic thinking and leading innovative teams to implement transformational change.  His accomplishments include leading one of the largest travel IPOs in the greater China region and enjoys being an avid practitioner of the KonMari method.
 
-Patrick is a proud graduate from the University of California and was an Alfred P. Sloan Fellow at the Massachusetts Institute of Technology.
+Patrick is a proud graduate from the University of California and was an Alfred P. Sloan Fellow at the Massachusetts Institute of Technology. -->

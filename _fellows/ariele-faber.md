@@ -1,4 +1,4 @@
----
+<!-- ---
 id: ariele-faber
 title: Ariele Faber
 image: /assets/images/fellows/2020/ariele-faber-headshot.jpg
@@ -16,4 +16,4 @@ Ariele Faber is passionate about improving overall quality of life for those who
 
 Ariele has worked across startups, small businesses, non-profits, and corporations specializing in healthcare and life sciences. Prior to government, Ariele worked in design strategy at Johnson & Johnson, leading care-centered design initiatives across the enterprise. Before J&J, she served as the patient experience designer for NYU Langone Health System and was a fellow in the Center for Healthcare Innovation and Delivery Science (CHIDS). Earlier on, Ariele was the founder and owner of Cerebella Design, a science-inspired textiles business. In addition, Ariele has contributed to projects at Imperial College Healthcare NHS Trust, ZGF Architects, and the National Library of Medicine.
 
-Ariele graduated from Middlebury College, where she studied Neuroscience and Architecture, and completed her Master of Science in Healthcare & Design at Imperial College London.
+Ariele graduated from Middlebury College, where she studied Neuroscience and Architecture, and completed her Master of Science in Healthcare & Design at Imperial College London. -->

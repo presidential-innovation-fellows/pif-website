@@ -1,4 +1,4 @@
----
+<!-- ---
 id: melissa-keene
 title: Melissa Keene
 image: /assets/images/fellows/2020/melissa-keene-headshot.jpg
@@ -12,4 +12,4 @@ tags: ['south', '2020', 'Product', 'Change_Management']
 skills: ['Product', 'Change Management']
 ---
 
-Melissa is a seasoned UX leader with experience implementing company-wide Agile, Design Thinking, Lean UX, and Product Discovery transformations. She has secondary experience managing Product Management teams. Her in-depth technology background enables the experience to get built, not just designed. Melissa has industry expertise in Government, Finance, and Media and is a Data Visualization subject matter expert.
+Melissa is a seasoned UX leader with experience implementing company-wide Agile, Design Thinking, Lean UX, and Product Discovery transformations. She has secondary experience managing Product Management teams. Her in-depth technology background enables the experience to get built, not just designed. Melissa has industry expertise in Government, Finance, and Media and is a Data Visualization subject matter expert. -->

@@ -1,4 +1,4 @@
----
+<!-- ---
 id: gaj-sunthara
 title: Gajen Sunthara
 image: /assets/images/fellows/2014/gaj-sunthara-headshot.png
@@ -16,4 +16,4 @@ Gajen Sunthara is the Director of Innovation R&D at Boston Children's Hospital a
 
 He also holds a Senior Advisor role at InciteHealth at the Center for Primary Care at Harvard Medical School.
 
-Gajen has a B.Sc. in Computer Science from Wentworth Institute of Technology and a M.S. in Information Technology from Harvard University.
+Gajen has a B.Sc. in Computer Science from Wentworth Institute of Technology and a M.S. in Information Technology from Harvard University. -->

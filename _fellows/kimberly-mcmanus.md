@@ -1,4 +1,4 @@
----
+<!-- ---
 id: kimberly-mcmanus
 title: Kimberly McManus
 image: /assets/images/fellows/2021/kimberly-mcmanus-headshot.jpg
@@ -15,4 +15,4 @@ Kimberly is passionate about driving innovation and positive change. She is a sc
 
 In her most recent position, she led a team at 23andMe that developed new methods and features for customers to learn about their ancestry. She thrives when working with cross-functional teams and has led multiple data initiatives. Prior to 23andMe, she was a software engineer at LinkedIn where she worked on recommendation systems.
 
-Kimberly has a Bachelor’s degree from the Massachusetts Institute of Technology. She earned her PhD in Biology and Master’s degree in Biomedical Informatics from Stanford University where she studied demography and selection in diverse populations. Kimberly grew up in Roseville, California.
+Kimberly has a Bachelor’s degree from the Massachusetts Institute of Technology. She earned her PhD in Biology and Master’s degree in Biomedical Informatics from Stanford University where she studied demography and selection in diverse populations. Kimberly grew up in Roseville, California. -->

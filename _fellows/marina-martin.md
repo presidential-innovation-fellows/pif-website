@@ -1,4 +1,4 @@
----
+<!-- ---
 id: marina-martin
 title: Marina Martin
 image: /assets/images/fellows/2012/marina-martin-headshot.png
@@ -12,4 +12,4 @@ tags: ['northeast', '2012', 'Product', 'Software_And_Cloud_Infrastructure']
 skills: ['Software and Cloud Infrastructure', 'Product']
 ---
 
-Marina Martin has been a business efficiency consultant and web developer for the last ten years, helping businesses save time and money through a combination of hands-on process optimization and custom Ruby on Rails and Apex application development. Marina is the founder of the efficiency consulting firm The Type-A Way and author of Business Efficiency for Dummies. She serves on the City of Seattle Citizens' Telecommunications and Technology Advisory Board and has worked on open data projects across Washington State. Marina grew up in Connecticut and lives in Seattle, WA with her cats and extensive collection of dry-erase boards.
+Marina Martin has been a business efficiency consultant and web developer for the last ten years, helping businesses save time and money through a combination of hands-on process optimization and custom Ruby on Rails and Apex application development. Marina is the founder of the efficiency consulting firm The Type-A Way and author of Business Efficiency for Dummies. She serves on the City of Seattle Citizens' Telecommunications and Technology Advisory Board and has worked on open data projects across Washington State. Marina grew up in Connecticut and lives in Seattle, WA with her cats and extensive collection of dry-erase boards. -->

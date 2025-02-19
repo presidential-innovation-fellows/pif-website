@@ -44,8 +44,8 @@ primary_navigation:
     url: /
   - name: About Us
     url: /about/
-  - name: Meet the Fellows
-    url: /fellows/
+  # - name: Meet the Fellows
+  #   url: /fellows/
   - name: Projects
     url: /projects/
   - name: For Agencies
@@ -76,9 +76,9 @@ searchgov:
 ##########################################################################################
 
 collections:
-  fellows:
-    output: true
-    permalink: /:collection/:name/
+  # fellows:
+  #   output: true
+  #   permalink: /:collection/:name/
   projects:
     output: true
     permalink: /:collection/:name/
@@ -90,10 +90,10 @@ collections:
     permalink: /:collection/:name/
 
 defaults:
-  - scope:
-      type: "fellows"
-    values:
-      layout: "fellow"
+  # - scope:
+  #     type: "fellows"
+  #   values:
+  #     layout: "fellow"
   - scope:
       type: "projects"
     values:
@@ -189,6 +189,7 @@ exclude:
   - .jekyll-cache
   - docker-compose.yml
   - Dockerfile
+  - fellows/*
 
 # assets:
 #   sources:

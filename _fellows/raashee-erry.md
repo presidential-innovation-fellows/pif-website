@@ -1,4 +1,4 @@
----
+<!-- ---
 id: raashee-gupta-erry
 title: Raashee Gupta Erry
 image: /assets/images/fellows/2021/raashee-gupta-erry-headshot.jpg
@@ -17,4 +17,4 @@ Currently, Raashee is Founder and Principal of Uplevel, a digital media consulti
 In addition to Uplevel, Raashee has served in critical roles at Essence – WPP/GroupM agency, Neustar, Volkswagen, LMO, Digitas, Samsung-Cheil Communications. Having been on the brand, agency, and mar-tech side, has provided Raashee a unique blend of experience and knowledge that spans from brand strategy to channel planning, activation, measurement, to data and technology integrations.  Over her career, Raashee has been instrument in driving marketing success for organizations such as T-mobile, Barclays, Avis Budget, American Express, National Guard and March of Dimes.
 Additionally, she has been an advisor assisting start-ups with growth and audience development.
 
-She holds a M.B.A form University of Maryland, Bachelor of Science in Marketing & Advertising from Fashion Institute of Technology, NY and Bachelor of Arts in Economics & Literature from Punjab University, India.
+She holds a M.B.A form University of Maryland, Bachelor of Science in Marketing & Advertising from Fashion Institute of Technology, NY and Bachelor of Arts in Economics & Literature from Punjab University, India. -->

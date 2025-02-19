@@ -1,4 +1,4 @@
----
+<!-- ---
 id: olivier-kamanda
 title: Olivier Kamanda
 image: /assets/images/fellows/2016/olivier-kamanda-headshot.jpg
@@ -17,4 +17,4 @@ skills: ['Product', 'Software and Cloud Infrastructure']
 
 Olivier is a Halcyon Incubator Fellow, a Truman National Security Project Fellow, and a long-standing volunteer at Miriam’s Kitchen, a homeless services organization based in DC.  He is a former trustee of Princeton University and has served as an elected Advisory Neighborhood Commissioner in Adams Morgan in Washington, D.C.
 
-Olivier earned his bachelors degree in operations research and financial engineering from Princeton University and his law degree from the University of Pennsylvania Law School.
+Olivier earned his bachelors degree in operations research and financial engineering from Princeton University and his law degree from the University of Pennsylvania Law School. -->

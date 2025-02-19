@@ -1,4 +1,4 @@
----
+<!-- ---
 id: aaron-creel
 title: Aaron Creel
 image: /assets/images/fellows/2021/aaron-creel-headshot.jpg
@@ -15,4 +15,4 @@ Aaron Creel is a Security Executive with specialized expertise in government and
 
 With extensive experience across all aspects of security and compliance, Aaron has made a significant impact on risk mitigation and asset protection for many private and public sector organizations.
 
-Aaron began his professional career on Active Duty in the United States Coast Guard and seeks any opportunity to build on his own knowledge or mentor others.
+Aaron began his professional career on Active Duty in the United States Coast Guard and seeks any opportunity to build on his own knowledge or mentor others. -->

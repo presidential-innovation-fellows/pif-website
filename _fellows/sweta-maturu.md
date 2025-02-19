@@ -1,4 +1,4 @@
----
+<!-- ---
 id: sweta-maturu
 title: Sweta Maturu
 image: /assets/images/fellows/2024/sweta-maturu.jpeg
@@ -17,4 +17,4 @@ Prior to becoming a PIF, Sweta was a Civic Design Researcher with The Lab @ DC, 
 
 Before The Lab @ DC, Sweta was a Senior Strategist at Blue State, where she led audience research & engagement projects for non-profits, advocacy organizations, and brands. Sweta was also a consultant at Deloitte, where they supported federal government agencies in addressing organizational design and strategic planning challenges.
 
-Sweta earned a M.Sc. in International Conflict Studies from the London School of Economics & Political Science, and a B.A. in International Studies from Emory University.
+Sweta earned a M.Sc. in International Conflict Studies from the London School of Economics & Political Science, and a B.A. in International Studies from Emory University. -->

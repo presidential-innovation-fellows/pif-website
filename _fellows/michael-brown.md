@@ -1,4 +1,4 @@
----
+<!-- ---
 id: michael-brown
 title: Michael Brown
 image: /assets/images/fellows/2016/michael-brown-headshot.jpg
@@ -16,4 +16,4 @@ Through August of 2016, Michael was the CEO of Symantec Corporation, the global 
 
 Michael is the former Chairman and CEO of Quantum Corporation (1995-2003), a leader in the computer storage industry specializing in backup and archiving products.  As CEO of Quantum, the company achieved record revenues as the world’s leader in disk drives for PCs and the world’s largest tape drive business.  Michael joined Quantum in 1984 and served in various management roles before being named as CEO in 1995.  Michael served on the Quantum Board from 1995 until 2014.
 
-Michael has also served as the Chairman of EqualLogic and Line 6 and has served on the public boards of Nektar Therapeutics, Maxtor Corporation, and Digital Impact.  He serves on the Board of Trustees of the Berklee College of Music in Boston.  He has a BA degree in economics from Harvard and an MBA from Stanford University.
+Michael has also served as the Chairman of EqualLogic and Line 6 and has served on the public boards of Nektar Therapeutics, Maxtor Corporation, and Digital Impact.  He serves on the Board of Trustees of the Berklee College of Music in Boston.  He has a BA degree in economics from Harvard and an MBA from Stanford University. -->

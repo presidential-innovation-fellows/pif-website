@@ -1,4 +1,4 @@
----
+<!-- ---
 id: nina-daoud
 title: Nina Daoud, Ph.D.
 image: /assets/images/fellows/2024/nina-daoud.jpeg
@@ -15,4 +15,4 @@ Nina Daoud is a dynamic product strategist with a passion for designing products
 
 Throughout her multifaceted career, Nina has developed a robust set of skills, including conducting policy analysis, crafting strategic initiatives, and advocating for ethical AI principles that prioritize transparency, fairness, and accountability. While at Meta, Nina led 0 to 1 product initiatives aimed at centering user privacy while simultaneously offering a transparent and delightful user experience. She developed a track record of successfully navigating highly technical product spaces with ease and building strong collaborations with key stakeholders. Nina also previously worked at the U.S. Government Accountability Office (GAO) where she conducted fact-based policy research supporting the U.S. Congress in meeting its constitutional responsibilities.
 
-Nina holds a Ph.D. from the University of Maryland, a Master’s degree from the University of Pennsylvania, and a Bachelor’s degree from Cornell University.
+Nina holds a Ph.D. from the University of Maryland, a Master’s degree from the University of Pennsylvania, and a Bachelor’s degree from Cornell University. -->

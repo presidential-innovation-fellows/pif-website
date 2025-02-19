@@ -1,4 +1,4 @@
----
+<!-- ---
 id: steven-babitch
 title: Steven Babitch
 image: /assets/images/fellows/2015/steven-babitch-headshot.jpg
@@ -16,4 +16,4 @@ skills: ['AI/Machine Learning', 'design', 'product', 'user experience', 'data', 
 
 Steve’s teaching experience includes lecturing at the Segal Design Institute at Northwestern University and CEDIM Design School in Mexico. He’s a mentor at the start-up incubator MATTER Chicago and an Emerging Leader Fellow with The Chicago Council on Global Affairs.
 
-Steve holds a BS in Mechanical Engineering from the University of Michigan and a Master of Design from the IIT Institute of Design. He loves food, travel and tennis. Born and raised in Detroit, he’s lived in Seoul, Philadelphia and most recently in Chicago.
+Steve holds a BS in Mechanical Engineering from the University of Michigan and a Master of Design from the IIT Institute of Design. He loves food, travel and tennis. Born and raised in Detroit, he’s lived in Seoul, Philadelphia and most recently in Chicago. -->

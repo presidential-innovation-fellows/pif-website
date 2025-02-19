@@ -1,4 +1,4 @@
----
+<!-- ---
 id: likhitha-patha
 title: Likhitha Patha
 image: /assets/images/fellows/2020/likhitha-patha-headshot.jpg
@@ -16,4 +16,4 @@ Likhitha is inspired by the pervasive problems that surround our everyday-life a
 
 Prior to Government, Likhitha worked at Amazon and Microsoft. At Amazon, Likhitha focused on advancing the state-of-the-art of Alexa’s Natural Language Understanding stack by working at the intersection of research, engineering and customers to deliver delightful voice assistant experiences. At Microsoft, Likhitha worked on enhancing endpoint management experiences for enterprise and education (Ed-Tech) customers where she was a founding member of the product team that launched Microsoft Intune for Education. She also worked on improving developer experience on Visual Studio by building qualitative and quantitative data platforms.
 
-Likhitha graduated from Virginia Tech with a bachelors in Electrical Engineering, received a graduate certificate in Machine Learning from University of Washington and is currently pursuing a part-time masters in Computer Science from Georgia Tech.
+Likhitha graduated from Virginia Tech with a bachelors in Electrical Engineering, received a graduate certificate in Machine Learning from University of Washington and is currently pursuing a part-time masters in Computer Science from Georgia Tech. -->

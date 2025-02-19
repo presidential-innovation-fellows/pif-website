@@ -1,4 +1,4 @@
----
+<!-- ---
 id: abrar-qureshi
 title: Abrar Qureshi
 image: /assets/images/fellows/2021/abrar-qureshi-headshot.jpg
@@ -18,4 +18,4 @@ Abrar has led teams and delivered numerous strategic business initiatives in the
 
 Inspired by grassroots nonprofits' challenges in growing and engaging their audience, he has recently envisioned and built a mobile app that democratizes access to an effective and affordable digital platform for nonprofits. It simplifies and incentivizes individuals and businesses to discover and support the nonprofits' social impact campaigns while providing social glue for the community.  
 
-He has a strong background and interest in full-stack digital solution design and engineering, databases, cloud architecture, data engineering, data democratization, and AI/ML strategy.
+He has a strong background and interest in full-stack digital solution design and engineering, databases, cloud architecture, data engineering, data democratization, and AI/ML strategy. -->

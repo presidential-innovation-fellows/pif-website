@@ -1,4 +1,4 @@
----
+<!-- ---
 id: rupam-jyoti-sarmah
 title: Rupam Jyoti Sarmah, Ph.D.
 image: /assets/images/fellows/2023/rupam-jyoti-sarmah-headshot.jpeg
@@ -20,4 +20,4 @@ Rupam migrated to the U.S. after completing his Engineering degree in Assam, Ind
 
 Rupam is passionate about ARPA-H's vision of finding cures for cancer, Alzheimer, etc. A student of life, he is touched by societal problems which challenge him to collaborate and advance interdisciplinary research. 
 
-In his creative time, Rupam likes to compose music and produce films for social impact.
+In his creative time, Rupam likes to compose music and produce films for social impact. -->

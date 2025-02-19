@@ -1,4 +1,4 @@
----
+<!-- ---
 id: ken-kato
 title: Ken Kato
 image: /assets/images/fellows/2020/ken-kato-headshot.jpg
@@ -16,4 +16,4 @@ Ken Kato is an entrepreneur, platform/cloud architect, change agent, and innovat
 
 Spending a career working at the bleeding edge; Ken continues to iterate on concepts with a focus lately on IoT sensor data aggregation and predictive analysis, security across software and platform lifecycle, edge computing at the extremes of information availability. Evincing a passion to keep pursuing ideas from when the ideas are theory before technology is available until they are matured as an innovation.
 
-Technology alone can't solve complex problems and with that in mind, Ken thinks of what the future landscape may look like. Between experience and data, Ken predicts how decisions made today will be survivable for years ahead and strives to develop a sustainable strategy for organizational growth.
+Technology alone can't solve complex problems and with that in mind, Ken thinks of what the future landscape may look like. Between experience and data, Ken predicts how decisions made today will be survivable for years ahead and strives to develop a sustainable strategy for organizational growth. -->

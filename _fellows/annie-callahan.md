@@ -1,4 +1,4 @@
----
+<!-- ---
 id: annie-callahan
 title: Annie Callahan
 image: /assets/images/fellows/2023/annie-callahan-headshot.jpeg
@@ -18,4 +18,4 @@ Annie began her career in Silicon Valley. There, she helped grow a data analytic
 
 Annie earned her undergraduate degree in biology from Cornell University. She recently received her master's degree in public policy from the University of Chicago.
 
-Annie Callahan is a proud upstate New York native. She currently lives in the DC area with her husband, Rob, and her toughest customer, Moose the corgi.
+Annie Callahan is a proud upstate New York native. She currently lives in the DC area with her husband, Rob, and her toughest customer, Moose the corgi. -->

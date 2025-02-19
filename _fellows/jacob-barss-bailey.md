@@ -1,4 +1,4 @@
----
+<!-- ---
 id: jacob-barss-bailey
 title: Jacob Barss-Bailey
 image: /assets/images/fellows/2023/jacob-barss-bailey-headshot.jpg
@@ -14,4 +14,4 @@ skills: ['Design and Experience']
 
 Jacob Barss-Bailey is a leader in designing and building innovative, community-centered digital products and building the diverse design teams who deliver them. His 20 years of experience encompasses leading product & marketing design for Turo, Nextdoor, Nokia, and UNICEF’s child protection management platform.
 
-His interests are not limited to the digital world. He is passionate about public infrastructure and is an avid maker & tinkerer. He enjoys creating music synthesizer modules, cycling, and nurturing plants & small mammals.
+His interests are not limited to the digital world. He is passionate about public infrastructure and is an avid maker & tinkerer. He enjoys creating music synthesizer modules, cycling, and nurturing plants & small mammals. -->

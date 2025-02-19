@@ -1,4 +1,4 @@
----
+<!-- ---
 id: april-chen
 title: April Chen
 image: /assets/images/fellows/2022/april-chen-headshot.jpg
@@ -18,4 +18,4 @@ As a PIF at the Executive Office of the President, April’s work has focused ar
 
 Prior to PIF, April was a Senior Data Scientist at Lyft, where she developed models for algorithmic pricing and marketplace strategy. Prior to Lyft, April led a research and development team at Civis Analytics, which developed software to measure and optimize campaigns, used in U.S. presidential elections and mission-focused organizations.
 
-April is a first generation American who was born in Taishan, China and grew up in Brooklyn, New York. She graduated from the University of Chicago with a BA in Economics.
+April is a first generation American who was born in Taishan, China and grew up in Brooklyn, New York. She graduated from the University of Chicago with a BA in Economics. -->

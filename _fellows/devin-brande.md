@@ -1,4 +1,4 @@
----
+<!-- ---
 id: devin-brande
 title: Devin Brande
 image: /assets/images/fellows/2020/devin-brande-headshot.jpg
@@ -20,4 +20,4 @@ Prior to PIF, Devin was Director of Product Management for Orbital Insight, lead
 
 As a technology investor with In-Q-Tel, Devin managed a $60M+ portfolio of investments in 30+ companies spanning the entire funding lifecycle from seed to late stage, including several successful exits, and helped found the In-Q-Tel commercial space market team, focused on developing strategic guidance for emerging trends in commercial space.
 
-Devin has a B.S. in mechanical engineering from Worcester Polytechnic Institute (WPI) and an M.S. in engineering sciences from Dartmouth College.
+Devin has a B.S. in mechanical engineering from Worcester Polytechnic Institute (WPI) and an M.S. in engineering sciences from Dartmouth College. -->
