@@ -4,9 +4,9 @@ title: 'Making the case for human-centered design: A Department of Justice case 
 image: /assets/images/blogs/making-the-case-for-human-centered-design-a-department-of-justice-case-study.png
 author: Becky Slogeris, Kim Lopez
 published_at: "2024-10-28"
-summary: ""
+summary: "PIF alum Becky Slogeris and the Access DOJ team share nine lessons on making services more accessible, effective, and efficient"
 external_url:
-tags: ['DOJ']
+tags: ['DOJ'] ['Alumni']
 type: Blog
 social: blog
 ---
