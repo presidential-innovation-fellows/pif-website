@@ -4,7 +4,7 @@ title: 'Innovating Across Highly-Regulated Industries and the Federal Government
 image: /assets/images/blogs/wanmei-ou-ife-event.png
 author: Wanmei Ou
 published_at: "2021-06-08"
-summary: ""
+summary: "Four lessons learned from the similarities and differences between highly-regulated companies and the federal government."
 external_url: https://digital.gov/2021/06/08/innovating-across-highly-regulated-industries-and-the-federal-government/
 tags: ['GSA']
 type: Blog
