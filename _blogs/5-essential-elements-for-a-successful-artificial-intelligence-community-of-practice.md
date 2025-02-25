@@ -4,7 +4,7 @@ title: '5 essential elements for a successful artificial intelligence community 
 image: /assets/images/blogs/
 author: Eboni J.D. Freeman, Sabrina Mohamed and Eric Ewing
 published_at: "2024-09-24"
-summary: ""
+summary: "PIF Eboni J.D. Freeman and colleagues at the Technology Transformation Services share their success launching and maturing the federal artificial intelligence community of practice (AI CoP)."
 external_url:
 tags: ['GSA']
 type: Blog
