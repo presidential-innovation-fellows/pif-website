@@ -6,7 +6,7 @@ author: Becky Slogeris, Kim Lopez
 published_at: "2024-10-28"
 summary: "PIF alum Becky Slogeris and the Access DOJ team share nine lessons on making services more accessible, effective, and efficient"
 external_url:
-tags: ['DOJ'] ['Alumni']
+tags: ['DOJ','Alumni']
 type: Blog
 social: blog
 ---
