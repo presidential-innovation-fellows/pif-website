@@ -6,7 +6,7 @@ author: Wanmei Ou
 published_at: "2021-06-08"
 summary: "Four lessons learned from the similarities and differences between highly-regulated companies and the federal government."
 external_url: https://digital.gov/2021/06/08/innovating-across-highly-regulated-industries-and-the-federal-government/
-tags: ['GSA']
+tags: ['GSA','Alumni']
 type: Blog
 social: blog
 ---
