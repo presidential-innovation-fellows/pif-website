@@ -3,7 +3,7 @@ id: pif-fellows-reflect-on-experiences
 title: 'PIF Fellows Reflect On Experiences'
 image: /assets/images/blogs/PIF_Experiences_Blog.png
 author: Presidential Innovation Fellows alumni
-published_at: "2024-12-13"
+published_at: "2025-03-10"
 summary: "Former Presidential Innovation Fellows reflect on their experiences within the program and how it has helped them to continue their careers in public service."
 external_url:
 tags: ['Alumni']
@@ -21,8 +21,9 @@ The program unites experienced and dedicated data scientists, designers, enginee
 Since PIF’s founding in 2012, over 50% of PIF alumni continue in or return to government after their fellowship. Using their experience in the program, PIFs have made significant impacts across several agencies and governmental departments as they continue their careers in public service.
 
 **BECKY SLOGERIS**{:.fellowName}
+
 *Former: PIF at the Department of Justice (DoJ) focusing on social impact design*
-*Current: Access DOJ Senior Design Lead at the Department of Justice’s Office for Access to Justice*
+*Current: Senior Design Lead at the Department of Justice's Access DOJ*
 
 <div class="usa-image-block">
   <img src="{{site.baseurl}}/assets/images/fellows/2022/becky-slogeris-headshot.jpg" alt="Photo of Becky Slogeris"/>
@@ -31,19 +32,22 @@ Since PIF’s founding in 2012, over 50% of PIF alumni continue in or return to 
 
 The best part about being in public service is that every win, even if it’s small, feels monumental because you know it’s part of a larger movement to help make government more accessible, effective, and efficient for the public. PIF showed me that true change in government can only happen in collaboration with civil servants. There’s a huge learning curve when you join the federal government – PIF gave me the support and skills needed to be able to jump right in and get to work.” 
 
-
+<!--
 **DAN JASON**{:.fellowName}
+
 *Former: PIF at the Centers for Disease Control and Prevention (CDC) focusing on data analytics and interoperable systems*
 *Current: Technical Program Manager at the Centers for Disease Control and Prevention (CDC)*
+
 <div class="usa-image-block">
   <img src="{{site.baseurl}}/assets/images/fellows/2022/daniel-jason-headshot.jpg" alt="Photo of Dan Jason"/>
 </div>
 “My experience as a Presidential Innovation Fellow profoundly shaped my approach to leadership and innovation in my current role as an IT Program Manager. The PIF program taught me the value of cross-disciplinary collaboration, which I now leverage to bridge gaps between technical teams and broader organizational goals. It inspired me to embrace a user-centric mindset, driving me to focus on delivering solutions that truly meet the needs of the end-users. This experience also instilled a deep sense of public service and the impact technology can have on improving lives, which continues to inspire me to drive meaningful change in my work every day.
 
 Being part of the PIF community was an incredibly enriching experience that taught me the power of collaboration and the importance of diverse perspectives. I learned that innovation thrives when people from different backgrounds, disciplines, and sectors come together to tackle challenges. The collective knowledge and creativity of the PIF community pushed me to think beyond traditional solutions and to embrace bold, out-of-the-box ideas. I also learned the value of resilience and adaptability, as PIFs are often tasked with navigating complex government systems to drive change. Most importantly, the camaraderie and support within the PIF community showed me the strength of working together towards a common goal of public service innovation.”
-
+-->
 
 **KAELI YUEN**{:.fellowName}
+
 *Former: PIF at the Department of Veterans Affairs (VA) focusing on research, product management, and health information technologies.*
 *Current: Acting Deputy Director at the Veteran Affairs Office of the Chief AI Officer*
 
@@ -56,6 +60,7 @@ Joining PIF was the best career decision I’ve made. At the time I received my 
 
 
 **RYAN HARRISON**{:.fellowName}
+
 *Former: PIF at Centers for Disease Control and Prevention (CDC) focusing on enterprise architecture and data management*
 *Current: Data Scientist Architect at the CDC*
 
