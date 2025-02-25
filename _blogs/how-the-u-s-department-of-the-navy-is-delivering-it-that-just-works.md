@@ -4,7 +4,7 @@ title: 'How the U.S. Department of the Navy is delivering IT that just works'
 image: /assets/images/blogs/how-the-u-s-department-of-the-navy-is-delivering-it-that-just-works.jpg
 author: Amanda Hawkins
 published_at: "2024-06-10"
-summary: ""
+summary: "The U.S. Navy’s Program Executive Office for Digital and Enterprise Services is working to revolutionize how information technology is acquired"
 external_url:
 tags: ['Navy']
 type: Blog
