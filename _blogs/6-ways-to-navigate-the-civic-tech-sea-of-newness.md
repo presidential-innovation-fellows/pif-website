@@ -6,7 +6,7 @@ author: Raashee Gupta Erry, Vivian Lee
 published_at: "2021-03-24"
 summary: "Two former private-sector marketers now serving as Presidential Innovation Fellows share tips for building relationships and finding your way as a civic technologist"
 external_url:
-tags: ['GSA']
+tags: ['GSA','Alumni']
 type: Blog
 social: blog
 ---
