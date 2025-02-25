@@ -1,12 +1,12 @@
 ---
 id: pioneering-the-future-vas-ai-use-case-inventory
 title: 'Pioneering the Future: VA’s AI Use Case Inventory'
-image: /assets/images/blogs/
+image: /assets/images/blogs/VA-OIT-Graphic-Blog-Artificial-Intelligence-at-VA.webp
 author: Nelson Colón Vargas, Varoon Mathur
-published_at: ""
-summary: ""
+published_at: "2024-12-30"
+summary: "PIFs at the Department of Veterans Affairs (VA) supported the creation of their 2024 AI Use Case Inventory. This collection of over 200 artificial intelligence (AI) initiatives showcases how VA embraces cutting-edge technology to improve the lives of Veterans and empower VA staff."
 external_url:
-tags: ['VA']
+tags: ['VA'], ['Alumni']
 type: Blog
 social: blog
 ---
