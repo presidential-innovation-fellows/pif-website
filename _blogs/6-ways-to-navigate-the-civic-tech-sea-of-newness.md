@@ -4,7 +4,7 @@ title: '6 Ways To Navigate the Civic Tech Sea of Newness'
 image: /assets/images/blogs/pifs-raashee-gupta-erry-vivian-lee-zoom-6-tips.png
 author: Raashee Gupta Erry, Vivian Lee
 published_at: "2021-03-24"
-summary: ""
+summary: "Two former private-sector marketers now serving as Presidential Innovation Fellows share tips for building relationships and finding your way as a civic technologist"
 external_url:
 tags: ['GSA']
 type: Blog
