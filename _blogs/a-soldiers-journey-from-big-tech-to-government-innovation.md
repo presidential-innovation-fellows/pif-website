@@ -4,9 +4,9 @@ title: 'A Soldier’s Journey from Big Tech to Government Innovation'
 image: /assets/images/blogs/pif-george-chewning.png
 author: George Chewning
 published_at: "2021-02-01"
-summary: "Why I returned to government service, how I brought my tech experience with me, and why you should too."
+summary: "PIF and Veteran George Chewning shares why he returned to government service, how he brought his tech experience with him, and why you should too."
 external_url: https://digital.gov/2021/02/01/a-soldiers-journey-from-big-tech-to-government-innovation/
-tags: ['GSA']
+tags: ['GSA','Alumni']
 type: Blog
 social: blog
 ---
