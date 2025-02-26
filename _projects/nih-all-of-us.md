@@ -44,3 +44,10 @@ Vet the research platform: They will help us understand if what we’re building
 Win over researchers We made first contact with the research community, and now we need to develop that community, which includes not only using our data, but potentially investing in our platform. This person is an evangelist and must be a great speaker and listener. They’ll help us understand when we’re not connecting with researchers and why.
 
 For these projects, the PIFs come into a consortium with dozens of companies and institutions, and the talent (and egos) to attempt something as audacious as All of Us. Thus, the individuals need to be entrepreneurial and have a high EQ and persuasive personality
+
+<section class="usa-section">
+  <div class="grid-container">
+    {% include last-modified.html %}
+    {% include_cached touchpoint-survey-script.html %}
+  </div>
+</section>

@@ -39,3 +39,10 @@ order: 1
 <p>Engaging researchers to use this rich national resource to drive health discoveries is key, and the Workbench can inform thousands of research questions, covering a wide variety of health conditions. Registered and approved researchers have access to a rich data set drawing from electronic health records, biospecimens, surveys, and other measures creating a comprehensive set of biological, environmental, and behavioral data. The goal is for researchers from around the world to come together to answer questions around COVID-19, the value of diverse medical research is more important than ever.</p>
 
 <p>In many ways, Georgeta and Adele’s complementary skill sets reflect the diverse and innovative nature of this ambitious program. From ideation and testimonial storytelling to accelerating medical breakthroughs through a collaborative and custom data platform, Presidential Innovation Fellows worked in partnership with <em>All of Us</em> leadership to showcase the program’s unique and tremendous impact.</p>
+
+<section class="usa-section">
+  <div class="grid-container">
+    {% include last-modified.html %}
+    {% include_cached touchpoint-survey-script.html %}
+  </div>
+</section>
