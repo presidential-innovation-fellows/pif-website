@@ -25,3 +25,10 @@ As part of this effort, the Office of the Commissioner is seeking two Presidenti
 <strong>Becoming a Product-Centric Organization:</strong> FDA is launching a new initiative to move from project-based IT delivery to one focused on continuous product innovation. A product mindset enables rapid iteration and innovation by focusing on changing requirements, product outcomes, and the strategic differentiation for a product or service. We will accomplish this shift by implementing Product Management approaches across our broad and diverse portfolio. How can FDA start the cultural shift required to embrace the Product Mindset? What does ‘product’ mean in an FDA context and how can we reshape the customer and user experience? What might an organization structure and service model look like for a new product organization? How can we create a product management workforce at FDA?
 
 <strong>Using Real World Evidence to Accelerate Safe & Effective Cures:</strong> Real-world data (RWD) and real-world evidence (RWE) are playing an increasingly important role in health care decisions. FDA uses RWD and RWE to monitor safety and effectiveness, and to make regulatory decisions. The health care community is using these data to support clinical trial designs, support coverage decisions, and to develop decision support tools for use in clinical practice. How can FDA help improve the development and application of RWD to improve patient care? How can FDA leverage RWD during public health emergencies like COVID-19? How can the rapid development of coding standards help enable interoperability? How can RWD be used for external control arms in new spaces?
+
+<section class="usa-section">
+  <div class="grid-container">
+    {% include last-modified.html %}
+    {% include_cached touchpoint-survey-script.html %}
+  </div>
+</section>

@@ -20,3 +20,10 @@ As an Office of the Secretary of Defense (OSD) organization, DIU solves critical
 DIU’s technical focus areas include: 1) Autonomy (drones, robotics, counter-drones--in the air and underwater); 2) Space (includes launch, analytics on satellite data, space situational awareness); 3) AI/ML (decision making, autonomy applications, automation of cyber); 4) Human Systems (wearables on soldiers that provide real-time biometrics, situational awareness in combat, etc.); and 5) IT (catch-all for cyber security, networking, agile software development, big data and analytics)
 
 DIU is looking for two Presidential Innovation Fellows to help bridge the gap between the DoD and the tech and innovation community. These individuals should have a understanding of technology within DIU’s focus areas (AI/ML, autonomy, networking and security, etc.), experience running large programs in the commercial world, entrepreneurial backgrounds with success in founding and selling a tech start-up and/or tech policy experience."
+
+<section class="usa-section">
+  <div class="grid-container">
+    {% include last-modified.html %}
+    {% include_cached touchpoint-survey-script.html %}
+  </div>
+</section>
