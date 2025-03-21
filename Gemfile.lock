@@ -73,7 +73,7 @@ GEM
     mini_portile2 (2.8.8)
     mini_racer (0.16.0)
       libv8-node (~> 18.19.0.0)
-    nokogiri (1.16.7)
+    nokogiri (1.18.4)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
     parallel (1.26.3)
