@@ -50,6 +50,8 @@ primary_navigation:
     url: /projects/
   - name: For Agencies
     url: /agencies/
+  - name: Blog
+    url: /blog/
 
 secondary_navigation:
   - name: Secondary link
@@ -83,6 +85,9 @@ collections:
   pages:
     output: true
     permalink: /:path/
+  blogs:
+    output: true
+    permalink: /:collection/:name/
 
 defaults:
   # - scope:
@@ -93,6 +98,10 @@ defaults:
       type: "projects"
     values:
       layout: "project"
+  - scope:
+      type: "blogs"
+    values:
+      layout: "blog"
 
 permalink: pretty
 

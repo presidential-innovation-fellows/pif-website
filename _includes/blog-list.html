@@ -1,0 +1,52 @@
+{% assign aria_id = blog.title | url_encode | truncate: 15, "" %}
+<ul class="usa-card-group">
+    <div class="grid-row">
+{% for blog in  paginator.posts  %}
+   
+    <li class="usa-card tablet:grid-col-4 blog-card">
+        
+        <div class="usa-card__container">
+          <a href="{{ site.baseurl }}{{ blog.url }}" aria-labelledby="{{ aria_id }}">
+            <div class="usa-card__media">
+              <div class="usa-card__img">
+                {% if blog.image %}
+                <img src="{{ site.baseurl }}{{ blog.image }}" alt="{{ blog.title }}" />
+                {% else %}
+                <img src="{{ site.baseurl }}/assets/images/blogs/Default_Press_Image.webp" alt="{{ blog.title }}" />
+                {% endif %}
+              </div>
+            </div>
+            <div class="usa-card__header">
+              <h2 class="usa-card__heading">{{blog.title}}</h2>
+            </div>
+            <div class="blog-card--tag tag">
+              {% assign blog_types = site.data.blog-type | where_exp:'type', "blog.tags contains type.url_name" %}
+              {% for type in blog_types%}
+              {% if forloop.first %}
+              <ul>
+                {% endif %}
+                <li><span class="{{ type.url_name }} usa-tag">{{ type.display_name }}</span></li></li>
+                {% if forloop.last %}
+              </ul>
+              {% endif %}
+              {% endfor %}
+            </div>
+            <div class="usa-card__body">
+              <p class="blog-summary">
+                {{blog.summary}}
+              </p>
+              <p>
+                {%if blog.author %}
+                <span>By {{blog.author}}</span><br>
+                {% endif %}
+                <span>{{blog.published_at | date: '%B %e, %Y'}}</span>
+              </p>
+            </div>
+          </a>
+          </div>
+    </li>
+
+    
+{% endfor %}
+</div>
+</ul>
