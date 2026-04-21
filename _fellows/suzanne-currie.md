@@ -8,16 +8,16 @@ agency: ["NOAA"]
 hometown:
 region:
 bio_short: Cross-sector leader working at the intersection of public need and private innovation.
-tags: ['active', '2026', 'Product']
-skills: ['Product']
+tags: ["active", "2026", "Product"]
+skills: ["Product"]
 ---
 
 **Joining PIF...**
 
 Across healthcare, insurance, industrial, and consumer tech, I kept encountering the same challenge: critical systems that touch people's lives sit at the intersection of public need, private innovation, and government oversight. PIF is where I can work at that intersection directly — at scale, and with real impact.
 
-**To work on…**
+**To work on...**
 
 Leading NOAA's implementation efforts for the Updating Permitting Technology for the 21st Century and guided CEQ's Permitting Technology Action Plan.
 
-*National Oceanic and Atmospheric Administration, National Marine Fisheries Service*
+_National Oceanic and Atmospheric Administration, National Marine Fisheries Service_

@@ -8,8 +8,8 @@ agency: ["State"]
 hometown:
 region:
 bio_short: Solving complex problems that make a significant difference in people's lives.
-tags: ['active', '2026', 'Product']
-skills: ['Product']
+tags: ["active", "2026", "Product"]
+skills: ["Product"]
 ---
 
 **Joining PIF...**
@@ -20,8 +20,8 @@ When I learned about PIF, I was also excited about working on services that oper
 
 Finally, I appreciated that the PIF program emphasizes collaboration within the cohort. The most successful projects I have been a part of included people with divergent backgrounds, skills, and approaches. I look forward to learning from and collaborating with other Fellows to affect meaningful change.
 
-**To work on…**
+**To work on...**
 
 Enhancing the experience for millions of individuals who rely on CA each year, improving accessibility and strengthening public trust.
 
-*Department of State, Consular Affairs - Executive Director*
+_Department of State, Consular Affairs - Executive Director_

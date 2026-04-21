@@ -8,8 +8,8 @@ agency: ["USACE"]
 hometown:
 region:
 bio_short: Advocate for accessible, human-centered technology that creates dignity and possibility.
-tags: ['active', '2026', 'Digital_Strategy']
-skills: ['Digital Strategy']
+tags: ["active", "2026", "Digital_Strategy"]
+skills: ["Digital Strategy"]
 ---
 
 **Joining PIF...**
@@ -20,8 +20,8 @@ That lesson has stayed with me throughout my career. In serving veterans and the
 
 That is what drew me to PIF. It offered a chance to bring together the things that matter most to me: public service, innovation, and measurable impact on people's daily lives. I joined because government has a unique opportunity to use technology in ways that serve people. PIF felt like a place where that belief could become action.
 
-**To work on…**
+**To work on...**
 
 Helping design and implement a comprehensive automation strategy to effectively link its various technology initiatives and align with the CEQ vision for improved business processes, seamless data sharing, and enhanced collaboration with the Permitting Technology Action Plan.
 
-*United States Corps of Engineers, Regulatory Program*
+_United States Corps of Engineers, Regulatory Program_

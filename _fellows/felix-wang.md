@@ -8,8 +8,8 @@ agency: ["State"]
 hometown:
 region:
 bio_short: Designer and policy practitioner bridging design thinking and public innovation.
-tags: ['active', '2026', 'Digital_Strategy']
-skills: ['Digital Strategy']
+tags: ["active", "2026", "Digital_Strategy"]
+skills: ["Digital Strategy"]
 ---
 
 **Joining PIF...**
@@ -18,8 +18,8 @@ After a decade-long career in big tech, I realized I wanted to move beyond the s
 
 PIF is the perfect marriage of my background as a designer and my new path as a policy practitioner. My goal is to bridge the gap between "design thinking" and traditional policy, using it as a catalyst for a government that is as responsive, resilient, and user-friendly as possible.
 
-**To work on…**
+**To work on...**
 
 Building out human-centered design, data analytics, customer research, and customer experience (CX) capabilities and culture transforming and modernizing services geared towards the safety and security of Americans traveling and living overseas.
 
-*Department of State, Consular Affairs - Overseas Citizens Services*
+_Department of State, Consular Affairs - Overseas Citizens Services_
