@@ -1,14 +1,14 @@
 ---
 id: lacey-jacoby
 title: Lacey Jacoby
-image: /assets/images/fellows/2026/lacey-jacoby-headshot.png
+image: /assets/images/fellows/2026/lacey-jacoby-headshot.jpg
 fellow_year: 2026
 project: []
 agency: ["State"]
 hometown:
 region:
 bio_short: Solving complex problems that make a significant difference in people's lives.
-tags: ['2026', 'Product']
+tags: ['active', '2026', 'Product']
 skills: ['Product']
 ---
 

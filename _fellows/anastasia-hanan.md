@@ -1,14 +1,14 @@
 ---
 id: anastasia-hanan
 title: Anastasia Hanan
-image: /assets/images/fellows/2026/anastasia-hanan-headshot.png
+image: /assets/images/fellows/2026/anastasia-hanan-headshot.jpg
 fellow_year: 2026
 project: []
 agency: ["State"]
 hometown:
 region:
 bio_short: Dedicated to collaborating and improving important services for the American public.
-tags: ['2026', 'Design_And_Experience']
+tags: ['active', '2026', 'Design_And_Experience']
 skills: ['Design and Experience']
 ---
 

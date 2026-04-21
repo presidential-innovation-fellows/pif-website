@@ -1,14 +1,14 @@
 ---
 id: richard-cocchiara
 title: Richard Cocchiara
-image: /assets/images/fellows/2026/richard-cocchiara-headshot.png
+image: /assets/images/fellows/2026/richard-cocchiara-headshot.jpg
 fellow_year: 2026
 project: []
 agency: ["CISA"]
 hometown:
 region:
 bio_short: Using skills to help our country and the communities within.
-tags: ['2026', 'Digital_Strategy']
+tags: ['active', '2026', 'Digital_Strategy']
 skills: ['Digital Strategy']
 ---
 

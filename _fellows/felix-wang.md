@@ -1,14 +1,14 @@
 ---
 id: felix-wang
 title: Felix Wang
-image: /assets/images/fellows/2026/felix-wang-headshot.png
+image: /assets/images/fellows/2026/felix-wang-headshot.jpg
 fellow_year: 2026
 project: []
 agency: ["State"]
 hometown:
 region:
 bio_short: Designer and policy practitioner bridging design thinking and public innovation.
-tags: ['2026', 'Digital_Strategy']
+tags: ['active', '2026', 'Digital_Strategy']
 skills: ['Digital Strategy']
 ---
 

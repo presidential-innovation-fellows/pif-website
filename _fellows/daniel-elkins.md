@@ -1,14 +1,14 @@
 ---
 id: daniel-elkins
 title: Daniel Elkins
-image: /assets/images/fellows/2026/daniel-elkins-headshot.png
+image: /assets/images/fellows/2026/daniel-elkins-headshot.jpg
 fellow_year: 2026
 project: []
 agency: ["USACE"]
 hometown:
 region:
 bio_short: Advocate for accessible, human-centered technology that creates dignity and possibility.
-tags: ['2026', 'Digital_Strategy']
+tags: ['active', '2026', 'Digital_Strategy']
 skills: ['Digital Strategy']
 ---
 

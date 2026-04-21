@@ -1,14 +1,14 @@
 ---
 id: joshua-miller
 title: Joshua "Yosh" Miller
-image: /assets/images/fellows/2026/joshua-miller-headshot.png
+image: /assets/images/fellows/2026/joshua-miller-headshot.jpeg
 fellow_year: 2026
 project: []
 agency: ["NIST"]
 hometown:
 region:
 bio_short: Strategy and venture leader tackling critical, ambiguous problems in public service.
-tags: ['2026', 'Digital_Strategy']
+tags: ['active', '2026', 'Digital_Strategy']
 skills: ['Digital Strategy']
 ---
 

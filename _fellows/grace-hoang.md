@@ -1,14 +1,14 @@
 ---
 id: grace-hoang
 title: Grace Hoang
-image: /assets/images/fellows/2026/grace-hoang-headshot.png
+image: /assets/images/fellows/2026/grace-hoang-headshot.jpg
 fellow_year: 2026
 project: []
 agency: ["CISA"]
 hometown:
 region:
 bio_short: Product and technical expert committed to strengthening cybersecurity and critical infrastructure.
-tags: ['2026', 'Product']
+tags: ['active', '2026', 'Product']
 skills: ['Product']
 ---
 

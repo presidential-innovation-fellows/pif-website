@@ -8,7 +8,7 @@ agency: ["DOE"]
 hometown:
 region:
 bio_short: Defense, health innovation, and AI leader with 26 years of cross-sector experience.
-tags: ['2026', 'AI_Machine_Learning']
+tags: ['active', '2026', 'AI_Machine_Learning']
 skills: ['AI/Machine Learning']
 ---
 

@@ -1,14 +1,14 @@
 ---
 id: adam-mansour
 title: Adam Mansour
-image: /assets/images/fellows/2026/adam-mansour-headshot.png
+image: /assets/images/fellows/2026/adam-mansour-headshot.jpeg
 fellow_year: 2026
 project: []
 agency: ["VA"]
 hometown:
 region:
 bio_short: Product leader passionate about improving access to critical public services.
-tags: ['2026', 'Product']
+tags: ['active', '2026', 'Product']
 skills: ['Product']
 ---
 

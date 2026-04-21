@@ -1,14 +1,14 @@
 ---
 id: benjamin-wilson
 title: Benjamin Wilson
-image: /assets/images/fellows/2026/benjamin-wilson-headshot.png
+image: /assets/images/fellows/2026/benjamin-wilson-headshot.jpg
 fellow_year: 2026
 project: []
 agency: ["DOE"]
 hometown:
 region:
 bio_short: Globally experienced technologist helping solve complex national challenges.
-tags: ['2026', 'Digital_Strategy']
+tags: ['active', '2026', 'Digital_Strategy']
 skills: ['Digital Strategy']
 ---
 

@@ -1,14 +1,14 @@
 ---
 id: janet-covey
 title: Janet Covey
-image: /assets/images/fellows/2026/janet-covey-headshot.png
+image: /assets/images/fellows/2026/janet-covey-headshot.jpg
 fellow_year: 2026
 project: []
 agency: ["CISA"]
 hometown:
 region:
 bio_short: Experience designer helping people navigate complex information intuitively.
-tags: ['2026', 'Design_And_Experience']
+tags: ['active', '2026', 'Design_And_Experience']
 skills: ['Design and Experience']
 ---
 

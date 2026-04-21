@@ -1,14 +1,14 @@
 ---
 id: anne-marie-alexander
 title: Anne Marie Alexander
-image: /assets/images/fellows/2026/anne-marie-alexander-headshot.png
+image: /assets/images/fellows/2026/anne-marie-alexander-headshot.jpeg
 fellow_year: 2026
 project: []
 agency: ["USCG"]
 hometown:
 region:
 bio_short: Design, technology, and strategy leader focused on innovation for the public good.
-tags: ['2026', 'Design_And_Experience']
+tags: ['active', '2026', 'Design_And_Experience']
 skills: ['Design and Experience']
 ---
 

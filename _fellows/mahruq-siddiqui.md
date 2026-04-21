@@ -1,14 +1,14 @@
 ---
 id: mahruq-siddiqui
 title: Mahruq Siddiqui
-image: /assets/images/fellows/2026/mahruq-siddiqui-headshot.png
+image: /assets/images/fellows/2026/mahruq-siddiqui-headshot.jpg
 fellow_year: 2026
 project: []
 agency: ["EOP"]
 hometown:
 region:
 bio_short: Digital transformation and innovation leader delivering better public outcomes.
-tags: ['2026', 'Digital_Strategy']
+tags: ['active', '2026', 'Digital_Strategy']
 skills: ['Digital Strategy']
 ---
 

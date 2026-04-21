@@ -1,14 +1,14 @@
 ---
 id: jessica-wang
 title: Jessica Wang
-image: /assets/images/fellows/2026/jessica-wang-headshot.png
+image: /assets/images/fellows/2026/jessica-wang-headshot.jpg
 fellow_year: 2026
 project: []
 agency: ["DOE"]
 hometown:
 region:
 bio_short: Excited about technological transformation of government.
-tags: ['2026', 'Software_Engineering']
+tags: ['active', '2026', 'Software_Engineering']
 skills: ['Software Engineering']
 ---
 

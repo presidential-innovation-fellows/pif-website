@@ -1,14 +1,14 @@
 ---
 id: janel-paulk
 title: Janel Paulk, PhD
-image: /assets/images/fellows/2026/janel-paulk-headshot.png
+image: /assets/images/fellows/2026/janel-paulk-headshot.jpg
 fellow_year: 2026
 project: []
 agency: ["GSA"]
 hometown:
 region:
 bio_short: Healthcare IT and project management leader creating lasting public impact.
-tags: ['2026', 'Product']
+tags: ['active', '2026', 'Product']
 skills: ['Product']
 ---
 

@@ -1,14 +1,14 @@
 ---
 id: osazee-paul
 title: Osazee Paul
-image: /assets/images/fellows/2026/osazee-paul-headshot.png
+image: /assets/images/fellows/2026/osazee-paul-headshot.jpeg
 fellow_year: 2026
 project: []
 agency: ["NIST"]
 hometown:
 region:
 bio_short: Technologist strengthening public institutions through innovation.
-tags: ['2026', 'Software_Engineering']
+tags: ['active', '2026', 'Software_Engineering']
 skills: ['Software Engineering']
 ---
 

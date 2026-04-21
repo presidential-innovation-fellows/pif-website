@@ -1,14 +1,14 @@
 ---
 id: suzanne-currie
 title: Suzanne Currie
-image: /assets/images/fellows/2026/suzanne-currie-headshot.png
+image: /assets/images/fellows/2026/suzanne-currie-headshot.jpg
 fellow_year: 2026
 project: []
 agency: ["NOAA"]
 hometown:
 region:
 bio_short: Cross-sector leader working at the intersection of public need and private innovation.
-tags: ['2026', 'Product']
+tags: ['active', '2026', 'Product']
 skills: ['Product']
 ---
 
