@@ -50,7 +50,10 @@
       @include u-padding-bottom(2);
     }
     .circle-card {
-      height: auto;
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      object-position: top;
     }
   }
 }

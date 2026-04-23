@@ -1,4 +1,4 @@
-ruby '>= 3.1.4'
+ruby '>= 3.2.11'
 
 source "https://rubygems.org"
 
@@ -10,7 +10,7 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 3.9"
+gem "jekyll", "~> 4.3"
 
 # See https://github.com/sass/sassc-rails/issues/114#issuecomment-441024718
 # gem "sassc-rails"
