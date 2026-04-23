@@ -1,0 +1,13 @@
+---
+layout: fellow-landing
+title: Software Engineering Fellows
+sidenav: true
+banner: true
+pagination:
+  enabled: true
+  collection: fellows
+  sort_field: 'title'
+  tag: 'Software_Engineering'
+---
+
+{% include_cached fellow-list.html fellows=paginator.posts %}
