@@ -80,9 +80,7 @@ The home page uses wide.html layout, since it extends full width of page
 
   {% include_cached menu.html nav=page.nav url=page.url primary_navigation=site.primary_navigation secondary_navigation=site.secondary_navigation %}
 
-  <main id="main-content">
-    {{ content }}
-  </main>
+  {{ content }}
 
   {% include_cached footer.html %}
   
