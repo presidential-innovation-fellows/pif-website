@@ -1,8 +1,27 @@
 @mixin header-em {
   em {
     @include u-text('light');
-    @include u-text('primary');
+    @include u-text('primary-vivid');
     font-style: italic;
+  }
+}
+
+// On dark-background sections (e.g. /about/ "Our values"), the
+// primary-vivid em fails WCAG 1.4.3 contrast (1.4:1). Override to white.
+.usa-section--dark,
+.bg-primary,
+.bg-primary-dark,
+.bg-primary--dark,
+.bg-primary-darker {
+  h1 em,
+  h2 em,
+  h3 em,
+  h4 em,
+  .as-h1 em,
+  .as-h2 em,
+  .as-h3 em,
+  .as-h4 em {
+    @include u-text('white');
   }
 }
 
