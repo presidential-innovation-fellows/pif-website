@@ -93,6 +93,10 @@ defaults:
       type: "projects"
     values:
       layout: "project"
+  - scope:
+      path: "reports"
+    values:
+      sitemap: false
 
 permalink: pretty
 
