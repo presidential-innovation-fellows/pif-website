@@ -4,48 +4,6 @@ layout: page
 title: Search
 ---
 
-
-<script>
-//<![CDATA[
-
-  var urlParams = new URLSearchParams(window.location.search);    
-  var searchEndpoint = new URL("{{site.searchgov.endpoint}}/api/v2/search/i14y");
-  params = { affiliate: "{{site.searchgov.affiliate}}", access_key: "{{site.searchgov.access_key}}", query: urlParams.get('query') }
-  
-  
-  Object.keys(params).forEach(key => searchEndpoint.searchParams.append(key, params[key]))
-
-  fetch(searchEndpoint).then(function(response) {
-      return response.json()
-    }).then(function(posts) {
-      for (item in posts.web.results){
-        render_result(`
-          <li class="padding-bottom-5 margin-top-4 usa-prose border-bottom-05 border-base-lightest">
-            <b class="title"><a href="${posts.web.results[item]['url']}">${posts.web.results[item]['title']}</a></b>
-            <div> ${posts.web.results[item]['snippet'].replace(/\uE000/g, '<span class="bg-yellow">').replace(/\uE001/g, '</span>')} </div>
-          </li>
-          `, true)
-        
-      }
-    }).catch(function(ex) {
-      console.log('parsing failed', ex);
-    }).finally(function(e){
-    
-      if(document.getElementById('search-results').childNodes.length == 0){
-        render_result(`<h4 class="title">No results found</h4>`, false)
-      }
-          
-    })
-    
-    function render_result(content, append = true){
-      const previous = document.getElementById('search-results').innerHTML;
-      document.getElementById('search-results').innerHTML = (append == true) ? previous + content : content;
-    }
-
-//]]>
-</script>
-
-
 {% if site.searchgov %}
   <h1>Search Results</h1>
   <ol id="search-results"></ol>
@@ -56,16 +14,95 @@ title: Search
         This is an example. You will need to configure your site with search.gov to see the correct search results. To do this:
         <ol>
           <li>Create an account with Search.gov at <a href="https://search.usa.gov/signup">https://search.usa.gov/signup</a></li>
-          <li>Go to the "Activate" section and get "API Access Key"</a></li>          
+          <li>Go to the "Activate" section and get "API Access Key"</li>
           <li>Open <code>_config.yml</code> and look for <code>searchgov</code> fields</li>
           <li>Add your <code>affiliate</code> and <code>access_key</code></li>
-          <li>Your results will not show up immediately. Make sure you follow <a href="https://search.gov/manual/searchgov-for-federalist.html">instructions to index your site</a>.</li> 
+          <li>Your results will not show up immediately. Make sure you follow <a href="https://search.gov/manual/searchgov-for-federalist.html">instructions to index your site</a>.</li>
         </ol>
       </div>
     </div>
-  {% endif %}  
-{% else %}
+  {% endif %}
+
   <script>
-    window.location = "/";
+    //<![CDATA[
+    (function () {
+      var endpoint = new URL("{{ site.searchgov.endpoint }}/api/v2/search/i14y");
+      var params = {
+        affiliate: "{{ site.searchgov.affiliate }}",
+        access_key: "{{ site.searchgov.access_key }}",
+        query: new URLSearchParams(window.location.search).get('query') || ''
+      };
+      Object.keys(params).forEach(function (k) { endpoint.searchParams.append(k, params[k]); });
+
+      var resultsEl = document.getElementById('search-results');
+
+      function safeAnchor(href, text) {
+        var a = document.createElement('a');
+        // Only allow http(s) URLs; fall back to '#' otherwise to neutralize javascript:/data: schemes.
+        try {
+          var u = new URL(href, window.location.href);
+          a.href = (u.protocol === 'http:' || u.protocol === 'https:') ? u.href : '#';
+        } catch (e) {
+          a.href = '#';
+        }
+        a.textContent = text || '';
+        return a;
+      }
+
+      function renderSnippet(snippet) {
+        // search.gov returns U+E000/U+E001 as highlight delimiters.
+        var container = document.createElement('div');
+        var parts = String(snippet || '').split(/[]/);
+        parts.forEach(function (part, i) {
+          if (i % 2 === 1) {
+            var span = document.createElement('span');
+            span.className = 'bg-yellow';
+            span.textContent = part;
+            container.appendChild(span);
+          } else {
+            container.appendChild(document.createTextNode(part));
+          }
+        });
+        return container;
+      }
+
+      function renderResult(result) {
+        var li = document.createElement('li');
+        li.className = 'padding-bottom-5 margin-top-4 usa-prose border-bottom-05 border-base-lightest';
+
+        var title = document.createElement('b');
+        title.className = 'title';
+        title.appendChild(safeAnchor(result.url, result.title));
+
+        li.appendChild(title);
+        li.appendChild(renderSnippet(result.snippet));
+        return li;
+      }
+
+      function renderNoResults() {
+        var heading = document.createElement('h4');
+        heading.className = 'title';
+        heading.textContent = 'No results found';
+        resultsEl.replaceChildren(heading);
+      }
+
+      fetch(endpoint).then(function (response) {
+        return response.json();
+      }).then(function (payload) {
+        var results = (payload && payload.web && payload.web.results) || [];
+        results.forEach(function (result) {
+          resultsEl.appendChild(renderResult(result));
+        });
+      }).catch(function (ex) {
+        console.log('parsing failed', ex);
+      }).finally(function () {
+        if (resultsEl.children.length === 0) {
+          renderNoResults();
+        }
+      });
+    })();
+    //]]>
   </script>
+{% else %}
+  <script>window.location = "/";</script>
 {% endif %}

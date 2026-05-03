@@ -78,8 +78,9 @@ layout: default-main
 
   if (sidenav) {
     headers.forEach(function(header, index) {
-      var headerText = header.innerHTML.replace( /(<([^>]+)>)/ig, '');
-      var headerId = headerText.trim().toLowerCase().replace(/ /gi, "-");
+      var headerText = header.textContent.trim();
+      // Match kramdown's auto-id sanitization: lowercase, alphanumerics + hyphens only.
+      var headerId = headerText.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
       if (!header.id || !header.id.length) {
         header.setAttribute("id", headerId);
       }
@@ -87,9 +88,8 @@ layout: default-main
       li.classList.add('usa-sidenav__item');
       var link = document.createElement("a");
       index === 0 && link.classList.add('usa-current');
-      link.href = "#".concat(headerId);
-      var linkText = document.createTextNode(headerText);
-      link.appendChild(linkText);
+      link.href = "#".concat(header.id || headerId);
+      link.textContent = headerText;
       li.appendChild(link);
       sidenav.appendChild(li);
     });
