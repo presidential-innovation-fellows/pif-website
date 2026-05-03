@@ -36,5 +36,6 @@ jobs:
       - name: Test for broken URLs
         # External link checking disabled until a content sweep clears
         # accumulated rot in _projects/ case studies (see PR #805 thread).
-        # Internal anchor + image checks remain on.
-        run: bundle exec htmlproofer --disable-external --ignore-urls "#" --ignore-files "/reports/" --ignore-missing-alt --ignore-empty-alt --swap-urls "https\://presidentialinnovationfellows.gov:" _site
+        # Internal anchor + image checks remain on. --no-enforce-https avoids
+        # noise from links to the local Jekyll server during CI.
+        run: bundle exec htmlproofer --disable-external --no-enforce-https --ignore-urls "#" --ignore-files "/reports/" --ignore-missing-alt --ignore-empty-alt --swap-urls "https\://presidentialinnovationfellows.gov:" _site

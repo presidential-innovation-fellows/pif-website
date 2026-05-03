@@ -1,7 +1,7 @@
 @mixin header-em {
   em {
     @include u-text('light');
-    @include u-text('primary-vivid');
+    @include u-text('primary');
     font-style: italic;
   }
 }
