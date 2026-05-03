@@ -47,6 +47,14 @@ You shouldn't have to edit this page very often. But if you want to modify some 
     ================================================== -->
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  {% comment %}
+    Content Security Policy in report-only mode. Allowlists USWDS, search.gov, DAP, GovDelivery,
+    GA4, and the cloud.gov touchpoints widget. After a release cycle of monitoring, switch
+    `Content-Security-Policy-Report-Only` to `Content-Security-Policy` to enforce.
+  {% endcomment %}
+  <meta http-equiv="Content-Security-Policy-Report-Only" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://dap.digitalgov.gov https://touchpoints.app.cloud.gov; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https://search.usa.gov https://www.google-analytics.com https://touchpoints.app.cloud.gov; frame-src https://touchpoints.app.cloud.gov; form-action 'self' https://public.govdelivery.com https://search.usa.gov; base-uri 'self'; object-src 'none'; frame-ancestors 'self'">
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
   <!-- Mobile Specific Metas
     ================================================== -->
   <meta name="HandheldFriendly" content="True">

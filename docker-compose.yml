@@ -1,7 +1,7 @@
 version: '3'
 services:
   node:
-    image: node:12
+    image: node:20-alpine
     working_dir: /app
     volumes:
       - .:/app:delegated
@@ -12,4 +12,4 @@ services:
       - "4000:4000"
     volumes:
       - .:/app:delegated
-    command: bundle exec jekyll serve --host 0.0.0.0 
+    command: bundle exec jekyll serve --host 0.0.0.0
