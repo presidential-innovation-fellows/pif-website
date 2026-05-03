@@ -34,4 +34,4 @@ jobs:
         run: npm run build && npm run start-detached
 
       - name: Test for broken URLs
-        run: bundle exec htmlproofer --http-status-ignore "403,406,429,503,999" --url-ignore "#" --file-ignore "/reports/" --alt-ignore '/.*/' --url-swap "https\://presidentialinnovationfellows.gov:" _site
+        run: bundle exec htmlproofer --ignore-status-codes "403,406,429,503,999" --ignore-urls "#" --ignore-files "/reports/" --ignore-missing-alt --ignore-empty-alt --swap-urls "https\://presidentialinnovationfellows.gov:" _site

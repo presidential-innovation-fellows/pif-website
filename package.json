@@ -7,7 +7,7 @@
     "clean": "bundle exec jekyll clean",
     "start": "bundle exec jekyll serve",
     "start-detached": "bundle exec jekyll serve --detach",
-    "test": "bundle exec htmlproofer _site; npx a11y '_site/**/*.html'",
+    "test": "bundle exec htmlproofer _site && npm run test-a11y",
     "test-a11y": "pa11y-ci --sitemap http://localhost:4000/sitemap.xml --sitemap-find https://presidentialinnovationfellows.gov/ --sitemap-replace http://localhost:4000 --sitemap-exclude \"/*.pdf\""
   },
   "author": "Federalist",
@@ -20,10 +20,12 @@
   },
   "license": "CC0-1.0",
   "dependencies": {
-    "uswds": "^2.11.2"
+    "uswds": "^2.13.3"
   },
   "devDependencies": {
-    "a11y": "^0.5.1",
-    "pa11y-ci": "^3.0.1"
+    "pa11y-ci": "^4.0.0"
+  },
+  "overrides": {
+    "lodash": "^4.18.1"
   }
 }
