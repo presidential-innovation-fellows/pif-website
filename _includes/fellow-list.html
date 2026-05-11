@@ -4,7 +4,7 @@
   <a href="{{ site.baseurl }}{{ fellow.url }}" aria-labelledby="{{ aria_id }}">
     <div class="usa-prose fellow-img">
       {% if fellow.image %}
-      <img src="{{site.baseurl}}{{fellow.image}}" class="circle-card" alt="{{fellow.title}}">
+      <img src="{{site.baseurl}}{{fellow.image}}" class="circle-card" alt="{{fellow.title | remove: '"' | remove: "'" }}">
       {% endif %}
     </div>
     <div>
@@ -19,11 +19,11 @@
   <p>
     <span class="fellow-card--fellow-year">{{ fellow.fellow_year }}</span>
     {% if fellow.linkedin %}<span class="fellow-card--linkedin"><a href={{fellow.linkedin}}>
-      <img src="{{site.baseurl}}/assets/images/icons/linkedin-blue.svg"alt="{{fellow.title}}'s LinkedIn profile"/>
+      <img src="{{site.baseurl}}/assets/images/icons/linkedin-blue.svg"alt="{{fellow.title | remove: '"' | remove: "'" }}'s LinkedIn profile"/>
       </a></span>{% endif %}
     {% if fellow.twitter%}<span class="fellow-card--twitter"><a href={{fellow.twitter}}>
       
-      <img src="{{site.baseurl}}/assets/images/icons/twitter.svg" alt="{{fellow.title}}'s Twitter profile"/>
+      <img src="{{site.baseurl}}/assets/images/icons/twitter.svg" alt="{{fellow.title | remove: '"' | remove: "'" }}'s Twitter profile"/>
       </a></span>{% endif %}
   </p>
   <div class="fellow-card--specialty">
