@@ -14,7 +14,7 @@ The NGA CTO team is looking for two PIFs to help realize important aspects of NG
 
 To help mature and grow the PM and UX team and program at NGA, the right PIFs would be able to help NGA with the work - rolling up their sleeves as individual contributors and team members - while also providing long term strategic support in growing these competencies within NGA, including: defining these roles properly, building a hiring pipeline (and career path) for people with these skills, establishing/developing a community of folks practicing these skills already in NGA to support and learn from each other, and most importantly, helping evolve the culture to recognize how these skills add value to the tools and services NGA provides.  
 
-### Skills Required:
+### Skills Required
 <ul>
 <li>Leadership experience in the specific disciplines (PM/UX research)</li>
 <li>Strong, demonstrable relevant technical skills as revealed through portfolios or products launched</li>

@@ -6,12 +6,26 @@
   }
 }
 
+@mixin header-em-inverted {
+  em {
+    @include u-text('light');
+    @include u-text('base-lightest');
+    font-style: italic;
+  }
+}
+
 h1, .as-h1 {
   @include u-font('serif', '2xl');
   @include u-text('bold');
   @include u-text('primary');
   line-height: 1.2;
   @include header-em;
+
+  .usa-section--dark &,
+  .bg-primary--dark & {
+    @include u-text('white');
+    @include header-em-inverted;
+  }
 }
 
 h2, .as-h2 {
