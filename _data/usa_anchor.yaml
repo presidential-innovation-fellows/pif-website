@@ -13,9 +13,9 @@ anchor_data:
     agency_about_url: https://www.gsa.gov/about
     org_primary: Technology Transformation Services
     org_primary_acronym: TTS
-    org_primary_url: https://www.gsa.gov/tts/
+    org_primary_url: https://tts.gsa.gov
     org_primary_email: tts-info@gsa.gov
-    org_primary_about: https://www.gsa.gov/tts/
+    org_primary_about: https://tts.gsa.gov/about
     org_primary_bio: "As part of GSA’s Technology Transformation Services (TTS), we apply modern methodologies and technologies to improve the public’s experience with government. We help agencies make their services more accessible, efficient, and effective with modern applications, platforms, processes, personnel, and software solutions."
     org_secondary: Office of Clients and Markets
     org_secondary_acronym: TTS Clients and Markets
