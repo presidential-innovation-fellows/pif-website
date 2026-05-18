@@ -15,7 +15,7 @@ This project strives to be compliant with requirements set by [21st Century IDEA
 - uses an industry standard secure connection;
 - “is designed around user needs with data-driven analysis influencing management and development decisions, using qualitative and quantitative data to determine user goals, needs, and behaviors, and continually test the website, web-based form, web-based application, or digital service to ensure that user needs are addressed;”
 - allows for user customization; and
-- is mobile-friendly.
+- is mobile-friendly
 
 ## Key Functionality
 This repository contains the following examples and functionality:
