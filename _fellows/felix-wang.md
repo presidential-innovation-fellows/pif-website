@@ -8,8 +8,8 @@ agency: ["State"]
 hometown:
 region:
 bio_short: Designer and policy practitioner bridging design thinking and public innovation.
-tags: ["active", "2026", "Digital_Strategy"]
-skills: ["Digital Strategy"]
+tags: ["active", "2026", "Digital_Strategy", "Design_And_Experience", "Product"]
+skills: ["Digital Strategy", "Design & Experience", "Product" ]
 ---
 
 **Joining PIF...**

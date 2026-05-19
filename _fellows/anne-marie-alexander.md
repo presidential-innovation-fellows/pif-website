@@ -8,8 +8,8 @@ agency: ["USCG"]
 hometown:
 region:
 bio_short: Design, technology, and strategy leader focused on innovation for the public good.
-tags: ["active", "2026", "Design_And_Experience"]
-skills: ["Design and Experience"]
+tags: ["active", "2026", "Design_And_Experience", "Digital_Transformation", "Process_Optimization"]
+skills: ["Design and Experience", "Digital Transformation", "Process Optimization"]
 ---
 
 **Joining PIF...**

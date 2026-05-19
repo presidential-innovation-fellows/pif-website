@@ -8,3 +8,4 @@ BingSiteAuth.xml
 vendor/
 node_modules
 .jekyll-metadata
+.vscode

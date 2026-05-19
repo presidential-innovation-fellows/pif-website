@@ -1,0 +1,13 @@
+---
+layout: fellow-landing
+title: Digital Transformation Fellows
+sidenav: true
+banner: true
+pagination:
+  enabled: true
+  collection: fellows
+  sort_field: 'title'
+  tag: 'Digital_Transformation'
+---
+
+{% include_cached fellow-list.html fellows=paginator.posts %}

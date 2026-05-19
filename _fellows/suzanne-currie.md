@@ -8,8 +8,8 @@ agency: ["NOAA"]
 hometown:
 region:
 bio_short: Cross-sector leader working at the intersection of public need and private innovation.
-tags: ["active", "2026", "Product"]
-skills: ["Product"]
+tags: ["active", "2026", "Product", "AI_Machine_Learning"]
+skills: ["Product", "AI/Machine Learning"]
 ---
 
 **Joining PIF...**

@@ -1,0 +1,13 @@
+---
+layout: fellow-landing
+title: Process Optimization Fellows
+sidenav: true
+banner: true
+pagination:
+  enabled: true
+  collection: fellows
+  sort_field: 'title'
+  tag: 'Process_Optimization'
+---
+
+{% include_cached fellow-list.html fellows=paginator.posts %}
