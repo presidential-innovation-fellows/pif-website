@@ -7,7 +7,7 @@ project: []
 agency: ["USACE"]
 hometown:
 region:
-bio_short: Advocate for accessible, human-centered technology that creates dignity and possibility.
+bio_short: National Security leader and AI technologist focused on user-centered alignment that creates dignity and possibility.
 tags: ["active", "2026", "Digital_Strategy"]
 skills: ["Digital Strategy"]
 ---
