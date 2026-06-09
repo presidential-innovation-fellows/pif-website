@@ -1,0 +1,13 @@
+diff --git a/node_modules/uswds/dist/js/uswds.js b/node_modules/uswds/dist/js/uswds.js
+index 6565cd8..4a6f6c9 100644
+--- a/node_modules/uswds/dist/js/uswds.js
++++ b/node_modules/uswds/dist/js/uswds.js
+@@ -653,7 +653,7 @@ var trim = String.prototype.trim ? function (str) {
+   return str.replace(RE_TRIM, '');
+ };
+ var queryById = function (id) {
+-  return this.querySelector('[id="' + id.replace(/"/g, '\\"') + '"]');
++  return this.querySelector('[id="' + id.replace(/\\/g, '\\\\').replace(/"/g, '\\"') + '"]');
+ };
+ module.exports = function resolveIds(ids, doc) {
+   if (typeof ids !== 'string') {

@@ -1,0 +1,13 @@
+diff --git a/node_modules/resolve-id-refs/index.js b/node_modules/resolve-id-refs/index.js
+index 556e8d6..35de33e 100644
+--- a/node_modules/resolve-id-refs/index.js
++++ b/node_modules/resolve-id-refs/index.js
+@@ -8,7 +8,7 @@ var trim = String.prototype.trim
+   : function(str) { return str.replace(RE_TRIM, ''); };
+ 
+ var queryById = function(id) {
+-  return this.querySelector('[id="' + id.replace(/"/g, '\\"') + '"]');
++  return this.querySelector('[id="' + id.replace(/\\/g, '\\\\').replace(/"/g, '\\"') + '"]');
+ };
+ 
+ module.exports = function resolveIds(ids, doc) {

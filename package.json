@@ -8,7 +8,8 @@
     "start": "bundle exec jekyll serve",
     "start-detached": "bundle exec jekyll serve --detach",
     "test": "bundle exec htmlproofer _site; npx a11y '_site/**/*.html'",
-    "test-a11y": "pa11y-ci --config .pa11yci --sitemap http://127.0.0.1:4000/sitemap.xml --sitemap-find https://presidentialinnovationfellows.gov/ --sitemap-replace http://127.0.0.1:4000/ --sitemap-exclude \"(\\.pdf$|/impact/|/fellows/(?!(adam-|michael-))|/projects/(?!(va-|gsa-)))\"" 
+    "test-a11y": "pa11y-ci --config .pa11yci --sitemap http://127.0.0.1:4000/sitemap.xml --sitemap-find https://presidentialinnovationfellows.gov/ --sitemap-replace http://127.0.0.1:4000/ --sitemap-exclude \"(\\.pdf$|/impact/|/fellows/(?!(adam-|michael-))|/projects/(?!(va-|gsa-)))\"",
+    "postinstall": "patch-package && bash scripts/update-uswds.sh"
   },
   "author": "Federalist",
   "repository": {
@@ -24,6 +25,7 @@
   },
   "devDependencies": {
     "a11y": "^0.5.1",
-    "pa11y-ci": "^3.0.1"
+    "pa11y-ci": "^3.0.1",
+    "patch-package": "^8.0.1"
   }
 }
