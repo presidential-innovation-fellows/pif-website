@@ -8,7 +8,7 @@ agency: ["EOP"]
 hometown: 
 region: 
 bio_short: Thinking strategically to build impactful digital products that deliver tangible value for users.
-tags: ['2023', 'east', 'Product']
+tags: ['2026', 'east', 'Product']
 skills: ['Product']
 ---
 
