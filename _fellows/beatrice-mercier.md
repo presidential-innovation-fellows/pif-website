@@ -2,13 +2,13 @@
 id: béatrice-mercier
 title: Beatrice Mercier
 image: /assets/images/fellows/2023/beatrice-mercier-headshot.jpg
-fellow_year: 2026
+fellow_year: 2023, 2026
 project: []
 agency: ["EOP"]
 hometown: 
 region: 
 bio_short: Thinking strategically to build impactful digital products that deliver tangible value for users.
-tags: ['2026', 'east', 'Product']
+tags: ['2023', '2026', 'east', 'Product', 'active']
 skills: ['Product']
 ---
 
