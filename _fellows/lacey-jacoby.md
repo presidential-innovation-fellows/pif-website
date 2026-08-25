@@ -8,8 +8,8 @@ agency: ["State"]
 hometown:
 region:
 bio_short: Solving complex problems that make a significant difference in people's lives.
-tags: ["active", "2026", "Product"]
-skills: ["Product"]
+tags: ["active", "2026", "Product", "Digital_Strategy", "Design_And_Experience"]
+skills: ["Product", "Digital Strategy", "Design and Experience"]
 ---
 
 **Joining PIF...**

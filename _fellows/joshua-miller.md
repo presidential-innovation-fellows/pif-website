@@ -1,23 +1,23 @@
 ---
 id: joshua-miller
-title: Joshua "Yosh" Miller
+title: Yosh Miller
 image: /assets/images/fellows/2026/joshua-miller-headshot.jpeg
 fellow_year: 2026
 project: []
 agency: ["NIST"]
 hometown:
 region:
-bio_short: Strategy and venture leader tackling critical, ambiguous problems in public service.
+bio_short: Strategy leader, Presidential Leadership Scholar, and venture-backed founder tackling critical problems, convening ecosystem partners, and scaling positive impact.
 tags: ["active", "2026", "Digital_Strategy"]
 skills: ["Digital Strategy"]
 ---
 
 **Joining PIF...**
 
-The opportunity to serve our country in a meaningful way inspired me to join PIF. I love tackling challenging, critical, and ambiguous problems and partnering with smart, dedicated, and curious team members to create solutions. I look forward to drawing on my experiences in public sector consulting, corporate strategy, and early stage venture to help drive more startup and venture activity around advanced manufacturing.
+The opportunity to serve our country inspired me to join PIF. As a Presidential Leadership Scholar and the founder of Hadley, which earned the SXSW Innovators Fund and NBA All-Star Pitch awards for democratizing access to 529 education savings, I’ve spent my career applying a founder’s mindset to complex systemic challenges. As a Fellow, I draw on my background across public sector consulting, corporate strategy, and early-stage ventures to build actionable solutions alongside mission-driven partners and accelerate startup activity in advanced manufacturing.
 
 **To work on...**
 
-Helping NIST coordinate its policy machinations in coordination with DoC and the wider federal government and lead NIST investment efforts, especially in support of its Creating Helpful Incentives to Produce Semiconductors (CHIPs) and manufacturing efforts.
+Launching NIST’s pilot accelerator programs in additive manufacturing for aerospace and critical minerals supply chain resiliency, while convening ecosystem partners to deploy funding strategies that scale advanced manufacturing ventures.
 
 _National Institute of Standards and Technology, Critical and Emerging Technology_
