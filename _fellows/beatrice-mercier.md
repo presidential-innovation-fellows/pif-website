@@ -2,20 +2,19 @@
 id: béatrice-mercier
 title: Beatrice Mercier
 image: /assets/images/fellows/2023/beatrice-mercier-headshot.jpg
-fellow_year: 2023
+fellow_year: 2026
 project: []
 agency: ["EOP"]
 hometown: 
 region: 
 bio_short: Thinking strategically to build impactful digital products that deliver tangible value for users.
-tags: ['2023', 'east', 'Product']
+tags: ['2023', 'east', 'Product', '2026']
 skills: ['Product']
 ---
 
-Beatrice Mercier has been working at the intersection of public policy and tech for over 6 years.
+Beatrice Mercier is a product leader with a track record of scaling impactful digital services and driving entrepreneurial initiatives within public sector organizations. 
 
-Passionate about ensuring government delivers the highest quality services to the public, Beatrice has put to use her experience as a Product Manager both to build digital services in partnership with government agencies (launching over 12 new products in the last 4 years), and increasingly, to advocate for a shift in the way government builds digital services, creating an agile « product-first » culture within government teams. 
-
-Beatrice has worked for the last four years for the French Government’s Digital Department, specifically for the beta.gouv.fr program which champions digital entrepreneurship within the French government, training government officials with specific policy expertise to act as Product Managers in order to build bespoke digital services. In her role, Beatrice has trained over 10 government officials as Product Managers, and assembled and supervised 12 cross-functional digital teams. 
+In her current role as a Senior Product Manager at Login.gov, she is spearheading the adoption of verifiable credentials across the federal government to deliver a more seamless user experience while enhancing security and fraud prevention. Previously, as a Presidential Innovation Fellow, Beatrice successfully launched and scaled AI technology across the federal government; she spearheaded the product strategy for USAi.gov, defining key modules for AI model evaluation, and partnered with the CDC to launch a responsible AI accelerator. Beatrice brings an entrepreneurial drive to de-risking moonshots, and a disciplined approach to delivery and execution.
 
 Beatrice holds a Master’s degree in Public Policy from the Institute for Political Study (Sciences Po) in Paris, France, and a Bachelor of Arts in English Literature from Oxford University.
+
