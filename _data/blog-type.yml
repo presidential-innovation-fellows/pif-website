@@ -1,0 +1,153 @@
+## Announcement
+- display_name: Announcement
+  url_name: Announcement
+
+## Specialties 
+- display_name: AI/Machine Learning
+  url_name : AI_Machine_Learning
+- display_name: Cybersecurity
+  url_name: Cybersecurity
+- display_name: Data Science and Analytics
+  url_name: Data_Science_And_Analytics
+- display_name: Digital Health
+  url_name: Digital_Health
+- display_name: Design and Experience
+  url_name: Design_And_Experience
+- display_name: Marketing and Communications
+  url_name: Marketing_And_Communications
+- display_name: Product
+  url_name: Product
+- display_name: Software and Cloud Infrastructure
+  url_name: Software_And_Cloud_Infrastructure
+- display_name: Venture Capital/Private Equity
+  url_name: Venture_Capital_Private_Equity
+- display_name: Change Management
+  url_name: Change_Management
+- display_name: Strategy and Growth
+  url_name: Strategy_And_Growth
+
+##Impacts
+- display_name: Capacity building
+  url_name: Capacity_building
+- display_name: Cybersecurity
+  url_name: Cybersecurity
+- display_name: Equity
+  url_name : Equity
+- display_name: Health
+  url_name: Health
+- display_name: Immigration
+  url_name: Immigration
+- display_name: Public experience
+  url_name: Public_experience
+- display_name: Open science
+  url_name: Open_science
+
+##Agencies
+- display_name: ARPA-H
+  url_name: ARPA-H
+- display_name: CDC
+  url_name: CDC
+- display_name: CISA
+  url_name: CISA
+- display_name: CMS
+  url_name: CMS
+- display_name: ED
+  url_name: ED
+- display_name: EEOC
+  url_name: EEOC
+- display_name: EOP
+  url_name: EOP
+- display_name: DHS
+  url_name: DHS
+- display_name: DIU
+  url_name: DIU
+- display_name: DOD
+  url_name: DOD
+- display_name: DOE
+  url_name: DOE
+- display_name: DOJ
+  url_name: DOJ
+- display_name: DOI
+  url_name: DOI
+- display_name: DOT
+  url_name: DOT
+- display_name: FAA
+  url_name: FAA
+- display_name: FBI
+  url_name: FBI
+- display_name: FDA
+  url_name: FDA
+- display_name: FDIC
+  url_name: FDIC
+- display_name: FEMA
+  url_name: FEMA
+- display_name: FHFA
+  url_name: FHFA
+- display_name: FTC
+  url_name: FTC
+- display_name: GSA
+  url_name: GSA
+- display_name: HHS
+  url_name: HHS
+- display_name: IRS
+  url_name: IRS
+- display_name: DOL
+  url_name: DOL
+- display_name: MBDA
+  url_name: MBDA
+- display_name: MCC
+  url_name: MCC
+- display_name: NARA
+  url_name: NARA
+- display_name: NASA
+  url_name: NASA
+- display_name: Navy
+  url_name: Navy
+- display_name: NCI
+  url_name: NCI
+- display_name: NGA
+  url_name: NGA
+- display_name: NIH
+  url_name: NIH
+- display_name: NIST
+  url_name: NIST
+- display_name: NLM
+  url_name: NLM
+- display_name: NOAA
+  url_name: NOAA
+- display_name: NSF
+  url_name: NSF
+- display_name: ODNI
+  url_name: ODNI
+- display_name: OMB
+  url_name: OMB
+- display_name: OSTP
+  url_name: OSTP
+- display_name: SBA
+  url_name: SBA
+- display_name: Smithsonian
+  url_name: Smithsonian
+- display_name: State
+  url_name: State
+- display_name: Treasury
+  url_name: Treasury
+- display_name: USAGM
+  url_name: USAGM
+- display_name: USAID
+  url_name: USAID
+- display_name: USCB
+  url_name: USCB
+- display_name: USDA
+  url_name: USDA
+- display_name: USGS
+  url_name: USGS
+- display_name: USMC
+  url_name: USMC
+- display_name: USPTO
+  url_name: USPTO
+- display_name: USSOCOM
+  url_name: USSOCOM
+- display_name: VA
+  url_name: VA
+- display_name: Alumni
+  url_name: Alumni
