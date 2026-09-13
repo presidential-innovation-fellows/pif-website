@@ -114,3 +114,9 @@
 @mixin light-bg {
   background-color: rgba(237, 245, 255, 0.5);
 }
+
+
+//Blog Quote
+@mixin border-left-color {
+  border-left-color: rgb(139, 11, 4)
+}

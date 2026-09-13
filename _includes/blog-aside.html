@@ -1,0 +1,27 @@
+<aside class="usa-layout-docs__sidenav desktop:grid-col-5 padding-bottom-4{% if include.order %} order-{{ include.order }}{% endif %}">
+    <div class="blog-side-info">
+      <p class="blog-subtitle">Similar Posts <div></p>
+      
+        {% assign aria_id = blog.title | url_encode | truncate: 15, "" %}
+        <ul class="usa-card-group">
+        {% for blog in paginator.posts contains tag limit:3 %}
+            <li class="usa-card tablet:grid-col-4">
+                <a href="{{ site.baseurl }}{{ blog.url }}" aria-labelledby="{{ aria_id }}">
+                <div class="usa-card__container">
+                    <div class="usa-card__header">
+                      <h2 class="usa-card__heading">{{blog.title}}</h2>
+                    </div>
+                    <div class="usa-card__body">
+                      <p>
+                        {{blog.summary}}
+                      </p>
+                      <p>By {{blog.author}}</p>
+                    </div>
+                  </div>
+            </li>
+            </a>
+        {% endfor %}
+        </ul>
+    </div>
+  </aside>
+  
