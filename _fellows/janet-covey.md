@@ -8,8 +8,8 @@ agency: ["CISA"]
 hometown:
 region:
 bio_short: Experience designer helping people navigate complex information intuitively.
-tags: ["active", "2026", "Design_And_Experience"]
-skills: ["Design and Experience"]
+tags: ["active", "2026", "Design_And_Experience", "Digital_Strategy"]
+skills: ["Design and Experience", "Digital Strategy"]
 ---
 
 **Joining PIF...**

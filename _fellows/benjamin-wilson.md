@@ -4,7 +4,7 @@ title: Benjamin Wilson
 image: /assets/images/fellows/2026/benjamin-wilson-headshot.jpg
 fellow_year: 2026
 project: []
-agency: ["DOE"]
+agency: ["Treasury"]
 hometown:
 region:
 bio_short: Globally experienced technologist helping solve complex national challenges.
@@ -20,4 +20,4 @@ After living in five countries, I developed a deep appreciation for the institut
 
 Helping the DoE accelerate research, development and demonstration for nuclear energy to power the American economy with reliable baseload power and help win the global AI race.
 
-_Department of Energy, Office of Nuclear Energy_
+_Department of Treasury, Fiscal Operations and Policy_
